@@ -1,0 +1,66 @@
+[MaterialApp]
+LanguageForm test :)
+
+[Main]
+Translate form :)
+Refresh Tooltip
+Settings Tooltip
+makeLog
+button-really?
+button-yes
+button-no
+changeLog
+
+[MainModal]
+HowManyExercise:
+ExerciseCountTail
+HowManyFriend:
+FriendCountTail
+
+[Settings]
+SettingsTitle
+userInfo
+addTrackID
+LangSet
+TranslatorMumble
+
+[YourID]
+YourIDTitle
+userIDValue
+changeNameQuestion
+change-confirm
+change-cancel
+uidCopiedMent
+
+[RegisteredID]
+RegisteredIDTitle
+addFromReadQRCode
+editFriendNameQR
+editQR-confirm
+editQR-cancel
+addFromClipboard
+editFriendUIDClip
+editClipuid-confirm
+editClipuid-cancel
+editFriendNameClip
+editClipName-confirm
+editClipName-cancel
+
+[LangSet]
+LangSetTitle
+langChangedTitle
+changedInformation
+langChanged-YES
+
+[Mumble]
+MumbleTitle
+
+[AutoNameSet]
+randomize picker
+some what Name
+name about attractive
+about specific shape
+about feeling
+through some metaphor
+and deep meaning
+or.. some fun :)
