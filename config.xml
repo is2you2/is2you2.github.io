@@ -14,11 +14,4 @@
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
-    <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="FadeSplashScreenDuration" value="300" />
-    <preference name="SplashShowOnlyFirstTime" value="false" />
-    <preference name="SplashScreen" value="/assets/imgs/ConeLogo.jpg" />
-    <preference name="SplashScreenDelay" value="3000" />
-    <preference name="SplashScreenWidth" value="200" />
-    <preference name="SplashScreenHeight" value="200" />
 </widget>
