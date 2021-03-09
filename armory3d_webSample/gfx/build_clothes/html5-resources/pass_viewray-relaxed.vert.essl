@@ -1,0 +1,20 @@
+#version 100
+
+uniform mediump mat4 invVP;
+uniform mediump vec3 eye;
+
+varying mediump vec2 texCoord;
+attribute mediump vec2 pos;
+varying mediump vec3 viewRay;
+
+void main()
+{
+    texCoord = (pos * vec2(0.5)) + vec2(0.5);
+    gl_Position = vec4(pos, 0.0, 1.0);
+    mediump vec4 v = vec4(pos.x, pos.y, 1.0, 1.0);
+    v = vec4(invVP * v);
+    mediump vec3 _62 = v.xyz / vec3(v.w);
+    v = vec4(_62.x, _62.y, _62.z, v.w);
+    viewRay = v.xyz - eye;
+}
+

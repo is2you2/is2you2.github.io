@@ -1,0 +1,15 @@
+#version 100
+
+uniform mediump mat4 SMVP;
+
+varying mediump vec3 normal;
+attribute mediump vec3 nor;
+attribute mediump vec3 pos;
+
+void main()
+{
+    normal = nor;
+    mediump vec4 position = SMVP * vec4(pos, 1.0);
+    gl_Position = vec4(position);
+}
+
