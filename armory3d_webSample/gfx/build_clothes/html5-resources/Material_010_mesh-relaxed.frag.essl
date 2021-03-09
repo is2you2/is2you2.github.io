@@ -1,0 +1,41 @@
+#version 100
+#extension GL_EXT_draw_buffers : require
+precision mediump float;
+precision mediump int;
+
+varying vec3 wnormal;
+
+vec2 octahedronWrap(vec2 v)
+{
+    return (vec2(1.0) - abs(v.yx)) * vec2((v.x >= 0.0) ? 1.0 : (-1.0), (v.y >= 0.0) ? 1.0 : (-1.0));
+}
+
+float packFloat(float f1, float f2)
+{
+    float index = floor(f1 * 100.0);
+    float alpha = clamp(f2, 0.0, 0.999000012874603271484375);
+    return index + alpha;
+}
+
+void main()
+{
+    vec3 n = normalize(wnormal);
+    vec3 basecol = vec3(0.623960435390472412109375, 0.1499597728252410888671875, 0.16202934086322784423828125);
+    float roughness = 0.100000001490116119384765625;
+    float metallic = 0.0;
+    float occlusion = 1.0;
+    n /= vec3((abs(n.x) + abs(n.y)) + abs(n.z));
+    vec2 _86;
+    if (n.z >= 0.0)
+    {
+        _86 = n.xy;
+    }
+    else
+    {
+        _86 = octahedronWrap(n.xy);
+    }
+    n = vec3(_86.x, _86.y, n.z);
+    gl_out[0].gl_FragData = vec4(n.xy, packFloat(metallic, roughness), 1.0 - gl_FragCoord.z);
+    gl_out[1].gl_FragData = vec4(basecol, occlusion);
+}
+
