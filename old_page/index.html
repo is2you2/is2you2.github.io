@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script data-ionic="inject">
+    (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.9.5';i.angular='5.2.11';i.staticDir='build/';})(window);
+  </script>
+  <meta charset="UTF-8">
+  <title>리즈씨 이야기</title>
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#44a6fa">
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- cordova.js required for cordova apps (remove if not needed) -->
+  <script src="cordova.js"></script>
+  <script data-ad-client="ca-pub-5461508772331800" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+    }
+  </script>-->
+
+  <link href="build/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Ionic's root component and where the app will load -->
+  <ion-app></ion-app>
+
+  <!-- The polyfills js is generated during the build process -->
+  <script src="build/polyfills.js"></script>
+
+  <!-- The vendor js is generated during the build process
+       It contains all of the dependencies in node_modules -->
+  <script src="build/vendor.js"></script>
+
+  <!-- The main bundle js is generated during the build process -->
+  <script src="build/main.js"></script>
+
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // Initialize Firebase
+  firebase.initializeApp({
+    apiKey: "AIzaSyDmydE-5DTruStoT0Pry6907fwzyokQB4g",
+    authDomain: "is2you2-home.firebaseapp.com",
+    databaseURL: "https://is2you2-home.firebaseio.com",
+    projectId: "is2you2-home",
+    storageBucket: "is2you2-home.appspot.com",
+    messagingSenderId: "598072137197",
+    appId: "1:598072137197:web:79f0bfee54ab5343ccc3e4",
+    measurementId: "G-34PB3Z0CRJ"
+  });
+  firebase.analytics();
+  var firebaseEx = firebase;
+</script>
+
+</html>
