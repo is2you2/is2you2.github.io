@@ -1,8 +1,0 @@
-(0)Test.scx
-(0)The Hunters-test.scx
-(3)Mixed[R].scx
-(3)Mixed[R]_old.scx
-(3)Multi[O].scx
-(3)TimeSlip.scx
-(4)Finale[R].scx
-(7)Zephyr Cove.scm
