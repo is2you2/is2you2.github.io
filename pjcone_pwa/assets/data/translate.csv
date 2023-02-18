@@ -49,6 +49,11 @@ LicenseNotice,라이선스 고지
 UserGuideLink,사용자 가이드
 ## TodoDetail,
 Title,해야할 일
+OnThisDevice,이 기기에서
+WrittenByMe,내가 작성
+TodoComplete,완료
+TodoMoveTo,이관
+TodoFocus,집중
 DisplayName,표시명
 DisplayName_placeholder,짧게
 Importance,중요도
