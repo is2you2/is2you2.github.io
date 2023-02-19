@@ -184,6 +184,7 @@ AboutServerAndAccount,서버와 계정에 대해서
 JoinedServerList,참여중인 서버 목록
 DevTestServer,개발 테스트 서버
 HideOfficialDefault,가리기
+ServerDetail,서버정보
 RemoveUnofficial,삭제
 RegisterServer,사설 서버 등록하기
 DisplayName,표시명
@@ -196,6 +197,8 @@ Port,포트
 isSSL,SSL 적용여부
 submit,등록하기
 NeedSetDIsplayName,이름을 지정해주세요.
+## ServerDetail,
+ApplyChangeServerInfo,적용하기
 ## CommunityServer,
 AboutCommServer,커뮤니티 서버에 대해서
 ServerStatus,서버 상태
