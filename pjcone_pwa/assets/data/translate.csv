@@ -1,293 +1,292 @@
-﻿#,ko
-## Portal,
-Link,연결
-Main,메인
-Settings,설정
-## Main,
-Title,할 일 목록
-## Subscribes,
-Title,연결
-has_noties,검토해야할 연결이 있습니다.
-almighty_link,만능 연결 버튼
-almighty_button,연결 !
-Chat,대화
-noChatList,참여중인 대화가 없습니다.
-noTitiedChat,제목 없는 채팅방
-noMessageHistory,기록된 메시지 없음
-needLinkWithCommServ,커뮤니티 서버와 연결되어있어야 합니다.
-CameraPermissionDenied,카메라 권한을 얻지 못했습니다
-## Settings,
-Title,설정
-CommunityAds,커뮤니티 광고
-AdsContact,광고 문의
-UserInfo,사용자 정보
-myInfo,내 정보
-takeOverUser,사용자 인계
-ManageServer,서버 관리
-groupServer,그룹 서버
-commServer,커뮤니티 서버
-useDeviceAsServer,이 기기를 기능 서버로
-ManageGroup,그룹 관리
-CreateGroup,그룹 생성하기
-Community,커뮤니티
-joinRanchat,랜덤채팅 참여
-joinDediChat,사설 그룹채팅
-joinDedi_placeholder,기본
-joinDedi_button,참여
-admin_community_menu,커뮤니티 관리자 메뉴
-admin_noti_all,전체 사용자 공지
-notifications,알림
-batteryOptimization,배터리 최적화 제외 설정
-ToolManage,도구 관리
-ToolList,도구 리스트
-AppInfo,앱 정보
-AppCreator,제작자
-AppTranslator,번역가
-AppLanguage,언어 설정
-userPrivacyTerms,개인정보처리방침
-LicenseNotice,라이선스 고지
-UserGuideLink,사용자 가이드
-## TodoDetail,
-Title,해야할 일
-OnThisDevice,이 기기에서
-WrittenByMe,내가 작성
-TodoComplete,완료
-TodoMoveTo,이관
-TodoFocus,집중
-DisplayName,표시명
-DisplayName_placeholder,짧게
-Importance,중요도
-Importance_2,중요함
-Importance_1,기억해야 함
-Importance_0,메모
-limit,기한
-description,상세 내용
-description_placeholder,해야할 일 상세 내용
-delete_attach,이미지 삭제
-attachments,첨부파일
-attachments_none,없음
-logs,기록
-remove,삭제
-buttonDisplay_add,추가
-buttonDisplay_modify,수정
-needDisplayName,표시명을 작성하여야 합니다.
-CreateTodo,해야할 일 생성
-ModifyTodo,해야할 일 수정
-removeTodo,기록 삭제
-terminateTodo,이 작업은 되돌릴 수 없습니다.
-## ToolManager,
-Redownload,다시받기
-removeTool,삭제
-redownloadSucc,다시받기 성공
-redownloadFailed,다시받기 실패
-## QRElse,
-Title,사용할 수 없는 구성
-info,QR코드 또는 바코드를 인식하였으나 이 앱에서 사용하는 구성이 아닙니다.
-format,종류
-contents,내용
-## Profile,
-img_alt,프로필 이미지
-noname_user,이름 없는 사용자
-name_placeholder,사용자 이름
-enterURI,이미지 주소 입력하기
-change_img,이미지 변경
-login_info,로그인 정보
-email_address,이메일 주소
-user_display_name,사용자 표시명
-login_toggle,로그인
-main_content,메인 콘텐츠
-not_available_yet,기능 준비중
-no_main_content,없음
-user_img_changed,사용자 이미지 변경
-need_email,이메일 주소가 있어야 온라인으로 전환하실 수 있습니다.
-pasteURI,눌러서 외부이미지 주소 붙여넣기
-copyURIFirst,먼저 웹 페이지에서 이미지 주소를 복사해주세요
-user_profile_changed,사용자 프로필 변경
-## OtherProfile,
-Title,사용자 정보
-add_to_group,추가
-add_friend,친구
-privacy_chat,대화
-kick_from_group,추방
-added_to_group,그룹원이 추가되었습니다
-kicked_from_group,사용자를 내보냈습니다
-## ChatRoom,
-noname_chatroom,이름 없는 채팅방
-fetch_previous_chat,이전 기록 불러오기
-fetch_next_chat,최근 기록 불러오기
-chat_extension,기능
-send_chat,보내기
-remove_chatroom,삭제
-leave_chatroom,나가기
-belonging_to_group,이 채널은 그룹에 귀속되어 있습니다.
-attach_file,파일 첨부
-unknown_ext,검토 불가
-attachments,첨부파일
-input_placeholder,메시지 입력...
-closed_group_must_online,이 채널이 온라인 상태여야 합니다.
-closed_group_not_allow,그룹에서 오프라인 기록 열람을 허용하지 않습니다.
-cannot_open_from_mobile,모바일에서 열 수 없음
-cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.
-download_anyway,그래도 다운로드
-downloaded,다운로드됨
-viewer_not_support,뷰어가 지원하지 않는 파일
-cannot_open_file,파일을 열람할 수 없습니다.
-export_download,추출
-YouReadHereLast,여기까지 읽었습니다
-## ContentViewer,
-Title,콘텐츠 뷰어
-Download,다운로드
-## WscClient,
-OnlineMode,온라인 모드
-OnlineMode_text,커뮤니티 서버로부터 알림을 받을 수 있습니다.
-Disconnected,커뮤니티 서버로부터 연결이 끊어졌습니다.
-OfflineMode,오프라인 모드
-OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.
-## MinimalChat,
-concurrent_users,동시접속자
-shareAddress,주소 공유
-start_chat,대화 시작하기
-selectNetwork,네트워크 선택
-new_chat,새 대화
-exit_chat,끝내기
-send,보내기
-input_placeholder,메시지 입력...
-header_title_ranchat,미니랜챗
-header_title_group,그룹채팅
-WebTitle_ran,Project: 랜덤채팅
-WebTitle_group,Project: 그룹채팅
-Noti_Reply,답장
-name_me,나
-name_stranger_ran,상대방
-name_stranger_group,참여자
-joinChat_ran,랜덤채팅에 참가합니다.
-joinChat_group,그룹채팅에 참가합니다.
-user_join,사용자 참여
-user_join_comment,그룹에 참여했습니다.
-user_out,사용자 떠남
-user_out_comment,그룹을 떠났습니다.
-meet_someone,누군가를 만났습니다.
-leave_someone,상대방이 나갔습니다.
-Noti_Greeting,인사
-failed_to_join,채팅 참가에 실패했습니다.
-cannot_join,채팅에 참가할 수 없습니다.
-waiting_someone,새로운 상대를 기다립니다..
-cannot_start,시작할 수 없어요..
-leave_chat_ran,랜덤채팅에서 벗어납니다.
-leave_chat_group,그룹채팅에서 나옵니다.
-## LinkAccount,
-use_almighty_button_to,만능 연결 버튼을 사용하여 기기id 인계
-Recovery,원상복구
-recovery_device_id,기기 id 되돌리기
-link_account_succ,사용자 연결에 성공했습니다.
-failed_to_gen_qr,QRCode 생성 실패
-## GroupServer,
-AboutServerAndAccount,서버와 계정에 대해서
-JoinedServerList,참여중인 서버 목록
-DevTestServer,개발 테스트 서버
-HideOfficialDefault,가리기
-ServerDetail,서버정보
-RemoveUnofficial,삭제
-RegisterServer,사설 서버 등록하기
-DisplayName,표시명
-DisplayName_placeholder,사용자 사설 서버
-DivisionName,구분자
-DivisionName_placeholder,표시명을 따라감
-Address,서버 주소
-Key,서버 키
-Port,포트
-isSSL,SSL 적용여부
-submit,등록하기
-NeedSetDIsplayName,이름을 지정해주세요.
-## ServerDetail,
-ApplyChangeServerInfo,적용하기
-## CommunityServer,
-AboutCommServer,커뮤니티 서버에 대해서
-ServerStatus,서버 상태
-AddressInfo,커뮤니티 서버
-isSSL,SSL 적용 여부
-## AddGroup,
-SelectServer,서버 선택
-GroupInfo,그룹 정보
-DisplayName,표시명
-DisplayName_placeholder,그룹 이름
-ClicktoChangeGroupImg,눌러서 그룹 이미지 설정
-JoinThisGroup,그룹 참여
-AfterCreateGroup,그룹을 생성하여 계속
-GroupDetail,그룹 상세
-GroupDetail_placeholder,그룹 설명
-LanguageTag,국가 태그
-MemberMaxLimit,최대 인원
-IsOpen,공개 여부
-submit,위 정보로 추가하기
-cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.
-group_created,그룹이 생성되었습니다.
-NeedSetGroupName,그룹 이름을 작성해주세요.
-AlreadyExist,이미 같은 이름의 그룹이 존재합니다.
-UnexpectedErr,준비되지 않은 오류처리
-## GroupDetail,
-Title,그룹 상세
-NotAcceptYet,아직 수락되지 않았습니다
-MissedGroup,더 이상 그룹구성원이 아닙니다
-NoDetailGroup,설명 없는 그룹
-Members,그룹 구성원
-invite_scan_below,아래를 스캔하여 그룹에 초대
-BreakupGroup,그룹 해산
-RemoveGroup,기록 삭제
-LeaveGroup,떠나기
-GroupInfoUpdated,그룹 정보 업데이트됨
-GroupImageUpdated,그룹 이미지 업데이트됨
-GroupRemoved,그룹 삭제됨
-## Licenses,
-open_link,열기
-## UseAsServer,
-Title,이 기기를 기능 서버로
-UserNotice,사용 유의사항
-ThisDeviceAddress,이 기기의 네트워크 주소
-RefreshAddress,새로고침
-DedicatedServer,사설 서버
-CustomGroupChat,사설 그룹채팅 서버
-LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다.
-NoAddress,연결된 네트워크가 없습니다.
-## Translator,
-TranslatorSpeaking,번역가의 한마디
-## Administrator,
-AboutThisNotification,이 알림에 대해서
-InputMessageInfo,발송 정보 입력
-CommunityNotification,커뮤니티 알림
-WriteContent,알림 내용 작성
-SendNotification,전체 알림 발송
-OnlyForAdmin,관리자 전용메뉴입니다
-CannotUseDataURL,데이터 URL은 사용할 수 없습니다.
-## CreatorInfo,
-name,최성수
-creatorComment,제작자의 한마디
-text,여러분의 효율적인 콘텐츠 생산을 응원합니다
-## GlobalAct,
-FailedToDownloadGodot,기능 다운로드 실패
-## IndexedDB,
-FailedToOpenFile,파일 열기 오류
-FailedToDownloadFile,다운받기 오류
-## Nakama,
-AlreadyHaveTargetName,이미 같은 구분자를 쓰는 서버가 있습니다
-NeedLoginInfo,로그인 정보를 입력해주세요
-NeedLinkUser,사용자를 연결해주세요
-NeedAccountReset,이 기기에서는 로그인할 수 없습니다 (계정 이전 기능 준비중)
-RegisterUserSucc,회원가입이 완료되었습니다
-UnexpectedLoginErr,준비되지 않은 오류 유형
-CannotOpenImg,유효한 이미지가 아닙니다.
-DisconnectedFromServer,그룹서버 연결 끊어짐
-UserNotFound,만료된 알림: 사용자 없음
-MissingFile,이 파일은 서버에서 삭제되었습니다.
-DeletedServer,삭제된 서버
-GroupUserJoin,사용자 그룹참여
-GroupUserOut,사용자 그룹탈퇴
-GroupUserKick,사용자 강제퇴장
-ReqContServer,서버 선택
-ReqContUserName,사용자명
-ReqContTitle,그룹 참가 요청
-ReqContAccept,수락
-ReqContReject,거절
-LocalNotiTitle,그룹 참가됨
-LocalNotiOK,확인
-LocalNotiCheck,검토
+﻿#,ko,en
+## Portal,,
+Link,연결,Link
+Main,메인,Main
+Settings,설정,Settings
+## Main,,
+Title,할 일 목록,Todo
+## Subscribes,,
+Title,연결,Link
+has_noties,검토해야할 연결이 있습니다.,There are connections to review.
+almighty_link,만능 연결 버튼,Almighty link button
+almighty_button,연결 !,Link !
+Chat,대화,Chat
+noChatList,참여중인 대화가 없습니다.,There are no active conversations.
+noTitiedChat,제목 없는 채팅방,Untitled chat room
+noMessageHistory,기록된 메시지 없음,No messages logged
+needLinkWithCommServ,커뮤니티 서버와 연결되어있어야 합니다.,You must be connected to the community server.
+CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
+## Settings,,
+Title,설정,Settings
+CommunityAds,커뮤니티 광고,Community Ads
+AdsContact,광고 문의,Ads Contact
+UserInfo,사용자 정보,User info
+myInfo,내 정보,My info
+takeOverUser,사용자 인계,User override
+ManageServer,서버 관리,Manage server
+groupServer,그룹 서버,Group server
+commServer,커뮤니티 서버,Community server
+useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
+ManageGroup,그룹 관리,Manage group
+CreateGroup,그룹 생성하기,Create a group
+Community,커뮤니티,Community
+joinRanchat,랜덤채팅 참여,Join random chat
+joinDediChat,사설 그룹채팅,Join group chat
+joinDedi_placeholder,기본,Default
+joinDedi_button,참여,Join
+admin_community_menu,커뮤니티 관리자 메뉴,Community manager menu
+admin_noti_all,전체 사용자 공지,All user notice
+notifications,알림,Notifications
+batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
+ToolManage,도구 관리,Manage tools
+ToolList,도구 리스트,Tool list
+AppInfo,앱 정보,App info
+AppCreator,제작자,Creator
+AppTranslator,번역가,Translator
+AppLanguage,언어 설정,Languages
+userPrivacyTerms,개인정보처리방침,Privacy policy
+LicenseNotice,라이선스 고지,License Notice
+UserGuideLink,사용자 가이드,User guide
+## TodoDetail,,
+Title,해야할 일,Todo detail
+OnThisDevice,이 기기에서,On this device
+WrittenByMe,내가 작성,Written by me
+TodoComplete,완료,Complete
+TodoMoveTo,이관,Move
+TodoFocus,집중,Focus
+DisplayName,표시명,Display name
+DisplayName_placeholder,짧게,briefly
+Importance,중요도,Importance
+Importance_2,중요함,Important
+Importance_1,기억해야 함,Must remember
+Importance_0,메모,Memo
+limit,기한,Deadline
+description,상세 내용,Description
+description_placeholder,해야할 일 상세 내용,Todo details
+delete_attach,이미지 삭제,Remove image
+attachments,첨부파일,Attachments
+attachments_none,없음,None
+logs,기록,Logs
+remove,삭제,Remove todo
+buttonDisplay_add,추가,Add todo
+buttonDisplay_modify,수정,Modify detail
+needDisplayName,표시명을 작성하여야 합니다.,Display name must be written
+CreateTodo,해야할 일 생성,Create todo
+ModifyTodo,해야할 일 수정,Modify todo
+removeTodo,기록 삭제,Remove todo
+terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
+## ToolManager,,
+Redownload,다시받기,Re-download
+removeTool,삭제,Remove
+redownloadSucc,다시받기 성공,Re-download successful
+redownloadFailed,다시받기 실패,Re-download failed
+## QRElse,,
+Title,사용할 수 없는 구성,Configuration not available
+info,QR코드 또는 바코드를 인식하였으나 이 앱에서 사용하는 구성이 아닙니다.,A QR code or barcode was recognized. but this is not the configuration used by this app.
+format,종류,Format
+contents,내용,Contents
+## Profile,,
+img_alt,프로필 이미지,Profile_img
+noname_user,이름 없는 사용자,
+name_placeholder,사용자 이름,Unnamed user
+enterURI,이미지 주소 입력하기,Enter image URL
+change_img,이미지 변경,Change image
+login_info,로그인 정보,Login info
+email_address,이메일 주소,Email Address
+user_display_name,사용자 표시명,Display name
+login_toggle,로그인,Login
+main_content,메인 콘텐츠,Main contents
+not_available_yet,기능 준비중,Feature in preparation
+no_main_content,없음,Null
+user_img_changed,사용자 이미지 변경,User changes image
+need_email,이메일 주소가 있어야 온라인으로 전환하실 수 있습니다.,You must have an email address to go online.
+pasteURI,눌러서 외부이미지 주소 붙여넣기,Click to paste external image address
+copyURIFirst,먼저 웹 페이지에서 이미지 주소를 복사해주세요,Copy the image address from the web page first
+user_profile_changed,사용자 프로필 변경,Change user profile
+## OtherProfile,,
+Title,사용자 정보,User info
+add_to_group,추가,Add to group
+add_friend,친구,Add as friend
+privacy_chat,대화,Private chat
+kick_from_group,추방,Kick user
+added_to_group,그룹원이 추가되었습니다,User added
+kicked_from_group,사용자를 내보냈습니다,User kicked
+## ChatRoom,,
+noname_chatroom,이름 없는 채팅방,Unnamed chat room
+fetch_previous_chat,이전 기록 불러오기,Recall previous record
+fetch_next_chat,최근 기록 불러오기,Retrieve recent records
+chat_extension,기능,Exts
+send_chat,보내기,Send
+remove_chatroom,삭제,Remove
+leave_chatroom,나가기,Leave
+belonging_to_group,이 채널은 그룹에 귀속되어 있습니다.,This channel belongs to a group.
+attach_file,파일 첨부,Attachments
+unknown_ext,검토 불가,No review
+attachments,첨부파일,"Attachments
+"
+input_placeholder,메시지 입력...,Enter message...
+closed_group_must_online,이 채널이 온라인 상태여야 합니다.,This channel must be online.
+closed_group_not_allow,그룹에서 오프라인 기록 열람을 허용하지 않습니다.,The group does not allow viewing offline records.
+cannot_open_from_mobile,모바일에서 열 수 없음,Can not open on mobile
+cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.,This file cannot be viewed with a viewer.
+download_anyway,그래도 다운로드,Download anyway
+downloaded,다운로드됨,Downloaded
+viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by the viewer
+cannot_open_file,파일을 열람할 수 없습니다.,The file cannot be viewed.
+export_download,추출,Extraction
+YouReadHereLast,여기까지 읽었습니다,You've read this far
+## ContentViewer,,
+Title,콘텐츠 뷰어,Content Viewer
+Download,다운로드,Extraction
+## WscClient,,
+OnlineMode,온라인 모드,Online mode
+OnlineMode_text,커뮤니티 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the community server.
+Disconnected,커뮤니티 서버로부터 연결이 끊어졌습니다.,You have been disconnected from the community server.
+OfflineMode,오프라인 모드,Offline mode
+OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.,You can receive notifications from private servers.
+## MinimalChat,,
+concurrent_users,동시접속자,Concurrent users
+shareAddress,주소 공유,Share address
+start_chat,대화 시작하기,Start a conversation
+selectNetwork,네트워크 선택,Select network
+new_chat,새 대화,New
+exit_chat,끝내기,Exit
+send,보내기,Send
+input_placeholder,메시지 입력...,Enter message...
+header_title_ranchat,미니랜챗,Random chat
+header_title_group,그룹채팅,Group chat
+WebTitle_ran,Project: 랜덤채팅,Project: RandomChat
+WebTitle_group,Project: 그룹채팅,Project: GroupChat
+Noti_Reply,답장,Reply
+name_me,나,Me
+name_stranger_ran,상대방,Stranger
+name_stranger_group,참여자,Participants
+joinChat_ran,랜덤채팅에 참가합니다.,Join the random chat
+joinChat_group,그룹채팅에 참가합니다.,Join the group chat
+user_join,사용자 참여,User joined
+user_join_comment,그룹에 참여했습니다.,joined the group
+user_out,사용자 떠남,User out
+user_out_comment,그룹을 떠났습니다.,leaved the group
+meet_someone,누군가를 만났습니다.,You met someone
+leave_someone,상대방이 나갔습니다.,Opponent has gone
+Noti_Greeting,인사,Greeting
+failed_to_join,채팅 참가에 실패했습니다.,Failed to join chat
+cannot_join,채팅에 참가할 수 없습니다.,Failed to join
+waiting_someone,새로운 상대를 기다립니다..,Waiting for a new opponent
+cannot_start,시작할 수 없어요..,Can not start..
+leave_chat_ran,랜덤채팅에서 벗어납니다.,You leave random chat
+leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
+## LinkAccount,,
+use_almighty_button_to,만능 연결 버튼을 사용하여 기기id 인계,Receive device ID using the almighty button
+Recovery,원상복구,Recovery
+recovery_device_id,기기 id 되돌리기,Reset device id
+link_account_succ,사용자 연결에 성공했습니다.,User connection was successful.
+failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
+## GroupServer,,
+AboutServerAndAccount,서버와 계정에 대해서,About servers and accounts
+JoinedServerList,참여중인 서버 목록,List of participating servers
+DevTestServer,개발 테스트 서버,Development test server
+HideOfficialDefault,가리기,Hide
+ServerDetail,서버정보,Server info
+RemoveUnofficial,삭제,Delete
+RegisterServer,사설 서버 등록하기,Register private server
+DisplayName,표시명,Display name
+DisplayName_placeholder,사용자 사설 서버,User dedicated server
+DivisionName,구분자,Separator
+DivisionName_placeholder,표시명을 따라감,Follow display name
+Address,서버 주소,Address
+Key,서버 키,Key
+Port,포트,Port
+isSSL,SSL 적용여부,use SSL
+submit,등록하기,Submit
+NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
+## ServerDetail,,
+ApplyChangeServerInfo,적용하기,Apply
+## CommunityServer,,
+AboutCommServer,커뮤니티 서버에 대해서,About community server
+ServerStatus,서버 상태,Server status
+AddressInfo,커뮤니티 서버,Community server
+isSSL,SSL 적용 여부,use SSL
+## AddGroup,,
+SelectServer,서버 선택,Select server
+GroupInfo,그룹 정보,Group info
+DisplayName,표시명,Display name
+DisplayName_placeholder,그룹 이름,Group name
+ClicktoChangeGroupImg,눌러서 그룹 이미지 설정,Click to add group iamge
+JoinThisGroup,그룹 참여,Join
+AfterCreateGroup,그룹을 생성하여 계속,continue by creating a group
+GroupDetail,그룹 상세,Group details
+GroupDetail_placeholder,그룹 설명,Group description
+LanguageTag,국가 태그,LangTag
+MemberMaxLimit,최대 인원,Maximum member
+IsOpen,공개 여부,is Open group
+submit,위 정보로 추가하기,Submit
+cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.,The selected server is unavailable.
+group_created,그룹이 생성되었습니다.,A group has been created.
+NeedSetGroupName,그룹 이름을 작성해주세요.,Please write the group name.
+AlreadyExist,이미 같은 이름의 그룹이 존재합니다.,A group with the same name already exists.
+UnexpectedErr,준비되지 않은 오류처리,Unexpected error occured
+## GroupDetail,,
+Title,그룹 상세,Group detail
+NotAcceptYet,아직 수락되지 않았습니다,Not yet accepted
+MissedGroup,더 이상 그룹구성원이 아닙니다,No longer a group member
+NoDetailGroup,설명 없는 그룹,No description
+Members,그룹 구성원,Members
+invite_scan_below,아래를 스캔하여 그룹에 초대,Scan below to invite to group
+BreakupGroup,그룹 해산,Breakup
+RemoveGroup,기록 삭제,Remove history
+LeaveGroup,떠나기,Leave group
+GroupInfoUpdated,그룹 정보 업데이트됨,Group info updated
+GroupImageUpdated,그룹 이미지 업데이트됨,Group image updated
+GroupRemoved,그룹 삭제됨,Group removed
+## Licenses,,
+open_link,열기,Open
+## UseAsServer,,
+Title,이 기기를 기능 서버로,Use this device as a functional server
+UserNotice,사용 유의사항,Precautions for use
+ThisDeviceAddress,이 기기의 네트워크 주소,Network address of this device
+RefreshAddress,새로고침,Refresh
+DedicatedServer,사설 서버,Dedicated server
+CustomGroupChat,사설 그룹채팅 서버,Dedicated group chat
+LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다.,The network address of this device will display here.
+NoAddress,연결된 네트워크가 없습니다.,No network connected.
+## Translator,,
+TranslatorSpeaking,번역가의 한마디,A word from the translator
+## Administrator,,
+AboutThisNotification,이 알림에 대해서,About this notice
+InputMessageInfo,발송 정보 입력,Enter shipping information
+CommunityNotification,커뮤니티 알림,Community notifications
+WriteContent,알림 내용 작성,Write content of notification
+SendNotification,전체 알림 발송,Send
+OnlyForAdmin,관리자 전용메뉴입니다,This is the admin menu
+CannotUseDataURL,데이터 URL은 사용할 수 없습니다.,You cannot use DataURL
+## CreatorInfo,,
+creatorComment,제작자의 한마디,A word from the maker
+## GlobalAct,,
+FailedToDownloadGodot,기능 다운로드 실패,Failed to download tool
+## IndexedDB,,
+FailedToOpenFile,파일 열기 오류,Failed to open file
+FailedToDownloadFile,다운받기 오류,Failed to download file
+## Nakama,,
+AlreadyHaveTargetName,이미 같은 구분자를 쓰는 서버가 있습니다,There is already a server using the same key
+NeedLoginInfo,로그인 정보를 입력해주세요,Please enter your login information
+NeedLinkUser,사용자를 연결해주세요,Please link user device info
+NeedAccountReset,이 기기에서는 로그인할 수 없습니다 (계정 이전 기능 준비중),Cannot log in from this device (account transfer function in preparation)
+RegisterUserSucc,회원가입이 완료되었습니다,Sign up is complete
+UnexpectedLoginErr,준비되지 않은 오류 유형,Unprepared error type
+CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
+DisconnectedFromServer,그룹서버 연결 끊어짐,Lost connection to group server
+UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
+MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
+DeletedServer,삭제된 서버,Deleted server
+GroupUserJoin,사용자 그룹참여,User joined
+GroupUserOut,사용자 그룹탈퇴,User leaved
+GroupUserKick,사용자 강제퇴장,User kicked
+ReqContServer,서버 선택,Select server
+ReqContUserName,사용자명,User name
+ReqContTitle,그룹 참가 요청,Request to join
+ReqContAccept,수락,Accept
+ReqContReject,거절,Reject
+LocalNotiTitle,그룹 참가됨,Joined group
+LocalNotiOK,확인,OK
+LocalNotiCheck,검토,Check

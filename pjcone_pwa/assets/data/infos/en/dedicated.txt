@@ -1,0 +1,8 @@
+ You can open a private server with your mobile device using this app.
+
+ All servers prepared below are not secured.
+ When used on an untrusted network, someone working in the shadows can intercept and read or tamper with communication data.
+
+ It's like a joke, but it's an important story, so please remember it :)
+
+ If the network is not available at all, the mobile hotspot can be used as a network to communicate with the devices connected to the hotspot.

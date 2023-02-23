@@ -1,0 +1,13 @@
+ Community servers are used to provide features not covered by group servers.
+
+ What the group server does not do here is to:
+
+1. When the server needs to perform actions other than Nakama’s default settings, such as editing content in the server, sending device change emails, and counting the number of users.
+
+2. Uses Nakama functions such as universal scan tools, but uses relay servers for convenience, etc.
+
+3. Server role for features/tools available to non-members.
+
+ It is provided as a community tool and service, but if user classification is required, member information of the development test server is used.
+
+ The community server is running concurrently on the same computer as the group server, and may be suspended or data initialized at any time by the developer's judgment. By using the community server, you agree that activity information used on the server may be lost without notice.

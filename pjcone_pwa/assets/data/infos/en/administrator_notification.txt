@@ -1,0 +1,2 @@
+Send a notification to all users connected to the community server. Even if you use the same group server, notifications will not propagate if the community server is different.
+You can include images in notifications by adding an image URL.
