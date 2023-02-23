@@ -1,0 +1,17 @@
+{
+  "name": "Project: Cone",
+  "short_name": "Project: Cone",
+  "theme_color": "#1976d2",
+  "background_color": "#fff",
+  "scope": "./",
+  "start_url": "./",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/pjcone_pwa/assets/icon/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

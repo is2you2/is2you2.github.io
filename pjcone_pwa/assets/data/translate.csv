@@ -145,7 +145,9 @@ OfflineMode,오프라인 모드
 OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.
 ## MinimalChat,
 concurrent_users,동시접속자
+shareAddress,주소 공유
 start_chat,대화 시작하기
+selectNetwork,네트워크 선택
 new_chat,새 대화
 exit_chat,끝내기
 send,보내기
