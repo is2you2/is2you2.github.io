@@ -98,7 +98,7 @@ login_toggle,로그인,Login
 main_content,메인 콘텐츠,Main contents
 not_available_yet,기능 준비중,Feature in preparation
 no_main_content,없음,Null
-user_img_changed,사용자 이미지 변경,User changes image
+user_img_changed,사용자 이미지 변경,User image changed
 need_email,이메일 주소가 있어야 온라인으로 전환하실 수 있습니다.,You must have an email address to go online.
 pasteURI,눌러서 외부이미지 주소 붙여넣기,Click to paste external image address
 copyURIFirst,먼저 웹 페이지에서 이미지 주소를 복사해주세요,Copy the image address from the web page first
@@ -262,6 +262,8 @@ OnlyForAdmin,관리자 전용메뉴입니다,This is the admin menu
 CannotUseDataURL,데이터 URL은 사용할 수 없습니다.,You cannot use DataURL
 ## CreatorInfo,,
 creatorComment,제작자의 한마디,A word from the maker
+Ifyoulike,이 앱이 마음에 드신다면,If you like this app
+giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to developer
 ## GlobalAct,,
 FailedToDownloadGodot,기능 다운로드 실패,Failed to download tool
 ## IndexedDB,,
@@ -273,7 +275,7 @@ NeedLoginInfo,로그인 정보를 입력해주세요,Please enter your login inf
 NeedLinkUser,사용자를 연결해주세요,Please link user device info
 NeedAccountReset,이 기기에서는 로그인할 수 없습니다 (계정 이전 기능 준비중),Cannot log in from this device (account transfer function in preparation)
 RegisterUserSucc,회원가입이 완료되었습니다,Sign up is complete
-UnexpectedLoginErr,준비되지 않은 오류 유형,Unprepared error type
+UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
 CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
 DisconnectedFromServer,그룹서버 연결 끊어짐,Lost connection to group server
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
