@@ -1,9 +1,8 @@
  Project: Cone collects the following user information, but does not specifically manage it.
 
 1. When using a group server, an ID in email format and a device-specific ID are collected and used as member information.
-2. When using the membership function in community tools and services, the account information of the development test server is used together.
-3. All actions and data management on the development test server operate according to Nakama default settings, and no additional actions, data collection, or data modification are performed.
-4. There is no membership withdrawal function using the app instead of a perfect anonymity system.
+2. When using the membership function in community tools and services, the account information of the group server is used together.
+3. Instead of being a perfect anonymity system, there is no membership withdrawal function using the app.
 
  Project: Cone does not collect communication with the private server configured by the user or intervene in the operation method.
  

@@ -1,0 +1,8 @@
+Scan the QR code to enter various information at once.
+Most information is applied without user review, so please be mindful if you receive information shared by others.
+
+This function is provided for quick environment construction and is recommended for use in the following situations.
+1. To quickly copy existing settings when a mobile app user uses it for the first time on a PC
+2. When registering new group members to multiple groups at once
+
+To use this function, you must connect to the same community server

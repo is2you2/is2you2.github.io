@@ -7,7 +7,6 @@
 -----------
 
  Nakama Server is an open source server, anyone can create and manage a private server if they wish.
- As the name suggests, the development test server is operated for the purpose of development testing, so it may be suspended or data initialized at any time by the developer's judgment. By using the development test server to use the features provided by this app, you agree that user information and activity information stored on the server may be lost without notice.
 
 * Virtually open information notice
  Nakama is an open source server, so anyone can configure a private server and implement additional features on the server as needed.

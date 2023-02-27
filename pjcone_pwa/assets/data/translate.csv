@@ -29,9 +29,10 @@ commServer,커뮤니티 서버,Community server
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 ManageGroup,그룹 관리,Manage group
 CreateGroup,그룹 생성하기,Create a group
-Community,커뮤니티,Community
+Community,커뮤니티 도구,Community tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
+quickQRshare,빠른 QR공유,Quick QR sharing
 joinDedi_placeholder,기본,Default
 joinDedi_button,참여,Join
 admin_community_menu,커뮤니티 관리자 메뉴,Community manager menu
@@ -186,7 +187,6 @@ failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 ## GroupServer,,
 AboutServerAndAccount,서버와 계정에 대해서,About servers and accounts
 JoinedServerList,참여중인 서버 목록,List of participating servers
-DevTestServer,개발 테스트 서버,Development test server
 HideOfficialDefault,가리기,Hide
 ServerDetail,서버정보,Server info
 RemoveUnofficial,삭제,Delete
@@ -242,6 +242,15 @@ GroupImageUpdated,그룹 이미지 업데이트됨,Group image updated
 GroupRemoved,그룹 삭제됨,Group removed
 ## Licenses,,
 open_link,열기,Open
+## QuickQRShare,,
+SelectData,공유할 정보,Information to share
+GroupServer,그룹 서버,Group server
+Group,그룹,Group
+EmptyData,없음,Null
+ReceiveData,정보 수신,Receiving information
+SendData,발신,Send
+ShowQR,수신QR 보이기,Show QR
+groupserver_dataonly,그룹 서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Group server information may behave differently than expected due to the user registration process.
 ## UseAsServer,,
 Title,이 기기를 기능 서버로,Use this device as a functional server
 UserNotice,사용 유의사항,Precautions for use
@@ -285,7 +294,7 @@ DeletedServer,삭제된 서버,Deleted server
 GroupUserJoin,사용자 그룹참여,User joined
 GroupUserOut,사용자 그룹탈퇴,User leaved
 GroupUserKick,사용자 강제퇴장,User kicked
-ReqContServer,서버 선택,Select server
+ReqContServer,서버,Server
 ReqContUserName,사용자명,User name
 ReqContTitle,그룹 참가 요청,Request to join
 ReqContAccept,수락,Accept
