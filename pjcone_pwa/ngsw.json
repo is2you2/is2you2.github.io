@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1677497983887,
+  "timestamp": 1677500133769,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -251,7 +251,7 @@
     "/assets/data/docs/nakama.txt": "dbc3aa05e56aeb50969b7f905837725c563af217",
     "/assets/data/docs/p5js.txt": "f72ccd4679f8859c728d5249cc675a9b08f9ef57",
     "/assets/data/infos/en/administrator_notification.txt": "0b9bf970906781bbe2de4ed6b19b41a5b68e67bd",
-    "/assets/data/infos/en/community-server.txt": "822d478677d2280b410e8ab380e821cfe52b30ee",
+    "/assets/data/infos/en/community-server.txt": "8a444ce2160e793cfc808acab99d29a75b824f24",
     "/assets/data/infos/en/creator.json": "e44f42a724e0f1c2f0f6dd2bdc9edf0a9d62580c",
     "/assets/data/infos/en/dedicated.txt": "6306c32e6bf808c272aa5f0b9a54ef72389ea835",
     "/assets/data/infos/en/group-server.txt": "45f5afca8a34873d58b8bd3511e6d0cde84a0e2e",
@@ -259,7 +259,7 @@
     "/assets/data/infos/en/quick_datashare.txt": "8ee792b56525001b22e90248dd96d39fca55ef8d",
     "/assets/data/infos/en/translator.json": "47ba5ffbebf579761fb66aad0d079c6eece78406",
     "/assets/data/infos/ko/administrator_notification.txt": "fa8e8f71e256abc883825f4f1b95eca64eea7cb9",
-    "/assets/data/infos/ko/community-server.txt": "e9bdec293e2f36a7050fd67d3efb1124a93f74c6",
+    "/assets/data/infos/ko/community-server.txt": "8581bfa60eab8e4cffe7da99c03801282f1bff36",
     "/assets/data/infos/ko/creator.json": "4749b685773e203ce6b51ee28ff507831dddbcaa",
     "/assets/data/infos/ko/dedicated.txt": "7cdcd55cfecd9b3d0cb666ff181ddd4ca94a56a9",
     "/assets/data/infos/ko/group-server.txt": "ba7f2f14f6235660e10a7a18666bc40ec60543ac",

@@ -10,4 +10,4 @@
 
  It is provided as a community tool and service, but if user classification is required, the member information of the group server is used.
 
- The community server is running concurrently on the same computer as the group server, and may be suspended or data initialized at any time by the developer's judgment. By using the community server, you agree that activity information used on the server may be lost without notice.
+ The community server may be suspended or data may be initialized at any time at the developer's discretion. By using the community server, you agree that activity information used on the server may be lost without notice.
