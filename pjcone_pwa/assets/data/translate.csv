@@ -3,57 +3,11 @@
 Link,연결,Link
 Main,메인,Main
 Settings,설정,Settings
-## Main,,
-Title,할 일 목록,Todo
-## Subscribes,,
-Title,연결,Link
-has_noties,검토해야할 연결이 있습니다.,There are connections to review.
-almighty_link,만능 연결 버튼,Almighty link button
-almighty_button,연결 !,Link !
-Chat,대화,Chat
-noChatList,참여중인 대화가 없습니다.,There are no active conversations.
-noTitiedChat,제목 없는 채팅방,Untitled chat room
-noMessageHistory,기록된 메시지 없음,No messages logged
-needLinkWithCommServ,커뮤니티 서버와 연결되어있어야 합니다.,You must be connected to the community server.
-CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
-## Settings,,
-Title,설정,Settings
-CommunityAds,커뮤니티 광고,Community Ads
-AdsContact,광고 문의,Ads Contact
-UserInfo,사용자 정보,User info
-myInfo,내 정보,My info
-takeOverUser,사용자 인계,User override
-ManageServer,서버 관리,Manage server
-groupServer,그룹 서버,Group server
-commServer,커뮤니티 서버,Community server
-useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
-ManageGroup,그룹 관리,Manage group
-CreateGroup,그룹 생성하기,Create a group
-Community,커뮤니티 도구,Community tools
-joinRanchat,랜덤채팅 참여,Join random chat
-joinDediChat,사설 그룹채팅,Join group chat
-quickQRshare,빠른 QR공유,Quick QR sharing
-joinDedi_placeholder,기본,Default
-joinDedi_button,참여,Join
-admin_community_menu,커뮤니티 관리자 메뉴,Community manager menu
-admin_noti_all,전체 사용자 공지,All user notice
-notifications,알림,Notifications
-slient_noti,알림 무시,Ignore notifications
-batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
-ToolManage,도구 관리,Manage tools
-ToolList,도구 리스트,Tool list
-AppInfo,앱 정보,App info
-AppCreator,제작자,Creator
-AppTranslator,번역가,Translator
-AppLanguage,언어 설정,Languages
-userPrivacyTerms,개인정보처리방침,Privacy policy
-LicenseNotice,라이선스 고지,License Notice
-UserGuideLink,사용자 가이드,User guide
 ## TodoDetail,,
 Title,해야할 일,Todo detail
 OnThisDevice,이 기기에서,On this device
 WrittenByMe,내가 작성,Written by me
-TodoComplete,완료,Complete
+TodoComplete,완료,Done
 TodoMoveTo,이관,Move
 TodoFocus,집중,Focus
 DisplayName,표시명,Display name
@@ -77,6 +31,58 @@ CreateTodo,해야할 일 생성,Create todo
 ModifyTodo,해야할 일 수정,Modify todo
 removeTodo,기록 삭제,Remove todo
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
+## Main,,
+Title,할 일 목록,Todo
+## Subscribes,,
+Title,연결,Link
+has_noties,검토해야할 연결이 있습니다.,There are connections to review.
+almighty_link,만능 연결 버튼,Almighty link button
+almighty_button,연결 !,Link !
+Chat,대화,Chat
+noChatList,참여중인 대화가 없습니다.,There are no active conversations.
+noTitiedChat,제목 없는 채팅방,Untitled chat room
+noMessageHistory,기록된 메시지 없음,No messages logged
+needLinkWithCommServ,커뮤니티 서버와 연결되어있어야 합니다.,You must be connected to the community server.
+CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
+## Settings,,
+Title,설정,Settings
+CommunityAds,커뮤니티 광고,Community Ads
+AdsContact,광고 문의,Ads Contact
+env_info,사용 환경 설정,Preferences
+myInfo,내 정보,My info
+takeOverUser,사용자 인계,User override
+ManageServer,서버 관리,Manage server
+groupServer,그룹 서버,Group server
+commServer,커뮤니티 서버,Community server
+useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
+ManageGroup,그룹 관리,Manage group
+CreateGroup,그룹 생성하기,Create a group
+Community,커뮤니티 도구,Community tools
+joinRanchat,랜덤채팅 참여,Join random chat
+joinDediChat,사설 그룹채팅,Join group chat
+quickQRshare,빠른 QR공유,Quick QR sharing
+joinDedi_placeholder,기본,Default
+joinDedi_button,참여,Join
+admin_community_menu,커뮤니티 관리자 메뉴,Community manager menu
+admin_noti_all,전체 사용자 공지,All user notice
+notifications,알림,Notifications
+NotificationSetting,알림 설정,Notification settings
+batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
+ToolManage,도구 관리,Manage tools
+ToolList,도구 리스트,Tool list
+AppInfo,앱 정보,App info
+AppCreator,제작자,Creator
+AppTranslator,번역가,Translator
+AppLanguage,언어 설정,Languages
+userPrivacyTerms,개인정보처리방침,Privacy policy
+LicenseNotice,라이선스 고지,License Notice
+UserGuideLink,사용자 가이드,User guide
+## NotificationSettings,,
+set_alert,알림 받기,Get notifications
+icon_mono,기본 앱 알림,Default
+diychat,Nakama 채널,Nakama channel
+todo,해야할 일,Todo
+simplechat,미니채팅,Mini-chat
 ## ToolManager,,
 Redownload,다시받기,Re-download
 removeTool,삭제,Remove

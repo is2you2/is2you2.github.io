@@ -5,4 +5,4 @@ This function is provided for quick environment construction and is recommended 
 1. To quickly copy existing settings when a mobile app user uses it for the first time on a PC
 2. When registering new group members to multiple groups at once
 
-To use this function, you must connect to the same community server
+To use this function, you must be connected to the same community server.
