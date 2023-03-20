@@ -1,6 +1,6 @@
- Community servers are used to provide features not covered by group servers.
+ Assistant servers are used to provide features not covered by main servers.
 
- What the group server does not do here is to:
+ What the main server does not do here is to:
 
 1. If you need to perform actions other than Nakama's default settings on the server, such as editing content in the server, sending device change emails, counting the number of users, etc.
 
@@ -8,6 +8,6 @@
 
 3. Server role for features/tools available to non-members.
 
- It is provided as a community tool and service, but if user classification is required, the member information of the group server is used.
+ It is provided as a assistant tool and service, but if user classification is required, the member information of the main server is used.
 
- The community server may be suspended or data may be initialized at any time at the developer's discretion. By using the community server, you agree that activity information used on the server may be lost without notice.
+ The assistant server may be suspended or data may be initialized at any time at the developer's discretion. By using the assistant server, you agree that activity information used on the server may be lost without notice.

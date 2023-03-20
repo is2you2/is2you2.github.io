@@ -3,6 +3,22 @@
 Link,연결,Link
 Main,메인,Main
 Settings,설정,Settings
+## Administrator,,
+AdminNotiTitle,보조서버 관리자,Assistant server manager
+CanUseAsAdmin,관리자 기능을 사용합니다,Use admin features
+AssistServNoti,보조서버 알림,Assistant server notification
+AboutThisNotification,이 알림에 대해서,About this notice
+InputMessageInfo,발송 정보 입력,Enter shipping information
+CommunityNotification,보조서버 알림,Assistant server notifications
+WriteContent,알림 내용 작성,Write content of notification
+SendNotification,전체 알림 발송,Send
+OnlyForAdmin,관리자 전용메뉴입니다,This is the admin menu
+CannotUseDataURL,데이터 URL은 사용할 수 없습니다.,You cannot use DataURL
+counter_now,실시간 정보,Real-time information
+counter_current,현재 동접,Current
+counter_maximum,동시 최대,Maximum
+counter_stack,누적,Stack
+counter_refresh,새로고침,Refresh count
 ## TodoDetail,,
 Title,해야할 일,Todo detail
 OnThisDevice,이 기기에서,On this device
@@ -47,31 +63,32 @@ Chat,대화,Chat
 noChatList,참여중인 대화가 없습니다.,There are no active conversations.
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
-needLinkWithCommServ,커뮤니티 서버와 연결되어있어야 합니다.,You must be connected to the community server.
+needLinkWithCommServ,보조 서버와 연결되어있어야 합니다.,You must be connected to the community server.
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
 ## Settings,,
 Title,설정,Settings
-CommunityAds,커뮤니티 광고,Community Ads
+CommunityAds,보조 서버 광고,Assistant server Ads
 AdsContact,광고 문의,Ads Contact
-env_info,사용 환경 설정,Preferences
+env_info,사용 환경,Preferences
 myInfo,내 정보,My info
 takeOverUser,사용자 인계,User override
 ManageServer,서버 관리,Manage server
-groupServer,그룹 서버,Group server
-commServer,커뮤니티 서버,Community server
+groupServer,메인 서버,Main server
+commServer,보조 서버,Assistant server
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 ManageGroup,그룹 관리,Manage group
 CreateGroup,그룹 생성하기,Create a group
-Community,커뮤니티 도구,Community tools
+Community,보조 도구,Assistant tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,빠른 QR공유,Quick QR sharing
 joinDedi_placeholder,기본,Default
 joinDedi_button,참여,Join
-admin_community_menu,커뮤니티 관리자 메뉴,Community manager menu
-admin_noti_all,전체 사용자 공지,All user notice
+admin_community_menu,보조서버 관리자,Assistant server manager
+admin_noti_all,보조서버 전체 공지,Assistant server notice
+admin_req_counter,사용자 수 확인,Check the number of users
 notifications,알림,Notifications
-NotificationSetting,알림 설정,Notification settings
+NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
 ToolManage,도구 관리,Manage tools
 ToolList,도구 리스트,Tool list
@@ -153,8 +170,8 @@ Title,콘텐츠 뷰어,Content Viewer
 Download,다운로드,Extraction
 ## WscClient,,
 OnlineMode,온라인 모드,Online mode
-OnlineMode_text,커뮤니티 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the community server.
-Disconnected,커뮤니티 서버로부터 연결이 끊어졌습니다.,You have been disconnected from the community server.
+OnlineMode_text,보조 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the community server.
+Disconnected,보조 서버로부터 연결이 끊어졌습니다.,You have been disconnected from the community server.
 OfflineMode,오프라인 모드,Offline mode
 OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.,You can receive notifications from private servers.
 ## MinimalChat,,
@@ -215,9 +232,9 @@ NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
 ## ServerDetail,,
 ApplyChangeServerInfo,적용하기,Apply
 ## CommunityServer,,
-AboutCommServer,커뮤니티 서버에 대해서,About community server
+AboutCommServer,보조 서버에 대해서,About community server
 ServerStatus,서버 상태,Server status
-AddressInfo,커뮤니티 서버,Community server
+AddressInfo,보조 서버,Community server
 isSSL,SSL 적용 여부,use SSL
 ## AddGroup,,
 SelectServer,서버 선택,Select server
@@ -255,13 +272,13 @@ GroupRemoved,그룹 삭제됨,Group removed
 open_link,열기,Open
 ## QuickQRShare,,
 SelectData,공유할 정보,Information to share
-GroupServer,그룹 서버,Group server
+GroupServer,Main 서버,Main server
 Group,그룹,Group
 EmptyData,없음,Null
 ReceiveData,정보 수신,Receiving information
 SendData,발신,Send
 ShowQR,수신QR 보이기,Show QR
-groupserver_dataonly,그룹 서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Group server information may behave differently than expected due to the user registration process.
+groupserver_dataonly,메인 서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Main server information may behave differently than expected due to the user registration process.
 ## UseAsServer,,
 Title,이 기기를 기능 서버로,Use this device as a functional server
 UserNotice,사용 유의사항,Precautions for use
@@ -273,14 +290,6 @@ LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다.
 NoAddress,연결된 네트워크가 없습니다.,No network connected.
 ## Translator,,
 TranslatorSpeaking,번역가의 한마디,A word from the translator
-## Administrator,,
-AboutThisNotification,이 알림에 대해서,About this notice
-InputMessageInfo,발송 정보 입력,Enter shipping information
-CommunityNotification,커뮤니티 알림,Community notifications
-WriteContent,알림 내용 작성,Write content of notification
-SendNotification,전체 알림 발송,Send
-OnlyForAdmin,관리자 전용메뉴입니다,This is the admin menu
-CannotUseDataURL,데이터 URL은 사용할 수 없습니다.,You cannot use DataURL
 ## CreatorInfo,,
 creatorComment,제작자의 한마디,A word from the maker
 Ifyoulike,이 앱이 마음에 드신다면,If you like this app
@@ -298,7 +307,7 @@ NeedAccountReset,이 기기에서는 로그인할 수 없습니다 (계정 이�
 RegisterUserSucc,회원가입이 완료되었습니다,Sign up is complete
 UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
 CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
-DisconnectedFromServer,그룹서버 연결 끊어짐,Lost connection to group server
+DisconnectedFromServer,메인서버 연결 끊어짐,Lost connection to group server
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
 MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
 DeletedServer,삭제된 서버,Deleted server

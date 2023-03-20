@@ -1,7 +1,7 @@
  Project: Cone collects the following user information, but does not specifically manage it.
 
-1. When using a group server, an ID in email format and a device-specific ID are collected and used as member information.
-2. When using the membership function in community tools and services, the account information of the group server is used together.
+1. When using a main server, an ID in email format and a device-specific ID are collected and used as member information.
+2. When using the membership function in community tools and services, the account information of the main server is used together.
 3. Instead of being a perfect anonymity system, there is no membership withdrawal function using the app.
 
  Project: Cone does not collect communication with the private server configured by the user or intervene in the operation method.
