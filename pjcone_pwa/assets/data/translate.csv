@@ -67,7 +67,7 @@ needLinkWithCommServ,보조 서버와 연결되어있어야 합니다.,You must 
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
 ## Settings,,
 Title,설정,Settings
-CommunityAds,보조 서버 광고,Assistant server Ads
+CommunityAds,보조서버 광고,Assistant server Ads
 AdsContact,광고 문의,Ads Contact
 env_info,사용 환경,Preferences
 myInfo,내 정보,My info
@@ -170,8 +170,8 @@ Title,콘텐츠 뷰어,Content Viewer
 Download,다운로드,Extraction
 ## WscClient,,
 OnlineMode,온라인 모드,Online mode
-OnlineMode_text,보조 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the community server.
-Disconnected,보조 서버로부터 연결이 끊어졌습니다.,You have been disconnected from the community server.
+OnlineMode_text,보조 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the assistant server.
+Disconnected,보조 서버로부터 연결이 끊어졌습니다.,You have been disconnected from the assistant server.
 OfflineMode,오프라인 모드,Offline mode
 OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.,You can receive notifications from private servers.
 ## MinimalChat,,
