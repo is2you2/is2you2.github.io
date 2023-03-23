@@ -21,8 +21,12 @@ counter_stack,누적,Stack
 counter_refresh,새로고침,Refresh count
 ## TodoDetail,,
 Title,해야할 일,Todo detail
+Server,서버,Server
+Group,그룹,Group
+StoreAt,저장 위치,Save to
 OnThisDevice,이 기기에서,On this device
 WrittenByMe,내가 작성,Written by me
+ManagerIs,책임자,Manager
 TodoComplete,완료,Done
 TodoMoveTo,이관,Move
 TodoFocus,집중,Focus
@@ -31,6 +35,7 @@ DisplayName_placeholder,짧게,briefly
 Tag,태그,Tag
 SelectTag,태그 지정,Select tag
 NewTagName,새 태그 이름,New tag name
+CanAddToServer,서버 저장에 실패했습니다,Server save failed
 CreateTag,추가,Add
 NewTag,새 태그,New tag
 Importance,중요도,Importance
