@@ -27,6 +27,8 @@ StoreAt,저장 위치,Save to
 OnThisDevice,이 기기에서,On this device
 WrittenByMe,내가 작성,Written by me
 ManagerIs,책임자,Manager
+DeletedServer,서버 삭제됨,Server deleted
+Disconnected,서버에 연결할 수 없음,Disconnected from server
 TodoComplete,완료,Done
 TodoMoveTo,이관,Move
 TodoFocus,집중,Focus
