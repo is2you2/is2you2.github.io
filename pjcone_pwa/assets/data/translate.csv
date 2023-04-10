@@ -44,6 +44,8 @@ Importance,중요도,Importance
 Importance_2,중요함,Important
 Importance_1,기억해야 함,Must remember
 Importance_0,메모,Memo
+startFrom,시작일시,Start date
+startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,해야할 일 상세 내용,Todo details
@@ -214,7 +216,7 @@ cannot_start,시작할 수 없어요..,Can not start..
 leave_chat_ran,랜덤채팅에서 벗어납니다.,You leave random chat
 leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
 ## LinkAccount,,
-use_almighty_button_to,만능 연결 버튼을 사용하여 기기id 인계,Receive device ID using the almighty button
+use_almighty_button_to,아래를 스캔하여 기기id 인계,Scan below to take over device id
 Recovery,원상복구,Recovery
 recovery_device_id,기기 id 되돌리기,Reset device id
 link_account_succ,사용자 연결에 성공했습니다.,User connection was successful.
@@ -237,6 +239,7 @@ isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
 ## ServerDetail,,
+copy_scan_below,아래를 스캔하여 서버 정보 복제,Duplicate server information by scanning below
 ApplyChangeServerInfo,적용하기,Apply
 ## CommunityServer,,
 AboutCommServer,보조 서버에 대해서,About community server
