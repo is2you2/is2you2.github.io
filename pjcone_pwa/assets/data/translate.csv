@@ -161,8 +161,8 @@ leave_chatroom,나가기,Leave
 belonging_to_group,이 채널은 그룹에 귀속되어 있습니다.,This channel belongs to a group.
 attach_file,파일 첨부,Attachments
 unknown_ext,검토 불가,No review
-attachments,첨부파일,"Attachments
-"
+attachments,첨부파일,Attachments
+voidDraw,간이 그림판,Simple Paint
 input_placeholder,메시지 입력...,Enter message...
 closed_group_must_online,이 채널이 온라인 상태여야 합니다.,This channel must be online.
 closed_group_not_allow,그룹에서 오프라인 기록 열람을 허용하지 않습니다.,The group does not allow viewing offline records.
