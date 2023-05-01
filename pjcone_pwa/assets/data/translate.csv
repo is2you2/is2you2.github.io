@@ -70,6 +70,7 @@ CreateTodo,해야할 일 생성,Create todo
 ModifyTodo,해야할 일 수정,Modify todo
 removeTodo,기록 삭제,Remove todo
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
+WIP,작업을 완료중입니다...,Work in progress...
 ## Main,,
 Title,할 일 목록,Todo
 ## Subscribes,,
