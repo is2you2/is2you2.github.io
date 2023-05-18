@@ -354,4 +354,6 @@ UseThisImage,이미지를 준비중...,Preparing image to send...
 CreateNew,새로 만들기,New
 width,가로,Width
 height,세로,Height
+weight,두께,Weight
+apply,적용,Apply
 default_size,기본,default
