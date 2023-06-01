@@ -1,14 +1,13 @@
- Project: Cone collects the following user information, but does not specifically manage it.
+ Project: Cone collects the following user information, but does not manage it.
 
-1. When using a main server, an ID in email format and a device-specific ID are collected and used as member information.
-2. When using the membership function in assistant tools and services, the account information of the main server is used together.
-3. Instead of being a perfect anonymity system, there is no membership withdrawal function using the app.
+1. When using the main server, the ID in email format and the unique ID of the device are collected and used as member information.
+2. Instead of being a perfect anonymity system, there is no membership withdrawal function using the app.
 
- Project: Cone does not collect communication with the private server configured by the user or intervene in the operation method.
- 
- All kinds of policies/incidents/events that may occur on the private server are the responsibility of the private server manager and must be notified in a way suitable for server users.
- 
- When using a private server through this app, you must use a server of a trusted group.
+ Project: Cone does not collect communications with the private servers configured by the user or interact with how the user operates the server.
+
+ All kinds of policies/incidents/events that may occur on the private server are the responsibility of the private server manager, and if necessary, the server user must be notified in a suitable way.
+
+ When using a private server through this app, we recommend that you use a server from a trusted group. Project:Cone does not take any responsibility for what happens on the private server.
 
  * Account-related issues in the current version
  Since the device-specific ID is being used as member information, there is a problem that you cannot enter the existing account if the device you are using is changed.
