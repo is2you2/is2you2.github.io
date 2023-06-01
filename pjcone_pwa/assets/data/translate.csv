@@ -125,6 +125,10 @@ diychat,Nakama 채널,Nakama channel
 todo,해야할 일,Todo
 simplechat,미니채팅,Mini-chat
 ## ToolManager,,
+Official,공식 제공 도구,Official tools
+Unofficial,사용자 도구,Custom tools
+Sync,동기화,Sync
+SyncWell,동기화 완료,Sync complete
 Redownload,다시받기,Re-download
 removeTool,삭제,Remove
 redownloadSucc,다시받기 성공,Re-download successful
@@ -186,6 +190,7 @@ export_download,추출,Extraction
 YouReadHereLast,여기까지 읽었습니다,You've read this far
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
+Edit,편집,Edit
 Download,다운로드,Extraction
 ## WscClient,,
 OnlineMode,온라인 모드,Online mode
@@ -355,6 +360,7 @@ UseThisImage,이미지를 준비중...,Preparing image to send...
 CreateNew,새로 만들기,New
 width,가로,Width
 height,세로,Height
-weight,두께,Weight
+weight,선 두께,Stroke weight
+changeWeight,두께 변경,Change weight
 apply,적용,Apply
 default_size,기본,default
