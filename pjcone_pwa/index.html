@@ -19,6 +19,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <!-- https 일 때에만 동작한다는 썰이 있습니다, 검토 필요 -->
   <script defer>
+    // 예하 경로에 의한 경로찾기 오류 완화용
+    var sub_path = '/pjcone_pwa/'
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register('/pjcone_pwa/assets/sw.js')
@@ -39,6 +41,6 @@
 
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.eaaf154c076393fe.js" type="module"></script><script src="polyfills.ff60c501a6550566.js" type="module"></script><script src="main.93fcf3bdaf60d842.js" type="module"></script>
+<script src="runtime.eaaf154c076393fe.js" type="module"></script><script src="polyfills.ff60c501a6550566.js" type="module"></script><script src="main.98f4cd3d883b0584.js" type="module"></script>
 
 </allow-intent></allow-intent></body></html>
