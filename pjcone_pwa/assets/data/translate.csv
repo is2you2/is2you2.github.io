@@ -192,6 +192,8 @@ YouReadHereLast,여기까지 읽었습니다,You've read this far
 Title,콘텐츠 뷰어,Content Viewer
 Edit,편집,Edit
 Download,다운로드,Extraction
+creator,제작자,Creator
+related_creator,그 외,Related
 ## WscClient,,
 OnlineMode,온라인 모드,Online mode
 OnlineMode_text,보조 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the assistant server.
@@ -202,7 +204,7 @@ OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.,You can r
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
 start_chat,대화 시작하기,Start a conversation
-selectNetwork,네트워크 선택,Select network
+selectNetwork,네트워크를 선택하여 공유,Select network to share
 new_chat,새 대화,New
 exit_chat,끝내기,Exit
 send,보내기,Send
