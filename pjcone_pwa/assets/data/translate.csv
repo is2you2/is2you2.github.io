@@ -58,9 +58,11 @@ startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,해야할 일 상세 내용,Todo details
-delete_attach,이미지 삭제,Remove image
+new_attach,새 그림,New
+add_attach,가져오기,Load
+delete_attach,삭제,Delete
 attachments,첨부파일,Attachments
-attachments_none,없음,None
+open_content_viewer,클릭하여 콘텐츠 뷰어에서 열기,Click to open in content viewer
 logs,기록,Logs
 remove,삭제,Remove todo
 buttonDisplay_add,추가,Add todo
