@@ -111,8 +111,8 @@ admin_req_counter,서버 상태,Server status
 notifications,알림,Notifications
 NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
-ToolManage,도구 관리,Manage tools
 ToolList,도구 리스트,Tool list
+InAppExplorer,인앱 탐색기,InApp Explorer
 AppInfo,앱 정보,App info
 AppCreator,제작자,Creator
 AppTranslator,번역가,Translator
@@ -176,6 +176,7 @@ remove_chatroom,삭제,Remove
 leave_chatroom,나가기,Leave
 belonging_to_group,이 채널은 그룹에 귀속되어 있습니다.,This channel belongs to a group.
 attach_file,파일 첨부,Attachments
+attach_inapp_file,인앱 파일,InApp file
 unknown_ext,검토 불가,No review
 attachments,첨부파일,Attachments
 voidDraw,간이 그림판,Simple Paint
@@ -326,6 +327,7 @@ Ifyoulike,이 앱이 마음에 드신다면,If you like this app
 giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to developer
 ## GlobalAct,,
 FailedToDownloadGodot,기능 다운로드 실패,Failed to download tool
+UnCheckableCreator,확인 불가,Not confirmed
 ## IndexedDB,,
 FailedToOpenFile,파일 열기 오류,Failed to open file
 FailedToDownloadFile,다운받기 오류,Failed to download file
@@ -352,7 +354,7 @@ ReqContReject,거절,Reject
 LocalNotiTitle,그룹 참가됨,Joined group
 LocalNotiOK,확인,OK
 LocalNotiCheck,검토,Check
-## voidDraw
+## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
 newDraw,새 그림,New draw
 Undo,취소,Undo
@@ -368,3 +370,15 @@ weight,선 두께,Stroke weight
 changeWeight,두께 변경,Change weight
 apply,적용,Apply
 default_size,기본,default
+## UserFsDir,,
+LoadingExplorer,가상 탐색기 준비중,Loading Explorer
+CannotOpenFile,이 파일은 열 수 없습니다,This file cannot be opened
+DeleteFile,파일 삭제,Delete file
+CannotBeUndo,이 작업은 되돌릴 수 없습니다,This action cannot be undone
+DeleteAccept,삭제,Delete
+Action,이 파일을..,Action..
+Use,사용하기,Use
+Open,열기,Open
+Download,받기,Download
+Delete,삭제,Delete
+CreateAt,생성일시,Creation date
