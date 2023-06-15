@@ -371,7 +371,7 @@ changeWeight,두께 변경,Change weight
 apply,적용,Apply
 default_size,기본,default
 ## UserFsDir,,
-LoadingExplorer,가상 탐색기 준비중,Loading Explorer
+LoadingExplorer,탐색기 준비중,Loading Explorer
 CannotOpenFile,이 파일은 열 수 없습니다,This file cannot be opened
 DeleteFile,파일 삭제,Delete file
 CannotBeUndo,이 작업은 되돌릴 수 없습니다,This action cannot be undone
