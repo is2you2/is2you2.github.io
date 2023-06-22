@@ -196,9 +196,13 @@ YouReadHereLast,여기까지 읽었습니다,You've read this far
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 Edit,편집,Edit
-Download,다운로드,Extraction
+Download,저장,Save
 creator,제작자,Creator
 related_creator,그 외,Related
+Filename,파일 이름,Filename
+saveFile,저장,Save
+AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
+fileSaved,저장되었습니다,File saved
 ## WscClient,,
 OnlineMode,온라인 모드,Online mode
 OnlineMode_text,보조 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the assistant server.

@@ -31,6 +31,9 @@ MIT
 @awesome-cordova-plugins/device
 MIT
 
+@awesome-cordova-plugins/file
+MIT
+
 @awesome-cordova-plugins/local-notifications
 MIT
 
