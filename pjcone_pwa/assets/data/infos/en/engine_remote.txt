@@ -1,0 +1,6 @@
+ You can operate it as a PPT screen on the web and as a PPT controller on the app.
+
+ You can get the basic form of PPT operated by engine at https://github.com/is2you2/engineWorksPPT.git. If you are using EnginePPT.tscn as the main scene, you can start with a new project.
+ Since PPT works on the web, review is required if it contains 3D elements that may be restricted on the web.
+
+ Your phone and computer must be on the same network.

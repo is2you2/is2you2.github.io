@@ -22,6 +22,9 @@ MIT
 @awesome-cordova-plugins/barcode-scanner
 MIT
 
+@awesome-cordova-plugins/camera
+MIT
+
 @awesome-cordova-plugins/core
 MIT
 

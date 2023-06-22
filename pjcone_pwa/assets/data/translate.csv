@@ -58,6 +58,7 @@ startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,해야할 일 상세 내용,Todo details
+camera,촬영,Pic.
 new_attach,새 그림,New
 add_attach,가져오기,Load
 delete_attach,삭제,Delete
@@ -86,6 +87,7 @@ noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 needLinkWithCommServ,보조 서버와 연결되어있어야 합니다.,You must be connected to the community server.
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
+AddGroup,새 그룹,Add group
 ## Settings,,
 Title,설정,Settings
 CommunityAds,보조서버 광고,Assistant server Ads
@@ -97,12 +99,12 @@ ManageServer,서버 관리,Manage server
 groupServer,메인 서버,Main server
 commServer,보조 서버,Assistant server
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
-ManageGroup,그룹 관리,Manage group
-CreateGroup,그룹 생성하기,Create a group
 Community,보조 도구,Assistant tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,빠른 QR공유,Quick QR sharing
+InAppExplorer,인앱 탐색기,InApp Explorer
+EnginePPT,엔진 PPT,Engine PPT
 joinDedi_placeholder,기본,Default
 joinDedi_button,참여,Join
 admin_community_menu,보조서버 관리자,Assistant server manager
@@ -112,7 +114,6 @@ notifications,알림,Notifications
 NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
 ToolList,도구 리스트,Tool list
-InAppExplorer,인앱 탐색기,InApp Explorer
 AppInfo,앱 정보,App info
 AppCreator,제작자,Creator
 AppTranslator,번역가,Translator
@@ -174,7 +175,8 @@ chat_extension,기능,Exts
 send_chat,보내기,Send
 remove_chatroom,삭제,Remove
 leave_chatroom,나가기,Leave
-belonging_to_group,이 채널은 그룹에 귀속되어 있습니다.,This channel belongs to a group.
+useCamera,카메라,Camera
+setting_group,설정,Settings
 attach_file,파일 첨부,Attachments
 attach_inapp_file,인앱 파일,InApp file
 unknown_ext,검토 불가,No review
@@ -267,6 +269,7 @@ ServerStatus,서버 상태,Server status
 AddressInfo,보조 서버,Community server
 isSSL,SSL 적용 여부,use SSL
 ## AddGroup,,
+Title,새 그룹 만들기,Create new group
 SelectServer,서버 선택,Select server
 GroupInfo,그룹 정보,Group info
 DisplayName,표시명,Display name
@@ -319,6 +322,7 @@ DedicatedServer,사설 서버,Dedicated server
 CustomGroupChat,사설 그룹채팅 서버,Dedicated group chat
 LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다.,The network address of this device will display here.
 NoAddress,연결된 네트워크가 없습니다.,No network connected.
+Tool_engineppt,엔진 PPT 리모콘 서버,Engine PPT Remote contr. server
 ## Translator,,
 TranslatorSpeaking,번역가의 한마디,A word from the translator
 ## CreatorInfo,,
@@ -382,3 +386,24 @@ Open,열기,Open
 Download,받기,Download
 Delete,삭제,Delete
 CreateAt,생성일시,Creation date
+## EngineWorksPPT,,
+RemoteCont,엔진PPT 리모콘,EnginePPT Controller
+LinkTitle,휴대폰과 연결,Connect with mobile phone
+YouCanSendPCK,휴대폰에 있는 *.pck를 전송하여 시작할 수도 있습니다.,You can also start by sending the *.pck on your phone.
+JustStart,프레젠테이션,Presentation
+DropFileHere,파일을 올려서 시작,Start by uploading a file
+StartLocal,이곳에 *.pck 파일을 드래그하여 시작,Start by dragging your *.pck file here
+FileExtPck,*.pck 파일을 올려주세요,Please upload the *.pck file
+LinkWithQRCode,QRCode를 스캔하여 연결,Connect by scanning the QRCode
+Manual,사용설명서,User's Guide
+ManualLink,수동으로 연결,Connect manually
+Address,주소,Address
+InputAddress,휴대폰 주소 입력,Enter mobile address
+RemoteLinked,휴대폰과 연결되었습니다,Connected to mobile phone
+Connect,연결,Connect
+ReadyToConnect,서버 주소,Target address
+Disconnected,휴대폰 연결 끊김,Disconnected from remote contr.
+NeedAddress,주소를 입력해주세요,Please enter address
+CannotConnect,연결할 수 없습니다,Could not connect
+RemoteServer,리모콘 서버,Remote controller server
+StartRemote,원격 제어 시작,Start remote control
