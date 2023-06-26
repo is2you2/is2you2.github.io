@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1687705518026,
+  "timestamp": 1687780821804,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -97,7 +97,7 @@
         "/9958.f672e53816295bb6.js",
         "/common.643ee704be7f04d3.js",
         "/index.html",
-        "/main.70ed252f325eaefe.js",
+        "/main.0838d468f1c8fbdf.js",
         "/manifest.webmanifest",
         "/polyfills-core-js.b3eb16f0f64e9b8c.js",
         "/polyfills-dom.3a5e3168052f1fc5.js",
@@ -271,7 +271,7 @@
     "/assets/data/godot/engineppt.pck": "8607ac524085c13c5417d25dfe265d9804bf1df2",
     "/assets/data/godot/godot-viewer.pck": "36b39483100b8f7ac5f772325b417c0d56263bfa",
     "/assets/data/godot/todo.pck": "11ef87a709a3b1b71456364e52bf30333127abe7",
-    "/assets/data/godot/voidDraw.pck": "4a32dfae18ac28f74c59357b49c3157bd0d1d7dc",
+    "/assets/data/godot/voidDraw.pck": "f5073cad8101dfb8e52a6f2e9592eb4af732c023",
     "/assets/data/infos/en/administrator_notification.txt": "a53a372e25eef2e09928652a9f874b68536e32e9",
     "/assets/data/infos/en/community-server.txt": "6596057f6f032b8f1452861a2f6ebcf0cee44c6d",
     "/assets/data/infos/en/creator.json": "bfba91fb4c5a72ec116e53e176e2aa8c87a6e46f",
@@ -310,8 +310,8 @@
     "/assets/logo.svg": "4eb07e51e87261c25e584fd854d97fe8d5e2b836",
     "/assets/sw.js": "a0c9d335718719e5bf37040a2970259d4cc89505",
     "/common.643ee704be7f04d3.js": "bd447f7e48b3337308b9f97d74938382a7f921e2",
-    "/index.html": "4d016de7734a99871948de1f57f1c7e01b372940",
-    "/main.70ed252f325eaefe.js": "7d5e07e77bc9e526cd553459050e4a0616d3b92f",
+    "/index.html": "269a9fed8f19ceb9e02d8ca6024ae7c55b459f44",
+    "/main.0838d468f1c8fbdf.js": "70cbaa54668ecf88de23128064f71eafad81149e",
     "/manifest.webmanifest": "2090ec6b915119d3acda108e496dfb954b660049",
     "/polyfills-core-js.b3eb16f0f64e9b8c.js": "74f73ddfbee814abfb2702e1dd9ca4c9ddb994c5",
     "/polyfills-dom.3a5e3168052f1fc5.js": "50f6ff473a0568bffb8a9d412d7efaced2d36137",
