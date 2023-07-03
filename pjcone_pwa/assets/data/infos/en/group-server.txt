@@ -1,7 +1,7 @@
 3 line summary
 -----------
 1. As an open source server, anyone can create and operate a server.
-2. In general, the ID is composed of an email and the password is a unique ID of the device.
+2. The ID consists of an email and the password is a string of 8 or more characters.
 3. When operating a private server, the content related to the personal information processing policy must be delivered to connected users in any way.
 -----------
 * Virtually open information notice

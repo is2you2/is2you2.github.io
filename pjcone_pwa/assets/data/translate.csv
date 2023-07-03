@@ -78,28 +78,24 @@ WIP,작업을 완료중입니다...,Work in progress...
 Title,할 일 목록,Todo
 ## Subscribes,,
 Title,연결,Link
-has_noties,검토해야할 연결이 있습니다.,There are connections to review.
+has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
 almighty_link,만능 연결 버튼,Almighty link button
 almighty_button,연결 !,Link !
 Chat,대화,Chat
 noChatList,참여중인 대화가 없습니다.,There are no active conversations.
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
-needLinkWithCommServ,보조 서버와 연결되어있어야 합니다.,You must be connected to the community server.
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
 AddGroup,새 그룹,Add group
 ## Settings,,
 Title,설정,Settings
-CommunityAds,보조서버 광고,Assistant server Ads
+CommunityAds,개발자 광고,Developer Ads
 AdsContact,광고 문의,Ads Contact
 env_info,사용 환경,Preferences
 myInfo,내 정보,My info
-takeOverUser,사용자 인계,User override
-ManageServer,서버 관리,Manage server
-groupServer,메인 서버,Main server
-commServer,보조 서버,Assistant server
+groupServer,서버 목록,Main server
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
-Community,보조 도구,Assistant tools
+ServerNTools,서버와 도구,Servers and tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,빠른 QR공유,Quick QR sharing
@@ -107,13 +103,11 @@ InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,엔진 PPT,Engine PPT
 joinDedi_placeholder,기본,Default
 joinDedi_button,참여,Join
-admin_community_menu,보조서버 관리자,Assistant server manager
-admin_noti_all,보조서버 전체 공지,Assistant server notice
+admin_tools,관리자 도구,Admin tools
 admin_req_counter,서버 상태,Server status
-notifications,알림,Notifications
 NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
-ToolList,도구 리스트,Tool list
+PluginList,플러그인 리스트,Plugin list
 AppInfo,앱 정보,App info
 AppCreator,제작자,Creator
 AppTranslator,번역가,Translator
@@ -150,6 +144,8 @@ enterURI,이미지 주소 입력하기,Enter image URL
 change_img,이미지 변경,Change image
 login_info,로그인 정보,Login info
 email_address,이메일 주소,Email Address
+password,비밀번호,Password
+at_least,최소 8자리,at least 8 digits
 user_display_name,사용자 표시명,Display name
 login_toggle,로그인,Login
 main_content,메인 콘텐츠,Main contents
@@ -204,12 +200,6 @@ Filename,파일 이름,Filename
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
 fileSaved,저장되었습니다,File saved
-## WscClient,,
-OnlineMode,온라인 모드,Online mode
-OnlineMode_text,보조 서버로부터 알림을 받을 수 있습니다.,You can receive notifications from the assistant server.
-Disconnected,보조 서버로부터 연결이 끊어졌습니다.,You have been disconnected from the assistant server.
-OfflineMode,오프라인 모드,Offline mode
-OfflineMode_text,사설서버부터 알림을 받을 수 있습니다.,You can receive notifications from private servers.
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
@@ -242,16 +232,9 @@ waiting_someone,새로운 상대를 기다립니다..,Waiting for a new opponent
 cannot_start,시작할 수 없어요..,Can not start..
 leave_chat_ran,랜덤채팅에서 벗어납니다.,You leave random chat
 leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
-## LinkAccount,,
-use_almighty_button_to,아래를 스캔하여 기기id 인계,Scan below to take over device id
-Recovery,원상복구,Recovery
-recovery_device_id,기기 id 되돌리기,Reset device id
-link_account_succ,사용자 연결에 성공했습니다.,User connection was successful.
-failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 ## GroupServer,,
 AboutServerAndAccount,서버와 계정에 대해서,About servers and accounts
 JoinedServerList,참여중인 서버 목록,List of participating servers
-HideOfficialDefault,가리기,Hide
 ServerDetail,서버정보,Server info
 RemoveUnofficial,삭제,Delete
 RegisterServer,사설 서버 등록하기,Register private server
@@ -268,11 +251,6 @@ NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
 ## ServerDetail,,
 copy_scan_below,아래를 스캔하여 서버 정보 복제,Duplicate server information by scanning below
 ApplyChangeServerInfo,적용하기,Apply
-## CommunityServer,,
-AboutCommServer,보조 서버에 대해서,About community server
-ServerStatus,서버 상태,Server status
-AddressInfo,보조 서버,Community server
-isSSL,SSL 적용 여부,use SSL
 ## AddGroup,,
 Title,새 그룹 만들기,Create new group
 SelectServer,서버 선택,Select server
@@ -310,14 +288,15 @@ YouAreNotCreator,그룹 생성자가 아닙니다.,You are not group creator.
 ## Licenses,,
 open_link,열기,Open
 ## QuickQRShare,,
+SelectServer,서버 선택,Share at
 SelectData,공유할 정보,Information to share
-GroupServer,Main 서버,Main server
+GroupServer,서버 정보,Server info
 Group,그룹,Group
 EmptyData,없음,Null
 ReceiveData,정보 수신,Receiving information
 SendData,발신,Send
 ShowQR,수신QR 보이기,Show QR
-groupserver_dataonly,메인 서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Main server information may behave differently than expected due to the user registration process.
+groupserver_dataonly,서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Server information may behave differently than expected due to the user registration process.
 ## UseAsServer,,
 Title,이 기기를 기능 서버로,Use this device as a functional server
 UserNotice,사용 유의사항,Precautions for use
@@ -337,6 +316,11 @@ giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to develop
 ## GlobalAct,,
 FailedToDownloadGodot,기능 다운로드 실패,Failed to download tool
 UnCheckableCreator,확인 불가,Not confirmed
+failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
+OnlineMode,온라인,Online
+OnlineMode_text,서버에 연결되어 있습니다,You are connected to the server
+OfflineMode,오프라인,Offline
+OfflineMode_text,연결된 서버가 없습니다,No server connected
 ## IndexedDB,,
 FailedToOpenFile,파일 열기 오류,Failed to open file
 FailedToDownloadFile,다운받기 오류,Failed to download file
@@ -348,7 +332,7 @@ NeedAccountReset,이 기기에서는 로그인할 수 없습니다 (계정 이�
 RegisterUserSucc,회원가입이 완료되었습니다,Sign up is complete
 UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
 CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
-DisconnectedFromServer,메인서버 연결 끊어짐,Lost connection to group server
+DisconnectedFromServer,서버 연결 끊어짐,Lost connection
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
 MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
 DeletedServer,삭제된 서버,Deleted server
@@ -393,7 +377,6 @@ Delete,삭제,Delete
 CreateAt,생성일시,Creation date
 ## EngineWorksPPT,,
 RemoteCont,엔진PPT 리모콘,EnginePPT Controller
-LinkTitle,휴대폰과 연결,Connect with mobile phone
 YouCanSendPCK,휴대폰에 있는 *.pck를 전송하여 시작할 수도 있습니다.,You can also start by sending the *.pck on your phone.
 JustStart,프레젠테이션,Presentation
 DropFileHere,파일을 올려서 시작,Start by uploading a file
@@ -417,3 +400,9 @@ ReceivingFile,파일을 받고 있습니다,Receiving file
 StartRemote,원격 제어 시작,Start remote control
 ClientConnected,연결되었습니다,Connected
 UsePPTRemote,PPT 리모콘으로 사용합니다,Use as presentation remote control
+## AdminTools,,
+GlobalNoti,전체알림 발송,Send all notifications
+ImageURL,이미지 URL,Image URL
+EnterURI,이미지 주소 입력,Enter image url
+NoNotiMsg,전달할 메시지를 입력해주세요,Please enter your message
+Send,발송,Send

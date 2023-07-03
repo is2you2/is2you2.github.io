@@ -1,13 +1,10 @@
- Project: Cone collects the following user information, but does not manage it.
+ The contents below are collected and applied equally even if a private server is used, and additional collection may be made according to the intention of the private server manager.
+ If you use the server provided by Project: Cone, the following user information is collected, but it is busy with development, so it is not specifically managed.
+ In addition, since a personal computer is used as a server, server information may be initialized without notice when issues such as capacity problems occur.
 
-1. When using the main server, the ID in email format and the unique ID of the device are collected and used as member information.
-2. Instead of being a perfect anonymity system, there is no membership withdrawal function using the app.
+1. When registering and using the server, an ID in email format and a string of 8 or more characters are collected and used as member information.
+2. Things related to actions using the server (group creation, group conversations, 1:1 conversations, etc.) are generally stored on the server indefinitely.
 
- Project: Cone does not collect communications with the private servers configured by the user or interact with how the user operates the server.
-
+ Project: Cone does not collect communications with the private servers configured by the user or interfere with how the user operates the server.
  All kinds of policies/incidents/events that may occur on the private server are the responsibility of the private server manager, and if necessary, the server user must be notified in a suitable way.
-
  When using a private server through this app, we recommend that you use a server from a trusted group. Project:Cone does not take any responsibility for what happens on the private server.
-
- * Account-related issues in the current version
- Since the device-specific ID is being used as member information, there is a problem that you cannot enter the existing account if the device you are using is changed.
