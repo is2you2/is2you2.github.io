@@ -1,7 +1,9 @@
 ﻿#,ko,en
+## Main,,
+Title,할 일 목록,Todo
 ## Portal,,
-Link,연결,Link
-Main,메인,Main
+Chat,그룹,Groups
+Todo,할 일,Todo
 Settings,설정,Settings
 ## Administrator,,
 AdminNotiTitle,보조서버 관리자,Assistant server manager
@@ -74,10 +76,8 @@ ModifyTodo,해야할 일 수정,Modify todo
 removeTodo,기록 삭제,Remove todo
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
 WIP,작업을 완료중입니다...,Work in progress...
-## Main,,
-Title,할 일 목록,Todo
 ## Subscribes,,
-Title,연결,Link
+Title,그룹,Groups
 has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
 almighty_link,만능 연결 버튼,Almighty link button
 almighty_button,연결 !,Link !
@@ -87,6 +87,7 @@ noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
 AddGroup,새 그룹,Add group
+Disconnected,연결된 서버가 없습니다,No server connected
 ## Settings,,
 Title,설정,Settings
 CommunityAds,개발자 광고,Developer Ads
@@ -168,8 +169,6 @@ kicked_from_group,사용자를 내보냈습니다,User kicked
 noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
 fetch_next_chat,최근 기록 불러오기,Retrieve recent records
-chat_extension,기능,Exts
-send_chat,보내기,Send
 remove_chatroom,삭제,Remove
 leave_chatroom,나가기,Leave
 useCamera,카메라,Camera
@@ -206,8 +205,6 @@ shareAddress,주소 공유,Share address
 start_chat,대화 시작하기,Start a conversation
 selectNetwork,네트워크를 선택하여 공유,Select network to share
 new_chat,새 대화,New
-exit_chat,끝내기,Exit
-send,보내기,Send
 input_placeholder,메시지 입력...,Enter message...
 header_title_ranchat,미니랜챗,Random chat
 header_title_group,그룹채팅,Group chat
