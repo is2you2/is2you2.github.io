@@ -234,6 +234,7 @@ AboutServerAndAccount,서버와 계정에 대해서,About servers and accounts
 JoinedServerList,참여중인 서버 목록,List of participating servers
 ServerDetail,서버정보,Server info
 RemoveUnofficial,삭제,Delete
+RemoveAccount,탈퇴,Leave
 RegisterServer,사설 서버 등록하기,Register private server
 DisplayName,표시명,Display name
 DisplayName_placeholder,사용자 사설 서버,User dedicated server
@@ -327,7 +328,7 @@ FailedToDownloadFile,다운받기 오류,Failed to download file
 AlreadyHaveTargetName,이미 같은 구분자를 쓰는 서버가 있습니다,There is already a server using the same key
 NeedLoginInfo,로그인 정보를 입력해주세요,Please enter your login information
 NeedLinkUser,사용자를 연결해주세요,Please link user device info
-NeedAccountReset,이 기기에서는 로그인할 수 없습니다 (계정 이전 기능 준비중),Cannot log in from this device (account transfer function in preparation)
+NeedAccountReset,비밀번호를 확인해주세요,Please check your password
 RegisterUserSucc,회원가입이 완료되었습니다,Sign up is complete
 UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
 CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
