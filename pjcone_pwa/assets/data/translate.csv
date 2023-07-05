@@ -245,6 +245,8 @@ Port,포트,Port
 isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
+DeleteAccountSucc,회원탈퇴 되었습니다,Membership has been withdrawn
+DeleteAccountFailed,서버 기록만 삭제됩니다,Only server records are deleted
 ## ServerDetail,,
 copy_scan_below,아래를 스캔하여 서버 정보 복제,Duplicate server information by scanning below
 ApplyChangeServerInfo,적용하기,Apply
