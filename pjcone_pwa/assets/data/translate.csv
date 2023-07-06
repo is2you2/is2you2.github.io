@@ -1,10 +1,6 @@
 ﻿#,ko,en
 ## Main,,
 Title,할 일 목록,Todo
-## Portal,,
-Chat,그룹,Groups
-Todo,할 일,Todo
-Settings,설정,Settings
 ## Administrator,,
 AdminNotiTitle,보조서버 관리자,Assistant server manager
 CanUseAsAdmin,관리자 기능을 사용합니다,Use admin features
@@ -169,12 +165,6 @@ kicked_from_group,사용자를 내보냈습니다,User kicked
 noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
 fetch_next_chat,최근 기록 불러오기,Retrieve recent records
-remove_chatroom,삭제,Remove
-leave_chatroom,나가기,Leave
-useCamera,카메라,Camera
-setting_group,설정,Settings
-attach_file,파일 첨부,Attachments
-attach_inapp_file,인앱 파일,InApp file
 unknown_ext,검토 불가,No review
 attachments,첨부파일,Attachments
 voidDraw,간이 그림판,Simple Paint
