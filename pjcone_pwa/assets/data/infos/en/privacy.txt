@@ -1,9 +1,0 @@
- The following information is collected and applied in the same manner as the server default setting when using a private server, and additional collection may be made according to the intention of the private server manager.
-
-1. When registering and using the server, an ID in email format and a string of 8 or more characters are collected and used as member information.
-2. Things related to actions using the server (group information, conversations, 1:1 conversations, etc.) are stored on the server indefinitely until the account is deleted.
-
- Project: Cone does not collect communications with the private servers configured by the user or interfere with how the user operates the server.
- All kinds of policies/incidents/events that may occur on the private server are the responsibility of the private server manager, and if necessary, the server user must be notified in a suitable way.
-
- When using a private server through this app, we recommend that you use a server from a trusted group. Project:Cone does not take any responsibility for what happens on the private server.
