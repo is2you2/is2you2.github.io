@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688768884076,
+  "timestamp": 1688769842245,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -275,7 +275,7 @@
     "/assets/data/infos/ko/group-server.txt": "5462f25ed55a4a6d13628ddb18bed1f8e7cba944",
     "/assets/data/infos/ko/quick_datashare.txt": "e8c94895bbe6d5473c0130ffac8a1c67e276e367",
     "/assets/data/infos/ko/translator.json": "d39c6df25d0b2c3b3f49c48b0542af0faa593117",
-    "/assets/data/translate.csv": "72c81a8763f1b5d0c987d2eca7a5eda8503f096e",
+    "/assets/data/translate.csv": "77cf781fd1ee7dafb1324b32d53792ca4e724d5a",
     "/assets/html/.gdignore": "8eee7eb8ecfb5aa71c23c782bb5dbc091a551ffd",
     "/assets/html/index.apple-touch-icon.png": "1d7d1450f43a7e460e6db0a73683ea93313c6a34",
     "/assets/html/index.audio.worklet.js": "4f8147b03b36e3549e4df2eff1c257e90bb187fa",

@@ -340,6 +340,7 @@ LocalNotiCheck,검토,Check
 ## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
 UseThisImage,이미지를 준비중...,Preparing image to send...
+newDraw,새 그림,New draw
 CreateNew,새로 만들기,New
 width,가로,Width
 height,세로,Height
