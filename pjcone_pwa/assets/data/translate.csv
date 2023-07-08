@@ -145,9 +145,13 @@ at_least,최소 8자리,at least 8 digits
 user_display_name,사용자 표시명,Display name
 login_toggle,로그인,Login
 main_content,메인 콘텐츠,Main contents
-not_available_yet,기능 준비중,Feature in preparation
+upload,올리기,Upload
+remove_content,삭제,Remove
+ContentRemoved,콘텐츠가 삭제되었습니다,Content has been removed
 no_main_content,없음,Null
 user_img_changed,사용자 이미지 변경,User image changed
+user_content_changed,사용자 콘텐츠 변경,User content changed
+user_content_removed,사용자 콘텐츠 삭제,User content removed
 need_email,이메일 주소를 입력해주세요,Please enter your email address
 need_password,비밀번호를 입력해주세요,Please enter a password
 pasteURI,눌러서 외부이미지 주소 붙여넣기,Click to paste external image address
@@ -161,6 +165,7 @@ privacy_chat,대화,Private chat
 kick_from_group,추방,Kick user
 added_to_group,그룹원이 추가되었습니다,User added
 kicked_from_group,사용자를 내보냈습니다,User kicked
+refresh,새로고침,Refresh
 ## ChatRoom,,
 noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
@@ -304,7 +309,7 @@ creatorComment,제작자의 한마디,A word from the maker
 Ifyoulike,이 앱이 마음에 드신다면,If you like this app
 giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to developer
 ## GlobalAct,,
-FailedToDownloadGodot,기능 다운로드 실패,Failed to download tool
+FailedToDownloadGodot,씬 실행 실패,Execution scene failed
 UnCheckableCreator,확인 불가,Not confirmed
 failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 OnlineMode,온라인,Online
