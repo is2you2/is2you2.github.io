@@ -2,9 +2,5 @@
 -----------
 1. As an open source server, anyone can create and operate a server.
 2. The ID consists of an email and the password is a string of 8 or more characters.
-3. When operating a private server, the content related to the personal information processing policy must be delivered to connected users in any way.
+3. Upon membership withdrawal, all activity information is deleted.
 -----------
-* Virtually open information notice
- Nakama is an open source server, so anyone can configure a private server and implement additional features on the server as needed.
- In other words, the manager of the private server can access/store/modify/delete all information communicating with the server for any purpose, and can add new functions.
- This developer does not take any responsibility for any problems caused by using an unreliable server. We strongly recommend that you use servers provided by reliable institutions, companies, groups, etc.

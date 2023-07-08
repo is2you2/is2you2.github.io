@@ -148,7 +148,8 @@ main_content,메인 콘텐츠,Main contents
 not_available_yet,기능 준비중,Feature in preparation
 no_main_content,없음,Null
 user_img_changed,사용자 이미지 변경,User image changed
-need_email,이메일 주소가 있어야 온라인으로 전환하실 수 있습니다.,You must have an email address to go online.
+need_email,이메일 주소를 입력해주세요,Please enter your email address
+need_password,비밀번호를 입력해주세요,Please enter a password
 pasteURI,눌러서 외부이미지 주소 붙여넣기,Click to paste external image address
 copyURIFirst,먼저 웹 페이지에서 이미지 주소를 복사해주세요,Copy the image address from the web page first
 user_profile_changed,사용자 프로필 변경,Change user profile

@@ -1,2 +1,0 @@
-Send a notification to all users connected to the assistant server. Even if you use the same main server, notifications will not propagate if the assistant server is different.
-You can include images in notifications by adding an image URL.
