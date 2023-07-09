@@ -147,7 +147,6 @@ login_toggle,로그인,Login
 main_content,메인 콘텐츠,Main contents
 upload,올리기,Upload
 remove_content,삭제,Remove
-ContentRemoved,콘텐츠가 삭제되었습니다,Content has been removed
 no_main_content,없음,Null
 user_img_changed,사용자 이미지 변경,User image changed
 user_content_changed,사용자 콘텐츠 변경,User content changed
@@ -274,7 +273,6 @@ NoDetailGroup,설명 없는 그룹,No description
 Members,그룹 구성원,Members
 invite_scan_below,아래를 스캔하여 그룹에 초대,Scan below to invite to group
 BreakupGroup,그룹 해산,Breakup
-RemoveGroup,기록 삭제,Remove history
 LeaveGroup,떠나기,Leave group
 GroupInfoUpdated,그룹 정보 업데이트됨,Group info updated
 GroupImageUpdated,그룹 이미지 업데이트됨,Group image updated
