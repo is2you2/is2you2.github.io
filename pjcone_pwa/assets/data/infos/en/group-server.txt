@@ -1,6 +1,6 @@
 3 line summary
 -----------
-1. As an open source server, anyone can create and operate a server.
+1. The chat server is a Nakama open source server that anyone can create and operate.
 2. The ID consists of an email and the password is a string of 8 or more characters.
 3. Upon membership withdrawal, all activity information is deleted.
 -----------
