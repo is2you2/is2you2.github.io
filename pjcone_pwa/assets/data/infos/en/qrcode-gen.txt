@@ -1,0 +1,2 @@
+ This is a basic QRCode generation function that converts a user-created string into a QRCode. Using this function, you can share information with people around you without sending a separate message.
+ Typically, it can be used to quickly share a website address between devices.
