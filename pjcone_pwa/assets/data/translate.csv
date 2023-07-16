@@ -67,8 +67,6 @@ remove,삭제,Remove todo
 buttonDisplay_add,추가,Add todo
 buttonDisplay_modify,수정,Modify detail
 needDisplayName,표시명을 작성하여야 합니다.,Display name must be written
-CreateTodo,해야할 일 생성,Create todo
-ModifyTodo,해야할 일 수정,Modify todo
 removeTodo,기록 삭제,Remove todo
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
 WIP,작업을 완료중입니다...,Work in progress...
@@ -403,3 +401,4 @@ Send,발송,Send
 ## QRCodeGen,,
 AboutQRCodeGen,이 기능에 대해서,About this feature
 UserInput,사용자 입력,User input
+InputHere,내용 입력,Enter content
