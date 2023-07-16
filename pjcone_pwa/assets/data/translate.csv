@@ -365,6 +365,10 @@ Open,열기,Open
 Download,받기,Download
 Delete,삭제,Delete
 CreateAt,생성일시,Creation date
+RemoveCurrentDir,삭제,Remove
+RemoveFolder,폴더 삭제,Remove folder
+RemoveThisFolder,이 폴더와 하위 폴더 및 파일들을 삭제합니다,Delete this folder and subfolders and files
+RemoveApply,삭제,Remove
 ## EngineWorksPPT,,
 RemoteCont,엔진PPT 리모콘,EnginePPT Controller
 YouCanSendPCK,휴대폰에 있는 *.pck를 전송하여 시작할 수도 있습니다.,You can also start by sending the *.pck on your phone.
