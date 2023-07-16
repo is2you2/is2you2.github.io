@@ -297,10 +297,10 @@ UserNotice,사용 유의사항,Precautions for use
 ThisDeviceAddress,이 기기의 네트워크 주소,Network address of this device
 RefreshAddress,새로고침,Refresh
 DedicatedServer,사설 서버,Dedicated server
-CustomGroupChat,사설 그룹채팅 서버,Dedicated group chat
+CustomGroupChat,사설 그룹채팅,Dedicated group chat
 LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다.,The network address of this device will display here.
 NoAddress,연결된 네트워크가 없습니다.,No network connected.
-Tool_engineppt,엔진 PPT 리모콘 서버,Engine PPT Remote contr. server
+Tool_engineppt,엔진 PPT 리모콘,Engine PPT Remote contr.
 ## Translator,,
 TranslatorSpeaking,번역가의 한마디,A word from the translator
 ## CreatorInfo,,
