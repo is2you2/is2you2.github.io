@@ -314,7 +314,6 @@ OnlineMode_text,서버에 연결되어 있습니다,You are connected to the ser
 OfflineMode,오프라인,Offline
 OfflineMode_text,연결된 서버가 없습니다,No server connected
 ## IndexedDB,,
-FailedToOpenFile,파일 열기 오류,Failed to open file
 FailedToDownloadFile,다운받기 오류,Failed to download file
 ## Nakama,,
 AlreadyHaveTargetName,이미 같은 구분자를 쓰는 서버가 있습니다,There is already a server using the same key
@@ -363,6 +362,11 @@ Open,열기,Open
 Download,받기,Download
 Delete,삭제,Delete
 CreateAt,생성일시,Creation date
+ImportFolder,폴더 수입,Import folder
+ExportDir,추출,Export
+ExportDirTitle,폴더 추출,Export folder
+ExportDirMsg,예하 파일들을 추출합니다,Extract subordinate files
+ExportConfirm,추출,Export
 RemoveCurrentDir,삭제,Remove
 RemoveFolder,폴더 삭제,Remove folder
 RemoveThisFolder,이 폴더와 하위 폴더 및 파일들을 삭제합니다,Delete this folder and subfolders and files
