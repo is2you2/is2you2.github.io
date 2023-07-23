@@ -225,7 +225,7 @@ leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
 ## GroupServer,,
 AboutServerAndAccount,서버와 계정에 대해서,About servers and accounts
 JoinedServerList,참여중인 서버 목록,List of participating servers
-ServerDetail,서버정보,Server info
+ServerDetail,정보,Info
 RemoveUnofficial,삭제,Delete
 RemoveAccount,탈퇴,Leave
 RegisterServer,사설 서버 등록하기,Register private server
@@ -351,7 +351,7 @@ changeWeight,두께 변경,Change weight
 apply,적용,Apply
 default_size,기본,default
 ## UserFsDir,,
-LoadingExplorer,탐색기 준비중,Loading Explorer
+LoadingExplorer,준비중,Explorer
 CannotOpenFile,이 파일은 열 수 없습니다,This file cannot be opened
 DeleteFile,파일 삭제,Delete file
 CannotBeUndo,이 작업은 되돌릴 수 없습니다,This action cannot be undone
