@@ -368,7 +368,6 @@ ExportDirTitle,폴더 추출,Export folder
 ExportDirMsg,예하 파일들을 추출합니다,Extract subordinate files
 ExportConfirm,추출,Export
 RemoveCurrentDir,삭제,Remove
-RemoveFolder,폴더 삭제,Remove folder
 RemoveThisFolder,이 폴더와 하위 폴더 및 파일들을 삭제합니다,Delete this folder and subfolders and files
 RemoveApply,삭제,Remove
 ## EngineWorksPPT,,
