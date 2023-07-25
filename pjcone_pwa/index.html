@@ -26,10 +26,6 @@
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register(`${sub_path}assets/sw.js`)
-        // manifest.webmanifest 와 sw.js 파일을 함께 변경해야 합니다
-        // manifest.icons[i].source / 캐시 경로 ... /pjcone_pwa/**/*
-        // .register('/pjcone_pwa/assets/sw.js')
-        // 이거 바꿀 때 바로 위에 있는 기반 href도 변경하기 -_-;;
         .then((reg) => {
           console.log('Service Worker Registered');
           swReg = reg;
@@ -46,6 +42,6 @@
 
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.56cbcd3b06444175.js" type="module"></script><script src="polyfills.ff60c501a6550566.js" type="module"></script><script src="main.0425788d05886ee5.js" type="module"></script>
+<script src="runtime.d435d89ab0872373.js" type="module"></script><script src="polyfills.ff60c501a6550566.js" type="module"></script><script src="main.b720759f7f0b7de3.js" type="module"></script>
 
 </allow-intent></allow-intent></body></html>
