@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1690327049736,
+  "timestamp": 1690417484742,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -18,7 +18,7 @@
         "/132.4d9420c3022d019c.js",
         "/1388.12c1652ea9743449.js",
         "/1420.f739773b7a895285.js",
-        "/1484.d9d62d570e33f734.js",
+        "/1484.67f1ba3ad9f291bb.js",
         "/1536.160a3bf2fb301f56.js",
         "/160.89e0315a8a396c67.js",
         "/1650.cbf2388c670cc6c4.js",
@@ -48,6 +48,7 @@
         "/4376.4fe1bbc9407640d2.js",
         "/438.18913e2b29418376.js",
         "/4432.0d4ac27279acfa91.js",
+        "/4454.5fa15d0c1bd2af05.js",
         "/4477.7ebdba1dfa201584.js",
         "/4695.b92eb49ac1959632.js",
         "/4711.7fa8c06796dfc38d.js",
@@ -101,8 +102,8 @@
         "/polyfills-core-js.b3eb16f0f64e9b8c.js",
         "/polyfills-dom.3a5e3168052f1fc5.js",
         "/polyfills.ff60c501a6550566.js",
-        "/runtime.0fcb774a871b4ff2.js",
-        "/styles.2097f3d9dcba486a.css"
+        "/runtime.53d9af6b831fa5a9.js",
+        "/styles.1d3ddf1d7706b1fa.css"
       ],
       "patterns": []
     },
@@ -170,7 +171,7 @@
     "/132.4d9420c3022d019c.js": "e20c04520b639dc2b4b5bbcaca2facfe52a133c1",
     "/1388.12c1652ea9743449.js": "907faedb9718722e3ad01beabe809bc5dac0286f",
     "/1420.f739773b7a895285.js": "63f443010b6c541c91e1093168600d686d4ffe40",
-    "/1484.d9d62d570e33f734.js": "851b75f575820050af8d04e699cc431f4e242321",
+    "/1484.67f1ba3ad9f291bb.js": "405e082f65c5e2f3d00e3d06ca77b0a2bbb32159",
     "/1536.160a3bf2fb301f56.js": "47659820d888f5df981a48d38769214a1fd49d1c",
     "/160.89e0315a8a396c67.js": "bae55212d86b90d0312ac2ab013e2110206a8ceb",
     "/1650.cbf2388c670cc6c4.js": "aff46e3548ac617aa1377c4642969e12e946aad4",
@@ -200,6 +201,7 @@
     "/4376.4fe1bbc9407640d2.js": "b5bacfa9c8f55edd35cd27d066922c9c0d0a9781",
     "/438.18913e2b29418376.js": "384f045d171c42e0b0a6e9d7507f21ac90163b9a",
     "/4432.0d4ac27279acfa91.js": "553531ec3acc7825039502f858ff724a7ec45f64",
+    "/4454.5fa15d0c1bd2af05.js": "f1e032d521a237cf69dda7fbf66d482f2a4e1788",
     "/4477.7ebdba1dfa201584.js": "69bd73c731c25053b635f876b5b3c7bdb6d09926",
     "/4695.b92eb49ac1959632.js": "b5be314da0fc31c35ed6e22055adeb38d6074311",
     "/4711.7fa8c06796dfc38d.js": "3325cd84415d00848fedf257e5906780cd090887",
@@ -270,7 +272,7 @@
     "/assets/data/infos/ko/qrcode-gen.txt": "a4cfea67ec178283558a6955a49eae1116fa05df",
     "/assets/data/infos/ko/quick_datashare.txt": "e8c94895bbe6d5473c0130ffac8a1c67e276e367",
     "/assets/data/infos/ko/translator.json": "d39c6df25d0b2c3b3f49c48b0542af0faa593117",
-    "/assets/data/translate.csv": "03d8ce57b7b6573c8f4b0cb5e95f51bd93edd357",
+    "/assets/data/translate.csv": "fcf6741ad53f43d84a67b33abbd5cd819db58baa",
     "/assets/html/.gdignore": "8eee7eb8ecfb5aa71c23c782bb5dbc091a551ffd",
     "/assets/html/index.apple-touch-icon.png": "1d7d1450f43a7e460e6db0a73683ea93313c6a34",
     "/assets/html/index.audio.worklet.js": "4f8147b03b36e3549e4df2eff1c257e90bb187fa",
@@ -290,14 +292,14 @@
     "/assets/logo.svg": "4eb07e51e87261c25e584fd854d97fe8d5e2b836",
     "/assets/sw.js": "31dd97d3ecc8739f9d5d538e816d75fcd5a79ae3",
     "/common.65d7d31376be3472.js": "e6cdced8f7c40b81a280f1a7ad602d5f2fdec076",
-    "/index.html": "4692d18cba64a64e6fbe90b73fbf67b7430de45f",
+    "/index.html": "2479b78ad0277b1bcaa009ace49046567793cf74",
     "/main.f91dff78fe0afd3d.js": "0e27263541cb722dce490d977aa63c32192b86ad",
     "/manifest.webmanifest": "08188fef986356d30a20107267dbe24f7ece6f0a",
     "/polyfills-core-js.b3eb16f0f64e9b8c.js": "74f73ddfbee814abfb2702e1dd9ca4c9ddb994c5",
     "/polyfills-dom.3a5e3168052f1fc5.js": "50f6ff473a0568bffb8a9d412d7efaced2d36137",
     "/polyfills.ff60c501a6550566.js": "a7a9a0cf8c6758d0c2721afd936fe152937b31f6",
-    "/runtime.0fcb774a871b4ff2.js": "3595aacd97f2cb678a600cdf1063a6c428902fb7",
-    "/styles.2097f3d9dcba486a.css": "321bb0a48a819f7636422afa7695eee9dbc6d78f"
+    "/runtime.53d9af6b831fa5a9.js": "1bf42321b0f9f8a70b7a27b40928690451dcef2c",
+    "/styles.1d3ddf1d7706b1fa.css": "ae6f7bd760b6de81b4b5092b7a7dbe4d67c190ac"
   },
   "navigationUrls": [
     {

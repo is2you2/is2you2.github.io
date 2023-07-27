@@ -95,6 +95,7 @@ joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,빠른 QR공유,Quick QR sharing
 QRCodeGen,QR코드 생성기,QRCode Generator
+WSClient,웹소켓 클라이언트,Websocket client
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,엔진 PPT,Engine PPT
 joinDedi_placeholder,기본,Default
@@ -405,3 +406,17 @@ Send,발송,Send
 AboutQRCodeGen,이 기능에 대해서,About this feature
 UserInput,사용자 입력,User input
 InputHere,내용 입력,Enter content
+## WSClient,,
+address,주소와 포트,Address and port
+button_offline,연결하기,Connect
+button_missing,연결 끊김,Disconencted
+button_pending,연결중,Connecting
+button_online,연결 끊기,Disconnect
+connInfo,연결정보,Connection info
+logs,기록,Logs
+Connected,서버에 연결됨,Connected to server
+Received,받음,Recevied
+RecvError,수신 오류,ReceiveError
+SocketError,소켓오류,onError
+inputmsg,메시지 입력,Input message
+send,발송,Send
