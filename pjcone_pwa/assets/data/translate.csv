@@ -64,10 +64,10 @@ attachments,첨부파일,Attachments
 open_content_viewer,클릭하여 콘텐츠 뷰어에서 열기,Click to open in content viewer
 logs,기록,Logs
 remove,삭제,Remove todo
-buttonDisplay_add,추가,Add todo
-buttonDisplay_modify,수정,Modify detail
+buttonDisplay_add,추가,Add
+buttonDisplay_modify,수정,Modify
 needDisplayName,표시명을 작성하여야 합니다.,Display name must be written
-removeTodo,기록 삭제,Remove todo
+removeTodo,기록 삭제,Remove
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
 WIP,작업을 완료중입니다...,Work in progress...
 ## Subscribes,,
