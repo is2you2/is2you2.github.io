@@ -59,6 +59,7 @@ description_placeholder,해야할 일 상세 내용,Todo details
 camera,촬영,Pic.
 new_attach,새 그림,New
 add_attach,가져오기,Load
+load_failed,파일 가져오기에 실패하였습니다,Failed to load file
 delete_attach,삭제,Delete
 attachments,첨부파일,Attachments
 open_content_viewer,클릭하여 콘텐츠 뷰어에서 열기,Click to open in content viewer
