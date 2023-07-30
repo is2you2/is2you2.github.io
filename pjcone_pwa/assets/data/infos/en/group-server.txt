@@ -1,6 +1,8 @@
 3 line summary
 -----------
 1. The chat server is a Nakama open source server that anyone can create and operate.
+https://github.com/is2you2/pjcone_basic_guide
+Please follow the guidelines on this page.
 2. The ID consists of an email and the password is a string of 8 or more characters.
 3. Upon membership withdrawal, all activity information is deleted.
 -----------

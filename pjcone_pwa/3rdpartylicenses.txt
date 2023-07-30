@@ -34,6 +34,9 @@ MIT
 @awesome-cordova-plugins/file
 MIT
 
+@awesome-cordova-plugins/file-opener
+MIT
+
 @awesome-cordova-plugins/local-notifications
 MIT
 
