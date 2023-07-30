@@ -41,12 +41,9 @@ TodoMoveTo,이관,Move
 TodoFocus,집중,Focus
 DisplayName,표시명,Display name
 DisplayName_placeholder,짧게,briefly
-Tag,태그,Tag
-SelectTag,태그 지정,Select tag
-NewTagName,새 태그 이름,New tag name
+CustomColor,색상,color
+SetCustomColor,눌러서 사용자 지정,Set custom color
 CanAddToServer,서버 저장에 실패했습니다,Server save failed
-CreateTag,추가,Add
-NewTag,새 태그,New tag
 Importance,중요도,Importance
 Importance_2,중요함,Important
 Importance_1,기억해야 함,Must remember
