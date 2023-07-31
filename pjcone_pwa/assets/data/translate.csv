@@ -41,7 +41,7 @@ TodoMoveTo,이관,Move
 TodoFocus,집중,Focus
 DisplayName,표시명,Display name
 DisplayName_placeholder,짧게,briefly
-CustomColor,색상,color
+CustomColor,색상,Color
 SetCustomColor,눌러서 사용자 지정,Set custom color
 CanAddToServer,서버 저장에 실패했습니다,Server save failed
 Importance,중요도,Importance
