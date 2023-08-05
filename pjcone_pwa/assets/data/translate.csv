@@ -61,11 +61,10 @@ delete_attach,삭제,Delete
 attachments,첨부파일,Attachments
 open_content_viewer,클릭하여 콘텐츠 뷰어에서 열기,Click to open in content viewer
 logs,기록,Logs
-remove,삭제,Remove todo
+remove,삭제,Remove
 buttonDisplay_add,추가,Add
 buttonDisplay_modify,수정,Modify
 needDisplayName,표시명을 작성하여야 합니다.,Display name must be written
-removeTodo,기록 삭제,Remove
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
 WIP,작업을 완료중입니다...,Work in progress...
 ## Subscribes,,
@@ -338,6 +337,8 @@ LocalNotiOK,확인,OK
 LocalNotiCheck,검토,Check
 AddChannelFailed,채널 추가 실패,Failed to add channel
 AddChannelFailed_Code3,사용자 삭제됨,User deleted
+FailedUpload,업로드 실패,Failed to upload
+FailedDownload,다운로드 실패,Failed to download
 ## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
 UseThisImage,이미지를 준비중...,Preparing image to send...
