@@ -1,31 +1,6 @@
 ﻿#,ko,en
 ## Main,,
 Title,할 일 목록,Todo
-## Administrator,,
-AdminNotiTitle,보조서버 관리자,Assistant server manager
-CanUseAsAdmin,관리자 기능을 사용합니다,Use admin features
-AssistServNoti,보조서버 알림,Assistant server notification
-AboutThisNotification,이 알림에 대해서,About this notice
-InputMessageInfo,발송 정보 입력,Enter shipping information
-CommunityNotification,보조서버 알림,Assistant server notifications
-WriteContent,알림 내용 작성,Write content of notification
-SendNotification,전체 알림 발송,Send
-OnlyForAdmin,관리자 전용메뉴입니다,This is the admin menu
-CannotUseDataURL,데이터 URL은 사용할 수 없습니다.,You cannot use DataURL
-counter_now,실시간 접속 정보,Real-time connection information
-battery_now,서버 배터리,Server battery status
-battery_percent,잔량,Percent
-battery_time,남은 시간 예상,Estimated remaining time
-battery_state,상태,Status
-battery_state_0,알 수 없음,Unknown
-battery_state_1,배터리 사용중,On battery
-battery_state_2,사용 가능한 배터리 없음,No battery available
-battery_state_3,충전중,Charging
-battery_state_4,충전 완료,Fully charged
-counter_current,현재 동접,Current
-counter_maximum,동시 최대,Maximum
-counter_stack,누적,Stack
-counter_refresh,새로고침,Refresh count
 ## TodoDetail,,
 Title,해야할 일,Todo detail
 Server,서버,Server
@@ -105,7 +80,6 @@ AppInfo,앱 정보,App info
 AppCreator,제작자,Creator
 AppTranslator,번역가,Translator
 AppLanguage,언어 설정,Languages
-userPrivacyTerms,개인정보처리방침,Privacy policy
 LicenseNotice,라이선스 고지,License Notice
 UserGuideLink,사용자 가이드,User guide
 ## NotificationSettings,,
@@ -157,7 +131,7 @@ user_profile_changed,사용자 프로필 변경,Change user profile
 Title,사용자 정보,User info
 add_to_group,추가,Add to group
 add_friend,친구,Add as friend
-privacy_chat,대화,Private chat
+privacy_chat,1:1 대화,Private chat
 kick_from_group,추방,Kick user
 added_to_group,그룹원이 추가되었습니다,User added
 kicked_from_group,사용자를 내보냈습니다,User kicked
@@ -401,6 +375,12 @@ ImageURL,이미지 URL,Image URL
 EnterURI,이미지 주소 입력,Enter image url
 NoNotiMsg,전달할 메시지를 입력해주세요,Please enter your message
 Send,발송,Send
+UserList,사용자 목록,Users
+UserCreate,생성날짜,Create at
+ForceLeave,회원 탈퇴,Withdraw user
+ApplyLeave,탈퇴,Withdraw
+UserLeaved,사용자 탈퇴됨,Withdrawn
+UserLeavedFailed,사용자 탈퇴 실패,Withdrawn failed
 ## QRCodeGen,,
 AboutQRCodeGen,이 기능에 대해서,About this feature
 UserInput,사용자 입력,User input
