@@ -66,6 +66,7 @@ ServerNTools,서버와 도구,Servers and tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,빠른 QR공유,Quick QR sharing
+DevKit,개발 보조 도구,Development Aids
 QRCodeGen,QR코드 생성기,QRCode Generator
 WSClient,웹소켓 클라이언트,Websocket client
 InAppExplorer,인앱 탐색기,InApp Explorer
