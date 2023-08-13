@@ -1,6 +1,6 @@
 ﻿#,ko,en
 ## Main,,
-Title,할 일 목록,Todo
+Title,할 일,Todo
 ## TodoDetail,,
 Title,해야할 일,Todo detail
 Server,서버,Server
@@ -60,13 +60,13 @@ CommunityAds,개발자 광고,Developer Ads
 AdsContact,광고 문의,Ads Contact
 env_info,사용 환경,Preferences
 myInfo,내 정보,My info
-groupServer,서버 목록,Main server
+groupServer,서버 관리,Manage server
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 ServerNTools,서버와 도구,Servers and tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,빠른 QR공유,Quick QR sharing
-DevKit,개발 보조 도구,Development Aids
+DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
 WSClient,웹소켓 클라이언트,Websocket client
 InAppExplorer,인앱 탐색기,InApp Explorer
