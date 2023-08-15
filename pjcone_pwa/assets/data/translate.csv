@@ -60,7 +60,7 @@ CommunityAds,개발자 광고,Developer Ads
 AdsContact,광고 문의,Ads Contact
 env_info,사용 환경,Preferences
 myInfo,내 정보,My info
-groupServer,서버 관리,Manage server
+groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 ServerNTools,서버와 도구,Servers and tools
 joinRanchat,랜덤채팅 참여,Join random chat
