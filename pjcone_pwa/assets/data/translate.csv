@@ -1,8 +1,8 @@
 ﻿#,ko,en
 ## Main,,
-Title,할 일,Todo
+Title,해야할 일,Todo
 ## TodoDetail,,
-Title,해야할 일,Todo detail
+Title,할 일 상세,Todo detail
 Server,서버,Server
 Group,그룹,Group
 StoreAt,저장 위치,Save to
@@ -27,7 +27,7 @@ startFrom,시작일시,Start date
 startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
-description_placeholder,해야할 일 상세 내용,Todo details
+description_placeholder,할 일 상세 내용,Todo details
 camera,촬영,Pic.
 new_attach,새 그림,New
 add_attach,가져오기,Load
