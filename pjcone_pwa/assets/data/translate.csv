@@ -65,7 +65,7 @@ useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional
 ServerNTools,서버와 도구,Servers and tools
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅,Join group chat
-quickQRshare,빠른 QR공유,Quick QR sharing
+quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
 WSClient,웹소켓 클라이언트,Websocket client
@@ -155,6 +155,8 @@ viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by t
 cannot_open_file,파일을 열람할 수 없습니다.,The file cannot be viewed.
 export_download,추출,Extraction
 YouReadHereLast,여기까지 읽었습니다,You've read this far
+QuickShare,이 곳을 눌러 정보를 공유받습니다,Click here to share information
+QuickShare_placeholder,정보를 공유합니다...,Will share information...
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 Edit,편집,Edit
@@ -258,10 +260,10 @@ SelectData,공유할 정보,Information to share
 GroupServer,서버 정보,Server info
 Group,그룹,Group
 EmptyData,없음,Null
-ReceiveData,정보 수신,Receiving information
-SendData,발신,Send
-ShowQR,수신QR 보이기,Show QR
+ReceiveData,QR코드로 공유,Share by QR code
+SendData,공유,Share
 groupserver_dataonly,서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Server information may behave differently than expected due to the user registration process.
+success_received,적용하였습니다,Applied
 ## UseAsServer,,
 Title,이 기기를 기능 서버로,Use this device as a functional server
 UserNotice,사용 유의사항,Precautions for use

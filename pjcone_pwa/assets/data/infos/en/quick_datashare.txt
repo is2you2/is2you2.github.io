@@ -1,2 +1,0 @@
-Scan the QR code to enter various information at once.
-Most information is applied without user review, so please be mindful if you receive information shared by others.
