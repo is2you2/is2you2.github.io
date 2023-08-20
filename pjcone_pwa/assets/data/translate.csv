@@ -69,6 +69,7 @@ quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
 WSClient,웹소켓 클라이언트,Websocket client
+ServerFiles,서버 파일,Server files
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,엔진 PPT,Engine PPT
 joinDedi_placeholder,기본,Default
@@ -167,6 +168,7 @@ Filename,파일 이름,Filename
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
 fileSaved,저장되었습니다,File saved
+fileSaveFailed,파일 저장에 실패했습니다,Failed to save file
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
