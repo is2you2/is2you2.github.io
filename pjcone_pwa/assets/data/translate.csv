@@ -4,7 +4,7 @@ Title,해야할 일,Todo
 ## TodoDetail,,
 Title,할 일 상세,Todo detail
 Server,서버,Server
-Group,그룹,Group
+Group,채널,Group
 StoreAt,저장 위치,Save to
 OnThisDevice,이 기기에서,On this device
 WrittenByMe,내가 작성,Written by me
@@ -43,7 +43,7 @@ needDisplayName,표시명을 작성하여야 합니다.,Display name must be wri
 terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
 WIP,작업을 완료중입니다...,Work in progress...
 ## Subscribes,,
-Title,그룹,Groups
+Title,채널,Channels
 has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
 almighty_link,만능 연결 버튼,Almighty link button
 almighty_button,연결 !,Link !
@@ -52,7 +52,7 @@ noChatList,참여중인 대화가 없습니다.,There are no active conversation
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
-AddGroup,새 그룹,Add group
+AddGroup,새 채널,Add channel
 Disconnected,연결된 서버가 없습니다,No server connected
 ## Settings,,
 Title,설정,Settings
@@ -134,7 +134,7 @@ add_to_group,추가,Add to group
 add_friend,친구,Add as friend
 privacy_chat,1:1 대화,Private chat
 kick_from_group,추방,Kick user
-added_to_group,그룹원이 추가되었습니다,User added
+added_to_group,사용자가 추가되었습니다,User added
 kicked_from_group,사용자를 내보냈습니다,User kicked
 refresh,새로고침,Refresh
 ## ChatRoom,,
@@ -146,7 +146,7 @@ attachments,첨부파일,Attachments
 voidDraw,간이 그림판,Simple Paint
 input_placeholder,메시지 입력...,Enter message...
 closed_group_must_online,이 채널이 온라인 상태여야 합니다.,This channel must be online.
-closed_group_not_allow,그룹에서 오프라인 기록 열람을 허용하지 않습니다.,The group does not allow viewing offline records.
+closed_group_not_allow,채널에서 오프라인 기록 열람을 허용하지 않습니다.,The channel does not allow viewing offline records.
 cannot_open_from_mobile,모바일에서 열 수 없음,Can not open on mobile
 cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.,This file cannot be viewed with a viewer.
 download_anyway,그래도 다운로드,Download anyway
@@ -168,6 +168,7 @@ saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
 fileSaved,저장되었습니다,File saved
 fileSaveFailed,파일 저장에 실패했습니다,Failed to save file
+ShareContent,다른 채널에 공유하기,Share to other channels
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
@@ -221,45 +222,45 @@ DeleteAccountFailed,서버 기록만 삭제됩니다,Only server records are del
 copy_scan_below,아래를 스캔하여 서버 정보 복제,Duplicate server information by scanning below
 ApplyChangeServerInfo,적용하기,Apply
 ## AddGroup,,
-Title,새 그룹 만들기,Create new group
+Title,새 채널 만들기,Create new channel
 SelectServer,서버 선택,Select server
-GroupInfo,그룹 정보,Group info
+GroupInfo,채널 정보,Channel info
 DisplayName,표시명,Display name
-DisplayName_placeholder,그룹 이름,Group name
-ClicktoChangeGroupImg,눌러서 그룹 이미지 설정,Click to add group iamge
-JoinThisGroup,그룹 참여,Join
-AfterCreateGroup,그룹을 생성하여 계속,continue by creating a group
-GroupDetail,그룹 상세,Group details
-GroupDetail_placeholder,그룹 설명,Group description
+DisplayName_placeholder,채널 이름,Channel name
+ClicktoChangeGroupImg,눌러서 채널 이미지 설정,Click to add channel iamge
+JoinThisGroup,채널 참여,Join
+AfterCreateGroup,채널을 생성하여 계속,Continue by creating a channel
+GroupDetail,채널 상세,Channel details
+GroupDetail_placeholder,채널 설명,Channel description
 LanguageTag,국가 태그,LangTag
 MemberMaxLimit,최대 인원,Maximum member
 IsOpen,공개 여부,is Open group
 submit,위 정보로 추가하기,Submit
 cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.,The selected server is unavailable.
-group_created,그룹이 생성되었습니다.,A group has been created.
-NeedSetGroupName,그룹 이름을 작성해주세요.,Please write the group name.
-AlreadyExist,이미 같은 이름의 그룹이 존재합니다.,A group with the same name already exists.
+group_created,채널이 생성되었습니다.,A channel has been created.
+NeedSetGroupName,채널 이름을 작성해주세요.,Please write the channel name.
+AlreadyExist,이미 같은 이름의 채널이 존재합니다.,A channel with the same name already exists.
 UnexpectedErr,준비되지 않은 오류처리,Unexpected error occured
 ## GroupDetail,,
-Title,그룹 상세,Group detail
+Title,채널 상세,Channel detail
 NotAcceptYet,아직 수락되지 않았습니다,Not yet accepted
-MissedGroup,더 이상 그룹구성원이 아닙니다,No longer a group member
-NoDetailGroup,설명 없는 그룹,No description
-Members,그룹 구성원,Members
-invite_scan_below,아래를 스캔하여 그룹에 초대,Scan below to invite to group
-BreakupGroup,그룹 해산,Breakup
+MissedGroup,더 이상 채널구성원이 아닙니다,No longer a channel member
+NoDetailGroup,설명 없는 채널,No description
+Members,채널 구성원,Members
+invite_scan_below,아래를 스캔하여 채널에 초대,Scan below to invite to channel
+BreakupGroup,채널 해산,Breakup
 LeaveGroup,떠나기,Leave group
-GroupInfoUpdated,그룹 정보 업데이트됨,Group info updated
-GroupImageUpdated,그룹 이미지 업데이트됨,Group image updated
-GroupRemoved,그룹 삭제됨,Group removed
-YouAreNotCreator,그룹 생성자가 아닙니다.,You are not group creator.
+GroupInfoUpdated,채널 정보 업데이트됨,Channel info updated
+GroupImageUpdated,채널 이미지 업데이트됨,Channel image updated
+GroupRemoved,채널 삭제됨,Channel removed
+YouAreNotCreator,채널 생성자가 아닙니다.,You are not channel creator.
 ## Licenses,,
 open_link,열기,Open
 ## QuickQRShare,,
 SelectServer,서버 선택,Share at
 SelectData,공유할 정보,Information to share
 GroupServer,서버 정보,Server info
-Group,그룹,Group
+Group,채널,Channel
 EmptyData,없음,Null
 ReceiveData,QR코드로 공유,Share by QR code
 SendData,공유,Share
@@ -303,15 +304,15 @@ CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
 MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
 DeletedServer,삭제된 서버,Deleted server
-GroupUserJoin,사용자 그룹참여,User joined
-GroupUserOut,사용자 그룹탈퇴,User leaved
+GroupUserJoin,사용자 채널참여,User joined
+GroupUserOut,사용자 채널탈퇴,User leaved
 GroupUserKick,사용자 강제퇴장,User kicked
 ReqContServer,서버,Server
 ReqContUserName,사용자명,User name
-ReqContTitle,그룹 참가 요청,Request to join
+ReqContTitle,채널 참가 요청,Request to join
 ReqContAccept,수락,Accept
 ReqContReject,거절,Reject
-LocalNotiTitle,그룹 참가됨,Joined group
+LocalNotiTitle,채널 참가됨,Joined channel
 LocalNotiOK,확인,OK
 LocalNotiCheck,검토,Check
 AddChannelFailed,채널 추가 실패,Failed to add channel
@@ -404,3 +405,7 @@ RecvError,수신 오류,ReceiveError
 SocketError,소켓오류,onError
 inputmsg,메시지 입력,Input message
 send,발송,Send
+## ShareContentToOther,,
+Title,콘텐츠 공유하기,Share content
+NoChannelToShare,가용 채널이 없습니다,No channels available
+AvailableChannels,공유 가능한 채널,Shareable channels
