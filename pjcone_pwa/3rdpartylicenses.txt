@@ -25,6 +25,9 @@ MIT
 @awesome-cordova-plugins/camera
 MIT
 
+@awesome-cordova-plugins/clipboard
+MIT
+
 @awesome-cordova-plugins/core
 MIT
 
