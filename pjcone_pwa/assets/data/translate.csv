@@ -69,6 +69,7 @@ quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
 WSClient,웹소켓 클라이언트,Websocket client
+WebLinkGen,웹 링크 생성기,Weblink generator
 ServerFiles,서버 파일,Server files
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,엔진 PPT,Engine PPT
@@ -219,7 +220,7 @@ NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
 DeleteAccountSucc,회원탈퇴 되었습니다,Membership has been withdrawn
 DeleteAccountFailed,서버 기록만 삭제됩니다,Only server records are deleted
 ## ServerDetail,,
-copy_scan_below,아래를 스캔하여 서버 정보 복제,Duplicate server information by scanning below
+copy_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 ApplyChangeServerInfo,적용하기,Apply
 ## AddGroup,,
 Title,새 채널 만들기,Create new channel
@@ -247,7 +248,7 @@ NotAcceptYet,아직 수락되지 않았습니다,Not yet accepted
 MissedGroup,더 이상 채널구성원이 아닙니다,No longer a channel member
 NoDetailGroup,설명 없는 채널,No description
 Members,채널 구성원,Members
-invite_scan_below,아래를 스캔하여 채널에 초대,Scan below to invite to channel
+invite_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 BreakupGroup,채널 해산,Breakup
 LeaveGroup,떠나기,Leave group
 GroupInfoUpdated,채널 정보 업데이트됨,Channel info updated
@@ -285,7 +286,7 @@ giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to develop
 thanks_to,도움주신 분들,Thanks to
 ## GlobalAct,,
 FailedToDownloadGodot,씬 실행 실패,Execution scene failed
-UnCheckableCreator,확인 불가,Not confirmed
+UnCheckableCreator,외부 파일 게시,Publish external files
 failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 OnlineMode,온라인,Online
 OnlineMode_text,서버에 연결되어 있습니다,You are connected to the server
@@ -409,3 +410,10 @@ send,발송,Send
 Title,콘텐츠 공유하기,Share content
 NoChannelToShare,가용 채널이 없습니다,No channels available
 AvailableChannels,공유 가능한 채널,Shareable channels
+## WebLinkGen,,
+subtitle,빠른 진입 주소 생성하기,Generate a fast entry address
+baseURL,주소 기반,Address based
+OpenProfile,프로필 및 서버 페이지 열기,Open profile
+OpenChannelTab,채널 탭으로 이동,Open channel tab
+UseTempUser,임시 사용자 지정,Use temporary user info
+CustomInfo,정보 지정,Set information
