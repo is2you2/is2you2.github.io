@@ -254,6 +254,7 @@ LeaveGroup,떠나기,Leave group
 GroupInfoUpdated,채널 정보 업데이트됨,Channel info updated
 GroupImageUpdated,채널 이미지 업데이트됨,Channel image updated
 GroupRemoved,채널 삭제됨,Channel removed
+GroupForceRemoved,채널이 강제 삭제됨,Channel was forcibly deleted
 YouAreNotCreator,채널 생성자가 아닙니다.,You are not channel creator.
 ## Licenses,,
 open_link,열기,Open
@@ -384,10 +385,16 @@ NoNotiMsg,전달할 메시지를 입력해주세요,Please enter your message
 Send,발송,Send
 UserList,사용자 목록,Users
 UserCreate,생성날짜,Create at
-ForceLeave,회원 탈퇴,Withdraw user
+ForceLeave,이 사용자를 삭제합니다,Delete this user
 ApplyLeave,탈퇴,Withdraw
 UserLeaved,사용자 탈퇴됨,Withdrawn
 UserLeavedFailed,사용자 탈퇴 실패,Withdrawn failed
+GroupList,그룹채널 목록,Group channels
+GroupCreator,생성자,Creator
+GroupUserCounter,그룹 인원,Group members
+ForceBreakUp,이 그룹을 해산합니다,Disband this group
+ForceBreaked,그룹 해산됨,Group breakup
+ForceBreakedFailed,그룹 해산 실패,Breakup failed
 ## QRCodeGen,,
 AboutQRCodeGen,이 기능에 대해서,About this feature
 UserInput,사용자 입력,User input
