@@ -160,6 +160,7 @@ QuickShare,이 곳을 눌러 정보를 공유받습니다,Click here to share in
 QuickShare_placeholder,정보를 공유합니다...,Will share information...
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
+ContentInfo,콘텐츠 기록,Content history
 Edit,편집,Edit
 Download,저장,Save
 creator,제작자,Creator
@@ -287,7 +288,9 @@ giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to develop
 thanks_to,도움주신 분들,Thanks to
 ## GlobalAct,,
 FailedToDownloadGodot,씬 실행 실패,Execution scene failed
-UnCheckableCreator,외부 파일 게시,Publish external files
+variousCreator,외부 파일 게시,Publish external files
+FromCamera,카메라로 직접 촬영,From camera
+FromVoidDraw,앱 그림판에서 작업,From in-app painter
 failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 OnlineMode,온라인,Online
 OnlineMode_text,서버에 연결되어 있습니다,You are connected to the server
@@ -424,3 +427,9 @@ OpenProfile,프로필 및 서버 페이지 열기,Open profile
 OpenChannelTab,채널 탭으로 이동,Open channel tab
 UseTempUser,임시 사용자 지정,Use temporary user info
 CustomInfo,정보 지정,Set information
+## ContentInfo,,
+WorkLogs,작업 기록,Work logs
+LastPost,최종 게시자,Last post
+TimeAt,일시,Date
+SourceFrom,출처,Source
+Publisher,게시자,Publisher
