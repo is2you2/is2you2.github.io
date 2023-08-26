@@ -324,6 +324,7 @@ AddChannelFailed,채널 추가 실패,Failed to add channel
 AddChannelFailed_Code3,사용자 삭제됨,User deleted
 FailedUpload,업로드 실패,Failed to upload
 FailedDownload,다운로드 실패,Failed to download
+FailedToAddGroup,그룹 추가 실패,Failed to add group
 ## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
 UseThisImage,이미지를 준비중...,Preparing image to send...
