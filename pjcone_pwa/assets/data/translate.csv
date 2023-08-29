@@ -437,3 +437,9 @@ TimeAt,일시,Date
 SourceFrom,출처,Source
 Publisher,게시자,Publisher
 CloseModal,닫기,Close
+## QuickShareReview,,
+Title,빠른 공유 검토,Quick share review
+Servers,서버,Servers
+Channels,채널,Channel
+QuickShareGrant,이 정보를 공유받기,Get this information shared
+ApplyChecked,선택한 정보를 적용,Apply selected information
