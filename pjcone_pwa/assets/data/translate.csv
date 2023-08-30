@@ -405,6 +405,7 @@ ForceBreakedFailed,그룹 해산 실패,Breakup failed
 AboutQRCodeGen,이 기능에 대해서,About this feature
 UserInput,사용자 입력,User input
 InputHere,내용 입력,Enter content
+Reset,초기화,Reset
 ## WSClient,,
 address,주소와 포트,Address and port
 button_offline,연결하기,Connect
