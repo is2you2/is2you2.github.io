@@ -45,8 +45,8 @@ WIP,작업을 완료중입니다...,Work in progress...
 ## Subscribes,,
 Title,채널,Channels
 has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
-almighty_link,만능 연결 버튼,Almighty link button
-almighty_button,연결 !,Link !
+almighty_link,앱 정보 읽기,Read app information
+almighty_button,QR코드 스캔,Scan QR Code
 Chat,대화,Chat
 noChatList,참여중인 대화가 없습니다.,There are no active conversations.
 noTitiedChat,제목 없는 채팅방,Untitled chat room
