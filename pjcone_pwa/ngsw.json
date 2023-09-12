@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1694527504366,
+  "timestamp": 1694533473615,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -98,7 +98,7 @@
         "/9958.f672e53816295bb6.js",
         "/common.200e24a74fb4637d.js",
         "/index.html",
-        "/main.d7b0e6961942ba75.js",
+        "/main.8185997ed2186c6c.js",
         "/manifest.webmanifest",
         "/polyfills-core-js.b3eb16f0f64e9b8c.js",
         "/polyfills-dom.3a5e3168052f1fc5.js",
@@ -267,7 +267,7 @@
     "/assets/data/infos/ko/engine_remote.txt": "cdcb934053f6885562c6b075db2396e8cd93f2a4",
     "/assets/data/infos/ko/translator.json": "a4ded501b9369e64ef9876a2ed7f8796ff2e77bc",
     "/assets/data/infos/thanks_to.json": "013bd8eca8522051f95774023cb1e18251416ece",
-    "/assets/data/nakama.zip": "586472d58cd447896b5f75d96eaa6ac24a24eb59",
+    "/assets/data/nakama.zip": "819a64652fc55fd6a7060acb55246d2cbb9dfa52",
     "/assets/data/translate.csv": "24aa9f15b34686c6186ae6b2d5f45b4c388bda43",
     "/assets/html/.gdignore": "8eee7eb8ecfb5aa71c23c782bb5dbc091a551ffd",
     "/assets/html/index.apple-touch-icon.png": "1d7d1450f43a7e460e6db0a73683ea93313c6a34",
@@ -288,8 +288,8 @@
     "/assets/logo.svg": "4eb07e51e87261c25e584fd854d97fe8d5e2b836",
     "/assets/sw.js": "d942de0e03e4dd3141313c4ba82dab21a9f6add4",
     "/common.200e24a74fb4637d.js": "a49da7585ebaa5c7278824d6a3efadd3a5b45bf4",
-    "/index.html": "c7390cc36229106d218fc534b4652f04284d9f86",
-    "/main.d7b0e6961942ba75.js": "7b9fb98c03924c49295ea462c43cbcf898a43f52",
+    "/index.html": "a50f3a8b408895a6ca992da876947db8642086b1",
+    "/main.8185997ed2186c6c.js": "69aeb6ab3fd17e317fb850b7a16238e4f89d2112",
     "/manifest.webmanifest": "08188fef986356d30a20107267dbe24f7ece6f0a",
     "/polyfills-core-js.b3eb16f0f64e9b8c.js": "74f73ddfbee814abfb2702e1dd9ca4c9ddb994c5",
     "/polyfills-dom.3a5e3168052f1fc5.js": "50f6ff473a0568bffb8a9d412d7efaced2d36137",
