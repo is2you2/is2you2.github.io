@@ -159,6 +159,9 @@ export_download,추출,Extraction
 YouReadHereLast,여기까지 읽었습니다,You've read this far
 QuickShare,이 곳을 눌러 정보를 공유받습니다,Click here to share information
 QuickShare_placeholder,정보를 공유합니다...,Will share information...
+JoinWebRTCMatch,통화 채널 참여,Join call
+MatchExpiration,통화 채널 만료,Call expiration
+JoinMatchFailed,통화 참여 오류,Failed to join call
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
@@ -452,3 +455,11 @@ Servers,서버,Servers
 Channels,채널,Channel
 QuickShareGrant,이 정보를 공유받기,Get this information shared
 ApplyChecked,선택한 정보를 적용,Apply selected information
+## WebRTCDevManager,,
+Title,통신 장치 관리자,WebRTC device manager
+VideoIn,비디오 입력 장치,Video input
+AudioIn,오디오 입력 장치,Audio input
+AudioOut,오디오 출력 장치,Audio output
+saveSetup,설정 저장하기,Save setting
+InitErr,초기화 실패,Failed to initialize
+AlreadyCalling,다른 통화가 진행중입니다,Another call is in progress
