@@ -162,6 +162,8 @@ QuickShare_placeholder,정보를 공유합니다...,Will share information...
 JoinWebRTCMatch,통화 채널 참여,Join call
 MatchExpiration,통화 채널 만료,Call expiration
 JoinMatchFailed,통화 참여 오류,Failed to join call
+FailedToJoinChannel,채널에 참가하지 못했습니다,Failed to join channel
+FailedToSend,발송 실패,Failed to send
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
@@ -222,8 +224,6 @@ Port,포트,Port
 isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
-DeleteAccountSucc,회원탈퇴 되었습니다,Membership has been withdrawn
-DeleteAccountFailed,서버 기록만 삭제됩니다,Only server records are deleted
 ## ServerDetail,,
 copy_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 ApplyChangeServerInfo,적용하기,Apply
@@ -394,7 +394,7 @@ EnterURI,이미지 주소 입력,Enter image url
 NoNotiMsg,전달할 메시지를 입력해주세요,Please enter your message
 Send,발송,Send
 UserList,사용자 목록,Users
-UserCreate,생성날짜,Create at
+UserCreate,생성일시,Create at
 ForceLeave,이 사용자를 삭제합니다,Delete this user
 ApplyLeave,탈퇴,Withdraw
 UserLeaved,사용자 탈퇴됨,Withdrawn
