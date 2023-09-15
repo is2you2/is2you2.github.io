@@ -336,6 +336,8 @@ FailedDownload,다운로드 실패,Failed to download
 FailedToAddGroup,그룹 추가 실패,Failed to add group
 GroupAllListDone,없는 그룹 정보,There is no group
 GroupAlreadyJoined,이미 참가한 그룹,Already joined group
+SessionLogout,로그아웃됨,Logged out
+LoginAgain,이 서버에 다시 로그인합니다,Log in to this server again
 ## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
 UseThisImage,이미지를 준비중...,Preparing image to send...
