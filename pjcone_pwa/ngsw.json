@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1694854527126,
+  "timestamp": 1694864980881,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -288,7 +288,7 @@
     "/assets/logo.svg": "4eb07e51e87261c25e584fd854d97fe8d5e2b836",
     "/assets/sw.js": "d942de0e03e4dd3141313c4ba82dab21a9f6add4",
     "/common.03dad963ae8388d7.js": "cdbd18311464f2371184a3e2b67b1c1d965c25a5",
-    "/index.html": "b65afc091c1be4880cbf4eda9520721707a59da4",
+    "/index.html": "cf6bf82251d7429fdf3d1d8a9fb9049d00517ce1",
     "/main.48f8368a2e2c648e.js": "b793c4bd147687a3c33883ba87aab330be9b6409",
     "/manifest.webmanifest": "08188fef986356d30a20107267dbe24f7ece6f0a",
     "/polyfills-core-js.b3eb16f0f64e9b8c.js": "74f73ddfbee814abfb2702e1dd9ca4c9ddb994c5",
