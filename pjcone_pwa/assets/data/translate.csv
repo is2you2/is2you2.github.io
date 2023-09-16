@@ -232,6 +232,9 @@ NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
 ## ServerDetail,,
 copy_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 ApplyChangeServerInfo,적용하기,Apply
+ServerPresets,서버 사전설정,Server presets
+CreateInfo,같은 서버의 다른 주소를 미리 등록할 수 있습니다,You can pre-register other addresses of the same server
+Add,추가,Add
 ## AddGroup,,
 Title,새 채널 만들기,Create new channel
 SelectServer,서버 선택,Select server
