@@ -168,6 +168,8 @@ FailedToJoinChannel,채널에 참가하지 못했습니다,Failed to join channe
 FailedToSend,발송 실패,Failed to send
 FailedToPasteData,붙여넣기 실패,Failed to paste
 ExternalLinkFile,외부 링크 파일,External link file
+LongText,긴 글,Long text
+CreateAsTextFile,긴 메시지를 파일로 변환합니다,Convert long messages to file
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
@@ -303,6 +305,7 @@ FailedToDownloadGodot,씬 실행 실패,Execution scene failed
 variousCreator,외부 파일 게시,Publish external files
 FromCamera,카메라로 직접 촬영,From camera
 FromVoidDraw,앱 그림판에서 작업,From in-app painter
+FromAutoLongText,긴 글 파일,Long text file
 failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 OnlineMode,온라인,Online
 OnlineMode_text,서버에 연결되어 있습니다,You are connected to the server
