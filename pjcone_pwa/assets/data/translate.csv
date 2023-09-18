@@ -180,6 +180,7 @@ related_creator,그 외,Related
 Filename,파일 이름,Filename
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
+OverWriteFile,파일 덮어쓰기,Overwrite files
 fileSaved,저장되었습니다,File saved
 fileSaveFailed,파일 저장에 실패했습니다,Failed to save file
 ShareContent,다른 채널에 공유하기,Share to other channels
