@@ -179,7 +179,7 @@ GoToRecent,최근 메시지 보기,Go to recent
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
-Edit,편집,Edit
+Edit,이미지 편집,Edit
 Download,저장,Save
 creator,제작자,Creator
 related_creator,그 외,Related
@@ -193,6 +193,8 @@ ShareContent,다른 채널에 공유하기,Share to other channels
 CannotEditFile,편집 불가 파일,Cannot edit file
 DownloadThisFile,파일 다운로드,Download file
 FileDownloading,다운받는 중,Downloading
+DownloadAllFiles,모두 다운받기,Download all
+DownloadLoadedList,뷰어에 로드된 모든 파일 다운받기,Download all files loaded in the viewer
 RemoveFile,파일 삭제,Remove file
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
