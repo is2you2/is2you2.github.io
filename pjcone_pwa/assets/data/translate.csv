@@ -154,7 +154,9 @@ closed_group_not_allow,채널에서 오프라인 기록 열람을 허용하지 �
 cannot_open_from_mobile,모바일에서 열 수 없음,Can not open on mobile
 cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.,This file cannot be viewed with a viewer.
 download_anyway,그래도 다운로드,Download anyway
+uploading,업로드 중,Uploading
 downloaded,다운로드됨,Downloaded
+SavingFile,파일 저장중,Saving file
 viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by the viewer
 cannot_open_file,파일을 열람할 수 없습니다.,The file cannot be viewed.
 export_download,추출,Extraction
@@ -170,6 +172,9 @@ FailedToPasteData,붙여넣기 실패,Failed to paste
 ExternalLinkFile,외부 링크 파일,External link file
 LongText,긴 글,Long text
 CreateAsTextFile,긴 메시지를 파일로 변환합니다,Convert long messages to file
+MultipleSend,여러 파일 발송,Send multiple files
+CountFile,파일 수,Number of files
+Send,발송,Send
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
