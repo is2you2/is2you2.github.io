@@ -27,8 +27,9 @@ startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,할 일 상세 내용,Todo details
-camera,촬영,Pic.
-new_attach,새 그림,New
+new_attach,새 파일,New
+new_text,새 텍스트,New text
+new_draw,새 그림,New painting
 add_attach,가져오기,Load
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
 delete_attach,삭제,Delete
@@ -158,6 +159,7 @@ download_anyway,그래도 다운로드,Download anyway
 uploading,업로드 중,Uploading
 downloaded,다운로드됨,Downloaded
 SavingFile,파일 저장중,Saving file
+SendFile,파일 전송됨,File sent
 viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by the viewer
 cannot_open_file,파일을 열람할 수 없습니다.,The file cannot be viewed.
 export_download,추출,Extraction
@@ -182,7 +184,7 @@ Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
 Edit,이미지 편집,Edit
 EditText,문서 편집,Edit text
-Download,저장,Save
+Download,외부에 저장,Save external
 creator,제작자,Creator
 related_creator,그 외,Related
 Filename,파일 이름,Filename
@@ -198,6 +200,7 @@ FileDownloading,다운받는 중,Downloading
 DownloadAllFiles,모두 다운받기,Download all
 DownloadLoadedList,뷰어에 로드된 모든 파일 다운받기,Download all files loaded in the viewer
 RemoveFile,파일 삭제,Remove file
+CannotOpenText,열람할 수 없는 파일입니다,This file cannot be viewed
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
@@ -497,6 +500,7 @@ VideoIn,비디오 입력 장치,Video input
 AudioIn,오디오 입력 장치,Audio input
 AudioOut,오디오 출력 장치,Audio output
 saveSetup,설정 저장하기,Save setting
+IgnoreSave,서버 정보를 입력해주세요,Please enter server information
 InitErr,초기화 실패,Failed to initialize
 AlreadyCalling,다른 통화가 진행중입니다,Another call is in progress
 ManageServer,서버 관리,Manage servers
