@@ -73,7 +73,7 @@ DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
 WSClient,웹소켓 클라이언트,Websocket client
 WebLinkGen,웹 링크 생성기,Weblink generator
-ServerFiles,서버 파일,Server files
+ServerFiles,Nakama 서버 파일,Nakama server files
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,엔진 PPT,Engine PPT
 joinDedi_placeholder,기본,Default
@@ -498,7 +498,7 @@ Channels,채널,Channel
 QuickShareGrant,이 정보를 공유받기,Get this information shared
 ApplyChecked,선택한 정보를 적용,Apply selected information
 ## WebRTCDevManager,,
-Title,통신 장치 관리자,WebRTC device manager
+Title,WebRTC 서버,WebRTC server
 VideoIn,비디오 입력 장치,Video input
 AudioIn,오디오 입력 장치,Audio input
 AudioOut,오디오 출력 장치,Audio output
