@@ -158,6 +158,7 @@ cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.,This file 
 download_anyway,그래도 다운로드,Download anyway
 uploading,업로드 중,Uploading
 downloaded,다운로드됨,Downloaded
+FileSaved,파일 저장됨,File saved
 SavingFile,파일 저장중,Saving file
 SendFile,파일 전송됨,File sent
 viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by the viewer
@@ -295,7 +296,6 @@ SelectServer,서버 선택,Share at
 SelectData,공유할 정보,Information to share
 GroupServer,서버 정보,Server info
 Group,채널,Channel
-RTCServer,WebRTC 서버,WebRTC Server
 EmptyData,없음,Null
 ReceiveData,QR코드로 공유,Share by QR code
 SendData,공유,Share
