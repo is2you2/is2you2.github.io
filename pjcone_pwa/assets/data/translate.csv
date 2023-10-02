@@ -180,6 +180,7 @@ MultipleSend,여러 파일 발송,Send multiple files
 CountFile,파일 수,Number of files
 Send,발송,Send
 GoToRecent,최근 메시지 보기,Go to recent
+TalkMessage,말해주세요,Tell me
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
 ContentInfo,콘텐츠 기록,Content history
