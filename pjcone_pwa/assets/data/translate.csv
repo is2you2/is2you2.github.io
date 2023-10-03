@@ -389,6 +389,8 @@ Action,이 파일을..,Action..
 Use,사용하기,Use
 Open,열기,Open
 Download,받기,Download
+Import,수입,Import
+ImportFailed,수입 실패,Import failed
 Delete,삭제,Delete
 CreateAt,생성일시,Creation date
 ImportFolder,폴더 수입,Import folder
