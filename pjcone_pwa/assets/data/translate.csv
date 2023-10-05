@@ -71,6 +71,7 @@ joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
+TTSExport,TTS 문장 읽기,Text to Speech
 WSClient,웹소켓 클라이언트,Websocket client
 WebLinkGen,웹 링크 생성기,Weblink generator
 ServerFiles,Nakama 서버 파일,Nakama server files
@@ -520,3 +521,7 @@ Username,사용자명,Username
 Credential,인증,credential
 Save,저장하기,Save
 NoRegServer,등록된 서버가 없습니다,There are no registered servers
+## TTSExport,,
+TTSContent,문장 입력,Input sentance
+TTSPlaceholder,읽을 문장을 입력하세요,Enter the sentence you want to read
+ReadThis,문장 읽기,Read sentance
