@@ -4,11 +4,10 @@ Title,해야할 일,Todo
 ## TodoDetail,,
 Title,할 일 상세,Todo detail
 Server,서버,Server
-Group,그룹,Group
+Group,채널,Group
 StoreAt,저장 위치,Save to
 OnThisDevice,이 기기에서,On this device
 WrittenByMe,내가 작성,Written by me
-ManagerIs,책임자,Manager
 DeletedServer,서버 삭제됨,Server deleted
 Disconnected,연결 끊김,Disconnected
 TodoComplete,완료,Done
@@ -28,8 +27,9 @@ startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,할 일 상세 내용,Todo details
-camera,촬영,Pic.
-new_attach,새 그림,New
+new_attach,새 파일,New
+new_text,새 텍스트,New text
+new_draw,새 그림,New painting
 add_attach,가져오기,Load
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
 delete_attach,삭제,Delete
@@ -39,20 +39,23 @@ logs,기록,Logs
 remove,삭제,Remove
 buttonDisplay_add,추가,Add
 buttonDisplay_modify,수정,Modify
-needDisplayName,표시명을 작성하여야 합니다.,Display name must be written
-terminateTodo,이 작업은 되돌릴 수 없습니다.,This action cannot be undone.
+needDisplayName,표시명을 작성하여야 합니다,Display name must be written
+terminateTodo,이 작업은 되돌릴 수 없습니다,This action cannot be undone
 WIP,작업을 완료중입니다...,Work in progress...
+ManageWorker,작업자 관리,Manage workers
+ToggleWorkers,모든 사용자 선택,Select all users
+EditText,편집됨,Edited
 ## Subscribes,,
-Title,그룹,Groups
+Title,채널,Channels
 has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
-almighty_link,만능 연결 버튼,Almighty link button
-almighty_button,연결 !,Link !
+almighty_link,앱 정보 읽기,Read app information
+almighty_button,QR코드 스캔,Scan QR Code
 Chat,대화,Chat
 noChatList,참여중인 대화가 없습니다.,There are no active conversations.
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
-AddGroup,새 그룹,Add group
+AddGroup,새 채널,Add channel
 Disconnected,연결된 서버가 없습니다,No server connected
 ## Settings,,
 Title,설정,Settings
@@ -68,7 +71,10 @@ joinDediChat,사설 그룹채팅,Join group chat
 quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Tools
 QRCodeGen,QR코드 생성기,QRCode Generator
+TTSExport,TTS 문장 읽기,Text to Speech
 WSClient,웹소켓 클라이언트,Websocket client
+WebLinkGen,웹 링크 생성기,Weblink generator
+ServerFiles,Nakama 서버 파일,Nakama server files
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,엔진 PPT,Engine PPT
 joinDedi_placeholder,기본,Default
@@ -83,6 +89,7 @@ AppTranslator,번역가,Translator
 AppLanguage,언어 설정,Languages
 LicenseNotice,라이선스 고지,License Notice
 UserGuideLink,사용자 가이드,User guide
+OpenPlayStore,플레이스토어 열기,Open Playstore
 ## NotificationSettings,,
 set_alert,알림 받기,Get notifications
 icon_mono,기본 앱 알림,Default
@@ -108,7 +115,6 @@ contents,내용,Contents
 img_alt,프로필 이미지,Profile_img
 noname_user,이름 없는 사용자,
 name_placeholder,사용자 이름,Unnamed user
-enterURI,이미지 주소 입력하기,Enter image URL
 change_img,이미지 변경,Change image
 login_info,로그인 정보,Login info
 email_address,이메일 주소,Email Address
@@ -134,7 +140,7 @@ add_to_group,추가,Add to group
 add_friend,친구,Add as friend
 privacy_chat,1:1 대화,Private chat
 kick_from_group,추방,Kick user
-added_to_group,그룹원이 추가되었습니다,User added
+added_to_group,사용자가 추가되었습니다,User added
 kicked_from_group,사용자를 내보냈습니다,User kicked
 refresh,새로고침,Refresh
 ## ChatRoom,,
@@ -143,30 +149,61 @@ fetch_previous_chat,이전 기록 불러오기,Recall previous record
 fetch_next_chat,최근 기록 불러오기,Retrieve recent records
 unknown_ext,검토 불가,No review
 attachments,첨부파일,Attachments
+FileLink,외부 파일 링크,External file link
 voidDraw,간이 그림판,Simple Paint
 input_placeholder,메시지 입력...,Enter message...
 closed_group_must_online,이 채널이 온라인 상태여야 합니다.,This channel must be online.
-closed_group_not_allow,그룹에서 오프라인 기록 열람을 허용하지 않습니다.,The group does not allow viewing offline records.
+closed_group_not_allow,채널에서 오프라인 기록 열람을 허용하지 않습니다.,The channel does not allow viewing offline records.
 cannot_open_from_mobile,모바일에서 열 수 없음,Can not open on mobile
 cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.,This file cannot be viewed with a viewer.
 download_anyway,그래도 다운로드,Download anyway
+uploading,업로드 중,Uploading
 downloaded,다운로드됨,Downloaded
+FileSaved,파일 저장됨,File saved
+SavingFile,파일 저장중,Saving file
+SendFile,파일 전송됨,File sent
 viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by the viewer
 cannot_open_file,파일을 열람할 수 없습니다.,The file cannot be viewed.
 export_download,추출,Extraction
 YouReadHereLast,여기까지 읽었습니다,You've read this far
 QuickShare,이 곳을 눌러 정보를 공유받습니다,Click here to share information
 QuickShare_placeholder,정보를 공유합니다...,Will share information...
+JoinWebRTCMatch,통화 채널 참여,Join call
+MatchExpiration,통화 채널 만료,Call expiration
+JoinMatchFailed,통화 참여 오류,Failed to join call
+FailedToJoinChannel,채널에 참가하지 못했습니다,Failed to join channel
+FailedToSend,발송 실패,Failed to send
+FailedToPasteData,붙여넣기 실패,Failed to paste
+ExternalLinkFile,외부 링크 파일,External link file
+LongText,긴 글,Long text
+CreateAsTextFile,긴 메시지를 파일로 변환합니다,Convert long messages to file
+MultipleSend,여러 파일 발송,Send multiple files
+CountFile,파일 수,Number of files
+Send,발송,Send
+GoToRecent,최근 메시지 보기,Go to recent
+TalkMessage,말해주세요,Tell me
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
-Edit,편집,Edit
-Download,저장,Save
+ContentInfo,콘텐츠 기록,Content history
+Edit,이미지 편집,Edit
+EditText,문서 편집,Edit text
+Download,외부에 저장,Save external
 creator,제작자,Creator
 related_creator,그 외,Related
 Filename,파일 이름,Filename
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
+OverWriteFile,파일 덮어쓰기,Overwrite files
 fileSaved,저장되었습니다,File saved
+fileSaveFailed,파일 저장에 실패했습니다,Failed to save file
+ShareContent,다른 채널에 공유하기,Share to other channels
+CannotEditFile,편집 불가 파일,Cannot edit file
+DownloadThisFile,파일 다운로드,Download file
+FileDownloading,다운받는 중,Downloading
+DownloadAllFiles,모두 다운받기,Download all
+DownloadLoadedList,뷰어에 로드된 모든 파일 다운받기,Download all files loaded in the viewer
+RemoveFile,파일 삭제,Remove file
+CannotOpenText,열람할 수 없는 파일입니다,This file cannot be viewed
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
@@ -214,51 +251,53 @@ Port,포트,Port
 isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
-DeleteAccountSucc,회원탈퇴 되었습니다,Membership has been withdrawn
-DeleteAccountFailed,서버 기록만 삭제됩니다,Only server records are deleted
 ## ServerDetail,,
-copy_scan_below,아래를 스캔하여 서버 정보 복제,Duplicate server information by scanning below
+copy_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 ApplyChangeServerInfo,적용하기,Apply
+ServerPresets,서버 사전설정,Server presets
+CreateInfo,같은 서버의 다른 주소를 미리 등록할 수 있습니다,You can pre-register other addresses of the same server
+Add,추가,Add
 ## AddGroup,,
-Title,새 그룹 만들기,Create new group
+Title,새 채널 만들기,Create new channel
 SelectServer,서버 선택,Select server
-GroupInfo,그룹 정보,Group info
+GroupInfo,채널 정보,Channel info
 DisplayName,표시명,Display name
-DisplayName_placeholder,그룹 이름,Group name
-ClicktoChangeGroupImg,눌러서 그룹 이미지 설정,Click to add group iamge
-JoinThisGroup,그룹 참여,Join
-AfterCreateGroup,그룹을 생성하여 계속,continue by creating a group
-GroupDetail,그룹 상세,Group details
-GroupDetail_placeholder,그룹 설명,Group description
+DisplayName_placeholder,채널 이름,Channel name
+ClicktoChangeGroupImg,눌러서 채널 이미지 설정,Click to add channel iamge
+JoinThisGroup,채널 참여,Join
+AfterCreateGroup,채널을 생성하여 계속,Continue by creating a channel
+GroupDetail,채널 상세,Channel details
+GroupDetail_placeholder,채널 설명,Channel description
 LanguageTag,국가 태그,LangTag
 MemberMaxLimit,최대 인원,Maximum member
 IsOpen,공개 여부,is Open group
 submit,위 정보로 추가하기,Submit
 cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.,The selected server is unavailable.
-group_created,그룹이 생성되었습니다.,A group has been created.
-NeedSetGroupName,그룹 이름을 작성해주세요.,Please write the group name.
-AlreadyExist,이미 같은 이름의 그룹이 존재합니다.,A group with the same name already exists.
+group_created,채널이 생성되었습니다.,A channel has been created.
+NeedSetGroupName,채널 이름을 작성해주세요.,Please write the channel name.
+AlreadyExist,이미 같은 이름의 채널이 존재합니다.,A channel with the same name already exists.
 UnexpectedErr,준비되지 않은 오류처리,Unexpected error occured
 ## GroupDetail,,
-Title,그룹 상세,Group detail
+Title,채널 상세,Channel detail
 NotAcceptYet,아직 수락되지 않았습니다,Not yet accepted
-MissedGroup,더 이상 그룹구성원이 아닙니다,No longer a group member
-NoDetailGroup,설명 없는 그룹,No description
-Members,그룹 구성원,Members
-invite_scan_below,아래를 스캔하여 그룹에 초대,Scan below to invite to group
-BreakupGroup,그룹 해산,Breakup
+MissedGroup,더 이상 채널구성원이 아닙니다,No longer a channel member
+NoDetailGroup,설명 없는 채널,No description
+Members,채널 구성원,Members
+invite_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
+BreakupGroup,채널 해산,Breakup
 LeaveGroup,떠나기,Leave group
-GroupInfoUpdated,그룹 정보 업데이트됨,Group info updated
-GroupImageUpdated,그룹 이미지 업데이트됨,Group image updated
-GroupRemoved,그룹 삭제됨,Group removed
-YouAreNotCreator,그룹 생성자가 아닙니다.,You are not group creator.
+GroupInfoUpdated,채널 정보 업데이트됨,Channel info updated
+GroupImageUpdated,채널 이미지 업데이트됨,Channel image updated
+GroupRemoved,채널 삭제됨,Channel removed
+GroupForceRemoved,채널이 강제 삭제됨,Channel was forcibly deleted
+YouAreNotCreator,채널 생성자가 아닙니다.,You are not channel creator.
 ## Licenses,,
 open_link,열기,Open
 ## QuickQRShare,,
 SelectServer,서버 선택,Share at
 SelectData,공유할 정보,Information to share
 GroupServer,서버 정보,Server info
-Group,그룹,Group
+Group,채널,Channel
 EmptyData,없음,Null
 ReceiveData,QR코드로 공유,Share by QR code
 SendData,공유,Share
@@ -283,7 +322,12 @@ giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to develop
 thanks_to,도움주신 분들,Thanks to
 ## GlobalAct,,
 FailedToDownloadGodot,씬 실행 실패,Execution scene failed
-UnCheckableCreator,확인 불가,Not confirmed
+variousCreator,외부 파일 게시,Publish external files
+FromCamera,카메라로 직접 촬영,From camera
+FromVoidDraw,앱 그림판에서 작업,From in-app painter
+FromAutoLongText,긴 글 파일,Long text file
+FromTextEditor,텍스트 편집기,From text editor
+UnknownSource,알 수 없는 출처,Unknown source
 failed_to_gen_qr,QRCode 생성 실패,QRCode generation failed
 OnlineMode,온라인,Online
 OnlineMode_text,서버에 연결되어 있습니다,You are connected to the server
@@ -302,21 +346,29 @@ CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
 MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
 DeletedServer,삭제된 서버,Deleted server
-GroupUserJoin,사용자 그룹참여,User joined
-GroupUserOut,사용자 그룹탈퇴,User leaved
+GroupUserJoin,사용자 채널참여,User joined
+GroupUserOut,사용자 채널탈퇴,User leaved
 GroupUserKick,사용자 강제퇴장,User kicked
 ReqContServer,서버,Server
 ReqContUserName,사용자명,User name
-ReqContTitle,그룹 참가 요청,Request to join
+ReqContTitle,채널 참가 요청,Request to join
 ReqContAccept,수락,Accept
 ReqContReject,거절,Reject
-LocalNotiTitle,그룹 참가됨,Joined group
+LocalNotiTitle,채널 참가됨,Joined channel
 LocalNotiOK,확인,OK
 LocalNotiCheck,검토,Check
 AddChannelFailed,채널 추가 실패,Failed to add channel
 AddChannelFailed_Code3,사용자 삭제됨,User deleted
 FailedUpload,업로드 실패,Failed to upload
 FailedDownload,다운로드 실패,Failed to download
+FailedToAddGroup,그룹 추가 실패,Failed to add group
+GroupAllListDone,없는 그룹 정보,There is no group
+GroupAlreadyJoined,이미 참가한 그룹,Already joined group
+SessionLogout,로그아웃됨,Logged out
+LoginAgain,이 서버에 다시 로그인합니다,Log in to this server again
+PendingLogin,로그인을 시도합니다,Trying to log in
+LoggedIn,로그인 시도됨,Login attempted
+TryOnline,온라인 처리 시도,Online processing attempt
 ## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
 UseThisImage,이미지를 준비중...,Preparing image to send...
@@ -338,6 +390,8 @@ Action,이 파일을..,Action..
 Use,사용하기,Use
 Open,열기,Open
 Download,받기,Download
+Import,수입,Import
+ImportFailed,수입 실패,Import failed
 Delete,삭제,Delete
 CreateAt,생성일시,Creation date
 ImportFolder,폴더 수입,Import folder
@@ -348,6 +402,8 @@ ExportConfirm,추출,Export
 RemoveCurrentDir,삭제,Remove
 RemoveThisFolder,이 폴더와 하위 폴더 및 파일들을 삭제합니다,Delete this folder and subfolders and files
 RemoveApply,삭제,Remove
+OpenExtFolder,외부 저장소 보기,View external storage
+PrivateAccessDenied,계정 정보가 포함된 파일이므로 접근이 제한됩니다 ,Access is restricted as this file contains account information
 ## EngineWorksPPT,,
 RemoteCont,엔진PPT 리모콘,EnginePPT Controller
 YouCanSendPCK,휴대폰에 있는 *.pck를 전송하여 시작할 수도 있습니다.,You can also start by sending the *.pck on your phone.
@@ -380,15 +436,29 @@ EnterURI,이미지 주소 입력,Enter image url
 NoNotiMsg,전달할 메시지를 입력해주세요,Please enter your message
 Send,발송,Send
 UserList,사용자 목록,Users
-UserCreate,생성날짜,Create at
-ForceLeave,회원 탈퇴,Withdraw user
+UserCreate,생성일시,Create at
+ForceLeave,이 사용자를 삭제합니다,Delete this user
 ApplyLeave,탈퇴,Withdraw
 UserLeaved,사용자 탈퇴됨,Withdrawn
 UserLeavedFailed,사용자 탈퇴 실패,Withdrawn failed
+GroupList,그룹채널 목록,Group channels
+GroupCreator,생성자,Creator
+GroupUserCounter,그룹 인원,Group members
+ForceBreakUp,이 그룹을 해산합니다,Disband this group
+ForceBreaked,그룹 해산됨,Group breakup
+ForceBreakedFailed,그룹 해산 실패,Breakup failed
+promote_as_manager,매니저 권한 부여,Promote as manager
+Apply,적용하기,Apply
+PromoteAsWell,승격 설정이 적용되었습니다,Promotion settings have been applied
+PromoteError,승격 설정이 이루어지지 않았습니다,Promotion settings are not established
+ToggleAllPromote,모두 선택,Toggle all
+AlreadyAdmin,이미 관리자입니다,You are already an administrator
+RemovedGroup,삭제된 그룹,Removed group
 ## QRCodeGen,,
 AboutQRCodeGen,이 기능에 대해서,About this feature
 UserInput,사용자 입력,User input
 InputHere,내용 입력,Enter content
+Reset,초기화,Reset
 ## WSClient,,
 address,주소와 포트,Address and port
 button_offline,연결하기,Connect
@@ -403,3 +473,55 @@ RecvError,수신 오류,ReceiveError
 SocketError,소켓오류,onError
 inputmsg,메시지 입력,Input message
 send,발송,Send
+## ShareContentToOther,,
+Title,콘텐츠 공유하기,Share content
+NoChannelToShare,가용 채널이 없습니다,No channels available
+AvailableChannels,공유 가능한 채널,Shareable channels
+## WebLinkGen,,
+subtitle,빠른 진입 주소 생성하기,Generate a fast entry address
+baseURL,주소 기반,Address based
+OpenProfile,프로필 및 서버 페이지 열기,Open profile
+OpenChannelTab,채널 탭으로 이동,Open channel tab
+UseTempUser,임시 사용자 지정,Use temporary user info
+CustomInfo,정보 지정,Set information
+AutoOpenChannel,채널 열기,Open channel
+OpenGroupChannel,선택한 채널 열기,Open selected channel
+OpenPrivateChannel,1:1 채널 열기,Open private channel
+ClickToPaste,이 곳을 눌러서 id 붙여넣기,Click to paste user id
+CanMissedChnInfo,로그인 여부에 따라 채널이 등록되지 않을 수 있습니다,Depending on whether you are logged in or not- your channel may not be registered
+## ContentInfo,,
+WorkLogs,작업 기록,Work logs
+LastPost,최종 게시자,Last post
+TimeAt,일시,Date
+FileSize,파일 크기,File size
+SourceFrom,출처,Source
+Publisher,게시자,Publisher
+CloseModal,닫기,Close
+## QuickShareReview,,
+Title,빠른 공유 검토,Quick share review
+Servers,서버,Servers
+Channels,채널,Channel
+QuickShareGrant,이 정보를 공유받기,Get this information shared
+ApplyChecked,선택한 정보를 적용,Apply selected information
+## WebRTCDevManager,,
+Title,WebRTC 서버,WebRTC server
+VideoIn,비디오 입력 장치,Video input
+AudioIn,오디오 입력 장치,Audio input
+AudioOut,오디오 출력 장치,Audio output
+saveSetup,설정 저장하기,Save setting
+IgnoreSave,서버 정보를 입력해주세요,Please enter server information
+InitErr,초기화 실패,Failed to initialize
+AlreadyCalling,다른 통화가 진행중입니다,Another call is in progress
+ManageServer,서버 관리,Manage servers
+Remove,서버 정보 삭제,Remove server info
+AddServer,가용 서버 추가,Add available servers
+ServerInfo,서버 정보,Server info
+Urls,주소,Urls
+Username,사용자명,Username
+Credential,인증,credential
+Save,저장하기,Save
+NoRegServer,등록된 서버가 없습니다,There are no registered servers
+## TTSExport,,
+TTSContent,문장 입력,Input sentance
+TTSPlaceholder,읽을 문장을 입력하세요,Enter the sentence you want to read
+ReadThis,문장 읽기,Read sentance
