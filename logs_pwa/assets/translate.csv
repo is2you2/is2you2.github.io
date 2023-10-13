@@ -1,0 +1,20 @@
+#,ko,en
+Title,나의 기록,My logs
+PressToAdd,눌러서 새 기록 작성,Tap to create a new log
+AddImage,이미지 추가,Add image
+Write,작성하기,Write
+Modify,수정,Modify
+Delete,삭제,Delete
+SideTitle,간단한 기록앱,Simple log app
+Filter,필터,Filter
+SearchKey,검색어,Search word
+DateKey,날짜 탐색,Date navigation
+MobileApp,모바일 앱,Mobile app
+LinkPlaystore,플레이스토어에서 받기,Get it from Playstore
+Creator,제작자,Creator
+CreatorName,최성수,Choi sung soo
+NoTitle,제목 없음,Empty title
+NoContent,내용 없음,Empty content
+InputTitle,제목을 작성해주세요,Please write a title
+OK,확인,OK
+InputSearchKey,검색어 입력..,Enter search term...
