@@ -494,6 +494,7 @@ CanMissedChnInfo,로그인 여부에 따라 채널이 등록되지 않을 수 �
 WorkLogs,작업 기록,Work logs
 LastPost,최종 게시자,Last post
 TimeAt,일시,Date
+WorkHistory,이전 작업 기록,Previous work history
 FileSize,파일 크기,File size
 SourceFrom,출처,Source
 Publisher,게시자,Publisher
