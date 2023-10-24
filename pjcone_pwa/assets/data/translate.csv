@@ -115,7 +115,6 @@ contents,내용,Contents
 img_alt,프로필 이미지,Profile_img
 noname_user,이름 없는 사용자,
 name_placeholder,사용자 이름,Unnamed user
-change_img,이미지 변경,Change image
 login_info,로그인 정보,Login info
 email_address,이메일 주소,Email Address
 password,비밀번호,Password
@@ -126,7 +125,6 @@ main_content,메인 콘텐츠,Main contents
 upload,올리기,Upload
 remove_content,삭제,Remove
 no_main_content,없음,Null
-user_img_changed,사용자 이미지 변경,User image changed
 user_content_changed,사용자 콘텐츠 변경,User content changed
 user_content_removed,사용자 콘텐츠 삭제,User content removed
 need_email,이메일 주소를 입력해주세요,Please enter your email address
@@ -287,8 +285,6 @@ Members,채널 구성원,Members
 invite_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 BreakupGroup,채널 해산,Breakup
 LeaveGroup,떠나기,Leave group
-GroupInfoUpdated,채널 정보 업데이트됨,Channel info updated
-GroupImageUpdated,채널 이미지 업데이트됨,Channel image updated
 GroupRemoved,채널 삭제됨,Channel removed
 GroupForceRemoved,채널이 강제 삭제됨,Channel was forcibly deleted
 YouAreNotCreator,채널 생성자가 아닙니다.,You are not channel creator.
