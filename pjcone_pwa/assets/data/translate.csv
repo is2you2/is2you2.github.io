@@ -27,10 +27,11 @@ startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,할 일 상세 내용,Todo details
-new_attach,새 파일,New
+new_attach,추가,Add
 new_text,새 텍스트,New text
 new_draw,새 그림,New painting
 add_attach,가져오기,Load
+outlink,복사된 외부 링크,Copied external link
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
 delete_attach,삭제,Delete
 attachments,첨부파일,Attachments
@@ -48,14 +49,12 @@ EditText,편집됨,Edited
 ## Subscribes,,
 Title,채널,Channels
 has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
-almighty_link,앱 정보 읽기,Read app information
-almighty_button,QR코드 스캔,Scan QR Code
 Chat,대화,Chat
+NoChat,대화가 없습니다,No chat
 noChatList,참여중인 대화가 없습니다.,There are no active conversations.
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
-AddGroup,새 채널,Add channel
 Disconnected,연결된 서버가 없습니다,No server connected
 ## Settings,,
 Title,설정,Settings
@@ -67,19 +66,19 @@ groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 ServerNTools,서버와 도구,Servers and tools
 joinRanchat,랜덤채팅 참여,Join random chat
-joinDediChat,사설 그룹채팅,Join group chat
+joinDediChat,사설 그룹채팅 참여,Join dedicated group chat
 quickQRshare,정보 공유,Sharing information
-DevKit,보조 도구,Tools
+DevKit,개발 보조 도구,Development aids
 QRCodeGen,QR코드 생성기,QRCode Generator
 TTSExport,TTS 문장 읽기,Text to Speech
 WSClient,웹소켓 클라이언트,Websocket client
 WebLinkGen,웹 링크 생성기,Weblink generator
 ServerFiles,Nakama 서버 파일,Nakama server files
 InAppExplorer,인앱 탐색기,InApp Explorer
-EnginePPT,엔진 PPT,Engine PPT
+EnginePPT,내부망 WebRTC,Internal network WebRTC
 joinDedi_placeholder,기본,Default
-joinDedi_button,참여,Join
 admin_tools,관리자 도구,Admin tools
+ServerAdmin,서버 관리,Manage server
 admin_req_counter,서버 상태,Server status
 NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
@@ -333,7 +332,7 @@ OfflineMode_text,연결된 서버가 없습니다,No server connected
 ## IndexedDB,,
 FailedToDownloadFile,다운받기 오류,Failed to download file
 ## Nakama,,
-AlreadyHaveTargetName,이미 같은 구분자를 쓰는 서버가 있습니다,There is already a server using the same key
+AlreadyHaveTargetName,이미 같은 이름의 서버가 있습니다,There already exists a server with the same name
 NeedLoginInfo,로그인 정보를 확인해주세요,Please check your login information
 NeedLinkUser,사용자를 연결해주세요,Please link user device info
 NeedAccountReset,비밀번호를 확인해주세요,Please check your password
