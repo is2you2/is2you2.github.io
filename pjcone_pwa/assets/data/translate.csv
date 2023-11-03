@@ -341,6 +341,13 @@ UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
 CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
 MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
+RemovingAccount,계정 삭제중,Deleting account
+LogoutAccount,세션 삭제중,Deleting session
+RemovingNotification,알림 삭제중,Deleting notifications
+MissingChannels,채널 손상처리,Processing channel damage
+MissingChannelFiles,파일 이관중,Transferring file
+MissingGroups,그룹 손상처리,Processing channel group
+DeletingServerInfo,서버 정보 삭제,Delete server information
 DeletedServer,삭제된 서버,Deleted server
 GroupUserJoin,사용자 채널참여,User joined
 GroupUserOut,사용자 채널탈퇴,User leaved
