@@ -1,7 +1,7 @@
 ﻿#,ko,en
 ## Main,,
 Title,해야할 일,Todo
-NoTodo,등록된 할 일이 없습니다,There are no registered tasks
+NoTodo,할 일 추가하기,Add to-do
 ## TodoDetail,,
 Title,할 일 상세,Todo detail
 Server,서버,Server
@@ -50,7 +50,7 @@ EditText,편집됨,Edited
 ## Subscribes,,
 Title,채널,Channels
 has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
-NoChat,대화가 없습니다,No chat
+NoChat,채널 생성하기,Create a channel
 noChatList,참여중인 대화가 없습니다.,There are no active conversations.
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
