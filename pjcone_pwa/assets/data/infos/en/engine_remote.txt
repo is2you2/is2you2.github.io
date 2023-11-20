@@ -1,7 +1,0 @@
- It can be operated as a PPT screen on the web and as a PPT controller in the app.
-
- The basic form of PPT that operates as an engine can be obtained from https://github.com/is2you2/engineWorksPPT.git. If you run EnginePPT.tscn as the main scene, you can start from a new project or not run it on a web page.
- If the PPT operates on the web, it needs to be reviewed if it contains 3D elements that may be restricted on the web.
-
- Because it uses WebRTC, it cannot be used during voice calls.
- Your phone and computer must be on the same network.
