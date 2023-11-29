@@ -143,7 +143,6 @@ refresh,새로고침,Refresh
 ## ChatRoom,,
 noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
-fetch_next_chat,최근 기록 불러오기,Retrieve recent records
 unknown_ext,검토 불가,No review
 attachments,첨부파일,Attachments
 FileLink,외부 파일 링크,External file link
@@ -332,8 +331,8 @@ OfflineMode_text,연결된 서버가 없습니다,No server connected
 ## IndexedDB,,
 FailedToDownloadFile,다운받기 오류,Failed to download file
 ## Nakama,,
-DevTestServer,테스트 서버,Test server
-AccessTestServer,테스트 서버에 접근합니다,Access the test server
+DevTestServer,개발 테스트 서버,Development test server
+AccessTestServer,테스트 서버에 연결합니다,Connect to Test server
 AlreadyHaveTargetName,이미 같은 이름의 서버가 있습니다,There already exists a server with the same name
 NeedLoginInfo,로그인 정보를 확인해주세요,Please check your login information
 NeedLinkUser,사용자를 연결해주세요,Please link user device info
