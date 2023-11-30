@@ -19,6 +19,8 @@ const resource = [
   
     '/work-record/',
   
+    '/link/',
+  
 
   /* --- Favicons & compressed JS --- */
   

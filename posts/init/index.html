@@ -47,7 +47,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="블로그 생성됨" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-01T03:31:57+09:00","datePublished":"2023-11-30T10:28:42+09:00","description":"세상아 안녕!","headline":"블로그 생성됨","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/init/"},"url":"https://is2you2.github.io/posts/init/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-01T06:33:58+09:00","datePublished":"2023-11-30T10:28:42+09:00","description":"세상아 안녕!","headline":"블로그 생성됨","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/init/"},"url":"https://is2you2.github.io/posts/init/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -340,6 +340,16 @@
         </li>
         <!-- .nav-item -->
       
+        <li class="nav-item">
+          <a href="/link/" class="nav-link">
+            <i class="fa-fw fas fa-link"></i>
+            
+
+            <span>LINK</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
     </ul>
   </nav>
 
@@ -597,7 +607,7 @@
 
 <time
   
-  data-ts="1701369117"
+  data-ts="1701380038"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -663,12 +673,6 @@
 
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
-    
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/jekyll/">Jekyll</a>
-      </div>
     
 
     <!-- tags -->
@@ -896,6 +900,74 @@
             
               
               <!--  The comments switcher -->
+
+  
+  <!-- https://giscus.app/ -->
+<script type="text/javascript">
+  (function () {
+    const origin = 'https://giscus.app';
+    const iframe = 'iframe.giscus-frame';
+    const lightTheme = 'light';
+    const darkTheme = 'dark_dimmed';
+
+    let initTheme = lightTheme;
+    const html = document.documentElement;
+
+    if (
+      (html.hasAttribute('data-mode') &&
+        html.getAttribute('data-mode') === 'dark') ||
+      (!html.hasAttribute('data-mode') &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      initTheme = darkTheme;
+    }
+
+    let giscusAttributes = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'is2you2/is2you2.github.io',
+      'data-repo-id': '',
+      'data-category': '',
+      'data-category-id': '',
+      'data-mapping': 'pathname',
+      'data-reactions-enabled': '1',
+      'data-emit-metadata': '0',
+      'data-theme': initTheme,
+      'data-input-position': 'bottom',
+      'data-lang': 'en',
+      'data-loading': 'lazy',
+      crossorigin: 'anonymous',
+      async: ''
+    };
+
+    let giscusScript = document.createElement('script');
+    Object.entries(giscusAttributes).forEach(([key, value]) =>
+      giscusScript.setAttribute(key, value)
+    );
+    document.getElementById('tail-wrapper').appendChild(giscusScript);
+
+    addEventListener('message', (event) => {
+      if (
+        event.source === window &&
+        event.data &&
+        event.data.direction === ModeToggle.ID
+      ) {
+        /* global theme mode changed */
+        const mode = event.data.message;
+        const theme = mode === ModeToggle.DARK_MODE ? darkTheme : lightTheme;
+
+        const message = {
+          setConfig: {
+            theme: theme
+          }
+        };
+
+        const giscus = document.querySelector(iframe).contentWindow;
+        giscus.postMessage({ giscus: message }, origin);
+      }
+    });
+  })();
+</script>
+
 
 
             

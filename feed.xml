@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스 프로그램에 기대어 콘텐츠를 만들어요</subtitle>
-  <updated>2023-12-01T04:27:26+09:00</updated>
+  <updated>2023-12-01T06:38:29+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://is2you2.github.io/posts/init/" rel="alternate" type="text/html" title="블로그 생성됨" />
     <published>2023-11-30T10:28:42+09:00</published>
   
-    <updated>2023-12-01T03:31:57+09:00</updated>
+    <updated>2023-12-01T06:33:58+09:00</updated>
   
     <id>https://is2you2.github.io/posts/init/</id>
     <content src="https://is2you2.github.io/posts/init/" />
@@ -33,8 +33,6 @@
     </author>
 
   
-    
-    <category term="Jekyll" />
     
   
 
