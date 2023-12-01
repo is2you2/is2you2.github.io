@@ -3,7 +3,7 @@
 {
   "name": "그림또따",
   "short_name": "그림또따",
-  "description": "오픈소스 프로그램에 기대어 콘텐츠를 만들어요",
+  "description": "오픈소스에 기대어 이것 저것 해봅니다",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",
