@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스 프로그램에 기대어 콘텐츠를 만들어요</subtitle>
-  <updated>2023-12-01T06:38:29+09:00</updated>
+  <updated>2023-12-01T17:44:56+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,11 +20,65 @@
 
   
   <entry>
+    <title>[Jekyll] 홈 화면에 포스트가 안보일 때</title>
+    <link href="https://is2you2.github.io/posts/post-not-show/" rel="alternate" type="text/html" title="[Jekyll] 홈 화면에 포스트가 안보일 때" />
+    <published>2023-12-01T17:18:00+09:00</published>
+  
+    <updated>2023-12-01T17:18:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/post-not-show/</id>
+    <content src="https://is2you2.github.io/posts/post-not-show/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="Jekyll" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Home 에 최근 포스트가 보이지 않는 문제
+일부 지킬 테마 중 준비된 스타터 템플릿을 사용하여 시작할 때
+간혹 홈 페이지에서 최신 포스트가 보여지지 않는 문제가 발생할 수 있다.
+
+이 경우 포스트 상단 설정(Front matter)에
+---
+pin: true
+---
+
+위 설정을 추가해주면 강제로 핀 처리가 되어 홈 페이지에 게시가 되는데
+당연히 이것은 Pinned 게시물이기 때문에 핀 표시가 남게 된다
+
+이 방법이 임시방편이 될 수 있으나 이 후 모든 포스트마다 핀 처리하는 것은 매우 귀찮고, 실제로 핀 처리를 해야할 때는 핀 기능을 쓸 수 없게 되는 셈이 된다.
+
+해결방법
+프로젝트 폴더에 index 파일이 중첩된 경우 이런 문제가 발생할 수 있다.
+...
+index.html
+index.md (mar...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>블로그 생성됨</title>
     <link href="https://is2you2.github.io/posts/init/" rel="alternate" type="text/html" title="블로그 생성됨" />
     <published>2023-11-30T10:28:42+09:00</published>
   
-    <updated>2023-12-01T06:33:58+09:00</updated>
+    <updated>2023-12-01T17:44:46+09:00</updated>
   
     <id>https://is2you2.github.io/posts/init/</id>
     <content src="https://is2you2.github.io/posts/init/" />
