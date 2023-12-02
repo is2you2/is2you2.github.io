@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-02T08:28:03+09:00</updated>
+  <updated>2023-12-03T05:13:29+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,57 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Firefox 번역 확장기능 사용</title>
+    <link href="https://is2you2.github.io/posts/firefox-env/" rel="alternate" type="text/html" title="Firefox 번역 확장기능 사용" />
+    <published>2023-12-03T04:59:00+09:00</published>
+  
+    <updated>2023-12-03T04:59:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/firefox-env/</id>
+    <content src="https://is2you2.github.io/posts/firefox-env/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      부분적 영어 문맹인
+시작에 앞서..
+웹 브라우저는 본인의 취향에 따라 마음대로 선택해도 됩니다.
+저도 제 취향에 대해서 이야기하는 겁니다 :)
+
+그저 번역을 말하려는게 아닙니다
+브라우저에 번역 확장이 준비되어 있는 것은 흔한 일입니다. 하지만 마음에 드는 번역기 모양새가 있는 경우는 많이 없지요. 이 포스트는 “번역 기능”이 아니라 “제 마음에 드는 번역기”와 그것을 이용한 저만의 편의 기능을 소개합니다.
+
+불여우 브라우저
+일반적으로, 불여우는 리눅스 기본 브라우저입니다. 없다면 다운받으실 수도 있습니다.
+브라우저를 열고 Ctrl + Shift + A 를 눌러 확장 기능 화면에 진입합니다.
+
+
+확장(Extensions) 탭을 눌러 검색어로 translate를 입력하면 다양한 번역기 확장이 보입니다.
+
+...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
