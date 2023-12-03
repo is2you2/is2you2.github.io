@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-03T10:12:19+09:00</updated>
+  <updated>2023-12-04T07:12:50+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[Termux] 안드로이드를 리눅스처럼</title>
+    <link href="https://is2you2.github.io/posts/android-termux/" rel="alternate" type="text/html" title="[Termux] 안드로이드를 리눅스처럼" />
+    <published>2023-12-04T07:01:00+09:00</published>
+  
+    <updated>2023-12-04T07:01:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/android-termux/</id>
+    <content src="https://is2you2.github.io/posts/android-termux/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      터미널 에뮬레이터 앱
+시작하기 전에..
+여러분이 리눅스나 맥을 사용하며 터미널에 대한 경험이 쌓였다면 이 앱은 여러분의 스마트폰을 좀 더 스마트하게 사용할 기회를 제공합니다.
+아이폰이 훌륭한 물건이라는 것 정도는 저도 알지만 이러한 자유도가 좋아서 안드로이드를 못벗어나고 있습니다
+하하 이걸 어떻게 안써요;
+
+응? 안드로이드가 리눅스 아니었나?
+설명하자면 복잡합니다만 약간의 거짓말을 보태어 대답하자면 아닙니다. (거짓임)
+가장 밑바닥에는 리눅스가 있는 것은 사실이지만 우리가 쓰는 부분은 리눅스 위에서 돌고 있는 안드로이드의 느낌으로 동작합니다.
+일종의 가상머신을 쓰고 있는 셈이죠.
+
+Termux 사용해보기
+앱 관리자 설치하기
+이 앱은 오픈소스입니다.
+안드로이드 사용자라면 플레이스토어라는 앱 관리자를 사용...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -75,7 +125,7 @@
     <link href="https://is2you2.github.io/posts/linux-os-env/" rel="alternate" type="text/html" title="일반적으로 리눅스를 설치하는 과정" />
     <published>2023-12-02T02:32:00+09:00</published>
   
-    <updated>2023-12-02T08:27:39+09:00</updated>
+    <updated>2023-12-04T07:12:33+09:00</updated>
   
     <id>https://is2you2.github.io/posts/linux-os-env/</id>
     <content src="https://is2you2.github.io/posts/linux-os-env/" />
@@ -124,7 +174,7 @@
     <link href="https://is2you2.github.io/posts/post-not-show/" rel="alternate" type="text/html" title="[Jekyll] 홈 화면에 포스트가 안보일 때" />
     <published>2023-12-01T17:18:00+09:00</published>
   
-    <updated>2023-12-02T05:21:28+09:00</updated>
+    <updated>2023-12-04T07:12:33+09:00</updated>
   
     <id>https://is2you2.github.io/posts/post-not-show/</id>
     <content src="https://is2you2.github.io/posts/post-not-show/" />
@@ -147,24 +197,25 @@
 
 
       Home 에 최근 포스트가 보이지 않는 문제
-일부 지킬 테마 중 준비된 스타터 템플릿을 사용하여 시작할 때
-간혹 홈 페이지에서 최신 포스트가 보여지지 않는 문제가 발생할 수 있다.
+일부 지킬 테마 중 준비된 스타터 템플릿을 사용하여 시작할 때 홈 페이지에서 최신 포스트가 보여지지 않는 문제가 발생할 수 있다.
 
 이 경우 포스트 상단 설정(Front matter)에
 ---
 pin: true
 ---
 
-위 설정을 추가해주면 강제로 핀 처리가 되어 홈 페이지에 게시가 되는데
-당연히 이것은 Pinned 게시물이기 때문에 핀 표시가 남게 된다
+위 설정을 추가해주면 강제로 핀 처리가 되어 홈 페이지에 게시가 되는데 이것은 Pinned 게시물이기 때문에 핀 표시가 남게 된다
 
-이 방법이 임시방편이 될 수 있으나 이 후 모든 포스트마다 핀 처리하는 것은 매우 귀찮고, 실제로 핀 처리를 해야할 때는 핀 기능을 쓸 수 없게 되는 셈이 된다.
+이 방법이 임시방편이 될 수 있으나 이 후 모든 포스트마다 핀 처리를 해야하고, 실제로 핀 처리를 해야할 때는 핀 기능을 쓸 수 없게 되는 셈이 된다.
 
 해결방법
 프로젝트 폴더에 index 파일이 중첩된 경우 이런 문제가 발생할 수 있다.
 ...
 index.html
-index.md (mar...
+index.md (markdown)
+...
+
+기...
     </summary>
   
 
