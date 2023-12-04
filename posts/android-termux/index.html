@@ -1196,10 +1196,6 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
     
     
     
-      
-        
-        
-
   
     
     
@@ -1215,23 +1211,9 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
     
     
       
-    
-  
-    
-    
-    
-    
-      
         
         
 
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1268,6 +1250,66 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1308,6 +1350,69 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
     
     
     
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1338,6 +1443,9 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
         <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/firefox/">firefox</a>
       
         
@@ -1345,6 +1453,9 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/linux/">linux</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/termux/">termux</a>
@@ -1398,6 +1509,18 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1540,7 +1663,7 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
         </article>
       
         <article class="col">
-          <a href="/posts/post-not-show/" class="post-preview card h-100">
+          <a href="/posts/code-server/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1552,14 +1675,14 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
 
 <time
   
-  data-ts="1701418680"
+  data-ts="1701719580"
   data-df="ll"
   
 >
-  Dec  1, 2023
+  Dec  5, 2023
 </time>
 
-              <h4 class="pt-0 my-2">[Jekyll] 홈 화면에 포스트가 안보일 때</h4>
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [1] (feat. code-server)</h4>
               <div class="text-muted">
                 <p>
                   
@@ -1568,15 +1691,11 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
 
 
 
-                  Home 에 최근 포스트가 보이지 않는 문제
-일부 지킬 테마 중 준비된 스타터 템플릿을 사용하여 시작할 때 홈 페이지에서 최신 포스트가 보여지지 않는 문제가 발생할 수 있다.
+                  작업 환경 분리?
+시작에 앞서..
+코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
 
-이 경우 포스트 상단 설정(Front matter)에
----
-pin: true
----
-
-위 설정을 추가해주면 강제로 핀 처리가 되어 홈 페이지에 게시가 되는데 이것은 Pinne...
+그냥 ...
                 </p>
               </div>
             </div>
@@ -1607,9 +1726,13 @@ pin: true
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/code-server/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>작업 환경 분리 구성하기 [1] (feat. code-server)</p>
+    </a>
   
 </nav>
 
@@ -1758,10 +1881,6 @@ pin: true
     
     
     
-      
-        
-        
-
   
     
     
@@ -1777,23 +1896,9 @@ pin: true
     
     
       
-    
-  
-    
-    
-    
-    
-      
         
         
 
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1830,6 +1935,66 @@ pin: true
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1870,6 +2035,69 @@ pin: true
     
     
     
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1900,6 +2128,9 @@ pin: true
         <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/firefox/">firefox</a>
       
         
@@ -1907,6 +2138,9 @@ pin: true
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/linux/">linux</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/termux/">termux</a>
