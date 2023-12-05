@@ -960,10 +960,69 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
+      
+        
+        
+
   
     
     
     
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1000,24 +1059,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1027,99 +1068,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1160,7 +1108,45 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
+  
+    
+    
+    
+    
       
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -1192,8 +1178,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
-    
-      
     
   
     
@@ -1211,13 +1195,16 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/firefox/">firefox</a>
@@ -1227,9 +1214,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/linux/">linux</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/termux/">termux</a>
@@ -1283,6 +1267,18 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1349,6 +1345,61 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/code-server-2/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701813900"
+  data-df="ll"
+  
+>
+  Dec  6, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [2] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  도커 사용하기
+지난 이야기..
+지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
+근데 도커가 생성되면 뭘 하냐구요?
+
+아무 것도 안합니다
+
+약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
+
+도커는 지금…
+이전 내용을 가져오면,
+1
+2
+3
+4
+5
+services:
+  code-server:
+    image: ubuntu
+...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/linux-os-env/" class="post-preview card h-100">
@@ -1436,49 +1487,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/android-termux/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701640860"
-  data-df="ll"
-  
->
-  Dec  4, 2023
-</time>
-
-              <h4 class="pt-0 my-2">[Termux] 안드로이드를 리눅스처럼</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  터미널 에뮬레이터 앱
-시작하기 전에..
-여러분이 리눅스나 맥을 사용하며 터미널에 대한 경험이 쌓였다면 이 앱은 여러분의 스마트폰을 좀 더 스마트하게 사용할 기회를 제공합니다.
-아이폰이 훌륭한 물건이라는 것 정도는 저도 알지만 이러한 자유도가 좋아서 안드로이드를 못벗어나고 있습니다
-하하 이걸 어떻게 안써요;
-
-응? 안드로이드가 리눅스 아니었나?
-설명하자...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1503,9 +1511,13 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/code-server-2/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>작업 환경 분리 구성하기 [2] (feat. code-server)</p>
+    </a>
   
 </nav>
 
@@ -1644,10 +1656,69 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
+      
+        
+        
+
   
     
     
     
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1684,24 +1755,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1711,99 +1764,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1844,7 +1804,45 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
+  
+    
+    
+    
+    
       
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -1876,8 +1874,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
     
     
-    
-      
     
   
     
@@ -1895,13 +1891,16 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/firefox/">firefox</a>
@@ -1911,9 +1910,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/linux/">linux</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/termux/">termux</a>

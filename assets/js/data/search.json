@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "작업 환경 분리 구성하기 [2] (feat. code-server)",
+    "url": "/posts/code-server-2/",
+    "categories": "정보글, 작업환경",
+    "tags": "scripting, docker",
+    "date": "2023-12-06 07:05:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "도커 사용하기지난 이야기..지난번 포스트에서 도커 생성 및 삭제까지 했습니다.근데 도커가 생성되면 뭘 하냐구요?아무 것도 안합니다약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.도커는 지금…이전 내용을 가져오면,services:  code-server:    image: ubuntu    container_name: code...",
+    "content": "도커 사용하기지난 이야기..지난번 포스트에서 도커 생성 및 삭제까지 했습니다.근데 도커가 생성되면 뭘 하냐구요?아무 것도 안합니다약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.도커는 지금…이전 내용을 가져오면,services:  code-server:    image: ubuntu    container_name: code-server    ...yml 파일에 대놓고 ubuntu라 적혀있으니 이 도커는 지금 우분투가 설치된 것을 예상할 수 있습니다. 그럼 이 우분투를 어떻게 사용하느냐..터미널에 docker ps를 입력해봅시다.&gt; docker psCONTAINER ID   IMAGE     COMMAND               CREATED        STATUS       ...fa93f0a75a94   ubuntu    \"tail -F /dev/null\"   44 hours ago   Up ...현재 활성중인 도커를 보여주는데, 컨테이너 ID(fa93f0a75a94)가 보이네요아래 명령을 입력하면 터미널로 접근할 수 있습니다.docker exec -it fa93f0a75a94 /bin/bashroot@fa93f0a75a94:/# 관리자 계정인데요?사용자가 관리자 계정이긴 하지만 이제부터는 우분투를 사용하는 것과 동일합니다.apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하고 할 것 같은 일부 기본 유틸(nano, git, wget 등)을 설치하시면 됩니다. (시작할 때 sudo가 설치되어있지 않음)code-server 설치적당히 준비가 되었으면 아래 명령어를 입력하여 코드 서버를 설치합니다.curl -fsSL https://code-server.dev/install.sh | sh다음에 계속…"
+  },
+  
+  {
     "title": "작업 환경 분리 구성하기 [1] (feat. code-server)",
     "url": "/posts/code-server/",
     "categories": "정보글, 작업환경",
