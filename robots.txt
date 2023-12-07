@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: http://172.18.0.2:4000/sitemap.xml
+Sitemap: https://is2you2.github.io/sitemap.xml

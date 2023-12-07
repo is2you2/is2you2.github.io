@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://172.18.0.2:4000/</id>
+  <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-07T09:43:13+09:00</updated>
+  <updated>2023-12-07T10:34:22+09:00</updated>
   <author>
     <name>그림또따</name>
-    <uri>http://172.18.0.2:4000/</uri>
+    <uri>https://is2you2.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://172.18.0.2:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://is2you2.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko"
-    href="http://172.18.0.2:4000/"/>
+    href="https://is2you2.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 그림또따 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>작업 환경 분리 구성하기 [3] (feat. code-server)</title>
-    <link href="http://172.18.0.2:4000/posts/code-server-3/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [3] (feat. code-server)" />
+    <link href="https://is2you2.github.io/posts/code-server-3/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [3] (feat. code-server)" />
     <published>2023-12-07T09:39:00+09:00</published>
   
     <updated>2023-12-07T09:39:00+09:00</updated>
   
-    <id>http://172.18.0.2:4000/posts/code-server-3/</id>
-    <content src="http://172.18.0.2:4000/posts/code-server-3/" />
+    <id>https://is2you2.github.io/posts/code-server-3/</id>
+    <content src="https://is2you2.github.io/posts/code-server-3/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -82,13 +82,13 @@ password: 진입할 때 사용할 비밀번호
   
   <entry>
     <title>작업 환경 분리 구성하기 [2] (feat. code-server)</title>
-    <link href="http://172.18.0.2:4000/posts/code-server-2/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [2] (feat. code-server)" />
+    <link href="https://is2you2.github.io/posts/code-server-2/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [2] (feat. code-server)" />
     <published>2023-12-06T07:05:00+09:00</published>
   
     <updated>2023-12-06T07:05:00+09:00</updated>
   
-    <id>http://172.18.0.2:4000/posts/code-server-2/</id>
-    <content src="http://172.18.0.2:4000/posts/code-server-2/" />
+    <id>https://is2you2.github.io/posts/code-server-2/</id>
+    <content src="https://is2you2.github.io/posts/code-server-2/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -140,13 +140,13 @@ CONTAINER ID   IMAGE     COMMAND               ...
   
   <entry>
     <title>작업 환경 분리 구성하기 [1] (feat. code-server)</title>
-    <link href="http://172.18.0.2:4000/posts/code-server/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [1] (feat. code-server)" />
+    <link href="https://is2you2.github.io/posts/code-server/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [1] (feat. code-server)" />
     <published>2023-12-05T04:53:00+09:00</published>
   
     <updated>2023-12-05T04:53:00+09:00</updated>
   
-    <id>http://172.18.0.2:4000/posts/code-server/</id>
-    <content src="http://172.18.0.2:4000/posts/code-server/" />
+    <id>https://is2you2.github.io/posts/code-server/</id>
+    <content src="https://is2you2.github.io/posts/code-server/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -185,13 +185,13 @@ CONTAINER ID   IMAGE     COMMAND               ...
   
   <entry>
     <title>[Termux] 안드로이드를 리눅스처럼</title>
-    <link href="http://172.18.0.2:4000/posts/android-termux/" rel="alternate" type="text/html" title="[Termux] 안드로이드를 리눅스처럼" />
+    <link href="https://is2you2.github.io/posts/android-termux/" rel="alternate" type="text/html" title="[Termux] 안드로이드를 리눅스처럼" />
     <published>2023-12-04T07:01:00+09:00</published>
   
     <updated>2023-12-04T07:01:00+09:00</updated>
   
-    <id>http://172.18.0.2:4000/posts/android-termux/</id>
-    <content src="http://172.18.0.2:4000/posts/android-termux/" />
+    <id>https://is2you2.github.io/posts/android-termux/</id>
+    <content src="https://is2you2.github.io/posts/android-termux/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -235,13 +235,13 @@ Termux 사용해보기
   
   <entry>
     <title>Firefox 번역 확장기능 사용</title>
-    <link href="http://172.18.0.2:4000/posts/firefox-env/" rel="alternate" type="text/html" title="Firefox 번역 확장기능 사용" />
+    <link href="https://is2you2.github.io/posts/firefox-env/" rel="alternate" type="text/html" title="Firefox 번역 확장기능 사용" />
     <published>2023-12-03T04:59:00+09:00</published>
   
     <updated>2023-12-03T05:20:29+09:00</updated>
   
-    <id>http://172.18.0.2:4000/posts/firefox-env/</id>
-    <content src="http://172.18.0.2:4000/posts/firefox-env/" />
+    <id>https://is2you2.github.io/posts/firefox-env/</id>
+    <content src="https://is2you2.github.io/posts/firefox-env/" />
     <author>
       <name>그림또따</name>
     </author>
