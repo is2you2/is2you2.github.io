@@ -39,15 +39,15 @@
 <meta property="og:locale" content="ko" />
 <meta name="description" content="도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?" />
 <meta property="og:description" content="도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?" />
-<link rel="canonical" href="https://is2you2.github.io/posts/code-server-2/" />
-<meta property="og:url" content="https://is2you2.github.io/posts/code-server-2/" />
+<link rel="canonical" href="http://172.18.0.2:4000/posts/code-server-2/" />
+<meta property="og:url" content="http://172.18.0.2:4000/posts/code-server-2/" />
 <meta property="og:site_name" content="그림또따" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-12-06T07:05:00+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="작업 환경 분리 구성하기 [2] (feat. code-server)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-06T07:05:00+09:00","datePublished":"2023-12-06T07:05:00+09:00","description":"도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?","headline":"작업 환경 분리 구성하기 [2] (feat. code-server)","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/code-server-2/"},"url":"https://is2you2.github.io/posts/code-server-2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-06T07:05:00+09:00","datePublished":"2023-12-06T07:05:00+09:00","description":"도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?","headline":"작업 환경 분리 구성하기 [2] (feat. code-server)","mainEntityOfPage":{"@type":"WebPage","@id":"http://172.18.0.2:4000/posts/code-server-2/"},"url":"http://172.18.0.2:4000/posts/code-server-2/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -804,7 +804,7 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%9E%91%EC%97%85%20%ED%99%98%EA%B2%BD%20%EB%B6%84%EB%A6%AC%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0%20[2]%20(feat.%20code-server)%20-%20%EA%B7%B8%EB%A6%BC%EB%98%90%EB%94%B0&u=https%3A%2F%2Fis2you2.github.io%2Fposts%2Fcode-server-2%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%9E%91%EC%97%85%20%ED%99%98%EA%B2%BD%20%EB%B6%84%EB%A6%AC%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0%20[2]%20(feat.%20code-server)%20-%20%EA%B7%B8%EB%A6%BC%EB%98%90%EB%94%B0&u=http%3A%2F%2F172.18.0.2%3A4000%2Fposts%2Fcode-server-2%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
@@ -945,6 +945,16 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -959,24 +969,10 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
     
     
     
-      
-    
   
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1152,10 +1148,10 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
         <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
@@ -1221,6 +1217,18 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1341,6 +1349,62 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
         </article>
       
         <article class="col">
+          <a href="/posts/code-server-3/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701909540"
+  data-df="ll"
+  
+>
+  Dec  7, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [3] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  드디어 코드 서버가 생겼네
+바로 실행해보기
+1
+2
+3
+4
+5
+root@fa93f0a75a94:~# code-server
+
+...
+...
+... info    - Not serving HTTPS
+
+와 실행 성공!
+그럼 이제 Ctrl + C 를 눌러 꺼주세요
+
+접근 설정 변경
+1
+nano ~/.config/code-server/config.yaml 
+
+코...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
           <a href="/posts/linux-os-env/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1384,48 +1448,6 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/firefox-env/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701547140"
-  data-df="ll"
-  
->
-  Dec  3, 2023
-</time>
-
-              <h4 class="pt-0 my-2">Firefox 번역 확장기능 사용</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  부분적 영어 문맹인
-시작에 앞서..
-웹 브라우저는 본인의 취향에 따라 마음대로 선택해도 됩니다.
-저도 제 취향에 대해서 이야기하는 겁니다 :)
-
-그저 번역을 말하려는게 아닙니다
-브라우저에 번역 확장이 준비되어 있는 것은 흔한 일입니다. 하지만 마음에 드는 번역기 모양새가 있는 경우는 많이 없지요. 이 포스트는 “번역 기능”이 아니라 “제 마음에 드는 ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1450,9 +1472,13 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/code-server-3/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>작업 환경 분리 구성하기 [3] (feat. code-server)</p>
+    </a>
   
 </nav>
 
@@ -1622,6 +1648,16 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1636,24 +1672,10 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
     
     
     
-      
-    
   
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1829,10 +1851,10 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
         <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>

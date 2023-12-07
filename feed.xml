@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://is2you2.github.io/</id>
+  <id>http://172.18.0.2:4000/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-06T07:11:42+09:00</updated>
+  <updated>2023-12-07T09:43:13+09:00</updated>
   <author>
     <name>그림또따</name>
-    <uri>https://is2you2.github.io/</uri>
+    <uri>http://172.18.0.2:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://is2you2.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://172.18.0.2:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko"
-    href="https://is2you2.github.io/"/>
+    href="http://172.18.0.2:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 그림또따 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,75 @@
 
   
   <entry>
+    <title>작업 환경 분리 구성하기 [3] (feat. code-server)</title>
+    <link href="http://172.18.0.2:4000/posts/code-server-3/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [3] (feat. code-server)" />
+    <published>2023-12-07T09:39:00+09:00</published>
+  
+    <updated>2023-12-07T09:39:00+09:00</updated>
+  
+    <id>http://172.18.0.2:4000/posts/code-server-3/</id>
+    <content src="http://172.18.0.2:4000/posts/code-server-3/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      드디어 코드 서버가 생겼네
+바로 실행해보기
+root@fa93f0a75a94:~# code-server
+
+...
+...
+... info    - Not serving HTTPS
+
+와 실행 성공!
+그럼 이제 Ctrl + C 를 눌러 꺼주세요
+
+접근 설정 변경
+nano ~/.config/code-server/config.yaml 
+
+코드 서버 설정 파일에 접근하면 아래와 같은 내용이 준비되어 있을텐데
+bind-addr: 127.0.0.1:8080
+auth: password
+password: waefskgrdbf3w45egltrhalvk
+cert: false
+
+bind-addr: 진입할 수 있는 주소와 포트
+password: 진입할 때 사용할 비밀번호
+
+일단 비밀번호만 먼저 입맛에 맞게 바꾸면 됩니다.
+
+네트...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>작업 환경 분리 구성하기 [2] (feat. code-server)</title>
-    <link href="https://is2you2.github.io/posts/code-server-2/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [2] (feat. code-server)" />
+    <link href="http://172.18.0.2:4000/posts/code-server-2/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [2] (feat. code-server)" />
     <published>2023-12-06T07:05:00+09:00</published>
   
     <updated>2023-12-06T07:05:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/code-server-2/</id>
-    <content src="https://is2you2.github.io/posts/code-server-2/" />
+    <id>http://172.18.0.2:4000/posts/code-server-2/</id>
+    <content src="http://172.18.0.2:4000/posts/code-server-2/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -79,13 +140,13 @@ CONTAINER ID   IMAGE     COMMAND               ...
   
   <entry>
     <title>작업 환경 분리 구성하기 [1] (feat. code-server)</title>
-    <link href="https://is2you2.github.io/posts/code-server/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [1] (feat. code-server)" />
+    <link href="http://172.18.0.2:4000/posts/code-server/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [1] (feat. code-server)" />
     <published>2023-12-05T04:53:00+09:00</published>
   
     <updated>2023-12-05T04:53:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/code-server/</id>
-    <content src="https://is2you2.github.io/posts/code-server/" />
+    <id>http://172.18.0.2:4000/posts/code-server/</id>
+    <content src="http://172.18.0.2:4000/posts/code-server/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -124,13 +185,13 @@ CONTAINER ID   IMAGE     COMMAND               ...
   
   <entry>
     <title>[Termux] 안드로이드를 리눅스처럼</title>
-    <link href="https://is2you2.github.io/posts/android-termux/" rel="alternate" type="text/html" title="[Termux] 안드로이드를 리눅스처럼" />
+    <link href="http://172.18.0.2:4000/posts/android-termux/" rel="alternate" type="text/html" title="[Termux] 안드로이드를 리눅스처럼" />
     <published>2023-12-04T07:01:00+09:00</published>
   
     <updated>2023-12-04T07:01:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/android-termux/</id>
-    <content src="https://is2you2.github.io/posts/android-termux/" />
+    <id>http://172.18.0.2:4000/posts/android-termux/</id>
+    <content src="http://172.18.0.2:4000/posts/android-termux/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -174,13 +235,13 @@ Termux 사용해보기
   
   <entry>
     <title>Firefox 번역 확장기능 사용</title>
-    <link href="https://is2you2.github.io/posts/firefox-env/" rel="alternate" type="text/html" title="Firefox 번역 확장기능 사용" />
+    <link href="http://172.18.0.2:4000/posts/firefox-env/" rel="alternate" type="text/html" title="Firefox 번역 확장기능 사용" />
     <published>2023-12-03T04:59:00+09:00</published>
   
     <updated>2023-12-03T05:20:29+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/firefox-env/</id>
-    <content src="https://is2you2.github.io/posts/firefox-env/" />
+    <id>http://172.18.0.2:4000/posts/firefox-env/</id>
+    <content src="http://172.18.0.2:4000/posts/firefox-env/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -217,55 +278,6 @@ Termux 사용해보기
 확장(Extensions) 탭을 눌러 검색어로 translate를 입력하면 다양한 번역기 확장이 보입니다.
 
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>일반적으로 리눅스를 설치하는 과정</title>
-    <link href="https://is2you2.github.io/posts/linux-os-env/" rel="alternate" type="text/html" title="일반적으로 리눅스를 설치하는 과정" />
-    <published>2023-12-02T02:32:00+09:00</published>
-  
-    <updated>2023-12-04T07:12:33+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/linux-os-env/</id>
-    <content src="https://is2you2.github.io/posts/linux-os-env/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      작업 환경 구축 (OS)
-준비물
-16GB 이상의 빈 USB, 컴퓨터 또는 노트북, 책임감(중요함), 영어 독해력(선택사항)
-
-시작하기에 앞서..
-이 단계는 취향에 따라 건너뛸 수 있습니다.
-대부분의 오픈소스 프로그램들은 메이저 OS(윈도우, 맥, 일부 리눅스 배포판)에서 실행할 수 있으므로 이 단계를 건너뛸 수 있으나..
-
-리눅스는 무료이고, 원래 사용하는 OS를 건드리지 않고 설치할 수 있으니 호기심이 생기는 정도로도 여러분은 체험할 준비가 된 셈입니다.
-설치하고 사용하는 과정 중 컴퓨터의 기본 구성에 대한 새로운 깨달음을 얻을 기회가 될 수도 있습니다.
-윈도우나 맥에 비교하면 리눅스는 날 것에 가까운 OS니까요.
-
-책임감이 중요한 이유는 오직 한가지입니다.
-본인이 행한 일은 본인이 책임져야 합니다....
     </summary>
   
 

@@ -45,7 +45,7 @@ const resource = [
 const allowedDomains = [
   
 
-  'is2you2.github.io',
+  '172.18.0.2:4000',
 
   
 

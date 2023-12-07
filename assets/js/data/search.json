@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "작업 환경 분리 구성하기 [3] (feat. code-server)",
+    "url": "/posts/code-server-3/",
+    "categories": "정보글, 작업환경",
+    "tags": "scripting, docker",
+    "date": "2023-12-07 09:39:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "드디어 코드 서버가 생겼네바로 실행해보기root@fa93f0a75a94:~# code-server......... info    - Not serving HTTPS와 실행 성공!그럼 이제 Ctrl + C 를 눌러 꺼주세요접근 설정 변경nano ~/.config/code-server/config.yaml 코드 서버 설정 파일에 접근하면 아래와 같은 내용...",
+    "content": "드디어 코드 서버가 생겼네바로 실행해보기root@fa93f0a75a94:~# code-server......... info    - Not serving HTTPS와 실행 성공!그럼 이제 Ctrl + C 를 눌러 꺼주세요접근 설정 변경nano ~/.config/code-server/config.yaml 코드 서버 설정 파일에 접근하면 아래와 같은 내용이 준비되어 있을텐데bind-addr: 127.0.0.1:8080auth: passwordpassword: waefskgrdbf3w45egltrhalvkcert: falsebind-addr: 진입할 수 있는 주소와 포트password: 진입할 때 사용할 비밀번호일단 비밀번호만 먼저 입맛에 맞게 바꾸면 됩니다.네트워크 이야기컴퓨터 주소 중 127.0.0.1 는 네트워크에서 “나(해당 기기)“를 의미합니다.그러니까 위 설정으로는 “나“만 이 서버에 들어갈 수 있는데, 코드 서버가 도커 안에서 돌고 있고, 도커는 일종의 가상머신이므로 명백히 “나“가 아닙니다. 그건 “내 안에 있는 흑염룡“과 같은, 다른 존재이므로 저 설정으로는 접근할 수 없습니다.접근하기 위해서는 컴퓨터 기준에서 도커의 주소를 입력해주어야 합니다.도커 터미널에 net-tools를 설치하여 도커 주소를 확인해주면 됩니다.apt install net-tools... # 설치가 완료되면ifconfig보통 172.18.0.2 같은 식으로 맨 뒤가 2로 끝납니다.이제 정말 사용할 수 있나요!?!네!!"
+  },
+  
+  {
     "title": "작업 환경 분리 구성하기 [2] (feat. code-server)",
     "url": "/posts/code-server-2/",
     "categories": "정보글, 작업환경",

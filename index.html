@@ -39,15 +39,15 @@
 <meta property="og:locale" content="ko" />
 <meta name="description" content="오픈소스에 기대어 이것 저것 해봅니다" />
 <meta property="og:description" content="오픈소스에 기대어 이것 저것 해봅니다" />
-<link rel="canonical" href="https://is2you2.github.io/" />
-<meta property="og:url" content="https://is2you2.github.io/" />
+<link rel="canonical" href="http://172.18.0.2:4000/" />
+<meta property="og:url" content="http://172.18.0.2:4000/" />
 <meta property="og:site_name" content="그림또따" />
 <meta property="og:type" content="website" />
-<link rel="next" href="https://is2you2.github.io/page2" />
+<link rel="next" href="http://172.18.0.2:4000/page2" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="그림또따" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"오픈소스에 기대어 이것 저것 해봅니다","headline":"그림또따","name":"그림또따","sameAs":["https://github.com/is2you2"],"url":"https://is2you2.github.io/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"오픈소스에 기대어 이것 저것 해봅니다","headline":"그림또따","name":"그림또따","sameAs":["https://github.com/is2you2"],"url":"http://172.18.0.2:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -463,81 +463,6 @@
 
 
 
-  
-  
-
-  <!-- CDN URL -->
-  
-
-  <!-- Add image path -->
-  
-
-  
-    
-      
-      
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-
-  
-
 
 <!-- Add header for code snippets -->
 
@@ -601,6 +526,84 @@
 
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/posts/code-server-3/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [3] (feat. code-server)</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                드디어 코드 서버가 생겼네
+바로 실행해보기
+root@fa93f0a75a94:~# code-server
+
+...
+...
+... info    - Not serving HTTPS
+
+와 실행 성공!
+그럼 이제 Ctrl + C 를 눌러 꺼주세요
+
+접근 설정 변경
+nano ~/.config/code-server/config.yaml 
+
+코드 서버 설정 파일에 ...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701909540"
+  data-df="ll"
+  
+>
+  Dec  7, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
   
     <article class="card-wrapper card">
       <a href="/posts/code-server-2/" class="post-preview row g-0 flex-md-row-reverse">
@@ -725,92 +728,6 @@ services:
   
 >
   Dec  5, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      정보글,
-                      작업환경
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/android-termux/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/posts/android-termux/termux_screen.png" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">[Termux] 안드로이드를 리눅스처럼</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                터미널 에뮬레이터 앱
-시작하기 전에..
-여러분이 리눅스나 맥을 사용하며 터미널에 대한 경험이 쌓였다면 이 앱은 여러분의 스마트폰을 좀 더 스마트하게 사용할 기회를 제공합니다.
-아이폰이 훌륭한 물건이라는 것 정도는 저도 알지만 이러한 자유도가 좋아서 안드로이드를 못벗어나고 있습니다
-하하 이걸 어떻게 안써요;
-
-응? 안드로이드가 리눅스 아니었나?
-설명하자...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701640860"
-  data-df="ll"
-  
->
-  Dec  4, 2023
 </time>
 
 
@@ -1047,6 +964,16 @@ services:
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1061,24 +988,10 @@ services:
     
     
     
-      
-    
   
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1254,10 +1167,10 @@ services:
         <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
@@ -1380,6 +1293,16 @@ services:
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1394,24 +1317,10 @@ services:
     
     
     
-      
-    
   
     
     
     
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1587,10 +1496,10 @@ services:
         <a class="post-tag btn btn-outline-primary" href="/tags/docker/">docker</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/scripting/">scripting</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/jekyll/">jekyll</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
