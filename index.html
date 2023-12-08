@@ -463,6 +463,81 @@
 
 
 
+  
+  
+
+  <!-- CDN URL -->
+  
+
+  <!-- Add image path -->
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -526,6 +601,97 @@
 
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/posts/docker-properties/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/posts/docker-properties/docker.png" alt="Preview Image"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Docker Compose 주요 속성들</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                정보글
+짧게 짧게 쳐내자
+이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
+
+딱 이정도 선에서 설명
+docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
+
+docker-compose.yml 파일 작성
+속성 설명
+전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
+services:
+  # 서비스 이름
+  co...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701990840"
+  data-df="ll"
+  
+>
+  Dec  8, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
   
     <article class="card-wrapper card">
       <a href="/posts/code-server-3/" class="post-preview row g-0 flex-md-row-reverse">
@@ -683,74 +849,6 @@ services:
       </a>
     </article>
   
-    <article class="card-wrapper card">
-      <a href="/posts/code-server/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [1] (feat. code-server)</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                작업 환경 분리?
-시작에 앞서..
-코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
-
-그냥 ...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701719580"
-  data-df="ll"
-  
->
-  Dec  5, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      정보글,
-                      작업환경
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
 </div>
 <!-- #post-list -->
 
@@ -878,7 +976,7 @@ services:
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/post-not-show/">[Jekyll] 홈 화면에 포스트가 안보일 때</a>
+          <a href="/posts/code-server/">작업 환경 분리 구성하기 [1] (feat. code-server)</a>
         </li>
       
         
@@ -893,6 +991,13 @@ services:
         
         <li class="text-truncate lh-lg">
           <a href="/posts/firefox-env/">Firefox 번역 확장기능 사용</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/post-not-show/">[Jekyll] 홈 화면에 포스트가 안보일 때</a>
         </li>
       
         
@@ -946,8 +1051,6 @@ services:
     
     
     
-    
-      
     
   
     
@@ -1275,8 +1378,6 @@ services:
     
     
     
-    
-      
     
   
     

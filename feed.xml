@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-07T10:34:22+09:00</updated>
+  <updated>2023-12-08T12:08:57+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,60 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Docker Compose 주요 속성들</title>
+    <link href="https://is2you2.github.io/posts/docker-properties/" rel="alternate" type="text/html" title="Docker Compose 주요 속성들" />
+    <published>2023-12-08T08:14:00+09:00</published>
+  
+    <updated>2023-12-08T08:14:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/docker-properties/</id>
+    <content src="https://is2you2.github.io/posts/docker-properties/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      정보글
+짧게 짧게 쳐내자
+이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
+
+딱 이정도 선에서 설명
+docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
+
+docker-compose.yml 파일 작성
+속성 설명
+전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
+services:
+  # 서비스 이름
+  code-server:
+    # 시스템에 있거나 도커 허브에 준비된 이미지 이름
+    image: ubuntu
+    # 컨테이너 이름
+    container_name: code-server
+    # 공유폴더 정도로 생각하면 됩니다
+    # docker-compose.yml이 있는 myblog 폴더를 컨테이너 안에 있는 /root/myblog 폴더와 ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -143,7 +197,7 @@ CONTAINER ID   IMAGE     COMMAND               ...
     <link href="https://is2you2.github.io/posts/code-server/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [1] (feat. code-server)" />
     <published>2023-12-05T04:53:00+09:00</published>
   
-    <updated>2023-12-05T04:53:00+09:00</updated>
+    <updated>2023-12-07T13:04:41+09:00</updated>
   
     <id>https://is2you2.github.io/posts/code-server/</id>
     <content src="https://is2you2.github.io/posts/code-server/" />
@@ -173,10 +227,10 @@ CONTAINER ID   IMAGE     COMMAND               ...
 
 그냥 VsCode를 바로 사용하지 왜 굳이…
 이걸 구축할 당시에는 vscode에서 쉽고 편한 번역이 없었고, 막상 이 구성을 써보니 이 방식 나름의 이점이 있다고 생각하여 쓰고 있습니다.
-앞서 말씀드렸듯, 안정적인 작업환경이 중요하다면 그냥 재미로 읽어주세요 :)
+앞서 말씀드렸듯, 안정적인 작업환경이 중요하다면 그냥 재미로 읽어주세요 👍
 
 가상환경 구성하기
-가상머신이라는 개념이 생긴 후 좀 더 가벼운 형태의 가상머신 개념으로 도커가 나...
+가상머신이라는 개념이 생긴 후 좀 더 가벼운 형태의 가상머신 개념으로 도커가 나온...
     </summary>
   
 
@@ -227,57 +281,6 @@ Termux 사용해보기
 앱 관리자 설치하기
 이 앱은 오픈소스입니다.
 안드로이드 사용자라면 플레이스토어라는 앱 관리자를 사용...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Firefox 번역 확장기능 사용</title>
-    <link href="https://is2you2.github.io/posts/firefox-env/" rel="alternate" type="text/html" title="Firefox 번역 확장기능 사용" />
-    <published>2023-12-03T04:59:00+09:00</published>
-  
-    <updated>2023-12-03T05:20:29+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/firefox-env/</id>
-    <content src="https://is2you2.github.io/posts/firefox-env/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      부분적 영어 문맹인
-시작에 앞서..
-웹 브라우저는 본인의 취향에 따라 마음대로 선택해도 됩니다.
-저도 제 취향에 대해서 이야기하는 겁니다 :)
-
-그저 번역을 말하려는게 아닙니다
-브라우저에 번역 확장이 준비되어 있는 것은 흔한 일입니다. 하지만 마음에 드는 번역기 모양새가 있는 경우는 많이 없지요. 이 포스트는 “번역 기능”이 아니라 “제 마음에 드는 번역기”와 그것을 이용한 저만의 편의 기능을 소개합니다.
-
-불여우 브라우저
-일반적으로, 불여우는 리눅스 기본 브라우저입니다. 없다면 다운받으실 수도 있습니다.
-브라우저를 열고 Ctrl + Shift + A 를 눌러 확장 기능 화면에 진입합니다.
-
-
-확장(Extensions) 탭을 눌러 검색어로 translate를 입력하면 다양한 번역기 확장이 보입니다.
-
-...
     </summary>
   
 

@@ -31,28 +31,42 @@
   
 
   
+    
+
+    
+      
+      
+
+      
+        <!-- it's a local file path -->
+
+      
+    
+  
 
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="작업 환경 분리 구성하기 [1] (feat. code-server)" />
+<meta property="og:title" content="Docker Compose 주요 속성들" />
 <meta property="og:locale" content="ko" />
-<meta name="description" content="작업 환경 분리? 시작에 앞서.. 코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다." />
-<meta property="og:description" content="작업 환경 분리? 시작에 앞서.. 코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다." />
-<link rel="canonical" href="https://is2you2.github.io/posts/code-server/" />
-<meta property="og:url" content="https://is2you2.github.io/posts/code-server/" />
+<meta name="description" content="정보글 짧게 짧게 쳐내자 이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다." />
+<meta property="og:description" content="정보글 짧게 짧게 쳐내자 이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다." />
+<link rel="canonical" href="https://is2you2.github.io/posts/docker-properties/" />
+<meta property="og:url" content="https://is2you2.github.io/posts/docker-properties/" />
 <meta property="og:site_name" content="그림또따" />
+<meta property="og:image" content="https://is2you2.github.io/assets/posts/docker-properties/docker.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-12-05T04:53:00+09:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="작업 환경 분리 구성하기 [1] (feat. code-server)" />
+<meta property="article:published_time" content="2023-12-08T08:14:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://is2you2.github.io/assets/posts/docker-properties/docker.png" />
+<meta property="twitter:title" content="Docker Compose 주요 속성들" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-07T13:04:41+09:00","datePublished":"2023-12-05T04:53:00+09:00","description":"작업 환경 분리? 시작에 앞서.. 코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.","headline":"작업 환경 분리 구성하기 [1] (feat. code-server)","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/code-server/"},"url":"https://is2you2.github.io/posts/code-server/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-08T08:14:00+09:00","datePublished":"2023-12-08T08:14:00+09:00","description":"정보글 짧게 짧게 쳐내자 이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.","headline":"Docker Compose 주요 속성들","image":"https://is2you2.github.io/assets/posts/docker-properties/docker.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/docker-properties/"},"url":"https://is2you2.github.io/posts/docker-properties/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>작업 환경 분리 구성하기 [1] (feat. code-server) | 그림또따
+  <title>Docker Compose 주요 속성들 | 그림또따
   </title>
 
   <!--
@@ -416,7 +430,7 @@
         
           
             
-              <span>작업 환경 분리 구성하기 [1] (feat. code-server)</span>
+              <span>Docker Compose 주요 속성들</span>
             
 
           
@@ -483,6 +497,109 @@
 
 
 
+
+  
+  
+
+  <!-- CDN URL -->
+  
+
+  <!-- Add image path -->
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
 
 
 <!-- Add header for code snippets -->
@@ -622,7 +739,7 @@
 
 <article class="px-1">
   <header>
-    <h1 data-toc-skip>작업 환경 분리 구성하기 [1] (feat. code-server)</h1>
+    <h1 data-toc-skip>Docker Compose 주요 속성들</h1>
 
     <div class="post-meta text-muted">
       <!-- published date -->
@@ -638,43 +755,29 @@
 
 <time
   
-  data-ts="1701719580"
+  data-ts="1701990840"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec  5, 2023
+  Dec  8, 2023
 </time>
 
       </span>
 
       <!-- lastmod date -->
       
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
 
-
-
-
-<time
-  
-  data-ts="1701921881"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Dec  7, 2023
-</time>
-
-        </span>
       
+        
+        
+        
 
+        
+
+        <div class="mt-3 mb-3">
+          <a href="/assets/posts/docker-properties/docker.png" class="popup img-link preview-img shimmer"><img src="/assets/posts/docker-properties/docker.png"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
       
 
       <div class="d-flex justify-content-between">
@@ -712,9 +815,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="859 words"
+  title="532 words"
 >
-  <em>4 min</em> read</span>
+  <em>2 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -723,35 +826,16 @@
   </header>
 
   <div class="content">
-    <h2 id="작업-환경-분리"><span class="me-2">작업 환경 분리?</span><a href="#작업-환경-분리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<h3 id="시작에-앞서"><span class="me-2">시작에 앞서..</span><a href="#시작에-앞서" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.</p>
+    <h2 id="정보글"><span class="me-2">정보글</span><a href="#정보글" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="짧게-짧게-쳐내자"><span class="me-2">짧게 짧게 쳐내자</span><a href="#짧게-짧게-쳐내자" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.</p>
 
-<h3 id="그냥-vscode를-바로-사용하지-왜-굳이"><span class="me-2">그냥 VsCode를 바로 사용하지 왜 굳이…</span><a href="#그냥-vscode를-바로-사용하지-왜-굳이" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>이걸 구축할 당시에는 vscode에서 쉽고 편한 번역이 없었고, 막상 이 구성을 써보니 이 방식 나름의 이점이 있다고 생각하여 쓰고 있습니다.<br />
-앞서 말씀드렸듯, <strong>안정적인 작업환경이 중요하다면 그냥 재미로</strong> 읽어주세요 👍</p>
+<h3 id="딱-이정도-선에서-설명"><span class="me-2">딱 이정도 선에서 설명</span><a href="#딱-이정도-선에서-설명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>docker-compose 사용과 관련있는 정도만 포함되어 있습니다.</p>
 
-<h2 id="가상환경-구성하기"><span class="me-2">가상환경 구성하기</span><a href="#가상환경-구성하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>가상머신이라는 개념이 생긴 후 좀 더 가벼운 형태의 가상머신 개념으로 도커가 나온 걸로 알고 있습니다. 윈도우에서는 <a href="https://www.docker.com/">도커 홈페이지</a>를 통해 설치할 수 있습니다만 윈도우는 공식적으로 WSL 을 제공하고 있으니 굳이 도커를 안쓰셔도 됩니다.</p>
-
-<h3 id="docker-compose-설치하기"><span class="me-2">docker-compose 설치하기</span><a href="#docker-compose-설치하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>도커는 설정할 것이 꽤 많아서, 귀찮음에 설명서를 안읽고 있습니다 ^^;<br />
-대신 docker-compose를 이용해 빠르게 구축하고 있어요.<br />
-윈도우에서 도커 홈페이지를 통해 설치하면 docker-compose 가 같이 설치되지만 리눅스는 아닙니다. 패키지 관리자에서 docker와 docker-compose 를 둘 다 지정해줘야 합니다.</p>
-
-<p>이런 식으로 말이죠</p>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="c"># 아치리눅스 패키지 설치 명령 예시</span>
-<span class="nb">sudo </span>pacman <span class="nt">-S</span> docker docker-compose
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>docker-compose 의 동작방식은 아주 간단한데, docker-compose.yml 이라는 파일이 있는 폴더에서 해당 파일 내용을 설정삼아 도커 구성을 완성시켜줍니다. 삭제도 똑같은 방식으로 진행합니다.</p>
-
-<h3 id="docker-composeyml-파일-생성하기"><span class="me-2">docker-compose.yml 파일 생성하기</span><a href="#docker-composeyml-파일-생성하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>docker-compose.yml 파일은 아래와 비슷한 방식으로 구성됩니다.</p>
+<h2 id="docker-composeyml-파일-작성"><span class="me-2">docker-compose.yml 파일 작성</span><a href="#docker-composeyml-파일-작성" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="속성-설명"><span class="me-2">속성 설명</span><a href="#속성-설명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,</p>
 <div class="language-yml highlighter-rouge"><div class="code-header">
         <span data-label-text="YAML"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -770,45 +854,75 @@
 14
 15
 16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
 </pre></td><td class="rouge-code"><pre><span class="na">services</span><span class="pi">:</span>
+  <span class="c1"># 서비스 이름</span>
   <span class="na">code-server</span><span class="pi">:</span>
+    <span class="c1"># 시스템에 있거나 도커 허브에 준비된 이미지 이름</span>
     <span class="na">image</span><span class="pi">:</span> <span class="s">ubuntu</span>
+    <span class="c1"># 컨테이너 이름</span>
     <span class="na">container_name</span><span class="pi">:</span> <span class="s">code-server</span>
+    <span class="c1"># 공유폴더 정도로 생각하면 됩니다</span>
+    <span class="c1"># docker-compose.yml이 있는 myblog 폴더를 컨테이너 안에 있는 /root/myblog 폴더와 연결합니다.</span>
     <span class="na">volumes</span><span class="pi">:</span>
       <span class="pi">-</span> <span class="s">./myblog:/root/myblog</span>
-    <span class="na">environment</span><span class="pi">:</span>
+    <span class="c1"># 환경 변수입니다</span>
+    <span class="c1"># bash에서 export KEY = VALUE 로 지정하는 것과 동일합니다</span>
+    <span class="na">environment</span><span class="pi">:</span> <span class="c1"># 아래는 제 개인적인 쓰임새에 맞게 설정된 상태입니다</span>
       <span class="na">USER</span><span class="pi">:</span> <span class="s">root</span>
       <span class="na">DISPLAY</span><span class="pi">:</span> <span class="s">:1</span>
       <span class="na">PATH</span><span class="pi">:</span> <span class="s">$PATH:/root/Android/Sdk/platform-tools:/usr/local/sbin:/usr/sbin:/sbin</span>
       <span class="na">GODOT_SILENCE_ROOT_WARNING</span><span class="pi">:</span> <span class="m">1</span>
+    <span class="c1"># 포트포워딩입니다.</span>
+    <span class="c1"># 컨테이너의 4000 포트를 컴퓨터의 4000 포트와 연결합니다.</span>
+    <span class="c1"># 이렇게 하면 네트워크에서 {컴퓨터 주소}:4000 포트로 접근했을 때 컨테이너 4000 포트로 정보가 전달됩니다.</span>
     <span class="na">ports</span><span class="pi">:</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">4000:4000"</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">5901:5901"</span>
       <span class="pi">-</span> <span class="s2">"</span><span class="s">8080:8080"</span>
+    <span class="c1"># 컨테이너가 시작하면 즉시 실행할 행동입니다</span>
+    <span class="c1"># tail -F /dev/null 명령 자체는 아무 것도 안하는 명령입니다. 그래서 컨테이너는 시작 후 대기 상태가 됩니다.</span>
     <span class="na">command</span><span class="pi">:</span> <span class="s">tail -F /dev/null</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>docker-compose 설정에 대해서는 나중에 다른 포스트에서 알려드릴께요, 지금은 docker-compose.yml 문서 파일을 생성하여 위 내용을 붙여넣어봅시다.</p>
-
-<h3 id="docker-compose-실행하기"><span class="me-2">docker-compose 실행하기</span><a href="#docker-compose-실행하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>해당 폴더에서 터미널을 열고 다음과 같이 입력하면 됩니다.</p>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<p>이 정도면 <code class="language-plaintext highlighter-rouge">docker exec -it [container_id] /bin/bash</code>를 이용하여 가상머신처럼 가지고 놀 수 있습니다.</p>
+<h3 id="작성-모양새"><span class="me-2">작성 모양새</span><a href="#작성-모양새" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>대표적인 속성 정보를 입력하는 방식은</p>
+<div class="language-yml highlighter-rouge"><div class="code-header">
+        <span data-label-text="YAML"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>docker-compose up <span class="nt">-d</span>
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="c1"># 값 (key-value 쌍)</span>
+<span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
+<span class="c1"># 배열 (Array)</span>
+<span class="na">key</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">value</span>
+  <span class="pi">-</span> <span class="s">value</span>
+<span class="c1"># 사전식 (Dictionary)</span>
+<span class="na">master</span><span class="pi">:</span>
+  <span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
+  <span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
 </pre></td></tr></tbody></table></code></div></div>
-<p>그러면 위 설정(docker-compose.yml) 을 따라 컨테이너(가상환경)가 생성됩니다.</p>
-
-<p>컨테이너를 삭제하고 싶다면 아래 명령을 입력하면 됩니다.</p>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>docker-compose down
-</pre></td></tr></tbody></table></code></div></div>
-<p>그러면 위 설정으로 생성된 모든 객체를 삭제합니다.<br />
-docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-compose로 컨테이너를 삭제할 수 없게 되니, yml 파일을 섣불리 수정하거나 삭제하지는 말아주세요.</p>
-
-<hr />
-<p>다음 글에서 계속…</p>
+<h3 id="조금-더-많은-정보"><span class="me-2">조금 더 많은 정보</span><a href="#조금-더-많은-정보" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><a href="https://www.programonaut.com/the-most-important-docker-compose-properties/">주요 docker-compose 속성 (원문보기)</a></p>
 
   </div>
 
@@ -827,11 +941,6 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     
       <div class="post-tags">
         <i class="fa fa-tags fa-fw me-1"></i>
-        
-          <a
-            href="/tags/scripting/"
-            class="post-tag no-text-decoration"
-          >scripting</a>
         
           <a
             href="/tags/docker/"
@@ -872,7 +981,7 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%9E%91%EC%97%85%20%ED%99%98%EA%B2%BD%20%EB%B6%84%EB%A6%AC%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0%20[1]%20(feat.%20code-server)%20-%20%EA%B7%B8%EB%A6%BC%EB%98%90%EB%94%B0&u=https%3A%2F%2Fis2you2.github.io%2Fposts%2Fcode-server%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Docker%20Compose%20%EC%A3%BC%EC%9A%94%20%EC%86%8D%EC%84%B1%EB%93%A4%20-%20%EA%B7%B8%EB%A6%BC%EB%98%90%EB%94%B0&u=https%3A%2F%2Fis2you2.github.io%2Fposts%2Fdocker-properties%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
@@ -1294,43 +1403,43 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -1394,6 +1503,46 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
+          <a href="/posts/code-server/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701719580"
+  data-df="ll"
+  
+>
+  Dec  5, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [1] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  작업 환경 분리?
+시작에 앞서..
+코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
+
+그냥 ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
           <a href="/posts/code-server-2/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1433,15 +1582,10 @@ docker-compose로 생성한 다음 yml 파일을 삭제하게 되면 docker-comp
 
 도커는 지금…
 이전 내용을 가져오면,
-1
-2
-3
-4
-5
 services:
   code-server:
     image: ubuntu
-...
+    contai...
                 </p>
               </div>
             </div>
@@ -1479,11 +1623,6 @@ services:
 
                   드디어 코드 서버가 생겼네
 바로 실행해보기
-1
-2
-3
-4
-5
 root@fa93f0a75a94:~# code-server
 
 ...
@@ -1494,67 +1633,9 @@ root@fa93f0a75a94:~# code-server
 그럼 이제 Ctrl + C 를 눌러 꺼주세요
 
 접근 설정 변경
-1
 nano ~/.config/code-server/config.yaml 
 
-코...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/docker-properties/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701990840"
-  data-df="ll"
-  
->
-  Dec  8, 2023
-</time>
-
-              <h4 class="pt-0 my-2">Docker Compose 주요 속성들</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  정보글
-짧게 짧게 쳐내자
-이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
-
-딱 이정도 선에서 설명
-docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
-
-docker-compose.yml 파일 작성
-속성 설명
-전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-1...
+코드 서버 설정 파일에 ...
                 </p>
               </div>
             </div>
@@ -1576,22 +1657,18 @@ docker-compose.yml 파일 작성
 
   
     <a
-      href="/posts/android-termux/"
+      href="/posts/code-server-3/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>[Termux] 안드로이드를 리눅스처럼</p>
+      <p>작업 환경 분리 구성하기 [3] (feat. code-server)</p>
     </a>
   
 
   
-    <a
-      href="/posts/code-server-2/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>작업 환경 분리 구성하기 [2] (feat. code-server)</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
