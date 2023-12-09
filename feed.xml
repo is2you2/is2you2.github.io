@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-08T12:08:57+09:00</updated>
+  <updated>2023-12-09T09:39:48+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>도커에 GUI 작업 환경 구성</title>
+    <link href="https://is2you2.github.io/posts/vncserver-docker/" rel="alternate" type="text/html" title="도커에 GUI 작업 환경 구성" />
+    <published>2023-12-09T08:40:00+09:00</published>
+  
+    <updated>2023-12-09T08:40:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/vncserver-docker/</id>
+    <content src="https://is2you2.github.io/posts/vncserver-docker/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      가상 네트워크 컴퓨팅
+GUI가 필요할 것 같아..
+분리된 작업 환경까진 좋았지만 오직 CLI로만 작업을 해야하다보니 파일 하나 옮기는 것도 번거로워지고, 코드 서버를 통해서 작업하는 것도 한계가 있는데 이를 어찌합니까 싶으신가요?
+잘 오셨습니다 ^^
+
+참고로 이 글은 우분투 공식 문서를 참조하고 있으며, 공식 문서의 내용처럼 AWS와 같은 CLI 환경에서 동일하게 동작합니다.
+
+우분투 문서 원문보기
+
+근데 이거하면 뭐가 좋아요?
+다소 제한적이긴 하지만 원래라면 CLI로 하기 어려운 일들을 쉽게 해낼 수 있게 됩니다.
+예를 들면 도커에서 안드로이드 스튜디오를 실행하고, 앱 빌드 작업을 진행할 수도 있습니다.
+
+데스크탑 환경 설치하기
+아래 설치는 굉장히 오래 걸리고 설치 중간에 사용자가 입력해야하는 내용이...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -231,56 +281,6 @@ CONTAINER ID   IMAGE     COMMAND               ...
 
 가상환경 구성하기
 가상머신이라는 개념이 생긴 후 좀 더 가벼운 형태의 가상머신 개념으로 도커가 나온...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>[Termux] 안드로이드를 리눅스처럼</title>
-    <link href="https://is2you2.github.io/posts/android-termux/" rel="alternate" type="text/html" title="[Termux] 안드로이드를 리눅스처럼" />
-    <published>2023-12-04T07:01:00+09:00</published>
-  
-    <updated>2023-12-04T07:01:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/android-termux/</id>
-    <content src="https://is2you2.github.io/posts/android-termux/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      터미널 에뮬레이터 앱
-시작하기 전에..
-여러분이 리눅스나 맥을 사용하며 터미널에 대한 경험이 쌓였다면 이 앱은 여러분의 스마트폰을 좀 더 스마트하게 사용할 기회를 제공합니다.
-아이폰이 훌륭한 물건이라는 것 정도는 저도 알지만 이러한 자유도가 좋아서 안드로이드를 못벗어나고 있습니다
-하하 이걸 어떻게 안써요;
-
-응? 안드로이드가 리눅스 아니었나?
-설명하자면 복잡합니다만 약간의 거짓말을 보태어 대답하자면 아닙니다. (거짓임)
-가장 밑바닥에는 리눅스가 있는 것은 사실이지만 우리가 쓰는 부분은 리눅스 위에서 돌고 있는 안드로이드의 느낌으로 동작합니다.
-일종의 가상머신을 쓰고 있는 셈이죠.
-
-Termux 사용해보기
-앱 관리자 설치하기
-이 앱은 오픈소스입니다.
-안드로이드 사용자라면 플레이스토어라는 앱 관리자를 사용...
     </summary>
   
 

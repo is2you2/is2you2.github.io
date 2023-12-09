@@ -378,6 +378,24 @@
         </a>
       
     
+      
+
+      
+        <a
+          href="/feed.xml"
+          aria-label="rss"
+          
+
+          
+
+          
+
+          
+        >
+          <i class="fas fa-rss"></i>
+        </a>
+      
+    
   </div>
   <!-- .sidebar-bottom -->
 </aside>
@@ -603,6 +621,75 @@
 <div id="post-list" class="flex-grow-1 px-xl-1">
   
     <article class="card-wrapper card">
+      <a href="/posts/vncserver-docker/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">도커에 GUI 작업 환경 구성</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                가상 네트워크 컴퓨팅
+GUI가 필요할 것 같아..
+분리된 작업 환경까진 좋았지만 오직 CLI로만 작업을 해야하다보니 파일 하나 옮기는 것도 번거로워지고, 코드 서버를 통해서 작업하는 것도 한계가 있는데 이를 어찌합니까 싶으신가요?
+잘 오셨습니다 ^^
+
+참고로 이 글은 우분투 공식 문서를 참조하고 있으며, 공식 문서의 내용처럼 AWS와 같은 CLI 환경...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1702078800"
+  data-df="ll"
+  
+>
+  Dec  9, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
       <a href="/posts/docker-properties/" class="post-preview row g-0 flex-md-row-reverse">
         
 
@@ -771,84 +858,6 @@ nano ~/.config/code-server/config.yaml
       </a>
     </article>
   
-    <article class="card-wrapper card">
-      <a href="/posts/code-server-2/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [2] (feat. code-server)</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                도커 사용하기
-지난 이야기..
-지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
-근데 도커가 생성되면 뭘 하냐구요?
-
-아무 것도 안합니다
-
-약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
-
-도커는 지금…
-이전 내용을 가져오면,
-services:
-  code-server:
-    image: ubuntu
-    contai...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701813900"
-  data-df="ll"
-  
->
-  Dec  6, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      정보글,
-                      작업환경
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
 </div>
 <!-- #post-list -->
 
@@ -925,11 +934,29 @@ services:
         </li>
       
     
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page4"
+          >4</a>
+        </li>
+      
+    
 
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>1</span>
-      <span class="text-muted">/ 3</span>
+      <span class="text-muted">/ 4</span>
     </li>
 
     <!-- right arrow -->
@@ -1260,6 +1287,65 @@ services:
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1289,6 +1375,9 @@ services:
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/termux/">termux</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/vnc/">vnc</a>
       
     </div>
   </section>
@@ -1587,6 +1676,65 @@ services:
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1616,6 +1764,9 @@ services:
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/termux/">termux</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/vnc/">vnc</a>
       
     </div>
   </section>
