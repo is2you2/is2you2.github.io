@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-11T08:09:20+09:00</updated>
+  <updated>2023-12-12T17:39:58+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,55 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>취미 개발, 쉬운 개발 [2]</title>
+    <link href="https://is2you2.github.io/posts/teaching-script-easy-2/" rel="alternate" type="text/html" title="취미 개발, 쉬운 개발 [2]" />
+    <published>2023-12-12T17:34:00+09:00</published>
+  
+    <updated>2023-12-12T17:34:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/teaching-script-easy-2/</id>
+    <content src="https://is2you2.github.io/posts/teaching-script-easy-2/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      대상 언어 또는 프로그램 선택하기
+본인이 개발과 전혀 무관하다고 생각이 드는 일을 하더라도, 전자기기가 주변에 있을 가능성이 높습니다. 21세기는 그런 세상이니까요 😃
+
+개발 언어를 배우다보면 그동안은 보이지 않았던 일상 생활 속에서 자동화가 가능한 것을, 아니면 좀 더 편하게 처리할 수 있는 것을, 그것도 아니면 그냥 더 재밋는 인생을 위한 어떤 것을 내가 만들 수 있겠노라 하게 됩니다.
+
+그렇게 하려면 이제 무엇을 공부할지 골라야겠네요.
+보통의 개발자라면 용처에 맞는 개발 언어가 이미 정해져 있지만,
+여러분이 개발을 처음 진입하는 초심자라면…
+
+게임엔진으로 내가 원하는 프로그램 개발
+
+
+갑작스러운 유턴에 많이 놀라신 것 같은데, 일단 읽어주세요 ^^;
+저는 이게 정말로 편한 방법이라고 생각하고 추천...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -218,67 +267,6 @@ services:
     container_name: code-server
     # 공유폴더 정도로 생각하면 됩니다
     # docker-compose.yml이 있는 myblog 폴더를 컨테이너 안에 있는 /root/myblog 폴더와 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>작업 환경 분리 구성하기 [3] (feat. code-server)</title>
-    <link href="https://is2you2.github.io/posts/code-server-3/" rel="alternate" type="text/html" title="작업 환경 분리 구성하기 [3] (feat. code-server)" />
-    <published>2023-12-07T09:39:00+09:00</published>
-  
-    <updated>2023-12-07T09:39:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/code-server-3/</id>
-    <content src="https://is2you2.github.io/posts/code-server-3/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      드디어 코드 서버가 생겼네
-바로 실행해보기
-root@fa93f0a75a94:~# code-server
-
-...
-...
-... info    - Not serving HTTPS
-
-와 실행 성공!
-그럼 이제 Ctrl + C 를 눌러 꺼주세요
-
-접근 설정 변경
-nano ~/.config/code-server/config.yaml 
-
-코드 서버 설정 파일에 접근하면 아래와 같은 내용이 준비되어 있을텐데
-bind-addr: 127.0.0.1:8080
-auth: password
-password: waefskgrdbf3w45egltrhalvk
-cert: false
-
-bind-addr: 진입할 수 있는 주소와 포트
-password: 진입할 때 사용할 비밀번호
-
-일단 비밀번호만 먼저 입맛에 맞게 바꾸면 됩니다.
-
-네트...
     </summary>
   
 
