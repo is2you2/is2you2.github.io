@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-12T17:39:58+09:00</updated>
+  <updated>2023-12-13T12:43:13+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>동적 프로그래밍 언어</title>
+    <link href="https://is2you2.github.io/posts/dynamic-lang/" rel="alternate" type="text/html" title="동적 프로그래밍 언어" />
+    <published>2023-12-13T12:39:00+09:00</published>
+  
+    <updated>2023-12-13T12:39:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/dynamic-lang/</id>
+    <content src="https://is2you2.github.io/posts/dynamic-lang/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      이러지 않으려고 했는데
+쉬운 언어 위주로 설명글을 남길 것이기 때문에 굳이 이 부분을 적어야할까..? 생각이 들었지만 역시 적어두는 편이 좋겠다고 생각이 들었습니다.
+두리뭉실한 언어의 역사라는 느낌으로 슥 읽어보시면 좋을 것 같습니다.
+물론 원활한 설명을 위한 거짓말이 포함됩니다.
+
+옛날 옛날에
+컴퓨터는 수많은 0, 1로 이루어져있습니다. 그것이 실제로는 전기 신호라 할지라도 숫자 세는건 참 쉽죠.
+전기 신호가 들어오는 갯수를 세면 그게 곧 숫자니까요.
+
+근데 사람들은 컴퓨터에서 문자도 출력하고 싶었습니다.
+이번에 들어오는 전기 신호는 문자라고 치고, 신호가 65개 들어오면 그건 'A' 인걸로 하자
+
+그렇게 사람들은 특정 숫자를 문자인셈 치는 방법으로 문자 표현할 수 있었습니다.
+
+구분이 필요할 것 같...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -213,60 +263,6 @@ GUI가 필요할 것 같아..
 
 데스크탑 환경 설치하기
 아래 설치는 굉장히 오래 걸리고 설치 중간에 사용자가 입력해야하는 내용이...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Docker Compose 주요 속성들</title>
-    <link href="https://is2you2.github.io/posts/docker-properties/" rel="alternate" type="text/html" title="Docker Compose 주요 속성들" />
-    <published>2023-12-08T08:14:00+09:00</published>
-  
-    <updated>2023-12-08T08:14:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/docker-properties/</id>
-    <content src="https://is2you2.github.io/posts/docker-properties/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      정보글
-짧게 짧게 쳐내자
-이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
-
-딱 이정도 선에서 설명
-docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
-
-docker-compose.yml 파일 작성
-속성 설명
-전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
-services:
-  # 서비스 이름
-  code-server:
-    # 시스템에 있거나 도커 허브에 준비된 이미지 이름
-    image: ubuntu
-    # 컨테이너 이름
-    container_name: code-server
-    # 공유폴더 정도로 생각하면 됩니다
-    # docker-compose.yml이 있는 myblog 폴더를 컨테이너 안에 있는 /root/myblog 폴더와 ...
     </summary>
   
 
