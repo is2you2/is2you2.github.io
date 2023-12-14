@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-13T12:43:13+09:00</updated>
+  <updated>2023-12-14T12:26:54+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,57 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [1]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js/" rel="alternate" type="text/html" title="p5js로 시작하기 [1]" />
+    <published>2023-12-14T12:10:00+09:00</published>
+  
+    <updated>2023-12-14T12:10:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      이름이 뭐 이래
+p5js는 Processing이라는, 시각 예술 분야에서 사용하는 프로그램의 웹 버전입니다. 특징은 언어가 쉽고, 작업 결과물이 그래픽으로 보여지기 때문에 덜 심심합니다. 코딩을 처음 시작할 때, 터미널에 나오는 글자만 보며 하는 것보단 훨씬 재미붙이기 좋을 것이라고 생각해요.
+
+무엇보다 개발 환경을 설치할 필요가 없습니다.
+여기서 코딩하면 됩니다.
+
+거기, 뭔가 떠 있습니다만
+
+매우 간단한 구성으로, 위에 보이는 재생 버튼을 누르면 작성된 코드를 실행하여 오른쪽에 보여줍니다. 정지를 누르면 멈춥니다.
+
+저 상태에서 바로 실행을 누르면 왼쪽에 회색 네모가 생길겁니다.
+
+400x400 픽셀 크기의, 배경색이 회색인 그림을 만드셨어요 😆
+
+프로그램의 기본 구성
+앞으로 다루게 될 대부분의 고...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -213,56 +264,6 @@ class HelloWorld {
 
 어딜 감히 드라마를 가지고 와
 드라마에서 나왔던 개발자의 모습이 머리를 스칩니...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>도커에 GUI 작업 환경 구성</title>
-    <link href="https://is2you2.github.io/posts/vncserver-docker/" rel="alternate" type="text/html" title="도커에 GUI 작업 환경 구성" />
-    <published>2023-12-09T08:40:00+09:00</published>
-  
-    <updated>2023-12-09T08:40:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/vncserver-docker/</id>
-    <content src="https://is2you2.github.io/posts/vncserver-docker/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      가상 네트워크 컴퓨팅
-GUI가 필요할 것 같아..
-분리된 작업 환경까진 좋았지만 오직 CLI로만 작업을 해야하다보니 파일 하나 옮기는 것도 번거로워지고, 코드 서버를 통해서 작업하는 것도 한계가 있는데 이를 어찌합니까 싶으신가요?
-잘 오셨습니다 ^^
-
-참고로 이 글은 우분투 공식 문서를 참조하고 있으며, 공식 문서의 내용처럼 AWS와 같은 CLI 환경에서 동일하게 동작합니다.
-
-우분투 문서 원문보기
-
-근데 이거하면 뭐가 좋아요?
-다소 제한적이긴 하지만 원래라면 CLI로 하기 어려운 일들을 쉽게 해낼 수 있게 됩니다.
-예를 들면 도커에서 안드로이드 스튜디오를 실행하고, 앱 빌드 작업을 진행할 수도 있습니다.
-
-데스크탑 환경 설치하기
-아래 설치는 굉장히 오래 걸리고 설치 중간에 사용자가 입력해야하는 내용이...
     </summary>
   
 
