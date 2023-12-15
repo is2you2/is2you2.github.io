@@ -1279,6 +1279,8 @@
     
     
     
+      
+    
   
     
     
@@ -1770,6 +1772,18 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1796,48 +1810,6 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/firefox-env/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701547140"
-  data-df="ll"
-  
->
-  Dec  3, 2023
-</time>
-
-              <h4 class="pt-0 my-2">Firefox 번역 확장기능 사용</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  부분적 영어 문맹인
-시작에 앞서..
-웹 브라우저는 본인의 취향에 따라 마음대로 선택해도 됩니다.
-저도 제 취향에 대해서 이야기하는 겁니다 👍
-
-그저 번역을 말하려는게 아닙니다
-브라우저에 번역 확장이 준비되어 있는 것은 흔한 일입니다. 하지만 마음에 드는 번역기 모양새가 있는 경우는 많이 없지요. 이 포스트는 “번역 기능”이 아니라 “제 마음에 드는 번...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
       
         <article class="col">
           <a href="/posts/android-termux/" class="post-preview card h-100">
@@ -1916,6 +1888,61 @@
 코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
 
 그냥 ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/code-server-2/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701813900"
+  data-df="ll"
+  
+>
+  Dec  6, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [2] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  도커 사용하기
+지난 이야기..
+지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
+근데 도커가 생성되면 뭘 하냐구요?
+
+아무 것도 안합니다
+
+약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
+
+도커는 지금…
+이전 내용을 가져오면,
+1
+2
+3
+4
+5
+services:
+  code-server:
+    image: ubuntu
+...
                 </p>
               </div>
             </div>
@@ -2143,6 +2170,8 @@
     
     
     
+    
+      
     
   
     

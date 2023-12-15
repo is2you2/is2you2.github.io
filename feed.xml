@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-14T12:26:54+09:00</updated>
+  <updated>2023-12-15T11:08:29+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,59 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>변수란 무엇인가</title>
+    <link href="https://is2you2.github.io/posts/what-is-variable/" rel="alternate" type="text/html" title="변수란 무엇인가" />
+    <published>2023-12-15T09:49:00+09:00</published>
+  
+    <updated>2023-12-15T09:49:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/what-is-variable/</id>
+    <content src="https://is2you2.github.io/posts/what-is-variable/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      뻥이에요~
+거짓말 주의보
+이 글은 설명을 쉽게하기 위한 약간의 거짓말을 담고 있습니다.
+오직 이해를 쉽게 하기 위한 것이므로 진실로부터 동떨어진 거짓말까지는 아닙니다.
+
+쉬운 설명?
+일상에서 접하는 컴퓨터 관련 정보들을 짜집기한 식으로, 컴퓨터에 대한 관심이 없으시다면 쉽지 않을지도 몰라요.
+
+짧은 서문
+스크립팅을 시작하면 가장 처음에 배우는 녀석으로 보통 다음과 같이 생겼습니다.
+var name = 'John';
+
+정보를 저장해둔 상자..
+데이터를 저장하기 위한 이름..
+등호(=) 표시는 “같다”가 아닌 “대입”이다..
+구체적으로 그게 무엇인지 알려주는게 아니라 “변수는 (무엇)이다” 라는 정보를 주입시키기 위해 다양한 비유와 설명이 동원됩니다만.. 정말 (무엇)일지요~
+
+이 포스트에서는 컴퓨터에서 ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -214,56 +267,6 @@ class HelloWorld {
 }
 
 우… 겨우 취미로 무언가 만들겠다는데 이렇게 부담스...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>[초심자모드] 개발을 시작하기 전에</title>
-    <link href="https://is2you2.github.io/posts/before-start-scripting/" rel="alternate" type="text/html" title="[초심자모드] 개발을 시작하기 전에" />
-    <published>2023-12-10T11:33:00+09:00</published>
-  
-    <updated>2023-12-10T11:33:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/before-start-scripting/</id>
-    <content src="https://is2you2.github.io/posts/before-start-scripting/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      컴퓨터라면 당연히 그래야지
-취미 코딩, 쉬운 코딩으로 작업하는 동안 컴퓨터는 반드시 이렇게 동작할 예정입니다.
-
-
-  코드는 반드시 왼쪽에서 오른쪽으로, 사람이 글을 읽듯 순서대로 동작한다.
-  코드는 반드시 위에서 아래로, 순서대로 동작한다.
-  코드가 최적의 상태로 작성되어있는지 검토하고 싶다면 컴퓨터가 하는 일을 사람이 직접한다고 가정해보자.
-  컴퓨터는 거짓말을 하지 않는다. 무언가 오류가 있다면 전적으로 내가 뭘 잘못 구성한 것이다.
-
-
-이 규칙은 매우 편리하고 안정적이나 멀티쓰레드 코딩을 시작할 때즈음부터 어긋나기 시작합니다.
-겁낼 것 없습니다. 멀티쓰레드가 처음에는 정말 골치 아픈데 그 아픈 값어치를 해줍니다.
-
-어딜 감히 드라마를 가지고 와
-드라마에서 나왔던 개발자의 모습이 머리를 스칩니...
     </summary>
   
 
