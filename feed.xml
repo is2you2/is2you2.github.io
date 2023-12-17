@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-17T17:07:49+09:00</updated>
+  <updated>2023-12-18T03:38:05+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,63 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [3]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-3/" rel="alternate" type="text/html" title="p5js로 시작하기 [3]" />
+    <published>2023-12-18T03:27:00+09:00</published>
+  
+    <updated>2023-12-18T03:27:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-3/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-3/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+벽을 뚫고 나가는 공 문제
+
+우리가 마지막에 공을 움직이게 했지만, 이녀석은 벽을 뚫고 나가서 영원히 안돌아옵니다. 공이 조금 더 자연스럽게 보이게 하려면 공이 벽에 닿았을 때, 반대 방향으로 튕겨줘야 할 것 같아요.
+우리가 궁극적으로 “충돌체”의 개념을 만들면 아주 이상적이겠지만, 우린 아직 초심자니까, 좀 더 간단하게 생각해봅시다.
+
+
+  만약 공이 화면 끝에 닿게 되면, 이동 방향을 반대로 바꾼다.
+
+
+이렇게 말이죠.
+...
+var pos_x = 30;
++ var direction = 1;
+
+function draw() {
+  background(220);
+-  pos_x++;
++  pos_x += 1 * direction; ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -226,56 +283,6 @@ p5js는 Processing이라는, 시각 예술 분야에서 사용하는 프로그�
 
 프로그램의 기본 구성
 앞으로 다루게 될 대부분의 고...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>동적 프로그래밍 언어</title>
-    <link href="https://is2you2.github.io/posts/dynamic-lang/" rel="alternate" type="text/html" title="동적 프로그래밍 언어" />
-    <published>2023-12-13T12:39:00+09:00</published>
-  
-    <updated>2023-12-13T12:39:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/dynamic-lang/</id>
-    <content src="https://is2you2.github.io/posts/dynamic-lang/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      이러지 않으려고 했는데
-쉬운 언어 위주로 설명글을 남길 것이기 때문에 굳이 이 부분을 적어야할까..? 생각이 들었지만 역시 적어두는 편이 좋겠다고 생각이 들었습니다.
-두리뭉실한 언어의 역사라는 느낌으로 슥 읽어보시면 좋을 것 같습니다.
-물론 원활한 설명을 위한 거짓말이 포함됩니다.
-
-옛날 옛날에
-컴퓨터는 수많은 0, 1로 이루어져있습니다. 그것이 실제로는 전기 신호라 할지라도 숫자 세는건 참 쉽죠.
-전기 신호가 들어오는 갯수를 세면 그게 곧 숫자니까요.
-
-근데 사람들은 컴퓨터에서 문자도 출력하고 싶었습니다.
-이번에 들어오는 전기 신호는 문자라고 치고, 신호가 65개 들어오면 그건 'A' 인걸로 하자
-
-그렇게 사람들은 특정 숫자를 문자인셈 치는 방법으로 문자 표현할 수 있었습니다.
-
-구분이 필요할 것 같...
     </summary>
   
 

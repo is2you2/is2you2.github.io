@@ -299,7 +299,7 @@
     <h1 class="site-title">
       <a href="/">그림또따</a>
     </h1>
-    <p class="site-subtitle fst-italic mb-0">적극적으로 게으른 개발자</p>
+    <p class="site-subtitle fst-italic mb-0">종합 오픈소스 사용자</p>
   </header>
   <!-- .profile-wrapper -->
 
@@ -1767,6 +1767,18 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1817,61 +1829,6 @@ termux 는 bash 파일을 실행할 수 있어서 termux에서 실행되는 범�
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/code-server-2/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701813900"
-  data-df="ll"
-  
->
-  Dec  6, 2023
-</time>
-
-              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [2] (feat. code-server)</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  도커 사용하기
-지난 이야기..
-지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
-근데 도커가 생성되면 뭘 하냐구요?
-
-아무 것도 안합니다
-
-약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
-
-도커는 지금…
-이전 내용을 가져오면,
-1
-2
-3
-4
-5
-services:
-  code-server:
-    image: ubuntu
-...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
       
         <article class="col">
           <a href="/posts/code-server-3/" class="post-preview card h-100">
@@ -1980,6 +1937,47 @@ docker-compose.yml 파일 작성
 10
 11
 1...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/vncserver-docker/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1702078800"
+  data-df="ll"
+  
+>
+  Dec  9, 2023
+</time>
+
+              <h4 class="pt-0 my-2">도커에 GUI 작업 환경 구성</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  가상 네트워크 컴퓨팅
+GUI가 필요할 것 같아..
+분리된 작업 환경까진 좋았지만 오직 CLI로만 작업을 해야하다보니 파일 하나 옮기는 것도 번거로워지고, 코드 서버를 통해서 작업하는 것도 한계가 있는데 이를 어찌합니까 싶으신가요?
+잘 오셨습니다 ^^
+
+참고로 이 글은 우분투 공식 문서를 참조하고 있으며, 공식 문서의 내용처럼 AWS와 같은 CLI 환경...
                 </p>
               </div>
             </div>
