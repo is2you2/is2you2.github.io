@@ -1054,6 +1054,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/what-is-function/">함수란 무엇인가</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/code-server/">작업 환경 분리 구성하기 [1] (feat. code-server)</a>
         </li>
       
@@ -1076,13 +1083,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/post-not-show/">[Jekyll] 홈 화면에 포스트가 안보일 때</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/init/">블로그 생성됨</a>
         </li>
       
     </ul>
@@ -1636,6 +1636,18 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1736,56 +1748,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/code-server-3/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701909540"
-  data-df="ll"
-  
->
-  Dec  7, 2023
-</time>
-
-              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [3] (feat. code-server)</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  드디어 코드 서버가 생겼네
-바로 실행해보기
-root@fa93f0a75a94:~# code-server
-
-...
-...
-... info    - Not serving HTTPS
-
-와 실행 성공!
-그럼 이제 Ctrl + C 를 눌러 꺼주세요
-
-접근 설정 변경
-nano ~/.config/code-server/config.yaml 
-
-코드 서버 설정 파일에 ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/vncserver-docker/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1860,6 +1822,56 @@ GUI가 필요할 것 같아..
 코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
 
 그냥 ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/code-server-2/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701813900"
+  data-df="ll"
+  
+>
+  Dec  6, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [2] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  도커 사용하기
+지난 이야기..
+지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
+근데 도커가 생성되면 뭘 하냐구요?
+
+아무 것도 안합니다
+
+약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
+
+도커는 지금…
+이전 내용을 가져오면,
+services:
+  code-server:
+    image: ubuntu
+    contai...
                 </p>
               </div>
             </div>

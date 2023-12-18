@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "p5js로 시작하기 [4]",
+    "url": "/posts/start-with-p5js-4/",
+    "categories": "정보글, 개발",
+    "tags": "scripting",
+    "date": "2023-12-19 01:07:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.여기저기 막 적용해보자할 줄 아는게 생겼으니 공이 위/아래로도 움직일 수 있게 하고 속도도 조금 변화를 주고 해봅시다.function setup() {  createCanvas(400, 400);}var pos_x = 30;var pos_y = 30;var speed_x = 1;var s...",
+    "content": "  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.여기저기 막 적용해보자할 줄 아는게 생겼으니 공이 위/아래로도 움직일 수 있게 하고 속도도 조금 변화를 주고 해봅시다.function setup() {  createCanvas(400, 400);}var pos_x = 30;var pos_y = 30;var speed_x = 1;var speed_y = 2;var direction_x = 1;var direction_y = 1;function draw() {  background(220);  pos_x += speed_x * direction_x;  pos_y += speed_y * direction_y;  if (pos_x + 10 &gt; width || pos_x &lt; 10) {    direction_x *= -1;  }  if (pos_y + 10 &gt; height || pos_y &lt; 10) {    direction_y *= -1;  }  circle(pos_x, pos_y, 20);}각 x, y축의 속도도 방향도 전부 변수로 바꾸면 나중에 공에 변화를 주기 좋겠죠?아주 아름답게 동작하고 있습니다.살면서 쓸모없는줄 알았는데근데 지금 공은 진공 상태에서 떠다니는 것처럼 보입니다. 현실에서 공이 움직일 때에는 좀 더 포물선을 그리며 움직이잖아요?  헉… 곡선의 움직임을 어떻게 따라하죠?우리가 변수에 직접 계산하지는 않을거에요, 우리가 해야할 일은 컴퓨터에게 올바른 구조를 제시하는 것이니까요.속도에 대한 이야기를 해야겠네요. 잠시 학창시절 과학 시간으로 돌아가서…지금 draw() 함수는 매 순간(정확히는 1/60초)마다 한번씩 실행되고 있습니다. 우리가 위치에 매 순간마다 speed 값만큼 추가를 하는 것은 우리가 현실에서 말하는 속도와 일맥상통 합니다. 속도라는게, 거리/시간이잖아요? 우리 코드는 지금 speed(1만큼)/매 순간(1/60초)마다 이동하는거라구요.우리는 일상 생활중에 중력의 영향을 받죠? 중력은 조금 길게 적으면 중력가속도라고 하죠. 우리 코드에 가속도에 해당하는 개념을 넣으면 코드는 알아서 포물선을 그리게 될 겁니다.으아악! 그래서 어떻게 하면 되는데요가속도라는 것은 매 순간마다의 속도 변화량입니다. 곧 중력의 영향을 받게 될 speed_y는 매 순간마다 1의 속도로 움직이는, 속도 변화량이 0인 상태죠? 가속도가 전혀 없는 등속 운동중이어서 진공 상태마냥 무미 건조하게 움직이고 있는거에요. 한번 가속도를 넣어보도록 할까요?... // 변수 지정에서..var pos_y = 30;- var speed_x = 1;+ var speed_x = 5; // 포물선이 더 잘 보이도록 x축 속도를 늘렸습니다.var speed_y = 2;+ var acc_y = 1;var direction_x = 1;... // draw() 함수에서..  if (pos_x + 10 &gt; width || pos_x &lt; 10) {    direction_x *= -1;  }+  if (pos_y + 10 &gt; height) {+    acc_y *= -1; // 바닥에 닿으면 반대로 튕기기+  }  if (pos_y + 10 &gt; height || pos_y &lt; 10) {    direction_y *= -1;  }+  speed_y += acc_y; // 이제 매 순간 속도가 변화합니다}뭔가 잘 동작하는 것 같으면서도 의도한 적은 없는데 점점 튕기는 정도가 낮아지고 있고, 궁극적으로 마지막에 갑자기 땅을 파고 드는 문제가 생겼네요. 우리가 뭔가 놓치고 있는게 분명합니다.다음 글에서 계속.."
+  },
+  
+  {
     "title": "p5js로 시작하기 [3]",
     "url": "/posts/start-with-p5js-3/",
     "categories": "정보글, 개발",

@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-18T03:38:05+09:00</updated>
+  <updated>2023-12-19T01:10:12+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,64 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [4]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-4/" rel="alternate" type="text/html" title="p5js로 시작하기 [4]" />
+    <published>2023-12-19T01:07:00+09:00</published>
+  
+    <updated>2023-12-19T01:07:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-4/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-4/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+여기저기 막 적용해보자
+할 줄 아는게 생겼으니 공이 위/아래로도 움직일 수 있게 하고 속도도 조금 변화를 주고 해봅시다.
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+var pos_x = 30;
+var pos_y = 30;
+var speed_x = 1;
+var speed_y = 2;
+var direction_x = 1;
+var direction_y = 1;
+
+function draw() {
+  background(220);
+  pos_x += speed_x * direction_x;
+  pos_y += speed_y * direction_y;
+  if (pos_x + 10 &amp;gt; widt...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -81,7 +139,7 @@ function draw() {
     <link href="https://is2you2.github.io/posts/what-is-function/" rel="alternate" type="text/html" title="함수란 무엇인가" />
     <published>2023-12-17T17:06:00+09:00</published>
   
-    <updated>2023-12-17T17:06:00+09:00</updated>
+    <updated>2023-12-18T03:39:16+09:00</updated>
   
     <id>https://is2you2.github.io/posts/what-is-function/</id>
     <content src="https://is2you2.github.io/posts/what-is-function/" />
@@ -232,57 +290,6 @@ var name = 'John';
 구체적으로 그게 무엇인지 알려주는게 아니라 “변수는 (무엇)이다” 라는 정보를 주입시키기 위해 다양한 비유와 설명이 동원됩니다만.. 정말 (무엇)일지요~
 
 이 포스트에서는 컴퓨터에서 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [1]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js/" rel="alternate" type="text/html" title="p5js로 시작하기 [1]" />
-    <published>2023-12-14T12:10:00+09:00</published>
-  
-    <updated>2023-12-14T12:10:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      이름이 뭐 이래
-p5js는 Processing이라는, 시각 예술 분야에서 사용하는 프로그램의 웹 버전입니다. 특징은 언어가 쉽고, 작업 결과물이 그래픽으로 보여지기 때문에 덜 심심합니다. 코딩을 처음 시작할 때, 터미널에 나오는 글자만 보며 하는 것보단 훨씬 재미붙이기 좋을 것이라고 생각해요.
-
-무엇보다 개발 환경을 설치할 필요가 없습니다.
-여기서 코딩하면 됩니다.
-
-거기, 뭔가 떠 있습니다만
-
-매우 간단한 구성으로, 위에 보이는 재생 버튼을 누르면 작성된 코드를 실행하여 오른쪽에 보여줍니다. 정지를 누르면 멈춥니다.
-
-저 상태에서 바로 실행을 누르면 왼쪽에 회색 네모가 생길겁니다.
-
-400x400 픽셀 크기의, 배경색이 회색인 그림을 만드셨어요 😆
-
-프로그램의 기본 구성
-앞으로 다루게 될 대부분의 고...
     </summary>
   
 
