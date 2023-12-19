@@ -1476,6 +1476,18 @@ gnome-terminal &amp;
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1588,54 +1600,6 @@ gnome-terminal &amp;
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/docker-properties/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701990840"
-  data-df="ll"
-  
->
-  Dec  8, 2023
-</time>
-
-              <h4 class="pt-0 my-2">Docker Compose 주요 속성들</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  정보글
-짧게 짧게 쳐내자
-이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
-
-딱 이정도 선에서 설명
-docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
-
-docker-compose.yml 파일 작성
-속성 설명
-전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
-services:
-  # 서비스 이름
-  co...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/code-server/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1719,6 +1683,56 @@ services:
   code-server:
     image: ubuntu
     contai...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/code-server-3/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701909540"
+  data-df="ll"
+  
+>
+  Dec  7, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [3] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  드디어 코드 서버가 생겼네
+바로 실행해보기
+root@fa93f0a75a94:~# code-server
+
+...
+...
+... info    - Not serving HTTPS
+
+와 실행 성공!
+그럼 이제 Ctrl + C 를 눌러 꺼주세요
+
+접근 설정 변경
+nano ~/.config/code-server/config.yaml 
+
+코드 서버 설정 파일에 ...
                 </p>
               </div>
             </div>

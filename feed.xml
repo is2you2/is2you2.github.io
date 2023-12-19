@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-19T01:10:12+09:00</updated>
+  <updated>2023-12-20T04:54:33+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,61 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [5]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-5/" rel="alternate" type="text/html" title="p5js로 시작하기 [5]" />
+    <published>2023-12-20T04:43:00+09:00</published>
+  
+    <updated>2023-12-20T04:43:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-5/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-5/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+연산 최적화에 대해서..
+같은걸 굳이 또 계산하는 것 같은데..
+놓친 것들을 되짚어보기 전에, 작은 최적화 처리에 대해서 이야기하고자 합니다. 일단 코드를 봅시다.
+...
+
+  if (pos_y + 10 &amp;gt; height) { // &amp;lt;-- 여기
+    acc_y *= -1;
+  }
+  if (pos_y + 10 &amp;gt; height || pos_y &amp;lt; 10) { // &amp;lt;-- 여기
+    direction_y *= -1;
+  }
+
+...
+
+pos_y + 10 &amp;gt; height 이 똑같게 2번 적힌 것을 확인하실 수 있는데 컴퓨터는 저 연산을 두 번 다 합니다.
+무슨 말이냐면, 예를 들어 첫 줄에서 pos_y +...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -237,59 +292,6 @@ function setup() {
 function draw() {
   background(220); // 배경도 일단 냅둡니다
   ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>변수란 무엇인가</title>
-    <link href="https://is2you2.github.io/posts/what-is-variable/" rel="alternate" type="text/html" title="변수란 무엇인가" />
-    <published>2023-12-15T09:49:00+09:00</published>
-  
-    <updated>2023-12-15T09:49:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/what-is-variable/</id>
-    <content src="https://is2you2.github.io/posts/what-is-variable/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      뻥이에요~
-거짓말 주의보
-이 글은 설명을 쉽게하기 위한 약간의 거짓말을 담고 있습니다.
-오직 이해를 쉽게 하기 위한 것이므로 진실로부터 동떨어진 거짓말까지는 아닙니다.
-
-쉬운 설명?
-일상에서 접하는 컴퓨터 관련 정보들을 짜집기한 식으로, 컴퓨터에 대한 관심이 없으시다면 쉽지 않을지도 몰라요.
-
-짧은 서문
-스크립팅을 시작하면 가장 처음에 배우는 녀석으로 보통 다음과 같이 생겼습니다.
-var name = 'John';
-
-정보를 저장해둔 상자..
-데이터를 저장하기 위한 이름..
-등호(=) 표시는 “같다”가 아닌 “대입”이다..
-구체적으로 그게 무엇인지 알려주는게 아니라 “변수는 (무엇)이다” 라는 정보를 주입시키기 위해 다양한 비유와 설명이 동원됩니다만.. 정말 (무엇)일지요~
-
-이 포스트에서는 컴퓨터에서 ...
     </summary>
   
 
