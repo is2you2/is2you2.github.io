@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-20T04:54:33+09:00</updated>
+  <updated>2023-12-21T02:27:23+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,61 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [6]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-6/" rel="alternate" type="text/html" title="p5js로 시작하기 [6]" />
+    <published>2023-12-21T01:40:00+09:00</published>
+  
+    <updated>2023-12-21T01:40:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-6/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-6/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+좀 더 현실처럼
+현실에서는 바닥에 공이 닿으면 운동 에너지가 소리 에너지 등 다른 에너지로 전환되어 원 위치까지 올라오지 못하죠. (중등 과학은 여기까지 😅)
+
+조금 더 그럴싸한 결과물을 위해 다음과 같이 코드를 수정할 수 있을 것 같습니다.
+
+...
+
+  if (pos_x + 10 &amp;gt; width || pos_x &amp;lt; 10) {
+    direction_x *= -1;
+  }
+  if (pos_y + 10 &amp;gt; height) {
+-    acc_y *= -1;
++    acc_y *= -1.2;
+  }
+  if (pos_y + 10 &amp;gt; height || pos_y &amp;lt; 10) {
+    direction_y *...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -240,58 +295,6 @@ function draw() {
 저렇게 뒤에 괄호가 붙은 것을 우리는 함수라고 합니다. 잘 보시면 setup()도 draw()도 뒤에 괄호가 붙어있죠? 그것들도 함수입니다.
 function이 애초에 함수라는 뜻입니다 ^^;
 변수 구성...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [2]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-2/" rel="alternate" type="text/html" title="p5js로 시작하기 [2]" />
-    <published>2023-12-16T01:10:00+09:00</published>
-  
-    <updated>2023-12-16T01:10:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-2/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-2/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-난 이제 뭐든 할 수 있어 !
-우리는 이제 변수가 뭔지 압니다. 그럼 변수에 어떤 값을 저장시킬지, 어떤 변화를 줄지 같은 것을 계획할 수 있죠. 우리는 아직 초심자니까, 연습 삼아 움직이는 동그라미 같은걸 그릴 수 있을지 몰라요.
-
-움직이는 원 그리기
-일단 이 페이지에서 문서를 읽어보니 원은 circle(원의 중심x, 원의 중심y, 지름의 크기)로 그릴 수 있는 것 같네요. 주저 없이 그려봅시다.
-
-function setup() {
-  createCanvas(400, 400); // 캔버스가 있어야 그림을 그릴 수 있으니 냅두고
-}
-
-function draw() {
-  background(220); // 배경도 일단 냅둡니다
-  ...
     </summary>
   
 

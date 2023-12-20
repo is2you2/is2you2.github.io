@@ -1054,6 +1054,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/dynamic-lang/">동적 프로그래밍 언어</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/what-is-function/">함수란 무엇인가</a>
         </li>
       
@@ -1076,13 +1083,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/firefox-env/">Firefox 번역 확장기능 사용</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/post-not-show/">[Jekyll] 홈 화면에 포스트가 안보일 때</a>
         </li>
       
     </ul>
@@ -1660,6 +1660,18 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1760,47 +1772,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/vncserver-docker/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1702078800"
-  data-df="ll"
-  
->
-  Dec  9, 2023
-</time>
-
-              <h4 class="pt-0 my-2">도커에 GUI 작업 환경 구성</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  가상 네트워크 컴퓨팅
-GUI가 필요할 것 같아..
-분리된 작업 환경까진 좋았지만 오직 CLI로만 작업을 해야하다보니 파일 하나 옮기는 것도 번거로워지고, 코드 서버를 통해서 작업하는 것도 한계가 있는데 이를 어찌합니까 싶으신가요?
-잘 오셨습니다 ^^
-
-참고로 이 글은 우분투 공식 문서를 참조하고 있으며, 공식 문서의 내용처럼 AWS와 같은 CLI 환경...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/code-server/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1884,6 +1855,56 @@ services:
   code-server:
     image: ubuntu
     contai...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/code-server-3/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701909540"
+  data-df="ll"
+  
+>
+  Dec  7, 2023
+</time>
+
+              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [3] (feat. code-server)</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  드디어 코드 서버가 생겼네
+바로 실행해보기
+root@fa93f0a75a94:~# code-server
+
+...
+...
+... info    - Not serving HTTPS
+
+와 실행 성공!
+그럼 이제 Ctrl + C 를 눌러 꺼주세요
+
+접근 설정 변경
+nano ~/.config/code-server/config.yaml 
+
+코드 서버 설정 파일에 ...
                 </p>
               </div>
             </div>

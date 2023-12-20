@@ -554,65 +554,6 @@
     <!-- combine -->
     
   
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
 
   
 
@@ -679,6 +620,84 @@
 
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/posts/code-server-2/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [2] (feat. code-server)</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                도커 사용하기
+지난 이야기..
+지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
+근데 도커가 생성되면 뭘 하냐구요?
+
+아무 것도 안합니다
+
+약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
+
+도커는 지금…
+이전 내용을 가져오면,
+services:
+  code-server:
+    image: ubuntu
+    contai...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701813900"
+  data-df="ll"
+  
+>
+  Dec  6, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
   
     <article class="card-wrapper card">
       <a href="/posts/code-server/" class="post-preview row g-0 flex-md-row-reverse">
@@ -811,91 +830,6 @@
   
 >
   Dec  4, 2023
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      정보글,
-                      작업환경
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/firefox-env/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/posts/03_firefox-ext/translated.png" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Firefox 번역 확장기능 사용</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                부분적 영어 문맹인
-시작에 앞서..
-웹 브라우저는 본인의 취향에 따라 마음대로 선택해도 됩니다.
-저도 제 취향에 대해서 이야기하는 겁니다 👍
-
-그저 번역을 말하려는게 아닙니다
-브라우저에 번역 확장이 준비되어 있는 것은 흔한 일입니다. 하지만 마음에 드는 번역기 모양새가 있는 경우는 많이 없지요. 이 포스트는 “번역 기능”이 아니라 “제 마음에 드는 번...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701547140"
-  data-df="ll"
-  
->
-  Dec  3, 2023
 </time>
 
 
@@ -1057,11 +991,29 @@
         </li>
       
     
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page8"
+          >8</a>
+        </li>
+      
+    
 
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>6</span>
-      <span class="text-muted">/ 7</span>
+      <span class="text-muted">/ 8</span>
     </li>
 
     <!-- right arrow -->
@@ -1108,6 +1060,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/dynamic-lang/">동적 프로그래밍 언어</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/what-is-function/">함수란 무엇인가</a>
         </li>
       
@@ -1130,13 +1089,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/firefox-env/">Firefox 번역 확장기능 사용</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/post-not-show/">[Jekyll] 홈 화면에 포스트가 안보일 때</a>
         </li>
       
     </ul>
