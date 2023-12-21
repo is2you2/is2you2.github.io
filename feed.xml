@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-21T02:27:23+09:00</updated>
+  <updated>2023-12-22T05:23:27+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>클래스란 무엇인가 [1]</title>
+    <link href="https://is2you2.github.io/posts/what-is-class/" rel="alternate" type="text/html" title="클래스란 무엇인가 [1]" />
+    <published>2023-12-22T05:09:00+09:00</published>
+  
+    <updated>2023-12-22T05:09:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/what-is-class/</id>
+    <content src="https://is2you2.github.io/posts/what-is-class/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+코드로 컴퓨터에게 일 시키기
+여러분은 햄버거집을 운영하는 사장입니다.
+지금껏 여러분이 코딩이라고, 컴퓨터에게 어떤 일을 시키던 것들은 버거집에서 알바생이 지켜야할 규칙들을 상세하게 적어내려가는 일이었고, 그 일을 처리하는 알바생은 컴퓨터인데 이녀석은 매우 멍청하지만 매우 정직합니다. 다르게 말하자면 상식은 전혀 통하지 않지만 하라는 일은 정확하게 해냅니다.
+
+이것이 오늘 코딩을 비유하는 방식입니다.
+
+효율적인 햄버거 레시피 관리
+
+클래스(class)는 ‘어떻게 하면 모든 햄버거 레시피를 쉽게 관리할 수 있을까?’라는 생각에서 출발한 개념으로
+
+
+  레시피를 보관할 때는 공간을 적게 차지하고
+  공통된 부분이 있는 것들을 관리할 때 ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -238,63 +290,6 @@ function draw() {
   background(220);
 -  pos_x++;
 +  pos_x += 1 * direction; ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>함수란 무엇인가</title>
-    <link href="https://is2you2.github.io/posts/what-is-function/" rel="alternate" type="text/html" title="함수란 무엇인가" />
-    <published>2023-12-17T17:06:00+09:00</published>
-  
-    <updated>2023-12-18T03:39:16+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/what-is-function/</id>
-    <content src="https://is2you2.github.io/posts/what-is-function/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-방금 무슨 일이 일어난거지?
-우리는 방금 마법같은 일을 경험했습니다. 한 줄의 코드로 원을 그렸기 때문이죠.
-function setup() {
-  createCanvas(400, 400);
-}
-
-var pos_x = 30;
-
-function draw() {
-  background(220);
-  circle(pos_x, 30, 20); // &amp;lt;-- 이 자리
-  pos_x++;
-}
-
-저 circle()이 뭐길래 원을 그리는 걸까요?
-저렇게 뒤에 괄호가 붙은 것을 우리는 함수라고 합니다. 잘 보시면 setup()도 draw()도 뒤에 괄호가 붙어있죠? 그것들도 함수입니다.
-function이 애초에 함수라는 뜻입니다 ^^;
-변수 구성...
     </summary>
   
 
