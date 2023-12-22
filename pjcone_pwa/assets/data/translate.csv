@@ -45,7 +45,6 @@ terminateTodo,이 작업은 되돌릴 수 없습니다,This action cannot be und
 WIP,작업을 완료중입니다...,Work in progress...
 ManageWorker,작업자 관리,Manage workers
 ToggleWorkers,모든 사용자 선택,Select all users
-EditText,편집됨,Edited
 ## Subscribes,,
 Title,채널,Channels
 myProfile,내 프로필,My profile
