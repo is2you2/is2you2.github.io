@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-22T05:23:27+09:00</updated>
+  <updated>2023-12-23T02:36:03+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>클래스란 무엇인가 [2]</title>
+    <link href="https://is2you2.github.io/posts/what-is-class-2/" rel="alternate" type="text/html" title="클래스란 무엇인가 [2]" />
+    <published>2023-12-23T02:33:00+09:00</published>
+  
+    <updated>2023-12-23T02:33:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/what-is-class-2/</id>
+    <content src="https://is2you2.github.io/posts/what-is-class-2/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      빵은 같아도 내용물은 달라야해
+모든 메뉴에는 빵이 들어가지만 모든 메뉴에 치즈가 들어가진 않습니다.
+우리는 보통 메뉴 이름을 통해서 내용물을 구분하니까 그렇게 동작하도록 해야겠어요.
+
+class Burger {
+    constructor(name: String) {
+        // 버거를 제작할 때 일단 바닥 빵을 둡니다.
+        switch(name) {
+            case 'cheese':
+                // 치즈버거는 치즈를 올릴 겁니다.
+                break;
+        }
+        this.end_of_burger();
+    }
+
+    end_of_burger() {
+        // 버거를 마무리할 때 맨 위에 빵으로 덮습...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -233,63 +285,6 @@ function draw() {
   pos_x += speed_x * direction_x;
   pos_y += speed_y * direction_y;
   if (pos_x + 10 &amp;gt; widt...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [3]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-3/" rel="alternate" type="text/html" title="p5js로 시작하기 [3]" />
-    <published>2023-12-18T03:27:00+09:00</published>
-  
-    <updated>2023-12-18T03:27:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-3/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-3/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-벽을 뚫고 나가는 공 문제
-
-우리가 마지막에 공을 움직이게 했지만, 이녀석은 벽을 뚫고 나가서 영원히 안돌아옵니다. 공이 조금 더 자연스럽게 보이게 하려면 공이 벽에 닿았을 때, 반대 방향으로 튕겨줘야 할 것 같아요.
-우리가 궁극적으로 “충돌체”의 개념을 만들면 아주 이상적이겠지만, 우린 아직 초심자니까, 좀 더 간단하게 생각해봅시다.
-
-
-  만약 공이 화면 끝에 닿게 되면, 이동 방향을 반대로 바꾼다.
-
-
-이렇게 말이죠.
-...
-var pos_x = 30;
-+ var direction = 1;
-
-function draw() {
-  background(220);
--  pos_x++;
-+  pos_x += 1 * direction; ...
     </summary>
   
 
