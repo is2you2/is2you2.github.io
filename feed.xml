@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-24T16:36:20+09:00</updated>
+  <updated>2023-12-25T03:23:34+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,72 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [8]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-8/" rel="alternate" type="text/html" title="p5js로 시작하기 [8]" />
+    <published>2023-12-25T03:20:00+09:00</published>
+  
+    <updated>2023-12-25T03:20:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-8/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-8/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+개체 생성 반복하기
+대표적인 반복문으로 for()문이 있습니다.
+
+기본 모양새는 이렇게 되어있습니다.
+// 기본 구성
+for (let i = 0; i &amp;lt; 100; i++) {
+  // 반복 행동 코드 블럭
+  console.log(i, '번째 반복 시행.');
+}
+
+이렇게 구성되어 있구요,
+for (&amp;lt;변수 선언&amp;gt;; &amp;lt;조건문&amp;gt;; &amp;lt;변형&amp;gt;) {
+  &amp;lt;코드 블럭&amp;gt;
+}
+
+이 순서로 동작합니다.
+for ( (0) ; (1) ; (3) ) {
+  (2)
+}
+
+
+구성 따라가기
+위 예시에 있는 for()문을 따라가면
+
+  
+    변수 i를 선언하고, i = 0 으로 설정합니다.
+    i(0) &amp;...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -231,61 +297,6 @@ class Burger {
   }
   if (pos_y + 10 &amp;gt; height || pos_y &amp;lt; 10) {
     direction_y *...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [5]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-5/" rel="alternate" type="text/html" title="p5js로 시작하기 [5]" />
-    <published>2023-12-20T04:43:00+09:00</published>
-  
-    <updated>2023-12-20T04:43:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-5/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-5/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-연산 최적화에 대해서..
-같은걸 굳이 또 계산하는 것 같은데..
-놓친 것들을 되짚어보기 전에, 작은 최적화 처리에 대해서 이야기하고자 합니다. 일단 코드를 봅시다.
-...
-
-  if (pos_y + 10 &amp;gt; height) { // &amp;lt;-- 여기
-    acc_y *= -1;
-  }
-  if (pos_y + 10 &amp;gt; height || pos_y &amp;lt; 10) { // &amp;lt;-- 여기
-    direction_y *= -1;
-  }
-
-...
-
-pos_y + 10 &amp;gt; height 이 똑같게 2번 적힌 것을 확인하실 수 있는데 컴퓨터는 저 연산을 두 번 다 합니다.
-무슨 말이냐면, 예를 들어 첫 줄에서 pos_y +...
     </summary>
   
 
