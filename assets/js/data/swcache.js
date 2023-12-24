@@ -15,8 +15,6 @@ const resource = [
   
     '/tags/',
   
-    '/archives/',
-  
     '/work-record/',
   
     '/link/',
