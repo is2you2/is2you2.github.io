@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-23T02:36:03+09:00</updated>
+  <updated>2023-12-24T16:25:05+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,65 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [7]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-7/" rel="alternate" type="text/html" title="p5js로 시작하기 [7]" />
+    <published>2023-12-24T16:22:00+09:00</published>
+  
+    <updated>2023-12-24T16:22:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-7/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-7/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+이미 준비된 구조
+우리는 공 튀기기를 만들면서 공 하나에 필요한 거의 대부분의 구조를 만들었습니다. 그 구조를 개량하고 class로 만들어서 관리하면 될 것 같네요 👍
+일단 필요한 정보들을 추려서 class를 만들어봅시다.
+
+function setup() {
+  createCanvas(400, 400);
+  ball = new Ball(30, 30)
+}
+
+var ball;
+
+function draw() {
+  background(220);
+  ball.update();
+}
+
+class Ball {
+  // 공마다 시작 위치가 달라야하니 위치는 직접 받습니다.
+  constructor(_pos_x, _pos_y) {
+    // ja...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -227,64 +286,6 @@ class Burger {
 
 pos_y + 10 &amp;gt; height 이 똑같게 2번 적힌 것을 확인하실 수 있는데 컴퓨터는 저 연산을 두 번 다 합니다.
 무슨 말이냐면, 예를 들어 첫 줄에서 pos_y +...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [4]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-4/" rel="alternate" type="text/html" title="p5js로 시작하기 [4]" />
-    <published>2023-12-19T01:07:00+09:00</published>
-  
-    <updated>2023-12-19T01:07:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-4/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-4/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-여기저기 막 적용해보자
-할 줄 아는게 생겼으니 공이 위/아래로도 움직일 수 있게 하고 속도도 조금 변화를 주고 해봅시다.
-
-function setup() {
-  createCanvas(400, 400);
-}
-
-var pos_x = 30;
-var pos_y = 30;
-var speed_x = 1;
-var speed_y = 2;
-var direction_x = 1;
-var direction_y = 1;
-
-function draw() {
-  background(220);
-  pos_x += speed_x * direction_x;
-  pos_y += speed_y * direction_y;
-  if (pos_x + 10 &amp;gt; widt...
     </summary>
   
 

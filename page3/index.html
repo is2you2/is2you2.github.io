@@ -613,6 +613,65 @@
     <!-- combine -->
     
   
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
 
   
 
@@ -681,7 +740,7 @@
 <div id="post-list" class="flex-grow-1 px-xl-1">
   
     <article class="card-wrapper card">
-      <a href="/posts/what-is-function/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/posts/docker-properties/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
@@ -695,7 +754,7 @@
           
 
           <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/posts/what-is-function/function.png" alt="Preview Image"  loading="lazy"></div>
+            <div class="preview-img  shimmer"><img src="/assets/posts/docker-properties/docker.png" alt="Preview Image"  loading="lazy"></div>
           </div>
 
           
@@ -703,7 +762,7 @@
 
         <div class="col-md-7">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">함수란 무엇인가</h1>
+            <h1 class="card-title my-2 mt-md-0">Docker Compose 주요 속성들</h1>
 
             <div class="card-text content mt-0 mb-3">
               <p>
@@ -713,20 +772,19 @@
 
 
 
-                
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+                정보글
+짧게 짧게 쳐내자
+이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
 
+딱 이정도 선에서 설명
+docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
 
-방금 무슨 일이 일어난거지?
-우리는 방금 마법같은 일을 경험했습니다. 한 줄의 코드로 원을 그렸기 때문이죠.
-function setup() {
-  createCanvas(400, 400);
-}
-
-var pos_x = 30;
-
-function draw() {
-  background(...
+docker-compose.yml 파일 작성
+속성 설명
+전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
+services:
+  # 서비스 이름
+  co...
               </p>
             </div>
 
@@ -744,11 +802,11 @@ function draw() {
 
 <time
   
-  data-ts="1702800360"
+  data-ts="1701990840"
   data-df="ll"
   
 >
-  Dec 17, 2023
+  Dec  8, 2023
 </time>
 
 
@@ -758,7 +816,7 @@ function draw() {
                   <span class="categories">
                     
                       정보글,
-                      개발
+                      작업환경
                   </span>
                 
               </div>
@@ -773,14 +831,14 @@ function draw() {
     </article>
   
     <article class="card-wrapper card">
-      <a href="/posts/start-with-p5js-2/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/posts/code-server-3/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
 
         <div class="col-md-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">p5js로 시작하기 [2]</h1>
+            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [3] (feat. code-server)</h1>
 
             <div class="card-text content mt-0 mb-3">
               <p>
@@ -790,15 +848,21 @@ function draw() {
 
 
 
-                
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+                드디어 코드 서버가 생겼네
+바로 실행해보기
+root@fa93f0a75a94:~# code-server
 
+...
+...
+... info    - Not serving HTTPS
 
-난 이제 뭐든 할 수 있어 !
-우리는 이제 변수가 뭔지 압니다. 그럼 변수에 어떤 값을 저장시킬지, 어떤 변화를 줄지 같은 것을 계획할 수 있죠. 우리는 아직 초심자니까, 연습 삼아 움직이는 동그라미 같은걸 그릴 수 있을지 몰라요.
+와 실행 성공!
+그럼 이제 Ctrl + C 를 눌러 꺼주세요
 
-움직이는 원 그리기
-일단 이 페이지에서 문서를 ...
+접근 설정 변경
+nano ~/.config/code-server/config.yaml 
+
+코드 서버 설정 파일에 ...
               </p>
             </div>
 
@@ -816,11 +880,11 @@ function draw() {
 
 <time
   
-  data-ts="1702656600"
+  data-ts="1701909540"
   data-df="ll"
   
 >
-  Dec 16, 2023
+  Dec  7, 2023
 </time>
 
 
@@ -830,7 +894,7 @@ function draw() {
                   <span class="categories">
                     
                       정보글,
-                      개발
+                      작업환경
                   </span>
                 
               </div>
@@ -845,29 +909,14 @@ function draw() {
     </article>
   
     <article class="card-wrapper card">
-      <a href="/posts/what-is-variable/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/posts/code-server-2/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
-          
-          
 
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/posts/what-is-variable/title.png" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
+        <div class="col-md-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">변수란 무엇인가</h1>
+            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [2] (feat. code-server)</h1>
 
             <div class="card-text content mt-0 mb-3">
               <p>
@@ -877,16 +926,21 @@ function draw() {
 
 
 
-                뻥이에요~
-거짓말 주의보
-이 글은 설명을 쉽게하기 위한 약간의 거짓말을 담고 있습니다.
-오직 이해를 쉽게 하기 위한 것이므로 진실로부터 동떨어진 거짓말까지는 아닙니다.
+                도커 사용하기
+지난 이야기..
+지난번 포스트에서 도커 생성 및 삭제까지 했습니다.
+근데 도커가 생성되면 뭘 하냐구요?
 
-쉬운 설명?
-일상에서 접하는 컴퓨터 관련 정보들을 짜집기한 식으로, 컴퓨터에 대한 관심이 없으시다면 쉽지 않을지도 몰라요.
+아무 것도 안합니다
 
-짧은 서문
-스크립팅을 시작하면 가장 처음에 배우는 녀석으로...
+약간 거짓말을 섞자면 컨테이너를 생성했다 = 가상머신을 생성했다와 같습니다.
+
+도커는 지금…
+이전 내용을 가져오면,
+services:
+  code-server:
+    image: ubuntu
+    contai...
               </p>
             </div>
 
@@ -904,11 +958,11 @@ function draw() {
 
 <time
   
-  data-ts="1702601340"
+  data-ts="1701813900"
   data-df="ll"
   
 >
-  Dec 15, 2023
+  Dec  6, 2023
 </time>
 
 
@@ -918,7 +972,389 @@ function draw() {
                   <span class="categories">
                     
                       정보글,
-                      개발
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/posts/code-server/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">작업 환경 분리 구성하기 [1] (feat. code-server)</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                작업 환경 분리?
+시작에 앞서..
+코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
+
+그냥 ...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701719580"
+  data-df="ll"
+  
+>
+  Dec  5, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/posts/android-termux/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/posts/android-termux/termux_screen.png" alt="Preview Image"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">[Termux] 안드로이드를 리눅스처럼</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                터미널 에뮬레이터 앱
+시작하기 전에..
+여러분이 리눅스나 맥을 사용하며 터미널에 대한 경험이 쌓였다면 이 앱은 여러분의 스마트폰을 좀 더 스마트하게 사용할 기회를 제공합니다.
+아이폰이 훌륭한 물건이라는 것 정도는 저도 알지만 이러한 자유도가 좋아서 안드로이드를 못벗어나고 있습니다
+하하 이걸 어떻게 안써요;
+
+응? 안드로이드가 리눅스 아니었나?
+설명하자...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701640860"
+  data-df="ll"
+  
+>
+  Dec  4, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/posts/firefox-env/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/posts/03_firefox-ext/translated.png" alt="Preview Image"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Firefox 번역 확장기능 사용</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                부분적 영어 문맹인
+시작에 앞서..
+웹 브라우저는 본인의 취향에 따라 마음대로 선택해도 됩니다.
+저도 제 취향에 대해서 이야기하는 겁니다 👍
+
+그저 번역을 말하려는게 아닙니다
+브라우저에 번역 확장이 준비되어 있는 것은 흔한 일입니다. 하지만 마음에 드는 번역기 모양새가 있는 경우는 많이 없지요. 이 포스트는 “번역 기능”이 아니라 “제 마음에 드는 번...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701547140"
+  data-df="ll"
+  
+>
+  Dec  3, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/posts/linux-os-env/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">일반적으로 리눅스를 설치하는 과정</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                작업 환경 구축 (OS)
+준비물
+16GB 이상의 빈 USB, 컴퓨터 또는 노트북, 책임감(중요함), 영어 독해력(선택사항)
+
+시작하기에 앞서..
+이 단계는 취향에 따라 건너뛸 수 있습니다.
+대부분의 오픈소스 프로그램들은 메이저 OS(윈도우, 맥, 일부 리눅스 배포판)에서 실행할 수 있으므로 이 단계를 건너뛸 수 있으나..
+
+리눅스는 무료이고, 원래 사...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701451920"
+  data-df="ll"
+  
+>
+  Dec  2, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글,
+                      작업환경
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/posts/post-not-show/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">[Jekyll] 홈 화면에 포스트가 안보일 때</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                Home 에 최근 포스트가 보이지 않는 문제
+일부 지킬 테마 중 준비된 스타터 템플릿을 사용하여 시작할 때 홈 페이지에서 최신 포스트가 보여지지 않는 문제가 발생할 수 있다.
+
+이 경우 포스트 상단 설정(Front matter)에
+---
+pin: true
+---
+
+위 설정을 추가해주면 강제로 핀 처리가 되어 홈 페이지에 게시가 되는데 이것은 Pinne...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1701418680"
+  data-df="ll"
+  
+>
+  Dec  1, 2023
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      정보글
                   </span>
                 
               </div>
@@ -1026,73 +1462,11 @@ function draw() {
         </li>
       
     
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-          <li class="page-item disabled">
-            <span class="page-link">...</span>
-          </li>
-          
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- hide number -->
-        
-      
-    
-      
-      
-      
-      
-      
-
-      
-
-      
-        <!-- show number -->
-        <li class="page-item ">
-          <a
-            class="page-link"
-            href="/page8"
-          >8</a>
-        </li>
-      
-    
 
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>3</span>
-      <span class="text-muted">/ 8</span>
+      <span class="text-muted">/ 4</span>
     </li>
 
     <!-- right arrow -->
@@ -1139,13 +1513,6 @@ function draw() {
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/dynamic-lang/">동적 프로그래밍 언어</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
           <a href="/posts/what-is-function/">함수란 무엇인가</a>
         </li>
       
@@ -1168,6 +1535,13 @@ function draw() {
         
         <li class="text-truncate lh-lg">
           <a href="/posts/firefox-env/">Firefox 번역 확장기능 사용</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/post-not-show/">[Jekyll] 홈 화면에 포스트가 안보일 때</a>
         </li>
       
     </ul>
