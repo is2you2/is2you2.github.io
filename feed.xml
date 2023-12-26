@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-25T03:23:34+09:00</updated>
+  <updated>2023-12-26T19:18:06+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,64 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>p5js로 시작하기 [9]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-9/" rel="alternate" type="text/html" title="p5js로 시작하기 [9]" />
+    <published>2023-12-26T19:15:00+09:00</published>
+  
+    <updated>2023-12-26T19:15:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-9/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-9/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+반복문으로 변수 관리하기
+이제 반복문을 쓸 수 있게 되었으니, 여러 변수를 한번에 다루는 방법만 알아내면 되는데요. 아쉽게도 지금과 같은 방법으로는 변수를 한번에 관리할 수 없습니다.
+var ball_0;
+var ball_1;
+var ball_2;
+
+...
+
+
+  이런 식으로 변수를 생성하고 for()문을 사용하면 되지 않나요?
+
+
+네! 개념적으로 완벽하게 접근하셨는데 ball_n의 방식으로 변수를 불러오는 것은 컴퓨터 구조상 어렵습니다. 대신 그 작업에 적합한 변수 종류가 있습니다.
+
+배열(Array)
+
+
+우리는 편하게 쓰고 있지만 사실 변수에는 문자, 숫자 등의 다양한 종류가 있다고 했죠?
+그러한 종류 중 하나로 배열이 있습니다...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -242,61 +300,6 @@ class Burger {
 
   레시피를 보관할 때는 공간을 적게 차지하고
   공통된 부분이 있는 것들을 관리할 때 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [6]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-6/" rel="alternate" type="text/html" title="p5js로 시작하기 [6]" />
-    <published>2023-12-21T01:40:00+09:00</published>
-  
-    <updated>2023-12-21T01:40:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-6/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-6/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-좀 더 현실처럼
-현실에서는 바닥에 공이 닿으면 운동 에너지가 소리 에너지 등 다른 에너지로 전환되어 원 위치까지 올라오지 못하죠. (중등 과학은 여기까지 😅)
-
-조금 더 그럴싸한 결과물을 위해 다음과 같이 코드를 수정할 수 있을 것 같습니다.
-
-...
-
-  if (pos_x + 10 &amp;gt; width || pos_x &amp;lt; 10) {
-    direction_x *= -1;
-  }
-  if (pos_y + 10 &amp;gt; height) {
--    acc_y *= -1;
-+    acc_y *= -1.2;
-  }
-  if (pos_y + 10 &amp;gt; height || pos_y &amp;lt; 10) {
-    direction_y *...
     </summary>
   
 
