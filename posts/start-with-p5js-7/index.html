@@ -1563,6 +1563,18 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1831,55 +1843,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/what-is-function/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1702800360"
-  data-df="ll"
-  
->
-  Dec 17, 2023
-</time>
-
-              <h4 class="pt-0 my-2">함수란 무엇인가</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-방금 무슨 일이 일어난거지?
-우리는 방금 마법같은 일을 경험했습니다. 한 줄의 코드로 원을 그렸기 때문이죠.
-function setup() {
-  createCanvas(400, 400);
-}
-
-var pos_x = 30;
-
-function draw() {
-  background(...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/start-with-p5js-3/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1965,6 +1928,52 @@ function setup() {
 var pos_x = 30;
 var pos_y = 30;
 var spee...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/start-with-p5js-5/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1703014980"
+  data-df="ll"
+  
+>
+  Dec 20, 2023
+</time>
+
+              <h4 class="pt-0 my-2">p5js로 시작하기 [5]</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+연산 최적화에 대해서..
+같은걸 굳이 또 계산하는 것 같은데..
+놓친 것들을 되짚어보기 전에, 작은 최적화 처리에 대해서 이야기하고자 합니다. 일단 코드를 봅시다.
+...
+
+  if (pos_y + 10 &amp;gt; height) { // &amp;lt;-- 여기
+    acc_y *= -1...
                 </p>
               </div>
             </div>
