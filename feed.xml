@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-27T04:34:19+09:00</updated>
+  <updated>2023-12-28T12:00:54+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,57 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>코드를 최적화하는 방법</title>
+    <link href="https://is2you2.github.io/posts/way-to-optimization/" rel="alternate" type="text/html" title="코드를 최적화하는 방법" />
+    <published>2023-12-28T11:56:00+09:00</published>
+  
+    <updated>2023-12-28T11:56:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/way-to-optimization/</id>
+    <content src="https://is2you2.github.io/posts/way-to-optimization/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+  21세기식 역지사지?
+  개발을 시작하기 전에 글에서 코드 최적화를 진행하는 가장 쉬운 방법으로 컴퓨터가 하는 일을 사람이 한다고 생각하면 된다고 설명했는데 이에 대한 간단한 예시를 보여드리고자 합니다.
+
+
+갑자기 분위기 K-메타버스
+
+설명은 역시 눈에 보이는 데이터가 있는 편이 이해에 편하겠죠? 이번엔 간단한 모델 필터를 이용해 설명드리려고 합니다. Blender 사용법에 대해서는 다루지 않고, 설명을 위한 부분만 추가 설명이 있을 예정입니다.
+
+우리가 작업하려는 것
+
+시작할 때 기본으로 생성되어있는 이 박스는, 8개의 정점(3D에서는 Vertices 라고 함)으로 이루어져있습니다.
+
+우리는 이 도형에 필터를 적용할 예정입니다.
+...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -239,58 +290,6 @@ class Ball {
   // 공마다 시작 위치가 달라야하니 위치는 직접 받습니다.
   constructor(_pos_x, _pos_y) {
     // ja...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>클래스란 무엇인가 [2]</title>
-    <link href="https://is2you2.github.io/posts/what-is-class-2/" rel="alternate" type="text/html" title="클래스란 무엇인가 [2]" />
-    <published>2023-12-23T02:33:00+09:00</published>
-  
-    <updated>2023-12-23T02:33:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/what-is-class-2/</id>
-    <content src="https://is2you2.github.io/posts/what-is-class-2/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      빵은 같아도 내용물은 달라야해
-모든 메뉴에는 빵이 들어가지만 모든 메뉴에 치즈가 들어가진 않습니다.
-우리는 보통 메뉴 이름을 통해서 내용물을 구분하니까 그렇게 동작하도록 해야겠어요.
-
-class Burger {
-    constructor(name: String) {
-        // 버거를 제작할 때 일단 바닥 빵을 둡니다.
-        switch(name) {
-            case 'cheese':
-                // 치즈버거는 치즈를 올릴 겁니다.
-                break;
-        }
-        this.end_of_burger();
-    }
-
-    end_of_burger() {
-        // 버거를 마무리할 때 맨 위에 빵으로 덮습...
     </summary>
   
 

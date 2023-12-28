@@ -1523,6 +1523,18 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1803,49 +1815,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/start-with-p5js-3/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1702837620"
-  data-df="ll"
-  
->
-  Dec 18, 2023
-</time>
-
-              <h4 class="pt-0 my-2">p5js로 시작하기 [3]</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-벽을 뚫고 나가는 공 문제
-
-우리가 마지막에 공을 움직이게 했지만, 이녀석은 벽을 뚫고 나가서 영원히 안돌아옵니다. 공이 조금 더 자연스럽게 보이게 하려면 공이 벽에 닿았을 때, 반대 방향으로 튕겨줘야 할 것 같아요.
-우리가 궁극적으로 “충돌체”의 개념을 만들면 아주 이상적이겠지만...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/start-with-p5js-4/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1934,6 +1903,53 @@ var spee...
 
   if (pos_y + 10 &amp;gt; height) { // &amp;lt;-- 여기
     acc_y *= -1...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/start-with-p5js-6/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1703090400"
+  data-df="ll"
+  
+>
+  Dec 21, 2023
+</time>
+
+              <h4 class="pt-0 my-2">p5js로 시작하기 [6]</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+좀 더 현실처럼
+현실에서는 바닥에 공이 닿으면 운동 에너지가 소리 에너지 등 다른 에너지로 전환되어 원 위치까지 올라오지 못하죠. (중등 과학은 여기까지 😅)
+
+조금 더 그럴싸한 결과물을 위해 다음과 같이 코드를 수정할 수 있을 것 같습니다.
+
+...
+
+  if (pos_x + 1...
                 </p>
               </div>
             </div>
