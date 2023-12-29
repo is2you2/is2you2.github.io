@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-28T12:00:54+09:00</updated>
+  <updated>2023-12-29T21:25:41+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,53 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>컴퓨터와 핸드폰만으로 버튜버 시작하기</title>
+    <link href="https://is2you2.github.io/posts/setup-virtual-broadcasting/" rel="alternate" type="text/html" title="컴퓨터와 핸드폰만으로 버튜버 시작하기" />
+    <published>2023-12-29T21:20:00+09:00</published>
+  
+    <updated>2023-12-29T21:20:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/setup-virtual-broadcasting/</id>
+    <content src="https://is2you2.github.io/posts/setup-virtual-broadcasting/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글은 Windows 및 Android 기준으로 설명되어 있습니다.
+  누구나 쉽게 시작할 수 있는 세상
+  우리는 아주 훌륭한 세상에 살고 있습니다. 그리고 너무나도 위태로운 세상에 살고 있죠. 개인정보로 사람을 괴롭힐 수 있는 세상에요 😧
+이미 준비된 세상에 우리를 드러내면서, 우리를 조심스럽게 숨길 수 있는 버츄얼 유튜버를 시작하고 싶다면 이 글을 따라 진행해보세요.
+
+
+나는 얼굴 인식할 카메라가 없다
+이런 저런 이유로 지금 사용할 카메라가 없다면 여러분의 안드로이드 핸드폰을 카메라 겸 마이크로 사용하실 수 있습니다. 컴퓨터에는 클라이언트 프로그램을, 핸드폰에는 서버 앱을 설치해주세요. 이 앱을 정상적으로 사용하려면 핸드폰과 컴퓨터가 같은 공유기를 사용하고 있어야 합니다.
+
+
+휴대폰에 보여...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -231,65 +278,6 @@ for ( (0) ; (1) ; (3) ) {
   
     변수 i를 선언하고, i = 0 으로 설정합니다.
     i(0) &amp;...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [7]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-7/" rel="alternate" type="text/html" title="p5js로 시작하기 [7]" />
-    <published>2023-12-24T16:22:00+09:00</published>
-  
-    <updated>2023-12-24T16:22:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-7/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-7/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-이미 준비된 구조
-우리는 공 튀기기를 만들면서 공 하나에 필요한 거의 대부분의 구조를 만들었습니다. 그 구조를 개량하고 class로 만들어서 관리하면 될 것 같네요 👍
-일단 필요한 정보들을 추려서 class를 만들어봅시다.
-
-function setup() {
-  createCanvas(400, 400);
-  ball = new Ball(30, 30)
-}
-
-var ball;
-
-function draw() {
-  background(220);
-  ball.update();
-}
-
-class Ball {
-  // 공마다 시작 위치가 달라야하니 위치는 직접 받습니다.
-  constructor(_pos_x, _pos_y) {
-    // ja...
     </summary>
   
 
