@@ -2,21 +2,74 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://is2you2.github.io/</id>
-  <title>그림또따</title>
+  <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2023-12-30T06:52:20+09:00</updated>
+  <updated>2024-01-05T14:40:17+09:00</updated>
   <author>
-    <name>그림또따</name>
+    <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="https://is2you2.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko"
     href="https://is2you2.github.io/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 그림또따 </rights>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 최성수 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>작별인사</title>
+    <link href="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" rel="alternate" type="text/html" title="작별인사" />
+    <published>2023-12-30T22:40:00+09:00</published>
+  
+    <updated>2023-12-30T22:40:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/farewell-notebook-msi-ps42/</id>
+    <content src="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      그 녀석은 가버렸습니다
+이 포스트는 그저 주인장의 노트북이 죽은 것을 애도하는 글 입니다.
+
+
+이 녀석은 코딩용 노트북임에도 불구하고 주인장의 혹독한 그래픽 및 렌더링 작업을 감당하지 못하고 순식간에 늙어버리며 죽었습니다. 그럼에도 마지막 렌더링은 아름답게 마무리해주었습니다.
+
+짧은 애도의 마음을 남깁니다.
+
+새 녀석 등장
+
+
+
+
+무려 3중박스가 포장된 채로 눈오는 길목을 뚫고 주말에 배송 도착.
+
+이전 녀석의 죽음에서 깨달음을 얻어, 무조건 그래픽 카드가 달린 녀석을 쓰기로 생각을 바꿨습니다.
+저렴하고 가벼운 노트북을 쓰고 싶었는데 더 이상 그런 시도를 할 수는 없을 것 같군요 😢
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -29,7 +82,7 @@
     <id>https://is2you2.github.io/posts/setup-virtual-broadcasting/</id>
     <content src="https://is2you2.github.io/posts/setup-virtual-broadcasting/" />
     <author>
-      <name>그림또따</name>
+      <name>최성수</name>
     </author>
 
   
@@ -76,7 +129,7 @@
     <id>https://is2you2.github.io/posts/way-to-optimization/</id>
     <content src="https://is2you2.github.io/posts/way-to-optimization/" />
     <author>
-      <name>그림또따</name>
+      <name>최성수</name>
     </author>
 
   
@@ -127,7 +180,7 @@
     <id>https://is2you2.github.io/posts/start-with-p5js-10/</id>
     <content src="https://is2you2.github.io/posts/start-with-p5js-10/" />
     <author>
-      <name>그림또따</name>
+      <name>최성수</name>
     </author>
 
   
@@ -170,7 +223,7 @@
     <id>https://is2you2.github.io/posts/start-with-p5js-9/</id>
     <content src="https://is2you2.github.io/posts/start-with-p5js-9/" />
     <author>
-      <name>그림또따</name>
+      <name>최성수</name>
     </author>
 
   
@@ -212,72 +265,6 @@ var ball_2;
 
 우리는 편하게 쓰고 있지만 사실 변수에는 문자, 숫자 등의 다양한 종류가 있다고 했죠?
 그러한 종류 중 하나로 배열이 있습니다...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [8]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-8/" rel="alternate" type="text/html" title="p5js로 시작하기 [8]" />
-    <published>2023-12-25T03:20:00+09:00</published>
-  
-    <updated>2023-12-25T03:20:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-8/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-8/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-개체 생성 반복하기
-대표적인 반복문으로 for()문이 있습니다.
-
-기본 모양새는 이렇게 되어있습니다.
-// 기본 구성
-for (let i = 0; i &amp;lt; 100; i++) {
-  // 반복 행동 코드 블럭
-  console.log(i, '번째 반복 시행.');
-}
-
-이렇게 구성되어 있구요,
-for (&amp;lt;변수 선언&amp;gt;; &amp;lt;조건문&amp;gt;; &amp;lt;변형&amp;gt;) {
-  &amp;lt;코드 블럭&amp;gt;
-}
-
-이 순서로 동작합니다.
-for ( (0) ; (1) ; (3) ) {
-  (2)
-}
-
-
-구성 따라가기
-위 예시에 있는 for()문을 따라가면
-
-  
-    변수 i를 선언하고, i = 0 으로 설정합니다.
-    i(0) &amp;...
     </summary>
   
 
