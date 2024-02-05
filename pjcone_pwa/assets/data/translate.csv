@@ -30,6 +30,7 @@ description,상세 내용,Description
 description_placeholder,할 일 상세 내용,Todo details
 new_text,새 텍스트,New text
 new_draw,새 그림,New painting
+user_fs,인앱 탐색기,Inapp explorer
 add_attach,가져오기,Load
 outlink,복사된 외부 링크,Copied external link
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
@@ -397,6 +398,7 @@ DeleteAccept,삭제,Delete
 Action,이 파일을..,Action..
 Use,사용하기,Use
 Open,열기,Open
+Select,선택,Select
 Download,받기,Download
 Import,수입,Import
 ImportFailed,수입 실패,Import failed
