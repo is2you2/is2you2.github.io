@@ -258,6 +258,8 @@ Add,추가,Add
 Title,새 채널 만들기,Create new channel
 SelectServer,서버 선택,Select server
 GroupInfo,채널 정보,Channel info
+JoinGroupWithId,다른 그룹에 참여,Join other group
+InputGroupId,그룹 ID,Input group ID
 DisplayName,표시명,Display name
 DisplayName_placeholder,채널 이름,Channel name
 ClicktoChangeGroupImg,눌러서 채널 이미지 설정,Click to add channel iamge
@@ -269,10 +271,12 @@ LanguageTag,국가 태그,LangTag
 MemberMaxLimit,최대 인원,Maximum member
 IsOpen,공개 여부,is Open group
 submit,위 정보로 추가하기,Submit
-cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.,The selected server is unavailable.
-group_created,채널이 생성되었습니다.,A channel has been created.
+cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.,The selected server is unavailable
+group_created,채널이 생성되었습니다,A channel has been created
+join_group_succ,채널에 참여했습니다,Joined the channel
+check_group_id,그룹 ID를 확인해주세요,Please check the group ID
 NeedSetGroupName,채널 이름을 작성해주세요.,Please write the channel name.
-AlreadyExist,이미 같은 이름의 채널이 존재합니다.,A channel with the same name already exists.
+AlreadyExist,이미 같은 이름의 채널이 존재합니다.,A channel with the same name already exists
 UnexpectedErr,준비되지 않은 오류처리,Unexpected error occured
 ## GroupDetail,,
 Title,채널 상세,Channel detail
