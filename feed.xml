@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-01-09T06:20:00+09:00</updated>
+  <updated>2024-02-13T16:07:07+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,63 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Project: Cone 앱 사용 방법 (1)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (1)" />
+    <published>2024-02-13T15:56:00+09:00</published>
+  
+    <updated>2024-02-13T15:56:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      프로그램 다운로드
+프로젝트 콘 앱은 여기서 다운받을 수 있습니다.
+아이폰용 앱은 아직 개발되어있지 않았지만 약간 제한된 상태로 웹 페이지에서 사용할 수 있습니다. 개발자가 아이폰이 없어서 온전히 동작할지 여부는 확신할 수 없어요 😅 (아마도 잘 동작할 겁니다)
+
+PC에서 사용할 경우 인터넷에 연결되어있어야 합니다.
+
+해야할 일 관리
+프로젝트 콘 앱은 할 일 관리자를 제공합니다. 별도의 설정없이 사용할 수 있으며 시작기한 또는 마감기한에 간단한 알림을 표시합니다. PC알림은 앱이 켜져 있을 때에만 동작하고 휴대폰은 앱이 종료된 상태에서도 알림을 받을 수 있습니다.
+
+
+처음 프로그램을 켰을 때 모습
+
+
+
+PC(Linux)에서 알림이 보여지는 모습
+
+
+Android에서 알림이 보여지는 모습
+
+
+
+할 일을 작...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -207,64 +264,6 @@
 
 농담같았던 게임엔진 사용
 이 곳에서는 고도엔진을 다룰 예정입니다. 이 글을 작성하는 주인장은 고도엔진 4버전의 훌륭한 도약에 매우 예의주...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [9]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-9/" rel="alternate" type="text/html" title="p5js로 시작하기 [9]" />
-    <published>2023-12-26T19:15:00+09:00</published>
-  
-    <updated>2023-12-26T19:15:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-9/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-9/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-반복문으로 변수 관리하기
-이제 반복문을 쓸 수 있게 되었으니, 여러 변수를 한번에 다루는 방법만 알아내면 되는데요. 아쉽게도 지금과 같은 방법으로는 변수를 한번에 관리할 수 없습니다.
-var ball_0;
-var ball_1;
-var ball_2;
-
-...
-
-
-  이런 식으로 변수를 생성하고 for()문을 사용하면 되지 않나요?
-
-
-네! 개념적으로 완벽하게 접근하셨는데 ball_n의 방식으로 변수를 불러오는 것은 컴퓨터 구조상 어렵습니다. 대신 그 작업에 적합한 변수 종류가 있습니다.
-
-배열(Array)
-
-
-우리는 편하게 쓰고 있지만 사실 변수에는 문자, 숫자 등의 다양한 종류가 있다고 했죠?
-그러한 종류 중 하나로 배열이 있습니다...
     </summary>
   
 
