@@ -469,6 +469,7 @@ AvailableChannels,공유 가능한 채널,Shareable channels
 ## WebLinkGen,,
 subtitle,빠른 진입 주소 생성하기,Generate a fast entry address
 baseURL,주소 기반,Address based
+UseTestServer,테스트 서버 사용,Use test server
 OpenProfile,프로필 및 서버 페이지 열기,Open profile
 OpenChannelTab,채널 탭으로 이동,Open channel tab
 UseTempUser,임시 사용자 지정,Use temporary user info
