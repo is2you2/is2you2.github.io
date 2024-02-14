@@ -35,24 +35,24 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="작업 환경 분리 구성하기 [2] (feat. code-server)" />
+<meta property="og:title" content="최성수" />
 <meta property="og:locale" content="ko" />
-<meta name="description" content="도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?" />
-<meta property="og:description" content="도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?" />
-<link rel="canonical" href="https://is2you2.github.io/posts/code-server-2/" />
-<meta property="og:url" content="https://is2you2.github.io/posts/code-server-2/" />
+<meta name="description" content="오픈소스에 기대어 이것 저것 해봅니다" />
+<meta property="og:description" content="오픈소스에 기대어 이것 저것 해봅니다" />
+<link rel="canonical" href="https://is2you2.github.io/page5/" />
+<meta property="og:url" content="https://is2you2.github.io/page5/" />
 <meta property="og:site_name" content="최성수" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-12-06T07:05:00+09:00" />
+<meta property="og:type" content="website" />
+<link rel="prev" href="https://is2you2.github.io/page4" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="작업 환경 분리 구성하기 [2] (feat. code-server)" />
+<meta property="twitter:title" content="최성수" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-06T07:05:00+09:00","datePublished":"2023-12-06T07:05:00+09:00","description":"도커 사용하기 지난 이야기.. 지난번 포스트에서 도커 생성 및 삭제까지 했습니다. 근데 도커가 생성되면 뭘 하냐구요?","headline":"작업 환경 분리 구성하기 [2] (feat. code-server)","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/code-server-2/"},"url":"https://is2you2.github.io/posts/code-server-2/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"오픈소스에 기대어 이것 저것 해봅니다","headline":"최성수","url":"https://is2you2.github.io/page5/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>작업 환경 분리 구성하기 [2] (feat. code-server) | 최성수
+  <title>최성수
   </title>
 
   <!--
@@ -104,16 +104,11 @@
   <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.3/dist/tocbot.min.css">
-  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
-  
-    <!-- Manific Popup -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -292,7 +287,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -410,25 +405,9 @@
       
 
       
-        
-          
-            <span>
-              <a href="/">
-                Home
-              </a>
-            </span>
+        <!-- index page -->
+        <span>Home</span>
 
-          
-        
-          
-        
-          
-            
-              <span>작업 환경 분리 구성하기 [2] (feat. code-server)</span>
-            
-
-          
-        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -438,7 +417,7 @@
     </button>
 
     <div id="topbar-title">
-      Post
+      최성수
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -507,85 +486,10 @@
   
 
   
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-
-    
-  
 
   
   
 
-  
-    
-    
-
-    
-      
-        
-        
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-
-    
   
 
   
@@ -606,15 +510,59 @@
 
 
 
-<article class="px-1">
-  <header>
-    <h1 data-toc-skip>작업 환경 분리 구성하기 [2] (feat. code-server)</h1>
 
-    <div class="post-meta text-muted">
-      <!-- published date -->
-      <span>
-        Posted
-        <!--
+
+
+
+
+<!-- Get pinned posts -->
+
+
+
+
+
+
+<!-- Get default posts -->
+
+
+
+
+
+
+
+
+
+
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/posts/init/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">블로그 생성됨</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                세상아 안녕!
+
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -624,218 +572,159 @@
 
 <time
   
-  data-ts="1701813900"
+  data-ts="1701307722"
   data-df="ll"
   
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
 >
-  Dec  6, 2023
+  Nov 30, 2023
 </time>
 
-      </span>
 
-      <!-- lastmod date -->
-      
+                <!-- categories -->
+                
+              </div>
 
-      
-
-      <div class="d-flex justify-content-between">
-        <!-- author(s) -->
-        <span>
-          
-
-          By
-
-          <em>
-            
-              <a href="https://github.com/is2you2">최성수</a>
-            
-          </em>
-        </span>
-
-        <!-- read time -->
-        <!-- Calculate the post's reading time, and display the word count in tooltip -->
-
-
-
-<!-- words per minute -->
-
-
-
-
-
-
-
-
-
-
-<!-- return element -->
-<span
-  class="readtime"
-  data-bs-toggle="tooltip"
-  data-bs-placement="bottom"
-  title="420 words"
->
-  <em>2 min</em> read</span>
-
-      </div>
-      <!-- .d-flex -->
-    </div>
-    <!-- .post-meta -->
-  </header>
-
-  <div class="content">
-    <h2 id="도커-사용하기"><span class="me-2">도커 사용하기</span><a href="#도커-사용하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<h3 id="지난-이야기"><span class="me-2">지난 이야기..</span><a href="#지난-이야기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>지난번 포스트에서 도커 생성 및 삭제까지 했습니다.<br />
-근데 도커가 생성되면 뭘 하냐구요?</p>
-
-<p><strong>아무 것도 안합니다</strong></p>
-
-<p>약간 거짓말을 섞자면 <code class="language-plaintext highlighter-rouge">컨테이너를 생성했다 = 가상머신을 생성했다</code>와 같습니다.</p>
-
-<h3 id="도커는-지금"><span class="me-2">도커는 지금…</span><a href="#도커는-지금" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>이전 내용을 가져오면,</p>
-<div class="language-yml highlighter-rouge"><div class="code-header">
-        <span data-label-text="YAML"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td><td class="rouge-code"><pre><span class="na">services</span><span class="pi">:</span>
-  <span class="na">code-server</span><span class="pi">:</span>
-    <span class="na">image</span><span class="pi">:</span> <span class="s">ubuntu</span>
-    <span class="na">container_name</span><span class="pi">:</span> <span class="s">code-server</span>
-    <span class="s">...</span>
-</pre></td></tr></tbody></table></code></div></div>
-<p>yml 파일에 대놓고 ubuntu라 적혀있으니 이 도커는 지금 우분투가 설치된 것을 예상할 수 있습니다. 그럼 이 우분투를 어떻게 사용하느냐..</p>
-
-<p>터미널에 <code class="language-plaintext highlighter-rouge">docker ps</code>를 입력해봅시다.</p>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre><span class="o">&gt;</span> docker ps
-
-CONTAINER ID   IMAGE     COMMAND               CREATED        STATUS       ...
-fa93f0a75a94   ubuntu    <span class="s2">"tail -F /dev/null"</span>   44 hours ago   Up ...
-</pre></td></tr></tbody></table></code></div></div>
-<p>현재 활성중인 도커를 보여주는데, 컨테이너 ID(fa93f0a75a94)가 보이네요</p>
-
-<p>아래 명령을 입력하면 터미널로 접근할 수 있습니다.</p>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>docker <span class="nb">exec</span> <span class="nt">-it</span> fa93f0a75a94 /bin/bash
-
-root@fa93f0a75a94:/# 
-</pre></td></tr></tbody></table></code></div></div>
-<h3 id="관리자-계정인데요"><span class="me-2">관리자 계정인데요?</span><a href="#관리자-계정인데요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>사용자가 관리자 계정이긴 하지만 이제부터는 우분투를 사용하는 것과 동일합니다.<br />
-apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하고 할 것 같은 일부 기본 유틸(nano, git, wget 등)을 설치하시면 됩니다. (시작할 때 sudo가 설치되어있지 않음)</p>
-
-<h2 id="code-server-설치"><span class="me-2">code-server 설치</span><a href="#code-server-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>적당히 준비가 되었으면 아래 명령어를 입력하여 코드 서버를 설치합니다.</p>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>curl <span class="nt">-fsSL</span> https://code-server.dev/install.sh | sh
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>다음에 계속…</p>
-
-  </div>
-
-  <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
-    
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/%EC%A0%95%EB%B3%B4%EA%B8%80/">정보글</a>,
-          <a href="/categories/%EC%9E%91%EC%97%85%ED%99%98%EA%B2%BD/">작업환경</a>
-      </div>
-    
-
-    <!-- tags -->
-    
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        
-          <a
-            href="/tags/scripting/"
-            class="post-tag no-text-decoration"
-          >scripting</a>
-        
-          <a
-            href="/tags/docker/"
-            class="post-tag no-text-decoration"
-          >docker</a>
-        
-      </div>
-    
-
-    <div
-      class="
-        post-tail-bottom
-        d-flex justify-content-between align-items-center mt-5 pb-2
-      "
-    >
-      <div class="license-wrapper">
-        
-          
-
-          This post is licensed under 
-        <a href="https://creativecommons.org/licenses/by/4.0/">
-          CC BY 4.0
-        </a>
-         by the author.
-        
-      </div>
-
-      <!-- Post sharing snippet -->
-
-<div class="share-wrapper d-flex align-items-center">
-  <span class="share-label text-muted">Share</span>
-  <span class="share-icons">
-    
-    
-    
-
-    
-
-      
-
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%9E%91%EC%97%85%20%ED%99%98%EA%B2%BD%20%EB%B6%84%EB%A6%AC%20%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0%20[2]%20(feat.%20code-server)%20-%20%EC%B5%9C%EC%84%B1%EC%88%98&u=https%3A%2F%2Fis2you2.github.io%2Fposts%2Fcode-server-2%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
-        <i class="fa-fw fab fa-facebook-square"></i>
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
       </a>
+    </article>
+  
+</div>
+<!-- #post-list -->
+
+
+  <!-- The paginator for post list on HomgPage. -->
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
     
 
-    <button
-      id="copy-link"
-      aria-label="Copy link"
-      class="btn small"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="Copy link"
-      data-title-succeed="Link copied successfully!"
-    >
-      <i class="fa-fw fas fa-link pe-none fs-6"></i>
-    </button>
-  </span>
-</div>
+    <li class="page-item ">
+      <a class="page-link" href="/page4" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
 
-    </div>
-    <!-- .post-tail-bottom -->
-  </div>
-  <!-- div.post-tail-wrapper -->
-</article>
+    <!-- page numbers -->
+    
+    
+
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/"
+          >1</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page3"
+          >3</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page4"
+          >4</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item  active">
+          <a
+            class="page-link"
+            href="/page5"
+          >5</a>
+        </li>
+      
+    
+
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>5</span>
+      <span class="text-muted">/ 5</span>
+    </li>
+
+    <!-- right arrow -->
+    
+
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- .pagination -->
+
+
 
 
             
@@ -1314,687 +1203,12 @@ apt update -y; apt upgrade -y 를 실행한 후 이 가상머신에서 사용하
             </div>
 
             
-              
-              
-
-
-
-  <section id="toc-wrapper" class="ps-0 pe-4">
-    <h2 class="panel-heading ps-3 pt-2 mb-2">Contents</h2>
-    <nav id="toc"></nav>
-  </section>
-
-
-            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
-            
-              
-              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
-
-<!-- The total size of related posts -->
-
-
-<!-- An random integer that bigger than 0 -->
-
-
-<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  <aside id="related-posts" aria-labelledby="related-label">
-    <h3 class="mb-4" id="related-label">Further Reading</h3>
-    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/code-server/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701719580"
-  data-df="ll"
-  
->
-  Dec  5, 2023
-</time>
-
-              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [1] (feat. code-server)</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  작업 환경 분리?
-시작에 앞서..
-코드 서버도, 도커도, 원래 이러라고 만들어진게 아니지만, 이전 포스트에 적었던 웹 브라우저 번역을 이용하고 싶어서 직접 구성한 겁니다. 불여우 브라우저로 코딩시 생기는 문제로 빈번히 브라우저가 멈추거나 하는 등의 이슈가 있으므로, 그걸 감내하면서까지 쓰고 싶은게 아니라면 글을 읽고 즐기시면 될 것 같습니다.
-
-그냥 ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/code-server-3/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701909540"
-  data-df="ll"
-  
->
-  Dec  7, 2023
-</time>
-
-              <h4 class="pt-0 my-2">작업 환경 분리 구성하기 [3] (feat. code-server)</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  드디어 코드 서버가 생겼네
-바로 실행해보기
-1
-2
-3
-4
-5
-root@fa93f0a75a94:~# code-server
-
-...
-...
-... info    - Not serving HTTPS
-
-와 실행 성공!
-그럼 이제 Ctrl + C 를 눌러 꺼주세요
-
-접근 설정 변경
-1
-nano ~/.config/code-server/config.yaml 
-
-코...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/docker-properties/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1701990840"
-  data-df="ll"
-  
->
-  Dec  8, 2023
-</time>
-
-              <h4 class="pt-0 my-2">Docker Compose 주요 속성들</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  정보글
-짧게 짧게 쳐내자
-이 글은 빠른 정보 전달을 위해 구체적인 내용 설명을 겸하지는 않습니다.
-
-딱 이정도 선에서 설명
-docker-compose 사용과 관련있는 정도만 포함되어 있습니다.
-
-docker-compose.yml 파일 작성
-속성 설명
-전에 보여드린 파일을 기준으로 간단히 설명을 곁들이자면,
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-1...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-    </nav>
-  </aside>
-  <!-- #related-posts -->
-
-
-            
-              
-              <!-- Navigation buttons at the bottom of the post. -->
-
-<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
-  
-  
-
-  
-    <a
-      href="/posts/code-server/"
-      class="btn btn-outline-primary"
-      aria-label="Older"
-    >
-      <p>작업 환경 분리 구성하기 [1] (feat. code-server)</p>
-    </a>
-  
-
-  
-    <a
-      href="/posts/code-server-3/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>작업 환경 분리 구성하기 [3] (feat. code-server)</p>
-    </a>
-  
-</nav>
-
-            
-              
-              <!--  The comments switcher -->
-
-  
-  <!-- https://giscus.app/ -->
-<script type="text/javascript">
-  (function () {
-    const origin = 'https://giscus.app';
-    const iframe = 'iframe.giscus-frame';
-    const lightTheme = 'light';
-    const darkTheme = 'dark_dimmed';
-
-    let initTheme = lightTheme;
-    const html = document.documentElement;
-
-    if (
-      (html.hasAttribute('data-mode') &&
-        html.getAttribute('data-mode') === 'dark') ||
-      (!html.hasAttribute('data-mode') &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
-      initTheme = darkTheme;
-    }
-
-    let giscusAttributes = {
-      src: 'https://giscus.app/client.js',
-      'data-repo': 'is2you2/is2you2.github.io',
-      'data-repo-id': 'MDEwOlJlcG9zaXRvcnkyMDUzNjA0MDI=',
-      'data-category': 'Comments',
-      'data-category-id': 'DIC_kwDODD2NEs4CbjlP',
-      'data-mapping': 'pathname',
-      'data-reactions-enabled': '1',
-      'data-emit-metadata': '0',
-      'data-theme': initTheme,
-      'data-input-position': 'bottom',
-      'data-lang': 'ko',
-      'data-loading': 'lazy',
-      crossorigin: 'anonymous',
-      async: ''
-    };
-
-    let giscusScript = document.createElement('script');
-    Object.entries(giscusAttributes).forEach(([key, value]) =>
-      giscusScript.setAttribute(key, value)
-    );
-    document.getElementById('tail-wrapper').appendChild(giscusScript);
-
-    addEventListener('message', (event) => {
-      if (
-        event.source === window &&
-        event.data &&
-        event.data.direction === ModeToggle.ID
-      ) {
-        /* global theme mode changed */
-        const mode = event.data.message;
-        const theme = mode === ModeToggle.DARK_MODE ? darkTheme : lightTheme;
-
-        const message = {
-          setConfig: {
-            theme: theme
-          }
-        };
-
-        const giscus = document.querySelector(iframe).contentWindow;
-        giscus.postMessage({ giscus: message }, origin);
-      }
-    });
-  })();
-</script>
-
-
-
             
 
             <!-- The Footer -->
@@ -2497,9 +1711,6 @@ docker-compose.yml 파일 작성
   
 
   
-    <!-- image lazy-loading & popup & clipboard -->
-    
-  
 
 
 
@@ -2571,37 +1782,16 @@ docker-compose.yml 파일 작성
 
   
 
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
 
 
-
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/ko.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.21.3/dist/tocbot.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/ko.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js"></script>
 
 
 
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+<script defer src="/assets/js/dist/home.min.js"></script>
 
 
 

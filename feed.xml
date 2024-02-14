@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-02-13T16:07:07+09:00</updated>
+  <updated>2024-02-14T09:10:24+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,49 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Project: Cone 앱 사용 방법 (2)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-2/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (2)" />
+    <published>2024-02-14T09:05:00+09:00</published>
+  
+    <updated>2024-02-14T09:05:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-2/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-2/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      온라인 연결
+등록된 사설서버가 있다면 앱 시작과 동시에 연결을 시도합니다. 등록된 사설서버가 없고, 사설서버를 만들 의향이 없다면 상태등을 눌러 개발자가 사용하는 개발 테스트 서버를 이용할 수 있습니다. 이 서버는 글자 그대로 개발용 서버로 공식적으로 제공되는 서비스 서버가 아니므로 개발 내용 및 서버 상황 등에 따라 언제든 서버 초기화/오프라인 등의 조치가 이루어질 수 있습니다.
+
+
+
+서버에 연결할 때 사용하는 계정 정보는 이메일/비밀번호로, 실제 사용하는 이메일인지는 검토하지 않습니다. 그러므로 aa@aa.aa 와 같이 이메일 형식만 맞춰도 가입되어 사실상 익명으로 서비스 이용이 가능합니다. 비밀번호는 최소 8자리 이상으로 설정해야 합니다.
+
+여러개의 사설서버에 연결할 때 하나의 계정정보(이메일/비...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -221,49 +264,6 @@ Android에서 알림이 보여지는 모습
 
 우리는 이 도형에 필터를 적용할 예정입니다.
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [10]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-10/" rel="alternate" type="text/html" title="p5js로 시작하기 [10]" />
-    <published>2023-12-27T04:29:00+09:00</published>
-  
-    <updated>2023-12-30T06:52:16+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-10/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-10/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      이제 공끼리 서로 튀기게 해주세요
-아뇨, 우리는 거기까지 진행하지는 않을 겁니다.
-부담없이 코딩을 시작할 수 있는 구성의 일부로서 진행한 것일 뿐입니다. 지금까지 작성된 코드로 공끼리 튀기기를 구현하려면 생각보다 많은게 다시 작성되어야 합니다. (이 짧은 코드에서 재작성이 많이 된다니.. ! )
-
-물론 class 구조를 좀 더 연습하고 싶다면 개인적으로 진행해보는 것을 추천합니다. 코딩을 잘한다는 것은 코드를 얼마나 잘 쓰는지가 아니라, 코드를 얼마나 잘 구성하는지이기 때문에, 별 것 아닌 것 같다고 생각되는 것도 직접 코딩하며 경험을 쌓는 것은 큰 도움이 됩니다.
-
-농담같았던 게임엔진 사용
-이 곳에서는 고도엔진을 다룰 예정입니다. 이 글을 작성하는 주인장은 고도엔진 4버전의 훌륭한 도약에 매우 예의주...
     </summary>
   
 
