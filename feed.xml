@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-02-14T09:10:24+09:00</updated>
+  <updated>2024-02-16T12:47:37+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Project: Cone 앱 사용 방법 (3)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-3/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (3)" />
+    <published>2024-02-16T12:46:00+09:00</published>
+  
+    <updated>2024-02-16T12:46:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-3/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-3/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="작업환경" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      사설 서버 설치하기
+설정 &amp;gt; 개발 보조 도구 &amp;gt; Nakama 서버 파일 메뉴를 선택하면 다운로드 폴더에 서버 설정 파일(nakama.zip)을 다운로드 받습니다. 설정 파일을 동작시키기 위해선 docker를 설치해야 합니다.
+
+리눅스 패키지 매니저로 설치한다면 docker-compose 까지 설치해주셔야 합니다.
+
+nakama 폴더 안에서 터미널을 실행한 후 다음 명령어를 입력하여 서버를 시작할 수 있습니다.
+docker-compose up -d
+
+컴퓨터의 ip주소를 확인하여 서버 주소에 입력하면 사설 서버에 접근할 수 있습니다.
+
+
+
+이렇게하면 내부망에서 정상적으로 동작하게 됩니다.
+
+외부망에서 접근할 수 있도록 구성하려면 https 설정이 필요한데, noip에서 무료 ddns를 발급받은 ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -213,57 +263,6 @@ Android에서 알림이 보여지는 모습
 
 
 휴대폰에 보여...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>코드를 최적화하는 방법</title>
-    <link href="https://is2you2.github.io/posts/way-to-optimization/" rel="alternate" type="text/html" title="코드를 최적화하는 방법" />
-    <published>2023-12-28T11:56:00+09:00</published>
-  
-    <updated>2023-12-28T11:56:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/way-to-optimization/</id>
-    <content src="https://is2you2.github.io/posts/way-to-optimization/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-  21세기식 역지사지?
-  개발을 시작하기 전에 글에서 코드 최적화를 진행하는 가장 쉬운 방법으로 컴퓨터가 하는 일을 사람이 한다고 생각하면 된다고 설명했는데 이에 대한 간단한 예시를 보여드리고자 합니다.
-
-
-갑자기 분위기 K-메타버스
-
-설명은 역시 눈에 보이는 데이터가 있는 편이 이해에 편하겠죠? 이번엔 간단한 모델 필터를 이용해 설명드리려고 합니다. Blender 사용법에 대해서는 다루지 않고, 설명을 위한 부분만 추가 설명이 있을 예정입니다.
-
-우리가 작업하려는 것
-
-시작할 때 기본으로 생성되어있는 이 박스는, 8개의 정점(3D에서는 Vertices 라고 함)으로 이루어져있습니다.
-
-우리는 이 도형에 필터를 적용할 예정입니다.
-...
     </summary>
   
 
