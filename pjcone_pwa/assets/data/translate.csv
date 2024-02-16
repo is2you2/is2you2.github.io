@@ -80,7 +80,7 @@ joinDedi_placeholder,기본,Default
 admin_tools,관리자 도구,Admin tools
 ServerAdmin,서버 관리,Manage server
 admin_req_counter,서버 상태,Server status
-use_test_server,개발 테스트 서버 사용,Use a development test server
+dont_use_test_server,개발 테스트 서버 사용 안함,Do not use a development test server
 NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
 AppInfo,앱 정보,App info
@@ -470,7 +470,6 @@ AvailableChannels,공유 가능한 채널,Shareable channels
 ## WebLinkGen,,
 subtitle,빠른 진입 주소 생성하기,Generate a fast entry address
 baseURL,주소 기반,Address based
-UseTestServer,테스트 서버 사용,Use test server
 OpenProfile,프로필 및 서버 페이지 열기,Open profile
 OpenChannelTab,채널 탭으로 이동,Open channel tab
 UseTempUser,임시 사용자 지정,Use temporary user info
