@@ -470,7 +470,6 @@ AvailableChannels,공유 가능한 채널,Shareable channels
 ## WebLinkGen,,
 subtitle,빠른 진입 주소 생성하기,Generate a fast entry address
 baseURL,주소 기반,Address based
-OpenProfile,프로필 및 서버 페이지 열기,Open profile
 OpenChannelTab,채널 탭으로 이동,Open channel tab
 UseTempUser,임시 사용자 지정,Use temporary user info
 CustomInfo,정보 지정,Set information
@@ -478,7 +477,6 @@ AutoOpenChannel,채널 열기,Open channel
 OpenGroupChannel,선택한 채널 열기,Open selected channel
 OpenPrivateChannel,1:1 채널 열기,Open private channel
 ClickToPaste,이 곳을 눌러서 id 붙여넣기,Click to paste user id
-CanMissedChnInfo,로그인 여부에 따라 채널이 등록되지 않을 수 있습니다,Depending on whether you are logged in or not- your channel may not be registered
 ## ContentInfo,,
 WorkLogs,작업 기록,Work logs
 LastPost,최종 게시자,Last post
