@@ -68,7 +68,7 @@ useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅 생성,Create dedicated group chat
 quickQRshare,정보 공유,Sharing information
-DevKit,개발 보조 도구,Development aids
+DevKit,보조 도구,Auxiliary tools
 QRCodeGen,QR코드 생성기,QRCode Generator
 TTSExport,TTS 문장 읽기,Text to Speech
 WSClient,웹소켓 클라이언트,Websocket client
