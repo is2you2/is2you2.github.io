@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-02-16T12:47:37+09:00</updated>
+  <updated>2024-02-20T19:44:44+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -117,7 +117,7 @@ docker-compose up -d
     <link href="https://is2you2.github.io/posts/how-to-use-pjcone/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (1)" />
     <published>2024-02-13T15:56:00+09:00</published>
   
-    <updated>2024-02-13T15:56:00+09:00</updated>
+    <updated>2024-02-20T19:44:12+09:00</updated>
   
     <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
@@ -147,6 +147,14 @@ docker-compose up -d
 
 PC에서 사용할 경우 인터넷에 연결되어있어야 합니다.
 
+
+  빠른 다운로드
+  Window
+Mac
+Linux
+Android
+
+
 해야할 일 관리
 프로젝트 콘 앱은 할 일 관리자를 제공합니다. 별도의 설정없이 사용할 수 있으며 시작기한 또는 마감기한에 간단한 알림을 표시합니다. PC알림은 앱이 켜져 있을 때에만 동작하고 휴대폰은 앱이 종료된 상태에서도 알림을 받을 수 있습니다.
 
@@ -155,14 +163,7 @@ PC에서 사용할 경우 인터넷에 연결되어있어야 합니다.
 
 
 
-PC(Linux)에서 알림이 보여지는 모습
-
-
-Android에서 알림이 보여지는 모습
-
-
-
-할 일을 작...
+PC(Linux)에서 알림이 보...
     </summary>
   
 
