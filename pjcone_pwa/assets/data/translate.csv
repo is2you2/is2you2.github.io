@@ -80,7 +80,7 @@ joinDedi_placeholder,기본,Default
 admin_tools,관리자 도구,Admin tools
 ServerAdmin,서버 관리,Manage server
 admin_req_counter,서버 상태,Server status
-dont_use_test_server,개발 테스트 서버 사용 안함,Do not use a development test server
+use_test_server,개발 테스트 서버 사용,Use a development test server
 NotificationSetting,알림,Notifications
 batteryOptimization,배터리 최적화 제외 설정,Battery Optimization Exclusion Settings
 AppInfo,앱 정보,App info
