@@ -476,7 +476,6 @@ AvailableChannels,공유 가능한 채널,Shareable channels
 ## WebLinkGen,,
 subtitle,빠른 진입 주소 생성하기,Generate a fast entry address
 baseURL,주소 기반,Address based
-OpenChannelTab,채널 탭으로 이동,Open channel tab
 UseTempUser,임시 사용자 지정,Use temporary user info
 CustomInfo,정보 지정,Set information
 AutoOpenChannel,채널 열기,Open channel
