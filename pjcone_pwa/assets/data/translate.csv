@@ -425,6 +425,7 @@ RemoveThisFolder,이 폴더와 하위 폴더 및 파일들을 삭제합니다,De
 RemoveApply,삭제,Remove
 OpenExtFolder,외부 저장소 보기,View external storage
 PrivateAccessDenied,계정 정보가 포함된 파일이므로 접근이 제한됩니다 ,Access is restricted as this file contains account information
+NeedResetToApply,앱을 재시작하면 적용됩니다,Takes effect when you restart the app
 ## AdminTools,,
 GlobalNoti,전체알림 발송,Send all notifications
 ImageURL,이미지 URL,Image URL
