@@ -400,6 +400,7 @@ ConnectedToServer,서버에 연결됨,Connected
 DisconnectedFromServer,연결 끊김,Disconnected
 ConnectToAddress,연결하기,Connect
 ServerStarted,공유 그림판 서버 켜짐,Shared paint server turned on
+Preparing,기능 준비중입니다,Feature is being prepared
 ## UserFsDir,,
 LoadingExplorer,준비중,Explorer
 CannotOpenFile,이 파일은 열 수 없습니다,This file cannot be opened
