@@ -28,7 +28,6 @@ startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,할 일 상세 내용,Todo details
-new_text,새 텍스트,New text
 new_draw,새 그림,New painting
 user_fs,인앱 탐색기,Inapp explorer
 add_attach,가져오기,Load
