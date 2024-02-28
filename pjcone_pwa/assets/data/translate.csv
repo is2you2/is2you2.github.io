@@ -1,9 +1,12 @@
 ﻿#,ko,en
 ## Main,,
-Title,해야할 일,Todo
-NoTodo,할 일 추가하기,Add to-do
+Title,퀘스트,Quest
+NoTodo,퀘스트 추가하기,Add quest
+RequestTodo,새로운 퀘스트를 받았습니다,Received new quest
+WorkerDone,퀘스트 완료,Quest completed
+WorkerAbandon,퀘스트 포기,Give up quest
 ## TodoDetail,,
-Title,할 일 상세,Todo detail
+Title,퀘스트 상세,Quest detail
 Server,서버,Server
 Group,채널,Group
 StoreAt,저장 위치,Save to
@@ -22,7 +25,7 @@ CanAddToServer,서버 저장에 실패했습니다,Server save failed
 Importance,중요도,Importance
 Importance_2,중요함,Important
 Importance_1,기억해야 함,Must remember
-Importance_0,메모,Memo
+Importance_0,낮음,Low
 startFrom,시작일시,Start date
 startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
@@ -89,7 +92,6 @@ OpenPlayStore,플레이스토어 열기,Open Playstore
 set_alert,알림 받기,Get notifications
 icon_mono,기본 앱 알림,Default
 diychat,Nakama 채널,Nakama channel
-todo,해야할 일,Todo
 simplechat,사설 그룹채팅,Private group chat
 engineppt,엔진PPT,EnginePPT
 ## ToolManager,,
