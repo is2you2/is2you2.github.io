@@ -1,4 +1,7 @@
 ﻿#,ko,en
+## Front
+HeaderLabel,모바일 웹 편의기능 안내,Guide to mobile web convenience features
+UseAnyway,어쨌든 앱 실행,Run app anyway
 ## Main,,
 Title,퀘스트,Quest
 NoTodo,퀘스트 추가하기,Add quest
@@ -110,8 +113,8 @@ format,종류,Format
 contents,내용,Contents
 ## Profile,,
 img_alt,프로필 이미지,Profile_img
-noname_user,이름 없는 사용자,
-name_placeholder,사용자 이름,Unnamed user
+noname_user,이름 없는 사용자,Unnamed user
+name_placeholder,사용자 이름,Username
 login_info,로그인 정보,Login info
 email_address,이메일 주소,Email Address
 password,비밀번호,Password
