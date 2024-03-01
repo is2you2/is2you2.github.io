@@ -5,7 +5,7 @@
   "background_color": "#fff",
   "scope": "./",
   "start_url": "./",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "/pjcone_pwa/assets/icon/favicon.png",
