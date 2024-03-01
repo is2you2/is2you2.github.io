@@ -408,6 +408,18 @@ ConnectToAddress,연결하기,Connect
 ServerStarted,공유 그림판 서버 켜짐,Shared paint server turned on
 Preparing,기능 준비중입니다,Feature is being prepared
 ## UserFsDir,,
+NewFolder,새 폴더,New folder
+AddFile,추가,Add
+CreateFolder,폴더 생성,Create folder
+Create,생성,Create
+NeedFolderName,폴더 이름을 작성해주세요,Please write the folder name
+FailedToCreateFolder,폴더 생성 실패,Folder creation failed
+FolderName,폴더 이름 작성,Enter folder name
+AddFile,파일 추가,Add file
+AddThisFile,이 파일을 추가합니다,Add this file
+MultipleSave,여러 파일 저장,Save multiple files
+OK,확인,OK
+ResetDB,모든 파일 삭제,Delete all files
 LoadingExplorer,준비중,Explorer
 CannotOpenFile,이 파일은 열 수 없습니다,This file cannot be opened
 DeleteFile,파일 삭제,Delete file
