@@ -37,7 +37,6 @@ description_placeholder,할 일 상세 내용,Todo details
 new_draw,새 그림,New painting
 user_fs,인앱 탐색기,Inapp explorer
 add_attach,가져오기,Load
-outlink,복사된 외부 링크,Copied external link
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
 delete_attach,삭제,Delete
 attachments,첨부파일 추가,Attachments
