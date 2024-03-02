@@ -291,6 +291,7 @@ AlreadyExist,이미 같은 이름의 채널이 존재합니다.,A channel with t
 UnexpectedErr,준비되지 않은 오류처리,Unexpected error occured
 ## GroupDetail,,
 Title,채널 상세,Channel detail
+IsOpen,공개 여부,Public or not
 NotAcceptYet,아직 수락되지 않았습니다,Not yet accepted
 MissedGroup,더 이상 채널구성원이 아닙니다,No longer a channel member
 NoDetailGroup,설명 없는 채널,No description
