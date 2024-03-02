@@ -9,5 +9,5 @@ iOS can be installed by pressing 'Add to Home Screen' in the Safari browser.
 [PC]
 If your browser supports it, you can install it with the installation icon added to the end of the address line.
 
-You can download it as a non-installation program from the link below.
+You can download it as a non-installation program from the address below.
 Download page: https://github.com/is2you2/pjcone_basic_guide
