@@ -1,1 +1,13 @@
-You can use this page like an app by pressing the menu of your browser and then installing app.
+You can use it as a browser app.
+Installation is not possible in private browsing mode.
+(Recommended browser: Google Chrome)
+
+[mobile]
+You can install it by clicking ‘Install App’ or ‘Add to Home Screen’ in the browser menu.
+iOS can be installed by pressing 'Add to Home Screen' in the Safari browser.
+
+[PC]
+If your browser supports it, you can install it with the installation icon added to the end of the address line.
+
+You can download it as a non-installation program from the link below.
+Download page: https://github.com/is2you2/pjcone_basic_guide
