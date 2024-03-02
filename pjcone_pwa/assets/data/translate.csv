@@ -189,7 +189,7 @@ Delete,삭제,Delete
 LocalImageChanged,채널 이미지가 변경되었습니다,Channel image has been changed
 ## ContentViewer,,
 Title,콘텐츠 뷰어,Content Viewer
-ContentInfo,콘텐츠 기록,Content history
+ContentInfo,콘텐츠 정보,Content info
 Edit,이미지 편집,Edit
 EditText,문서 편집,Edit text
 Download,외부에 저장,Save external
