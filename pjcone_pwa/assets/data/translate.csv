@@ -173,7 +173,6 @@ MatchExpiration,통화 채널 만료,Call expiration
 JoinMatchFailed,통화 참여 오류,Failed to join call
 FailedToJoinChannel,채널에 참가하지 못했습니다,Failed to join channel
 FailedToSend,발송 실패,Failed to send
-FailedToPasteData,붙여넣기 실패,Failed to paste
 ExternalLinkFile,외부 링크 파일,External link file
 LongText,긴 글,Long text
 CreateAsTextFile,긴 메시지를 파일로 변환합니다,Convert long messages to file
