@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-02-20T19:44:44+09:00</updated>
+  <updated>2024-03-03T16:48:01+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,157 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>Project: Cone 앱 사용 방법 (3)</title>
-    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-3/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (3)" />
-    <published>2024-02-16T12:46:00+09:00</published>
-  
-    <updated>2024-02-16T12:46:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-to-use-pjcone-3/</id>
-    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-3/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      사설 서버 설치하기
-설정 &amp;gt; 개발 보조 도구 &amp;gt; Nakama 서버 파일 메뉴를 선택하면 다운로드 폴더에 서버 설정 파일(nakama.zip)을 다운로드 받습니다. 설정 파일을 동작시키기 위해선 docker를 설치해야 합니다.
-
-리눅스 패키지 매니저로 설치한다면 docker-compose 까지 설치해주셔야 합니다.
-
-nakama 폴더 안에서 터미널을 실행한 후 다음 명령어를 입력하여 서버를 시작할 수 있습니다.
-docker-compose up -d
-
-컴퓨터의 ip주소를 확인하여 서버 주소에 입력하면 사설 서버에 접근할 수 있습니다.
-
-
-
-이렇게하면 내부망에서 정상적으로 동작하게 됩니다.
-
-외부망에서 접근할 수 있도록 구성하려면 https 설정이 필요한데, noip에서 무료 ddns를 발급받은 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone 앱 사용 방법 (2)</title>
-    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-2/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (2)" />
-    <published>2024-02-14T09:05:00+09:00</published>
-  
-    <updated>2024-02-14T09:05:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-to-use-pjcone-2/</id>
-    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-2/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      온라인 연결
-등록된 사설서버가 있다면 앱 시작과 동시에 연결을 시도합니다. 등록된 사설서버가 없고, 사설서버를 만들 의향이 없다면 상태등을 눌러 개발자가 사용하는 개발 테스트 서버를 이용할 수 있습니다. 이 서버는 글자 그대로 개발용 서버로 공식적으로 제공되는 서비스 서버가 아니므로 개발 내용 및 서버 상황 등에 따라 언제든 서버 초기화/오프라인 등의 조치가 이루어질 수 있습니다.
-
-
-
-서버에 연결할 때 사용하는 계정 정보는 이메일/비밀번호로, 실제 사용하는 이메일인지는 검토하지 않습니다. 그러므로 aa@aa.aa 와 같이 이메일 형식만 맞춰도 가입되어 사실상 익명으로 서비스 이용이 가능합니다. 비밀번호는 최소 8자리 이상으로 설정해야 합니다.
-
-여러개의 사설서버에 연결할 때 하나의 계정정보(이메일/비...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone 앱 사용 방법 (1)</title>
-    <link href="https://is2you2.github.io/posts/how-to-use-pjcone/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 방법 (1)" />
-    <published>2024-02-13T15:56:00+09:00</published>
-  
-    <updated>2024-02-20T19:44:12+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
-    <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      프로그램 다운로드
-프로젝트 콘 앱은 여기서 다운받을 수 있습니다.
-아이폰용 앱은 아직 개발되어있지 않았지만 약간 제한된 상태로 웹 페이지에서 사용할 수 있습니다. 개발자가 아이폰이 없어서 온전히 동작할지 여부는 확신할 수 없어요 😅 (아마도 잘 동작할 겁니다)
-
-PC에서 사용할 경우 인터넷에 연결되어있어야 합니다.
-
-
-  빠른 다운로드
-  Window
-Mac
-Linux
-Android
-
-
-해야할 일 관리
-프로젝트 콘 앱은 할 일 관리자를 제공합니다. 별도의 설정없이 사용할 수 있으며 시작기한 또는 마감기한에 간단한 알림을 표시합니다. PC알림은 앱이 켜져 있을 때에만 동작하고 휴대폰은 앱이 종료된 상태에서도 알림을 받을 수 있습니다.
-
-
-처음 프로그램을 켰을 때 모습
-
-
-
-PC(Linux)에서 알림이 보...
-    </summary>
-  
-
-  </entry>
 
   
   <entry>
@@ -264,6 +113,158 @@ PC(Linux)에서 알림이 보...
 
 
 휴대폰에 보여...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>코드를 최적화하는 방법</title>
+    <link href="https://is2you2.github.io/posts/way-to-optimization/" rel="alternate" type="text/html" title="코드를 최적화하는 방법" />
+    <published>2023-12-28T11:56:00+09:00</published>
+  
+    <updated>2023-12-28T11:56:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/way-to-optimization/</id>
+    <content src="https://is2you2.github.io/posts/way-to-optimization/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+  21세기식 역지사지?
+  개발을 시작하기 전에 글에서 코드 최적화를 진행하는 가장 쉬운 방법으로 컴퓨터가 하는 일을 사람이 한다고 생각하면 된다고 설명했는데 이에 대한 간단한 예시를 보여드리고자 합니다.
+
+
+갑자기 분위기 K-메타버스
+
+설명은 역시 눈에 보이는 데이터가 있는 편이 이해에 편하겠죠? 이번엔 간단한 모델 필터를 이용해 설명드리려고 합니다. Blender 사용법에 대해서는 다루지 않고, 설명을 위한 부분만 추가 설명이 있을 예정입니다.
+
+우리가 작업하려는 것
+
+시작할 때 기본으로 생성되어있는 이 박스는, 8개의 정점(3D에서는 Vertices 라고 함)으로 이루어져있습니다.
+
+우리는 이 도형에 필터를 적용할 예정입니다.
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>p5js로 시작하기 [10]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-10/" rel="alternate" type="text/html" title="p5js로 시작하기 [10]" />
+    <published>2023-12-27T04:29:00+09:00</published>
+  
+    <updated>2023-12-30T06:52:16+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-10/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-10/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      이제 공끼리 서로 튀기게 해주세요
+아뇨, 우리는 거기까지 진행하지는 않을 겁니다.
+부담없이 코딩을 시작할 수 있는 구성의 일부로서 진행한 것일 뿐입니다. 지금까지 작성된 코드로 공끼리 튀기기를 구현하려면 생각보다 많은게 다시 작성되어야 합니다. (이 짧은 코드에서 재작성이 많이 된다니.. ! )
+
+물론 class 구조를 좀 더 연습하고 싶다면 개인적으로 진행해보는 것을 추천합니다. 코딩을 잘한다는 것은 코드를 얼마나 잘 쓰는지가 아니라, 코드를 얼마나 잘 구성하는지이기 때문에, 별 것 아닌 것 같다고 생각되는 것도 직접 코딩하며 경험을 쌓는 것은 큰 도움이 됩니다.
+
+농담같았던 게임엔진 사용
+이 곳에서는 고도엔진을 다룰 예정입니다. 이 글을 작성하는 주인장은 고도엔진 4버전의 훌륭한 도약에 매우 예의주...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>p5js로 시작하기 [9]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-9/" rel="alternate" type="text/html" title="p5js로 시작하기 [9]" />
+    <published>2023-12-26T19:15:00+09:00</published>
+  
+    <updated>2023-12-26T19:15:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/start-with-p5js-9/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-9/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
+
+
+반복문으로 변수 관리하기
+이제 반복문을 쓸 수 있게 되었으니, 여러 변수를 한번에 다루는 방법만 알아내면 되는데요. 아쉽게도 지금과 같은 방법으로는 변수를 한번에 관리할 수 없습니다.
+var ball_0;
+var ball_1;
+var ball_2;
+
+...
+
+
+  이런 식으로 변수를 생성하고 for()문을 사용하면 되지 않나요?
+
+
+네! 개념적으로 완벽하게 접근하셨는데 ball_n의 방식으로 변수를 불러오는 것은 컴퓨터 구조상 어렵습니다. 대신 그 작업에 적합한 변수 종류가 있습니다.
+
+배열(Array)
+
+
+우리는 편하게 쓰고 있지만 사실 변수에는 문자, 숫자 등의 다양한 종류가 있다고 했죠?
+그러한 종류 중 하나로 배열이 있습니다...
     </summary>
   
 
