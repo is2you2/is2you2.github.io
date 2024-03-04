@@ -332,7 +332,7 @@ giveacoffeetodev,개발자에게 커피를 사주세요,Give a coffee to develop
 thanks_to,도움주신 분들,Thanks to
 ## GlobalAct,,
 FailedToDownloadGodot,씬 실행 실패,Execution scene failed
-variousCreator,외부 파일 게시,Publish external files
+variousCreator,파일 첨부,Attachments
 FromCamera,카메라로 직접 촬영,From camera
 FromVoidDraw,앱 그림판에서 작업,From in-app painter
 FromAutoLongText,긴 글 파일,Long text file
