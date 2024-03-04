@@ -344,6 +344,9 @@ OnlineMode,온라인,Online
 OnlineMode_text,서버에 연결되어 있습니다,You are connected to the server
 OfflineMode,오프라인,Offline
 OfflineMode_text,연결된 서버가 없습니다,No server connected
+CheckCdnServer,파일 업로드 시도중,Attempting to upload file
+CheckFileAddress,파일 주소를 기다리는중,Waiting for file address
+CancelingUpload,업로드 시도 우회,Attempt to upload bypass
 ## IndexedDB,,
 FailedToDownloadFile,다운받기 오류,Failed to download file
 ## Nakama,,
