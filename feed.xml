@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-03-03T16:48:01+09:00</updated>
+  <updated>2024-03-07T22:01:15+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -171,57 +171,14 @@
 
   
   <entry>
-    <title>p5js로 시작하기 [10]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-10/" rel="alternate" type="text/html" title="p5js로 시작하기 [10]" />
-    <published>2023-12-27T04:29:00+09:00</published>
+    <title>p5js로 시작하기 [4]</title>
+    <link href="https://is2you2.github.io/posts/start-with-p5js-7/" rel="alternate" type="text/html" title="p5js로 시작하기 [4]" />
+    <published>2023-12-24T16:22:00+09:00</published>
   
-    <updated>2023-12-30T06:52:16+09:00</updated>
+    <updated>2024-03-07T21:56:45+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/start-with-p5js-10/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-10/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      이제 공끼리 서로 튀기게 해주세요
-아뇨, 우리는 거기까지 진행하지는 않을 겁니다.
-부담없이 코딩을 시작할 수 있는 구성의 일부로서 진행한 것일 뿐입니다. 지금까지 작성된 코드로 공끼리 튀기기를 구현하려면 생각보다 많은게 다시 작성되어야 합니다. (이 짧은 코드에서 재작성이 많이 된다니.. ! )
-
-물론 class 구조를 좀 더 연습하고 싶다면 개인적으로 진행해보는 것을 추천합니다. 코딩을 잘한다는 것은 코드를 얼마나 잘 쓰는지가 아니라, 코드를 얼마나 잘 구성하는지이기 때문에, 별 것 아닌 것 같다고 생각되는 것도 직접 코딩하며 경험을 쌓는 것은 큰 도움이 됩니다.
-
-농담같았던 게임엔진 사용
-이 곳에서는 고도엔진을 다룰 예정입니다. 이 글을 작성하는 주인장은 고도엔진 4버전의 훌륭한 도약에 매우 예의주...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [9]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-9/" rel="alternate" type="text/html" title="p5js로 시작하기 [9]" />
-    <published>2023-12-26T19:15:00+09:00</published>
-  
-    <updated>2023-12-26T19:15:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-9/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-9/" />
+    <id>https://is2you2.github.io/posts/start-with-p5js-7/</id>
+    <content src="https://is2you2.github.io/posts/start-with-p5js-7/" />
     <author>
       <name>최성수</name>
     </author>
@@ -246,25 +203,78 @@
   이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
 
 
-반복문으로 변수 관리하기
-이제 반복문을 쓸 수 있게 되었으니, 여러 변수를 한번에 다루는 방법만 알아내면 되는데요. 아쉽게도 지금과 같은 방법으로는 변수를 한번에 관리할 수 없습니다.
-var ball_0;
-var ball_1;
-var ball_2;
+이미 준비된 구조
+우리는 공 튀기기를 만들면서 공 하나에 필요한 거의 대부분의 구조를 만들었습니다. 그 구조를 개량하고 class로 만들어서 관리하면 될 것 같네요 👍
+일단 필요한 정보들을 추려서 class를 만들어봅시다.
 
-...
+function setup() {
+  createCanvas(400, 400);
+  ball = new Ball(30, 30)
+}
+
+var ball;
+
+function draw() {
+  background(220);
+  ball.update();
+}
+
+class Ball {
+  // 공마다 시작 위치가 달라야하니 위치는 직접 받습니다.
+  constructor(_pos_x, _pos_y) {
+    // ja...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>클래스란 무엇인가 [1]</title>
+    <link href="https://is2you2.github.io/posts/what-is-class/" rel="alternate" type="text/html" title="클래스란 무엇인가 [1]" />
+    <published>2023-12-22T05:09:00+09:00</published>
+  
+    <updated>2024-03-07T21:56:45+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/what-is-class/</id>
+    <content src="https://is2you2.github.io/posts/what-is-class/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="개발" />
+    
+  
+
+  
+    <summary>
+      
 
 
-  이런 식으로 변수를 생성하고 for()문을 사용하면 되지 않나요?
 
 
-네! 개념적으로 완벽하게 접근하셨는데 ball_n의 방식으로 변수를 불러오는 것은 컴퓨터 구조상 어렵습니다. 대신 그 작업에 적합한 변수 종류가 있습니다.
 
-배열(Array)
+      
+  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
 
 
-우리는 편하게 쓰고 있지만 사실 변수에는 문자, 숫자 등의 다양한 종류가 있다고 했죠?
-그러한 종류 중 하나로 배열이 있습니다...
+코드로 컴퓨터에게 일 시키기
+여러분은 햄버거집을 운영하는 사장입니다.
+지금껏 여러분이 코딩이라고, 컴퓨터에게 어떤 일을 시키던 것들은 버거집에서 알바생이 지켜야할 규칙들을 상세하게 적어내려가는 일이었고, 그 일을 처리하는 알바생은 컴퓨터인데 이녀석은 매우 멍청하지만 매우 정직합니다. 다르게 말하자면 상식은 전혀 통하지 않지만 하라는 일은 정확하게 해냅니다.
+
+이것이 오늘 코딩을 비유하는 방식입니다.
+
+효율적인 햄버거 레시피 관리
+
+클래스(class)는 ‘어떻게 하면 모든 햄버거 레시피를 쉽게 관리할 수 있을까?’라는 생각에서 출발한 개념으로
+
+
+  레시피를 보관할 때는 공간을 적게 차지하고
+  공통된 부분이 있는 것들을 관리할 때 ...
     </summary>
   
 
