@@ -1,7 +1,7 @@
 {
   "name": "Project: Cone",
   "short_name": "Project: Cone",
-  "theme_color": "#ff754e",
+  "theme_color": "#ffffff",
   "background_color": "#fff",
   "scope": "./",
   "start_url": "./",
