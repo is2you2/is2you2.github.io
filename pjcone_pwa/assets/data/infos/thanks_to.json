@@ -7,7 +7,9 @@
     {
         "ko": "윤찬렬",
         "en": "Yoon Chanryul",
-        "url": "https://github.com/razorbacky"
+        "url": "https://github.com/razorbacky",
+        "avatar": "assets/data/helped/razorbacky.png",
+        "mvp": true
     },
     {
         "ko": "이동진",

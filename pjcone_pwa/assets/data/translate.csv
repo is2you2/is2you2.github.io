@@ -1,4 +1,4 @@
-#,ko,en
+﻿#,ko,en
 ## Front
 HeaderLabel,브라우저앱 설치 안내,Browser app installation instructions
 UseAnyway,어쨌든 앱 실행,Run app anyway
@@ -147,11 +147,12 @@ noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
 unknown_ext,검토 불가,No review
 ExtSettings,채널설정,Settings
-ExtSoloImage,사진지정,Ch Pic.
+ExtSoloImage,채널사진,Ch Pic.
+BackgroundImage,배경사진,BGImg.
 attachments,첨부파일,Attachments
 FileLink,외부링크,External link
 voidDraw,그림판,Paint
-UseCloud,사설파일서버,CustomFileServ.
+UseCloud,사설사용,UseDedi.
 Camera,카메라,Camera
 ShareInfo,정보공유,Share
 VoiceChat,음성통화,Voice
