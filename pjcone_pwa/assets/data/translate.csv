@@ -147,12 +147,12 @@ noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
 unknown_ext,검토 불가,No review
 ExtSettings,채널설정,Settings
-ExtSoloImage,채널사진,Ch Pic.
-BackgroundImage,배경사진,BGImg.
-attachments,첨부파일,Attachments
-FileLink,외부링크,External link
+ExtSoloImage,채널사진,Ch Pic
+BackgroundImage,배경사진,BGImg
+attachments,첨부파일,Attach
+FileLink,외부링크,Outlink
 voidDraw,그림판,Paint
-UseCloud,사설사용,UseDedi.
+UseCloud,사설사용,FFServ
 Camera,카메라,Camera
 ShareInfo,정보공유,Share
 VoiceChat,음성통화,Voice
