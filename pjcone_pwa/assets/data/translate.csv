@@ -1,4 +1,4 @@
-﻿#,ko,en
+#,ko,en
 ## Front
 HeaderLabel,브라우저앱 설치 안내,Browser app installation instructions
 UseAnyway,어쨌든 앱 실행,Run app anyway
@@ -146,9 +146,19 @@ refresh,새로고침,Refresh
 noname_chatroom,이름 없는 채팅방,Unnamed chat room
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
 unknown_ext,검토 불가,No review
+ExtSettings,채널설정,Settings
+ExtSoloImage,사진지정,Ch Pic.
 attachments,첨부파일,Attachments
-FileLink,외부 파일 링크,External file link
-voidDraw,간이 그림판,Simple Paint
+FileLink,외부링크,External link
+voidDraw,그림판,Paint
+UseCloud,사설파일서버,CustomFileServ.
+Camera,카메라,Camera
+ShareInfo,정보공유,Share
+VoiceChat,음성통화,Voice
+EmbedFiles,파일들,Files
+ReadText,읽어주기,TTS
+LogOut,연결끊기,Disconn.
+RemoveHistory,기록삭제,Remove
 input_placeholder,메시지 입력...,Enter message...
 ManageChat,메시지 관리,Manage message
 EditChat,편집,Edit
