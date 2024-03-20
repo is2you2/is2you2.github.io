@@ -113,15 +113,13 @@ info,QR코드 또는 바코드를 인식하였으나 이 앱에서 사용하는 
 format,종류,Format
 contents,내용,Contents
 ## Profile,,
-img_alt,프로필 이미지,Profile_img
 noname_user,이름 없는 사용자,Unnamed user
 name_placeholder,사용자 이름,Username
 login_info,로그인 정보,Login info
-email_address,이메일 주소,Email Address
-password,비밀번호,Password
 at_least,최소 8자리,at least 8 digits
 user_display_name,사용자 표시명,Display name
 login_toggle,로그인,Login
+LogOut,로그아웃,Logout
 main_content,메인 콘텐츠,Main contents
 upload,올리기,Upload
 remove_content,삭제,Remove
@@ -130,8 +128,6 @@ user_content_changed,사용자 콘텐츠 변경,User content changed
 user_content_removed,사용자 콘텐츠 삭제,User content removed
 need_email,이메일 주소를 입력해주세요,Please enter your email address
 need_password,비밀번호를 입력해주세요,Please enter a password
-pasteURI,눌러서 외부이미지 주소 붙여넣기,Click to paste external image address
-copyURIFirst,먼저 웹 페이지에서 이미지 주소를 복사해주세요,Copy the image address from the web page first
 user_profile_changed,사용자 프로필 변경,Change user profile
 ## OtherProfile,,
 Title,사용자 정보,User info
@@ -274,7 +270,6 @@ DivisionName_placeholder,표시명을 따라감,Follow display name
 Address,서버 주소,Address
 Key,서버 키,Key
 Port,포트,Port
-SessionUid,이 서버에서의 사용자 식별 번호,UID on this server
 isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 UseDevTestServer,개발 테스트 서버 사용하기,Use development test server
