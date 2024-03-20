@@ -124,11 +124,10 @@ main_content,메인 콘텐츠,Main contents
 upload,올리기,Upload
 remove_content,삭제,Remove
 no_main_content,없음,Null
-user_content_changed,사용자 콘텐츠 변경,User content changed
-user_content_removed,사용자 콘텐츠 삭제,User content removed
 need_email,이메일 주소를 입력해주세요,Please enter your email address
 need_password,비밀번호를 입력해주세요,Please enter a password
-user_profile_changed,사용자 프로필 변경,Change user profile
+user_profile_changed,사용자 프로필 변경됨,User profile changed
+user_image_changed,사용자 이미지 변경됨,User image changed
 ## OtherProfile,,
 Title,사용자 정보,User info
 add_to_group,추가,Add to group
