@@ -313,7 +313,6 @@ NotAcceptYet,아직 수락되지 않았습니다,Not yet accepted
 MissedGroup,더 이상 채널구성원이 아닙니다,No longer a channel member
 NoDetailGroup,설명 없는 채널,No description
 Members,채널 구성원,Members
-invite_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 BreakupGroup,채널 해산,Breakup
 LeaveGroup,떠나기,Leave group
 GroupRemoved,채널 삭제됨,Channel removed
