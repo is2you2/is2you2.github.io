@@ -193,6 +193,7 @@ GoToRecent,최근 메시지 보기,Go to recent
 TalkMessage,말해주세요,Tell me
 RemoveChannel,채널 기록 삭제,Remove channel files
 CannotUndone,이 작업은 되돌릴 수 없습니다,This action cannot be undone
+UnlinkChannel,더 이상 메시지를 수신받지 않습니다,You will no longer receive messages
 Delete,삭제,Delete
 LocalImageChanged,채널 이미지가 변경되었습니다,Channel image has been changed
 AlreadyRemoved,이미 정보가 삭제되었습니다,Information has already been removed
