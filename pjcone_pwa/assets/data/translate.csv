@@ -217,8 +217,6 @@ CannotEditFile,편집 불가 파일,Cannot edit file
 DownloadThisFile,파일 다운로드,Download file
 SavingFile,파일 저장중,Saving file
 FileDownloading,다운받는 중,Downloading
-DownloadAllFiles,모두 다운받기,Download all
-DownloadLoadedList,뷰어에 로드된 모든 파일 다운받기,Download all files loaded in the viewer
 RemoveFile,파일 삭제,Remove file
 CannotOpenText,열람할 수 없는 파일입니다,This file cannot be viewed
 ReadObject,개체 정보 읽는중,Reading object information
