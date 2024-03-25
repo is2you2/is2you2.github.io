@@ -220,12 +220,14 @@ FileDownloading,다운받는 중,Downloading
 RemoveFile,파일 삭제,Remove file
 CannotOpenText,열람할 수 없는 파일입니다,This file cannot be viewed
 ReadObject,개체 정보 읽는중,Reading object information
+FailedGetBaseColor,색상 불러오기 실패,Failed to load basecolor
+FailedGetEmitColor,이미션 색상 불러오기 실패,Failed to load emit_color
+LoadMeshFailed,메쉬 불러오기 실패,Failed to load mesh
 OnWorkReadUV,UV 정보 불러오기 기능 준비중,UV information loading function in preparation
 LinkedTexFile,텍스처 파일이 내장되어있지 않음,Texture file not embedded
 NoMaterial,등록된 머터리얼 없음,No registered materials
 OnWorkReadLightMode,포인트 라이트로 대체됨,Replaced by point lights
 ReachLightLimit,빛은 최대 5개까지 등록됩니다,Up to 5 lights can be registered
-OnWorkObjectType,준비되지 않은 개체 분류,Classification of unprepared objects
 MayGimbalLock,짐벌락 현상으로 각도가 다르게 표현될 수 있음,The angle may be expressed differently due to gimbal lock phenomenon.
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
