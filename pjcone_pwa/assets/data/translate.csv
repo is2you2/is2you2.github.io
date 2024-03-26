@@ -139,7 +139,6 @@ kicked_from_group,사용자를 내보냈습니다,User kicked
 refresh,새로고침,Refresh
 ## ChatRoom,,
 noname_chatroom,이름 없는 채팅방,Unnamed chat room
-fetch_previous_chat,이전 기록 불러오기,Recall previous record
 unknown_ext,검토 불가,No review
 ExtSettings,채널설정,Settings
 ExtSoloImage,채널사진,Ch Pic
