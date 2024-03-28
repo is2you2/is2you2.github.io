@@ -40,7 +40,7 @@ add_attach,가져오기,Load
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
 delete_attach,삭제,Delete
 attachments,첨부파일 추가,Attachments
-open_content_viewer,클릭하여 콘텐츠 뷰어에서 열기,Click to open in content viewer
+open_content_viewer,클릭하여 파일 뷰어에서 열기,Click to open in file viewer
 logs,기록,Logs
 remove,삭제,Remove
 buttonDisplay_add,추가,Add
@@ -198,8 +198,8 @@ Delete,삭제,Delete
 LocalImageChanged,채널 이미지가 변경되었습니다,Channel image has been changed
 AlreadyRemoved,이미 정보가 삭제되었습니다,Information has already been removed
 ## ContentViewer,,
-Title,콘텐츠 뷰어,Content Viewer
-ContentInfo,콘텐츠 정보,Content info
+Title,파일 뷰어,File Viewer
+ContentInfo,파일 정보,File info
 Edit,이미지 편집,Edit
 EditText,문서 편집,Edit text
 Download,외부에 저장,Save external
@@ -490,7 +490,7 @@ ToggleAllPromote,모두 선택,Toggle all
 AlreadyAdmin,이미 관리자입니다,You are already an administrator
 RemovedGroup,삭제된 그룹,Removed group
 ## ShareContentToOther,,
-Title,콘텐츠 공유하기,Share content
+Title,파일 공유하기,Share file
 NoChannelToShare,가용 채널이 없습니다,No channels available
 AvailableChannels,공유 가능한 채널,Shareable channels
 ## WebLinkGen,,
