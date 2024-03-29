@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-03-29T18:44:37+09:00</updated>
+  <updated>2024-03-30T06:40:48+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://is2you2.github.io/posts/how-to-use-pjcone/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 설명서 [v0.55.14]" />
     <published>2024-03-29T15:15:00+09:00</published>
   
-    <updated>2024-03-29T15:15:00+09:00</updated>
+    <updated>2024-03-30T06:40:38+09:00</updated>
   
     <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
@@ -55,9 +55,11 @@
 (테마 색상은 시스템의 다크모드 여부를 따라갑니다)
 
 브라우저 앱으로 사용
-블로그 왼쪽 메뉴의 Work record &amp;gt; Project Cone 을 클릭하시거나 이곳을 눌러 앱을 사용할 수 있습니다. Google Chrome 브라우저 사용을 권장합니다만, 다른 브라우저에서 사용할 때 생기는 문제에도 적극적으로 조치하고 있으니 문제가 생기면 알려주셨으면 합니다 :)
+이곳을 눌러 앱을 사용할 수 있습니다. Google Chrome 브라우저 사용을 권장합니다만, 다른 브라우저에서 사용할 때 생기는 문제에도 적극적으로 조치하고 있으니 문제가 생기면 알려주셨으면 합니다 :)
 
-처음 진입하시면 브라우저 앱 설치 안내 페이지가 나오는데 설치는 선택사항입니다. 브라우저 ...
+처음 진입하시면 브라우저 앱 설치 안내 페이지가 나오는데 설치는 선택사항입니다. 브라우저 창에서 직접 실행하길 원하신다면 아래 “어쨌든 앱 실행”을 눌러 사용하실 수 있습니다.
+
+...
     </summary>
   
 
