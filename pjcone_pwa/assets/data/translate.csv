@@ -260,7 +260,6 @@ cannot_start,시작할 수 없어요..,Can not start..
 leave_chat_ran,랜덤채팅에서 벗어납니다.,You leave random chat
 leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
 ## GroupServer,,
-AboutServerAndAccount,서버와 계정에 대해서,About servers and accounts
 JoinedServerList,참여중인 서버 목록,List of participating servers
 ServerDetail,정보,Info
 RemoveUnofficial,삭제,Delete
@@ -377,12 +376,12 @@ AlreadyHaveTargetName,이미 같은 이름의 서버가 있습니다,There alrea
 NeedLoginInfo,로그인 정보를 확인해주세요,Please check your login information
 NeedLinkUser,사용자를 연결해주세요,Please link user device info
 NeedAccountReset,비밀번호를 확인해주세요,Please check your password
-RegisterUserSucc,회원가입이 완료되었습니다,Sign up is complete
+RegisterUserSucc,서버 이용자로 등록되었습니다,You are registered as a server user
 UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
 CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
 MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
-RemovingAccount,계정 삭제중,Deleting account
+RemovingAccount,사용자 삭제중,Deleting user
 LogoutAccount,세션 삭제중,Deleting session
 RemovingNotification,알림 삭제중,Deleting notifications
 MissingChannels,채널 손상처리,Processing channel damage
@@ -462,7 +461,7 @@ RemoveCurrentDir,삭제,Remove
 RemoveThisFolder,이 폴더와 하위 폴더 및 파일들을 삭제합니다,Delete this folder and subfolders and files
 RemoveApply,삭제,Remove
 OpenExtFolder,외부 저장소 보기,View external storage
-PrivateAccessDenied,계정 정보가 포함된 파일이므로 접근이 제한됩니다 ,Access is restricted as this file contains account information
+PrivateAccessDenied,사용자 정보가 포함된 파일이므로 접근이 제한됩니다 ,Access is restricted as this file contains user information
 NeedResetToApply,앱을 재시작하면 적용됩니다,Takes effect when you restart the app
 ## AdminTools,,
 GlobalNoti,전체알림 발송,Send all notifications
