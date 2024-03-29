@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-03-12T18:11:25+09:00</updated>
+  <updated>2024-03-29T15:35:26+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,51 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Project: Cone 앱 사용 설명서 [v0.55.14]</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 설명서 [v0.55.14]" />
+    <published>2024-03-29T15:15:00+09:00</published>
+  
+    <updated>2024-03-29T15:15:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone 사용 설명서" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Project: Cone
+프로젝트 콘은 콘텐츠를 제작하는 팀을 염두한 소통도구입니다. 아직 몇가지 코어 기능이 누락되었지만, 지금 상태로도 사용하기 좋은 부분이 있어 소개드립니다 :)
+
+이 포스트는 프콘앱 0.55.14 버전을 기준으로 설명합니다.
+(테마 색상은 시스템의 다크모드 여부를 따라갑니다)
+
+브라우저 앱으로 사용
+블로그 왼쪽 메뉴의 Work record &amp;gt; Project Cone 을 클릭하시거나 이곳을 눌러 앱을 사용할 수 있습니다. Google Chrome 브라우저 사용을 권장합니다만, 다른 브라우저에서 사용할 때 생기는 문제에도 적극적으로 조치하고 있으니 문제가 생기면 알려주셨으면 합니다 :)
+
+처음 진입하시면 브라우저 앱 설치 안내 페이지가 나오는데 설치는 선택사항입니다. 브라우저 ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -213,65 +258,6 @@
 
 우리는 이 도형에 필터를 적용할 예정입니다.
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>p5js로 시작하기 [4]</title>
-    <link href="https://is2you2.github.io/posts/start-with-p5js-7/" rel="alternate" type="text/html" title="p5js로 시작하기 [4]" />
-    <published>2023-12-24T16:22:00+09:00</published>
-  
-    <updated>2024-03-07T21:56:45+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/start-with-p5js-7/</id>
-    <content src="https://is2you2.github.io/posts/start-with-p5js-7/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="개발" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-이미 준비된 구조
-우리는 공 튀기기를 만들면서 공 하나에 필요한 거의 대부분의 구조를 만들었습니다. 그 구조를 개량하고 class로 만들어서 관리하면 될 것 같네요 👍
-일단 필요한 정보들을 추려서 class를 만들어봅시다.
-
-function setup() {
-  createCanvas(400, 400);
-  ball = new Ball(30, 30)
-}
-
-var ball;
-
-function draw() {
-  background(220);
-  ball.update();
-}
-
-class Ball {
-  // 공마다 시작 위치가 달라야하니 위치는 직접 받습니다.
-  constructor(_pos_x, _pos_y) {
-    // ja...
     </summary>
   
 
