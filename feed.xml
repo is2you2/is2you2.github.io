@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-03-30T19:22:45+09:00</updated>
+  <updated>2024-03-30T23:50:25+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" rel="alternate" type="text/html" title="Project: Cone 사설 서버 설명서 [v0.55.14]" />
     <published>2024-03-30T18:44:00+09:00</published>
   
-    <updated>2024-03-30T18:44:00+09:00</updated>
+    <updated>2024-03-30T23:50:14+09:00</updated>
   
     <id>https://is2you2.github.io/posts/how-to-use-pjcone-server/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server/" />
@@ -54,14 +54,13 @@
 그리고 그 누군가의 사설 서버는 여러분 것이 될 수도 있습니다 :)
 
 서버 파일 다운받기
-서버 파일은 앱 설정 &amp;gt; Nakama 서버 파일 버튼을 통해 받을 수 있습니다.
+서버 파일은 앱 설정 &amp;gt; Nakama 서버 파일 버튼 또는 Git을 이용하여 받을 수 있습니다.
+git clone https://github.com/is2you2/pjcone_server.git
 
 
 
-압축을 풀면 docker-compose 로 즉시 올릴 수 있는 형태의 폴더 구조가 나옵니다. 아래 설정이 끝나고나면 이후에 서버를 가동할 때 이 폴더에서 도커를 동작시켜주면 됩니다.
 
-도메인 및 SSL 키 발급
-클라이언트...
+클라이언트에서 받은 경우, 압축을 풀면 docker-compose 로 즉시 올릴 수 있는 형태의 폴더 구...
     </summary>
   
 
