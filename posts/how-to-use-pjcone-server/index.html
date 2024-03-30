@@ -1024,7 +1024,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="2346 words"
+  title="2385 words"
 >
   <em>13 min</em> read</span>
 
@@ -1048,7 +1048,7 @@
 <p>압축을 풀면 docker-compose 로 즉시 올릴 수 있는 형태의 폴더 구조가 나옵니다. 아래 설정이 끝나고나면 이후에 서버를 가동할 때 이 폴더에서 도커를 동작시켜주면 됩니다.</p>
 
 <h2 id="도메인-및-ssl-키-발급"><span class="me-2">도메인 및 SSL 키 발급</span><a href="#도메인-및-ssl-키-발급" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>현재 클라이언트는 깃 허브 주소를 사용하는, https 보안이 설정된 상태입니다. https는 보안상의 이유로 http와 통신하지 않기 때문에 외부로 서버를 공개할 계획이라면 SSL 설정이 필수가 됩니다.</p>
+<p>클라이언트는 깃 허브 주소를 사용하여 https 보안이 설정된 상태입니다. https는 보안상의 이유로 http와 통신하지 않기 때문에 외부로 서버를 공개할 계획이라면 SSL 설정이 필수가 됩니다.</p>
 
 <p>개인적으로는 <a href="https://www.noip.com/">noip</a>에서 DDNS를 발급받은 다음에 <a href="https://certbot.eff.org/">certbot</a>에서 보안키를 발급받아서 사용하고 있습니다.</p>
 
@@ -1088,7 +1088,7 @@
 
 <p>에 파일을 옮겨주시면 됩니다.</p>
 
-<p>이미 도메인이나 보안키를 가지고 계시다면 이 과정은 생략하셔도 됩니다.</p>
+<p>이미 도메인이나 보안키를 가지고 계시다면 발급 과정은 생략하셔도 됩니다.</p>
 
 <h2 id="nakama--postgresql"><span class="me-2"><a href="https://heroiclabs.com/docs/nakama/getting-started/">Nakama</a> / Postgresql</span><a href="#nakama--postgresql" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>여러분이 사용하는 채팅서버가 사실은 게임서버라는 사실을 알고 계셨습니까? 😃</p>
@@ -1124,7 +1124,7 @@
 <h3 id="first-file-server"><span class="me-2">First File Server</span><a href="#first-file-server" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>클라이언트 설정 &gt; 보조 도구에는 <code class="language-plaintext highlighter-rouge">첫번째 파일 서버</code>라는 입력칸이 있습니다. 이 입력칸에 [주소:포트] 정보를 입력하면 연결된 서버에 파일을 올리기 전에 입력된 서버에 파일 올리기를 시도하고, 업로드에 성공하면 이 서버 주소로 파일을 공유하게 됩니다.</p>
 
-<p>입력하는 [주소:포트]는 <strong>해당 서버의 아파치가 개방된 포트</strong>이며 업로드 포트는 <code class="language-plaintext highlighter-rouge">9001</code> 이여야 합니다. 이렇게하면 사용자가 올린 파일을 사용자가 관리하면서도 채팅중에 파일을 공유할 수 있습니다.</p>
+<p>입력하는 [주소:포트]는 <strong>해당 서버의 웹 주소가 개방된 포트</strong>이며 업로드 포트는 <code class="language-plaintext highlighter-rouge">9001</code> 이여야 합니다. 이렇게하면 사용자가 올린 파일을 사용자가 직접 관리하면서도 채팅중에 파일을 공유할 수 있습니다. (물론 정상적으로 공유되려면 해당 주소에 다른 사람들이 접근할 수 있어야 합니다)</p>
 
 <p>이 정보가 입력되었다면 채널에서 파일을 보내기 전에 사용여부를 지정할 수 있습니다.</p>
 
@@ -1182,7 +1182,7 @@
 <h2 id="내부망-채팅에-대해서"><span class="me-2">내부망 채팅에 대해서</span><a href="#내부망-채팅에-대해서" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>안드로이드 앱은 http 로 구성되어 내부망 서버 이용이 가능합니다.</p>
 
-<p>내부망 서버를 구성하려면 SSL과 관련된 모든 설정을 지우고, 주석을 처리된 내용을 변경하면 됩니다.</p>
+<p>내부망 서버를 구성하려면 SSL과 관련된 모든 설정을 지우고, 미리 주석을 처리한 내용으로 변경하시면 됩니다.</p>
 
 <p>구체적으로는 다음과 같습니다.</p>
 <div class="language-diff highlighter-rouge"><div class="code-header">

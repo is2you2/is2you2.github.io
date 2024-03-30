@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-03-30T19:03:22+09:00</updated>
+  <updated>2024-03-30T19:22:45+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -61,7 +61,7 @@
 압축을 풀면 docker-compose 로 즉시 올릴 수 있는 형태의 폴더 구조가 나옵니다. 아래 설정이 끝나고나면 이후에 서버를 가동할 때 이 폴더에서 도커를 동작시켜주면 됩니다.
 
 도메인 및 SSL 키 발급
-현재 클라...
+클라이언트...
     </summary>
   
 
@@ -73,7 +73,7 @@
     <link href="https://is2you2.github.io/posts/how-to-use-pjcone/" rel="alternate" type="text/html" title="Project: Cone 앱 사용 설명서 [v0.55.14]" />
     <published>2024-03-29T15:15:00+09:00</published>
   
-    <updated>2024-03-30T06:40:38+09:00</updated>
+    <updated>2024-03-30T19:22:39+09:00</updated>
   
     <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
