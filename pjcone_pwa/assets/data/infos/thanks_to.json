@@ -2,23 +2,27 @@
     {
         "ko": "김복순",
         "en": "Kim Boksoon",
-        "url": "http://kmission.kr/"
+        "url": "http://kmission.kr/",
+        "desc": "디자인 개선 사항 제안"
     },
     {
         "ko": "이해준",
         "en": "Lee Haejoon",
-        "url": "https://www.linkedin.com/in/haejoon-l-97ba69161/"
+        "url": "https://www.linkedin.com/in/haejoon-l-97ba69161/",
+        "desc": "초기 단계 앱 사용자"
     },
     {
         "ko": "윤찬렬",
         "en": "Yoon Chanryul",
         "url": "https://github.com/razorbacky",
         "avatar": "assets/data/helped/razorbacky.png",
-        "mvp": true
+        "mvp": true,
+        "desc": "전반적 방향성 제시 (구문 강조, 디자인 우선 작업, 적극적인 앱 사용, 기기별 테스트 등)"
     },
     {
         "ko": "이동진",
         "en": "Lee Dongjin",
-        "url": "https://www.artstation.com/asjffdlasfj"
+        "url": "https://www.artstation.com/asjffdlasfj",
+        "desc": "초기 단계 앱 사용자"
     }
 ]
