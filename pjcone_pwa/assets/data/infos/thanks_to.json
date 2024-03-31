@@ -24,5 +24,11 @@
         "en": "Lee Dongjin",
         "url": "https://www.artstation.com/asjffdlasfj",
         "desc": "초기 단계 앱 사용자"
+    },
+    {
+        "ko": "ljr10",
+        "en": "ljr10",
+        "url": "https://github.com/ljr10",
+        "desc": "서버 구축 편의 방향성 제시 (서버 파일에 대한 git 저장소 추가 구성)"
     }
 ]
