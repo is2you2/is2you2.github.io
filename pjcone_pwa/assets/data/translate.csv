@@ -149,7 +149,7 @@ FileLink,외부링크,Outlink
 StartVRecord,녹음을 시작합니다,Start recording
 VoiceRecord,인앱 음성 녹음,In-app voice record
 voidDraw,그림판,Paint
-UseCloud,사설사용,FFServ
+UseCloud,FFS사용,useFFS
 Camera,카메라,Camera
 Voice,녹음하기,Mic.
 ShareInfo,정보공유,Share
