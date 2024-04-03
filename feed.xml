@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-03-31T13:00:21+09:00</updated>
+  <updated>2024-04-03T18:46:15+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,11 +20,97 @@
 
   
   <entry>
+    <title>Project: Cone Private Server Documentation [v0.55.14]</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Private Server Documentation [v0.55.14]" />
+    <published>2024-04-03T18:18:00+09:00</published>
+  
+    <updated>2024-04-03T18:45:59+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-server-en/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone User Guide" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Translated with Google Translator
+
+Serverless client
+Project: cone is an app that uses a private server, and there is no officially provided service server. Currently, you can optionally use the development test server, but it is only a button to facilitate your development testing, so when the appropriate time comes, you must register and use someone’s private server or use it only locally....
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Project: Cone User Guide [v0.55.14]</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-en/" rel="alternate" type="text/html" title="Project: Cone User Guide [v0.55.14]" />
+    <published>2024-04-03T17:56:00+09:00</published>
+  
+    <updated>2024-04-03T18:45:59+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-en/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-en/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone User Guide" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Translated with Google Translator
+
+Project: Cone
+Project: Cone is a communication tool for teams that produce content. Although some core functions are still missing, I am introducing some parts that are still easy to use as is :)
+
+This post is based on version 0.55.14 of the Project Cone App.
+(Theme color depends on whether the system is in dark mode)
+
+Use as a browser app
+You can use the a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Project: Cone 사설 서버 설명서 [v0.55.14]</title>
     <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" rel="alternate" type="text/html" title="Project: Cone 사설 서버 설명서 [v0.55.14]" />
     <published>2024-03-30T18:44:00+09:00</published>
   
-    <updated>2024-03-31T13:00:10+09:00</updated>
+    <updated>2024-04-03T18:45:59+09:00</updated>
   
     <id>https://is2you2.github.io/posts/how-to-use-pjcone-server/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server/" />
@@ -157,106 +243,6 @@ git clone https://github.com/is2you2/pjcone_server.git
 
 
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>작별인사</title>
-    <link href="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" rel="alternate" type="text/html" title="작별인사" />
-    <published>2023-12-30T22:40:00+09:00</published>
-  
-    <updated>2023-12-30T22:40:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/farewell-notebook-msi-ps42/</id>
-    <content src="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      그 녀석은 가버렸습니다
-이 포스트는 그저 주인장의 노트북이 죽은 것을 애도하는 글 입니다.
-
-
-이 녀석은 코딩용 노트북임에도 불구하고 주인장의 혹독한 그래픽 및 렌더링 작업을 감당하지 못하고 순식간에 늙어버리며 죽었습니다. 그럼에도 마지막 렌더링은 아름답게 마무리해주었습니다.
-
-짧은 애도의 마음을 남깁니다.
-
-새 녀석 등장
-
-
-
-
-무려 3중박스가 포장된 채로 눈오는 길목을 뚫고 주말에 배송 도착.
-
-이전 녀석의 죽음에서 깨달음을 얻어, 무조건 그래픽 카드가 달린 녀석을 쓰기로 생각을 바꿨습니다.
-저렴하고 가벼운 노트북을 쓰고 싶었는데 더 이상 그런 시도를 할 수는 없을 것 같군요 😢
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>컴퓨터와 핸드폰만으로 버튜버 시작하기</title>
-    <link href="https://is2you2.github.io/posts/setup-virtual-broadcasting/" rel="alternate" type="text/html" title="컴퓨터와 핸드폰만으로 버튜버 시작하기" />
-    <published>2023-12-29T21:20:00+09:00</published>
-  
-    <updated>2023-12-29T21:20:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/setup-virtual-broadcasting/</id>
-    <content src="https://is2you2.github.io/posts/setup-virtual-broadcasting/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="작업환경" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 글은 Windows 및 Android 기준으로 설명되어 있습니다.
-  누구나 쉽게 시작할 수 있는 세상
-  우리는 아주 훌륭한 세상에 살고 있습니다. 그리고 너무나도 위태로운 세상에 살고 있죠. 개인정보로 사람을 괴롭힐 수 있는 세상에요 😧
-이미 준비된 세상에 우리를 드러내면서, 우리를 조심스럽게 숨길 수 있는 버츄얼 유튜버를 시작하고 싶다면 이 글을 따라 진행해보세요.
-
-
-나는 얼굴 인식할 카메라가 없다
-이런 저런 이유로 지금 사용할 카메라가 없다면 여러분의 안드로이드 핸드폰을 카메라 겸 마이크로 사용하실 수 있습니다. 컴퓨터에는 클라이언트 프로그램을, 핸드폰에는 서버 앱을 설치해주세요. 이 앱을 정상적으로 사용하려면 핸드폰과 컴퓨터가 같은 공유기를 사용하고 있어야 합니다.
-
-
-휴대폰에 보여...
     </summary>
   
 
