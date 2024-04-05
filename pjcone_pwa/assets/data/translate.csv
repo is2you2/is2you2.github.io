@@ -224,7 +224,6 @@ ReadObject,개체 정보 읽는중,Reading object information
 FailedGetBaseColor,색상 불러오기 실패,Failed to load basecolor
 FailedGetEmitColor,이미션 색상 불러오기 실패,Failed to load emit_color
 LoadMeshFailed,메쉬 불러오기 실패,Failed to load mesh
-OnWorkReadUV,UV 정보 불러오기 기능 준비중,UV information loading function in preparation
 LinkedTexFile,텍스처 파일이 내장되어있지 않음,Texture file not embedded
 NoMaterial,등록된 머터리얼 없음,No registered materials
 OnWorkReadLightMode,포인트 라이트로 대체됨,Replaced by point lights
