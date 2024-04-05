@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2024-04-03T18:46:15+09:00</updated>
+  <updated>2024-04-05T17:19:19+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -201,23 +201,23 @@ git clone https://github.com/is2you2/pjcone_server.git
 
   
   <entry>
-    <title>Blender 파일을 자바스크립트에서 불러오기</title>
-    <link href="https://is2you2.github.io/posts/blender-import-mesh-js/" rel="alternate" type="text/html" title="Blender 파일을 자바스크립트에서 불러오기" />
-    <published>2024-03-12T18:03:00+09:00</published>
+    <title>작별인사</title>
+    <link href="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" rel="alternate" type="text/html" title="작별인사" />
+    <published>2023-12-30T22:40:00+09:00</published>
   
-    <updated>2024-03-12T18:03:00+09:00</updated>
+    <updated>2023-12-30T22:40:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/blender-import-mesh-js/</id>
-    <content src="https://is2you2.github.io/posts/blender-import-mesh-js/" />
+    <id>https://is2you2.github.io/posts/farewell-notebook-msi-ps42/</id>
+    <content src="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" />
     <author>
       <name>최성수</name>
     </author>
 
   
     
-    <category term="작업기록" />
+    <category term="일상" />
     
-    <category term="포털" />
+    <category term="중얼중얼" />
     
   
 
@@ -229,20 +229,24 @@ git clone https://github.com/is2you2/pjcone_server.git
 
 
 
-      Blender 파일 분석
-블렌더 파일의 확장자인 *.blend 는 일종의 압축파일처럼 동작한다.
-블렌더에서 다른 파일로부터 개체 삽입(append)/링크를 사용해봤다면 블렌더 파일 내부에 폴더 구조로 정보가 분류되어있는 것들을 볼 수 있다.
-
-그래서 블렌더 파일을 자바 스크립트에서 읽으려면 파일 자체를 읽는다기보단 내부 정보를 읽는 것이 좋을 것이라고 계획하고 있었다.
-
-정말 운이 좋게도, 구 버전이긴 했으나 누군가 블렌더 파일을 자바스크립트에서 읽을 수 있도록 시도하고 있었고, 이 자체는 최신 버전과 호환되지 않았으나 블렌더 내부 정보만큼은 여전히 제대로 분류하고 있었다.
-
-어떤 식으로 정보가 구성되는지 면밀히 분석해서 내가 원하는 정보만 재조합할 수 있다면 실전에서 사용해볼만했다.
-
-면 그리기
+      그 녀석은 가버렸습니다
+이 포스트는 그저 주인장의 노트북이 죽은 것을 애도하는 글 입니다.
 
 
-...
+이 녀석은 코딩용 노트북임에도 불구하고 주인장의 혹독한 그래픽 및 렌더링 작업을 감당하지 못하고 순식간에 늙어버리며 죽었습니다. 그럼에도 마지막 렌더링은 아름답게 마무리해주었습니다.
+
+짧은 애도의 마음을 남깁니다.
+
+새 녀석 등장
+
+
+
+
+무려 3중박스가 포장된 채로 눈오는 길목을 뚫고 주말에 배송 도착.
+
+이전 녀석의 죽음에서 깨달음을 얻어, 무조건 그래픽 카드가 달린 녀석을 쓰기로 생각을 바꿨습니다.
+저렴하고 가벼운 노트북을 쓰고 싶었는데 더 이상 그런 시도를 할 수는 없을 것 같군요 😢
+
     </summary>
   
 
