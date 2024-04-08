@@ -208,6 +208,7 @@ creator,제작자,Creator
 related_creator,그 외,Related
 Filename,파일 이름,Filename
 OnLoadContent,파일을 불러오는중,Loading file
+OnFailedLoadContent,열 수 없는 파일,Cannot open file
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
 OverWriteFile,파일 덮어쓰기,Overwrite files
