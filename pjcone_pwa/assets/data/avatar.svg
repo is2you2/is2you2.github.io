@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="7.9925288"
-     inkscape:cx="26.58733"
-     inkscape:cy="33.34364"
+     inkscape:zoom="11.303143"
+     inkscape:cx="29.018478"
+     inkscape:cy="29.770482"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -38,21 +38,25 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <circle
-       style="fill:#b7b7b7;fill-opacity:1;stroke:none;stroke-width:0.991013;stroke-linecap:round;stroke-linejoin:round"
-       id="path1"
-       cx="6.3499999"
-       cy="6.3499999"
-       r="6.3499999" />
-    <circle
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.6745;stroke-linecap:round;stroke-linejoin:round"
-       id="path2"
-       cx="6.3499999"
-       cy="5.3557081"
-       r="1.8355108" />
-    <path
-       id="circle3"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.724368;stroke-linecap:round;stroke-linejoin:round"
-       d="M 6.35,7.9015734 A 4.8069434,3.2104663 0 0 0 1.9712624,9.7895988 5.1189747,4.2084684 0 0 0 6.35,11.831999 5.1189747,4.2084684 0 0 0 10.728738,9.7895988 4.8069434,3.2104663 0 0 0 6.35,7.9015734 Z" />
+    <g
+       id="g1"
+       transform="matrix(0.97533736,0,0,0.97533736,0.15660778,0.15660778)">
+      <circle
+         style="fill:#b7b7b7;fill-opacity:1;stroke:none;stroke-width:0.991013;stroke-linecap:round;stroke-linejoin:round"
+         id="path1"
+         cx="6.3499999"
+         cy="6.3499999"
+         r="6.3499999" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.6745;stroke-linecap:round;stroke-linejoin:round"
+         id="path2"
+         cx="6.3499999"
+         cy="5.3557081"
+         r="1.8355108" />
+      <path
+         id="circle3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.724368;stroke-linecap:round;stroke-linejoin:round"
+         d="M 6.35,7.9015734 A 4.8069434,3.2104663 0 0 0 1.9712624,9.7895988 5.1189747,4.2084684 0 0 0 6.35,11.831999 5.1189747,4.2084684 0 0 0 10.728738,9.7895988 4.8069434,3.2104663 0 0 0 6.35,7.9015734 Z" />
+    </g>
   </g>
 </svg>
