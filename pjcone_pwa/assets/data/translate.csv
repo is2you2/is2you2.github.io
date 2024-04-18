@@ -66,6 +66,7 @@ Title,게시물,Post
 NoPosts,게시물 없음,No posts
 ## AddPost,,
 Title,새 게시물,New post
+Creator,작성자,Creator
 ## Settings,,
 Title,설정,Settings
 CommunityAds,개발자 광고,Developer Ads
