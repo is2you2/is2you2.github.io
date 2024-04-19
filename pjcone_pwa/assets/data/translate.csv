@@ -82,7 +82,7 @@ DevKit,보조 도구,Auxiliary tools
 WebLinkGen,웹 링크 생성기,Weblink generator
 FallbackFS,첫번째 파일 서버,First file server
 TryToFallbackFS,사용자 지정 파일 서버로 시도,Try with custom file server
-ServerFiles,Nakama 서버 파일,Nakama server files
+ServerFiles,사설 서버 구성하기,Configuring a private server
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,내부망 WebRTC,Internal network WebRTC
 joinDedi_placeholder,기본,Default
