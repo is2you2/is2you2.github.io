@@ -82,6 +82,7 @@ groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅 생성,Create dedicated group chat
+ShowChnServer,채널 서버 표시,Show channel servers
 quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Auxiliary tools
 WebLinkGen,웹 링크 생성기,Weblink generator
