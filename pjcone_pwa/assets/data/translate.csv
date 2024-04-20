@@ -67,6 +67,11 @@ NoPosts,게시물 없음,No posts
 ## AddPost,,
 Title,새 게시물,New post
 Creator,작성자,Creator
+AddNewPost,게시물 작성,Write a post
+TitlePlaceholder,게시글의 제목을 입력합니다,Enter the title of the post
+ContentPlaceHolder,서버 사람들과 공유하고 싶은 내용이 있으신가요?,Is there anything you'd like to share with the people on the server?
+AddAttaches,첨부 파일 추가,Add attachment
+Post,게시하기,Post
 ## Settings,,
 Title,설정,Settings
 CommunityAds,개발자 광고,Developer Ads
