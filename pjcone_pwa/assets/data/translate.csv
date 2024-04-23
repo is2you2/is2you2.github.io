@@ -38,7 +38,6 @@ new_draw,새 그림,New painting
 user_fs,인앱 탐색기,Inapp explorer
 add_attach,가져오기,Load
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
-delete_attach,삭제,Delete
 attachments,첨부파일 추가,Attachments
 open_content_viewer,클릭하여 파일 뷰어에서 열기,Click to open in file viewer
 logs,기록,Logs
@@ -46,7 +45,6 @@ remove,삭제,Remove
 buttonDisplay_add,추가,Add
 buttonDisplay_modify,수정,Modify
 needDisplayName,표시명을 작성하여야 합니다,Display name must be written
-terminateTodo,이 작업은 되돌릴 수 없습니다,This action cannot be undone
 WIP,작업을 완료중입니다...,Work in progress...
 ManageWorker,작업자 관리,Manage workers
 ToggleWorkers,모든 사용자 선택,Select all users
@@ -66,6 +64,7 @@ Title,게시물,Post
 NoPosts,게시물 없음,No posts
 ## AddPost,,
 Title,새 게시물,New post
+EditTitle,게시물 편집,Edit post
 Creator,작성자,Creator
 AddNewPost,게시물 작성,Write a post
 TitlePlaceholder,게시글의 제목을 입력합니다,Enter the title of the post
@@ -75,6 +74,17 @@ Post,게시하기,Post
 MainPostImage,대표사진,Header
 NeedPostTitle,제목을 입력해주세요,Please enter the subject
 RemoveAttach,첨부파일 제거,Remove attachment
+WIP,게시물을 등록합니다,Register a post
+SyncMainImage,대표이미지 등록중,Registering representative image
+SyncAttaches,첨부파일 등록중,Registering attached file
+SyncErr,게시물 저장 오류,Error saving post
+NSFW,후방주의,NSFW
+## PostViewer,,
+Title,게시물 뷰어,Post viewer
+CreateTime,작성일,Creation date
+ModifyTime,수정일,Modifition date
+RemovePost,게시물 삭제,Remove post
+OpenFromViewer,파일 뷰어에서 보기,View in file viewer
 ## Settings,,
 Title,설정,Settings
 CommunityAds,개발자 광고,Developer Ads
@@ -459,7 +469,6 @@ OK,확인,OK
 ResetDB,모든 파일 삭제,Delete all files
 LoadingExplorer,준비중,Explorer
 DeleteFile,파일 삭제,Delete file
-CannotBeUndo,이 작업은 되돌릴 수 없습니다,This action cannot be undone
 DeleteAccept,삭제,Delete
 Action,이 파일을..,Action..
 Use,사용하기,Use
