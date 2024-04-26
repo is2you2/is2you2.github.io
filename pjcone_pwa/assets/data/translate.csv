@@ -60,30 +60,30 @@ noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
 Disconnected,연결된 서버가 없습니다,No server connected
 ## Community,,
-Title,게시물,Post
-NoPosts,게시물 없음,No posts
+Title,소식,News
+NoPosts,소식 없음,No news
 ## AddPost,,
-Title,새 게시물,New post
-EditTitle,게시물 편집,Edit post
+Title,새 소식,New news
+EditTitle,소식 편집,Edit news
 Creator,작성자,Creator
-AddNewPost,게시물 작성,Write a post
-TitlePlaceholder,게시글의 제목을 입력합니다,Enter the title of the post
+AddNewPost,소식 작성,Write a news
+TitlePlaceholder,소식의 제목을 입력합니다,Enter the title of the news
 ContentPlaceHolder,서버 사람들과 공유하고 싶은 내용이 있으신가요?,Is there anything you'd like to share with the people on the server?
 AddAttaches,첨부 파일 추가,Add attachment
 Post,게시하기,Post
 MainPostImage,대표사진,Header
 NeedPostTitle,제목을 입력해주세요,Please enter the subject
 RemoveAttach,첨부파일 제거,Remove attachment
-WIP,게시물을 등록합니다,Register a post
+WIP,소식을 등록합니다,Register a news
 SyncMainImage,대표이미지 등록중,Registering representative image
 SyncAttaches,첨부파일 등록중,Registering attached file
-SyncErr,게시물 저장 오류,Error saving post
+SyncErr,소식 저장 오류,Error saving news
 NSFW,후방주의,NSFW
 ## PostViewer,,
-Title,게시물 뷰어,Post viewer
+Title,소식 뷰어,News viewer
 CreateTime,작성일,Creation date
 ModifyTime,수정일,Modifition date
-RemovePost,게시물 삭제,Remove post
+RemovePost,소식 삭제,Remove news
 OpenFromViewer,파일 뷰어에서 보기,View in file viewer
 ## Settings,,
 Title,설정,Settings
@@ -221,6 +221,7 @@ RemoveChannelLogs,채널 기록을 삭제합니다,Delete channel history
 UnlinkChannel,더 이상 메시지를 수신받지 않습니다,You will no longer receive messages
 Delete,삭제,Delete
 LocalImageChanged,채널 이미지가 변경되었습니다,Channel image has been changed
+LocalImageRemoved,채널 이미지가 삭제되었습니다,Channel image has been deleted
 AlreadyRemoved,이미 정보가 삭제되었습니다,Information has already been removed
 ## ContentViewer,,
 Title,파일 뷰어,File Viewer
@@ -232,7 +233,7 @@ creator,제작자,Creator
 related_creator,그 외,Related
 Filename,파일 이름,Filename
 OnLoadContent,파일을 불러오는중,Loading file
-OnFailedLoadContent,열 수 없는 파일,Cannot open file
+OnFailedLoadContent,파일을 열지 못함,Cannot open file
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
 OverWriteFile,파일 덮어쓰기,Overwrite files
@@ -528,7 +529,7 @@ OpenPrivateChannel,1:1 채널 열기,Open private channel
 ClickToPaste,이 곳을 눌러서 id 붙여넣기,Click to paste user id
 ## ContentInfo,,
 WorkLogs,작업 기록,Work logs
-LastPost,최종 게시자,Last post
+LastPost,최종 게시자,Last post by
 TimeAt,일시,Date
 WorkHistory,이전 작업 기록,Previous work history
 FileSize,파일 크기,File size
