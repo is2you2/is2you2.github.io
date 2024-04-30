@@ -25,6 +25,7 @@ DisplayName_placeholder,짧게,briefly
 CustomColor,색상,Color
 SetCustomColor,눌러서 사용자 지정,Set custom color
 CanAddToServer,서버 저장에 실패했습니다,Server save failed
+SaveAfterConnectServer,다음에 서버 연결시 적용됩니다,It will be applied the next time you connect to the server
 Importance,중요도,Importance
 Importance_2,중요함,Important
 Importance_1,기억해야 함,Must remember
