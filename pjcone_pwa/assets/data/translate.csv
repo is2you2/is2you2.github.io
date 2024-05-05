@@ -96,7 +96,6 @@ env_info,사용 환경,Preferences
 myInfo,내 정보,My info
 groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
-joinRanchat,랜덤채팅 참여,Join random chat
 joinDediChat,사설 그룹채팅 생성,Create dedicated group chat
 ShowChnServer,서버 표시,Show servers
 quickQRshare,정보 공유,Sharing information
@@ -260,19 +259,14 @@ MayGimbalLock,짐벌락 현상으로 각도가 다르게 표현될 수 있음,Th
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
-start_chat,대화 시작하기,Start a conversation
 selectNetwork,네트워크를 선택하여 공유,Select network to share
-new_chat,새 대화,New
 input_placeholder,메시지 입력...,Enter message...
 header_title_ranchat,미니랜챗,Random chat
 header_title_group,그룹채팅,Group chat
-WebTitle_ran,Project: 랜덤채팅,Project: RandomChat
 WebTitle_group,Project: 그룹채팅,Project: GroupChat
 Noti_Reply,답장,Reply
 name_me,나,Me
-name_stranger_ran,상대방,Stranger
 name_stranger_group,참여자,Participants
-joinChat_ran,랜덤채팅에 참가합니다.,Join the random chat
 joinChat_group,그룹채팅에 참가합니다.,Join the group chat
 user_join,사용자 참여,User joined
 user_join_comment,그룹에 참여했습니다.,joined the group
@@ -284,8 +278,6 @@ Noti_Greeting,인사,Greeting
 failed_to_join,채팅 참가에 실패했습니다.,Failed to join chat
 cannot_join,채팅에 참가할 수 없습니다.,Failed to join
 waiting_someone,새로운 상대를 기다립니다..,Waiting for a new opponent
-cannot_start,시작할 수 없어요..,Can not start..
-leave_chat_ran,랜덤채팅에서 벗어납니다.,You leave random chat
 leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
 ## GroupServer,,
 JoinedServerList,참여중인 서버 목록,List of participating servers
