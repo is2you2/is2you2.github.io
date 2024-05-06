@@ -25,10 +25,10 @@ CustomColor,색상,Color
 SetCustomColor,눌러서 사용자 지정,Set custom color
 CanAddToServer,서버 저장에 실패했습니다,Server save failed
 SaveAfterConnectServer,다음에 서버 연결시 적용됩니다,It will be applied the next time you connect to the server
-Importance,중요도,Importance
-Importance_2,중요함,Important
-Importance_1,기억해야 함,Must remember
-Importance_0,낮음,Low
+Importance,크기,Size
+Importance_2,커다람,Big
+Importance_1,보통,Normal
+Importance_0,작음,Small
 startFrom,시작일시,Start date
 startImmediatly,즉시 시작,Start immediately
 limit,기한,Deadline
