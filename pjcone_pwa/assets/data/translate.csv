@@ -142,11 +142,10 @@ contents,내용,Contents
 ## Profile,,
 noname_user,이름 없는 사용자,Unnamed user
 name_placeholder,사용자 이름,Username
-login_info,로그인 정보,Login info
 at_least,최소 8자리,at least 8 digits
 user_display_name,사용자 표시명,Display name
-login_toggle,로그인,Login
-LogOut,로그아웃,Logout
+login_toggle,연결 시도,Connect to
+LogOut,연결 끊기,Disconnect
 main_content,메인 콘텐츠,Main contents
 upload,올리기,Upload
 remove_content,삭제,Remove
@@ -176,15 +175,15 @@ FileLink,외부링크,Outlink
 StartVRecord,녹음을 시작합니다,Start recording
 VoiceRecord,인앱 음성 녹음,In-app voice record
 voidDraw,그림판,Paint
-UseCloud,FFS사용,useFFS
+Detour,우회시도,Detour
 Camera,카메라,Camera
 Voice,녹음하기,Mic.
-ShareInfo,정보공유,Share
 VoiceChat,음성통화,Voice
 EmbedFiles,파일들,Files
 ReadText,읽어주기,TTS
 LogOut,연결끊기,Disconn.
 RemoveHistory,기록삭제,Remove
+QRLinkFailed,정보 오류,Information error
 input_placeholder,메시지 입력...,Enter message...
 ManageChat,메시지 관리,Manage message
 EditChat,편집,Edit
@@ -397,7 +396,7 @@ FailedToDownloadFile,다운받기 오류,Failed to download file
 DevTestServer,개발 테스트 서버,Development test server
 AccessTestServer,테스트 서버에 연결합니다,Connect to Test server
 AlreadyHaveTargetName,이미 같은 이름의 서버가 있습니다,There already exists a server with the same name
-NeedLoginInfo,로그인 정보를 확인해주세요,Please check your login information
+NeedLoginInfo,사용자 정보를 확인해주세요,Please check your user information
 NeedLinkUser,사용자를 연결해주세요,Please link user device info
 NeedAccountReset,비밀번호를 확인해주세요,Please check your password
 ServerNoti,서버 알림,Server notification
@@ -433,8 +432,8 @@ FailedToAddGroup,그룹 추가 실패,Failed to add group
 GroupAllListDone,없는 그룹 정보,There is no group
 GroupAlreadyJoined,이미 참가한 그룹,Already joined group
 SessionLogout,로그아웃됨,Logged out
-LoginAgain,이 서버에 다시 로그인합니다,Log in to this server again
-PendingLogin,로그인을 시도합니다,Trying to log in
+LoginAgain,이 서버에 다시 연결합니다,Reconnect to this server
+PendingLogin,연결을 시도합니다,Trying to connect
 TryOnline,온라인 처리 시도,Online processing attempt
 ## voidDraw,,
 sideSIzeIssue,캔버스의 모든 변은 0보다 커야합니다,All sides of the canvas must be greater than 0
