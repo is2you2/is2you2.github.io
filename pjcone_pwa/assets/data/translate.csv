@@ -81,6 +81,7 @@ SyncErr,게시물 저장 오류,Error saving post
 NSFW,후방주의,NSFW
 RecordVoiceTime,시간기록,V.Time
 SavingRecord,녹음을 저장중입니다,Saving the recording
+RecordVoiceTime,녹음시간 기록됨,Recording time recorded
 FailedToSaveVoice,녹음 저장 실패,Failed to save recording
 ## PostViewer,,
 Title,게시물 뷰어,Post viewer
@@ -176,6 +177,8 @@ StartVRecord,녹음을 시작합니다,Start recording
 VoiceRecord,인앱 음성 녹음,In-app voice record
 voidDraw,그림판,Paint
 Detour,우회시도,Detour
+useFSS,FFS우선,tryFFS
+forceSQL,SQL강제,useSQL
 Camera,카메라,Camera
 Voice,녹음하기,Mic.
 VoiceChat,음성통화,Voice
