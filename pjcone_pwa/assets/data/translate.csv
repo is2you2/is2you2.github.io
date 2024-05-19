@@ -375,6 +375,7 @@ thanks_to,도움주신 분들,Thanks to
 ## GlobalAct,,
 CancelText,취소,Cancel
 PCClipboard,복사됨,Copied
+PCCopyImage,이미지 복사됨,Image copied
 FailedToDownloadGodot,씬 실행 실패,Execution scene failed
 variousCreator,파일 첨부,Attachments
 FromCamera,카메라로 직접 촬영,From camera
