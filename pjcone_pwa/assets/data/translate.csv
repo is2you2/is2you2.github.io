@@ -35,6 +35,7 @@ limit,기한,Deadline
 description,상세 내용,Description
 description_placeholder,할 일 상세 내용,Todo details
 new_draw,새 그림,New painting
+new_text,새 텍스트,New text
 user_fs,인앱 탐색기,Inapp explorer
 add_attach,가져오기,Load
 load_failed,파일 가져오기에 실패하였습니다,Failed to load file
@@ -176,6 +177,7 @@ FileLink,외부링크,Outlink
 StartVRecord,녹음을 시작합니다,Start recording
 VoiceRecord,인앱 음성 녹음,In-app voice record
 voidDraw,그림판,Paint
+newText,텍스트,Text
 Detour,우회시도,Detour
 useFSS,FFS우선,tryFFS
 forceSQL,SQL강제,useSQL
