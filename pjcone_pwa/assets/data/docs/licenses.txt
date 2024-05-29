@@ -1,399 +1,337 @@
-├─ @angular/animations@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/common@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/compiler@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/core@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/forms@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/platform-browser-dynamic@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/platform-browser@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/router@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @angular/service-worker@17.2.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/angular/angular
-│  └─ publisher: angular
-├─ @awesome-cordova-plugins/background-mode@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/badge@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/clipboard@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/core@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/device@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/file@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/local-notifications@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @awesome-cordova-plugins/web-socket-server@6.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/danielsogl/awesome-cordova-plugins
-│  ├─ publisher: ionic
-├─ @babel/runtime@7.11.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/babel/babel
-│  ├─ publisher: Sebastian McKenzie
-│  └─ email: sebmck@gmail.com
-├─ @capacitor-community/admob@5.3.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/capacitor-community/admob
-│  ├─ publisher: Masahiko Sakakibara
-│  └─ email: sakakibara@rdlabo.jp
-├─ @capacitor-community/barcode-scanner@4.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/capacitor-community/barcode-scanner
-│  └─ publisher: tafelnl
-├─ @capacitor-community/speech-recognition@5.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/capacitor-community/speech-recognition
-│  ├─ publisher: Priyank Patel
-│  └─ email: priyank.patel@stackspace.ca
-├─ @capacitor-community/text-to-speech@3.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/capacitor-community/text-to-speech
-│  ├─ publisher: Robin Genz
-│  └─ email: mail@robingenz.dev
-├─ @capacitor/android@5.7.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor
-│  ├─ publisher: Ionic Team
-│  ├─ email: hi@ionic.io
-│  └─ url: https://ionic.io
-├─ @capacitor/app@5.0.7
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @capacitor/camera@5.0.9
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @capacitor/core@5.7.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor
-│  ├─ publisher: Ionic Team
-│  ├─ email: hi@ionic.io
-│  └─ url: https://ionic.io
-├─ @capacitor/filesystem@5.2.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @capacitor/haptics@5.0.7
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @capacitor/keyboard@5.0.8
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @capacitor/local-notifications@5.0.7
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @capacitor/status-bar@5.0.7
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/capacitor-plugins
-│  ├─ publisher: Ionic
-│  └─ email: hi@ionicframework.com
-├─ @heroiclabs/nakama-js@2.7.1
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/heroiclabs/nakama-js
-│  ├─ publisher: Chris Molozian
-│  └─ email: chris@heroiclabs.com
-├─ @ionic/angular@7.7.4
-│  ├─ licenses: MIT
-│  └─ repository: https://github.com/ionic-team/ionic-framework
-├─ @ionic/core@7.7.4
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/ionic-framework
-│  └─ publisher: Ionic Team
-├─ @ionic/pwa-elements@3.2.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/ionic-pwa-elements
-│  └─ publisher: Ionic Team
-├─ @scarf/scarf@1.3.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/scarf-sh/scarf-js
-│  └─ publisher: Scarf Systems
-├─ @stencil/core@4.12.5
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/stencil
-│  └─ publisher: Ionic Team
-├─ @types/cordova@11.0.3
-│  ├─ licenses: MIT
-│  └─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
-├─ @types/p5@1.7.6
-│  ├─ licenses: MIT
-│  └─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
-├─ @zxing/browser@0.1.4
-│  ├─ licenses: MIT
-│  └─ repository: https://github.com/zxing-js/browser
-├─ @zxing/library@0.20.0
-│  ├─ licenses: MIT
-│  └─ repository: https://github.com/zxing-js/library
-├─ @zxing/text-encoding@0.9.0
-│  ├─ licenses: (Unlicense OR Apache-2.0)
-│  ├─ repository: https://github.com/zxing-js/text-encoding
-│  ├─ publisher: Joshua Bell
-│  └─ email: inexorabletash@gmail.com
-├─ arch@2.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/feross/arch
-│  ├─ publisher: Feross Aboukhadijeh
-│  ├─ email: feross@feross.org
-│  └─ url: https://feross.org
-├─ base64-arraybuffer@1.0.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/niklasvh/base64-arraybuffer
-│  ├─ publisher: Niklas von Hertzen
-│  ├─ email: niklasvh@gmail.com
-│  └─ url: https://hertzen.com
-├─ capacitor-voice-recorder@5.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/tchvu3/capacitor-voice-recorder
-│  ├─ publisher: Avihu Harush
-│  └─ email: tchvu3@gmail.com
-├─ clipboardy@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/clipboardy
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: https://sindresorhus.com
-├─ cordova-clipboard@1.3.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ihadeed/cordova-clipboard
-│  └─ publisher: Ibrahim Hadeed
-├─ cordova-plugin-background-mode@0.8.0
-│  ├─ licenses: Apache
-│  ├─ repository: https://bitbucket.org/TheBosZ/cordova-plugin-run-in-background
-│  └─ publisher: Sebastián Katzer
-├─ cordova-plugin-badge@0.8.9
-│  ├─ licenses: Apache
-│  ├─ repository: https://github.com/katzer/cordova-plugin-badge
-│  └─ publisher: Sebastián Katzer
-├─ cordova-plugin-device@2.1.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/apache/cordova-plugin-device
-│  └─ publisher: Apache Software Foundation
-├─ cordova-plugin-file@8.0.1
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/apache/cordova-plugin-file
-│  └─ publisher: Apache Software Foundation
-├─ cordova-plugin-local-notification-12@0.1.3
-│  ├─ licenses: Apache
-│  ├─ repository: https://github.com/powowbox/cordova-plugin-local-notification-12
-│  └─ publisher: Sebastián bhandaribhumin
-├─ cordova-plugin-websocket-server@1.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/becvert/cordova-plugin-websocket-server
-│  ├─ publisher: Sylvain Bréjeon
-│  └─ url: https://github.com/becvert
-├─ cross-spawn@7.0.3
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/moxystudio/node-cross-spawn
-│  ├─ publisher: André Cruz
-│  └─ email: andre@moxy.studio
-├─ dom-to-image@2.6.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/tsayen/dom-to-image
-│  ├─ publisher: Anatolii Saienko
-│  └─ email: anatoly.sayenko@gmail.com
-├─ execa@5.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/execa
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: https://sindresorhus.com
-├─ get-blob-duration@1.2.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/evictor/get-blob-duration
-│  ├─ publisher: Ezekiel Victor
-│  └─ email: zekevictor@gmail.com
-├─ get-stream@6.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/get-stream
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: https://sindresorhus.com
-├─ human-signals@2.1.0
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/ehmicky/human-signals
-│  ├─ publisher: ehmicky
-│  ├─ email: ehmicky@gmail.com
-│  └─ url: https://github.com/ehmicky
-├─ ionicons@7.2.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/ionic-team/ionicons
-│  ├─ publisher: Ben Sperry
-│  └─ url: https://twitter.com/benjsperry
-├─ is-docker@2.2.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-docker
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: https://sindresorhus.com
-├─ is-stream@2.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-stream
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: https://sindresorhus.com
-├─ is-wsl@2.2.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/is-wsl
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: sindresorhus.com
-├─ isexe@2.0.0
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/isaacs/isexe
-│  ├─ publisher: Isaac Z. Schlueter
-│  ├─ email: i@izs.me
-│  └─ url: http://blog.izs.me/
-├─ jetifier@2.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/mikehardy/jetifier
-│  ├─ publisher: Mike Hardy
-│  └─ url: github@mikehardy.net
-├─ js-base64@3.7.7
-│  ├─ licenses: BSD-3-Clause
-│  ├─ repository: https://github.com/dankogai/js-base64
-│  └─ publisher: Dan Kogai
-├─ jsonc-parser@3.2.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/microsoft/node-jsonc-parser
-│  └─ publisher: Microsoft Corporation
-├─ merge-stream@2.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/grncdr/merge-stream
-│  ├─ publisher: Stephen Sugden
-│  └─ email: me@stephensugden.com
-├─ mimic-fn@2.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/mimic-fn
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: sindresorhus.com
-├─ npm-run-path@4.0.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/npm-run-path
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: sindresorhus.com
-├─ onetime@5.1.2
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/onetime
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: https://sindresorhus.com
-├─ p5@1.9.2
-│  ├─ licenses: LGPL-2.1
-│  └─ repository: https://github.com/processing/p5.js
-├─ path-key@3.1.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/path-key
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: sindresorhus.com
-├─ qrcode-svg@1.1.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/papnkukn/qrcode-svg
-│  └─ publisher: papnkukn
-├─ regenerator-runtime@0.13.11
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/facebook/regenerator/tree/main/packages/runtime
-│  ├─ publisher: Ben Newman
-│  └─ email: bn@cs.stanford.edu
-├─ rxjs@7.8.1
-│  ├─ licenses: Apache-2.0
-│  ├─ repository: https://github.com/reactivex/rxjs
-│  ├─ publisher: Ben Lesh
-│  └─ email: ben@benlesh.com
-├─ shebang-command@2.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/kevva/shebang-command
-│  ├─ publisher: Kevin Mårtensson
-│  ├─ email: kevinmartensson@gmail.com
-│  └─ url: github.com/kevva
-├─ shebang-regex@3.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/shebang-regex
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: sindresorhus.com
-├─ signal-exit@3.0.7
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/tapjs/signal-exit
-│  ├─ publisher: Ben Coe
-│  └─ email: ben@npmjs.com
-├─ strip-final-newline@2.0.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/sindresorhus/strip-final-newline
-│  ├─ publisher: Sindre Sorhus
-│  ├─ email: sindresorhus@gmail.com
-│  └─ url: sindresorhus.com
-├─ ts-custom-error@3.3.1
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/adriengibrat/ts-custom-error
-│  ├─ publisher: Adrien Gibrat
-│  └─ email: adrien.gibrat@gmail.com
-├─ tslib@2.6.2
-│  ├─ licenses: 0BSD
-│  ├─ repository: https://github.com/Microsoft/tslib
-│  └─ publisher: Microsoft Corp.
-├─ whatwg-fetch@3.6.20
-│  ├─ licenses: MIT
-│  └─ repository: https://github.com/github/fetch
-├─ which@2.0.2
-│  ├─ licenses: ISC
-│  ├─ repository: https://github.com/isaacs/node-which
-│  ├─ publisher: Isaac Z. Schlueter
-│  ├─ email: i@izs.me
-│  └─ url: http://blog.izs.me
-└─ zone.js@0.14.4
-   ├─ licenses: MIT
-   ├─ repository: https://github.com/angular/angular
-   └─ publisher: Brian Ford
+@angular/animations@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/common@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/compiler@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/core@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/forms@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/platform-browser@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/platform-browser-dynamic@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/router@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@angular/service-worker@17.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@awesome-cordova-plugins/background-mode@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/badge@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/clipboard@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/core@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/device@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/file@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/local-notifications@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@awesome-cordova-plugins/web-socket-server@6.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+@babel/runtime@7.11.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor-community/barcode-scanner@4.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor-community/speech-recognition@5.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor-community/text-to-speech@3.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/android@5.7.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/app@5.0.7 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/camera@5.0.9 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/core@5.7.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/filesystem@5.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/haptics@5.0.7 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/keyboard@5.0.8 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/local-notifications@5.0.7 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@capacitor/status-bar@5.0.7 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@heroiclabs/nakama-js@2.7.1 [license(s): Apache-2.0]
+└── package.json:  Apache-2.0
+
+@ionic/angular@7.7.4 [license(s): MIT]
+└── package.json:  MIT
+
+@ionic/core@7.7.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@ionic/pwa-elements@3.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@scarf/scarf@1.3.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+@stencil/core@4.12.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+@types/cordova@11.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/p5@1.7.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@zxing/browser@0.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@zxing/library@0.20.0 [license(s): Apache, MIT]
+├── package.json:  MIT
+└── license files: Apache
+
+@zxing/text-encoding@0.9.0 [license(s): (Unlicense OR Apache-2.0), Apache]
+├── package.json:  (Unlicense OR Apache-2.0)
+└── license files: Apache
+
+arch@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+base64-arraybuffer@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+capacitor-voice-recorder@5.0.0 [license(s): MIT]
+└── package.json:  MIT
+
+clipboardy@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cordova-clipboard@1.3.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+cordova-plugin-background-mode@0.8.0 [license(s): Apache, Apache 2.0]
+├── package.json:  Apache 2.0
+└── license files: Apache
+
+cordova-plugin-badge@0.8.9 [license(s): Apache, Apache 2.0]
+├── package.json:  Apache 2.0
+└── license files: Apache
+
+cordova-plugin-device@2.1.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+cordova-plugin-file@8.0.1 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+cordova-plugin-local-notification-12@0.1.3 [license(s): Apache, Apache 2.0]
+├── package.json:  Apache 2.0
+└── license files: Apache
+
+cordova-plugin-websocket-server@1.6.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+cross-spawn@7.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+dom-to-image@2.6.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+execa@5.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+get-blob-duration@1.2.0 [license(s): ISC]
+└── package.json:  ISC
+
+get-stream@6.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+human-signals@2.1.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+ionicons@7.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-docker@2.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-stream@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-wsl@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+isexe@2.0.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+jetifier@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+js-base64@3.7.7 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+jsonc-parser@3.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+merge-stream@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+mimic-fn@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+npm-run-path@4.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+onetime@5.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+p5@1.9.2 [license(s): LGPL-2.1]
+└── package.json:  LGPL-2.1
+
+path-key@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+project_cone@0.0.1 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
+├── license files: Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain
+└── readme files: MIT
+
+qrcode-svg@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+regenerator-runtime@0.13.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+rxjs@7.8.1 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+shebang-command@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+shebang-regex@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+signal-exit@3.0.7 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+strip-final-newline@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ts-custom-error@3.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+tslib@2.6.2 [license(s): 0BSD]
+└── package.json:  0BSD
+
+whatwg-fetch@3.6.20 [license(s): MIT]
+└── package.json:  MIT
+
+which@2.0.2 [license(s): BSD, ISC]
+├── package.json:  ISC
+├── license files: ISC
+└── readme files: BSD
+
+zone.js@0.14.4 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+LICENSES: (Unlicense OR Apache-2.0), 0BSD, Apache, Apache 2.0, Apache-2.0, BSD, BSD-3-Clause, Eclipse Public License, GPL, ISC, LGPL, LGPL-2.1, MIT, MPL, Public Domain
 
