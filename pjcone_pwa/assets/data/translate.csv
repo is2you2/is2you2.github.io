@@ -53,9 +53,9 @@ ToggleWorkers,모든 사용자 선택,Select all users
 Title,채널,Channels
 myProfile,내 프로필,My profile
 JoinedChannels,참여 채널,Joined channels
-has_noties,검토해야할 알림이 있습니다.,There are notifications to review.
+has_noties,검토해야할 알림이 있습니다,There are notifications to review
 NoChat,채널 생성하기,Create a channel
-noChatList,참여중인 대화가 없습니다.,There are no active conversations.
+noChatList,참여중인 대화가 없습니다,There are no active conversations
 noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
@@ -138,7 +138,7 @@ redownloadSucc,다시받기 성공,Re-download successful
 redownloadFailed,다시받기 실패,Re-download failed
 ## QRElse,,
 Title,사용할 수 없는 구성,Configuration not available
-info,QR코드 또는 바코드를 인식하였으나 이 앱에서 사용하는 구성이 아닙니다.,A QR code or barcode was recognized. but this is not the configuration used by this app.
+info,QR코드 또는 바코드를 인식하였으나 이 앱에서 사용하는 구성이 아닙니다,A QR code or barcode was recognized. but this is not the configuration used by this app.
 format,종류,Format
 contents,내용,Contents
 ## Profile,,
@@ -195,7 +195,7 @@ EditChat,편집,Edit
 MsgEdited,편집됨,edited
 MsgRemoved,메시지 삭제됨,Messages deleted
 cannot_open_from_mobile,모바일에서 열 수 없음,Can not open on mobile
-cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다.,This file cannot be viewed with a viewer.
+cannot_open_with_viewer,이 파일은 뷰어로 볼 수 없습니다,This file cannot be viewed with a viewer
 download_anyway,그래도 다운로드,Download anyway
 uploading,업로드 중,Uploading
 downloaded,다운로드됨,Downloaded
@@ -203,7 +203,7 @@ FileSaved,파일 저장됨,File saved
 SavingFile,파일 저장중,Saving file
 SendFile,파일 전송됨,File sent
 viewer_not_support,뷰어가 지원하지 않는 파일,Files not supported by the viewer
-cannot_open_file,파일을 열람할 수 없습니다.,The file cannot be viewed.
+cannot_open_file,파일을 열람할 수 없습니다,The file cannot be viewed
 export_download,추출,Extraction
 YouReadHereLast,여기까지 읽었습니다,You've read this far
 QuickShare,이 곳을 눌러 정보를 공유받습니다,Click here to share information
@@ -259,7 +259,7 @@ LinkedTexFile,텍스처 파일이 내장되어있지 않음,Texture file not emb
 NoMaterial,등록된 머터리얼 없음,No registered materials
 OnWorkReadLightMode,포인트 라이트로 대체됨,Replaced by point lights
 ReachLightLimit,빛은 최대 5개까지 등록됩니다,Up to 5 lights can be registered
-MayGimbalLock,짐벌락 현상으로 각도가 다르게 표현될 수 있음,The angle may be expressed differently due to gimbal lock phenomenon.
+MayGimbalLock,짐벌락 현상으로 각도가 다르게 표현될 수 있음,The angle may be expressed differently due to gimbal lock phenomenon
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
 shareAddress,주소 공유,Share address
@@ -271,18 +271,18 @@ WebTitle_group,Project: 그룹채팅,Project: GroupChat
 Noti_Reply,답장,Reply
 name_me,나,Me
 name_stranger_group,참여자,Participants
-joinChat_group,그룹채팅에 참가합니다.,Join the group chat
+joinChat_group,그룹채팅에 참가합니다,Join the group chat
 user_join,사용자 참여,User joined
-user_join_comment,그룹에 참여했습니다.,joined the group
+user_join_comment,그룹에 참여했습니다,joined the group
 user_out,사용자 떠남,User out
-user_out_comment,그룹을 떠났습니다.,leaved the group
-meet_someone,누군가를 만났습니다.,You met someone
-leave_someone,상대방이 나갔습니다.,Opponent has gone
+user_out_comment,그룹을 떠났습니다,leaved the group
+meet_someone,누군가를 만났습니다,You met someone
+leave_someone,상대방이 나갔습니다,Opponent has gone
 Noti_Greeting,인사,Greeting
-failed_to_join,채팅 참가에 실패했습니다.,Failed to join chat
-cannot_join,채팅에 참가할 수 없습니다.,Failed to join
+failed_to_join,채팅 참가에 실패했습니다,Failed to join chat
+cannot_join,채팅에 참가할 수 없습니다,Failed to join
 waiting_someone,새로운 상대를 기다립니다..,Waiting for a new opponent
-leave_chat_group,그룹채팅에서 나옵니다.,You leave group chat
+leave_chat_group,그룹채팅에서 나옵니다,You leave group chat
 ## GroupServer,,
 JoinedServerList,참여중인 서버 목록,List of participating servers
 ServerDetail,정보,Info
@@ -299,7 +299,7 @@ Port,포트,Port
 isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 UseDevTestServer,개발 테스트 서버 사용하기,Use development test server
-NeedSetDIsplayName,이름을 지정해주세요.,Please specify a display name.
+NeedSetDIsplayName,이름을 지정해주세요,Please specify a display name
 useSSL,공개 서버,Public server
 NotuseSSL,내부망 서버,Internal network server
 ## ServerDetail,,
@@ -326,12 +326,12 @@ LanguageTag,국가 태그,LangTag
 MemberMaxLimit,최대 인원,Maximum member
 IsOpen,공개 여부,is Open group
 submit,위 정보로 추가하기,Submit
-cannot_use_selected_server,선택한 서버를 사용할 수 없습니다.,The selected server is unavailable
+cannot_use_selected_server,선택한 서버를 사용할 수 없습니다,The selected server is unavailable
 group_created,채널이 생성되었습니다,A channel has been created
 join_group_succ,채널에 참여했습니다,Joined the channel
 check_group_id,ID를 확인해주세요,Please check the channel ID
-NeedSetGroupName,채널 이름을 작성해주세요.,Please write the channel name.
-AlreadyExist,이미 같은 이름의 채널이 존재합니다.,A channel with the same name already exists
+NeedSetGroupName,채널 이름을 작성해주세요,Please write the channel name
+AlreadyExist,이미 같은 이름의 채널이 존재합니다,A channel with the same name already exists
 UnexpectedErr,준비되지 않은 오류처리,Unexpected error occured
 ## GroupDetail,,
 Title,채널 상세,Channel detail
@@ -344,7 +344,7 @@ BreakupGroup,채널 해산,Breakup
 LeaveGroup,떠나기,Leave group
 GroupRemoved,채널 삭제됨,Channel removed
 GroupForceRemoved,채널이 강제 삭제됨,Channel was forcibly deleted
-YouAreNotCreator,채널 생성자가 아닙니다.,You are not channel creator.
+YouAreNotCreator,채널 생성자가 아닙니다,You are not channel creator
 ## Licenses,,
 open_link,열기,Open
 ## QuickQRShare,,
@@ -355,7 +355,7 @@ Group,채널,Channel
 EmptyData,없음,Null
 ReceiveData,QR코드로 공유,Share by QR code
 SendData,공유,Share
-groupserver_dataonly,서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다.,Server information may behave differently than expected due to the user registration process.
+groupserver_dataonly,서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다,Server information may behave differently than expected due to the user registration process
 success_received,적용하였습니다,Applied
 ## UseAsServer,,
 Title,이 기기를 기능 서버로,Use this device as a functional server
@@ -364,8 +364,8 @@ ThisDeviceAddress,이 기기의 네트워크 주소,Network address of this devi
 RefreshAddress,새로고침,Refresh
 DedicatedServer,사설 서버,Dedicated server
 CustomGroupChat,사설 그룹채팅,Dedicated group chat
-LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다.,The network address of this device will display here.
-NoAddress,연결된 네트워크가 없습니다.,No network connected.
+LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다,The network address of this device will display here
+NoAddress,연결된 네트워크가 없습니다,No network connected
 Tool_engineppt,엔진 PPT 리모콘,Engine PPT Remote contr.
 ## Translator,,
 TranslatorSpeaking,번역가의 한마디,A word from the translator
@@ -407,9 +407,9 @@ NeedAccountReset,비밀번호를 확인해주세요,Please check your password
 ServerNoti,서버 알림,Server notification
 RegisterUserSucc,서버 이용자로 등록되었습니다,You are registered as a server user
 UnexpectedLoginErr,준비되지 않은 오류 유형,Unexpected error type
-CannotOpenImg,유효한 이미지가 아닙니다.,Not a valid image.
+CannotOpenImg,유효한 이미지가 아닙니다,Not a valid image
 UserNotFound,만료된 알림: 사용자 없음,Notification expired: no users
-MissingFile,이 파일은 서버에서 삭제되었습니다.,This file has been deleted from the server.
+MissingFile,이 파일은 서버에서 삭제되었습니다,This file has been deleted from the server
 RemovingAccount,사용자 삭제중,Deleting user
 LogoutAccount,세션 삭제중,Deleting session
 RemovingNotification,알림 삭제중,Deleting notifications
