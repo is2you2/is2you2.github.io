@@ -218,6 +218,11 @@ get-stream@6.0.1 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+highlight.js@11.9.0 [license(s): BSD, BSD-3-Clause]
+├── package.json:  BSD-3-Clause
+├── license files: BSD
+└── readme files: BSD
+
 human-signals@2.1.0 [license(s): Apache, Apache-2.0]
 ├── package.json:  Apache-2.0
 └── license files: Apache
