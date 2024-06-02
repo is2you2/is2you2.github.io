@@ -100,7 +100,6 @@ groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
 joinDediChat,사설 그룹채팅 생성,Create dedicated group chat
 ShowChnServer,서버 표시,Show servers
-quickQRshare,정보 공유,Sharing information
 DevKit,보조 도구,Auxiliary tools
 WebLinkGen,웹 링크 생성기,Weblink generator
 FallbackFS,첫번째 파일 서버,First file server
@@ -348,14 +347,9 @@ YouAreNotCreator,채널 생성자가 아닙니다,You are not channel creator
 ## Licenses,,
 open_link,열기,Open
 ## QuickQRShare,,
-SelectServer,서버 선택,Share at
-SelectData,공유할 정보,Information to share
 GroupServer,서버 정보,Server info
 Group,채널,Channel
 EmptyData,없음,Null
-ReceiveData,QR코드로 공유,Share by QR code
-SendData,공유,Share
-groupserver_dataonly,서버 정보는 사용자 등록 절차가 있어 예상하는 것과 다르게 동작할 수 있습니다,Server information may behave differently than expected due to the user registration process
 success_received,적용하였습니다,Applied
 ## UseAsServer,,
 Title,이 기기를 기능 서버로,Use this device as a functional server
