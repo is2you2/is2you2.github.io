@@ -8,6 +8,13 @@ NoTodo,할 일 추가하기,Add todo
 RequestTodo,새로운 할 일을 받았습니다,Received new todo
 WorkerDone,할 일 완료,Todo completed
 WorkerAbandon,할 일 포기,Give up todo
+FilterCat_0,없음,None
+ColorFilterRed,빨강,Red
+ColorFilterYellow,노랑,Yellow
+ColorFilterGreen,초록,Green
+ColorFilterCyan,청록,Cyan
+ColorFilterBlue,파랑,Blue
+ColorFilterMagenta,자주,Magenta
 ## TodoDetail,,
 Title,할 일 상세,Todo detail
 Server,서버,Server
