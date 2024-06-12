@@ -32,7 +32,7 @@
       "purpose": "maskable any"
     },
     {
-      "src": "/pjcone_pwa/assets/icon/favicon128.png",
+      "src": "/pjcone_pwa/assets/icon/favicon_128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "maskable any"
@@ -73,5 +73,8 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
+  ],
+  "permissions": [
+    "offline_access"
   ]
 }
