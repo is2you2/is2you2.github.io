@@ -249,7 +249,7 @@ CannotEditFile,편집 불가 파일,Cannot edit file
 DownloadThisFile,파일 다운로드,Download file
 FileDownloading,다운받는 중,Downloading
 RemoveFile,파일 삭제,Remove file
-DownloadToLocal,로컬에 파일 다운받기,Download files locally
+DownloadToLocal,파일 기록하기,Record files
 CannotOpenText,열람할 수 없는 파일입니다,This file cannot be viewed
 ReadObject,개체 정보 읽는중,Reading object information
 FailedGetBaseColor,색상 불러오기 실패,Failed to load basecolor

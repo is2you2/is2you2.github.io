@@ -3,8 +3,8 @@
   "short_name": "Project: Cone",
   "theme_color": "#ffffff",
   "background_color": "#fff",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/pjcone_pwa/",
+  "start_url": "/pjcone_pwa/",
   "display": "standalone",
   "icons": [
     {
