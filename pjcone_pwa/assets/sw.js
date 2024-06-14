@@ -40,12 +40,12 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/8668.0b1792dd8ebffce8.js',
           '/pjcone_pwa/7384.2e8d3e67c903a6cd.js',
           '/pjcone_pwa/polyfills-core-js.6505f106031fd254.js',
+          '/pjcone_pwa/7048.04d75ed3b78e3402.js',
           '/pjcone_pwa/9028.c1378d9c18b1c227.js',
           '/pjcone_pwa/8048.ec05cfd08ef21b85.js',
           '/pjcone_pwa/8772.0485a50292d1f22f.js',
           '/pjcone_pwa/1636.b02522e04c7b7dd9.js',
           '/pjcone_pwa/3936.e66d166e7007e201.js',
-          '/pjcone_pwa/7048.9406e2bdd424beb1.js',
           '/pjcone_pwa/polyfills.c63952985b0fb9d0.js',
           '/pjcone_pwa/2776.409b5ae3bd3da5a7.js',
           '/pjcone_pwa/1048.69dbcaeea17ce263.js',
@@ -58,7 +58,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/4712.8976bd6727721411.js',
           '/pjcone_pwa/1492.669e13b3b45412d6.js',
           '/pjcone_pwa/5652.416d76e9ac32fbe8.js',
-          '/pjcone_pwa/main.3a400ed6ee36955c.js',
           '/pjcone_pwa/1052.439105f18aea7a3d.js',
           '/pjcone_pwa/5956.f31e9a5bb4a25960.js',
           '/pjcone_pwa/1588.679439684a124b34.js',
@@ -135,7 +134,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/9924.114a4f25c81e517a.js',
           '/pjcone_pwa/4284.a588a9fb16ed86f9.js',
           '/pjcone_pwa/9428.74947d2a38104244.js',
-          '/pjcone_pwa/runtime.b13cee03485993bd.js',
           '/pjcone_pwa/polyfills-dom.11a95970b882de32.js',
           '/pjcone_pwa/3116.bbf711ad7b2e43cc.js',
           '/pjcone_pwa/5968.543dc0ba08e0fc51.js',
@@ -1494,6 +1492,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/1644.acefda62642272dc.js',
           '/pjcone_pwa/4272.4a16cef60b9212bd.js',
           '/pjcone_pwa/9440.6b41037d823ee0ea.js',
+          '/pjcone_pwa/main.1a1e4044f2b71abc.js',
           '/pjcone_pwa/6768.5a6649962949e65f.js',
           '/pjcone_pwa/7176.073b3ec3d990980c.js',
           '/pjcone_pwa/6660.1dca79052c9db834.js',
@@ -1518,9 +1517,9 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/3136.7fe03658491ecb33.js',
           '/pjcone_pwa/3264.9948c3bb57183fcc.js',
           '/pjcone_pwa/6824.798fbb998b209e97.js',
+          '/pjcone_pwa/runtime.3ce976964ec646a6.js',
           '/pjcone_pwa/3604.7368f12ed1efe58f.js',
           '/pjcone_pwa/3872.e9a9984da972b360.js',
-
         ]);
       })
   );
@@ -1542,24 +1541,8 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        if (response) {
-          return response;
-        }
-        return fetch(event.request)
-          .then(response => {
-            if (!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-
-            const responseToCache = response.clone();
-            caches.open(CACHE_NAME)
-              .then(cache => {
-                cache.put(event.request, responseToCache);
-              });
-            return response;
-          });
-      })
+    fetch(event.request).catch(function () {
+      return caches.match(event.request);
+    })
   );
 });
