@@ -7,6 +7,9 @@ self.addEventListener('install', event => {
         // 경로 업데이트 필수
         return cache.addAll([
           '/pjcone_pwa/',
+          '/pjcone_pwa/index.html',
+          '/pjcone_pwa/assets/html/index.html',
+          '/pjcone_pwa/assets/js.blend/index.html',
           '/pjcone_pwa/8696.a5c778a463e9d5f8.js',
           '/pjcone_pwa/1592.bacd2478b0c68291.js',
           '/pjcone_pwa/8928.39906532fa63c454.js',
@@ -24,7 +27,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/2454.553126840187a066.js',
           '/pjcone_pwa/5024.ec118d015092ee81.js',
           '/pjcone_pwa/3296.bfdce6f44a0ee763.js',
-          '/pjcone_pwa/main.b19fbcd637eb7023.js',
           '/pjcone_pwa/5929.a7d444c6374e8a92.js',
           '/pjcone_pwa/6056.74366fa277e61674.js',
           '/pjcone_pwa/8080.86c8b4bf932855a6.js',
@@ -113,7 +115,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/assets/html/index.pck',
           '/pjcone_pwa/assets/html/.gdignore',
           '/pjcone_pwa/assets/html/index.png',
-          '/pjcone_pwa/assets/html/index.html',
           '/pjcone_pwa/assets/html/index.audio.worklet.js',
           '/pjcone_pwa/assets/sw.js',
           '/pjcone_pwa/assets/.gitignore',
@@ -128,7 +129,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/assets/js.blend/source/main.js',
           '/pjcone_pwa/assets/js.blend/package.json',
           '/pjcone_pwa/assets/js.blend/build/js.blend.js',
-          '/pjcone_pwa/assets/js.blend/index.html',
           '/pjcone_pwa/assets/js.blend/README.md',
           '/pjcone_pwa/assets/js.blend/example/three.js',
           '/pjcone_pwa/assets/js.blend/example/orbit_controls.js',
@@ -139,7 +139,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/9492.d36e7375a571acd2.js',
           '/pjcone_pwa/3116.bbf711ad7b2e43cc.js',
           '/pjcone_pwa/5968.543dc0ba08e0fc51.js',
-          '/pjcone_pwa/index.html',
           '/pjcone_pwa/4656.9495157405002bec.js',
           '/pjcone_pwa/3276.c1efa0a5fd609a8a.js',
           '/pjcone_pwa/2152.ffa3d960dc05a0e8.js',
@@ -1513,6 +1512,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/7688.428de25bebb6b153.js',
           '/pjcone_pwa/732.8f91085d30d51b9a.js',
           '/pjcone_pwa/4168.3b5589d66aca008e.js',
+          '/pjcone_pwa/main.0e36dac06421df98.js',
           '/pjcone_pwa/2624.7a558e424b4e0829.js',
           '/pjcone_pwa/8232.830c56c62fde520f.js',
           '/pjcone_pwa/3136.7fe03658491ecb33.js',
@@ -1520,7 +1520,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/6824.798fbb998b209e97.js',
           '/pjcone_pwa/3604.7368f12ed1efe58f.js',
           '/pjcone_pwa/3872.e9a9984da972b360.js',
-          
+
         ]);
       })
   );
