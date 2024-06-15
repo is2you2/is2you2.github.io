@@ -24,9 +24,11 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/2454.553126840187a066.js',
           '/pjcone_pwa/5024.ec118d015092ee81.js',
           '/pjcone_pwa/3296.bfdce6f44a0ee763.js',
+          '/pjcone_pwa/main.b19fbcd637eb7023.js',
           '/pjcone_pwa/5929.a7d444c6374e8a92.js',
           '/pjcone_pwa/6056.74366fa277e61674.js',
           '/pjcone_pwa/8080.86c8b4bf932855a6.js',
+          '/pjcone_pwa/runtime.1a6c0ce5b16f562b.js',
           '/pjcone_pwa/580.bea09c60f571f533.js',
           '/pjcone_pwa/1488.b40421ca385107a4.js',
           '/pjcone_pwa/common.69abcb3f8734823f.js',
@@ -52,7 +54,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/2728.d69fbd9a90a16131.js',
           '/pjcone_pwa/2448.81573fa6f12c5cda.js',
           '/pjcone_pwa/1708.916a8f89c295f8bd.js',
-          '/pjcone_pwa/9492.66605afbf398a9bf.js',
           '/pjcone_pwa/4032.a647b720b905bfbc.js',
           '/pjcone_pwa/8019.2b2e1881dea88409.js',
           '/pjcone_pwa/4712.8976bd6727721411.js',
@@ -135,6 +136,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/4284.a588a9fb16ed86f9.js',
           '/pjcone_pwa/9428.74947d2a38104244.js',
           '/pjcone_pwa/polyfills-dom.11a95970b882de32.js',
+          '/pjcone_pwa/9492.d36e7375a571acd2.js',
           '/pjcone_pwa/3116.bbf711ad7b2e43cc.js',
           '/pjcone_pwa/5968.543dc0ba08e0fc51.js',
           '/pjcone_pwa/index.html',
@@ -1492,7 +1494,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/1644.acefda62642272dc.js',
           '/pjcone_pwa/4272.4a16cef60b9212bd.js',
           '/pjcone_pwa/9440.6b41037d823ee0ea.js',
-          '/pjcone_pwa/main.1a1e4044f2b71abc.js',
           '/pjcone_pwa/6768.5a6649962949e65f.js',
           '/pjcone_pwa/7176.073b3ec3d990980c.js',
           '/pjcone_pwa/6660.1dca79052c9db834.js',
@@ -1517,9 +1518,9 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/3136.7fe03658491ecb33.js',
           '/pjcone_pwa/3264.9948c3bb57183fcc.js',
           '/pjcone_pwa/6824.798fbb998b209e97.js',
-          '/pjcone_pwa/runtime.3ce976964ec646a6.js',
           '/pjcone_pwa/3604.7368f12ed1efe58f.js',
           '/pjcone_pwa/3872.e9a9984da972b360.js',
+          
         ]);
       })
   );
