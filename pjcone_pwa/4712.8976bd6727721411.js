@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[4712],{4712:(s,c,e)=>{e.d(c,{G:()=>n});const n=(0,e(6400).C_)("VoiceRecorder",{web:()=>e.e(5840).then(e.bind(e,5840)).then(d=>new d.VoiceRecorderWeb)})}}]);

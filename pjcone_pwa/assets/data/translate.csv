@@ -281,7 +281,6 @@ leave_someone,상대방이 나갔습니다,Opponent has gone
 Noti_Greeting,인사,Greeting
 failed_to_join,채팅 참가에 실패했습니다,Failed to join chat
 cannot_join,채팅에 참가할 수 없습니다,Failed to join
-waiting_someone,새로운 상대를 기다립니다..,Waiting for a new opponent
 leave_chat_group,그룹채팅에서 나옵니다,You leave group chat
 ## GroupServer,,
 JoinedServerList,참여중인 서버 목록,List of participating servers
@@ -450,8 +449,17 @@ default_size,기본,default
 InputAddress,주소 입력,Input Address
 ConnectedToServer,서버에 연결됨,Connected
 ConnectToAddress,연결하기,Connect
+LocalAddrInput,주소 직접 입력하기,Enter address directly
 ServerStarted,공유 그림판 서버 켜짐,Shared paint server turned on
-Preparing,기능 준비중입니다,Feature is being prepared
+Confirm,연결,Confirm
+WaitingConnection,연결을 기다리는중,Waiting for connection
+InputAddress,주소를 입력해주세요,Please enter address
+FailedToOpenServer,서버 생성 실패,Failed to create server
+Connected,연결됨,Connected
+InternalConn,내부망 연결,Internal network
+WebRTC_Init,WebRTC 초기화중,Initialize WebRTC
+WebRTC_Reply,주소 정보 교환중,Receiving information reply
+WebRTC_Ice,ICE 정보 교환중,Exchanging ICE information
 ## UserFsDir,,
 NewFolder,새 폴더,New folder
 AddFile,추가,Add
