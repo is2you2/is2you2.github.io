@@ -83,10 +83,14 @@ MainPostImage,대표사진,Header
 NeedPostTitle,제목을 입력해주세요,Please enter the subject
 RemoveAttach,첨부파일 제거,Remove attachment
 WIP,게시물을 등록합니다,Register a post
+SyncPostInfo,게시물 등록중,Registering post info
 SyncMainImage,대표이미지 등록중,Registering representative image
 SyncAttaches,첨부파일 등록중,Registering attached file
 SyncErr,게시물 저장 오류,Error saving post
 NSFW,후방주의,NSFW
+UseOutLink,외부노출,Outlink
+OutLinkFailed,외부노출 실패,Create outlink failed
+NoPostOutLink,게시물 정보 없음,No post information
 RecordVoiceTime,시간기록,V.Time
 SavingRecord,녹음을 저장중입니다,Saving the recording
 RecordVoiceTime,녹음시간 기록됨,Recording time recorded
