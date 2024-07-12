@@ -109,7 +109,7 @@ env_info,사용 환경,Preferences
 myInfo,내 정보,My info
 groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
-joinDediChat,사설 그룹채팅 생성,Create dedicated group chat
+joinDediChat,사설 그룹채팅 참여,Join dedicated group chat
 ShowChnServer,서버 표시,Show servers
 DevKit,보조 도구,Auxiliary tools
 WebLinkGen,웹 링크 생성기,Weblink generator
@@ -266,10 +266,9 @@ ReachLightLimit,빛은 최대 5개까지 등록됩니다,Up to 5 lights can be r
 MayGimbalLock,짐벌락 현상으로 각도가 다르게 표현될 수 있음,The angle may be expressed differently due to gimbal lock phenomenon
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
-shareAddress,주소 공유,Share address
+shareAddress,주소 선택,Select address
 selectNetwork,네트워크를 선택하여 공유,Select network to share
 input_placeholder,메시지 입력...,Enter message...
-header_title_ranchat,미니랜챗,Random chat
 header_title_group,그룹채팅,Group chat
 WebTitle_group,Project: 그룹채팅,Project: GroupChat
 Noti_Reply,답장,Reply

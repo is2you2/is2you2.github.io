@@ -22,9 +22,6 @@ MIT
 @awesome-cordova-plugins/core
 MIT
 
-@awesome-cordova-plugins/device
-MIT
-
 @awesome-cordova-plugins/file
 MIT
 
