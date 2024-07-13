@@ -109,7 +109,6 @@ env_info,사용 환경,Preferences
 myInfo,내 정보,My info
 groupServer,사용자 관리,Manage user info
 useDeviceAsServer,이 기기를 기능 서버로,Use this device as a functional server
-joinDediChat,사설 그룹채팅 참여,Join dedicated group chat
 ShowChnServer,서버 표시,Show servers
 DevKit,보조 도구,Auxiliary tools
 WebLinkGen,웹 링크 생성기,Weblink generator
