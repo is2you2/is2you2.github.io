@@ -18,6 +18,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/2635.438e01aaaef8c68d.js',
           '/pjcone_pwa/1293.745a48675bd2e008.js',
           '/pjcone_pwa/964.69022ab667467f31.js',
+          '/pjcone_pwa/6134.32092f7b3dcdacd4.js',
           '/pjcone_pwa/3rdpartylicenses.txt',
           '/pjcone_pwa/3162.b73d83db957093bd.js',
           '/pjcone_pwa/3746.8ce3d305e7eb6892.js',
@@ -65,7 +66,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/4591.d1f7fb2f5fb4876c.js',
           '/pjcone_pwa/styles.51982f27b2a58a5e.css',
           '/pjcone_pwa/6035.8c13d59ed7fe59f9.js',
-          '/pjcone_pwa/6134.2782240753a1bf9a.js',
+          '/pjcone_pwa/main.e6c2fd141d27bf03.js',
           '/pjcone_pwa/1049.3b9123fb26df3c32.js',
           '/pjcone_pwa/8066.4297fb4db141e981.js',
           '/pjcone_pwa/6280.bfe23e6ac519cea8.js',
@@ -1516,10 +1517,9 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/6024.0f447926a8288eab.js',
           '/pjcone_pwa/5658.9773b449fc45540a.js',
           '/pjcone_pwa/2088.e4ec85ab03ed099e.js',
-          '/pjcone_pwa/runtime.c98e3a780a63221c.js',
           '/pjcone_pwa/2348.5f20a4945c92bc9f.js',
+          '/pjcone_pwa/887.207a5a75b8f49c3d.js',
           '/pjcone_pwa/7030.bb7ce76c4e4eeb57.js',
-          '/pjcone_pwa/main.270465b27f0da2ae.js',
           '/pjcone_pwa/5712.08e887adae2aad7a.js',
           '/pjcone_pwa/5100.6eba1730ffd58dd4.js',
           '/pjcone_pwa/3814.693eafccdf1ebcaa.js',
@@ -1535,7 +1535,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/4911.af063fa174991f88.js',
           '/pjcone_pwa/8314.0e4983d2663ad320.js',
           '/pjcone_pwa/9344.3c79e54f9b487dd0.js',
-          '/pjcone_pwa/887.67d11da0a4ad7774.js',
+          '/pjcone_pwa/runtime.3e0cacce2fd63eb2.js',
         ]);
       })
   );
