@@ -289,6 +289,7 @@ JoinedServerList,참여중인 서버 목록,List of participating servers
 ServerDetail,정보,Info
 RemoveUnofficial,삭제,Delete
 RemoveAccount,탈퇴,Leave
+RemoveAccountReally,서버 탈퇴,Leave server
 RegisterServer,사설 서버 등록하기,Register private server
 DisplayName,표시명,Display name
 DisplayName_placeholder,사용자 사설 서버,User dedicated server

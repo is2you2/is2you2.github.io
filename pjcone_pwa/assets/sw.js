@@ -61,7 +61,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/4591.d1f7fb2f5fb4876c.js',
           '/pjcone_pwa/styles.51982f27b2a58a5e.css',
           '/pjcone_pwa/6035.8c13d59ed7fe59f9.js',
-          '/pjcone_pwa/main.5415b3cd53a44947.js',
           '/pjcone_pwa/1049.3b9123fb26df3c32.js',
           '/pjcone_pwa/8066.4297fb4db141e981.js',
           '/pjcone_pwa/6280.bfe23e6ac519cea8.js',
@@ -135,6 +134,8 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/assets/js.blend/example/orbit_controls.js',
           '/pjcone_pwa/7356.911eacb1ce959b5e.js',
           '/pjcone_pwa/4699.01733b3942afbe92.js',
+          '/pjcone_pwa/main.5718c88d1bbbd8c8.js',
+          '/pjcone_pwa/887.3b0b7bdf0e8ff929.js',
           '/pjcone_pwa/8193.3cdca292f220c8e4.js',
           '/pjcone_pwa/9903.abb16efb7d868bbe.js',
           '/pjcone_pwa/5205.97540eb5613747df.js',
@@ -1506,6 +1507,7 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/7428.93ce6964f6feb078.js',
           '/pjcone_pwa/8814.08b2cd591a37110c.js',
           '/pjcone_pwa/common.05128dedd7e68886.js',
+          '/pjcone_pwa/runtime.9c0a689941bf1e0a.js',
           '/pjcone_pwa/5640.0cd18cb8721cc2d0.js',
           '/pjcone_pwa/2982.8e4cb7653c2224f9.js',
           '/pjcone_pwa/5222.1659b6496b466c5b.js',
@@ -1515,7 +1517,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/2088.e4ec85ab03ed099e.js',
           '/pjcone_pwa/5949.47de5bae5b050b9d.js',
           '/pjcone_pwa/2348.5f20a4945c92bc9f.js',
-          '/pjcone_pwa/887.207a5a75b8f49c3d.js',
           '/pjcone_pwa/7076.3402b9902b08da6d.js',
           '/pjcone_pwa/7030.bb7ce76c4e4eeb57.js',
           '/pjcone_pwa/5390.861a544f17fe957a.js',
@@ -1535,7 +1536,6 @@ self.addEventListener('install', event => {
           '/pjcone_pwa/4911.af063fa174991f88.js',
           '/pjcone_pwa/8314.0e4983d2663ad320.js',
           '/pjcone_pwa/9344.3c79e54f9b487dd0.js',
-          '/pjcone_pwa/runtime.6c57d7380d68bac9.js',
         ]);
       })
   );
