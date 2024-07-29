@@ -35,7 +35,6 @@ const URLs = [
   '/pjcone_pwa/4171.aca1ddee507e43bc.js',
   '/pjcone_pwa/2885.9950943863934f37.js',
   '/pjcone_pwa/2075.fdd43d8e56169f84.js',
-  '/pjcone_pwa/8163.39e4899b98edbe89.js',
   '/pjcone_pwa/6086.f7000c452d5ad73e.js',
   '/pjcone_pwa/2415.1f6d292976c699d1.js',
   '/pjcone_pwa/925.cddb8e0dace91d00.js',
@@ -50,6 +49,7 @@ const URLs = [
   '/pjcone_pwa/9977.b1441e2758751932.js',
   '/pjcone_pwa/2655.22d43085e46660b1.js',
   '/pjcone_pwa/3362.4fb9706f7b526a80.js',
+  '/pjcone_pwa/8163.a6ba7dcc7504481a.js',
   '/pjcone_pwa/8989.e9f54eed70cbbc72.js',
   '/pjcone_pwa/polyfills-dom.bf542500b6fca113.js',
   '/pjcone_pwa/4591.d1f7fb2f5fb4876c.js',
@@ -1543,12 +1543,12 @@ const URLs = [
   '/pjcone_pwa/7230.458b47e2364d0bef.js',
   '/pjcone_pwa/8036.e3c9202e871e883c.js',
   '/pjcone_pwa/7240.6140dc51b67080fd.js',
+  '/pjcone_pwa/runtime.08bc1907a6792930.js',
   '/pjcone_pwa/8805.51bf5a1b0007a860.js',
   '/pjcone_pwa/1153.743670b6b5543226.js',
   '/pjcone_pwa/4911.af063fa174991f88.js',
   '/pjcone_pwa/8314.0e4983d2663ad320.js',
   '/pjcone_pwa/9344.3c79e54f9b487dd0.js',
-  '/pjcone_pwa/runtime.3041ccb8442aaae6.js',
 ]
 
 self.addEventListener('install', event => {
