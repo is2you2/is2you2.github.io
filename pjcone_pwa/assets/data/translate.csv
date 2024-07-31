@@ -101,6 +101,7 @@ CreateTime,작성일,Creation date
 ModifyTime,수정일,Modifition date
 RemovePost,게시물 삭제,Remove post
 OpenFromViewer,파일 뷰어에서 보기,View in file viewer
+CannotOpenProfile,사용자 정보를 열 수 없음,Unable to open user information
 ## Settings,,
 Title,설정,Settings
 CommunityAds,개발자 광고,Developer Ads
