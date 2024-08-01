@@ -73,8 +73,5 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
-  ],
-  "permissions": [
-    "offline_access"
   ]
 }

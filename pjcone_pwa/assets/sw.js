@@ -1,8 +1,8 @@
 const CACHE_NAME = 'my-pwa-cache-v1';
 // 경로 업데이트 필수
-// runtime.js 는 경로에서 무시하기
 const URLs = [
   '/pjcone_pwa/',
+  '/pjcone_pwa/index.html',
   '/pjcone_pwa/2937.2f1eb0fa77e4150d.js',
   '/pjcone_pwa/8477.649c242129469d49.js',
   '/pjcone_pwa/9013.ebee29c37be87a93.js',
@@ -66,8 +66,8 @@ const URLs = [
   '/pjcone_pwa/30.fb1ea273d7ebf299.js',
   '/pjcone_pwa/2560.29885fb3dac5d545.js',
   '/pjcone_pwa/6134.c6636fb1b65d461c.js',
-  '/pjcone_pwa/assets',
-  '/pjcone_pwa/assets/icon',
+  '/pjcone_pwa/assets/',
+  '/pjcone_pwa/assets/icon/',
   '/pjcone_pwa/assets/icon/favicon_72.png',
   '/pjcone_pwa/assets/icon/favicon.png',
   '/pjcone_pwa/assets/icon/favicon_120.png',
@@ -86,7 +86,7 @@ const URLs = [
   '/pjcone_pwa/assets/icon/favicon_152.png',
   '/pjcone_pwa/assets/icon/favicon_384.png',
   '/pjcone_pwa/assets/logo.svg',
-  '/pjcone_pwa/assets/data',
+  '/pjcone_pwa/assets/data/',
   '/pjcone_pwa/assets/data/channel.svg',
   '/pjcone_pwa/assets/data/infos',
   '/pjcone_pwa/assets/data/infos/thanks_to.json',
@@ -114,7 +114,8 @@ const URLs = [
   '/pjcone_pwa/assets/data/docs/godot/mbedtls.txt',
   '/pjcone_pwa/assets/data/docs/godot/enet.txt',
   '/pjcone_pwa/assets/data/docs/licenses.txt',
-  '/pjcone_pwa/assets/html',
+  '/pjcone_pwa/assets/html/',
+  '/pjcone_pwa/assets/html/index.html',
   '/pjcone_pwa/assets/html/index.icon.png',
   '/pjcone_pwa/assets/html/index.js',
   '/pjcone_pwa/assets/html/index.wasm',
@@ -122,11 +123,10 @@ const URLs = [
   '/pjcone_pwa/assets/html/index.pck',
   '/pjcone_pwa/assets/html/.gdignore',
   '/pjcone_pwa/assets/html/index.png',
-  '/pjcone_pwa/assets/html/index.html',
   '/pjcone_pwa/assets/html/index.audio.worklet.js',
   '/pjcone_pwa/assets/sw.js',
   '/pjcone_pwa/assets/.gitignore',
-  '/pjcone_pwa/assets/js.blend',
+  '/pjcone_pwa/assets/js.blend/',
   '/pjcone_pwa/assets/js.blend/threejs_notes.md',
   '/pjcone_pwa/assets/js.blend/license.md',
   '/pjcone_pwa/assets/js.blend/source',
@@ -148,14 +148,13 @@ const URLs = [
   '/pjcone_pwa/assets/js.blend/example/three.js',
   '/pjcone_pwa/assets/js.blend/example/orbit_controls.js',
   '/pjcone_pwa/7356.911eacb1ce959b5e.js',
-  '/pjcone_pwa/index.html',
   '/pjcone_pwa/4699.01733b3942afbe92.js',
   '/pjcone_pwa/8193.3cdca292f220c8e4.js',
   '/pjcone_pwa/9903.abb16efb7d868bbe.js',
   '/pjcone_pwa/5205.97540eb5613747df.js',
   '/pjcone_pwa/3506.eb40002bec1fe567.js',
   '/pjcone_pwa/3810.cf39f15d1c960058.js',
-  '/pjcone_pwa/svg',
+  '/pjcone_pwa/svg/',
   '/pjcone_pwa/svg/trash-outline.svg',
   '/pjcone_pwa/svg/man-outline.svg',
   '/pjcone_pwa/svg/checkmark-done-sharp.svg',
@@ -1552,16 +1551,11 @@ const URLs = [
 ]
 
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => {
-        return Promise.all(
-          URLs.map(url => {
-            cache.add(url);
-          })
-        );
-      })
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    for (let i = 0, j = URLs.length; i < j; i++)
+      await cache.add(URLs[i]);
+  })());
 });
 
 self.addEventListener('activate', event => {
@@ -1578,10 +1572,17 @@ self.addEventListener('activate', event => {
   );
 });
 
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    fetch(event.request).catch(() => {
-      return caches.match(event.request);
-    })
-  );
+self.addEventListener('fetch', (e) => {
+  if (!(
+    e.request.url.startsWith('http:') || e.request.url.startsWith('https:')
+  )) return;
+
+  e.respondWith((async () => {
+    const r = await caches.match(e.request);
+    if (r) return r;
+    const response = await fetch(e.request);
+    const cache = await caches.open(CACHE_NAME);
+    cache.put(e.request, response.clone());
+    return response;
+  })());
 });
