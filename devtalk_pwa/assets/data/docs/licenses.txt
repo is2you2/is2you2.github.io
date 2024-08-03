@@ -1,52 +1,60 @@
-@angular/animations@18.0.6 [license(s): MIT]
+@angular-devkit/core@18.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@angular-devkit/schematics@18.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@angular/animations@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/common@18.0.6 [license(s): MIT]
+@angular/common@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/compiler@18.0.6 [license(s): MIT]
+@angular/compiler@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/core@18.0.6 [license(s): MIT]
+@angular/core@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/forms@18.0.6 [license(s): MIT]
+@angular/forms@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/platform-browser@18.0.6 [license(s): MIT]
+@angular/platform-browser@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/platform-browser-dynamic@18.0.6 [license(s): MIT]
+@angular/platform-browser-dynamic@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/router@18.0.6 [license(s): MIT]
+@angular/router@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@angular/service-worker@18.0.6 [license(s): MIT]
+@angular/service-worker@18.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
-@awesome-cordova-plugins/badge@6.7.0 [license(s): MIT]
+@awesome-cordova-plugins/badge@6.8.0 [license(s): MIT]
 └── package.json:  MIT
 
-@awesome-cordova-plugins/clipboard@6.7.0 [license(s): MIT]
+@awesome-cordova-plugins/clipboard@6.8.0 [license(s): MIT]
 └── package.json:  MIT
 
-@awesome-cordova-plugins/core@6.7.0 [license(s): MIT]
+@awesome-cordova-plugins/core@6.8.0 [license(s): MIT]
 └── package.json:  MIT
 
-@awesome-cordova-plugins/file@6.7.0 [license(s): MIT]
+@awesome-cordova-plugins/file@6.8.0 [license(s): MIT]
 └── package.json:  MIT
 
-@awesome-cordova-plugins/web-socket-server@6.7.0 [license(s): MIT]
+@awesome-cordova-plugins/web-socket-server@6.8.0 [license(s): MIT]
 └── package.json:  MIT
 
 @babel/runtime@7.11.2 [license(s): MIT]
@@ -57,13 +65,9 @@
 ├── package.json:  MIT
 └── license files: MIT
 
-@capacitor-community/text-to-speech@4.0.2 [license(s): MIT]
+@capacitor-community/text-to-speech@4.1.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
-
-@capacitor-mlkit/barcode-scanning@6.1.0 [license(s): Apache, Apache-2.0]
-├── package.json:  Apache-2.0
-└── license files: Apache
 
 @capacitor/android@6.1.0 [license(s): MIT]
 ├── package.json:  MIT
@@ -108,16 +112,21 @@
 @heroiclabs/nakama-js@2.8.0 [license(s): Apache-2.0]
 └── package.json:  Apache-2.0
 
-@ionic/angular@8.2.5 [license(s): MIT]
+@ionic/angular@8.2.6 [license(s): MIT]
 └── package.json:  MIT
 
-@ionic/core@8.2.5 [license(s): MIT]
+@ionic/core@8.2.6 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
 @ionic/pwa-elements@3.3.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+@jridgewell/sourcemap-codec@1.5.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
 
 @langx/capacitor-voice-recorder@6.0.7 [license(s): MIT]
 ├── package.json:  MIT
@@ -155,22 +164,38 @@
 ├── package.json:  MIT
 └── license files: MIT
 
-@typescript-eslint/scope-manager@7.15.0 [license(s): MIT]
+@typescript-eslint/scope-manager@8.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-@typescript-eslint/types@7.15.0 [license(s): MIT]
+@typescript-eslint/types@8.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-@typescript-eslint/typescript-estree@7.15.0 [license(s): BSD-2-Clause]
+@typescript-eslint/typescript-estree@8.0.0 [license(s): BSD-2-Clause]
 └── package.json:  BSD-2-Clause
 
-@typescript-eslint/utils@7.15.0 [license(s): MIT]
+@typescript-eslint/utils@8.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-@typescript-eslint/visitor-keys@7.15.0 [license(s): MIT]
+@typescript-eslint/visitor-keys@8.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ajv@8.16.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ajv-formats@3.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-regex@5.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-styles@4.3.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
@@ -188,6 +213,16 @@ base64-arraybuffer@1.0.2 [license(s): MIT]
 ├── package.json:  MIT
 └── readme files: MIT
 
+base64-js@1.5.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+bl@4.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
 brace-expansion@2.0.1 [license(s): MIT]
 ├── package.json:  MIT
 ├── license files: MIT
@@ -197,7 +232,33 @@ braces@3.0.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+buffer@5.7.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+chalk@4.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cli-cursor@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cli-spinners@2.9.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
 clipboardy@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+clone@1.0.4 [license(s): MIT]
+└── package.json:  MIT
+
+color-convert@2.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+color-name@1.1.4 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
@@ -227,10 +288,14 @@ cross-spawn@7.0.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-debug@4.3.5 [license(s): MIT]
+debug@4.3.6 [license(s): MIT]
 ├── package.json:  MIT
 ├── license files: MIT
 └── readme files: MIT
+
+defaults@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
 
 devtalk@0.0.1 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
 ├── license files: Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain
@@ -245,11 +310,18 @@ dom-to-image@2.6.0 [license(s): MIT]
 ├── license files: MIT
 └── readme files: MIT
 
+emoji-regex@8.0.0 [license(s): MIT]
+└── package.json:  MIT
+
 eslint-visitor-keys@3.4.3 [license(s): Apache, Apache-2.0]
 ├── package.json:  Apache-2.0
 └── license files: Apache
 
 execa@8.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+fast-deep-equal@3.1.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
@@ -282,6 +354,11 @@ globby@11.1.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+has-flag@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
 highlight.js@11.10.0 [license(s): BSD, BSD-3-Clause]
 ├── package.json:  BSD-3-Clause
 ├── license files: BSD
@@ -291,8 +368,16 @@ human-signals@5.0.0 [license(s): Apache, Apache-2.0]
 ├── package.json:  Apache-2.0
 └── license files: Apache
 
+ieee754@1.2.1 [license(s): BSD, BSD-3-Clause]
+├── package.json:  BSD-3-Clause
+└── readme files: BSD
+
 ignore@5.3.1 [license(s): MIT]
 └── package.json:  MIT
+
+inherits@2.0.4 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
 
 ionicons@7.4.0 [license(s): MIT]
 ├── package.json:  MIT
@@ -306,6 +391,11 @@ is-extglob@2.1.1 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+is-fullwidth-code-point@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
 is-glob@4.0.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
@@ -314,11 +404,19 @@ is-inside-container@1.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+is-interactive@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
 is-number@7.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
 is-stream@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-unicode-supported@0.1.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
@@ -341,9 +439,21 @@ jetifier@2.0.0 [license(s): MIT]
 js-base64@3.7.7 [license(s): BSD-3-Clause]
 └── package.json:  BSD-3-Clause
 
-jsonc-parser@3.2.1 [license(s): MIT]
+json-schema-traverse@1.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+jsonc-parser@3.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+log-symbols@4.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+magic-string@0.30.10 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
 
 merge-stream@2.0.0 [license(s): MIT]
 ├── package.json:  MIT
@@ -358,6 +468,11 @@ merge2@1.4.1 [license(s): MIT]
 micromatch@4.0.7 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+mimic-fn@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
 
 mimic-fn@4.0.0 [license(s): MIT]
 ├── package.json:  MIT
@@ -375,11 +490,19 @@ npm-run-path@5.3.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+onetime@5.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
 onetime@6.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-p5@1.9.4 [license(s): LGPL-2.1]
+ora@5.4.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+p5@1.10.0 [license(s): LGPL-2.1]
 └── package.json:  LGPL-2.1
 
 path-key@3.1.1 [license(s): MIT]
@@ -399,6 +522,13 @@ picomatch@2.3.1 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+picomatch@4.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+punycode@2.3.1 [license(s): MIT]
+└── package.json:  MIT
+
 qrcode-svg@1.1.0 [license(s): MIT]
 ├── package.json:  MIT
 ├── license files: MIT
@@ -408,9 +538,22 @@ queue-microtask@1.2.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+readable-stream@3.6.2 [license(s): MIT]
+└── package.json:  MIT
+
 regenerator-runtime@0.13.11 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+require-from-string@2.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+restore-cursor@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
 
 reusify@1.0.4 [license(s): MIT]
 ├── package.json:  MIT
@@ -425,6 +568,10 @@ rxjs@7.8.1 [license(s): Apache, Apache-2.0]
 ├── package.json:  Apache-2.0
 └── license files: Apache
 
+safe-buffer@5.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
 semver@7.6.2 [license(s): ISC]
 ├── package.json:  ISC
 └── license files: ISC
@@ -438,6 +585,10 @@ shebang-regex@3.0.0 [license(s): MIT]
 ├── license files: MIT
 └── readme files: MIT
 
+signal-exit@3.0.7 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
 signal-exit@4.1.0 [license(s): ISC]
 ├── package.json:  ISC
 └── license files: ISC
@@ -447,7 +598,25 @@ slash@3.0.0 [license(s): MIT]
 ├── license files: MIT
 └── readme files: MIT
 
+source-map@0.7.4 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+string-width@4.2.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+string_decoder@1.3.0 [license(s): MIT]
+└── package.json:  MIT
+
+strip-ansi@6.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
 strip-final-newline@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+supports-color@7.2.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
@@ -466,6 +635,18 @@ ts-api-utils@1.3.0 [license(s): MIT]
 tslib@2.6.3 [license(s): 0BSD]
 └── package.json:  0BSD
 
+uri-js@4.4.1 [license(s): BSD-2-Clause]
+└── package.json:  BSD-2-Clause
+
+util-deprecate@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+wcwidth@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
 whatwg-fetch@3.6.20 [license(s): MIT]
 └── package.json:  MIT
 
@@ -474,7 +655,11 @@ which@2.0.2 [license(s): BSD, ISC]
 ├── license files: ISC
 └── readme files: BSD
 
-zone.js@0.14.7 [license(s): MIT]
+wrap-ansi@7.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+zone.js@0.14.8 [license(s): MIT]
 ├── package.json:  MIT
 ├── license files: MIT
 └── readme files: MIT
