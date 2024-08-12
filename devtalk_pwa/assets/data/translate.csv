@@ -17,6 +17,11 @@ ColorFilterGreen,초록,Green
 ColorFilterCyan,청록,Cyan
 ColorFilterBlue,파랑,Blue
 ColorFilterMagenta,자주,Magenta
+FilterByCreator,생성자,Creator
+CreatorLocal,로컬에 생성,Create locally
+CreatorMe,서버에 생성,Created on server
+Requested,지시함,Requested
+CreatorOther,지시 받음,Requested by
 Server,서버,Server
 Group,채널,Group
 StoreAt,저장 위치,Save to
