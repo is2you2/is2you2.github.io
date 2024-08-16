@@ -17,6 +17,20 @@
     // 예하 경로에 의한 경로찾기 오류 완화용
     let base = document.getElementById('site_base');
     var sub_path = base.getAttribute('href');
+    var swReg;
+    // 웹 알림의 행동을 미리 기록해두었다가 서비스 워커로부터 신호를 받으면 함수 행동 후 해당 함수 삭제
+    var swRegListenerCallback = {};
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register(`${sub_path}assets/sw.js`)
+        .then((reg) => {
+          console.log('Service Worker Registered');
+          swReg = reg;
+          reg.update();
+        }).catch(e => {
+          console.error('Service Worker Register failed: ', e);
+        });
+    }
   </script>
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#000000">
@@ -33,6 +47,6 @@
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.3deea6217f4642ed.js" type="module"></script><script src="polyfills.c3a9e4b87df5be46.js" type="module"></script><script src="main.83b21f89214bb8d7.js" type="module"></script></body>
+<script src="runtime.f0a07d455d3506cd.js" type="module"></script><script src="polyfills.c3a9e4b87df5be46.js" type="module"></script><script src="main.56be014166f39a6d.js" type="module"></script></body>
 
 </html>
