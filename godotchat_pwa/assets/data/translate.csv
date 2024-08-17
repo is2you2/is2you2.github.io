@@ -30,6 +30,8 @@ WrittenByMe,내가 작성,Written by me
 DeletedServer,서버 삭제됨,Server deleted
 Disconnected,연결 끊김,Disconnected
 TodoComplete,완료,Done
+MoveToLocal,로컬로 저장소 이전,Transfer storage locally
+RemoveFromRemote,원격 서버에 삭제요청되며 로컬에 다시 저장,A deletion request is made to the remote server and saved locally again.
 NoDeadLine,기한 없음,No deadline
 DisplayName,표시명,Display name
 DisplayName_placeholder,짧게,briefly
