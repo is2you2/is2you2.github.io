@@ -289,10 +289,6 @@ defaults@1.0.4 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-devtalk@0.0.1 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
-├── license files: Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain
-└── readme files: MIT
-
 dir-glob@3.0.1 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
@@ -337,6 +333,10 @@ glob-parent@5.1.2 [license(s): ISC]
 globby@11.1.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+godotchat@0.0.1 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
+├── license files: Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain
+└── readme files: MIT
 
 has-flag@4.0.0 [license(s): MIT]
 ├── package.json:  MIT

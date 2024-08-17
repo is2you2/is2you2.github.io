@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1723862290775,
+  "timestamp": 1723863337187,
   "index": "/godotchat_pwa/index.html",
   "assetGroups": [
     {
@@ -158,7 +158,7 @@
         "/godotchat_pwa/assets/logo.svg",
         "/godotchat_pwa/common.2d4b2a28a0e45d2b.js",
         "/godotchat_pwa/index.html",
-        "/godotchat_pwa/main.5b2df5258b0a57d4.js",
+        "/godotchat_pwa/main.0c80c8107315a538.js",
         "/godotchat_pwa/polyfills-core-js.c76198334f717402.js",
         "/godotchat_pwa/polyfills-dom.bf542500b6fca113.js",
         "/godotchat_pwa/polyfills.c3a9e4b87df5be46.js",
@@ -1636,7 +1636,7 @@
     "/godotchat_pwa/assets/data/docs/godot/godot.txt": "ec6856b4ffca03a91d1bef5ffbb184f71c93ed04",
     "/godotchat_pwa/assets/data/docs/godot/thirdparty.txt": "21558fb5085fae1b4a0cdfb5775a97e8de086174",
     "/godotchat_pwa/assets/data/docs/js.blend.txt": "2a8a94c47168085f7ff53c1ff8317f65aa93ca56",
-    "/godotchat_pwa/assets/data/docs/licenses.txt": "f26d277136bf3c1fda568db67bf036414d618999",
+    "/godotchat_pwa/assets/data/docs/licenses.txt": "15eaf448a30c2dc73f5d00cd26eda829c72511a7",
     "/godotchat_pwa/assets/data/helped/razorbacky.png": "02c13213758fca55fe29faaa861b40a56049ce03",
     "/godotchat_pwa/assets/data/infos/contributors.json": "97d170e1550eee4afc0af065b78cda302a97674c",
     "/godotchat_pwa/assets/data/infos/en/creator.json": "fa9007b03d0a610da610ae2db0565d22dd789daa",
@@ -1672,8 +1672,8 @@
     "/godotchat_pwa/assets/js.blend/package.json": "2c23c55854cb449592b322de7d32b2ac8fffeebd",
     "/godotchat_pwa/assets/logo.svg": "4eb07e51e87261c25e584fd854d97fe8d5e2b836",
     "/godotchat_pwa/common.2d4b2a28a0e45d2b.js": "49aa8464f8e153d1c4280363023d789f18304d61",
-    "/godotchat_pwa/index.html": "5d6831a468a98fad84aa4edc86a771063c5d7727",
-    "/godotchat_pwa/main.5b2df5258b0a57d4.js": "4efd52d36e264f405c11069f07ab1f9b72fa53c9",
+    "/godotchat_pwa/index.html": "17c168a3875019611dc23fe151220d884ed2e176",
+    "/godotchat_pwa/main.0c80c8107315a538.js": "b8a55aae8ffae20f74aab6bb221fcfa079c467c0",
     "/godotchat_pwa/polyfills-core-js.c76198334f717402.js": "d6e270a2944b6a95a9b97dafd25599ba825e8d7f",
     "/godotchat_pwa/polyfills-dom.bf542500b6fca113.js": "3fa333db66c8050f12e99d977f5098a6de8dd593",
     "/godotchat_pwa/polyfills.c3a9e4b87df5be46.js": "11979a0b731e854f52a3004383a76bc8469e291e",

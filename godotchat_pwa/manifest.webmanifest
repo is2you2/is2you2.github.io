@@ -1,6 +1,6 @@
 {
-  "name": "DevTalk",
-  "short_name": "DevTalk",
+  "name": "GodotChat",
+  "short_name": "GodotChat",
   "theme_color": "#ffffff",
   "background_color": "#fff",
   "scope": "/godotchat_pwa/",
