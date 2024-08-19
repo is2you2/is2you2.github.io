@@ -385,6 +385,7 @@ PCClipboard,복사됨,Copied
 FailedToDownloadGodot,씬 실행 실패,Execution scene failed
 variousCreator,파일 첨부,Attachments
 FromCamera,카메라로 직접 촬영,From camera
+ErrorFromCamera,촬영 실패,Failed to film
 FromVoidDraw,앱 그림판에서 작업,From in-app painter
 FromAutoLongText,긴 글 파일,Long text file
 FromTextEditor,텍스트 편집기,From text editor
