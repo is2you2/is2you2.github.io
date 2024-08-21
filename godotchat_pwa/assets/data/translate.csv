@@ -253,7 +253,6 @@ OnFailedLoadContent,파일을 열지 못함,Cannot open file
 saveFile,저장,Save
 AlreadyExist,같은 이름의 파일이 이미 있습니다,A file with the same name already exists
 OverWriteFile,파일 덮어쓰기,Overwrite files
-fileSaved,저장되었습니다,File saved
 fileSaveFailed,파일 저장에 실패했습니다,Failed to save file
 ShareContent,다른 채널에 공유하기,Share to other channels
 CannotEditFile,편집 불가 파일,Cannot edit file
@@ -273,8 +272,6 @@ ReachLightLimit,빛은 최대 5개까지 등록됩니다,Up to 5 lights can be r
 MayGimbalLock,짐벌락 현상으로 각도가 다르게 표현될 수 있음,The angle may be expressed differently due to gimbal lock phenomenon
 ## MinimalChat,,
 concurrent_users,동시접속자,Concurrent users
-shareAddress,주소 선택,Select address
-selectNetwork,네트워크를 선택하여 공유,Select network to share
 input_placeholder,메시지 입력...,Enter message...
 header_title_group,광장,Square
 WebTitle_group,Project: 광장,Project: Square
@@ -456,6 +453,7 @@ height,세로,Height
 weight,선 두께,Stroke weight
 changeWeight,두께 변경,Change weight
 apply,적용,Apply
+CreateChannel,새 채널 생성,Create new channel
 default_size,기본,default
 InputAddress,주소 입력,Input address
 ChannelIdAddress,채널id 입력,Input channel id

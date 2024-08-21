@@ -54,9 +54,6 @@
 @awesome-cordova-plugins/file@6.8.0 [license(s): MIT]
 └── package.json:  MIT
 
-@awesome-cordova-plugins/web-socket-server@6.8.0 [license(s): MIT]
-└── package.json:  MIT
-
 @babel/runtime@7.11.2 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
@@ -274,11 +271,6 @@ cordova-plugin-file@8.1.0 [license(s): Apache, Apache-2.0]
 cordova-plugin-local-notification-12@0.1.3 [license(s): Apache, Apache 2.0]
 ├── package.json:  Apache 2.0
 └── license files: Apache
-
-cordova-plugin-websocket-server@1.6.0 [license(s): MIT]
-├── package.json:  MIT
-├── license files: MIT
-└── readme files: MIT
 
 debug@4.3.6 [license(s): MIT]
 ├── package.json:  MIT
