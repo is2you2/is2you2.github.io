@@ -283,6 +283,7 @@ user_join,사용자 참여,User joined
 user_join_comment,광장에 참여했습니다,joined the square
 user_out,사용자 떠남,User out
 user_out_comment,광장을 떠났습니다,leaved the square
+user_send_attach,파일을 보냈습니다,sent a file
 meet_someone,누군가를 만났습니다,You met someone
 leave_someone,상대방이 나갔습니다,Opponent has gone
 Noti_Greeting,인사,Greeting
