@@ -125,6 +125,7 @@ DevKit,보조 도구,Auxiliary tools
 WebLinkGen,웹 링크 생성기,Weblink generator
 FallbackFS,첫번째 파일 서버,First file server
 TryToFallbackFS,FFS 업로드 시도,Try with FFS
+OverrideFallbackFS,FFS 우선 적용,Override FFS
 ServerFiles,사설 서버 구성하기,Configuring a private server
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,내부망 WebRTC,Internal network WebRTC
