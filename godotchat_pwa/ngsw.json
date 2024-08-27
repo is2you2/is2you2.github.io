@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1724737054998,
+  "timestamp": 1724754955879,
   "index": "/godotchat_pwa/index.html",
   "assetGroups": [
     {
@@ -133,7 +133,6 @@
         "/godotchat_pwa/assets/data/install_pwa.png",
         "/godotchat_pwa/assets/data/local.svg",
         "/godotchat_pwa/assets/data/translate.csv",
-        "/godotchat_pwa/assets/html/.gdignore",
         "/godotchat_pwa/assets/html/index.apple-touch-icon.png",
         "/godotchat_pwa/assets/html/index.audio.worklet.js",
         "/godotchat_pwa/assets/html/index.html",
@@ -1667,7 +1666,6 @@
     "/godotchat_pwa/assets/data/install_pwa.png": "820701a51140575a8b884a566cdd89dbfdeeecb0",
     "/godotchat_pwa/assets/data/local.svg": "d98944907ef57b0a5e418231da80aa7762630d22",
     "/godotchat_pwa/assets/data/translate.csv": "d18648519461c4dfce09f94939775e5ab258209e",
-    "/godotchat_pwa/assets/html/.gdignore": "8eee7eb8ecfb5aa71c23c782bb5dbc091a551ffd",
     "/godotchat_pwa/assets/html/index.apple-touch-icon.png": "1d7d1450f43a7e460e6db0a73683ea93313c6a34",
     "/godotchat_pwa/assets/html/index.audio.worklet.js": "fa4ddbcecba3dbaefaf6722b9af8e9964d42a1df",
     "/godotchat_pwa/assets/html/index.html": "e91826681652febf90f6c9f0a57bde9e2965eeac",
