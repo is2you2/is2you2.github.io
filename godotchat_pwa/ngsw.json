@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1725208081281,
+  "timestamp": 1725208895092,
   "index": "/godotchat_pwa/index.html",
   "assetGroups": [
     {
@@ -176,7 +176,7 @@
         "/godotchat_pwa/assets/logo.svg",
         "/godotchat_pwa/common.b3c96318108ca9a1.js",
         "/godotchat_pwa/index.html",
-        "/godotchat_pwa/main.03d1ca1ac82e20fc.js",
+        "/godotchat_pwa/main.e4d3eaa0094792ef.js",
         "/godotchat_pwa/polyfills-core-js.c76198334f717402.js",
         "/godotchat_pwa/polyfills-dom.bf542500b6fca113.js",
         "/godotchat_pwa/polyfills.c3a9e4b87df5be46.js",
@@ -1708,8 +1708,8 @@
     "/godotchat_pwa/assets/js.blend/threejs_notes.md": "fca176a2e1fe434b3e4e9b2e028177c65f912776",
     "/godotchat_pwa/assets/logo.svg": "4eb07e51e87261c25e584fd854d97fe8d5e2b836",
     "/godotchat_pwa/common.b3c96318108ca9a1.js": "7742d7ee1938ffd1e2fc3c0c1ba6c1dfc7d6603e",
-    "/godotchat_pwa/index.html": "0ed9f58f83d8502b64102ab1c721d00d7931496f",
-    "/godotchat_pwa/main.03d1ca1ac82e20fc.js": "134095db36d2986bfa1cea69785b64bbe369ae75",
+    "/godotchat_pwa/index.html": "9aea0c483af14258004da9ac86e079343ff1d1a3",
+    "/godotchat_pwa/main.e4d3eaa0094792ef.js": "61031ce095d32699803dbf839870145ae5f9b73c",
     "/godotchat_pwa/polyfills-core-js.c76198334f717402.js": "d6e270a2944b6a95a9b97dafd25599ba825e8d7f",
     "/godotchat_pwa/polyfills-dom.bf542500b6fca113.js": "3fa333db66c8050f12e99d977f5098a6de8dd593",
     "/godotchat_pwa/polyfills.c3a9e4b87df5be46.js": "11979a0b731e854f52a3004383a76bc8469e291e",
