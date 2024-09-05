@@ -16,12 +16,6 @@ MIT
 @angular/service-worker
 MIT
 
-@awesome-cordova-plugins/clipboard
-MIT
-
-@awesome-cordova-plugins/core
-MIT
-
 @babel/runtime
 MIT
 MIT License

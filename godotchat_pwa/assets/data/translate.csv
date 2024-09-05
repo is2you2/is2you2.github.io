@@ -235,7 +235,6 @@ TalkMessage,말해주세요,Tell me
 RemoveChannel,채널 기록 삭제,Remove channel files
 CannotUndone,이 작업은 되돌릴 수 없습니다,This action cannot be undone
 RemoveChannelLogs,채널 기록을 삭제합니다,Delete channel history
-UnlinkChannel,더 이상 메시지를 수신받지 않습니다,You will no longer receive messages
 Delete,삭제,Delete
 LocalImageChanged,채널 이미지가 변경되었습니다,Channel image has been changed
 LocalImageRemoved,채널 이미지가 삭제되었습니다,Channel image has been deleted
@@ -291,6 +290,13 @@ Noti_Greeting,인사,Greeting
 failed_to_join,채팅 참가에 실패했습니다,Failed to join chat
 cannot_join,채팅에 참가할 수 없습니다,Failed to join
 leave_chat_group,광장에서 나옵니다,You leave square
+## InstantCall,,
+Title,즉석 통화,Instant call
+Waiting,연결 대기중,Waiting for connection
+MissingInfo,연결 정보가 누락되었습니다,Connection information is missing
+Connecting,연결중,Connecting
+Connected,연결됨,Connected
+CallEnd,통화 종료,End call
 ## GroupServer,,
 JoinedServerList,참여중인 서버 목록,List of participating servers
 ServerDetail,정보,Info
@@ -456,7 +462,6 @@ weight,선 두께,Stroke weight
 changeWeight,두께 변경,Change weight
 apply,적용,Apply
 CreateChannel,새 채널 생성,Create new channel
-default_size,기본,default
 InputAddress,주소 입력,Input address
 ChannelIdAddress,채널id 입력,Input channel id
 ConnectedToServer,서버에 연결됨,Connected
