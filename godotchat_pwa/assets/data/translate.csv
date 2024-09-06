@@ -190,6 +190,7 @@ useFSS,FFS우선,tryFFS
 forceSQL,SQL강제,useSQL
 Camera,카메라,Camera
 Voice,녹음하기,Mic.
+VoiceStop,완료,Stop
 VoiceChat,음성통화,Voice
 EmbedFiles,파일들,Files
 ReadText,읽어주기,TTS
