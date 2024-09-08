@@ -69,7 +69,6 @@ JoinedChannels,참여 채널,Joined channels
 has_noties,검토해야할 알림이 있습니다,There are notifications to review
 NoChat,채널 생성하기,Create a channel
 noChatList,참여중인 대화가 없습니다,There are no active conversations
-noTitiedChat,제목 없는 채팅방,Untitled chat room
 noMessageHistory,기록된 메시지 없음,No messages logged
 CameraPermissionDenied,카메라 권한을 얻지 못했습니다,Failed to get camera permission
 Disconnected,연결된 서버가 없습니다,No server connected
@@ -173,7 +172,7 @@ added_to_group,사용자가 추가되었습니다,User added
 kicked_from_group,사용자를 내보냈습니다,User kicked
 refresh,새로고침,Refresh
 ## ChatRoom,,
-noname_chatroom,이름 없는 채팅방,Unnamed chat room
+noname_chatroom,이름 없는 채널,Unnamed channel
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
 unknown_ext,검토 불가,No review
 ExtSettings,채널설정,Settings
@@ -286,8 +285,8 @@ user_send_attach,파일을 보냈습니다,sent a file
 meet_someone,누군가를 만났습니다,You met someone
 leave_someone,상대방이 나갔습니다,Opponent has gone
 Noti_Greeting,인사,Greeting
-failed_to_join,채팅 참가에 실패했습니다,Failed to join chat
-cannot_join,채팅에 참가할 수 없습니다,Failed to join
+failed_to_join,채널 참가에 실패했습니다,Failed to join channel
+cannot_join,채널에 참가할 수 없습니다,Unable to join channel
 leave_chat_group,광장에서 나옵니다,You leave square
 ## InstantCall,,
 Title,즉석 통화,Instant call
