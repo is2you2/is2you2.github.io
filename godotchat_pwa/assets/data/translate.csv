@@ -170,7 +170,6 @@ privacy_chat,1:1 대화,Private chat
 kick_from_group,추방,Kick user
 added_to_group,사용자가 추가되었습니다,User added
 kicked_from_group,사용자를 내보냈습니다,User kicked
-refresh,새로고침,Refresh
 ## ChatRoom,,
 noname_chatroom,이름 없는 채널,Unnamed channel
 fetch_previous_chat,이전 기록 불러오기,Recall previous record
@@ -189,7 +188,7 @@ useFSS,FFS우선,tryFFS
 forceSQL,SQL강제,useSQL
 Camera,카메라,Camera
 Voice,녹음하기,Mic.
-VoiceStop,완료,Stop
+VoiceStop,중지,Stop
 VoiceChat,음성통화,Voice
 EmbedFiles,파일들,Files
 ReadText,읽어주기,TTS
@@ -372,7 +371,6 @@ success_received,적용하였습니다,Applied
 Title,이 기기를 기능 서버로,Use this device as a functional server
 UserNotice,사용 유의사항,Precautions for use
 ThisDeviceAddress,이 기기의 네트워크 주소,Network address of this device
-RefreshAddress,새로고침,Refresh
 DedicatedServer,사설 서버,Dedicated server
 LoadingAddresses,이곳에 이 기기의 네트워크 주소가 보여집니다,The network address of this device will display here
 NoAddress,연결된 네트워크가 없습니다,No network connected
@@ -518,6 +516,8 @@ ImageURL,이미지 URL,Image URL
 EnterURI,이미지 주소 입력,Enter image url
 NoNotiMsg,전달할 메시지를 입력해주세요,Please enter your message
 Send,발송,Send
+Refresh,새로고침,Refresh
+Requesting,요청중,Requesting
 SendFailed,발송 실패,Send failed
 isPersistent,오프라인 사용자에게도 전달,Persistent
 UserList,사용자 목록,Users
