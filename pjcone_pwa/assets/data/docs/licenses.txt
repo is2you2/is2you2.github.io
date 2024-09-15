@@ -84,10 +84,6 @@
 ├── package.json:  MIT
 └── license files: MIT
 
-@capacitor/local-notifications@6.0.0 [license(s): MIT]
-├── package.json:  MIT
-└── license files: MIT
-
 @capacitor/status-bar@6.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
@@ -246,10 +242,6 @@ color-name@1.1.4 [license(s): MIT]
 └── license files: MIT
 
 cordova-plugin-badge@0.8.9 [license(s): Apache, Apache 2.0]
-├── package.json:  Apache 2.0
-└── license files: Apache
-
-cordova-plugin-local-notification-12@0.1.3 [license(s): Apache, Apache 2.0]
 ├── package.json:  Apache 2.0
 └── license files: Apache
 

@@ -427,6 +427,7 @@ MissingChannels,채널 손상처리,Processing channel damage
 MissingChannelFiles,파일 이관중,Transferring file
 MissingGroups,그룹 손상처리,Processing channel group
 DeletingServerInfo,서버 정보 삭제,Delete server information
+DamagedChannel,손상된 채널,Damaged channel
 DeletedServer,삭제된 서버,Deleted server
 GroupUserJoin,사용자 채널참여,User joined
 GroupUserOut,사용자 채널탈퇴,User leaved
