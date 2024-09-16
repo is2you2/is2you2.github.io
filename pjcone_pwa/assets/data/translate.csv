@@ -140,6 +140,7 @@ AppLanguage,언어 설정,Languages
 LicenseNotice,라이선스 고지,License Notice
 UserGuideLink,사용자 가이드,User guide
 Sponsorship,후원,Sponsorship
+Support,이 프로젝트를 후원합니다,Support this project
 OpenPlayStore,PWA 페이지 사용,Using PWA pages
 ## NotificationSettings,,
 set_alert,알림 받기,Get notifications
