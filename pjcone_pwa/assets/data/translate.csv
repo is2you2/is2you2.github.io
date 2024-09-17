@@ -474,7 +474,9 @@ WaitingConnection,연결을 기다리는중,Waiting for connection
 FailedToOpenServer,서버 생성 실패,Failed to create server
 Connected,연결됨,Connected
 InternalConn,내부망 연결,Internal network
+WebRTC_Waiting,WebRTC 연결 대기중,Waiting WebRTC connection
 WebRTC_Init,WebRTC 초기화중,Initialize WebRTC
+WebRTC_Offer,제의 교환중,Sharing offer
 WebRTC_Reply,주소 정보 교환중,Receiving information reply
 WebRTC_Ice,ICE 정보 교환중,Exchanging ICE information
 ## UserFsDir,,
