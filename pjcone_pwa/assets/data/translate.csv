@@ -96,7 +96,8 @@ SyncMainImage,대표이미지 등록중,Registering representative image
 SyncAttaches,첨부파일 등록중,Registering attached file
 SyncErr,게시물 저장 오류,Error saving post
 NSFW,후방주의,NSFW
-UseOutLink,외부노출,Outlink
+NoOutLink,전체공개,Public
+UseOutLink,부분공개,Partially
 OutLinkFailed,외부노출 실패,Create outlink failed
 NoPostOutLink,게시물 정보 없음,No post information
 RecordVoiceTime,시간기록,V.Time
@@ -185,7 +186,7 @@ StartVRecord,녹음을 시작합니다,Start recording
 VoiceRecord,인앱 음성 녹음,In-app voice record
 voidDraw,그림판,Paint
 newText,텍스트,Text
-Detour,우회안함,NoDetour
+Detour,우회안함,Default
 useFSS,FFS우선,tryFFS
 forceSQL,SQL강제,useSQL
 Camera,카메라,Camera
