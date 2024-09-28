@@ -277,6 +277,8 @@ input_placeholder,메시지 입력...,Enter message...
 header_title_group,광장,Square
 WebTitle_group,Project: 광장,Project: Square
 Noti_Reply,답장,Reply
+TrashChat,비우기,Empty
+TrashChatLog,대화 기록을 비웁니다,Clear your conversation history
 name_me,나,Me
 name_stranger_group,참여자,Participants
 joinChat_group,광장에 참여합니다,Join the square
