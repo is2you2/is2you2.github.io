@@ -318,8 +318,6 @@ isSSL,SSL 적용여부,use SSL
 submit,등록하기,Submit
 UseDevTestServer,개발 테스트 서버 사용하기,Use development test server
 NeedSetDIsplayName,이름을 지정해주세요,Please specify a display name
-useSSL,공개 서버,Public server
-NotuseSSL,내부망 서버,Internal network server
 ## ServerDetail,,
 copy_scan_below,QR코드를 클릭하여 초대 주소 공유,Click the QR code to share the invitation address
 ApplyChangeServerInfo,적용하기,Apply
