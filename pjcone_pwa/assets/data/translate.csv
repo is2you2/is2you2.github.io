@@ -303,6 +303,7 @@ CallEnd,통화 종료,End call
 ## GroupServer,,
 JoinedServerList,참여중인 서버 목록,List of participating servers
 ServerDetail,정보,Info
+EditInfo,편집,Edit
 RemoveUnofficial,삭제,Delete
 RemoveAccount,탈퇴,Leave
 RemoveAccountReally,서버 탈퇴,Leave server
@@ -413,6 +414,7 @@ CancelingUpload,업로드 시도 우회,Attempt to upload bypass
 FailedToDownloadFile,다운받기 오류,Failed to download file
 ## Nakama,,
 DevTestServer,개발 테스트 서버,Development test server
+ServerAdded,서버가 추가되었습니다,Server added
 AccessTestServer,테스트 서버에 연결합니다,Connect to Test server
 AlreadyHaveTargetName,이미 같은 이름의 서버가 있습니다,There already exists a server with the same name
 NeedLoginInfo,사용자 정보를 확인해주세요,Please check your user information
