@@ -337,7 +337,6 @@ DisplayName,표시명,Display name
 DisplayName_placeholder,채널 이름,Channel name
 ClicktoChangeGroupImg,눌러서 채널 이미지 설정,Click to add channel iamge
 Volatile,휘발성 채널,Volatile channel
-noname_volatile,이름 없는 휘발성 채널,Unnamed volatile channel
 JoinThisGroup,채널 참여,Join
 AfterCreateGroup,채널을 생성하여 계속,Continue by creating a channel
 GroupDetail,채널 상세,Channel details
