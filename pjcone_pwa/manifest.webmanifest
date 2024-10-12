@@ -1,11 +1,13 @@
 {
   "name": "Project: Cone",
   "short_name": "Project: Cone",
+  "version": "0.74.22",
   "theme_color": "#ffffff",
   "background_color": "#fff",
   "scope": "/pjcone_pwa/",
   "start_url": "/pjcone_pwa/",
   "display": "standalone",
+  "description": "Chat program for content creator",
   "icons": [
     {
       "src": "/pjcone_pwa/assets/icon/favicon.png",
