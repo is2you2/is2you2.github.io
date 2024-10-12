@@ -125,7 +125,7 @@ WebLinkGen,웹 링크 생성기,Weblink generator
 FallbackFS,첫번째 파일 서버,First file server
 TryToFallbackFS,FFS 업로드 시도,Try with FFS
 OverrideFallbackFS,FFS 우선 적용,Override FFS
-ServerFiles,사설 서버 구성하기,Configuring a private server
+ServerFiles,사용 설명서,User Manual
 InAppExplorer,인앱 탐색기,InApp Explorer
 EnginePPT,내부망 WebRTC,Internal network WebRTC
 joinDedi_placeholder,기본,Default
