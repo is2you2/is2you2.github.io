@@ -5,7 +5,7 @@ const ENDB = 1111772741;
 
 /* Note: Blender coordinates treat the Z axis as the vertical an Y as depth. */
 
-module.exports = (function (unzipper) {
+module.exports = (function(unzipper) {
 
     //web worker not functional in this version
     USE_WEBWORKER = false;
@@ -15,7 +15,7 @@ module.exports = (function (unzipper) {
         FR = new FileReader(),
 
         return_object = {
-            loadBlendFromArrayBuffer: function (array_buffer) {
+            loadBlendFromArrayBuffer: function(array_buffer) {
                 return_object.ready = false;
                 if (USE_WEBWORKER) {
                     worker.postMessage(array_buffer, array_buffer);
@@ -25,19 +25,19 @@ module.exports = (function (unzipper) {
                     });
                 }
             },
-            loadBlendFromBlob: function (blob) {
-                FR.onload = function () {
+            loadBlendFromBlob: function(blob) {
+                FR.onload = function() {
                     return_object.loadBlendFromArrayBuffer(this.result);
                 };
                 FR.readAsArrayBuffer(blob);
             },
             ready: true,
-            onParseReady: function () { },
+            onParseReady: function() {},
         };
 
     worker = new worker_code();
 
-    worker.postMessage = function (message) {
+    worker.postMessage = function(message) {
         return_object.onParseReady(message);
     };
 
@@ -59,11 +59,9 @@ module.exports = (function (unzipper) {
             AB = null;
 
         function parseFile(msg) {
-
-            console.log('메시지를 받음: ', msg);
-
+            
             var self = this;
-
+            
             if (typeof msg.data == "object") {
                 // reset global variables
                 AB = null;
@@ -99,7 +97,7 @@ module.exports = (function (unzipper) {
             Export object for a parsed __blender_file__.
         */
 
-        var BLENDER_FILE = function (AB) {
+        var BLENDER_FILE = function(AB) {
             this.AB = AB;
             //this.double = new Float64Array(AB);
             this.byte = new Uint8Array(AB);
@@ -114,13 +112,13 @@ module.exports = (function (unzipper) {
         };
 
         BLENDER_FILE.prototype = {
-            addObject: function (obj) {
+            addObject: function(obj) {
                 this.object_array.push(obj);
                 if (!this.objects[obj.blender_name]) this.objects[obj.blender_name] = [];
                 this.objects[obj.blender_name].push(obj);
             },
 
-            getPointer: function (offset) {
+            getPointer: function(offset) {
                 var pointerLow = this.dv.getUint32(offset, this.template.endianess);
                 if (this.template.pointer_size > 4) {
                     var pointerHigh = this.dv.getUint32(offset + 4, this.template.endianess);
@@ -145,13 +143,13 @@ module.exports = (function (unzipper) {
 
         function float64Prop(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     return (Blender_Array_Length > 1) ?
                         new Float64Array(this.__blender_file__.AB, this.__data_address__ + offset, length) :
                         this.__blender_file__.dv.getFloat64(this.__data_address__ + offset, this.__blender_file__.template.endianess);
                 },
-                set: function (float) {
-                    if (Blender_Array_Length > 1) { } else {
+                set: function(float) {
+                    if (Blender_Array_Length > 1) {} else {
                         this.__blender_file__.dv.setFloat64(this.__data_address__ + offset, float, this.__blender_file__.template.endianess);
                     }
                 },
@@ -160,13 +158,13 @@ module.exports = (function (unzipper) {
 
         function floatProp(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     return (Blender_Array_Length > 1) ?
                         new Float32Array(this.__blender_file__.AB, this.__data_address__ + offset, length) :
                         this.__blender_file__.dv.getFloat32(this.__data_address__ + offset, this.__blender_file__.template.endianess);
                 },
-                set: function (float) {
-                    if (Blender_Array_Length > 1) { } else {
+                set: function(float) {
+                    if (Blender_Array_Length > 1) {} else {
                         this.__blender_file__.dv.setFloat32(this.__data_address__ + offset, float, this.__blender_file__.template.endianess);
                     }
                 },
@@ -175,13 +173,13 @@ module.exports = (function (unzipper) {
 
         function intProp(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     return (Blender_Array_Length > 1) ?
                         new Int32Array(this.__blender_file__.AB, this.__data_address__ + offset, length) :
                         this.__blender_file__.dv.getInt32(this.__data_address__ + offset, this.__blender_file__.template.endianess);
                 },
-                set: function (int) {
-                    if (Blender_Array_Length > 1) { } else {
+                set: function(int) {
+                    if (Blender_Array_Length > 1) {} else {
                         this.__blender_file__.dv.setInt32(this.__data_address__ + offset, float, this.__blender_file__.template.endianess);
                     }
                 },
@@ -190,13 +188,13 @@ module.exports = (function (unzipper) {
 
         function uIntProp(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     return (Blender_Array_Length > 1) ?
                         new Uint32Array(this.__blender_file__.AB, this.__data_address__ + offset, length) :
                         this.__blender_file__.dv.getUint32(this.__data_address__ + offset, this.__blender_file__.template.endianess);
                 },
-                set: function (int) {
-                    if (Blender_Array_Length > 1) { } else {
+                set: function(int) {
+                    if (Blender_Array_Length > 1) {} else {
                         this.__blender_file__.dv.setUint32(this.__data_address__ + offset, float, this.__blender_file__.template.endianess);
                     }
                 },
@@ -205,13 +203,13 @@ module.exports = (function (unzipper) {
 
         function shortProp(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     return (Blender_Array_Length > 1) ?
                         new Int16Array(this.__blender_file__.AB, this.__data_address__ + offset, length) :
                         this.__blender_file__.dv.getInt16(this.__data_address__ + offset, this.__blender_file__.template.endianess);
                 },
-                set: function (float) {
-                    if (Blender_Array_Length > 1) { } else {
+                set: function(float) {
+                    if (Blender_Array_Length > 1) {} else {
                         this.__blender_file__.dv.setInt16(this.__data_address__ + offset, float, this.__blender_file__.template.endianess);
                     }
                 },
@@ -220,13 +218,13 @@ module.exports = (function (unzipper) {
 
         var uShortProp = (offset, Blender_Array_Length, length) => {
             return {
-                get: function () {
+                get: function() {
                     return (Blender_Array_Length > 1) ?
                         new Uint16Array(this.__blender_file__.AB, this.__data_address__ + offset, length) :
                         this.__blender_file__.dv.getUint16(this.__data_address__ + offset, this.__blender_file__.template.endianess);
                 },
-                set: function (float) {
-                    if (Blender_Array_Length > 1) { } else {
+                set: function(float) {
+                    if (Blender_Array_Length > 1) {} else {
                         this.__blender_file__.dv.setUint16(this.__data_address__ + offset, float, this.__blender_file__.template.endianess);
                     }
                 },
@@ -235,7 +233,7 @@ module.exports = (function (unzipper) {
 
         function charProp(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     if (Blender_Array_Length > 1) {
                         let start = this.__data_address__ + offset;
                         let end = start;
@@ -247,7 +245,7 @@ module.exports = (function (unzipper) {
                     }
                     return this.__blender_file__.byte[(this.__data_address__ + offset)];
                 },
-                set: function (byte) {
+                set: function(byte) {
                     if (Blender_Array_Length > 1) {
                         var string = byte + "",
                             i = 0,
@@ -269,7 +267,7 @@ module.exports = (function (unzipper) {
 
         function pointerProp2(offset) {
             return {
-                get: function () {
+                get: function() {
                     let pointer = this.__blender_file__.getPointer(this.__data_address__ + offset, this.__blender_file__);
                     var link = this.__blender_file__.memory_lookup[pointer];
 
@@ -290,13 +288,13 @@ module.exports = (function (unzipper) {
 
                     return results;
                 },
-                set: function () { }
+                set: function() {}
             };
         }
 
         function pointerProp(offset, Blender_Array_Length, length) {
             return {
-                get: function () {
+                get: function() {
                     if (Blender_Array_Length > 1) {
                         let array = [];
                         let j = 0;
@@ -315,7 +313,7 @@ module.exports = (function (unzipper) {
                         return this.__blender_file__.memory_lookup[pointer];
                     }
                 },
-                set: function () { }
+                set: function() {}
             };
         }
 
@@ -356,7 +354,7 @@ module.exports = (function (unzipper) {
         }
 
         //Store final DNA structs
-        var MASTER_SDNA_SCHEMA = function (version) {
+        var MASTER_SDNA_SCHEMA = function(version) {
             this.version = version;
             this.SDNA_SET = false;
             this.byte_size = 0;
@@ -367,7 +365,7 @@ module.exports = (function (unzipper) {
         };
 
         MASTER_SDNA_SCHEMA.prototype = {
-            getSDNAStructureConstructor: function (name, struct) {
+            getSDNAStructureConstructor: function(name, struct) {
                 if (struct) {
                     var blen_struct = Function("function " + name + "(){}; return " + name)();
 
@@ -446,8 +444,8 @@ module.exports = (function (unzipper) {
                             }
 
                             Object.defineProperty(blen_struct.prototype, _name, {
-                                get: (function (array_names) {
-                                    return function () {
+                                get: (function(array_names) {
+                                    return function() {
                                         var array = [];
                                         for (var i = 0; i < array_names.length; i++) {
                                             array.push(this[array_names[i]]);
@@ -472,7 +470,7 @@ module.exports = (function (unzipper) {
             }
         };
 
-        var BLENDER_STRUCTURE = function () {
+        var BLENDER_STRUCTURE = function() {
             this.__blender_file__ = null;
             this.__list__ = null;
             this.__super_array_list__ = null;
@@ -509,7 +507,7 @@ module.exports = (function (unzipper) {
         }
 
         BLENDER_STRUCTURE.prototype = {
-            setData: function (pointer, _data_offset, data_block_length, BLENDER_FILE) {
+            setData: function(pointer, _data_offset, data_block_length, BLENDER_FILE) {
                 if (this.__list__ === null) return this;
                 BLENDER_FILE.addObject(this);
 
@@ -731,23 +729,12 @@ module.exports = (function (unzipper) {
 
             while (true) {
                 if ((offset % 4) > 0) {
-                    if (offset + (4 - (offset % 4)) > _data.byteLength) {
-                        throw new Error("Offset exceeds data length during 4-byte alignment.");
-                    }
                     offset = (4 - (offset % 4)) + offset;
                 }
 
                 data_offset = offset;
-                // 데이터 읽기 전에 범위 체크
-                if (offset + 4 > _data.byteLength) {
-                    throw new Error("Trying to read beyond the end of the data.");
-                }
                 sdna_index = data.getInt32(offset + pointer_size + 8, BIG_ENDIAN);
                 let code_uint = data.getUint32(offset, BIG_ENDIAN);
-                // SDNA 처리 중 block_length 범위 체크
-                if (offset2 + block_length > _data.byteLength) {
-                    throw new Error("Block length exceeds data size.");
-                }
                 offset2 = offset + 16 + (pointer_size);
                 offset += data.getInt32(offset + 4, true) + 16 + (pointer_size);
 
