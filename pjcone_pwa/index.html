@@ -18,6 +18,12 @@
     let base = document.getElementById('site_base');
     var sub_path = base.getAttribute('href');
     var swReg;
+    // 1버전이 되기 전까지는 캐시 스토리지를 사용하지 않음, 향후에 이 코드 삭제하기
+    caches.keys().then(function (names) {
+      names.forEach(function (name) {
+        caches.delete(name); // 각 캐시를 삭제
+      });
+    });
     // 웹 알림의 행동을 미리 기록해두었다가 서비스 워커로부터 신호를 받으면 함수 행동 후 해당 함수 삭제
     var swRegListenerCallback = {};
     if ('serviceWorker' in navigator) {
