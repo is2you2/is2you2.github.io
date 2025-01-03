@@ -18,7 +18,7 @@
     let base = document.getElementById('site_base');
     var sub_path = base.getAttribute('href');
     var swReg;
-    // 1버전이 되기 전까지는 캐시 스토리지를 사용하지 않음, 향후에 이 코드 삭제하기
+    // 홈페이지에서는 캐시 사용 안함, 사설 서버에서 캐시를 사용할 수 있도록 지워서 배포
     caches.keys().then(function (names) {
       names.forEach(function (name) {
         caches.delete(name); // 각 캐시를 삭제
@@ -51,6 +51,6 @@
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.1a0fa3ce778750ce.js" type="module"></script><script src="polyfills.c3a9e4b87df5be46.js" type="module"></script><script src="main.f6cbd2b20352df45.js" type="module"></script></body>
+<script src="runtime.cde432a523f72adb.js" type="module"></script><script src="polyfills.c3a9e4b87df5be46.js" type="module"></script><script src="main.f6cbd2b20352df45.js" type="module"></script></body>
 
 </html>
