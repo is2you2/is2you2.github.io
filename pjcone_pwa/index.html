@@ -18,6 +18,12 @@
     let base = document.getElementById('site_base');
     var sub_path = base.getAttribute('href');
     var swReg;
+    // 홈페이지에서는 캐시 사용 안함, 사설 서버에서 캐시를 사용할 수 있도록 지워서 배포
+    caches.keys().then(function (names) {
+      names.forEach(function (name) {
+        caches.delete(name); // 각 캐시를 삭제
+      });
+    });
     // 웹 알림의 행동을 미리 기록해두었다가 서비스 워커로부터 신호를 받으면 함수 행동 후 해당 함수 삭제
     var swRegListenerCallback = {};
     if ('serviceWorker' in navigator) {
@@ -45,6 +51,6 @@
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.39f88182ed3bfdfc.js" type="module"></script><script src="polyfills.c3a9e4b87df5be46.js" type="module"></script><script src="main.716357aac42dd8d5.js" type="module"></script></body>
+<script src="runtime.0585862a48c69fb3.js" type="module"></script><script src="polyfills.c3a9e4b87df5be46.js" type="module"></script><script src="main.8a847f46a0209195.js" type="module"></script></body>
 
 </html>
