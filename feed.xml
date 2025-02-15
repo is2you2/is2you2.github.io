@@ -2,18 +2,18 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://is2you2.github.io/</id>
-  <title>최성수</title>
+  <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2025-01-21T03:03:49+09:00</updated>
+  <updated>2025-02-16T03:39:03+09:00</updated>
   <author>
-    <name>최성수</name>
+    <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="https://is2you2.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko"
     href="https://is2you2.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2025 최성수 </rights>
+  <rights> © 2025 그림또따 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -29,7 +29,7 @@
     <id>https://is2you2.github.io/posts/how-to-use-pjcone-server-en/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" />
     <author>
-      <name>최성수</name>
+      <name>그림또따</name>
     </author>
 
   
@@ -69,7 +69,7 @@ Project: cone is an app that uses a private server, and there is no officially p
     <id>https://is2you2.github.io/posts/how-to-use-pjcone-en/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone-en/" />
     <author>
-      <name>최성수</name>
+      <name>그림또따</name>
     </author>
 
   
@@ -115,7 +115,7 @@ You can use the a...
     <id>https://is2you2.github.io/posts/how-to-use-pjcone-server/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server/" />
     <author>
-      <name>최성수</name>
+      <name>그림또따</name>
     </author>
 
   
@@ -163,7 +163,7 @@ git clone https://github.com/is2you2/pjcone_server.git
     <id>https://is2you2.github.io/posts/how-to-use-pjcone/</id>
     <content src="https://is2you2.github.io/posts/how-to-use-pjcone/" />
     <author>
-      <name>최성수</name>
+      <name>그림또따</name>
     </author>
 
   
@@ -210,7 +210,7 @@ git clone https://github.com/is2you2/pjcone_server.git
     <id>https://is2you2.github.io/posts/farewell-notebook-msi-ps42/</id>
     <content src="https://is2you2.github.io/posts/farewell-notebook-msi-ps42/" />
     <author>
-      <name>최성수</name>
+      <name>그림또따</name>
     </author>
 
   
