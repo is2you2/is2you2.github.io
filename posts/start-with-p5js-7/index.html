@@ -15,9 +15,7 @@
 
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="ko" >
-  <!-- The Head -->
-
-<head>
+  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
@@ -26,27 +24,12 @@
   <meta
     name="viewport"
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
-  >
+  ><!-- Setup Open Graph image -->
 
   
 
-  
-    
-
-    
-      
-      
-
-      
-        <!-- it's a local file path -->
-
-      
-    
-  
-
-  
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.3" />
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="p5js로 시작하기 [4]" />
 <meta property="og:locale" content="ko" />
 <meta name="description" content="이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다." />
@@ -64,7 +47,6 @@
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-03-07T21:56:45+09:00","datePublished":"2023-12-24T16:22:00+09:00","description":"이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.","headline":"p5js로 시작하기 [4]","image":"https://is2you2.github.io/assets/posts/start-with-p5js/two_ball_collision_calc.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/start-with-p5js-7/"},"url":"https://is2you2.github.io/posts/start-with-p5js-7/"}</script>
 <!-- End Jekyll SEO tag -->
 
-  
 
   <title>p5js로 시작하기 [4] | 그림또따
   </title>
@@ -79,7 +61,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
-<link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+
+  <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+
 <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
 <meta name="apple-mobile-web-app-title" content="그림또따">
 <meta name="application-name" content="그림또따">
@@ -102,6 +86,9 @@
       <link rel="preconnect" href="https://cdn.jsdelivr.net" >
       <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
     
+      <link rel="preconnect" href="https://cdnjs.cloudflare.com" >
+      <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" >
+    
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
   
@@ -113,12 +100,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.3/dist/tocbot.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.25.0/dist/tocbot.min.css">
   
 
   
@@ -289,12 +276,7 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle">
-      
-        
-        <img src="/assets/img/avatar.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-      
-    </a>
+    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/img/avatar.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <h1 class="site-title">
       <a href="/">그림또따</a>
@@ -417,9 +399,7 @@
         
           
             <span>
-              <a href="/">
-                Home
-              </a>
+              <a href="/">Home</a>
             </span>
 
           
@@ -497,12 +477,6 @@
 
 
   
-  
-
-  <!-- CDN URL -->
-  
-
-  <!-- Add image path -->
   
 
   
@@ -1704,7 +1678,7 @@
           <!-- panel -->
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
             <div class="access">
-              <!-- Get the last 5 posts from lastmod list. -->
+              <!-- Get 5 last posted/updated posts -->
 
 
 
@@ -1727,6 +1701,20 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/instruction-pjcone-basic-en/">Project: Cone 공통 기능 설명서 [v0.85.2]</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/instruction-pjcone-basic/">Project: Cone Common Features Guide [v0.85.2]</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/code-server/">작업 환경 분리 구성하기 (feat. code-server)</a>
         </li>
       
@@ -1742,20 +1730,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/how-to-use-pjcone-server-en/">Project: Cone Private Server Documentation [v0.55.14]</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/how-to-use-pjcone-server/">Project: Cone 사설 서버 설명서 [v0.55.14]</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/how-to-use-pjcone/">Project: Cone 앱 사용 설명서 [v0.55.14]</a>
         </li>
       
     </ul>
@@ -2290,6 +2264,30 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -2498,98 +2496,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/what-is-function/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1702800360"
-  data-df="ll"
-  
->
-  Dec 17, 2023
-</time>
-
-              <h4 class="pt-0 my-2">함수란 무엇인가</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-방금 무슨 일이 일어난거지?
-우리는 방금 마법같은 일을 경험했습니다. 한 줄의 코드로 원을 그렸기 때문이죠.
-function setup() {
-  createCanvas(400, 400);
-}
-
-var pos_x = 30;
-
-function draw() {
-  background(...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/start-with-p5js-3/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1702837620"
-  data-df="ll"
-  
->
-  Dec 18, 2023
-</time>
-
-              <h4 class="pt-0 my-2">p5js로 시작하기 [3]</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  
-  이 글에는 이해를 돕기 위한 거짓말이 조금 포함되어 있습니다.
-
-
-벽을 뚫고 나가는 공 문제
-
-우리가 마지막에 공을 움직이게 했지만, 이녀석은 벽을 뚫고 나가서 영원히 안돌아옵니다. 공이 조금 더 자연스럽게 보이게 하려면 공이 벽에 닿았을 때, 반대 방향으로 튕겨줘야 할 것 같아요.
-우리가 궁극적으로 “충돌체”의 개념을 만들면 아주 이상적이겠지만...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/what-is-class/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -2625,6 +2531,89 @@ function draw() {
 코드로 컴퓨터에게 일 시키기
 여러분은 햄버거집을 운영하는 사장입니다.
 지금껏 여러분이 코딩이라고, 컴퓨터에게 어떤 일을 시키던 것들은 버거집에서 알바생이 지켜야할 규칙들을 상세하게 적어내려가는 일이었고, 그 일을 처리하는 알바생은 컴퓨터인데 이녀석은 매우 멍청하지만 매우 정직합니다...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/before-start-scripting/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1702175580"
+  data-df="ll"
+  
+>
+  Dec 10, 2023
+</time>
+
+              <h4 class="pt-0 my-2">[초심자모드] 개발을 시작하기 전에</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  컴퓨터라면 당연히 그래야지
+취미 코딩, 쉬운 코딩으로 작업하는 동안 컴퓨터는 반드시 이렇게 동작할 예정입니다.
+
+
+  코드는 반드시 왼쪽에서 오른쪽으로, 사람이 글을 읽듯 순서대로 동작한다.
+  코드는 반드시 위에서 아래로, 순서대로 동작한다.
+  코드가 최적의 상태로 작성되어있는지 검토하고 싶다면 컴퓨터가 하는 일을 사람이 직접한다고 가정해보자.
+ ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/start-with-p5js/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1702523400"
+  data-df="ll"
+  
+>
+  Dec 14, 2023
+</time>
+
+              <h4 class="pt-0 my-2">p5js로 시작하기</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  이름이 뭐 이래
+p5js는 Processing이라는, 시각 예술 분야에서 사용하는 프로그램의 웹 버전입니다. 특징은 언어가 쉽고, 작업 결과물이 그래픽으로 보여지기 때문에 덜 심심합니다. 코딩을 처음 시작할 때, 터미널에 나오는 글자만 보며 하는 것보단 훨씬 재미붙이기 좋을 것이라고 생각해요.
+
+무엇보다 개발 환경을 설치할 필요가 없습니다.
+여기서 코...
                 </p>
               </div>
             </div>
@@ -2749,10 +2738,13 @@ function draw() {
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
   "
 >
-  <p>
-    ©
+  <p>©
     <time>2025</time>
-    <a href="https://github.com/is2you2">그림또따</a>.
+
+    
+      <a href="https://github.com/is2you2">그림또따</a>.
+    
+
     
       <span
         data-bs-toggle="tooltip"
@@ -3235,6 +3227,8 @@ function draw() {
 <!-- layout specified -->
 
 
+
+
   
 
   
@@ -3335,7 +3329,7 @@ function draw() {
 
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/ko.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.21.3/dist/tocbot.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/ko.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.25.0/dist/tocbot.min.js"></script>
 
 
 
