@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2025-03-08T14:16:07+09:00</updated>
+  <updated>2025-03-09T00:49:26+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -132,7 +132,7 @@ The overall server configuration is managed through the docker-compose.yml file.
     <link href="https://is2you2.github.io/posts/instruction-pjcone-basic/" rel="alternate" type="text/html" title="Project: Cone 공통 기능 설명서 [v0.85.2]" />
     <published>2025-03-08T08:24:00+09:00</published>
   
-    <updated>2025-03-08T14:13:35+09:00</updated>
+    <updated>2025-03-09T00:49:14+09:00</updated>
   
     <id>https://is2you2.github.io/posts/instruction-pjcone-basic/</id>
     <content src="https://is2you2.github.io/posts/instruction-pjcone-basic/" />
@@ -196,7 +196,7 @@ PC에서 사용할 때의 사용자 경험을...
     <link href="https://is2you2.github.io/posts/instruction-pjcone-basic-en/" rel="alternate" type="text/html" title="Project: Cone Common Features Guide [v0.85.2]" />
     <published>2025-03-08T08:24:00+09:00</published>
   
-    <updated>2025-03-08T14:13:35+09:00</updated>
+    <updated>2025-03-09T00:49:14+09:00</updated>
   
     <id>https://is2you2.github.io/posts/instruction-pjcone-basic-en/</id>
     <content src="https://is2you2.github.io/posts/instruction-pjcone-basic-en/" />
