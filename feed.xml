@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>그림또따</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2025-03-08T08:56:11+09:00</updated>
+  <updated>2025-03-08T14:16:07+09:00</updated>
   <author>
     <name>그림또따</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,14 +20,71 @@
 
   
   <entry>
-    <title>Project: Cone Common Features Guide [v0.85.2]</title>
-    <link href="https://is2you2.github.io/posts/instruction-pjcone-basic/" rel="alternate" type="text/html" title="Project: Cone Common Features Guide [v0.85.2]" />
-    <published>2025-03-08T08:24:00+09:00</published>
+    <title>Project: Cone 서버 구축 설명서 [v0.85.2]</title>
+    <link href="https://is2you2.github.io/posts/instruction-pjcone-server/" rel="alternate" type="text/html" title="Project: Cone 서버 구축 설명서 [v0.85.2]" />
+    <published>2025-03-08T14:04:00+09:00</published>
   
-    <updated>2025-03-08T08:24:00+09:00</updated>
+    <updated>2025-03-08T14:04:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/instruction-pjcone-basic/</id>
-    <content src="https://is2you2.github.io/posts/instruction-pjcone-basic/" />
+    <id>https://is2you2.github.io/posts/instruction-pjcone-server/</id>
+    <content src="https://is2you2.github.io/posts/instruction-pjcone-server/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone 사용 설명서" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다.
+
+
+서버 구축하기
+
+이 링크에서 프로젝트를 받을 수 있습니다.
+
+다음 명령어를 통해 프로젝트를 복제할 수 있습니다.
+
+git clone https://github.com/is2you2/pjcone_server.git
+
+
+서버 구성
+
+전반적인 서버 구성은 docker-compose.yml 파일에서 관리됩니다. docker-compose 또는 podman-compose 로 구성할 수 있습니다.
+
+사용자가 각 서버의 설정을 바꾼 경우, 필요에 따라 docker-compose.yml 파일이 같이 변경되어야 할 수 있습니다.
+
+SSL 구성
+
+보안 서버/클라이언트 구성은 선택적입니다. ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Project: Cone Server Setup Guide [v0.85.2]</title>
+    <link href="https://is2you2.github.io/posts/instruction-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Server Setup Guide [v0.85.2]" />
+    <published>2025-03-08T14:04:00+09:00</published>
+  
+    <updated>2025-03-08T14:04:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/instruction-pjcone-server-en/</id>
+    <content src="https://is2you2.github.io/posts/instruction-pjcone-server-en/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -48,20 +105,22 @@
 
 
 
-      Using the App
-
-This program is a web browser-based app, and you can use it by accessing this page.
-
-Overview
-
-Project: Cone is an internal messaging system that allows users to run their own servers.
-
-Originally designed as a communication tool for small indie game development teams, it has some unique features compared to more general messaging apps.
-
-Key Features and Characteristics
+      
+  이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다.
 
 
-  Focus...
+Setting Up the Server
+
+You can get the project from this link.
+
+You can clone the project using the following command:
+
+git clone https://github.com/is2you2/pjcone_server.git
+
+
+Server Configuration
+
+The overall server configuration is managed through the docker-compose.yml file. It can be configured using either docker-co...
     </summary>
   
 
@@ -70,13 +129,13 @@ Key Features and Characteristics
   
   <entry>
     <title>Project: Cone 공통 기능 설명서 [v0.85.2]</title>
-    <link href="https://is2you2.github.io/posts/instruction-pjcone-basic-en/" rel="alternate" type="text/html" title="Project: Cone 공통 기능 설명서 [v0.85.2]" />
+    <link href="https://is2you2.github.io/posts/instruction-pjcone-basic/" rel="alternate" type="text/html" title="Project: Cone 공통 기능 설명서 [v0.85.2]" />
     <published>2025-03-08T08:24:00+09:00</published>
   
-    <updated>2025-03-08T08:24:00+09:00</updated>
+    <updated>2025-03-08T14:13:35+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/instruction-pjcone-basic-en/</id>
-    <content src="https://is2you2.github.io/posts/instruction-pjcone-basic-en/" />
+    <id>https://is2you2.github.io/posts/instruction-pjcone-basic/</id>
+    <content src="https://is2you2.github.io/posts/instruction-pjcone-basic/" />
     <author>
       <name>그림또따</name>
     </author>
@@ -133,6 +192,55 @@ PC에서 사용할 때의 사용자 경험을...
 
   
   <entry>
+    <title>Project: Cone Common Features Guide [v0.85.2]</title>
+    <link href="https://is2you2.github.io/posts/instruction-pjcone-basic-en/" rel="alternate" type="text/html" title="Project: Cone Common Features Guide [v0.85.2]" />
+    <published>2025-03-08T08:24:00+09:00</published>
+  
+    <updated>2025-03-08T14:13:35+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/instruction-pjcone-basic-en/</id>
+    <content src="https://is2you2.github.io/posts/instruction-pjcone-basic-en/" />
+    <author>
+      <name>그림또따</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone User Guide" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Using the App
+
+This program is a web browser-based app, and you can use it by accessing this page.
+
+Overview
+
+Project: Cone is an internal messaging system that allows users to run their own servers.
+
+Originally designed as a communication tool for small indie game development teams, it has some unique features compared to more general messaging apps.
+
+Key Features and Characteristics
+
+
+  Focus...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Project: Cone Private Server Documentation [v0.55.14]</title>
     <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Private Server Documentation [v0.55.14]" />
     <published>2024-04-03T18:18:00+09:00</published>
@@ -166,100 +274,6 @@ PC에서 사용할 때의 사용자 경험을...
 
 Serverless client
 Project: cone is an app that uses a private server, and there is no officially provided service server. Currently, you can optionally use the development test server, but it is only a button to facilitate your development testing, so when the appropriate time comes, you must register and use someone’s private server or use it only locally....
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone User Guide [v0.55.14]</title>
-    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-en/" rel="alternate" type="text/html" title="Project: Cone User Guide [v0.55.14]" />
-    <published>2024-04-03T17:56:00+09:00</published>
-  
-    <updated>2024-04-14T16:48:56+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-to-use-pjcone-en/</id>
-    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-en/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone User Guide" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  Translated with Google Translator
-
-Project: Cone
-Project: Cone is a communication tool for teams that produce content. Although some core functions are still missing, I am introducing some parts that are still easy to use as is :)
-
-This post is based on version 0.55.14 of the Project Cone App.
-(Theme color depends on whether the system is in dark mode)
-
-Use as a browser app
-You can use the a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone 사설 서버 설명서 [v0.55.14]</title>
-    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" rel="alternate" type="text/html" title="Project: Cone 사설 서버 설명서 [v0.55.14]" />
-    <published>2024-03-30T18:44:00+09:00</published>
-  
-    <updated>2024-04-03T18:45:59+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-to-use-pjcone-server/</id>
-    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server/" />
-    <author>
-      <name>그림또따</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone 사용 설명서" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      서버리스 클라이언트
-프콘은 사설 서버를 사용하는 앱으로, 공식적으로 제공되는 서비스 서버가 없습니다. 지금은 개발 테스트 서버를 선택적으로 사용할 수 있으나 오직 제 개발 테스트를 편하게 하기 위한 버튼이므로 적당한 시기가 되면 무조건 누군가의 사설 서버를 등록하여 이용하거나, 로컬에서만 이용해야 합니다.
-
-그리고 그 누군가의 사설 서버는 여러분 것이 될 수도 있습니다 :)
-
-서버 파일 다운받기
-서버 파일은 앱 설정 &amp;gt; Nakama 서버 파일 버튼 또는 Git을 이용하여 받을 수 있습니다.
-git clone https://github.com/is2you2/pjcone_server.git
-
-
-
-
-클라이언트에서 받은 경우, 압축을 풀면 docker-compose 로 즉시 올릴 수 있는 형태의 폴더 구...
     </summary>
   
 
