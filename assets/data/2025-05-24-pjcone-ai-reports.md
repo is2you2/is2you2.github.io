@@ -69,6 +69,6 @@ Project Cone은 오프라인 우선, 서버 자율성, 익명 커뮤니케이션
 총평하자면, 기술적 잠재력은 뛰어나나, 사용자 편의성과 접근성은 더 보완이 필요합니다.
 
 ## 같이보기
-- [Chatgpt 보고서 원문](/assets/posts/pjcone_ai_reports/Project%20Cone%20(pjcone_pwa)%20Web%20App%20Analysis.pdf)
+- [Chatgpt 보고서 원문](https://is2you2.github.io/assets/posts/pjcone_ai_reports/Project%20Cone%20(pjcone_pwa)%20Web%20App%20Analysis.pdf)
 - [공통기능 설명서 [v0.85.2]](https://is2you2.github.io/posts/instruction-pjcone-basic/)
 - [서버 구축 설명서 [v0.85.2]](https://is2you2.github.io/posts/instruction-pjcone-server/)

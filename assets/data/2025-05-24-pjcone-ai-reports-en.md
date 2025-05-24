@@ -53,6 +53,6 @@ Keyboard navigation is excellent. Language support includes Korean and English. 
 Project Cone is an innovative, offline-first team tool with strong autonomy, anonymous access, and rich file annotation. It’s well-suited for creative teams but requires technical maturity. With improved accessibility, onboarding, and mobile usability, it could become a standout alternative in collaborative software.
 
 ## 같이보기
-- [Chatgpt reports original text](/assets/posts/pjcone_ai_reports/Project%20Cone%20(pjcone_pwa)%20Web%20App%20Analysis.pdf)
+- [Chatgpt reports original text](https://is2you2.github.io/assets/posts/pjcone_ai_reports/Project%20Cone%20(pjcone_pwa)%20Web%20App%20Analysis.pdf)
 - [Common Features Guide [v0.85.2]](https://is2you2.github.io/posts/instruction-pjcone-basic/)
 - [Server Setup Guide [v0.85.2]](https://is2you2.github.io/posts/instruction-pjcone-server/)
