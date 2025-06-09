@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그림또따의 따라그리기</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter for body, optional display font for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            /* A very light blue-gray */
+            color: #2d3748;
+            /* Dark gray for good contrast */
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1.5rem;
+            /* px-6 */
+            padding-right: 1.5rem;
+            /* px-6 */
+        }
+
+        /* Custom styles for section separators or subtle patterns */
+        .section-separator {
+            height: 50px;
+            background-color: #f0f4f8;
+            /* Match body background */
+            position: relative;
+            z-index: 10;
+        }
+
+        .section-separator::before {
+            content: '';
+            position: absolute;
+            top: -25px;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: linear-gradient(to bottom right, #f0f4f8 50%, transparent 50%);
+            /* Subtle angle */
+            z-index: -1;
+        }
+
+        .card-hover-effect {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .card-hover-effect:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Base styles for animation - elements start invisible and slightly offset */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+        }
+
+        .animate-on-scroll.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .animate-on-scroll.slide-right {
+            transform: translateX(-50px);
+        }
+
+        .animate-on-scroll.slide-right.show {
+            transform: translateX(0);
+        }
+
+        .animate-on-scroll.slide-left {
+            transform: translateX(50px);
+        }
+
+        .animate-on-scroll.slide-left.show {
+            transform: translateX(0);
+        }
+
+        .animate-on-scroll.scale-in {
+            transform: scale(0.95);
+        }
+
+        .animate-on-scroll.scale-in.show {
+            transform: scale(1);
+        }
+
+        /* Delay utilities for staggered animations */
+        .delay-100 {
+            transition-delay: 0.1s;
+        }
+
+        .delay-200 {
+            transition-delay: 0.2s;
+        }
+
+        .delay-300 {
+            transition-delay: 0.3s;
+        }
+
+        .delay-400 {
+            transition-delay: 0.4s;
+        }
+
+        .delay-500 {
+            transition-delay: 0.5s;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-lg py-4 sticky top-0 z-50">
+        <nav class="section-container flex justify-between items-center">
+            <a href="#hero"
+                class="text-3xl font-extrabold text-purple-700 rounded-md p-1 -m-1 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 transition-colors duration-300">
+                따라그리기<span class="text-sm font-medium ml-1">by 그림또따</span>
+            </a>
+            <ul class="flex space-x-8">
+                <li><a href="#about"
+                        class="text-gray-700 hover:text-purple-600 font-semibold transition-colors duration-300 rounded-md p-1 -m-1 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75">소개</a>
+                </li>
+                <li><a href="#skills"
+                        class="text-gray-700 hover:text-purple-600 font-semibold transition-colors duration-300 rounded-md p-1 -m-1 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75">기술</a>
+                </li>
+                <li><a href="#projects"
+                        class="text-gray-700 hover:text-purple-600 font-semibold transition-colors duration-300 rounded-md p-1 -m-1 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75">프로젝트</a>
+                </li>
+                <li><a href="#contact"
+                        class="text-gray-700 hover:text-purple-600 font-semibold transition-colors duration-300 rounded-md p-1 -m-1 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75">연락처</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero"
+            class="relative bg-gradient-to-br from-purple-600 to-indigo-800 text-white py-28 md:py-40 text-center overflow-hidden shadow-2xl rounded-b-3xl"
+            style="background-image: url(https://is2you2.github.io/redraw_mimic/title.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;">
+            <div class=" section-container relative z-10">
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight drop-shadow-lg animate-on-load">
+                    세상을 다시그리는 <span class="block mt-4 text-purple-200">그림또따</span>
+                </h1>
+                <p class="text-xl md:text-2xl font-light opacity-90 mb-10 max-w-2xl mx-auto animate-on-load delay-200">
+                    정적인 이미지를, 동적인 경험으로
+                </p>
+                <a href="#projects"
+                    class="inline-block bg-white text-purple-700 hover:bg-purple-100 hover:text-purple-800 transition-all duration-300 font-bold py-3.5 px-10 rounded-full shadow-xl transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50 text-lg animate-on-load delay-400">
+                    내 작업 살펴보기
+                </a>
+            </div>
+            <!-- Subtle background shape/pattern -->
+            <div
+                class="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black via-transparent to-transparent opacity-10">
+            </div>
+            <div
+                class="absolute top-0 right-0 w-3/4 h-3/4 bg-purple-500 opacity-5 rounded-full transform translate-x-1/2 -translate-y-1/2">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 md:py-32 bg-white rounded-xl shadow-lg mt-16 section-container">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800 animate-on-scroll">나를 소개합니다</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+                <div class="md:col-span-1 flex justify-center animate-on-scroll scale-in slide-right delay-200">
+                    <!-- Placeholder image for profile picture - make it more artistic -->
+                    <img src="https://is2you2.github.io/redraw_mimic/image.png"
+                        alt="당신의 프로필 사진"
+                        class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-xl border-4 border-purple-200">
+                </div>
+                <div class="md:col-span-2 text-lg leading-relaxed text-gray-700 animate-on-scroll slide-left delay-300">
+                    <p class="mb-6">
+                        안녕하세요! 저는 그래픽 코딩에 전문성을 가진 그림또따입니다. 2009년부터 그래픽 코딩에
+                        깊이 매료되어 작업해 왔습니다.
+                    </p>
+                    <p class="mb-6">
+                        기술과 디자인이 만나는 지점, 그 안에 움직임이 있습니다.
+                        멈춰 있는 이미지 속에 동적인 경험을 심어, 사용자와 더 깊이 연결됩니다.
+                    </p>
+                    <p>
+                        새로운 도전을 통해 끊임없이 성장하고, 당신의 사진이나 그림에 생명력을 넣는 것에 기여하고 싶습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 md:py-32 section-container">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800 animate-on-scroll">핵심 역량 및 도구</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill Category Card 1 -->
+                <!-- <div class="bg-white p-8 rounded-xl shadow-lg card-hover-effect animate-on-scroll delay-100">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-700 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-palette mr-3">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 7V17"></path>
+                            <path d="M16.5 9.5 7.5 14.5"></path>
+                            <path d="M7.5 9.5 16.5 14.5"></path>
+                        </svg>
+                        디자인 &amp; 컨셉
+                    </h3>
+                    <ul class="space-y-3 text-gray-700 text-lg">
+                        <li>UX/UI 디자인</li>
+                        <li>브랜드 아이덴티티</li>
+                        <li>시각 디자인</li>
+                        <li>모션 그래픽</li>
+                        <li>아이디어 발상 &amp; 기획</li>
+                    </ul>
+                </div> -->
+                <!-- Skill Category Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover-effect animate-on-scroll delay-200">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-700 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-paintbrush mr-3">
+                            <path
+                                d="M18.37 2.63a2.42 2.42 0 0 0-3.44 0L2.63 15.06a2.42 2.42 0 0 0 0 3.44l.27.27a2.42 2.42 0 0 0 3.44 0L18.64 6.07a2.42 2.42 0 0 0 0-3.44l-.27-.27Z">
+                            </path>
+                            <path
+                                d="M2.63 15.06l-.27.27a2.42 2.42 0 0 0 0 3.44l6.21 6.21a2.42 2.42 0 0 0 3.44 0L21.37 9.37a2.42 2.42 0 0 0 0-3.44l-.27-.27">
+                            </path>
+                        </svg>
+                        소프트웨어 &amp; 툴
+                    </h3>
+                    <ul class="space-y-3 text-gray-700 text-lg">
+                        <li>간이 그림판 (자체 개발)</li>
+                    </ul>
+                </div>
+                <!-- Skill Category Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover-effect animate-on-scroll delay-300">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-700 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-code mr-3">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        기술적 이해 (웹)
+                    </h3>
+                    <ul class="space-y-3 text-gray-700 text-lg">
+                        <li>Ionic Frameworks 7</li>
+                        <li>p5.js</li>
+                        <li>Godot Engine 4</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 md:py-32 bg-white rounded-xl shadow-lg mt-16 section-container">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800 animate-on-scroll">최근 작업물</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Project Card 1 -->
+                <div
+                    class="bg-gray-50 rounded-xl shadow-lg overflow-hidden card-hover-effect group animate-on-scroll delay-100">
+                    <div class="relative overflow-hidden">
+                        <img src="https://is2you2.github.io/redraw_mimic/photo.gif" alt="그래픽 작업 1"
+                            class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="https://youtube.com/shorts/qf511d4u3hg" target="_blank"
+                                class="text-white bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full font-semibold text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2">
+                                자세히 보기
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">실제 사진</h3>
+                        <p class="text-gray-600 mb-4 text-base">
+                            특별한 기억이 담긴 사진을 편안한 그림체로 변경하고, 그리기 애니메이션 처리합니다
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">이벤트 영상 파트</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">추억 회상</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">애니메이션 프로필 사진</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div
+                    class="bg-gray-50 rounded-xl shadow-lg overflow-hidden card-hover-effect group animate-on-scroll delay-200">
+                    <div class="relative overflow-hidden">
+                        <img src="https://is2you2.github.io/redraw_mimic/character.gif"
+                            alt="그래픽 작업 2"
+                            class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="https://youtube.com/shorts/EsYovoPkheI" target="_blank"
+                                class="text-white bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full font-semibold text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2">
+                                자세히 보기
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">가공된 캐릭터</h3>
+                        <p class="text-gray-600 mb-4 text-base">
+                            좋아하거나 직접 만든, 가공된 캐릭터에 따라그리기 애니메이션을 적용합니다
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">가상캐릭터</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">그림체 무관</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-gray-50 rounded-xl shadow-lg overflow-hidden card-hover-effect group animate-on-scroll delay-300">
+                    <div class="relative overflow-hidden">
+                        <img src="https://is2you2.github.io/redraw_mimic/great_person.gif"
+                            alt="그래픽 작업 3"
+                            class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="https://youtube.com/shorts/UPfbe3VbSd0" target="_blank"
+                                class="text-white bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-full font-semibold text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2">
+                                자세히 보기
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800">기념일</h3>
+                        <p class="text-gray-600 mb-4 text-base">
+                            기념일에 해당하는 위인들을 작업하여 공유하고 기립니다
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">기념일</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">광복절</span>
+                            <span
+                                class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">김구</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12 animate-on-scroll delay-400">
+                <a href="https://www.youtube.com/@ddoutta" target="_blank"
+                    class="inline-flex items-center bg-purple-700 text-white hover:bg-purple-800 transition-colors duration-300 font-bold py-3.5 px-10 rounded-full shadow-lg transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-500 focus:ring-opacity-75 text-lg">
+                    더 많은 작업 보기 (Youtube)
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-arrow-right ml-2">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 md:py-32 section-container">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800 animate-on-scroll">함께 이야기해요!</h2>
+            <div
+                class="bg-white p-10 rounded-xl shadow-lg text-center max-w-xl mx-auto border-t-4 border-purple-600 animate-on-scroll delay-200">
+                <p class="text-lg text-gray-700 mb-8">
+                    새로운 프로젝트 제안, 협업 문의 또는 간단한 대화라도 좋습니다. 언제든지 편하게 연락 주세요!
+                </p>
+                <div class="space-y-6 mb-8">
+                    <a href="mailto:your.email@example.com"
+                        class="block text-purple-700 hover:text-purple-900 font-semibold text-xl transition-colors duration-300 rounded-md p-2 -m-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 flex items-center justify-center animate-on-scroll delay-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-mail inline-block mr-3">
+                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        is2you246@gmail.com
+                    </a>
+                    <!-- <a href="https://linkedin.com/in/yourprofile" target="_blank"
+                        class="block text-purple-700 hover:text-purple-900 font-semibold text-xl transition-colors duration-300 rounded-md p-2 -m-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 flex items-center justify-center animate-on-scroll delay-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-linkedin inline-block mr-3">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a> -->
+                    <a href="https://github.com/is2you2" target="_blank"
+                        class="block text-purple-700 hover:text-purple-900 font-semibold text-xl transition-colors duration-300 rounded-md p-2 -m-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 flex items-center justify-center animate-on-scroll delay-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-github inline-block mr-3">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.25 0 6.8-.5 6.8-7 0-1.6-2.5-3-2.8-3.7 1-1.4 1-3.3 0-4.3C19 3.4 17.5 2 15 2c-1.5 0-3 .6-4 1.5-1-.9-2.5-1.5-4-1.5-2.5 0-4 1.4-4.2 2.7-.8.8-.7 2.6 0 4.3C2.5 12.5 6 12 9.25 12c-1 .3-2 1.2-2 3v4">
+                            </path>
+                            <path d="M9 18c-4.5 1.2-5 3-5 3"></path>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 mt-16 rounded-t-3xl shadow-inner">
+        <div class="section-container text-center text-sm opacity-80 space-y-2">
+            <p>&copy; 2025 그림또따. 모든 권리 보유. | 디자인 및 개발: 그림또따</p>
+            <div class="pt-4 border-t border-gray-700 mt-4">
+                <p class="font-bold text-gray-400 mb-2">사업자 정보</p>
+                <p>상호: 그림또따</p>
+                <p>사업자등록번호: 798-99-01570</p>
+                <p>사업장 주소: 서울특별시 관악구 쑥고개로2길 11, 201호(신림동)</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const animateElements = document.querySelectorAll('.animate-on-scroll');
+        const heroElements = document.querySelectorAll('.animate-on-load');
+
+        const observerOptions = {
+            root: null, // viewport
+            rootMargin: '0px',
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const delay = entry.target.dataset.delay ? parseInt(entry.target.dataset.delay) : 0;
+                    setTimeout(() => {
+                        entry.target.classList.add('show');
+                    }, delay);
+                    observer.unobserve(entry.target); // Stop observing once animated
+                }
+            });
+        }, observerOptions);
+
+        animateElements.forEach(el => observer.observe(el));
+
+        // Animation for hero section elements on page load
+        heroElements.forEach(el => {
+            const delay = el.dataset.delay ? parseInt(el.dataset.delay) : 0;
+            setTimeout(() => {
+                el.classList.add('show');
+            }, delay);
+        });
+    </script>
+</body>
+
+</html>
