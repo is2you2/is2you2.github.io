@@ -32,8 +32,8 @@
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Project: Cone Server Setup Guide [v0.85.2]" />
 <meta property="og:locale" content="ko" />
-<meta name="description" content="이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다." />
-<meta property="og:description" content="이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다." />
+<meta name="description" content="This page is written with the assumption that the person building it has some level of development knowledge, so it may feel a bit difficult." />
+<meta property="og:description" content="This page is written with the assumption that the person building it has some level of development knowledge, so it may feel a bit difficult." />
 <link rel="canonical" href="https://is2you2.github.io/posts/instruction-pjcone-server-en/" />
 <meta property="og:url" content="https://is2you2.github.io/posts/instruction-pjcone-server-en/" />
 <meta property="og:site_name" content="최성수" />
@@ -44,7 +44,7 @@
 <meta property="twitter:image" content="https://is2you2.github.io/assets/img/pjcone_title.png" />
 <meta property="twitter:title" content="Project: Cone Server Setup Guide [v0.85.2]" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-08T14:04:00+09:00","datePublished":"2025-03-08T14:04:00+09:00","description":"이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다.","headline":"Project: Cone Server Setup Guide [v0.85.2]","image":"https://is2you2.github.io/assets/img/pjcone_title.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/instruction-pjcone-server-en/"},"url":"https://is2you2.github.io/posts/instruction-pjcone-server-en/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-27T17:18:24+09:00","datePublished":"2025-03-08T14:04:00+09:00","description":"This page is written with the assumption that the person building it has some level of development knowledge, so it may feel a bit difficult.","headline":"Project: Cone Server Setup Guide [v0.85.2]","image":"https://is2you2.github.io/assets/img/pjcone_title.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://is2you2.github.io/posts/instruction-pjcone-server-en/"},"url":"https://is2you2.github.io/posts/instruction-pjcone-server-en/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -814,6 +814,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1758961104"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Sep 27, 2025
+</time>
+
+        </span>
+      
 
       
         
@@ -861,7 +884,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="682 words"
+  title="656 words"
 >
   <em>3 min</em> read</span>
 
@@ -873,7 +896,7 @@
 
   <div class="content">
     <blockquote class="prompt-tip">
-  <p>이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다.</p>
+  <p>This page is written with the assumption that the person building it has some level of development knowledge, so it may feel a bit difficult.</p>
 </blockquote>
 
 <h2 id="setting-up-the-server"><span class="me-2">Setting Up the Server</span><a href="#setting-up-the-server" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -975,13 +998,13 @@ If you plan to set up a non-secure private server, configuring a private client 
 8
 9
 10
-</pre></td><td class="rouge-code"><pre><span class="nn">[Operation]</span>
-<span class="py">UseSSL</span><span class="p">=</span><span class="s">true # Whether SSL security is enabled (SSL keys must be ready)</span>
+</pre></td><td class="rouge-code"><pre><span class="nn">[Operation]</span><span class="w">
+</span><span class="py">UseSSL</span><span class="p">=</span><span class="s">true # Whether SSL security is enabled (SSL keys must be ready)</span>
 <span class="py">UseCustomSite</span><span class="p">=</span><span class="s">true # Whether to use a private client page</span>
 <span class="py">BlockAnonymous</span><span class="p">=</span><span class="s">true # Whether non-members can create channels. If set to false, non-members can only join existing channels.</span>
-
-<span class="nn">[Port]</span>
-<span class="py">SitePort</span><span class="p">=</span><span class="s">12000 # Private client page</span>
+<span class="w">
+</span><span class="nn">[Port]</span><span class="w">
+</span><span class="py">SitePort</span><span class="p">=</span><span class="s">12000 # Private client page</span>
 <span class="py">cdnPort</span><span class="p">=</span><span class="s">9001 # File upload</span>
 <span class="py">apachePort</span><span class="p">=</span><span class="s">9002 # File posting and downloading</span>
 <span class="py">squarePort</span><span class="p">=</span><span class="s">12013 # Square channel</span>
@@ -1107,6 +1130,13 @@ If you plan to set up a non-secure private server, configuring a private client 
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/instruction-pjcone-server-en/">Project: Cone Server Setup Guide [v0.85.2]</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/pjcone-ai-reports-en/">Chatgpt reports - Project: Cone [v0.87.69]</a>
         </li>
       
@@ -1129,13 +1159,6 @@ If you plan to set up a non-secure private server, configuring a private client 
         
         <li class="text-truncate lh-lg">
           <a href="/posts/instruction-pjcone-basic/">Project: Cone 공통 기능 설명서 [v0.85.2]</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/instruction-pjcone-server-en/">Project: Cone Server Setup Guide [v0.85.2]</a>
         </li>
       
     </ul>

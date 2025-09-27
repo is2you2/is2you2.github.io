@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2025-06-10T06:16:12+09:00</updated>
+  <updated>2025-09-27T17:27:42+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -168,7 +168,7 @@ SSL 구성
     <link href="https://is2you2.github.io/posts/instruction-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Server Setup Guide [v0.85.2]" />
     <published>2025-03-08T14:04:00+09:00</published>
   
-    <updated>2025-03-08T14:04:00+09:00</updated>
+    <updated>2025-09-27T17:18:24+09:00</updated>
   
     <id>https://is2you2.github.io/posts/instruction-pjcone-server-en/</id>
     <content src="https://is2you2.github.io/posts/instruction-pjcone-server-en/" />
@@ -193,7 +193,7 @@ SSL 구성
 
 
       
-  이 페이지는 구축하려는 사람이 어느 정도 개발 지식을 가지고 있다는 가정 하에 작성되어 다소 어렵게 느껴지실 수 있습니다.
+  This page is written with the assumption that the person building it has some level of development knowledge, so it may feel a bit difficult.
 
 
 Setting Up the Server
@@ -207,7 +207,7 @@ git clone https://github.com/is2you2/pjcone_server.git
 
 Server Configuration
 
-The overall server configuration is managed through the docker-compose.yml file. It can be configured using either docker-co...
+The overall server configuration is managed through...
     </summary>
   
 
