@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project: Cone | 협업 도구</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet" />
   <style>
     * {
       box-sizing: border-box;
@@ -136,6 +138,7 @@
       transform: translateY(40px);
       transition: all 0.8s ease;
     }
+
     .fadein.visible {
       opacity: 1;
       transform: translateY(0);
@@ -154,14 +157,23 @@
       color: #00e5ff;
       text-decoration: none;
     }
+
     footer a:hover {
       text-decoration: underline;
     }
 
     @keyframes float {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-10px); }
-      100% { transform: translateY(0px); }
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
     }
 
     header img.logo {
@@ -169,14 +181,15 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
     <!-- TODO: 로고 이미지를 교체하려면 아래 src를 변경하세요 -->
-    <img src="logo.png" alt="Project Cone 로고" class="logo" />
+    <img src="https://is2you2.github.io/assets/img/pjcone.png" alt="Project Cone 로고" class="logo" />
     <h1>Project: Cone</h1>
     <p>
-      Offline-first, privacy-focused collaboration tool.<br/>
+      Offline-first, privacy-focused collaboration tool.<br />
       A creative workspace designed for small teams and content creators.
     </p>
     <div class="btn-group">
@@ -187,7 +200,7 @@
   <section id="about" class="fadein">
     <h2>About</h2>
     <p style="text-align:center; max-width:800px; margin:0 auto; line-height:1.8;">
-      Project Cone은 네트워크 연결이 불안정한 환경에서도 작동하는 오프라인 우선 협업 플랫폼입니다.<br/>
+      Project Cone은 네트워크 연결이 불안정한 환경에서도 작동하는 오프라인 우선 협업 플랫폼입니다.<br />
       이메일 인증 없이 참여 가능한 익명 기반 구조를 통해, 자유로운 아이디어 교류와 실험적인 프로젝트 운영이 가능합니다.
     </p>
   </section>
@@ -204,8 +217,8 @@
         <p>작업을 퀘스트로 등록하고, 진행 상황을 시각적으로 추적할 수 있습니다.</p>
       </div>
       <div class="card">
-        <h3>🗂 파일 주석</h3>
-        <p>문서, 이미지, 오디오, 3D 모델 등 다양한 형식에 직접 주석을 남겨 협업 효율을 극대화합니다.</p>
+        <h3>🗂 파일 뷰어</h3>
+        <p>문서, 이미지, 오디오, 3D 모델 등 다양한 형식을 직접 열람하고 그림판으로 편집하여 협업 효율을 극대화합니다.</p>
       </div>
       <div class="card">
         <h3>⚙️ 오프라인 자동 동기화</h3>
@@ -221,21 +234,26 @@
   <section id="usage" class="fadein">
     <h2>Get Started</h2>
     <p style="text-align:center; max-width:800px; margin:0 auto; line-height:1.8;">
-      별도의 설치 없이 브라우저에서 바로 실행할 수 있습니다.<br/>
-      PWA로 홈 화면에 추가하면 앱처럼 사용할 수 있으며, 서버 연결 시 팀 단위 협업이 가능합니다.
+      별도의 설치 없이 브라우저에서 바로 실행할 수 있습니다.<br />
+      PWA로 홈 화면에 추가하면 앱처럼 사용할 수 있으며, 서버 연결 시 팀 단위 협업이 가능합니다.<br />
+      도커 기반 서버로 누구나 쉽게 컴퓨터에 서버를 설치하실 수 있습니다.
     </p>
   </section>
 
   <section id="vision" class="fadein">
     <h2>Future Vision</h2>
     <p style="text-align:center; max-width:800px; margin:0 auto; line-height:1.8;">
-      Project Cone은 향후 실시간 협업, 푸시 알림, 접근성 표준 지원(WCAG),<br/>
-      도커 기반 서버 설치, 커뮤니티 서버 기능 확장을 목표로 발전하고 있습니다.
+      Project Cone은 향후 실시간 협업에 도움이 되는 기능과 접근성 표준 지원(WCAG),<br />
+      커뮤니티 서버 기능 확장을 목표로 발전하고 있습니다.
     </p>
   </section>
 
   <footer>
-    <p>© 2025 Project Cone | <a href="https://github.com/is2you2/pjcone_pwa">GitHub Repository</a></p>
+    <p>© <span id="year"></span> 플레이디버그연구소</p>
+    <p>사업자등록번호: 568-61-00832</p>
+    <script>
+      document.getElementById('year').textContent = `2020-${new Date().getFullYear()}`;
+    </script>
   </footer>
 
   <script>
@@ -252,4 +270,5 @@
   </script>
 
 </body>
+
 </html>
