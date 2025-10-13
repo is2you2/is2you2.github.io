@@ -1,26 +1,136 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Project: Cone</title>
+<!DOCTYPE html>
+<html lang="ko">
 
-  <base href="/privacy/">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인정보처리방침 | Project: Cone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --muted: #555555;
+            --accent: #2563eb;
+            --maxw: 800px;
+            --radius: 6px;
+        }
 
-  <meta name="color-scheme" content="dark">
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="msapplication-tap-highlight" content="no">
+        * {
+            box-sizing: border-box;
+        }
 
-  </head><body><allow-intent href="http://*/*">
-  <allow-intent href="https://*/*">
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+        }
 
-  <link id="favicon" rel="icon" type="image/png" href="assets/icon/favicon.png">
+        header {
+            text-align: center;
+            padding: 80px 20px 40px;
+            background: #f5f7fa;
+            border-bottom: 1px solid #e5e7eb;
+        }
 
-  <!-- add to homescreen for ios -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<style>:root{--ion-color-primary:#3880ff;--ion-color-primary-rgb:56, 128, 255;--ion-color-primary-contrast:#ffffff;--ion-color-primary-contrast-rgb:255, 255, 255;--ion-color-primary-shade:#3171e0;--ion-color-primary-tint:#4c8dff;--ion-color-secondary:#3dc2ff;--ion-color-secondary-rgb:61, 194, 255;--ion-color-secondary-contrast:#ffffff;--ion-color-secondary-contrast-rgb:255, 255, 255;--ion-color-secondary-shade:#36abe0;--ion-color-secondary-tint:#50c8ff;--ion-color-tertiary:#5260ff;--ion-color-tertiary-rgb:82, 96, 255;--ion-color-tertiary-contrast:#ffffff;--ion-color-tertiary-contrast-rgb:255, 255, 255;--ion-color-tertiary-shade:#4854e0;--ion-color-tertiary-tint:#6370ff;--ion-color-success:#2dd36f;--ion-color-success-rgb:45, 211, 111;--ion-color-success-contrast:#ffffff;--ion-color-success-contrast-rgb:255, 255, 255;--ion-color-success-shade:#28ba62;--ion-color-success-tint:#42d77d;--ion-color-warning:#ffc409;--ion-color-warning-rgb:255, 196, 9;--ion-color-warning-contrast:#000000;--ion-color-warning-contrast-rgb:0, 0, 0;--ion-color-warning-shade:#e0ac08;--ion-color-warning-tint:#ffca22;--ion-color-danger:#eb445a;--ion-color-danger-rgb:235, 68, 90;--ion-color-danger-contrast:#ffffff;--ion-color-danger-contrast-rgb:255, 255, 255;--ion-color-danger-shade:#cf3c4f;--ion-color-danger-tint:#ed576b;--ion-color-dark:#222428;--ion-color-dark-rgb:34, 36, 40;--ion-color-dark-contrast:#ffffff;--ion-color-dark-contrast-rgb:255, 255, 255;--ion-color-dark-shade:#1e2023;--ion-color-dark-tint:#383a3e;--ion-color-medium:#92949c;--ion-color-medium-rgb:146, 148, 156;--ion-color-medium-contrast:#ffffff;--ion-color-medium-contrast-rgb:255, 255, 255;--ion-color-medium-shade:#808289;--ion-color-medium-tint:#9d9fa6;--ion-color-light:#f4f5f8;--ion-color-light-rgb:244, 245, 248;--ion-color-light-contrast:#000000;--ion-color-light-contrast-rgb:0, 0, 0;--ion-color-light-shade:#d7d8da;--ion-color-light-tint:#f5f6f9}body{--ion-color-primary:#428cff;--ion-color-primary-rgb:66, 140, 255;--ion-color-primary-contrast:#ffffff;--ion-color-primary-contrast-rgb:255, 255, 255;--ion-color-primary-shade:#3a7be0;--ion-color-primary-tint:#5598ff;--ion-color-secondary:#50c8ff;--ion-color-secondary-rgb:80, 200, 255;--ion-color-secondary-contrast:#ffffff;--ion-color-secondary-contrast-rgb:255, 255, 255;--ion-color-secondary-shade:#46b0e0;--ion-color-secondary-tint:#62ceff;--ion-color-tertiary:#6a64ff;--ion-color-tertiary-rgb:106, 100, 255;--ion-color-tertiary-contrast:#ffffff;--ion-color-tertiary-contrast-rgb:255, 255, 255;--ion-color-tertiary-shade:#5d58e0;--ion-color-tertiary-tint:#7974ff;--ion-color-success:#2fdf75;--ion-color-success-rgb:47, 223, 117;--ion-color-success-contrast:#000000;--ion-color-success-contrast-rgb:0, 0, 0;--ion-color-success-shade:#29c467;--ion-color-success-tint:#44e283;--ion-color-warning:#ffd534;--ion-color-warning-rgb:255, 213, 52;--ion-color-warning-contrast:#000000;--ion-color-warning-contrast-rgb:0, 0, 0;--ion-color-warning-shade:#e0bb2e;--ion-color-warning-tint:#ffd948;--ion-color-danger:#ff4961;--ion-color-danger-rgb:255, 73, 97;--ion-color-danger-contrast:#ffffff;--ion-color-danger-contrast-rgb:255, 255, 255;--ion-color-danger-shade:#e04055;--ion-color-danger-tint:#ff5b71;--ion-color-dark:#f4f5f8;--ion-color-dark-rgb:244, 245, 248;--ion-color-dark-contrast:#000000;--ion-color-dark-contrast-rgb:0, 0, 0;--ion-color-dark-shade:#d7d8da;--ion-color-dark-tint:#f5f6f9;--ion-color-medium:#989aa2;--ion-color-medium-rgb:152, 154, 162;--ion-color-medium-contrast:#000000;--ion-color-medium-contrast-rgb:0, 0, 0;--ion-color-medium-shade:#86888f;--ion-color-medium-tint:#a2a4ab;--ion-color-light:#222428;--ion-color-light-rgb:34, 36, 40;--ion-color-light-contrast:#ffffff;--ion-color-light-contrast-rgb:255, 255, 255;--ion-color-light-shade:#1e2023;--ion-color-light-tint:#383a3e}html{--ion-font-family:var(--ion-default-font)}body{background:var(--ion-background-color)}@supports (padding-top: 20px){html{--ion-safe-area-top:var(--ion-statusbar-padding)}}@supports (padding-top: constant(safe-area-inset-top)){html{--ion-safe-area-top:constant(safe-area-inset-top);--ion-safe-area-bottom:constant(safe-area-inset-bottom);--ion-safe-area-left:constant(safe-area-inset-left);--ion-safe-area-right:constant(safe-area-inset-right)}}@supports (padding-top: env(safe-area-inset-top)){html{--ion-safe-area-top:env(safe-area-inset-top);--ion-safe-area-bottom:env(safe-area-inset-bottom);--ion-safe-area-left:env(safe-area-inset-left);--ion-safe-area-right:env(safe-area-inset-right)}}*{box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}html{width:100%;height:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}html:not(.hydrated) body{display:none}body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;padding:0;position:fixed;width:100%;max-width:100%;height:100%;max-height:100%;transform:translateZ(0);text-rendering:optimizeLegibility;overflow:hidden;touch-action:manipulation;-webkit-user-drag:none;-ms-content-zooming:none;word-wrap:break-word;overscroll-behavior-y:none;-webkit-text-size-adjust:none;text-size-adjust:none}html{font-family:var(--ion-font-family)}</style><link rel="stylesheet" href="styles.b0beaedeb4b3a88d.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.b0beaedeb4b3a88d.css"></noscript>
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
 
+        header p {
+            font-size: 1rem;
+            color: var(--muted);
+        }
 
-  <app-root></app-root>
-<script src="runtime.780c03f32052b321.js" type="module"></script><script src="polyfills.ff60c501a6550566.js" type="module"></script><script src="main.33eae6487fe04eaa.js" type="module"></script>
+        main {
+            max-width: var(--maxw);
+            margin: 40px auto;
+            padding: 0 20px;
+        }
 
-</allow-intent></allow-intent></body></html>
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 4px;
+        }
+
+        p,
+        ul {
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- TODO: 로고 교체 시 아래 경로 변경 -->
+        <!-- <img src="logo.png" alt="Project Cone 로고" style="width:120px; margin-bottom:10px;"> -->
+        <h1>개인정보처리방침</h1>
+        <p>Project: Cone의 최소 개인정보 처리 안내</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. 수집 정보</h2>
+            <p>Project: Cone은 사용자 식별을 위해 최소한의 계정 정보를 수집합니다.</p>
+            <ul>
+                <li>이메일/비밀번호 쌍 (실제 개인 인증 목적이 아님, 예: aa@aa.aa 가능)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. 이용 목적</h2>
+            <p>수집한 정보는 아래 목적에 한해 사용됩니다.</p>
+            <ul>
+                <li>사용자 식별 및 앱 기능 제공</li>
+                <li>서버 동기화 및 팀 협업 기능 지원</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. 보관 및 삭제</h2>
+            <p>사용자가 계정을 탈퇴하면 해당 정보는 즉시 서버에서 완전히 삭제됩니다.</p>
+            <p>서버 운영자는 일반 개인으로, 필요 시 서버를 중지하거나 데이터 삭제를 수행할 수 있습니다.</p>
+        </section>
+
+        <section>
+            <h2>4. 문의 및 관리</h2>
+            <p>개인정보 관련 문의나 데이터 삭제 요청은 서버 운영자에게 직접 문의해 주세요.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Project Cone | <a href="https://github.com/is2you2/pjcone_pwa">GitHub Repository</a></p>
+    </footer>
+
+</body>
+
+</html>
