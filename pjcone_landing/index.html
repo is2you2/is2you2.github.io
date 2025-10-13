@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project: Cone | 협업 도구</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top, #10141a 0%, #07090c 100%);
+      color: #eaeaea;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: relative;
+      text-align: center;
+      padding: 120px 20px 80px;
+      background: linear-gradient(180deg, #0b0f16 0%, #090b10 100%);
+      box-shadow: 0 0 60px #00e5ff33 inset;
+    }
+
+    /* TODO: 로고 이미지 교체 시 아래 경로 변경 */
+    .logo {
+      width: 140px;
+      height: auto;
+      margin-bottom: 25px;
+      filter: drop-shadow(0 0 10px #00e5ff80);
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      color: #00e5ff;
+      text-shadow: 0 0 20px #00e5ff;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: #b0c4d4;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+      color: #00e5ff;
+      border: 1px solid #00e5ff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      background: rgba(0, 229, 255, 0.05);
+      box-shadow: 0 0 15px #00e5ff33;
+    }
+
+    .btn:hover {
+      background: #00e5ff;
+      color: #0b0f16;
+      box-shadow: 0 0 25px #00e5ff;
+      transform: translateY(-2px);
+    }
+
+    section {
+      padding: 100px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00e5ff;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 60px;
+      text-shadow: 0 0 10px #00e5ff80;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      padding: 30px 25px;
+      backdrop-filter: blur(4px);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: #00e5ff55;
+      box-shadow: 0 0 25px #00e5ff33;
+    }
+
+    .card h3 {
+      color: #00e5ff;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 6px #00e5ff66;
+    }
+
+    .card p {
+      color: #c5d0da;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .fadein {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s ease;
+    }
+    .fadein.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      background: #080a0d;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    footer a {
+      color: #00e5ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    header img.logo {
+      animation: float 3s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- TODO: 로고 이미지를 교체하려면 아래 src를 변경하세요 -->
+    <img src="logo.png" alt="Project Cone 로고" class="logo" />
+    <h1>Project: Cone</h1>
+    <p>
+      Offline-first, privacy-focused collaboration tool.<br/>
+      A creative workspace designed for small teams and content creators.
+    </p>
+    <div class="btn-group">
+      <a href="https://is2you2.github.io/pjcone_pwa/" class="btn">Launch App</a>
+    </div>
+  </header>
+
+  <section id="about" class="fadein">
+    <h2>About</h2>
+    <p style="text-align:center; max-width:800px; margin:0 auto; line-height:1.8;">
+      Project Cone은 네트워크 연결이 불안정한 환경에서도 작동하는 오프라인 우선 협업 플랫폼입니다.<br/>
+      이메일 인증 없이 참여 가능한 익명 기반 구조를 통해, 자유로운 아이디어 교류와 실험적인 프로젝트 운영이 가능합니다.
+    </p>
+  </section>
+
+  <section id="features" class="fadein">
+    <h2>Core Features</h2>
+    <div class="features">
+      <div class="card">
+        <h3>🧭 채널 기반 커뮤니케이션</h3>
+        <p>팀별, 프로젝트별 대화를 채널로 분리하여 관리할 수 있으며, 개인 노트 공간도 제공합니다.</p>
+      </div>
+      <div class="card">
+        <h3>🎯 퀘스트 기반 작업 관리</h3>
+        <p>작업을 퀘스트로 등록하고, 진행 상황을 시각적으로 추적할 수 있습니다.</p>
+      </div>
+      <div class="card">
+        <h3>🗂 파일 주석</h3>
+        <p>문서, 이미지, 오디오, 3D 모델 등 다양한 형식에 직접 주석을 남겨 협업 효율을 극대화합니다.</p>
+      </div>
+      <div class="card">
+        <h3>⚙️ 오프라인 자동 동기화</h3>
+        <p>네트워크 연결이 끊겨도 작업이 유지되며, 연결 시 자동으로 서버와 동기화됩니다.</p>
+      </div>
+      <div class="card">
+        <h3>🔐 자체 서버 운영</h3>
+        <p>모든 데이터는 개인 또는 팀 서버에 저장되어, 완전한 자율성과 프라이버시를 제공합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="usage" class="fadein">
+    <h2>Get Started</h2>
+    <p style="text-align:center; max-width:800px; margin:0 auto; line-height:1.8;">
+      별도의 설치 없이 브라우저에서 바로 실행할 수 있습니다.<br/>
+      PWA로 홈 화면에 추가하면 앱처럼 사용할 수 있으며, 서버 연결 시 팀 단위 협업이 가능합니다.
+    </p>
+  </section>
+
+  <section id="vision" class="fadein">
+    <h2>Future Vision</h2>
+    <p style="text-align:center; max-width:800px; margin:0 auto; line-height:1.8;">
+      Project Cone은 향후 실시간 협업, 푸시 알림, 접근성 표준 지원(WCAG),<br/>
+      도커 기반 서버 설치, 커뮤니티 서버 기능 확장을 목표로 발전하고 있습니다.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Project Cone | <a href="https://github.com/is2you2/pjcone_pwa">GitHub Repository</a></p>
+  </footer>
+
+  <script>
+    // 스크롤 시 페이드인 애니메이션
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fadein').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
