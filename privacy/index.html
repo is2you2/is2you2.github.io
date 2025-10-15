@@ -100,7 +100,7 @@
     <main>
         <section>
             <h2>1. 수집 정보</h2>
-            <p>Project: Cone은 사용자 식별을 위해 최소한의 계정 정보를 수집합니다.</p>
+            <p>각 서버의 운영자는 일반 개인이며, 사용자 식별을 위해 최소한의 계정 정보를 수집합니다.</p>
             <ul>
                 <li>이메일/비밀번호 쌍 (실제 개인 인증 목적이 아님, 예: aa@aa.aa 가능)</li>
             </ul>
@@ -118,7 +118,7 @@
         <section>
             <h2>3. 보관 및 삭제</h2>
             <p>사용자가 계정을 탈퇴하면 해당 정보는 즉시 서버에서 완전히 삭제됩니다.</p>
-            <p>서버 운영자는 일반 개인으로, 필요 시 서버를 중지하거나 데이터 삭제를 수행할 수 있습니다.</p>
+            <p>서버 운영자가 필요 시 서버를 중지하거나 데이터 삭제를 수행할 수 있습니다.</p>
         </section>
 
         <section>
@@ -128,7 +128,10 @@
     </main>
 
     <footer>
-        <p>© 2025 Project Cone | <a href="https://github.com/is2you2/pjcone_pwa">GitHub Repository</a></p>
+        <p>© <span id="year"></span> 그림또따</p>
+        <script>
+            document.getElementById('year').textContent = `2020-${new Date().getFullYear()}`;
+        </script>
     </footer>
 
 </body>
