@@ -181,6 +181,9 @@
 
     <div class="btn-group">
       <a href="https://is2you2.github.io/pjcone_pwa/" class="btn">Launch App</a>
+      <button id="tryDemoBtn" class="btn" style="display:none; cursor: pointer;">
+        Try Demo
+      </button>
       <a href="https://is2you2.github.io/posts/instruction-pjcone-basic/" class="btn secondary">사용 설명서</a>
       <a href="https://is2you2.github.io/posts/instruction-pjcone-server/" class="btn secondary">서버 구축 안내</a>
     </div>
@@ -202,7 +205,7 @@
 
       <div class="card">
         <h3>🔒 Closed-SNS 구조</h3>
-        <p>검색·공개 타임라인 없이 초대된 채널에서만 협업이 이루어지는 폐쇄형 구조.  
+        <p>검색·공개 타임라인 없이 초대된 채널에서만 협업이 이루어지는 폐쇄형 구조.
           개인 정보 노출이 없으며 팀 단위 집중 작업에 최적화.</p>
       </div>
 
@@ -223,7 +226,7 @@
 
       <div class="card">
         <h3>🛠 자체 서버 운영</h3>
-        <p>모든 데이터는 사용자의 서버에 저장됩니다.  
+        <p>모든 데이터는 사용자의 서버에 저장됩니다.
           관리형 서비스가 아닌 “사용자가 직접 소유하는 협업 플랫폼”입니다.</p>
       </div>
     </div>
@@ -254,7 +257,41 @@
   <script>
     document.getElementById('year').innerText = `2020-${new Date().getFullYear()}`;
 
-    // Fade-in scroll animation
+    /* ===============================
+       OS Detection & Demo Button
+       =============================== */
+
+    const ua = navigator.userAgent.toLowerCase();
+    const isApple = /mac|iphone|ipad|ipod/.test(ua);
+    const isWindows = /windows/.test(ua);
+    const isLinux = /linux/.test(ua) && !isApple;
+
+    const tryDemoBtn = document.getElementById("tryDemoBtn");
+
+    // Apple OS → 버튼 숨김
+    if (!isApple && (isWindows || isLinux)) {
+      tryDemoBtn.style.display = "inline-block";
+    }
+
+    tryDemoBtn?.addEventListener("click", () => {
+      let targetUrl = "";
+
+      if (isWindows) {
+        // TODO: Windows Demo 파일 URL
+        targetUrl = "https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823091831/Project_Cone-Demo.exe";
+      } else if (isLinux) {
+        // TODO: Linux Demo 파일 URL
+        targetUrl = "https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823103681/Project_Cone-Demo.AppImage";
+      }
+
+      if (targetUrl) {
+        window.location.href = targetUrl;
+      }
+    });
+
+    /* ===============================
+       Fade-in scroll animation
+       =============================== */
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting) e.target.classList.add("visible");
