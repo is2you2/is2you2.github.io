@@ -2,304 +2,314 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project: Cone | 기술 소개</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Project: Cone | 자가 구축형 디지털 요새</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        /* CSS 스타일은 기존과 동일하므로 생략하거나 그대로 유지하세요 */
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #e0e0e0;
+            --accent-color: #00ff41;
+            --card-bg: #111111;
+            --border-color: #222;
+        }
 
-  <!-- Pretendard Variable (기술 문서 스타일 폰트) -->
-  <link rel="stylesheet" as="style" crossorigin
-    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Pretendard', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
-    body {
-      font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Noto Sans KR", sans-serif;
-      background: #f7f9fb;
-      color: #222;
-      line-height: 1.65;
-    }
+        header {
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    header {
-      padding: 100px 20px 70px;
-      text-align: center;
-      background: #ffffff;
-      border-bottom: 1px solid #e5e7eb;
-    }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            text-decoration: none;
+        }
 
-    .logo {
-      width: 120px;
-      height: auto;
-      margin-bottom: 25px;
-    }
+        .hero {
+            padding: 100px 0 80px;
+            text-align: center;
+        }
 
-    header h1 {
-      font-size: 2.8rem;
-      font-weight: 700;
-      margin-bottom: 15px;
-      color: #111;
-      letter-spacing: -0.02em;
-    }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 24px;
+            letter-spacing: -1.5px;
+            line-height: 1.2;
+            color: #fff;
+        }
 
-    header p {
-      font-size: 1.15rem;
-      max-width: 700px;
-      margin: 0 auto 40px;
-      color: #555;
-    }
+        .hero h1 span {
+            color: var(--accent-color);
+        }
 
-    .btn-group {
-      display: flex;
-      justify-content: center;
-      gap: 14px;
-      flex-wrap: wrap;
-    }
+        .hero p {
+            font-size: 1.25rem;
+            color: #888;
+            max-width: 750px;
+            margin: 0 auto 48px;
+        }
 
-    .btn {
-      padding: 12px 26px;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-decoration: none;
-      border: 1px solid #3b82f6;
-      background: #3b82f6;
-      color: #fff;
-      transition: 0.2s ease;
-    }
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
 
-    .btn.secondary {
-      background: #fff;
-      color: #3b82f6;
-    }
+        .cta-button {
+            display: inline-block;
+            padding: 16px 36px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 2px;
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
 
-    .btn:hover {
-      opacity: 0.9;
-    }
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: #000;
+            border: 1px solid var(--accent-color);
+        }
 
-    section {
-      padding: 90px 20px;
-      max-width: 980px;
-      margin: 0 auto;
-    }
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+        }
 
-    h2 {
-      font-size: 2rem;
-      font-weight: 700;
-      text-align: center;
-      margin-bottom: 50px;
-      color: #111;
-    }
+        .manifesto {
+            background-color: var(--card-bg);
+            padding: 80px 40px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 100px;
+            text-align: center;
+        }
 
-    p.center {
-      text-align: center;
-      max-width: 820px;
-      margin: 0 auto;
-      color: #444;
-      line-height: 1.75;
-    }
+        .manifesto blockquote {
+            font-size: 1.6rem;
+            font-style: italic;
+            color: #fff;
+            margin: 0;
+            line-height: 1.5;
+            word-break: keep-all;
+        }
 
-    /* 카드형 특징 영역 */
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 26px;
-      margin-top: 40px;
-    }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 120px;
+        }
 
-    .card {
-      background: #fff;
-      border: 1px solid #e5e7eb;
-      padding: 26px 22px;
-      border-radius: 12px;
-      transition: 0.2s ease;
-    }
+        .feature-card {
+            padding: 40px;
+            border: 1px solid var(--border-color);
+            background: #0d0d0d;
+        }
 
-    .card:hover {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    }
+        .feature-card h3 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-size: 1.25rem;
+        }
 
-    .card h3 {
-      font-size: 1.2rem;
-      font-weight: 600;
-      margin-bottom: 12px;
-      color: #111;
-    }
+        footer {
+            padding: 80px 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            color: #555;
+            font-size: 0.85rem;
+        }
 
-    .card p {
-      color: #555;
-      font-size: 0.95rem;
-      line-height: 1.6;
-    }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
 
-    footer {
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-      border-top: 1px solid #e5e7eb;
-      margin-top: 60px;
-    }
-
-    footer a {
-      color: #3b82f6;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* 페이드인 */
-    .fade {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: 0.7s ease;
-    }
-
-    .fade.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  </style>
+            .cta-button {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-  <header>
-    <!-- TODO: 로고 이미지 교체 시 아래 src 변경 -->
-    <img src="https://is2you2.github.io/assets/img/pjcone.png" class="logo" alt="Project Cone 로고">
-    <h1>Project: Cone</h1>
-    <p>
-      오프라인 우선(Offline-first), 프라이버시 중심, 폐쇄형 Closed-SNS 협업 플랫폼.<br />
-      초대받은 공간에서만 안전하게 작업할 수 있는 새로운 형태의 협업 도구입니다.
-    </p>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">Project: Cone</a>
+            <nav><small style="letter-spacing: 1.5px; color: #444;" data-i18n="nav-tag">DECENTRALIZED. PRIVATE.
+                    SOVEREIGN.</small></nav>
+        </header>
 
-    <div class="btn-group">
-      <a href="https://is2you2.github.io/pjcone_pwa/" class="btn">Launch App</a>
-      <button id="tryDemoBtn" class="btn" style="display:none; cursor: pointer;">
-        Try Demo
-      </button>
-      <a href="https://is2you2.github.io/posts/instruction-pjcone-basic/" class="btn secondary">사용 설명서</a>
-      <a href="https://is2you2.github.io/posts/instruction-pjcone-server/" class="btn secondary">서버 구축 안내</a>
+        <section class="hero">
+            <p data-i18n="hero-sub">빅테크의 감시와 데이터 독점으로부터의 독립</p>
+            <h1 data-i18n="hero-title">당신의 대화는 <span>당신의 거실</span>에 머물러야 합니다.</h1>
+            <p data-i18n="hero-desc">중앙 서버가 없는 진정한 Closed-SNS. 기업의 서버가 아닌 당신의 인프라가 세상의 중심이 되는 소통 도구, <strong>Project:
+                    Cone</strong>입니다.</p>
+
+            <div class="btn-group">
+                <a href="https://is2you2.github.io/pjcone_pwa/" class="cta-button btn-primary" data-i18n="btn-pwa">바로
+                    사용하기 (PWA)</a>
+                <a href="https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823091831/Project_Cone-Demo.exe"
+                    class="cta-button btn-secondary" data-i18n="btn-demo">데모 버전 체험 (EXE)</a>
+            </div>
+        </section>
+
+        <section class="manifesto">
+            <blockquote data-i18n="manifesto-text">
+                "우리는 당신이 누구인지 모릅니다. <br>데이터의 주권이 당신에게 있는 한, 우리는 당신을 알 필요가 없습니다."
+            </blockquote>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3 data-i18n="f1-t">01. 탈중앙화 물리 서버</h3>
+                <p data-i18n="f1-d">플랫폼에 종속되지 마십시오. 당신의 PC나 NAS에 직접 인프라를 배포하고 관리하세요. 기업의 중앙 서버라는 '데이터 꿀단지'를 거부합니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3 data-i18n="f2-t">02. 검열 불가능한 요새</h3>
+                <p data-i18n="f2-d">서버가 당신의 물리적 공간에 존재하는 한, 제3자에 의한 데이터 검열이나 백도어 접근은 원천적으로 불가능합니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3 data-i18n="f3-t">03. 제로 알고리즘</h3>
+                <p data-i18n="f3-d">추천 시스템도, 도파민 유도 장치도 없습니다. 오직 당신이 신뢰하고 초대한 사람들과의 순수한 소통만 허용합니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3 data-i18n="f4-t">04. PWA & Electron</h3>
+                <p data-i18n="f4-d">스토어의 검열이 없는 PWA와 환경 테스트를 위한 Electron 데모를 통해 언제 어디서든 자유롭게 접속하십시오.</p>
+            </div>
+            <div class="feature-card">
+                <h3 data-i18n="f5-t">05. 실체적인 보안 해답</h3>
+                <p data-i18n="f5-d">개인정보 유출과 사생활 침해라는 시대적 위협에 대해, 우리는 '물리적 분리'라는 가장 차가운 기술적 해답을 제시합니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3 data-i18n="f6-t">06. 익명성과 실용주의</h3>
+                <p data-i18n="f6-d">어떤 개인정보도 요구하지 않습니다. 우리는 자유를 위한 도구를 제공할 뿐, 그 안의 가치를 채우는 것은 오직 당신의 몫입니다.</p>
+            </div>
+        </section>
+
+        <section style="text-align: center; padding-bottom: 120px;">
+            <h2 data-i18n="bottom-title">이제, 디지털 독립을 선언하세요.</h2>
+            <p style="color: #888; margin-bottom: 40px;" data-i18n="bottom-desc">복잡한 설정은 필요 없습니다. 지침에 따라 당신만의 성벽을
+                완성하십시오.</p>
+            <div class="btn-group">
+                <div class="btn-group">
+                    <a href="https://is2you2.github.io/posts/instruction-pjcone-basic/" class="cta-button btn-secondary"
+                        data-i18n="btn-guide" data-doc="guide">
+                        앱 기능 설명서
+                    </a>
+                    <a href="https://is2you2.github.io/posts/instruction-pjcone-server/" class="cta-button btn-primary"
+                        data-i18n="btn-server" data-doc="server">
+                        서버 구축 시작하기
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p data-i18n="footer-text">&copy; 2020-2025 Project: Cone. Built for Digital Privacy & Sovereign
+                Communication.</p>
+        </footer>
     </div>
-  </header>
 
-  <section class="fade" id="overview">
-    <h2>Overview</h2>
-    <p class="center">
-      Project Cone은 불안정한 네트워크 환경에서도 작업이 유지되는 오프라인 우선 기술을 기반으로 설계되었습니다.<br />
-      서버에 가입할 수는 있지만, 초대받지 않으면 다른 사용자와 대화를 할 수 없는 “Closed-SNS” 구조를 가지고 있어<br />
-      팀·프로젝트 단위의 안전한 협업이 가능합니다.
-    </p>
-  </section>
+    <script>
+        const DOC_URL_MAP = {
+            ko: {
+                guide: 'https://is2you2.github.io/posts/instruction-pjcone-basic/',
+                server: 'https://is2you2.github.io/posts/instruction-pjcone-server/',
+            },
+            en: {
+                guide: 'https://is2you2.github.io/posts/instruction-pjcone-basic-en/',
+                server: 'https://is2you2.github.io/posts/instruction-pjcone-server-en/',
+            }
+        };
 
-  <section class="fade" id="features">
-    <h2>Key Features</h2>
+        const i18n = {
+            en: {
+                "page-title": "Project: Cone | Self-Hosted Digital Fortress",
+                "nav-tag": "DECENTRALIZED. PRIVATE. SOVEREIGN.",
+                "hero-sub": "Independence from Big Tech Surveillance",
+                "hero-title": "Your conversations should stay in <span>your living room</span>.",
+                "hero-desc": "A true Closed-SNS without a central server. <strong>Project: Cone</strong> is a communication tool where your infrastructure, not a corporation's, becomes the center of your world.",
+                "btn-pwa": "Use Now (PWA)",
+                "btn-demo": "Try Demo (EXE)",
+                "manifesto-text": "\"We don't know who you are. <br>As long as you own the sovereignty of your data, we don't need to know.\"",
+                "f1-t": "01. Decentralized Physical Server",
+                "f1-d": "Don't be dependent on platforms. Deploy and manage infrastructure directly on your PC or NAS. Reject the 'data honeypot' of central servers.",
+                "f2-t": "02. Uncensorable Fortress",
+                "f2-d": "As long as the server exists in your physical space, data censorship or backdoor access by third parties is fundamentally impossible.",
+                "f3-t": "03. Zero Algorithm",
+                "f3-d": "No recommendation systems, no dopamine-inducing traps. Only pure communication with people you trust and invite.",
+                "f4-t": "04. PWA & Electron",
+                "f4-d": "Access freely anytime, anywhere via PWA with no store censorship and an Electron demo for environment testing.",
+                "f5-t": "05. Tangible Security Solution",
+                "f5-d": "Against data leaks and privacy violations, we offer the coldest technical answer: 'Physical Separation'.",
+                "f6-t": "06. Anonymity & Pragmatism",
+                "f6-d": "No personal information required. We provide the tools for freedom; the value within is yours to fill.",
+                "bottom-title": "Now, Declare Digital Independence.",
+                "bottom-desc": "No complex setup required. Follow the instructions and complete your fortress.",
+                "btn-guide": "App Features Guide",
+                "btn-server": "Start Server Setup",
+                "footer-text": "&copy; 2020-2025 Project: Cone. Built for Digital Privacy & Sovereign Communication."
+            }
+        };
 
-    <div class="features">
+        function applyLanguage() {
+            const userLang = navigator.language || navigator.userLanguage;
+            // 한국어(ko)가 아니면 영어를 기본으로 설정
+            if (!userLang.startsWith('ko')) {
+                const langData = i18n.en;
 
-      <div class="card">
-        <h3>🔒 Closed-SNS 구조</h3>
-        <p>검색·공개 타임라인 없이 초대된 채널에서만 협업이 이루어지는 폐쇄형 구조.
-          개인 정보 노출이 없으며 팀 단위 집중 작업에 최적화.</p>
-      </div>
+                // 페이지 타이틀 변경
+                document.title = langData["page-title"];
 
-      <div class="card">
-        <h3>🌐 Offline-first 설계</h3>
-        <p>인터넷 연결이 끊겨도 작업이 유지되며, 다시 연결되면 자동으로 동기화됩니다.</p>
-      </div>
+                // data-i18n 속성을 가진 모든 엘리먼트 순회하며 텍스트 교체
+                document.querySelectorAll('[data-i18n]').forEach(el => {
+                    const key = el.getAttribute('data-i18n');
+                    if (langData[key]) {
+                        el.innerHTML = langData[key];
+                    }
+                });
 
-      <div class="card">
-        <h3>🧭 채널 기반 협업</h3>
-        <p>프로젝트별·팀별로 채널을 나눠 대화를 구조화하여 효율적인 협업 환경을 제공합니다.</p>
-      </div>
+                // 2. 하단 설명서 링크 변경 (추가된 부분)
+                document.querySelectorAll('[data-doc]').forEach(el => {
+                    const docType = el.getAttribute('data-doc'); // guide | server
+                    const url = DOC_URL_MAP['en'][docType];
+                    if (url) {
+                        el.setAttribute('href', url);
+                    }
+                });
+            }
+        }
 
-      <div class="card">
-        <h3>📁 내장 뷰어 & 편집기</h3>
-        <p>이미지, 문서, 오디오 등 다양한 파일을 브라우저 내에서 바로 열람하고 간단히 편집할 수 있습니다.</p>
-      </div>
-
-      <div class="card">
-        <h3>🛠 자체 서버 운영</h3>
-        <p>모든 데이터는 사용자의 서버에 저장됩니다.
-          관리형 서비스가 아닌 “사용자가 직접 소유하는 협업 플랫폼”입니다.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="fade" id="getstarted">
-    <h2>Get Started</h2>
-    <p class="center">
-      설치 없이 브라우저에서 바로 실행할 수 있으며, PWA로 홈 화면에 추가해 앱처럼 사용할 수 있습니다.<br />
-      서버를 연결하면 팀 단위 협업 기능이 활성화됩니다.
-    </p>
-  </section>
-
-  <section class="fade" id="future">
-    <h2>Future Vision</h2>
-    <p class="center">
-      Project Cone은 향후 더 나은 실시간 협업 성능, 접근성 표준(WCAG) 지원,
-      그리고 확장 가능한 커뮤니티 기능 추가를 목표로 하고 있습니다.
-    </p>
-  </section>
-
-  <footer>
-    <p>© <span id="year"></span> 플레이디버그연구소</p>
-    <p>사업자등록번호: 568-61-00832</p>
-    <p><a href="https://github.com/is2you2/pjcone_server">GitHub Repository</a></p>
-  </footer>
-
-  <script>
-    document.getElementById('year').innerText = `2020-${new Date().getFullYear()}`;
-
-    /* ===============================
-       OS Detection & Demo Button
-       =============================== */
-
-    const ua = navigator.userAgent.toLowerCase();
-    const isApple = /mac|iphone|ipad|ipod/.test(ua);
-    const isWindows = /windows/.test(ua);
-    const isLinux = /linux/.test(ua) && !isApple;
-
-    const tryDemoBtn = document.getElementById("tryDemoBtn");
-
-    // Apple OS → 버튼 숨김
-    if (!isApple && (isWindows || isLinux)) {
-      tryDemoBtn.style.display = "inline-block";
-    }
-
-    tryDemoBtn?.addEventListener("click", () => {
-      let targetUrl = "";
-
-      if (isWindows) {
-        // TODO: Windows Demo 파일 URL
-        targetUrl = "https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823091831/Project_Cone-Demo.exe";
-      } else if (isLinux) {
-        // TODO: Linux Demo 파일 URL
-        targetUrl = "https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823103681/Project_Cone-Demo.AppImage";
-      }
-
-      if (targetUrl) {
-        window.location.href = targetUrl;
-      }
-    });
-
-    /* ===============================
-       Fade-in scroll animation
-       =============================== */
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) e.target.classList.add("visible");
-      });
-    }, { threshold: 0.15 });
-
-    document.querySelectorAll(".fade").forEach(el => observer.observe(el));
-  </script>
+        // 페이지 로드 시 실행
+        document.addEventListener('DOMContentLoaded', applyLanguage);
+    </script>
 
 </body>
 
