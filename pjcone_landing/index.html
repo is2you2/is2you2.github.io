@@ -7,7 +7,7 @@
     <title id="page-title">Project: Cone | 자가 구축형 디지털 요새</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <style>
-        /* CSS 스타일은 기존과 동일하므로 생략하거나 그대로 유지하세요 */
+        /* 기존 스타일 유지 */
         :root {
             --bg-color: #0a0a0a;
             --text-color: #e0e0e0;
@@ -100,6 +100,11 @@
             border: 1px solid var(--accent-color);
         }
 
+        /* 버튼 숨김 처리용 */
+        .hidden {
+            display: none !important;
+        }
+
         .manifesto {
             background-color: var(--card-bg);
             padding: 80px 40px;
@@ -175,8 +180,7 @@
             <div class="btn-group">
                 <a href="https://is2you2.github.io/pjcone_pwa/" class="cta-button btn-primary" data-i18n="btn-pwa">바로
                     사용하기 (PWA)</a>
-                <a href="https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823091831/Project_Cone-Demo.exe"
-                    class="cta-button btn-secondary" data-i18n="btn-demo">데모 버전 체험 (EXE)</a>
+                <a id="demo-btn" href="#" class="cta-button btn-secondary" data-i18n="btn-demo">데모 버전 체험</a>
             </div>
         </section>
 
@@ -189,15 +193,15 @@
         <section class="features">
             <div class="feature-card">
                 <h3 data-i18n="f1-t">01. 탈중앙화 물리 서버</h3>
-                <p data-i18n="f1-d">플랫폼에 종속되지 마십시오. 당신의 PC나 NAS에 직접 인프라를 배포하고 관리하세요. 기업의 중앙 서버라는 '데이터 꿀단지'를 거부합니다.</p>
+                <p data-i18n="f1-d">플랫폼에 종속되지 마십시오. 당신의 PC나 NAS에 직접 인프라를 배포하고 관리하세요.</p>
             </div>
             <div class="feature-card">
                 <h3 data-i18n="f2-t">02. 검열 불가능한 요새</h3>
-                <p data-i18n="f2-d">서버가 당신의 물리적 공간에 존재하는 한, 제3자에 의한 데이터 검열이나 백도어 접근은 원천적으로 불가능합니다.</p>
+                <p data-i18n="f2-d">서버가 당신의 물리적 공간에 존재하는 한, 제3자에 의한 데이터 검열은 원천적으로 불가능합니다.</p>
             </div>
             <div class="feature-card">
                 <h3 data-i18n="f3-t">03. 제로 알고리즘</h3>
-                <p data-i18n="f3-d">추천 시스템도, 도파민 유도 장치도 없습니다. 오직 당신이 신뢰하고 초대한 사람들과의 순수한 소통만 허용합니다.</p>
+                <p data-i18n="f3-d">추천 시스템도, 도파민 유도 장치도 없습니다. 오직 당신이 신뢰하고 초대한 사람들과의 소통만 허용합니다.</p>
             </div>
             <div class="feature-card">
                 <h3 data-i18n="f4-t">04. PWA & Electron</h3>
@@ -209,7 +213,7 @@
             </div>
             <div class="feature-card">
                 <h3 data-i18n="f6-t">06. 익명성과 실용주의</h3>
-                <p data-i18n="f6-d">어떤 개인정보도 요구하지 않습니다. 우리는 자유를 위한 도구를 제공할 뿐, 그 안의 가치를 채우는 것은 오직 당신의 몫입니다.</p>
+                <p data-i18n="f6-d">어떤 개인정보도 요구하지 않습니다. 우리는 자유를 위한 도구를 제공할 뿐, 가치를 채우는 것은 당신의 몫입니다.</p>
             </div>
         </section>
 
@@ -218,16 +222,14 @@
             <p style="color: #888; margin-bottom: 40px;" data-i18n="bottom-desc">복잡한 설정은 필요 없습니다. 지침에 따라 당신만의 성벽을
                 완성하십시오.</p>
             <div class="btn-group">
-                <div class="btn-group">
-                    <a href="https://is2you2.github.io/posts/how-to-use-pjcone-client/" class="cta-button btn-secondary"
-                        data-i18n="btn-guide" data-doc="guide">
-                        앱 기능 설명서
-                    </a>
-                    <a href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" class="cta-button btn-primary"
-                        data-i18n="btn-server" data-doc="server">
-                        서버 구축 시작하기
-                    </a>
-                </div>
+                <a href="https://is2you2.github.io/posts/how-to-use-pjcone-client/" class="cta-button btn-secondary"
+                    data-i18n="btn-guide" data-doc="guide">
+                    앱 기능 설명서
+                </a>
+                <a href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" class="cta-button btn-primary"
+                    data-i18n="btn-server" data-doc="server">
+                    서버 구축 시작하기
+                </a>
             </div>
         </section>
 
@@ -238,6 +240,12 @@
     </div>
 
     <script>
+        // 데모 링크 설정
+        const DEMO_URL_MAP = {
+            exe: "https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823091831/Project_Cone-Demo.exe",
+            appImage: "https://pjcone.ddns.net:9002/cdn/758d326a-6f1a-4ac4-93cc-9433521464a0/19304bb6-1558-4c3d-b1f7-735711278df4/1765823103681/Project_Cone-Demo.AppImage"
+        };
+
         const DOC_URL_MAP = {
             ko: {
                 guide: 'https://is2you2.github.io/posts/how-to-use-pjcone-client/',
@@ -257,58 +265,86 @@
                 "hero-title": "Your conversations should stay in <span>your living room</span>.",
                 "hero-desc": "A true Closed-SNS without a central server. <strong>Project: Cone</strong> is a communication tool where your infrastructure, not a corporation's, becomes the center of your world.",
                 "btn-pwa": "Use Now (PWA)",
-                "btn-demo": "Try Demo (EXE)",
+                "btn-demo-windows": "Try Demo (Windows)",
+                "btn-demo-linux": "Try Demo (Linux)",
                 "manifesto-text": "\"We don't know who you are. <br>As long as you own the sovereignty of your data, we don't need to know.\"",
                 "f1-t": "01. Decentralized Physical Server",
-                "f1-d": "Don't be dependent on platforms. Deploy and manage infrastructure directly on your PC or NAS. Reject the 'data honeypot' of central servers.",
+                "f1-d": "Don't be dependent on platforms. Deploy and manage infrastructure directly on your PC or NAS.",
                 "f2-t": "02. Uncensorable Fortress",
-                "f2-d": "As long as the server exists in your physical space, data censorship or backdoor access by third parties is fundamentally impossible.",
+                "f2-d": "As long as the server exists in your physical space, data censorship is fundamentally impossible.",
                 "f3-t": "03. Zero Algorithm",
-                "f3-d": "No recommendation systems, no dopamine-inducing traps. Only pure communication with people you trust and invite.",
+                "f3-d": "No recommendation systems, no dopamine-inducing traps.",
                 "f4-t": "04. PWA & Electron",
-                "f4-d": "Access freely anytime, anywhere via PWA with no store censorship and an Electron demo for environment testing.",
+                "f4-d": "Access freely anytime, anywhere via PWA and an Electron demo for environment testing.",
                 "f5-t": "05. Tangible Security Solution",
                 "f5-d": "Against data leaks and privacy violations, we offer the coldest technical answer: 'Physical Separation'.",
                 "f6-t": "06. Anonymity & Pragmatism",
-                "f6-d": "No personal information required. We provide the tools for freedom; the value within is yours to fill.",
+                "f6-d": "No personal information required. We provide the tools for freedom.",
                 "bottom-title": "Now, Declare Digital Independence.",
                 "bottom-desc": "No complex setup required. Follow the instructions and complete your fortress.",
                 "btn-guide": "App Features Guide",
                 "btn-server": "Start Server Setup",
                 "footer-text": "&copy; 2020-2025 Project: Cone. Built for Digital Privacy & Sovereign Communication."
+            },
+            ko: {
+                "btn-demo-windows": "데모 버전 체험 (EXE)",
+                "btn-demo-linux": "데모 버전 체험 (AppImage)"
             }
         };
 
-        function applyLanguage() {
+        function applyLogic() {
             const userLang = navigator.language || navigator.userLanguage;
-            // 한국어(ko)가 아니면 영어를 기본으로 설정
-            if (!userLang.startsWith('ko')) {
-                const langData = i18n.en;
+            const isKo = userLang.startsWith('ko');
+            const userAgent = window.navigator.userAgent.toLowerCase();
+            const platform = window.navigator.platform.toLowerCase();
 
-                // 페이지 타이틀 변경
+            const demoBtn = document.getElementById('demo-btn');
+
+            // 1. OS 판별 및 데모 버튼 제어
+            let os = 'windows'; // 기본값
+            if (userAgent.indexOf("win") !== -1 || platform.indexOf("win") !== -1) {
+                os = 'windows';
+            } else if (userAgent.indexOf("linux") !== -1 || platform.indexOf("linux") !== -1) {
+                os = 'linux';
+            } else if (userAgent.indexOf("mac") !== -1 || platform.indexOf("mac") !== -1 || /iphone|ipad|ipod/.test(userAgent)) {
+                os = 'apple';
+            }
+
+            if (os === 'apple') {
+                demoBtn.classList.add('hidden');
+            } else {
+                demoBtn.href = (os === 'linux') ? DEMO_URL_MAP.appImage : DEMO_URL_MAP.exe;
+                // 초기 텍스트 설정 (언어 적용 전 기본 ko 기준)
+                const textKey = (os === 'linux') ? "btn-demo-linux" : "btn-demo-windows";
+                demoBtn.innerHTML = isKo ? i18n.ko[textKey] : i18n.en[textKey];
+            }
+
+            // 2. 다국어 적용
+            if (!isKo) {
+                const langData = i18n.en;
                 document.title = langData["page-title"];
 
-                // data-i18n 속성을 가진 모든 엘리먼트 순회하며 텍스트 교체
                 document.querySelectorAll('[data-i18n]').forEach(el => {
                     const key = el.getAttribute('data-i18n');
-                    if (langData[key]) {
+                    // 데모 버튼의 경우 OS 텍스트와 결합해야 하므로 별도 처리
+                    if (key === 'btn-demo') {
+                        const textKey = (os === 'linux') ? "btn-demo-linux" : "btn-demo-windows";
+                        el.innerHTML = langData[textKey];
+                    } else if (langData[key]) {
                         el.innerHTML = langData[key];
                     }
                 });
 
-                // 2. 하단 설명서 링크 변경 (추가된 부분)
+                // 설명서 링크 변경
                 document.querySelectorAll('[data-doc]').forEach(el => {
-                    const docType = el.getAttribute('data-doc'); // guide | server
+                    const docType = el.getAttribute('data-doc');
                     const url = DOC_URL_MAP['en'][docType];
-                    if (url) {
-                        el.setAttribute('href', url);
-                    }
+                    if (url) el.setAttribute('href', url);
                 });
             }
         }
 
-        // 페이지 로드 시 실행
-        document.addEventListener('DOMContentLoaded', applyLanguage);
+        document.addEventListener('DOMContentLoaded', applyLogic);
     </script>
 
 </body>
