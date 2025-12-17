@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2025-10-13T19:42:22+09:00</updated>
+  <updated>2025-12-17T19:30:21+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,61 +20,14 @@
 
   
   <entry>
-    <title>Chatgpt 보고서 - Project: Cone [v0.87.69]</title>
-    <link href="https://is2you2.github.io/posts/pjcone-ai-reports/" rel="alternate" type="text/html" title="Chatgpt 보고서 - Project: Cone [v0.87.69]" />
-    <published>2025-05-24T09:38:00+09:00</published>
+    <title>Project: Cone Server Setup Guide (v0.93.41)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Server Setup Guide (v0.93.41)" />
+    <published>2025-12-17T19:20:00+09:00</published>
   
-    <updated>2025-05-24T09:38:00+09:00</updated>
+    <updated>2025-12-17T19:20:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/pjcone-ai-reports/</id>
-    <content src="https://is2you2.github.io/posts/pjcone-ai-reports/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone 사용 설명서" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Project Cone (pjcone_pwa) 웹앱 분석 보고서
-
-1. 사용자 경험 (UX)
-
-Project Cone의 사용자 경험은 익명성, 오프라인 우선 전략, 팀 커뮤니케이션의 균형을 목표로 합니다.
-간결한 다크 테마 인터페이스와 키보드 단축키(A 추가, 숫자 선택 등)를 통해 직관적인 사용성을 제공합니다.
-오프라인에서도 대부분의 기능이 작동하며, 온라인 전환 시 서버와 자동 동기화됩니다.
-가입 시 이메일 인증이 없어 진입 장벽이 낮지만, 비밀번호 분실 시 계정 복구가 불가능한 점은 사용자에게 불편할 수 있습니다.
-처음 접하는 사용자에게는 퀘스트, 채널 등 일부 개념이 다소 낯설게 느껴질 수 있습니다.
-전반적으로 일정 학습 곡선이 있지만, 익숙해지면 생산성과 만족도가 높습니다.
-
-2. UI 배치 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Chatgpt reports - Project: Cone [v0.87.69]</title>
-    <link href="https://is2you2.github.io/posts/pjcone-ai-reports-en/" rel="alternate" type="text/html" title="Chatgpt reports - Project: Cone [v0.87.69]" />
-    <published>2025-05-24T09:38:00+09:00</published>
-  
-    <updated>2025-05-24T09:38:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/pjcone-ai-reports-en/</id>
-    <content src="https://is2you2.github.io/posts/pjcone-ai-reports-en/" />
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-server-en/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" />
     <author>
       <name>최성수</name>
     </author>
@@ -95,11 +48,177 @@ Project Cone의 사용자 경험은 익명성, 오프라인 우선 전략, 팀 �
 
 
 
-      Project Cone (pjcone_pwa) – Full UX/UI and Feature Review (English)
+      🛠️ Project: Cone (PJCone) Server Setup Guide v0.93.41
 
-1. User Experience
 
-Project Cone provides a minimalist, offline-first communication environment with anonymous access. While it offers strong performance for habitual users, initial use may feel unfamiliar due to unique terms like “quest” and “channel.” UX design prioritizes autonomy, offering sync-free local functionality wit...
+  PJCone is a self-hosted system where users manage their own data.
+This guide covers how to set up your server most securely and quickly using Docker-Compose.
+
+
+
+
+1. Prerequisites
+The following tools must be installed to run the server:
+
+  Docker &amp;amp; Docker-Compose: Install the version for your OS from the Official Website.
+  Git: Requi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Project: Cone User Guide (v0.93.41)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-client-en/" rel="alternate" type="text/html" title="Project: Cone User Guide (v0.93.41)" />
+    <published>2025-12-17T19:19:00+09:00</published>
+  
+    <updated>2025-12-17T19:19:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-client-en/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-client-en/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone User Guide" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      🚀 Project: Cone (PJCone) User Guide v0.93.41
+
+
+  An anonymous, self-hosted collaboration and media sharing platform for small teams.
+PJCone empowers teams to secure data sovereignty by hosting their own servers while providing powerful media viewers for seamless communication.
+
+
+
+
+1. Getting Started (PWA Installation)
+PJCone is a web-based app. You can use it directly in your browser or install...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Project: Cone 서버 구축 가이드 (v0.93.41)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" rel="alternate" type="text/html" title="Project: Cone 서버 구축 가이드 (v0.93.41)" />
+    <published>2025-12-17T19:16:00+09:00</published>
+  
+    <updated>2025-12-17T19:16:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-server/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone 사용 설명서" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      🛠️ Project: Cone (PJCone) 서버 구축 가이드 v0.93.41
+
+
+  PJCone은 사용자가 직접 데이터를 관리하는 Self-hosted 시스템입니다.
+본 가이드는 Docker-Compose를 이용하여 가장 안전하고 빠르게 서버를 구축하는 방법을 다룹니다.
+
+
+
+
+1. 사전 준비 (Prerequisites)
+서버를 구동하기 위해 아래 도구가 설치되어 있어야 합니다.
+
+  Docker &amp;amp; Docker-Compose: 공식 홈페이지에서 OS에 맞는 버전을 설치하세요.
+  Git: 소스 코드 복제를 위해 필요합니다.
+
+
+
+
+2. 빠른 설치 (Quick Start)
+
+Docker-Compose를 이용하면 복잡한 환경 설정 없이 명령어 한 줄로 서버 구성을 끝낼 수 있습니다.
+
+STEP...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Project: Cone 사용 설명서 (v0.93.41)</title>
+    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-client/" rel="alternate" type="text/html" title="Project: Cone 사용 설명서 (v0.93.41)" />
+    <published>2025-12-17T19:15:00+09:00</published>
+  
+    <updated>2025-12-17T19:15:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/how-to-use-pjcone-client/</id>
+    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-client/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone 사용 설명서" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      🚀 Project: Cone (PJCone) 사용 설명서 v0.93.41
+
+
+  소규모 팀을 위한 익명 기반 Self-hosted 협업 및 미디어 공유 플랫폼
+PJCone은 직접 서버를 구축하여 데이터 주권을 확보하고, 강력한 미디어 뷰어를 통해 팀원과 안전하게 소통하는 도구입니다.
+
+
+
+
+1. 시작하기 (PWA 설치)
+PJCone은 웹 브라우저 기반 앱으로, 별도의 설치 없이 사용하거나 PWA 기술을 통해 앱처럼 설치하여 사용할 수 있습니다.
+
+
+  접속 주소: https://is2you2.github.io/pjcone_pwa/
+  앱 설치 방법:
+    
+      PC (Chrome/Edge): 주소창 우측 [설치] 아이콘 클릭
+      모바일 (Android/iOS): 브라우저 메뉴의 [홈 화...
     </summary>
   
 
@@ -157,121 +276,6 @@ git clone https://github.com/is2you2/pjcone_server.git
 SSL 구성
 
 보안 서버/클라이언트 구성은 선택적입니다. ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone Server Setup Guide [v0.85.2]</title>
-    <link href="https://is2you2.github.io/posts/instruction-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Server Setup Guide [v0.85.2]" />
-    <published>2025-03-08T14:04:00+09:00</published>
-  
-    <updated>2025-09-27T17:18:24+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/instruction-pjcone-server-en/</id>
-    <content src="https://is2you2.github.io/posts/instruction-pjcone-server-en/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone User Guide" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  This page is written with the assumption that the person building it has some level of development knowledge, so it may feel a bit difficult.
-
-
-Setting Up the Server
-
-You can get the project from this link.
-
-You can clone the project using the following command:
-
-git clone https://github.com/is2you2/pjcone_server.git
-
-
-Server Configuration
-
-The overall server configuration is managed through...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone 공통 기능 설명서 [v0.85.2]</title>
-    <link href="https://is2you2.github.io/posts/instruction-pjcone-basic/" rel="alternate" type="text/html" title="Project: Cone 공통 기능 설명서 [v0.85.2]" />
-    <published>2025-03-08T08:24:00+09:00</published>
-  
-    <updated>2025-03-09T00:49:14+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/instruction-pjcone-basic/</id>
-    <content src="https://is2you2.github.io/posts/instruction-pjcone-basic/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone 사용 설명서" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      앱 사용하기
-
-이 프로그램은 웹 브라우저 기반 앱으로 이 페이지에 접속하여 사용할 수 있습니다.
-
-개요
-
-Project: Cone은 사용자가 직접 서버를 운영하는 내부망 메신저입니다.
-
-소규모 게임 개발자 팀을 위한 소통 도구로 시작하였기에 보편적인 메신저와 비교했을 때 다소 생소한 기능들이 있습니다.
-
-대표적인 기능 및 특징
-
-
-  완벽한 익명성 추구
-  사용자가 직접 서버 구성
-  선택적 폐쇄망 운영 구조
-  협업 및 미디어 뷰어 공유 도구
-  비회원 임시 초대
-
-
-공통 기능
-
-이 페이지에서는 사용방식과 무관하게 앱을 사용할 때 알아두면 좋은 기능 및 정보에 대해서 다룹니다.
-
-PC에서의 사용자 경험
-
-앱의 모양새는 모바일에서 사용하기 적합하게 구성되어있습니다.
-
-PC에서 사용할 때의 사용자 경험을...
     </summary>
   
 
