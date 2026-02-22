@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-02-22T06:07:03+09:00</updated>
+  <updated>2026-02-22T17:46:19+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,48 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>콘텐츠 크리에이터 활동 보고서 (뉴비버전)</title>
+    <link href="https://is2you2.github.io/posts/youtube-act-report-00/" rel="alternate" type="text/html" title="콘텐츠 크리에이터 활동 보고서 (뉴비버전)" />
+    <published>2026-02-22T17:43:00+09:00</published>
+  
+    <updated>2026-02-22T17:43:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/youtube-act-report-00/</id>
+    <content src="https://is2you2.github.io/posts/youtube-act-report-00/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="Youtube" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      개요
+이 게시물은 필자가 유튜브 활동 0~2년차에서 얻은 고찰에 대해 다룹니다.
+
+모든 것은 오직 운영 체감으로만 작성된 것이기 때문에 정답이 적힌건 아니고 경험이 적힌겁니다.
+
+내가 정한 전략
+처음에 시작할 때에는 비개발자를 대상으로 코딩 영상을 게시하고 싶었는데, 코딩을 주제로 영상을 게시하면 이미 코딩에 관심가지는 사람들(키워드나 태그로 검색어가 가려지니)이 보게 될 것으로 판단하여, 시작할 때에는 간단한 타임랩스 형식의 영상을 제작하여 쇼츠로 게시하고 이후에 적당히 사람이 모이면 그래픽 채널에서 갑자기 코딩채널로 전환되는 기이한 곡예를 펼치려했는데 너무 크게 주제가 바뀌면 알고리즘이 길을 잃을 것 같아서 그림을 그리면서 설명을 진행하는 것으로 게획했다. 어째뜬 대분류상 그래픽이니까 알고리즘의 혼...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -230,55 +272,6 @@
 
 
 버스 정류장 기준 북쪽에 있는 조리대 중 오른쪽 끝 조리대가 바닥에 낑기지 않아서 그나마 작업 속도가 빠르다. 나머지 5개 조리대는 조리를 시도하려고 하면 바닥에 겹친 판정, 잠시 위치...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project: Cone Server Setup Guide (v0.93.41)</title>
-    <link href="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" rel="alternate" type="text/html" title="Project: Cone Server Setup Guide (v0.93.41)" />
-    <published>2025-12-17T19:20:00+09:00</published>
-  
-    <updated>2025-12-17T19:20:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-to-use-pjcone-server-en/</id>
-    <content src="https://is2you2.github.io/posts/how-to-use-pjcone-server-en/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone User Guide" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      🛠️ Project: Cone (PJCone) Server Setup Guide v0.93.41
-
-
-  PJCone is a self-hosted system where users manage their own data.
-This guide covers how to set up your server most securely and quickly using Docker-Compose.
-
-
-
-
-1. Prerequisites
-The following tools must be installed to run the server:
-
-  Docker &amp;amp; Docker-Compose: Install the version for your OS from the Official Website.
-  Git: Requi...
     </summary>
   
 
