@@ -564,6 +564,7 @@ ColorpickRed,빨강,Red,红色,紅色,赤,Rojo,Rouge,Rot,Красный,Kırmız
 ColorpickGreen,초록,Green,绿色,綠色,緑,Verde,Vert,Grün,Зеленый,Yeşil,เขียว
 ColorpickBlue,파랑,Blue,蓝色,藍色,青,Azul,Bleu,Blau,Синий,Mavi,น้ำเงิน
 ColorpickAlpha,투명도,Alpha,透明度,透明度,アルファ,Transparencia,Alpha,Alpha,Прозрачность,Alpha,ความโปร่งใส
+TransparentThreshold,임계값,Threshold,阈值,閾值,しきい値,Umbral,Seuil,Schwellenwert,Порог,Eşik,เกณฑ์
 ResolutionDetail,해상도 조정,Adjust resolution,调整分辨率,調整解析度,解像度調整,Ajuste de resolución,Ajuster la résolution,Auflösung anpassen,Настройка разрешения,Çözünürlük ayarı,ปรับความละเอียด
 ResolutionRatio,비율,Ratio,比率,比例,比率,Relación,Ratio,Verhältnis,Соотношение,Oran,อัตราส่วน
 SetFrameRate,프레임 간격 지정,Set Frame Rate,设置帧率,設定幀率,フレームレート設定,Establecer tasa de fotogramas,Définir le taux de trame,Framerate einstellen,Установить частоту кадров,Çerçeve hızı ayarla,กำหนดอัตราเฟรม
