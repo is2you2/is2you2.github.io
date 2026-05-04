@@ -223,6 +223,9 @@ color-name@1.1.4 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+core-util-is@1.0.3 [license(s): MIT]
+└── package.json:  MIT
+
 debug@4.3.6 [license(s): MIT]
 ├── package.json:  MIT
 ├── license files: MIT
@@ -298,6 +301,9 @@ ieee754@1.2.1 [license(s): BSD, BSD-3-Clause]
 ignore@5.3.1 [license(s): MIT]
 └── package.json:  MIT
 
+immediate@3.0.6 [license(s): MIT]
+└── package.json:  MIT
+
 inherits@2.0.4 [license(s): ISC]
 ├── package.json:  ISC
 └── license files: ISC
@@ -331,6 +337,10 @@ is-unicode-supported@0.1.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
+isarray@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
 jetifier@2.0.0 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
@@ -345,6 +355,14 @@ json-schema-traverse@1.0.0 [license(s): MIT]
 jsonc-parser@3.3.1 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+jszip@3.10.1 [license(s): (MIT OR GPL-3.0-or-later), GPL, MIT]
+├── package.json:  (MIT OR GPL-3.0-or-later)
+├── license files: GPL, MIT
+└── readme files: GPL, MIT
+
+lie@3.3.0 [license(s): MIT]
+└── package.json:  MIT
 
 log-symbols@4.1.0 [license(s): MIT]
 ├── package.json:  MIT
@@ -391,6 +409,11 @@ ora@5.4.1 [license(s): MIT]
 p5@1.11.3 [license(s): LGPL-2.1]
 └── package.json:  LGPL-2.1
 
+pako@1.0.11 [license(s): (MIT AND Zlib), MIT]
+├── package.json:  (MIT AND Zlib)
+├── license files: MIT
+└── readme files: MIT
+
 path-type@4.0.0 [license(s): MIT]
 ├── package.json:  MIT
 ├── license files: MIT
@@ -404,7 +427,10 @@ picomatch@4.0.2 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
 
-project_cone@0.94.20 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
+process-nextick-args@2.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+project_cone@0.94.21 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
 ├── license files: Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain
 └── readme files: MIT
 
@@ -419,6 +445,9 @@ qrcode-svg@1.1.0 [license(s): MIT]
 queue-microtask@1.2.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+readable-stream@2.3.8 [license(s): MIT]
+└── package.json:  MIT
 
 readable-stream@3.6.2 [license(s): MIT]
 └── package.json:  MIT
@@ -450,6 +479,10 @@ rxjs@7.8.1 [license(s): Apache, Apache-2.0]
 ├── package.json:  Apache-2.0
 └── license files: Apache
 
+safe-buffer@5.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
 safe-buffer@5.2.1 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
@@ -457,6 +490,9 @@ safe-buffer@5.2.1 [license(s): MIT]
 semver@7.6.2 [license(s): ISC]
 ├── package.json:  ISC
 └── license files: ISC
+
+setimmediate@1.0.5 [license(s): MIT]
+└── package.json:  MIT
 
 signal-exit@3.0.7 [license(s): ISC]
 ├── package.json:  ISC
@@ -473,6 +509,9 @@ source-map@0.7.4 [license(s): BSD-3-Clause]
 string-width@4.2.3 [license(s): MIT]
 ├── package.json:  MIT
 └── license files: MIT
+
+string_decoder@1.1.1 [license(s): MIT]
+└── package.json:  MIT
 
 string_decoder@1.3.0 [license(s): MIT]
 └── package.json:  MIT
@@ -525,5 +564,5 @@ zone.js@0.14.8 [license(s): MIT]
 ├── license files: MIT
 └── readme files: MIT
 
-LICENSES: 0BSD, Apache, Apache-2.0, BSD, BSD-2-Clause, BSD-3-Clause, Eclipse Public License, GPL, ISC, LGPL, LGPL-2.1, MIT, MPL, Public Domain
+LICENSES: (MIT AND Zlib), (MIT OR GPL-3.0-or-later), 0BSD, Apache, Apache-2.0, BSD, BSD-2-Clause, BSD-3-Clause, Eclipse Public License, GPL, ISC, LGPL, LGPL-2.1, MIT, MPL, Public Domain
 
