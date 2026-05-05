@@ -430,7 +430,7 @@ picomatch@4.0.2 [license(s): MIT]
 process-nextick-args@2.0.1 [license(s): MIT]
 └── package.json:  MIT
 
-project_cone@0.94.21 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
+project_cone@0.94.22 [license(s): Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain]
 ├── license files: Apache, BSD, Eclipse Public License, GPL, ISC, LGPL, MIT, MPL, Public Domain
 └── readme files: MIT
 
