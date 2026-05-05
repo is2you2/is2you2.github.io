@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777962853283,
+  "timestamp": 1777968129528,
   "index": "/pjcone_pwa/index.html",
   "assetGroups": [
     {
@@ -175,7 +175,7 @@
         "/pjcone_pwa/assets/sw.js",
         "/pjcone_pwa/common.19330136370bb9a7.js",
         "/pjcone_pwa/index.html",
-        "/pjcone_pwa/main.da90a67c2b589c4e.js",
+        "/pjcone_pwa/main.6198a02f86bf0504.js",
         "/pjcone_pwa/polyfills-core-js.c76198334f717402.js",
         "/pjcone_pwa/polyfills-dom.bf542500b6fca113.js",
         "/pjcone_pwa/polyfills.c3a9e4b87df5be46.js",
@@ -1651,7 +1651,7 @@
     "/pjcone_pwa/assets/data/docs/gifjs.txt": "70a827eced8a2658103534ad694b05ee6c7305ed",
     "/pjcone_pwa/assets/data/docs/godot/godot.txt": "ec6856b4ffca03a91d1bef5ffbb184f71c93ed04",
     "/pjcone_pwa/assets/data/docs/godot/thirdparty.txt": "21558fb5085fae1b4a0cdfb5775a97e8de086174",
-    "/pjcone_pwa/assets/data/docs/licenses.txt": "daa7f5b84e97d15efb0a6e541e967f6daaea9b50",
+    "/pjcone_pwa/assets/data/docs/licenses.txt": "f5f1c753543a70f00c2c3433b79e516e618a1807",
     "/pjcone_pwa/assets/data/docs/zxing.txt": "55601e40561c7cbb738ed8eb95073224ec5f2b59",
     "/pjcone_pwa/assets/data/helped/razorbacky.png": "02c13213758fca55fe29faaa861b40a56049ce03",
     "/pjcone_pwa/assets/data/infos/contributors.json": "97d170e1550eee4afc0af065b78cda302a97674c",
@@ -1706,8 +1706,8 @@
     "/pjcone_pwa/assets/p5js/zxing_scanner.js": "59dea1bdbbb3aa2a60cec2a48c51c71df041274c",
     "/pjcone_pwa/assets/sw.js": "4ee7a869b645e8acfe004b0626d2a2ab4ed3a4c2",
     "/pjcone_pwa/common.19330136370bb9a7.js": "1eed0b3cf8351404ec26e02f15dc3db53b900258",
-    "/pjcone_pwa/index.html": "1c6826deac460029a062eff241d65be7ead4618c",
-    "/pjcone_pwa/main.da90a67c2b589c4e.js": "71b6f99e2df1f29d39373cb33f9268ff33f57bc5",
+    "/pjcone_pwa/index.html": "903402fc520f6efddee7e694972995655f2b05d1",
+    "/pjcone_pwa/main.6198a02f86bf0504.js": "8e33d25ccbd5a7c3360dfed3494331d6b175ae30",
     "/pjcone_pwa/polyfills-core-js.c76198334f717402.js": "d6e270a2944b6a95a9b97dafd25599ba825e8d7f",
     "/pjcone_pwa/polyfills-dom.bf542500b6fca113.js": "3fa333db66c8050f12e99d977f5098a6de8dd593",
     "/pjcone_pwa/polyfills.c3a9e4b87df5be46.js": "11979a0b731e854f52a3004383a76bc8469e291e",
