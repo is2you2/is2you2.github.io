@@ -1,0 +1,168 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: table-cell;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  padding: 16px;
+}
+
+#musicPlayer {
+  width: 200px;
+  height: 80px;
+}
+
+.full_fixed {
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+#main_table {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  vertical-align: middle;
+  background-color: #28272c;
+}
+
+.div_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rect_border {
+  width: fit-content;
+  border: 1px solid #e7e7c5;
+  padding: 0px 12px 0px 12px;
+}
+
+a,
+p {
+  color: white;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #e7e7c5;
+  font-family: "NotoSansKR-Regular";
+}
+
+@font-face {
+  font-family: "NotoSansKR-Bold";
+  src: url("/assets/Noto_Sans_KR/NotoSansKR-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansKR-Regular";
+  src: url("/assets/Noto_Sans_KR/NotoSansKR-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title {
+  font-size: 10.4vw;
+  font-family: "NotoSansKR-Bold";
+}
+
+.upper_space {
+  height: 8vw;
+}
+
+.lower_space {
+  height: 7.2vw;
+}
+
+.player_top {
+  height: 6vw;
+}
+
+.mid_form_space {
+  height: 15vw;
+}
+
+.mid_form_space_bot {
+  height: 26vw;
+}
+
+.logo_space {
+  height: 54vw;
+}
+
+@media screen and (min-width: 646px) {
+  .title {
+    font-size: 68px;
+    font-family: "NotoSansKR-Bold";
+  }
+
+  .player_top {
+    height: 36px;
+  }
+
+  .upper_space {
+    height: 52px;
+  }
+
+  .lower_space {
+    height: 52px;
+  }
+
+  .mid_form_space {
+    height: 94px;
+  }
+
+  .mid_form_space_bot {
+    height: 172px;
+  }
+
+  .logo_space {
+    height: 338px;
+  }
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+
+table {
+  display: table;
+  text-indent: initial;
+  border-color: grey;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table>tr {
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.contact {
+  font-size: 11px;
+}

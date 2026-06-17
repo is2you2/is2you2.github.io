@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JG1: 유희성 데뷔 기념페이지</title>
+  <meta name="color-scheme" content="dark" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://unpkg.com/@free-side/audioworklet-polyfill/dist/audioworklet-polyfill.js"></script>
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/addons/p5.sound.min.js"></script>
+  <script language="javascript" type="text/javascript" src="JG1.js"></script>
+  <script language="javascript" type="text/javascript" src="musicPlayer.js"></script>
+  <script language="javascript" type="text/javascript" src="VideoPanel.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body style="background-color: #121212;">
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <div class="div_center">
+    <div class="div_center" style="width: 840px; background-color: #28272c;">
+      <table id="main_table" style="width: 100%;">
+        <tr>
+          <th>
+            <div class="upper_space"></div>
+            <div class="title" style="word-break: keep-all; color: #e7e7c5;">
+              유희성 싱글 데뷔앨범
+              <div style="margin-top: 12px; letter-spacing: 8px;">
+                벚꽃처럼
+              </div>
+            </div>
+            <div class="lower_space"></div>
+          </th>
+        </tr>
+        <tr>
+          <th style="display: flex;">
+            <div id="container">
+              <img id="cover_img" src="assets/cover.jpg" alt="">
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th class="player_top"></th>
+        </tr>
+        <tr align="center">
+          <th>
+            <div id="musicPlayer"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="mid_form_space"></th>
+        </tr>
+        <tr>
+          <th><img src="assets/sponsors.png" alt="" style="padding-left: 24px; padding-right: 24px;"></th>
+        </tr>
+        <tr>
+          <th class="mid_form_space_bot"></th>
+        </tr>
+        <tr align="center">
+          <th>
+            <div id="InteractionPanel"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="logo_space"></th>
+        </tr>
+        <tr>
+          <th>
+            <img src="assets/logo.png" style="width: 40%;height: auto;">
+          </th>
+        </tr>
+        <tr>
+          <th style="height: 186px;"></th>
+        </tr>
+        <tr style="text-align: left;">
+          <th>
+            <div style="padding-left: 16px;">
+              <p class="contact" style="font-size: 14px;">
+                Contect
+              </p>
+              <div class="rect_border contact">
+                <p> 6, Sangam-ro 6-gil </p>
+                <p> Seoul Gangdong-gu </p>
+              </div>
+              <p class="contact"> <u>
+                  <a href="mailto:chunkewon21@naver.com">Email chunkewon21@naver.com</a>
+                </u> </p>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div id="defaultCanvas" class="full_fixed"></div>
+  </div>
+</body>
+
+</html>

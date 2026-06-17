@@ -1,0 +1,13 @@
+{
+  "name": "high_wave",
+  "short_name": "high_wave",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "200x200",
+    "type": "image/png"
+  }],
+  "background_color": "#44a6fa",
+  "theme_color": "#44a6fa"
+}

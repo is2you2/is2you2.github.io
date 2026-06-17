@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="icon.svg">
+  <title
+     id="title981">High wave icon</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="624.47033"
+     inkscape:cy="505.56753"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1600"
+     inkscape:window-height="844"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>High wave icon</dc:title>
+        <dc:date>2019-09-27</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>liss22</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC 저작권자 표시</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>liss22</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>제작</dc:source>
+        <dc:relation>본인</dc:relation>
+        <dc:language>svg</dc:language>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>liss22</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>그저 고주파를 생성해주는 앱입니다.</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-26.066641)">
+    <path
+       style="fill:none;stroke:#ff754e;stroke-width:10.64941502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.70588235"
+       d="m 11.759897,159.47171 h 42.068994 l 18.824944,25.21197 22.186543,-50.0878 21.850382,51.09628 26.55661,-81.01448 26.89278,99.36881 22.78404,-70.09423 16.88281,25.51945 h 49.36643"
+       id="path4625"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4629"
+       d="m 11.759897,163.4651 h 65.264014 l 15.799506,-20.97636 11.765583,64.6099 17.48031,-110.66379 15.12719,130.69891 40.33916,-112.07564 14.4566,72.05497 26.89104,-23.64799 h 40.29013"
+       style="fill:none;stroke:#ffd94e;stroke-width:10.64941502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.69911505"
+       sodipodi:nodetypes="cccccccccc" />
+    <circle
+       style="fill:#30564e;fill-opacity:0.03529412;stroke-width:0.26458332"
+       id="path895"
+       cx="135.46666"
+       cy="161.53331"
+       r="103.1875" />
+  </g>
+</svg>

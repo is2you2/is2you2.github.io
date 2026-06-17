@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="300"
+   viewBox="0 0 169.33333 79.375"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="var_types.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4111111"
+     inkscape:cx="438.66142"
+     inkscape:cy="137.12599"
+     inkscape:window-width="1600"
+     inkscape:window-height="831"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect11"
+       style="color:#000000;fill:#55a83d;fill-opacity:0.937255;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke"
+       d="M 55.873075 7.8946086 L 55.873075 8.9529419 L 151.76541 8.9529419 C 158.59255 8.9529419 164.07216 14.432552 164.07216 21.259684 L 164.07216 60.894474 C 164.07216 67.721605 158.59255 73.203284 151.76541 73.203284 L 18.365287 73.203284 C 11.538156 73.203284 6.0564779 67.721605 6.0564779 60.894474 L 6.0564779 21.259684 C 6.0564779 17.542112 7.6898853 14.232962 10.272758 11.981698 L 10.272758 10.631909 C 7.0712031 13.071042 5.0002116 16.913477 5.0002116 21.259684 L 5.0002116 60.894474 C 5.0002116 68.289613 10.970148 74.25955 18.365287 74.25955 L 151.76541 74.25955 C 159.16056 74.25955 165.13101 68.289613 165.13101 60.894474 L 165.13101 21.259684 C 165.13101 13.864545 159.16056 7.8946086 151.76541 7.8946086 L 55.873075 7.8946086 z " />
+    <text
+       xml:space="preserve"
+       style="font-size:8.17881px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';fill:#55a83d;fill-opacity:1;stroke-width:0.255587;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="12.679372"
+       y="11.872294"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#55a83d;fill-opacity:1;stroke-width:0.255587"
+         x="12.679372"
+         y="11.872294">변수의 종류</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.1547px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';fill:#000000;fill-opacity:1;stroke-width:0.629833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="13.003661"
+       y="40.495277"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.629833"
+         x="13.003661"
+         y="40.495277">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d7533d;fill-opacity:1;stroke-width:0.80493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="12.880399"
+       y="58.055302"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d7533d;fill-opacity:1;stroke-width:0.80493"
+         x="12.880399"
+         y="58.055302">숫자</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.1547px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';fill:#000000;fill-opacity:1;stroke-width:0.629833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="40.588333"
+       y="40.495277"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.629833"
+         x="40.588333"
+         y="40.495277">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d7533d;fill-opacity:1;stroke-width:0.80493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="41.506256"
+       y="58.055302"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d7533d;fill-opacity:1;stroke-width:0.80493"
+         x="41.506256"
+         y="58.055302">문자</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d7533d;fill-opacity:1;stroke-width:0.80493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="79.999725"
+       y="58.055302"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#d7533d;fill-opacity:1;stroke-width:0.80493"
+         x="79.999725"
+         y="58.055302">배열</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#d7533d;fill-opacity:1;stroke-width:0.80493"
+         x="79.999725"
+         y="66.793571"
+         id="tspan8">(숫자 리스트)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d7533d;fill-opacity:1;stroke-width:0.80493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="120.01904"
+       y="58.055302"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#d7533d;fill-opacity:1;stroke-width:0.80493"
+         x="120.01904"
+         y="58.055302">사전</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.43946px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#d7533d;fill-opacity:1;stroke-width:0.80493"
+         x="120.01904"
+         y="66.793571"
+         id="tspan10">(이름 리스트)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#55a83d;fill-opacity:1;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       x="151.01837"
+       y="33.110435"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="stroke-width:1.05833"
+         x="151.01837"
+         y="33.110435">......</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 74.658333,14.86478 -9.825448,30.725449 27.915065,6.142823 8.38549,-32.948245 z"
+       id="path1"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.94604px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.368254;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       x="95.360191"
+       y="7.9304395"
+       id="text6"
+       transform="matrix(0.92719109,0.14682248,-0.32704772,1.0267377,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.94604px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.368254"
+         x="95.360191"
+         y="7.9304395">0   eafsw4lkm...</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.94604px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.368254"
+         x="95.360191"
+         y="11.612989"
+         id="tspan12">1   eqgrwshojj...</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 114.20785,14.86478 -9.82545,30.725449 27.91507,6.142823 8.38549,-32.948245 z"
+       id="path12"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.937255;paint-order:markers fill stroke;stroke-dasharray:none"
+       d="M 75.801231,17.395561 67.324697,43.902782 91.407364,49.20227 98.641629,20.777417 Z"
+       id="path14"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.93725502;paint-order:markers fill stroke"
+       d="M 79.843097,18.047614 71.935114,44.890343"
+       id="path15" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 74.643646,21.092494 22.813692,4.121917"
+       id="path16" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 73.34306,24.91552 23.087055,4.378257"
+       id="path17" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="M 72.449507,28.288697 95.458501,32.96517"
+       id="path18" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 71.34712,31.726481 23.104332,5.1757"
+       id="path19" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 70.089103,35.118815 23.28459,5.866574"
+       id="path20" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 68.92401,38.979863 23.467179,6.189253"
+       id="path21" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.94604px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.368254;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       x="135.96774"
+       y="2.1235991"
+       id="text22"
+       transform="matrix(0.92719109,0.14682248,-0.32704772,1.0267377,0,0)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.94604px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.368254"
+         x="135.96774"
+         y="2.1235991"
+         id="tspan22">수민   afg5srb....</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.94604px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.368254"
+         x="135.96774"
+         y="6.1213384"
+         id="tspan29">지영   eaf21me...</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 115.35131,17.395561 -8.47654,26.507221 24.08267,5.299488 7.23427,-28.424853 z"
+       id="path22"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 123.40639,18.735438 -7.90798,26.842729"
+       id="path23" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 114.19372,21.092494 22.81369,4.121917"
+       id="path24" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 112.89314,24.91552 23.08705,4.378257"
+       id="path25" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 111.99958,28.288697 23.009,4.676473"
+       id="path26" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 110.8972,31.726481 23.10433,5.1757"
+       id="path27" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 109.63918,35.118815 23.28459,5.866574"
+       id="path28" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.937255;paint-order:markers fill stroke"
+       d="m 108.47409,38.979863 23.46718,6.189253"
+       id="path29" />
+  </g>
+</svg>
