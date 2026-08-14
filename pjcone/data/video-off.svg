@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   class="video-icon"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="video-off.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="16.604167"
+     inkscape:cx="9.5457967"
+     inkscape:cy="14.062735"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!-- 카메라 바디 -->
+  <path
+     id="rect1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#000000;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+     d="M 4 5 C 2.3552972 5 1 6.3552972 1 8 L 1 16 C 1 16.818418 1.3351525 17.565613 1.875 18.109375 L 3.2773438 16.707031 C 3.1034199 16.529003 3 16.281483 3 16 L 3 8 C 3 7.4287028 3.4287028 7 4 7 L 12.984375 7 L 14.857422 5.1269531 C 14.585198 5.0445935 14.297463 5 14 5 L 4 5 z M 16.484375 6.328125 L 14.986328 7.8261719 C 14.995336 7.8823455 15 7.9403974 15 8 L 15 16 C 15 16.571297 14.571297 17 14 17 L 5.8125 17 L 3.8183594 18.994141 C 3.878574 18.997823 3.9389329 19 4 19 L 14 19 C 15.644703 19 17 17.644703 17 16 L 17 8 C 17 7.3832479 16.809332 6.8072788 16.484375 6.328125 z " />
+  <!-- 렌즈 부분 (렌즈와 연결 부위) -->
+  <path
+     d="m 21.61523,7.0543154 -3.23046,3.2971216 v 3.297126 l 3.23046,3.297122 z"
+     id="path1"
+     sodipodi:nodetypes="ccccc"
+     style="stroke-width:2;stroke-dasharray:none" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#000000;stroke:none;stroke-linecap:butt;stroke-dashoffset:2;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+     d="M 21.285156,1.3007812 1.3007812,21.285156 2.7148438,22.699219 22.699219,2.7148438 Z"
+     id="path2" />
+</svg>

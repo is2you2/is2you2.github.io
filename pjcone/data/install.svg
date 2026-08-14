@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="install.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.77832031"
+     inkscape:cx="168.95358"
+     inkscape:cy="261.46048"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <defs
+     id="defs4">
+    <!-- 배경 그라데이션 (모던한 다크/딥 블루 톤) -->
+    <linearGradient
+       id="bgGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0"
+         stop-color="#1e1e2f"
+         id="stop1"
+         style="stop-color:#1e1e2f;stop-opacity:0.10294286;" />
+      <stop
+         offset="1"
+         stop-color="#0f0f17"
+         id="stop2"
+         style="stop-color:#0f0f17;stop-opacity:0.44990608;" />
+    </linearGradient>
+    <!-- 심볼 그라데이션 (세련된 포인트 컬러: 블루-바이올렛) -->
+    <linearGradient
+       id="primaryGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#4f46e5"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#3b82f6"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <!-- 1. 앱 아이콘 배경 (둥근 모서리 사각형 - iOS/Android 표준 형태) -->
+  <rect
+     width="512"
+     height="512"
+     rx="112"
+     fill="url(#bgGrad)"
+     id="rect4" />
+  <!-- 2. 중앙 그래픽 심볼 (스토리지/박스 구조 + 연결망 노드) -->
+  <g
+     transform="translate(96, 96)"
+     id="g6">
+    <!-- 메인 박스 (스토리지/서버 의미) -->
+    <path
+       d="M160 32 L288 104 L288 248 L160 320 L32 248 L32 104 Z"
+       fill="none"
+       stroke="url(#primaryGrad)"
+       stroke-width="24"
+       stroke-linejoin="round"
+       id="path4" />
+    <!-- 입체감을 주는 내부 선 (네트워크/연결 구조) -->
+    <path
+       d="M160 32 L160 176 M32 104 L160 176 L288 104"
+       fill="none"
+       stroke="url(#primaryGrad)"
+       stroke-width="20"
+       stroke-linejoin="round"
+       id="path5" />
+    <!-- 중앙 허브 노드 (웹소켓/연결 상태 상징) -->
+    <circle
+       cx="160"
+       cy="176"
+       r="28"
+       fill="#ffffff"
+       id="circle5" />
+    <circle
+       cx="160"
+       cy="176"
+       r="12"
+       fill="#4f46e5"
+       id="circle6" />
+  </g>
+</svg>

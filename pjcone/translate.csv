@@ -1,0 +1,391 @@
+#,ko,en
+## System
+ClipboardCopy,클립보드에 복사되었습니다,Copied to clipboard
+ClipboardFailed,클립보드에 복사 실패,Failed to copy to clipboard
+FromClipboard,클립보드로부터 추가되었습니다,Added from clipboard
+NoExceptableDataFromClipboard,클립보드에 유효한 정보가 없습니다,There is no valid information on the clipboard.
+OpeningInputFile,파일 선택기 여는 중...,Opening file picker...
+GeneralErr,동작 실패,Operation failure
+ActingClipboard,클립보드로부터 불러오기 중...,Loading from clipboard...
+MainImage,대표 이미지,Representative Image
+FromDroppedFile,파일 드롭 이미지 수집 성공,File drop image collection successful
+NoExceptableDataFromDroppedFile,이미지 파일이 아닙니다,It is not an image file
+NoFilesDropped,파일이 감지되지 않았습니다,The file was not detected
+DropImageHere,여기로 이미지를 드롭하세요,Drop the image here
+DropFileHere,여기에 파일을 드롭하세요,Drop the file here
+Add,추가,Add
+Cancel,취소,Cancel
+Delete,삭제,Delete
+Save,저장,Save
+Edit,편집,Edit
+Withdraw,탈퇴,Withdraw
+FullReset,초기화 완료되었습니다.,Initialization is complete.
+FullResetClose,창을 닫아주세요., Please close the window.
+UploadFile,파일 업로드,Upload file
+DownloadFile,파일 다운로드,Download file
+NoContents,내용 없음,No content
+ClickToRemove,클릭하여 이미지 제거,Click to remove image
+FailedToDownload,파일 다운로드 실패,File download failed
+CheckToken,토큰을 확인합니다...,Verify the token...
+NoToken,만료된 토큰입니다.,This is an expired token.
+GoBack,뒤로가기,Go back
+## Server
+SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
+ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
+WRONG_ANSWER,질문에 대한 답변이 틀렸습니다,Incorrect answer to the security question
+SIGNUP_OK,가입 신청 완료! 관리자의 승인을 기다려주세요,Sign-up request complete! Please wait for admin approval
+SIGNUP_ADMIN,관리자로 가입되었습니다,Registered as an administrator
+SIGNUP_NORMAL,가입이 완료되었습니다,Sign-up successful
+SERVER_ERR,서버 처리 중 오류가 발생했습니다,Server error occurred
+WRONG_INFO,아이디 또는 비밀번호가 잘못되었습니다,Invalid ID or password
+LOGOUT,로그아웃 되었습니다,Logged out
+NO_USER_ID,존재하지 않는 사용자입니다,User does not exist
+TOO_MANY_BATCH,한 번에 요청할 수 있는 최대 인원은 100명입니다,Maximum 100 users per request
+NO_SESSION,세션이 만료되었거나 비활성 상태입니다,Session expired or inactive
+PROFILE_UPDATED,프로필이 업데이트되었습니다,Profile updated
+EMPTY_ID,아이디를 입력해주세요,Please enter an ID
+TOO_MANY_REQ,너무 많은 요청이 발생했습니다. 잠시 후 다시 시도해주세요,Too many requests. Please try again later
+REQ_PW_WELL,요청이 처리되었습니다. 관리자에게 문의하세요,Request processed. Please contact an administrator
+EMPTY_PRIMARY,필수 정보가 누락되었습니다,Required information missing
+NEED_ADMIN_APPROVED,권한이 없습니다. 관리자의 승인이 필요합니다,Permission denied. Admin approval required
+PW_RESET_REQ,10분 안에 해당 사용자가 링크에서 작업해야 합니다,The user must perform an action on the link within 10 minutes
+PW_RESET_WELL,비밀번호가 재설정되었습니다,Password reset successful
+PASSWORD_RESET_OK,비밀번호가 변경되었습니다,Password changed
+WITHDRAW_WELL,사용자의 모든 서버 데이터가 완전히 삭제되었습니다,All server data for this user has been deleted
+NEED_KICK_TARGET,추방할 사용자 ID를 입력해주세요,Please enter the user ID to kick
+KICK_WELL,사용자(%s)가 서버에서 추방되었습니다,User(%s) has been kicked from the server
+NEED_LOGIN,로그인이 필요합니다,Login required
+NO_ADMIN,관리자 권한이 없습니다,Administrator privileges required
+NO_PW_REQ,요청을 찾을 수 없습니다,Request not found
+SIGNUP_BY_ADMIN,가입이 승인되었습니다,Sign-up approved
+NO_ADMIN_REQ_USER,가입 대기자를 찾을 수 없습니다,No pending sign-up requests found
+REJECT_BY_ADMIN,가입이 거절되었습니다,Sign-up rejected
+GOT_ADMIN,관리자로 승급되었습니다,Promoted to administrator
+LOST_ADMIN,일반 사용자로 강등되었습니다,Demoted to standard user
+CHANNEL_OPEN_WELL,채널이 개설되었습니다,Channel created
+CHANNEL_NOT_FOUND,채널을 찾을 수 없습니다,Channel not found
+FORBIDDEN_ACTION,채널을 삭제할 권한이 없습니다,You do not have permission to delete the channel
+CHANNEL_DELETED_WELL,채널이 성공적으로 삭제되었습니다,The channel has been successfully deleted
+UPDATE_CHANNEL_WELL,채널 정보가 수정되었습니다,Channel information updated
+REACH_MAX_LIMIT,채널 정원이 가득 찼습니다,Channel capacity reached
+SEND_JOIN_CHANNEL,가입 요청을 보냈습니다,Join request sent
+ALREADY_JOINED,이미 요청하셨거나 가입된 채널입니다,Already requested or joined this channel
+CHANNEL_JOINED,채널에 가입되었습니다,Joined channel
+JOIN_CHANNEL_APPROVE,가입 요청이 승인되었습니다,Join request approved
+JOIN_CHANNEL_REJECT,가입 요청이 거절되었습니다,Join request rejected
+LEAVE_CHANNEL_WELL,채널을 탈퇴했습니다,Left channel
+HAVE_NO_PERMISSION,권한이 없습니다,Permission denied
+MEMBER_KICK_WELL,사용자를 강퇴했습니다,User kicked from channel
+NO_PERMISSION_ON_PENDING,가입 승인 대기 중에는 메시지를 보낼 수 없습니다,Cannot send messages while pending approval
+NO_EMPTY_MESSAGE,채널 정보와 메시지 내용은 필수입니다,Channel info and message content are required
+MESSAGE_NOT_FOUND,메시지를 찾을 수 없습니다,Message not found
+UNEXPECTED_BIND_CHANNEL,잘못된 채널 경로입니다,Invalid channel path
+ERR_ON_WRITESTREAM,파일 쓰기 오류 발생,File write error occurred
+POST_WELL,게시물이 생성되었습니다,Post created
+POST_NOT_FOUND,게시물을 찾을 수 없습니다,Post not found
+EDIT_POST_WELL,게시물이 수정되었습니다,Post updated
+POST_DELETE_WELL,게시물이 삭제되었습니다,Post deleted
+PUSH_SUBSCR_WELL,푸시 구독이 설정되었습니다,Push subscription set
+WRONG_SUBSCR_INFO,구독 정보가 올바르지 않습니다,Invalid subscription info
+REMOVE_SUBSCR_WELL,푸시 구독이 해제되었습니다,Push subscription removed
+SIGNUP_APPROVAL_REQUEST,가입 수락 요청,Request to accept membership
+CHANNEL_JOIN_REQUEST,채널 가입 수락 요청,Channel Join Acceptance Request
+CHANNEL_JOIN_SUCC,채널 가입 승인됨,Channel membership approved
+KICKED_FROM_CHANNEL,채널에서 강제 퇴장되었습니다,You have been forcibly removed from the channel
+## Main
+Title,활동,Activity
+CreateNew,새 채널 생성,Create a new channel
+Note,노트,Note
+Channels,채널,Channels
+Archive,아카이브,Archive
+Features,기능,Features
+QRCodeScan,QR코드 스캐너,QRCode scanner
+Chats,채팅,Chats
+ServerSettings,서버 설정,Server settings
+Settings,설정,Settings
+FileViewer,파일 뷰어,File viewer
+InstallApp,앱으로 설치하기,Install as app
+## CreateNew
+InModify,채널 편집,Channel editing
+ServerName,서버 선택,Select server
+ChannelName,채널 제목,Channel title
+InputName,채널 이름을 입력하세요,Enter channel name
+ChannelImage,채널 이미지,Channel image
+SelectImage,이미지 선택,Select image
+MaxLimit,최대 인원,Max capacity
+isPublic,가입 시 승인 필요,Approval required to join
+Create,생성하기,Create
+Leave,퇴장하기,Leave
+SaveToLocal,이 기기에 저장,Save to this device
+QRCodeCopy,좌클릭: 임시 주소 복사 / 우클릭: 고정 주소 복사,Left-click: Copy temporary address / Right-click: Copy fixed address
+Participants,참여자 정보,Participants
+WaitingApr,승인 대기,Awaiting approval
+Joined,참여 중,Participating
+Kick,강퇴,Kick
+NoParticipant,참여자 정보가 없습니다.,There is no participant information.
+## CustomSelect
+SelectOne,선택하세요,Please select
+## Channels
+NoNameChannel,이름 없는 채널,Nameless Channel
+NoMessage,기록된 메시지 없음,No recorded messages
+## Profile
+NoNameUser,이름 없는 사용자,Nameless user
+UpdateProfile,프로필 업데이트 중...,Updating profile...
+UploadProfileWell,프로필 업데이트됨,Profile updated
+UploadProfileErr,프로필 업데이트 실패,Profile update failed
+FailedToSetAlias,별명 동기화에 실패했습니다,Failed to synchronize nickname
+## Settings
+Profile,내 프로필,My Profile
+ServerNoti,알림,Notification
+UserEnv,사용 환경,Usage environment
+Online,온라인 설정,Online settings
+Server,서버 관리,Server Management
+iceServer,ICE 서버 관리,ICE Server Management
+DisplayName,표시명,Display name
+AppInfo,앱 정보,App Information
+Licenses,라이선스 고지,License Notice
+ResetAll,모든 데이터 초기화,Reset All Data
+LangSet,언어 설정,Language settings
+LangName,한국어,English
+ShowHint,단축키 힌트 표시,Show shortcut hints
+Creator,제작자,Creator
+QRcodeInvite,QRCode 초대,QR Code Invitation
+Sponsor,후원,Sponsorship
+ShowAds,광고 보기로 후원하기,Support by watching ads
+RestartToRemoveAds,앱을 다시 시작하면 광고가 제거됩니다,Restarting the app will remove the ads.
+CustomLangPack,사용자 지정 언어팩,Custom language packs
+## QRCode
+ClickToCopy,클릭하여 복사하기,Click to copy
+QRCodeResultHere,스캔 결과가 여기에 표시됩니다,The scan results are displayed here.
+QRErr,스캔 오류,Scan error
+EditAddress,주소 편집,Edit address
+CannotMake,QR 코드를 생성할 수 없습니다.,Cannot generate QR code
+## Login
+Username,사용자 이름,Username
+Id,아이디,Id
+Password,비밀번호,Password
+Start,시작하기,Getting Started
+EmptyId,아이디를 입력해주세요,Please enter your ID
+EmptyPw,비밀번호를 입력해주세요,Please enter your password
+Preparing,준비중...,Preparing...
+UserManual,처음이신가요? 사용 설명서 읽기,Is this your first time? Read the user manual.
+## Post
+NoNamePost,이름 없는 게시물,Nameless post
+NewPost,새 게시물,New post
+TimeAnchor,오디오 시간 기록,Audio time recording
+NeedTitle,게시물 제목을 입력하세요,Please enter the post title
+AttachAct,첨부파일 처리중...,Processing attachments...
+Saving,게시물 저장중...,Saving post...
+SaveError,게시물 저장 오류,Post saving error
+Edit,게시물 수정,Edit post
+Remove,게시물 삭제,Delete post
+Add,게시물 작성,Create a post
+NSFW,후방주의,NSFW
+HeaderImage,대표이미지,HeaderImg
+StopRecording,녹음 중지,Stop
+UnablePost,삭제되었거나 접근할 수 없는 게시물입니다,This post has been deleted or is inaccessible
+OnlyEditable,작성자만 편집할 수 있습니다,Only the author can edit.
+RemoveErr,게시물 삭제 실패,Post deletion failed
+PostList,게시물 목록,Post List
+PressToAdd,+ 버튼을 눌러 새 게시물을 작성해보세요,Press the + button to create a new post.
+PressToShow,눌러서 이미지 보기,Click to view image
+Creator,작성자,Author
+AudioFile,오디오 파일,audio file
+Unspectified,미지정 첨부파일,Unspecified attachment
+## FileViewer
+New,새 파일,New file
+Run,실행하기,Run
+ViewOrig,원본 보기,View original
+Loading,불러오는 중...,Loading...
+UnexpectedExt,확인되지 않은 확장자입니다.,Unidentified extension.
+MaybeNotText,텍스트 파일이 아닐 수 있습니다.,It may not be a text file.
+TextPlaceHolder,내용을 입력하세요...,Please enter the content...
+ForceOpenText,텍스트로 강제 열람하기,Force viewing as text
+FailedToOpen,파일 열람 실패,File opening failed
+Docs,문서,Document
+NoPDF,표시할 PDF 파일이 없습니다.,There are no PDF files to display.
+Expand,펼치기,Expand
+Collapse,접기,Collapse
+EmptyZip,ZIP 파일이 비어있습니다.,The ZIP file is empty.
+Open,열기,Open
+ClickToOpen,클릭하여 파일 추가,Click to add a file
+ClickRight,(우클릭: 클립보드 주소/이미지 추가),(Right-click: Add clipboard address/image)
+DragDropable,여러 파일을 한 번에 드래그 앤 드롭 할 수도 있습니다,You can also drag and drop multiple files at once.
+FailedToCapture,현재 화면을 캡처할 수 없습니다,Unable to capture the current screen
+FailedToSnapshot,스냅샷 캡처 기능을 지원하지 않는 뷰어입니다,This is a viewer that does not support snapshot capture functionality
+ExportGIF,Gif 추출,GIF extraction
+Exporting,Gif 생성 중...,Creating GIF...
+Section,구간,Section
+StartPos,시작 지점,Starting point
+RecordLen,녹화 길이,Recording length
+OutputSize,출력 크기,Output size
+Left,왼쪽,Left
+Right,오른쪽,Right
+Top,윗쪽,Top
+Bottom,아래쪽,Bottom
+FrameRate,프레임 간격,Frame spacing
+Millis,밀리초,milliseconds
+## ManageServer
+NonameServer,이름 없는 서버,Nameless Server
+ServerName,서버 이름,Server name
+NamePlaceHolder,예: 내 개인 서버,Example: My private server
+Host,호스트 주소,Host address
+Port,포트,Port
+UseSSL,SSL(https) 사용,Use SSL (https)
+EmptyServer,등록된 서버가 없습니다.,There are no registered servers.
+ClickAdd,우측 상단의 '+' 버튼을 눌러 서버를 추가해보세요.,Try adding a server by pressing the '+' button at the top right.
+AutoConnect,앱 시작 시 자동 연결,Automatic connection when the app starts
+Logout,로그아웃,Logout
+Login,로그인,Login
+NewICEServer,새 ICE 서버,New ICE server
+AddrNotSpecified,주소 미지정,Address not specified
+WebRTCPlaceHolder,예: 내 개인 WebRTC 서버,Example: My personal WebRTC server
+Username,사용자명,Username
+## WebPush
+RecvNoti,알림 받기,Get notifications
+ForceNoti,인앱 알림으로 전환하기,Switch to in-app notifications
+PerServerSet,서버별 웹 푸쉬 알림 설정,Server-specific web push notification settings
+## ServerSettings
+AdminResetPassword,다음 사용자의 비밀번호 재설정 처리,Processing password reset for the following user
+AdminResetPwApply,사용자에게 비밀번호 재설정 링크를 공유하세요,Share the password reset link with the user.
+AdminKickUser,다음 사용자에 대해 서버에서 퇴출,Remove the following users from the server
+AdminRemoveChannel,다음 채널에 대해 강제 해산,Force dissolution for the following channels
+AdminChannelRemoved,채널 삭제됨,Channel deleted
+SelectToManage,관리할 서버 선택,Select the server to manage
+SignupPolicy,가입 정책 설정,Subscription Policy Settings
+PolicyUpdated,가입 정책이 저장되었습니다,The subscription policy has been saved
+AllowNumber,가입 허용 인원,Number of allowed members
+NeedAdminApproved,가입 시 관리자 승인 필요,Administrator approval required upon sign-up
+ChallengeQuestion,가입 질문,Registration Questions
+InputQuestion,질문 입력 (없을 시 생략),Enter question (skip if none)
+ChallengeAnswer,가입 답변,Registration Answer
+InputAnswer,정답 (질문 설정 시 필수),Answer (Required when setting the question)
+Apply,적용하기,Apply
+WaitingMember,가입 대기자,Waiting list for membership
+Approve,승인,Approve
+Reject,거절,Reject
+UserList,사용자 목록,User List
+NoUsers,조회된 사용자가 없습니다,No users found
+ChannelList,채널 목록,Channel List
+NoChannels,조회된 채널이 없습니다,No channels found
+Admin,관리자,Admin
+User,사용자,User
+Unknown,알 수 없음,Unknown
+UUID,고유 ID,Unique ID
+RegDate,가입 일시,Registration Date
+PromoteManager,관리자 승격,Promotion
+DemotedManager,관리자 강등,Demoted
+ResetPw,비밀번호 재설정,Password reset
+KickFromServer,서버에서 추방,Kick from server
+Unlimited,무제한,Unlimited
+Creator,생성자,Creator
+CreateAt,생성 일시,Creation date
+ChannelInstrusion,채널 난입,Channel Intrusion
+ForceDissolution,강제 해산,Forced dissolution
+## ResetPw
+InputPw,새 비밀번호를 입력해주세요,Please enter your new password
+NotMatchPw,비밀번호가 일치하지 않습니다,The passwords do not match
+ChangingPw,비밀번호 변경 중...,Changing password...
+NoIDInfo,ID 정보 없음,No ID information
+ConfirmPw,새 비밀번호 확인,Confirm new password
+ApplyChangePw,비밀번호 변경,Change password
+GoBack,돌아가기,Go back
+## Creator
+Helper,도움 주신 분들,Those who helped
+## LangPack
+Download,언어팩 템플릿 다운로드를 시작합니다,Start the language pack template download
+Downloading,링크에서 언어팩을 다운로드하는 중...,Downloading language pack from link...
+SuggestChange,커스텀 언어팩이 적용되었습니다. 언어를 변경해보세요,A custom language pack has been applied. Please try changing the language
+BackToDefault,기본 언어팩으로 원복되었습니다. 언어를 변경해보세요,It has been restored to the default language pack. Please try changing the language
+Desc01,기본 템플릿을 다운로드,Download the basic template
+Desc02,업로드하면 앱 전체의 텍스트가 변경됩니다,When you upload the text of the entire app changes.
+Download01,템플릿 다운로드,Download Template
+Download02,기본 언어팩(.csv) 파일 받기,Download default language pack (.csv) file
+Default01,기본 언어로 원복하기,Restore to default language
+Default02,커스텀 파일을 삭제하고 기본 템플릿 사용,Delete custom files and use the default template.
+Apply01,커스텀 파일 적용,Apply custom files
+Apply02,클릭/드래그/또는 우클릭(링크 붙여넣기),Click/Drag/or Right-click (Paste Link)
+Dragging,언어팩(.csv) 파일을 이곳에 놓아주세요,Please place the language pack (.csv) file here.
+NeedCsvOnly,CSV 형식의 언어팩 파일만 적용할 수 있습니다.,Only language pack files in CSV format can be applied.
+## ChatRoom
+Edited,편집됨,Edited
+ReadHere,여기까지 읽음,Read up to here
+FindQoute,메시지를 찾는 중...,Searching for message...
+CannotFound,원본 메시지를 찾을 수 없습니다,The original message could not be found
+RemoveMsgFailed,메시지 삭제 실패,Message deletion failed
+Send,전송,Send
+SendMsgFailed,메시지 전송 실패,Message transmission failed
+SyncMsgFailed,서버 동기화에 실패했습니다,Server synchronization failed
+CopyChannelSucc,채널 복제 성공,Channel cloning successful
+CopyChannelFailed,채널 복제 실패,Channel duplication failure
+SetPin,핀 보드에 등록,Register on the pin board
+RemPin,핀 보드에서 제거,Remove pins from board
+FailedToSetPin,핀 상태 변경에 실패,Failed to change pin state
+LoadMsgBefore,이전 메시지 불러오기,Load previous message
+ShowLastMsg,최근 메시지 보기,View recent messages
+SetRoomBg,배경설정,Set Bg
+SetRoomBgLong,채널 배경 이미지 설정,Channel background image settings
+RemRoomBg,배경제거,Rem Bg
+RemRoomBgLong,채널 배경 이미지 제거,Remove channel background image
+SetActInfo,좌클릭: 탐색기 / 우클릭: 클립보드 첨부,Left-click: Explorer / Right-click: Attach to Clipboard
+NewText,새 문서,Doc.
+NewVoice,새 녹음,Rec.
+NewDraw,새 그림,Draw
+ScrReader,읽어주기,Reader
+SetLimit,기한설정,Limit
+Migration,채널복제,Copy
+SetTargetChannel,대상 채널 선택,Select target channel
+CopyChanDesc,로컬 기록을 동일하게 전송할 온라인 채널을 선택하세요,Please select an online channel to transmit the local records identically
+NoOnlineChan,사용 가능한 온라인 채널이 없습니다,There are no available online channels
+InputMsg,메시지를 입력하세요...,Please enter a message...
+InputMsgMemo,메시지에 남길 메모를 입력하세요...,Please enter a note to leave in the message...
+ModifyMsg,메시지 수정,Edit message
+ReplyMsg,답장하기,Reply
+MemoMsg,메모 작성,Writing a memo
+RemMsg,메시지 삭제,Delete message
+LoadPrevMsg,기록을 불러오는 중...,Loading records...
+SetNotice,공지 등록,Post Notice
+NoticeRemoveHint,우클릭하여 공지 제거,,Right-click to remove notice
+AppLink,앱 연동 링크,App integration link
+ClickToApplyLink,클릭하여 앱의 특정 기능을 실행합니다.,Click to execute a specific function of the app.
+InviteLink,채널 초대장,Channel Invitation
+InviteLinkDesc,클릭하여 해당 채널로 즉시 이동하거나 참여합니다.,Click to immediately go to or join the channel.
+ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click to reset your account password.
+InstantCall,즉석통화,InstC.
+OpenAllAtt,모든 파일 열람,View all files
+## ChannelList
+NoChannels,참여 중인 채널이 없습니다,There are no participating channels
+PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
+Attachments,첨부파일,Attachments
+NoCleanerTarget,정리할 연결 끊긴 채널이 없습니다,There are no disconnected channels to clean up
+CleaningConfirm,연결이 끊어진 모든 채널 삭제,Delete all disconnected channels
+## voidDraw
+ToggleMenu,설정 메뉴 열기/닫기,Open/Close Settings Menu
+Tools,기본 도구,Basic tools
+Undo,복구,Undo
+Redo,다시,Redo
+Crop,자르기,Crop
+Fit,맞추기,Fit
+CropTitle,화면 확장 및 자르기,Screen expansion and cropping
+CropDesc01,상자의 모서리를 드래그하여 확장/축소하세요.,Drag the corners of the box to expand or shrink it.
+CropDesc02,바깥 빈 공간을 드래그하면 화면이 패닝됩니다.,If you drag the empty space outside, the screen pans.
+BrushSet,그리기 설정,Brush settings
+Color,색상,Color
+Transparent,투명도,Transp.
+Weight,두께,Weight
+Resolution,해상도 설정,Resolution settings
+Ratio,배율,Ratio
+EstimatedSize,예상 크기,Estimated size
+## WebRTC
+InvalidServer,통화 서버 주소가 유효하지 않습니다.,The call server address is invalid.
+PermissionNeeded,카메라/마이크 권한이 필요합니다,Camera/microphone permission is required
+EndCall,통화 종료됨,Call ended
+FailedDevChange,장치 전환에 실패했습니다,Failed to switch devices
+ConnectLost,참가자와의 연결이 끊어졌습니다,The connection with the participant has been lost
+## InstantCall
+Title,즉석 통화,Instant call
+OpenCam,카메라 켜기,Turn on camera
+VoiceOnly,음성만 사용,Use voice only
+QRCodeDesc,아래 QR 코드를 스캔하거나 클릭하여 복사하세요,Scan the QR code below or click to copy it
+Connecting,방 참가자들과 연결을 설정 중입니다...,Establishing a connection with room participants...
+WaitingOther,다른 참여자를 기다리는 중입니다...,Waiting for other participants...

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="QRCode.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="33.208333"
+     inkscape:cx="12.015057"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <path
+     d="M 3.7949812,3.7949812 H 10.205019 V 10.205019 H 3.7949812 Z"
+     id="path1"
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.603;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="M13 13h2v2h-2z"
+     id="path4"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+  <path
+     d="M15 15h2v2h-2z"
+     id="path5"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+  <path
+     d="M17 13h2v2h-2z"
+     id="path6"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+  <path
+     d="M19 17h2v2h-2z"
+     id="path7"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+  <path
+     d="M13 19h2v2h-2z"
+     id="path8"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+  <path
+     d="M17 19h2v2h-2z"
+     id="path9"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+  <path
+     d="m 13.794981,3.7949812 h 6.410038 v 6.4100378 h -6.410038 z"
+     id="path10"
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.603;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 3.794981,13.794981 h 6.410038 v 6.410038 H 3.794981 Z"
+     id="path11"
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.603;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 6.3002231,6.3002231 h 1.399554 v 1.399554 h -1.399554 z"
+     id="path12"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.349995;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 16.300223,6.3002231 h 1.399554 v 1.399554 h -1.399554 z"
+     id="path13"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.349995;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 6.300223,16.300223 h 1.399554 v 1.399554 H 6.300223 Z"
+     id="path14"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.349995;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
