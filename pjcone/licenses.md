@@ -73,7 +73,7 @@
 | console-control-strings@1.1.0 | ISC | [Link](https://github.com/iarna/console-control-strings) |
 | content-disposition@1.1.0 | MIT | [Link](https://github.com/jshttp/content-disposition) |
 | content-type@1.0.5 | MIT | [Link](https://github.com/jshttp/content-type) |
-| content-type@2.0.0 | MIT | [Link](https://github.com/jshttp/content-type) |
+| content-type@2.1.0 | MIT | [Link](https://github.com/jshttp/content-type) |
 | cookie-signature@1.2.2 | MIT | [Link](https://github.com/visionmedia/node-cookie-signature) |
 | cookie@0.7.2 | MIT | [Link](https://github.com/jshttp/cookie) |
 | cors@2.8.6 | MIT | [Link](https://github.com/expressjs/cors) |
@@ -206,7 +206,7 @@
 | negotiator@1.0.0 | MIT | [Link](https://github.com/jshttp/negotiator) |
 | node-abi@3.94.0 | MIT | [Link](https://github.com/electron/node-abi) |
 | node-addon-api@3.2.1 | MIT | [Link](https://github.com/nodejs/node-addon-api) |
-| node-addon-api@8.9.1 | MIT | [Link](https://github.com/nodejs/node-addon-api) |
+| node-addon-api@8.9.2 | MIT | [Link](https://github.com/nodejs/node-addon-api) |
 | node-api-version@0.1.4 | MIT | [Link](https://github.com/timfish/node-api-version) |
 | node-gyp-build@4.8.4 | MIT | [Link](https://github.com/prebuild/node-gyp-build) |
 | node-gyp@9.4.1 | MIT | [Link](https://github.com/nodejs/node-gyp) |
@@ -225,7 +225,7 @@
 | path-is-absolute@1.0.1 | MIT | [Link](https://github.com/sindresorhus/path-is-absolute) |
 | path-key@3.1.1 | MIT | [Link](https://github.com/sindresorhus/path-key) |
 | path-to-regexp@8.4.2 | MIT | [Link](https://github.com/pillarjs/path-to-regexp) |
-| pjcone@0.95.0 | UNLICENSED | N/A |
+| pjcone@0.95.1 | UNLICENSED | N/A |
 | prebuild-install@7.1.3 | MIT | [Link](https://github.com/prebuild/prebuild-install) |
 | promise-inflight@1.0.1 | ISC | [Link](https://github.com/iarna/promise-inflight) |
 | promise-retry@2.0.1 | MIT | [Link](https://github.com/IndigoUnited/node-promise-retry) |

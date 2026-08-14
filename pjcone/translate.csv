@@ -192,6 +192,8 @@ PressToShow,눌러서 이미지 보기,Click to view image
 Creator,작성자,Author
 AudioFile,오디오 파일,audio file
 Unspectified,미지정 첨부파일,Unspecified attachment
+SearchContents,제목 또는 내용 검색...,Search title or content...
+NoMatchingInfo,일치하는 게시물 없음,No matching posts
 ## FileViewer
 New,새 파일,New file
 Run,실행하기,Run
@@ -359,6 +361,9 @@ PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세
 Attachments,첨부파일,Attachments
 NoCleanerTarget,정리할 연결 끊긴 채널이 없습니다,There are no disconnected channels to clean up
 CleaningConfirm,연결이 끊어진 모든 채널 삭제,Delete all disconnected channels
+Search,채널 제목 검색...,Search channel title...
+NotFound,검색 결과 없음,No search results
+NoMatchingInfo,일치하는 채널 제목 없음,No matching channel title
 ## voidDraw
 ToggleMenu,설정 메뉴 열기/닫기,Open/Close Settings Menu
 Tools,기본 도구,Basic tools
