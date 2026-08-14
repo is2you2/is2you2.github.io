@@ -225,7 +225,7 @@
 | path-is-absolute@1.0.1 | MIT | [Link](https://github.com/sindresorhus/path-is-absolute) |
 | path-key@3.1.1 | MIT | [Link](https://github.com/sindresorhus/path-key) |
 | path-to-regexp@8.4.2 | MIT | [Link](https://github.com/pillarjs/path-to-regexp) |
-| pjcone@0.95.1 | UNLICENSED | N/A |
+| pjcone@0.95.2 | UNLICENSED | N/A |
 | prebuild-install@7.1.3 | MIT | [Link](https://github.com/prebuild/prebuild-install) |
 | promise-inflight@1.0.1 | ISC | [Link](https://github.com/iarna/promise-inflight) |
 | promise-retry@2.0.1 | MIT | [Link](https://github.com/IndigoUnited/node-promise-retry) |
