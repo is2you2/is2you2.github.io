@@ -29,6 +29,8 @@ FailedToDownload,파일 다운로드 실패,File download failed
 CheckToken,토큰을 확인합니다...,Verify the token...
 NoToken,만료된 토큰입니다.,This is an expired token.
 GoBack,뒤로가기,Go back
+QuickActError,빠른 진입 행동 오류,QuickLink error
+NoPost,게시물 정보 없음,No post information
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
@@ -228,6 +230,7 @@ Top,윗쪽,Top
 Bottom,아래쪽,Bottom
 FrameRate,프레임 간격,Frame spacing
 Millis,밀리초,milliseconds
+NoNameFile,이름 없는 파일,Nameless file
 ## ManageServer
 NonameServer,이름 없는 서버,Nameless Server
 ServerName,서버 이름,Server name
@@ -351,6 +354,8 @@ SetNotice,공지 등록,Post Notice
 NoticeRemoveHint,우클릭하여 공지 제거,,Right-click to remove notice
 AppLink,앱 연동 링크,App integration link
 ClickToApplyLink,클릭하여 앱의 특정 기능을 실행합니다.,Click to execute a specific function of the app.
+PostLink,게시물 링크,Post Link
+PostLinkDesc,클릭하여 사용자 게시물을 확인해보세요.,Click to check out the user's post.
 InviteLink,채널 초대장,Channel Invitation
 InviteLinkDesc,클릭하여 해당 채널로 즉시 이동하거나 참여합니다.,Click to immediately go to or join the channel.
 ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click to reset your account password.
