@@ -130,12 +130,13 @@ NoNameChannel,이름 없는 채널,Nameless Channel
 NoMessage,기록된 메시지 없음,No recorded messages
 ## Profile
 NoNameUser,이름 없는 사용자,Nameless user
+WithdrawnUser,탈퇴한 사용자,Withdrawn user
 UpdateProfile,프로필 업데이트 중...,Updating profile...
 UploadProfileWell,프로필 업데이트됨,Profile updated
 UploadProfileErr,프로필 업데이트 실패,Profile update failed
 FailedToSetAlias,별명 동기화에 실패했습니다,Failed to synchronize nickname
 ## Settings
-Profile,내 프로필,My Profile
+Profile,프로필,Profile
 ServerNoti,알림,Notification
 UserEnv,사용 환경,Usage environment
 Online,온라인 설정,Online settings
@@ -355,6 +356,7 @@ InviteLinkDesc,클릭하여 해당 채널로 즉시 이동하거나 참여합니
 ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click to reset your account password.
 InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
+ExpiredDeadline,설정된 기한이 만료되었습니다,The set deadline has expired
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
