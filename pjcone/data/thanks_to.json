@@ -1,5 +1,12 @@
 [
     {
+        "name": "윤찬렬",
+        "url": "https://github.com/razorbacky",
+        "avatar": "/data/helped/razorbacky.png",
+        "desc": "iOS 디자인 제안, 문서 구문 강조 제안, 적극적인 앱 사용 및 테스트, 적극적인 사용환경 개선사항 의견",
+        "mvp": true
+    },
+    {
         "name": "김복순",
         "url": "http://kmission.kr/",
         "desc": "할 일 기능과 관련된 디자인 및 기능 제안"
@@ -8,13 +15,6 @@
         "name": "이해준",
         "url": "https://www.linkedin.com/in/haejoon-l-97ba69161/",
         "desc": "초기 단계 앱 사용 및 테스트, 오류 보고"
-    },
-    {
-        "name": "윤찬렬",
-        "url": "https://github.com/razorbacky",
-        "avatar": "/data/helped/razorbacky.png",
-        "desc": "iOS 디자인 제안, 문서 구문 강조 제안, 적극적인 앱 사용 및 테스트, 적극적인 사용환경 개선사항 의견",
-        "mvp": true
     },
     {
         "name": "이동진",
