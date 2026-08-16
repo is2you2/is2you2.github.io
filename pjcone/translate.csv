@@ -31,6 +31,7 @@ NoToken,만료된 토큰입니다.,This is an expired token.
 GoBack,뒤로가기,Go back
 QuickActError,빠른 진입 행동 오류,QuickLink error
 NoPost,게시물 정보 없음,No post information
+Caution,주의,Caution
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
@@ -151,12 +152,15 @@ ResetAll,모든 데이터 초기화,Reset All Data
 LangSet,언어 설정,Language settings
 LangName,한국어,English
 ShowHint,단축키 힌트 표시,Show shortcut hints
+DefaultHint,단축키 힌트 기본값으로 설정됨,Shortcut hint set to default
+SetDefaultHit,우클릭하여 기기 기본값 설정,Right-click to set device defaults
 Creator,제작자,Creator
 QRcodeInvite,QRCode 초대,QR Code Invitation
 Sponsor,후원,Sponsorship
 ShowAds,광고 보기로 후원하기,Support by watching ads
 RestartToRemoveAds,앱을 다시 시작하면 광고가 제거됩니다,Restarting the app will remove the ads.
 CustomLangPack,사용자 지정 언어팩,Custom language packs
+DBSettings,DB 서버 설정,DB Server Settings
 ## QRCode
 ClickToCopy,클릭하여 복사하기,Click to copy
 QRCodeResultHere,스캔 결과가 여기에 표시됩니다,The scan results are displayed here.
@@ -362,6 +366,7 @@ ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click
 InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
 ExpiredDeadline,설정된 기한이 만료되었습니다,The set deadline has expired
+ToggleServer,해당 서버 토글,Toggle the server
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
@@ -401,3 +406,18 @@ VoiceOnly,음성만 사용,Use voice only
 QRCodeDesc,아래 QR 코드를 스캔하거나 클릭하여 복사하세요,Scan the QR code below or click to copy it
 Connecting,방 참가자들과 연결을 설정 중입니다...,Establishing a connection with room participants...
 WaitingOther,다른 참여자를 기다리는 중입니다...,Waiting for other participants...
+## DBSettings
+CannotAct,이 기능은 전용 클라이언트(Electron) 환경에서만 지원됩니다.,This feature is supported only in a dedicated client (Electron) environment.
+MustRestart,서버 설정을 변경한 후에는 반드시 앱을 완전히 종료하고 다시 실행해야 변경사항이 백그라운드 서버에 적용됩니다.,After changing server settings, you must completely close and restart the app for the changes to be applied to the background server.
+YouMustReset,설정이 저장되었습니다. 앱을 재시작해야 적용됩니다.,Settings have been saved. You must restart the app for them to take effect.
+FailedLoadConfig,설정을 불러오지 못했습니다.,Failed to load settings.
+OnlyThisDev,현재 PC에서만 접속 가능,Currently only accessible on PC
+AllCanJoin,외부 망 / 스마트폰 접속 허용,Allow external network / smartphone access
+SetLISTENIP,접근 허용 IP (LISTEN),Allowed IPs (LISTEN)
+YouCanOpenWith,외부 기기에서 이 PC로 접속하려면 '0.0.0.0'으로 설정하세요.,To access this PC from an external device, set it to '0.0.0.0'.
+InfoBackPort,백그라운드 통신에 사용될 포트 번호입니다.,This is the port number to be used for background communication.
+AdminEmail,관리자 이메일,Administrator Email
+Saving,저장 중...,Saving...
+DataFolder,데이터 폴더 관리,Data Folder Management
+FolderInfo,내장 서버의 데이터베이스(SQLite)* 사용자 업로드 파일* SSL 인증서(public.crt* private.key) 등이 저장되는 물리적 폴더입니다.,This is a physical folder where the embedded server's database (SQLite)* user-uploaded files* SSL certificates (public.crt* private.key)* etc.* are stored.
+OpenFolder,데이터 폴더 열기,Open data folder
