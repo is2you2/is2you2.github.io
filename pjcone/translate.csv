@@ -32,7 +32,7 @@ GoBack,뒤로가기,Go back
 QuickActError,빠른 진입 행동 오류,QuickLink error
 NoPost,게시물 정보 없음,No post information
 Caution,주의,Caution
-CopyLink,링크 복사,Copy link
+CopyLink,메시지 링크,Message Link
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
