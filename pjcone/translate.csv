@@ -370,6 +370,14 @@ InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
 ExpiredDeadline,설정된 기한이 만료되었습니다,The set deadline has expired
 ToggleServer,해당 서버 토글,Toggle the server
+TempInvite,임시초대,TempJoin
+TempChat,임시 참여 채널,Temporary participation channel
+Join,입장,Joined
+Leave,퇴장,Leaved
+SelectTempServer,임시 방 개설하기,Open a temporary room
+SelectTempServerDesc,임시 방을 개설할 중계 서버를 선택하세요.,Please select a relay server to open a temporary room.
+NoOnlineServer,연결된 온라인 서버가 없습니다.,There is no connected online server.
+TempConnClose,임시 서버 연결이 종료되었습니다.,The temporary server connection has been terminated.
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
