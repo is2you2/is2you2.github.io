@@ -215,8 +215,6 @@ ForceOpenText,텍스트로 강제 열람하기,Force viewing as text
 FailedToOpen,파일 열람 실패,File opening failed
 Docs,문서,Document
 NoPDF,표시할 PDF 파일이 없습니다.,There are no PDF files to display.
-Expand,펼치기,Expand
-Collapse,접기,Collapse
 EmptyZip,ZIP 파일이 비어있습니다.,The ZIP file is empty.
 Open,열기,Open
 ClickToOpen,클릭하여 파일 추가,Click to add a file
