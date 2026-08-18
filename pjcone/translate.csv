@@ -32,7 +32,6 @@ GoBack,뒤로가기,Go back
 QuickActError,빠른 진입 행동 오류,QuickLink error
 NoPost,게시물 정보 없음,No post information
 Caution,주의,Caution
-CopyLink,메시지 링크,Message Link
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
@@ -362,8 +361,10 @@ PostLink,게시물 링크,Post Link
 PostLinkDesc,클릭하여 사용자 게시물을 확인해보세요.,Click to check out the user's post.
 InviteLink,채널 초대장,Channel Invitation
 InviteLinkDesc,클릭하여 해당 채널로 즉시 이동하거나 참여합니다.,Click to immediately go to or join the channel.
-InviteLink,메시지 링크,Message Link
-InviteLinkDesc,클릭하여 다른 채널의 특정 메시지로 이동합니다.,Click to go to a specific message on another channel.
+MessageLink,메시지 링크,Message Link
+MessageLinkDesc,클릭하여 채널 내 특정 메시지로 이동합니다.,Click to go to a specific message within the channel.
+FileLink,파일 링크,File link
+FileLinkDesc,클릭하여 파일을 열람합니다.,Click to view the file.
 ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click to reset your account password.
 InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
