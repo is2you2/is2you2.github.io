@@ -32,6 +32,7 @@ GoBack,뒤로가기,Go back
 QuickActError,빠른 진입 행동 오류,QuickLink error
 NoPost,게시물 정보 없음,No post information
 Caution,주의,Caution
+RightClickToEdit,우클릭하여 편집,Right-click to edit
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
@@ -135,8 +136,6 @@ NoMessage,기록된 메시지 없음,No recorded messages
 ## Profile
 NoNameUser,이름 없는 사용자,Nameless user
 WithdrawnUser,탈퇴한 사용자,Withdrawn user
-UpdateProfile,프로필 업데이트 중...,Updating profile...
-UploadProfileWell,프로필 업데이트됨,Profile updated
 UploadProfileErr,프로필 업데이트 실패,Profile update failed
 FailedToSetAlias,별명 동기화에 실패했습니다,Failed to synchronize nickname
 ## Settings
@@ -379,6 +378,7 @@ SelectTempServerDesc,임시 방을 개설할 중계 서버를 선택하세요.,P
 NoOnlineServer,연결된 온라인 서버가 없습니다.,There is no connected online server.
 TempConnClose,임시 서버 연결이 종료되었습니다.,The temporary server connection has been terminated.
 CreatingNoti,알림 생성중...,Creating notification...
+AlreadyHasTemp,이미 활성화된 임시 채널이 있습니다.,There is already an active temporary channel.
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
