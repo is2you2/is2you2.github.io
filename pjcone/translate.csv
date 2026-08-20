@@ -415,6 +415,7 @@ ConnectLost,참가자와의 연결이 끊어졌습니다,The connection with the
 Title,즉석 통화,Instant call
 OpenCam,카메라 켜기,Turn on camera
 VoiceOnly,음성만 사용,Use voice only
+ScreenShare,화면 공유,Screen sharing
 QRCodeDesc,아래 QR 코드를 스캔하거나 클릭하여 복사하세요,Scan the QR code below or click to copy it
 Connecting,방 참가자들과 연결을 설정 중입니다...,Establishing a connection with room participants...
 WaitingOther,다른 참여자를 기다리는 중입니다...,Waiting for other participants...
