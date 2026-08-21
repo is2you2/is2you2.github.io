@@ -174,8 +174,9 @@ Password,비밀번호,Password
 Start,시작하기,Getting Started
 EmptyId,아이디를 입력해주세요,Please enter your ID
 EmptyPw,비밀번호를 입력해주세요,Please enter your password
-Preparing,준비중...,Preparing...
-UserManual,처음이신가요? 사용 설명서 읽기,Is this your first time? Read the user manual.
+NotRegistered,등록된 인증 정보 없음,No registered authentication information
+UserAccount,내 계정 정보,My Account Information
+DeleteInfo,정보 삭제하기,Delete information
 ## Post
 NoNamePost,이름 없는 게시물,Nameless post
 NewPost,새 게시물,New post
