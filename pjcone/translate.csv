@@ -250,6 +250,8 @@ NewICEServer,새 ICE 서버,New ICE server
 AddrNotSpecified,주소 미지정,Address not specified
 WebRTCPlaceHolder,예: 내 개인 WebRTC 서버,Example: My personal WebRTC server
 Username,사용자명,Username
+UseCustomCredential,이 서버 전용 계정 사용,Use an account dedicated to this server
+SpecificIdForm,사번/학번 등,Employee ID/Student ID, etc.
 ## WebPush
 RecvNoti,알림 받기,Get notifications
 ForceNoti,인앱 알림으로 전환하기,Switch to in-app notifications
