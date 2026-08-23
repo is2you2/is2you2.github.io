@@ -16,7 +16,7 @@
 | highlight.js@11.11.1 | BSD-3-Clause | [Link](https://github.com/highlightjs/highlight.js) |
 | marked@18.0.5 | MIT | [Link](https://github.com/markedjs/marked) |
 | meshoptimizer@1.1.1 | MIT | [Link](https://github.com/zeux/meshoptimizer) |
-| pjcone@0.96.3 | UNLICENSED | N/A |
+| pjcone@0.96.4 | UNLICENSED | N/A |
 | qrcode-svg@1.1.0 | MIT | [Link](https://github.com/papnkukn/qrcode-svg) |
 | server@0.0.1 | UNKNOWN | N/A |
 | three@0.185.1 | MIT | [Link](https://github.com/mrdoob/three.js) |
