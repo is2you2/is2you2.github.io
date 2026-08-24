@@ -464,9 +464,6 @@ TranslatorSpeaking,번역가의 한마디,A word from the translator,来自翻�
 creatorComment,제작자의 한마디,A word from the maker,来自制作人的话,來自製作人的話,製作者からの一言,Una palabra del creador,Un mot du créateur,Ein Wort vom Ersteller,Слово от создателя,Üreticiden bir söz,คำจากผู้สร้าง
 contributors,프로젝트 기여자,Contributors,项目贡献者,專案貢獻者,プロジェクトの貢献者,Contribuidores,Contributeurs,Mitwirkende,Участники проекта,Katkıda bulunanlar,ผู้มีส่วนร่วม
 thanks_to,도움주신 분들,Thanks to,感谢,感謝,ありがとうございます,Agradecimientos,Remerciements,Danke an,Благодарности,Teşekkürler,ขอบคุณ
-ToggleAds,광고 보기로 후원하기,Support by watching ads,通过观看广告进行支持,透過觀看廣告來支持,広告視聴で支援,Apoyar viendo anuncios,Soutenir en regardant des publicités,Durch Ansehen von Werbung unterstützen,Поддержать просмотром рекламы,Reklam izleyerek destekle,สนับสนุนโดยการดูโฆษณา
-AdsCanOff,광고는 앱 사용에 영향을 주지 않으며 언제든지 끌 수 있습니다,Ads do not affect app usage and can be turned off at any time,广告不会影响应用使用，且可随时关闭,廣告不會影響應用使用，且可隨時關閉,広告はアプリの使用に影響せず、いつでもオフにできます,Los anuncios no afectan el uso de la app y pueden desactivarse en cualquier momento,Les publicités n'affectent pas l'utilisation de l'application et peuvent être désactivées à tout moment,Werbung beeinträchtigt die App-Nutzung nicht und kann jederzeit deaktiviert werden,Реклама не влияет на использование приложения и может быть отключена в любое время,Reklamlar uygulama kullanımını etkilemez ve istenildiği zaman kapatılabilir,โฆษณาไม่ส่งผลต่อการใช้งานแอปและสามารถปิดได้ทุกเมื่อ
-AdsIsOff,광고 없이 사용 중입니다,Using the app without ads,正在无广告使用,正在無廣告使用,広告なしで使用中,Usando la app sin anuncios,Utilisation de l'application sans publicités,App wird ohne Werbung verwendet,Использование приложения без рекламы,Reklamsız kullanım,กำลังใช้งานโดยไม่มีโฆษณา
 ## GlobalAct
 CancelText,취소,Cancel,取消,取消,キャンセル,Cancelar,Annuler,Abbrechen,Отмена,İptal,ยกเลิก
 PCClipboard,복사됨,Copied,已复制,已複製,コピーしました,Copiado,Copié,Erfolgreich kopiert,Скопировано,Başarıyla kopyalandı,คัดลอกแล้ว
