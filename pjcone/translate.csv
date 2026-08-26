@@ -367,6 +367,8 @@ MessageLink,메시지 링크,Message Link
 MessageLinkDesc,클릭하여 채널 내 특정 메시지로 이동합니다.,Click to go to a specific message within the channel.
 FileLink,파일 링크,File link
 FileLinkDesc,클릭하여 파일을 열람합니다.,Click to view the file.
+CopyImage,이미지 복사,Copy image
+CopyLink,링크 복사,Copy link
 ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click to reset your account password.
 InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
