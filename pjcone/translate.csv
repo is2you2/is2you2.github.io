@@ -293,6 +293,9 @@ Creator,생성자,Creator
 CreateAt,생성 일시,Creation date
 ChannelInstrusion,채널 난입,Channel Intrusion
 ForceDissolution,강제 해산,Forced dissolution
+ShutdownServer,서버 구동 종료,Stop the server
+ShutdownWell,서버가 종료됩니다,The server is shutting down
+ShutdownErr,서버 종료 실패,Server shutdown failed
 ## ResetPw
 InputPw,새 비밀번호를 입력해주세요,Please enter your new password
 NotMatchPw,비밀번호가 일치하지 않습니다,The passwords do not match
