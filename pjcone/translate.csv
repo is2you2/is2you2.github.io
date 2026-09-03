@@ -412,6 +412,13 @@ Weight,두께,Weight
 Resolution,해상도 설정,Resolution settings
 Ratio,배율,Ratio
 EstimatedSize,예상 크기,Estimated size
+ShareBoard,공유 그림판,Shared Paint
+Share,공유하기,Share
+StopSharing,공유 종료,End sharing
+GatheringDraw,모아 보내기,Collect and send
+GatheringDrawMode,모아 보내기 모드 (나에게만 보임),Collect and send mode (visible only to me)
+SendGatherings,모아진 그리기 발송,Send collected drawings
+SendingGathers,모아진 그리기 발송중 (캔버스 잠김),Sending collected drawings (Canvas locked)
 ## WebRTC
 InvalidServer,통화 서버 주소가 유효하지 않습니다.,The call server address is invalid.
 PermissionNeeded,카메라/마이크 권한이 필요합니다,Camera/microphone permission is required
