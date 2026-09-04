@@ -1,332 +1,581 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Project: Cone | 자가 구축형 디지털 요새</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <style>
-        /* 기존 스타일 유지 */
-        :root {
-            --bg-color: #0a0a0a;
-            --text-color: #e0e0e0;
-            --accent-color: #00ff41;
-            --card-bg: #111111;
-            --border-color: #222;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: 'Pretendard', sans-serif;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            padding: 40px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent-color);
-            text-decoration: none;
-        }
-
-        .hero {
-            padding: 100px 0 80px;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 24px;
-            letter-spacing: -1.5px;
-            line-height: 1.2;
-            color: #fff;
-        }
-
-        .hero h1 span {
-            color: var(--accent-color);
-        }
-
-        .hero p {
-            font-size: 1.25rem;
-            color: #888;
-            max-width: 750px;
-            margin: 0 auto 48px;
-        }
-
-        .btn-group {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-            margin-bottom: 40px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 16px 36px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 2px;
-            transition: all 0.2s ease;
-            font-size: 0.95rem;
-        }
-
-        .btn-primary {
-            background-color: var(--accent-color);
-            color: #000;
-            border: 1px solid var(--accent-color);
-        }
-
-        .btn-secondary {
-            background-color: transparent;
-            color: var(--accent-color);
-            border: 1px solid var(--accent-color);
-        }
-
-        /* 버튼 숨김 처리용 */
-        .hidden {
-            display: none !important;
-        }
-
-        .manifesto {
-            background-color: var(--card-bg);
-            padding: 80px 40px;
-            border: 1px solid var(--border-color);
-            margin-bottom: 100px;
-            text-align: center;
-        }
-
-        .manifesto blockquote {
-            font-size: 1.6rem;
-            font-style: italic;
-            color: #fff;
-            margin: 0;
-            line-height: 1.5;
-            word-break: keep-all;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-bottom: 120px;
-        }
-
-        .feature-card {
-            padding: 40px;
-            border: 1px solid var(--border-color);
-            background: #0d0d0d;
-        }
-
-        .feature-card h3 {
-            color: var(--accent-color);
-            margin-top: 0;
-            font-size: 1.25rem;
-        }
-
-        footer {
-            padding: 80px 0;
-            text-align: center;
-            border-top: 1px solid var(--border-color);
-            color: #555;
-            font-size: 0.85rem;
-        }
-
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-
-            .cta-button {
-                width: 100%;
-                box-sizing: border-box;
-            }
-        }
-    </style>
+    <title>Project: Cone - 신개념 채널형 개인 메모 앱</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://is2you2.github.io/pjcone/icon/favicon.png">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-emerald-500 selection:text-white">
 
-    <div class="container">
-        <header>
-            <a href="#" class="logo">Project: Cone</a>
-            <nav><small style="letter-spacing: 1.5px; color: #444;" data-i18n="nav-tag">DECENTRALIZED. PRIVATE.
-                    SOVEREIGN.</small></nav>
-        </header>
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <img src="https://is2you2.github.io/pjcone/icon/favicon.png" alt="Project: Cone Logo"
+                    class="w-8 h-8 rounded-lg object-cover shadow-sm">
+                <span class="text-lg font-extrabold tracking-tight text-slate-800">Project: Cone</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#concept" class="hover:text-emerald-500 transition">핵심 개념</a>
+                <a href="#interactive-pin" class="hover:text-emerald-500 transition">핀 체험하기</a>
+                <a href="#features" class="hover:text-emerald-500 transition">특별한 장점</a>
+            </nav>
+        </div>
+    </header>
 
-        <section class="hero">
-            <p data-i18n="hero-sub">빅테크의 감시와 데이터 독점으로부터의 독립</p>
-            <h1 data-i18n="hero-title">당신의 대화는 <span>당신의 거실</span>에 머물러야 합니다.</h1>
-            <p data-i18n="hero-desc">중앙 서버가 없는 진정한 Closed-SNS. 기업의 서버가 아닌 당신의 인프라가 세상의 중심이 되는 소통 도구, <strong>Project:
-                    Cone</strong>입니다.</p>
-
-            <div class="btn-group">
-                <a href="https://is2you2.github.io/pjcone_pwa/" class="cta-button btn-primary" data-i18n="btn-pwa">바로
-                    사용하기 (PWA)</a>
+    <!-- Hero Section -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 relative overflow-hidden bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <div
+                class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-100 text-xs text-emerald-600 font-semibold mb-6">
+                <i class="fas fa-bolt"></i>
+                <span>더 가볍고, 더 쉬워진 새로운 버전 출시</span>
             </div>
-        </section>
-
-        <section class="manifesto">
-            <blockquote data-i18n="manifesto-text">
-                "우리는 당신이 누구인지 모릅니다. <br>데이터의 주권이 당신에게 있는 한, 우리는 당신을 알 필요가 없습니다."
-            </blockquote>
-        </section>
-
-        <section class="features">
-            <div class="feature-card">
-                <h3 data-i18n="f1-t">01. 탈중앙화 물리 서버</h3>
-                <p data-i18n="f1-d">플랫폼에 종속되지 마십시오. 당신의 PC나 NAS에 직접 인프라를 배포하고 관리하세요.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-i18n="f2-t">02. 검열 불가능한 요새</h3>
-                <p data-i18n="f2-d">서버가 당신의 물리적 공간에 존재하는 한, 제3자에 의한 데이터 검열은 원천적으로 불가능합니다.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-i18n="f3-t">03. 제로 알고리즘</h3>
-                <p data-i18n="f3-d">추천 시스템도, 도파민 유도 장치도 없습니다. 오직 당신이 신뢰하고 초대한 사람들과의 소통만 허용합니다.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-i18n="f4-t">04. PWA & Electron</h3>
-                <p data-i18n="f4-d">스토어의 검열이 없는 PWA와 환경 테스트를 위한 Electron 데모를 통해 언제 어디서든 자유롭게 접속하십시오.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-i18n="f5-t">05. 실체적인 보안 해답</h3>
-                <p data-i18n="f5-d">개인정보 유출과 사생활 침해라는 시대적 위협에 대해, '물리적 분리'라는 가장 차가운 기술적 해답을 제시합니다.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-i18n="f6-t">06. 익명성과 실용주의</h3>
-                <p data-i18n="f6-d">어떤 개인정보도 요구하지 않습니다. 자유를 위한 도구를 제공할 뿐, 가치를 채우는 것은 당신의 몫입니다.</p>
-            </div>
-        </section>
-
-        <section style="text-align: center; padding-bottom: 120px;">
-            <h2 data-i18n="bottom-title">이제, 디지털 독립을 선언하세요.</h2>
-            <p style="color: #888; margin-bottom: 40px;" data-i18n="bottom-desc">복잡한 설정은 필요 없습니다. 지침에 따라 당신만의 성벽을
-                완성하십시오.</p>
-            <div class="btn-group">
-                <a href="https://is2you2.github.io/posts/how-to-use-pjcone-client/" class="cta-button btn-secondary"
-                    data-i18n="btn-guide" data-doc="guide">
-                    앱 기능 설명서
-                </a>
-                <a href="https://is2you2.github.io/posts/how-to-use-pjcone-server/" class="cta-button btn-primary"
-                    data-i18n="btn-server" data-doc="server">
-                    서버 구축 시작하기
-                </a>
-            </div>
-        </section>
-
-        <section
-            style="text-align: center; padding: 60px 20px; border-top: 1px solid var(--border-color); background: linear-gradient(to bottom, #0a0a0a, #111);">
-            <h3 style="color: #fff; margin-bottom: 20px;" data-i18n="support-title">Project: Cone의 지속 가능성</h3>
-            <p style="font-size: 0.95rem; color: #888; max-width: 650px; margin: 0 auto 30px; line-height: 1.8;"
-                data-i18n="support-desc">
-                이 프로젝트는 광고 수익, 유료 클라이언트 제공 등 다양한 자립 모델을 검토하고 있습니다.
-                하지만 사용자의 자발적인 후원은 이 프로젝트가 원칙을 지키며 가장 빠르게 성장할 수 있는 가장 순수한 동력입니다.
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight text-slate-900">
+                채널이 <span class="text-emerald-500">메모</span>가 되고,<br>
+                핀이 <span class="text-emerald-500">할 일</span>이 되는 곳
+            </h1>
+            <p class="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+                복잡한 설치도, 어려운 서버 설정도 필요 없습니다. 클릭 한 번으로 나만의 메모 서버를 열고, 채널과 핀으로 직관적이게 할 일을 관리하세요.
             </p>
-            <a href="https://www.patreon.com/is2you2" class="cta-button btn-secondary"
-                style="border-color: #555; color: #ccc;" data-i18n="btn-support">
-                자율 후원으로 응원하기
-            </a>
-        </section>
 
-        <footer>
-            <p data-i18n="footer-text">&copy; 2020-2025 Project: Cone. Built for Digital Privacy & Sovereign
-                Communication.</p>
-        </footer>
-    </div>
+            <!-- CTA 버튼 그룹 (무료로 시작하기 + 체험하기) -->
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="https://pjcone.ddns.net:443/1186b2c8-bb11-489f-ac64-15cfccb0223f/channels/c570cf86-446f-46c0-8f5f-e9830c1deac4/files/516/%5B0%5Dpjcone-windows.exe" target="_blank"
+                    class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-8 py-3.5 rounded-xl transition shadow-lg shadow-emerald-500/30 flex items-center justify-center space-x-2">
+                    <span>무료로 시작하기</span>
+                    <i class="fas fa-download text-sm"></i>
+                </a>
+                <a href="https://is2you2.github.io/pjcone/" target="_blank"
+                    class="w-full sm:w-auto bg-white hover:bg-slate-50 text-slate-700 font-semibold px-8 py-3.5 rounded-xl border border-slate-300 transition flex items-center justify-center space-x-2 shadow-sm">
+                    <span>웹에서 체험하기</span>
+                    <i class="fas fa-arrow-right text-sm text-slate-400"></i>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <!-- Concept Section -->
+    <section id="concept" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-emerald-500 text-sm font-bold tracking-wider uppercase">Intuitive Workflow</span>
+                <h2 class="text-3xl font-bold tracking-tight mt-2 mb-6 text-slate-900">물 흐르듯 이어지는<br>가장 직관적인 기록</h2>
+                <ul class="space-y-6 mt-8">
+                    <li>
+                        <h4 class="text-lg font-bold text-slate-800 flex items-center"><i
+                                class="fas fa-hashtag text-emerald-500 mr-2"></i> 채널로 메모하기</h4>
+                        <p class="text-slate-600 text-sm mt-1 ml-6 leading-relaxed">주제별로 채널을 만들고, 마치 메신저로 대화하듯 가볍게 생각과
+                            자료를 기록하세요.</p>
+                    </li>
+                    <li>
+                        <h4 class="text-lg font-bold text-slate-800 flex items-center"><i
+                                class="fas fa-thumbtack text-emerald-500 mr-2"></i> 핀으로 할 일 관리하기</h4>
+                        <p class="text-slate-600 text-sm mt-1 ml-6 leading-relaxed">지금 당장 실행해야 할 중요한 채널에 핀을 꽂으세요. 고정된
+                            핀들은 자연스럽게 나의 할 일(To-do) 목록이 됩니다.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Interactive Canvas Section -->
+            <div id="interactive-pin" class="relative">
+                <div class="bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden relative">
+                    <div class="bg-slate-100 px-4 py-3 border-b border-slate-200 flex items-center justify-between">
+                        <div class="flex items-center space-x-2">
+                            <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-amber-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                        </div>
+                        <span class="text-xs text-slate-500 font-medium"><i class="fas fa-info-circle mr-1"></i> + 버튼과 핀
+                            모두 드래그 및 우클릭 삭제 가능</span>
+                    </div>
+                    <!-- Canvas Container -->
+                    <div id="canvas-container"
+                        class="w-full h-[380px] relative cursor-grab active:cursor-grabbing bg-slate-950">
+                        <canvas id="pinCanvas" class="block w-full h-full"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- General User Benefits Section -->
+    <section id="features" class="py-20 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold tracking-tight mb-4 text-slate-900">누구나 쉽게, 완벽하게 통제하는 내 데이터</h2>
+                <p class="text-slate-500 text-lg">어려운 기술은 안에 숨겼습니다. 여러분은 그저 더 빠르고 편하게 메모에만 집중하세요.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group">
+                    <div
+                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-slate-800">클릭 한 번으로 서버 실행</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">복잡한 설치 과정은 버렸습니다. 다운로드 받은 파일을 실행하기만 하면 내 PC가 곧 나만의
+                        훌륭한 메모 서버가 됩니다.</p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group">
+                    <div
+                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-slate-800">눈에 보이는 투명한 백업</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">프로그램 바로 옆에 <code>data</code> 폴더가 자동으로 생성됩니다. 이 폴더만
+                        복사해두면 언제든 자료를 안전하게 보관할 수 있습니다.</p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group">
+                    <div
+                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
+                        <i class="fas fa-feather-pointed"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-slate-800">깃털처럼 가벼운 쾌적함</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">최신 기술로 완전히 새롭게 만들었습니다. 불필요한 기능은 덜어내고 꼭 필요한 기능만 담아
+                        눈 깜짝할 사이에 반응합니다.</p>
+                </div>
+
+                <div
+                    class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group lg:col-span-1 md:col-span-2">
+                    <div
+                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-slate-800">같은 공간, 완벽한 연결</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">같은 와이파이(로컬망)에 연결된 스마트폰, 태블릿에서도 웹 브라우저를 통해 손쉽게 메모에
+                        접속할 수 있습니다.</p>
+                </div>
+
+                <div
+                    class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group lg:col-span-2 md:col-span-2">
+                    <div
+                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-slate-800">설치 없이 쓰는 모바일, 오프라인 캐시</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">스마트폰 홈 화면에 바로가기(PWA)를 추가해 앱처럼 사용하세요. 오프라인 캐시를 지원해
+                        인터넷이 끊겨도 안심할 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-slate-900 text-center text-sm text-slate-400 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-center space-x-2 mb-4 text-emerald-500 font-bold">
+                <img src="https://is2you2.github.io/pjcone/icon/favicon.png" alt="Project: Cone Logo"
+                    class="w-8 h-8 rounded-lg object-cover shadow-sm">
+                <span>Project: Cone</span>
+            </div>
+            <p>&copy; 2026 Project: Cone. The easiest & lightest way to organize your thoughts.</p>
+        </div>
+    </footer>
+
+    <!-- Svelte 원본 물리 엔진 적용 스크립트 -->
     <script>
-        const DOC_URL_MAP = {
-            ko: {
-                guide: 'https://is2you2.github.io/posts/how-to-use-pjcone-client/',
-                server: 'https://is2you2.github.io/posts/how-to-use-pjcone-server/',
-            },
-            en: {
-                guide: 'https://is2you2.github.io/posts/how-to-use-pjcone-client-en/',
-                server: 'https://is2you2.github.io/posts/how-to-use-pjcone-server-en/',
-            }
-        };
+        const samplePool = [
+            { title: "# 이번 주 프로젝트 마감", color: "#10b981" },
+            { title: "# 마트 장보기 목록", color: "#3b82f6" },
+            { title: "# 주말 등산 계획", color: "#f59e0b" },
+            { title: "# 독서 아카이브", color: "#8b5cf6" },
+            { title: "# 아이디어 스케치", color: "#ec4899" }
+        ];
 
-        const i18n = {
-            en: {
-                "page-title": "Project: Cone | Self-Hosted Digital Fortress",
-                "nav-tag": "DECENTRALIZED. PRIVATE. SOVEREIGN.",
-                "hero-sub": "Independence from Big Tech Surveillance",
-                "hero-title": "Your conversations should stay in <span>your living room</span>.",
-                "hero-desc": "A true Closed-SNS without a central server. <strong>Project: Cone</strong> is a communication tool where your infrastructure, not a corporation's, becomes the center of your world.",
-                "btn-pwa": "Use Now (PWA)",
-                "manifesto-text": "\"We don't know who you are. <br>As long as you own the sovereignty of your data, we don't need to know.\"",
-                "f1-t": "01. Decentralized Physical Server",
-                "f1-d": "Don't be dependent on platforms. Deploy and manage infrastructure directly on your PC or NAS.",
-                "f2-t": "02. Uncensorable Fortress",
-                "f2-d": "As long as the server exists in your physical space, data censorship is fundamentally impossible.",
-                "f3-t": "03. Zero Algorithm",
-                "f3-d": "No recommendation systems, no dopamine-inducing traps.",
-                "f4-t": "04. PWA & Electron",
-                "f4-d": "Access freely anytime, anywhere via PWA and an Electron demo for environment testing.",
-                "f5-t": "05. Tangible Security Solution",
-                "f5-d": "Against data leaks and privacy violations, we offer the coldest technical answer: 'Physical Separation'.",
-                "f6-t": "06. Anonymity & Pragmatism",
-                "f6-d": "No personal information required. We provide the tools for freedom.",
-                "bottom-title": "Now, Declare Digital Independence.",
-                "bottom-desc": "No complex setup required. Follow the instructions and complete your fortress.",
-                "btn-guide": "App Features Guide",
-                "btn-server": "Start Server Setup",
-                "footer-text": "&copy; 2020-2025 Project: Cone. Built for Digital Privacy & Sovereign Communication.",
-                "support-title": "Sustainability of Project: Cone",
-                "support-desc": "We explore various self-sustaining models, including minimal ads and premium clients. However, voluntary donations remain the purest driving force that allows us to grow while staying true to our core principles.",
-                "btn-support": "Support our Mission"
-            },
-        };
+        const container = document.getElementById('canvas-container');
+        const canvas = document.getElementById('pinCanvas');
+        const ctx = canvas.getContext('2d', { alpha: false });
 
-        function applyLogic() {
-            const userLang = navigator.language || navigator.userLanguage;
-            const isKo = userLang.startsWith('ko');
-            const userAgent = window.navigator.userAgent.toLowerCase();
-            const platform = window.navigator.platform.toLowerCase();
+        let canvasW = container.clientWidth;
+        let canvasH = container.clientHeight;
+        canvas.width = canvasW;
+        canvas.height = canvasH;
 
-            const demoBtn = document.getElementById('demo-btn');
+        let pinnedObjects = [];
+        let particles = [];
+        let grabbedObj = null;
+        let grabbedAddButton = false;
+        let lastEventX = 0, lastEventY = 0;
 
-            // 2. 다국어 적용
-            if (!isKo) {
-                const langData = i18n.en;
-                document.title = langData["page-title"];
+        const GRAVITY = 2.5;
+        const FRICTION = 0.85;
+        const TEXT_SIZE = 18;
+        const LINE_HEIGHT = 22;
+        const ADD_BUTTON_PLUS_WEIGHT = 12;
+        const ADD_BUTTON_PLUS_DIST = 28;
 
-                document.querySelectorAll('[data-i18n]').forEach(el => {
-                    const key = el.getAttribute('data-i18n');
-                    // 데모 버튼의 경우 OS 텍스트와 결합해야 하므로 별도 처리
-                    el.innerHTML = langData[key];
-                });
+        let addBtn = { x: 0, y: 0, vx: 0, vy: 0, radius: 50 };
 
-                // 설명서 링크 변경
-                document.querySelectorAll('[data-doc]').forEach(el => {
-                    const docType = el.getAttribute('data-doc');
-                    const url = DOC_URL_MAP['en'][docType];
-                    if (url) el.setAttribute('href', url);
+        function spawnParticles(x, y, color, count = 1) {
+            for (let i = 0; i < count; i++) {
+                particles.push({
+                    x, y,
+                    vx: (Math.random() - 0.5) * 3,
+                    vy: Math.random() * -2.5 - 1.5,
+                    life: 255,
+                    maxLife: 255,
+                    color: color || '#ffffff',
+                    size: Math.random() * 3 + 2,
+                    rotation: Math.random() * Math.PI * 2
                 });
             }
         }
 
-        document.addEventListener('DOMContentLoaded', applyLogic);
-    </script>
+        function initPins() {
+            pinnedObjects = [];
+            const shuffled = [...samplePool].sort(() => 0.5 - Math.random());
+            const selected = shuffled.slice(0, 3);
 
+            selected.forEach((item, index) => {
+                const angle = (index / 3) * Math.PI * 2;
+                const distance = 150;
+                pinnedObjects.push({
+                    id: Math.random().toString(),
+                    title: item.title,
+                    color: item.color,
+                    radius: 52,
+                    x: Math.cos(angle) * distance,
+                    y: Math.sin(angle) * distance,
+                    vx: 0, vy: 0
+                });
+            });
+        }
+
+        function maintainPins() {
+            if (pinnedObjects.length < 3) {
+                const existingTitles = pinnedObjects.map(p => p.title);
+                const available = samplePool.filter(p => !existingTitles.includes(p.title));
+                const poolToUse = available.length > 0 ? available : samplePool;
+                const picked = poolToUse[Math.floor(Math.random() * poolToUse.length)];
+
+                const angle = Math.random() * Math.PI * 2;
+                const distance = Math.hypot(canvasW, canvasH) / 1.5;
+                pinnedObjects.push({
+                    id: Math.random().toString(),
+                    title: picked.title,
+                    color: picked.color,
+                    radius: 52,
+                    x: Math.cos(angle) * distance,
+                    y: Math.sin(angle) * distance,
+                    vx: 0, vy: 0
+                });
+            }
+        }
+
+        initPins();
+
+        window.addEventListener('resize', () => {
+            if (!container) return;
+            canvasW = container.clientWidth;
+            canvasH = container.clientHeight;
+            canvas.width = canvasW;
+            canvas.height = canvasH;
+        });
+
+        function updatePhysics() {
+            for (let i = particles.length - 1; i >= 0; i--) {
+                const p = particles[i];
+                p.vy += 0.07;
+                p.x += p.vx;
+                p.y += p.vy;
+                p.life -= 4;
+                if (p.life <= 0) particles.splice(i, 1);
+            }
+
+            for (let i = pinnedObjects.length - 1; i >= 0; i--) {
+                const obj = pinnedObjects[i];
+                if (obj.isRemoving && obj.lifeTime !== undefined) {
+                    obj.lifeTime -= 0.04;
+                    obj.radius = obj.originalRadius * Math.max(0.001, obj.lifeTime);
+
+                    if (obj.lifeTime < 0.5 && obj.lifeTime > 0) {
+                        spawnParticles(obj.x, obj.y, obj.color || "#fff", 1);
+                    }
+
+                    if (obj.lifeTime <= 0) {
+                        spawnParticles(obj.x, obj.y, obj.color || "#fff", 20);
+                        pinnedObjects.splice(i, 1);
+                        maintainPins();
+                    }
+                }
+            }
+
+            const allObjects = [addBtn, ...pinnedObjects];
+
+            for (let obj of allObjects) {
+                const isGrabbed = (obj === grabbedObj || (obj === addBtn && grabbedAddButton));
+                if (isGrabbed) {
+                    obj.vx = 0;
+                    obj.vy = 0;
+                    continue;
+                }
+
+                const dx = 0 - obj.x;
+                const dy = 0 - obj.y;
+                const dist = Math.hypot(dx, dy);
+
+                if (dist > 0) {
+                    const currentGravity = Math.min(GRAVITY, dist * 0.1);
+                    obj.vx += (dx / dist) * currentGravity;
+                    obj.vy += (dy / dist) * currentGravity;
+                }
+
+                obj.vx *= FRICTION;
+                obj.vy *= FRICTION;
+            }
+
+            for (let i = 0; i < allObjects.length; i++) {
+                for (let j = i + 1; j < allObjects.length; j++) {
+                    const o1 = allObjects[i];
+                    const o2 = allObjects[j];
+
+                    const dx = o2.x - o1.x;
+                    const dy = o2.y - o1.y;
+                    const dist = Math.hypot(dx, dy);
+                    const minDist = o1.radius + o2.radius + 5;
+
+                    if (dist < minDist && dist > 0) {
+                        const overlap = minDist - dist;
+                        const nx = dx / dist;
+                        const ny = dy / dist;
+
+                        const o1Grabbed = (o1 === grabbedObj || (o1 === addBtn && grabbedAddButton));
+                        const o2Grabbed = (o2 === grabbedObj || (o2 === addBtn && grabbedAddButton));
+
+                        if (o1Grabbed) {
+                            o2.x += nx * overlap;
+                            o2.y += ny * overlap;
+                        } else if (o2Grabbed) {
+                            o1.x -= nx * overlap;
+                            o1.y -= ny * overlap;
+                        } else {
+                            o1.x -= nx * overlap * 0.5;
+                            o1.y -= ny * overlap * 0.5;
+                            o2.x += nx * overlap * 0.5;
+                            o2.y += ny * overlap * 0.5;
+                        }
+
+                        const BOUNCE_FORCE = 5;
+                        const repulsion = (overlap / minDist) * BOUNCE_FORCE * 15;
+
+                        if (!o1Grabbed) {
+                            o1.vx -= nx * repulsion;
+                            o1.vy -= ny * repulsion;
+                            o1.vx *= 0.95;
+                            o1.vy *= 0.95;
+                        }
+                        if (!o2Grabbed) {
+                            o2.vx += nx * repulsion;
+                            o2.vy += ny * repulsion;
+                            o2.vx *= 0.95;
+                            o2.vy *= 0.95;
+                        }
+                    }
+                }
+            }
+
+            for (let obj of allObjects) {
+                const isGrabbed = (obj === grabbedObj || (obj === addBtn && grabbedAddButton));
+                if (isGrabbed) continue;
+
+                const distFromCenter = Math.hypot(0 - obj.x, 0 - obj.y);
+                if (distFromCenter < 0.5 && Math.hypot(obj.vx, obj.vy) < 0.5) {
+                    obj.x = 0; obj.y = 0; obj.vx = 0; obj.vy = 0;
+                } else {
+                    obj.x += obj.vx;
+                    obj.y += obj.vy;
+                }
+            }
+        }
+
+        function drawWrappedText(context, text, x, y, maxWidth, lineHeight, maxLines) {
+            let lines = [];
+            let currentLine = "";
+
+            for (let i = 0; i < text?.length; i++) {
+                const char = text[i];
+                const testLine = currentLine + char;
+                const metrics = context.measureText(testLine);
+
+                if (metrics.width > maxWidth && i > 0) {
+                    lines.push(currentLine);
+                    currentLine = char;
+                    if (lines.length >= maxLines) {
+                        currentLine = "";
+                        break;
+                    }
+                } else {
+                    currentLine = testLine;
+                }
+            }
+            if (currentLine && lines.length < maxLines) {
+                lines.push(currentLine);
+            }
+
+            const totalHeight = lines.length * lineHeight;
+            let startY = y - totalHeight / 2 + lineHeight / 2;
+
+            for (const line of lines) {
+                context.fillText(line, x, startY);
+                startY += lineHeight;
+            }
+        }
+
+        function render() {
+            ctx.fillStyle = "#020617";
+            ctx.fillRect(0, 0, canvasW, canvasH);
+
+            ctx.save();
+            ctx.translate(canvasW / 2, canvasH / 2);
+
+            ctx.save();
+            ctx.translate(addBtn.x, addBtn.y);
+            ctx.fillStyle = grabbedAddButton ? "#555" : "#333";
+            ctx.beginPath();
+            ctx.arc(0, 0, addBtn.radius, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.strokeStyle = "#fff";
+            ctx.lineWidth = ADD_BUTTON_PLUS_WEIGHT;
+            ctx.beginPath();
+            ctx.moveTo(-ADD_BUTTON_PLUS_DIST, 0);
+            ctx.lineTo(ADD_BUTTON_PLUS_DIST, 0);
+            ctx.moveTo(0, -ADD_BUTTON_PLUS_DIST);
+            ctx.lineTo(0, ADD_BUTTON_PLUS_DIST);
+            ctx.stroke();
+            ctx.restore();
+
+            for (const obj of pinnedObjects) {
+                ctx.save();
+                ctx.translate(obj.x, obj.y);
+
+                if (obj.isRemoving && obj.lifeTime !== undefined) {
+                    const scaleVal = Math.max(0.01, obj.lifeTime);
+                    ctx.scale(scaleVal, scaleVal);
+                }
+
+                const drawRadius = (obj.isRemoving && obj.originalRadius) ? obj.originalRadius : obj.radius;
+
+                ctx.beginPath();
+                ctx.arc(0, 0, drawRadius, 0, Math.PI * 2);
+                ctx.fillStyle = obj === grabbedObj ? "#444" : "#222";
+                ctx.fill();
+
+                if (obj.color) {
+                    ctx.beginPath();
+                    ctx.arc(0, 0, drawRadius, 0, Math.PI * 2);
+                    ctx.fillStyle = obj.color;
+                    ctx.globalAlpha = 0.25;
+                    ctx.fill();
+                }
+
+                ctx.fillStyle = obj.isRemoving ? `rgba(255, 255, 255, ${obj.lifeTime})` : "#fff";
+                ctx.font = `bold ${TEXT_SIZE}px sans-serif`;
+                ctx.textAlign = "center";
+                ctx.textBaseline = "middle";
+
+                drawWrappedText(ctx, obj.title, 0, 0, drawRadius * 1.6, LINE_HEIGHT, 3);
+                ctx.restore();
+            }
+
+            for (const p of particles) {
+                ctx.save();
+                ctx.translate(p.x, p.y);
+                ctx.rotate(p.rotation);
+                ctx.globalAlpha = Math.max(0, p.life / p.maxLife);
+                ctx.fillStyle = p.color;
+                ctx.beginPath();
+                ctx.rect(-p.size / 2, -p.size / 2, p.size, p.size);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            ctx.restore();
+        }
+
+        function loop() {
+            updatePhysics();
+            render();
+            requestAnimationFrame(loop);
+        }
+        loop();
+
+        canvas.addEventListener('mousedown', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const mx = e.clientX - rect.left - canvasW / 2;
+            const my = e.clientY - rect.top - canvasH / 2;
+
+            if (Math.hypot(mx - addBtn.x, my - addBtn.y) <= addBtn.radius) {
+                grabbedAddButton = true;
+                lastEventX = e.clientX;
+                lastEventY = e.clientY;
+                return;
+            }
+
+            for (let i = pinnedObjects.length - 1; i >= 0; i--) {
+                const obj = pinnedObjects[i];
+                if (Math.hypot(mx - obj.x, my - obj.y) <= obj.radius && !obj.isRemoving) {
+                    grabbedObj = obj;
+                    break;
+                }
+            }
+            lastEventX = e.clientX;
+            lastEventY = e.clientY;
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            const dx = e.clientX - lastEventX;
+            const dy = e.clientY - lastEventY;
+
+            if (grabbedObj) {
+                grabbedObj.x += dx;
+                grabbedObj.y += dy;
+                grabbedObj.vx = 0;
+                grabbedObj.vy = 0;
+            } else if (grabbedAddButton) {
+                addBtn.x += dx;
+                addBtn.y += dy;
+                addBtn.vx = 0;
+                addBtn.vy = 0;
+            }
+
+            lastEventX = e.clientX;
+            lastEventY = e.clientY;
+        });
+
+        window.addEventListener('mouseup', () => {
+            grabbedObj = null;
+            grabbedAddButton = false;
+        });
+
+        canvas.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            const rect = canvas.getBoundingClientRect();
+            const mx = e.clientX - rect.left - canvasW / 2;
+            const my = e.clientY - rect.top - canvasH / 2;
+
+            for (let i = pinnedObjects.length - 1; i >= 0; i--) {
+                const obj = pinnedObjects[i];
+                if (Math.hypot(mx - obj.x, my - obj.y) <= obj.radius && !obj.isRemoving) {
+                    obj.isRemoving = true;
+                    obj.lifeTime = 1.0;
+                    obj.originalRadius = obj.radius;
+                    obj.vx = 0;
+                    obj.vy = 0;
+                    if (grabbedObj === obj) grabbedObj = null;
+                    break;
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
