@@ -32,6 +32,7 @@ GoBack,뒤로가기,Go back
 QuickActError,빠른 진입 행동 오류,QuickLink error
 NoPost,게시물 정보 없음,No post information
 Caution,주의,Caution
+ClickToEdit,클릭하여 직접 입력,Click to enter manually
 RightClickToEdit,우클릭하여 편집,Right-click to edit
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
@@ -414,11 +415,11 @@ Ratio,배율,Ratio
 EstimatedSize,예상 크기,Estimated size
 ShareBoard,공유 그림판,Shared Paint
 Share,공유하기,Share
-StopSharing,공유 종료,End sharing
 GatheringDraw,모아 보내기,Collect and send
 GatheringDrawMode,모아 보내기 모드 (나에게만 보임),Collect and send mode (visible only to me)
 SendGatherings,모아진 그리기 발송,Send collected drawings
 SendingGathers,모아진 그리기 발송중 (캔버스 잠김),Sending collected drawings (Canvas locked)
+BlendMode,블렌드 모드,Blend Mode
 ## WebRTC
 InvalidServer,통화 서버 주소가 유효하지 않습니다.,The call server address is invalid.
 PermissionNeeded,카메라/마이크 권한이 필요합니다,Camera/microphone permission is required
