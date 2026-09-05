@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-07-24T11:34:47+09:00</updated>
+  <updated>2026-09-05T13:30:48+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,59 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>새로워진 Project: Cone: 가벼운 환경, 무한한 연결</title>
+    <link href="https://is2you2.github.io/posts/pjcone-renewal/" rel="alternate" type="text/html" title="새로워진 Project: Cone: 가벼운 환경, 무한한 연결" />
+    <published>2026-09-05T12:10:00+09:00</published>
+  
+    <updated>2026-09-05T12:10:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/pjcone-renewal/</id>
+    <content src="https://is2you2.github.io/posts/pjcone-renewal/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="정보글" />
+    
+    <category term="PJCone 사용 설명서" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      가벼움을 추구하는 리뉴얼
+
+Project: Cone 앱이 기존의 무거운 프레임워크를 걷어내고, 누구나 쉽게 사용할 수 있는 가벼운 환경으로 새롭게 개편되었습니다.
+
+가벼워진 구동 환경
+Nakama, Ionic과 같은 다소 무거운 기존 툴에서 벗어나, Svelte 5 Rune 모드와 SQLite 기반으로 기술 스택을 전환하여 전체 요구 사양을 대폭 줄였습니다.
+
+초간편 서버 구축
+Docker 설정 등 복잡한 선행 작업 없이, 실행 파일 하나만 켜면 즉시 서버가 준비됩니다.
+
+진입 장벽 완화
+복잡한 인프라 구축 과정이 사라져 개발 지식이 없는 일반 사용자도 쉽게 앱을 구동하고 활용할 수 있도록 접근성을 극대화했습니다.
+
+보편적 사용 설명서
+
+접속 및 오프라인 지원
+
+랜딩 페이지에서 데스크톱용 앱을 다운로드...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -231,61 +284,6 @@ shouldRender
 정확히 말하면,
 영어 문장을 읽듯이
 코드를...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>요즘 애들에 대해서</title>
-    <link href="https://is2you2.github.io/posts/how-yo-sm-ae-dle-created/" rel="alternate" type="text/html" title="요즘 애들에 대해서" />
-    <published>2026-02-20T13:10:00+09:00</published>
-  
-    <updated>2026-06-21T11:08:07+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/how-yo-sm-ae-dle-created/</id>
-    <content src="https://is2you2.github.io/posts/how-yo-sm-ae-dle-created/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="그림노트" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      이 내용에 대한 유튜브 영상 링크
-
-요즘 애들
-시대를 가리지 않고 반복되는 말이죠.
-
-오늘은 이 말이 어디서 시작되는지
-선의에서 출발한 무지에 대한 이야기를 해보려 합니다.
-
-대부분의 규제와 금지, 제한은 아주 그럴듯한 이유에서 출발합니다.
-같은 일을 다음 세대가 겪지 않았으면 좋겠다.
-이건 분명한 선의의 마음이에요.
-그리고 실제로 많은 경우는 그 선의가 사람을 살려요.
-
-문제는 여기서 끝나지 않는다는 점인데요.
-규칙을 지키는 과정에서 다음 세대는 경험을 할 수가 없어요.
-특히 법이나 강한 규범으로 정해진 경우에는 더 그렇죠.
-
-불법이 될 수 있는 경험 앞에서 다음 세대는 굳이 감수할 필요가 없다라고 판단해요.
-이건 소심해서도 아니고 의지가 약해서도 아니에요.
-위험대비 효용을 따졌을 때 포기를 하는 게...
     </summary>
   
 
