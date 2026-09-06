@@ -1,581 +1,845 @@
-<!DOCTYPE html>
-<html lang="ko" class="scroll-smooth">
+<!doctype html>
+<html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project: Cone - 신개념 채널형 개인 메모 앱</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="https://is2you2.github.io/pjcone/icon/favicon.png">
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#020617" />
+  <meta name="description" content="Project: Cone — 작은 인터넷에, 불을 피우세요." />
+  <title>Project: Cone — 작은 인터넷에, 불을 피우세요</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://is2you2.github.io/pjcone/icon/favicon.png">
+
+  <style>
+    :root {
+      --bg: #020617;
+      --bg-soft: #07111f;
+      --panel: rgba(15, 23, 42, .72);
+      --panel-strong: rgba(15, 23, 42, .92);
+      --line: rgba(148, 163, 184, .16);
+      --text: #e5edf7;
+      --muted: #94a3b8;
+      --dim: #64748b;
+      --accent: #34d399;
+      --accent-soft: rgba(52, 211, 153, .12);
+      --warm: #f59e0b;
+      --warm-soft: rgba(245, 158, 11, .12);
+      --radius: 22px;
+      --max: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(52, 211, 153, .08), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, Pretendard, "Noto Sans KR", system-ui, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max));
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(148, 163, 184, .08);
+      background: rgba(2, 6, 23, .72);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav {
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      letter-spacing: -.03em;
+    }
+
+    /* 브랜드 마크 영역 수정 */
+    .brand-mark {
+      width: 31px;
+      height: 31px;
+      display: grid;
+      place-items: center;
+      border-radius: 9px;
+      background: var(--accent-soft);
+      border: 1px solid rgba(52, 211, 153, .24);
+      overflow: hidden;
+      /* 이미지가 박스를 벗어나지 않도록 처리 */
+    }
+
+    /* 이미지 스타일 추가 */
+    .brand-mark img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      /* 비율을 유지하며 맞춤 */
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: var(--text);
+    }
+
+    .hero {
+      min-height: 720px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 680px;
+      height: 680px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(245, 158, 11, .09), transparent 66%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      background: rgba(15, 23, 42, .5);
+      font-size: 13px;
+    }
+
+    .eyebrow span {
+      color: var(--warm);
+    }
+
+    h1 {
+      margin: 22px auto 18px;
+      max-width: 900px;
+      font-size: clamp(48px, 8vw, 88px);
+      line-height: 1.4;
+      letter-spacing: -.065em;
+    }
+
+    h1 em {
+      color: var(--accent);
+      font-style: normal;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 19px);
+    }
+
+    .actions {
+      margin-top: 32px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      min-height: 48px;
+      padding: 0 20px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: .2s ease;
+    }
+
+    .btn-primary {
+      color: #02120b;
+      background: var(--accent);
+      border-color: var(--accent);
+      font-weight: 800;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.06);
+    }
+
+    .btn-ghost {
+      color: var(--text);
+      background: rgba(15, 23, 42, .55);
+    }
+
+    .btn-ghost:hover {
+      border-color: rgba(148, 163, 184, .35);
+    }
+
+    .hero-note {
+      margin-top: 16px;
+      color: var(--dim);
+      font-size: 12px;
+    }
+
+    section {
+      padding: 110px 0;
+    }
+
+    .section-head {
+      max-width: 700px;
+      margin-bottom: 42px;
+    }
+
+    .kicker {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 8px 0 12px;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.3;
+      letter-spacing: -.045em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .campfire-wrap {
+      position: relative;
+      min-height: 560px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      background:
+        radial-gradient(circle at 50% 57%, rgba(245, 158, 11, .10), transparent 15rem),
+        linear-gradient(180deg, rgba(15, 23, 42, .68), rgba(2, 6, 23, .92));
+      box-shadow: 0 30px 100px rgba(0, 0, 0, .25);
+    }
+
+    #campfire {
+      width: 100%;
+      height: 560px;
+      display: block;
+    }
+
+    .campfire-label {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      text-align: center;
+    }
+
+    .fire {
+      width: 74px;
+      height: 74px;
+      margin: 0 auto 12px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--warm-soft);
+      border: 1px solid rgba(245, 158, 11, .22);
+      font-size: 31px;
+      box-shadow: 0 0 60px rgba(245, 158, 11, .12);
+    }
+
+    .campfire-label strong {
+      display: block;
+      font-size: 17px;
+    }
+
+    .campfire-label small {
+      color: var(--dim);
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+    }
+
+    .card-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 18px;
+      border-radius: 12px;
+      background: var(--accent-soft);
+      font-size: 19px;
+    }
+
+    .card h3 {
+      margin: 0 0 7px;
+      font-size: 18px;
+      letter-spacing: -.02em;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .steps {
+      counter-reset: step;
+    }
+
+    .step {
+      position: relative;
+      padding: 30px 30px 30px 82px;
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 28px;
+      top: 29px;
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid rgba(52, 211, 153, .2);
+      font-weight: 800;
+    }
+
+    .quote {
+      padding: 54px;
+      border: 1px solid rgba(52, 211, 153, .16);
+      border-radius: 30px;
+      background:
+        radial-gradient(circle at 20% 0%, rgba(52, 211, 153, .10), transparent 30rem),
+        var(--panel);
+      text-align: center;
+    }
+
+    .quote p {
+      max-width: 780px;
+      margin: 0 auto;
+      font-size: clamp(24px, 4vw, 40px);
+      line-height: 1.3;
+      letter-spacing: -.04em;
+    }
+
+    .quote small {
+      display: block;
+      margin-top: 20px;
+      color: var(--dim);
+    }
+
+    .tech {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .tech-list {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .terminal {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #01040a;
+      color: #a7f3d0;
+      font: 13px/1.8 ui-monospace, SFMono-Regular, Menlo, monospace;
+      overflow: auto;
+    }
+
+    .terminal .muted {
+      color: #64748b;
+    }
+
+    .terminal .warm {
+      color: #fbbf24;
+    }
+
+    footer {
+      padding: 60px 0 70px;
+      color: var(--dim);
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      border-top: 1px solid var(--line);
+      padding-top: 24px;
+    }
+
+    @media (max-width: 780px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max));
+      }
+
+      nav {
+        display: none;
+      }
+
+      .hero {
+        min-height: 650px;
+      }
+
+      section {
+        padding: 80px 0;
+      }
+
+      .grid-3,
+      .grid-2,
+      .tech-list {
+        grid-template-columns: 1fr;
+      }
+
+      .campfire-wrap,
+      #campfire {
+        height: 470px;
+        min-height: 470px;
+      }
+
+      .quote {
+        padding: 32px 22px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 
-<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-emerald-500 selection:text-white">
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#">
+        <!-- 브랜드 마크 자리에 <img> 태그를 추가했습니다. src 경로를 원하시는 이미지 경로로 변경하세요. -->
+        <span class="brand-mark">
+          <img src="https://is2you2.github.io/pjcone/icon/favicon.png" alt="Cone Logo">
+        </span>
+        <span>Project: Cone</span>
+      </a>
+      <nav>
+        <a href="#campfire-section">캠프파이어</a>
+        <a href="#things">무엇을 할 수 있나요?</a>
+        <a href="#how">사용 방법</a>
+        <a href="#why">왜 Cone인가요?</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Header / Navbar -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-2">
-                <img src="https://is2you2.github.io/pjcone/icon/favicon.png" alt="Project: Cone Logo"
-                    class="w-8 h-8 rounded-lg object-cover shadow-sm">
-                <span class="text-lg font-extrabold tracking-tight text-slate-800">Project: Cone</span>
-            </div>
-            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
-                <a href="#concept" class="hover:text-emerald-500 transition">핵심 개념</a>
-                <a href="#interactive-pin" class="hover:text-emerald-500 transition">핀 체험하기</a>
-                <a href="#features" class="hover:text-emerald-500 transition">특별한 장점</a>
-            </nav>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow"><span>🔥</span> A small space for a small group</div>
+
+        <h1>
+          작은 인터넷에,<br />
+          <em>불을 피우세요.</em>
+        </h1>
+
+        <p class="hero-copy">
+          필요할 때 열고, 함께 머물고, 다 쓰면 끄는 디지털 공간.<br />
+          Cone은 내 컴퓨터에서 바로 열 수 있는 작은 공유 공간입니다.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="https://pjcone.ddns.net:443/1186b2c8-bb11-489f-ac64-15cfccb0223f/channels/c570cf86-446f-46c0-8f5f-e9830c1deac4/files/536/%5B0%5Dpjcone-windows.exe">💾 다운로드 하기</a>
+          <a class="btn btn-ghost" href="#campfire-section">👀 먼저 둘러보기</a>
         </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="pt-32 pb-16 md:pt-40 md:pb-24 relative overflow-hidden bg-white">
-        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
-            <div
-                class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-100 text-xs text-emerald-600 font-semibold mb-6">
-                <i class="fas fa-bolt"></i>
-                <span>더 가볍고, 더 쉬워진 새로운 버전 출시</span>
-            </div>
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight text-slate-900">
-                채널이 <span class="text-emerald-500">메모</span>가 되고,<br>
-                핀이 <span class="text-emerald-500">할 일</span>이 되는 곳
-            </h1>
-            <p class="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-                복잡한 설치도, 어려운 서버 설정도 필요 없습니다. 클릭 한 번으로 나만의 메모 서버를 열고, 채널과 핀으로 직관적이게 할 일을 관리하세요.
+        <p class="hero-note">
+          복잡한 계정이나 거대한 플랫폼 없이, 필요한 사람들과 필요한 만큼.
+        </p>
+      </div>
+    </section>
+
+    <section id="campfire-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Digital Campfire</div>
+          <h2>사람이 모이면,<br />공간이 됩니다.</h2>
+          <p>
+            Cone은 무엇을 기록해야 하는지 정해두지 않습니다.
+            이야기를 나누고, 메모를 남기고, 파일을 공유하고,
+            함께 무언가를 만들 수 있는 작은 공간을 엽니다.
+          </p>
+        </div>
+
+        <div class="campfire-wrap">
+          <canvas id="campfire"></canvas>
+          <div class="campfire-label">
+            <div class="fire">🔥</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="things">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Around the Fire</div>
+          <h2>불을 피운 다음엔<br />무엇을 할까요?</h2>
+          <p>
+            Cone은 하나의 기능을 위한 앱이라기보다,
+            사람들이 잠시 함께 머무는 공간에 가깝습니다.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-icon">✎</div>
+            <h3>기록하기</h3>
+            <p>회의 메모, 아이디어, 할 일처럼 필요한 것을 가볍게 남겨보세요.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">💬</div>
+            <h3>이야기하기</h3>
+            <p>별도의 거대한 커뮤니티를 만들 필요 없이, 작은 그룹의 대화를 시작하세요.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">📦</div>
+            <h3>나누기</h3>
+            <p>자료와 파일을 같은 공간에 모아 필요한 사람들과 공유하세요.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">📌</div>
+            <h3>정리하기</h3>
+            <p>해야 할 일과 중요한 내용을 눈에 보이는 곳에 남겨두세요.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🛠️</div>
+            <h3>함께 만들기</h3>
+            <p>작은 프로젝트나 작업 공간을 열고, 필요한 만큼 협업하세요.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🌙</div>
+            <h3>그리고 끄기</h3>
+            <p>더 이상 필요하지 않다면 공간을 닫으세요. 불을 끄듯이 간단합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Light the Fire</div>
+          <h2>사용법은<br />불을 피우는 것만큼 간단합니다.</h2>
+          <p>
+            어려운 서버 개념은 Cone 안쪽에 숨겨두었습니다.
+            사용자는 그저 공간을 열고, 사람을 초대하면 됩니다.
+          </p>
+        </div>
+
+        <div class="grid grid-3 steps">
+          <article class="card step">
+            <h3>Cone을 실행합니다</h3>
+            <p>파일을 실행하면 내 컴퓨터에서 Cone의 공간이 열립니다.</p>
+          </article>
+
+          <article class="card step">
+            <h3>사람을 초대합니다</h3>
+            <p>같은 네트워크에 있는 사람은 스마트폰이나 태블릿의 브라우저로 참여할 수 있습니다.</p>
+          </article>
+
+          <article class="card step">
+            <h3>함께 사용합니다</h3>
+            <p>메모하고, 이야기하고, 자료를 나누세요. 끝났다면 공간을 닫으면 됩니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech" id="why">
+      <div class="container">
+        <div class="tech-list">
+          <div>
+            <div class="kicker">Why Cone</div>
+            <h2>거대한 플랫폼보다<br />작은 공간이 필요할 때.</h2>
+            <p style="color:var(--muted)">
+              Cone은 모든 사람을 연결하려 하지 않습니다.
+              지금 같은 공간에 있는 사람들,
+              잠시 함께 작업해야 하는 사람들,
+              혹은 나만의 작은 인터넷이 필요한 사람들을 위한 도구입니다.
             </p>
+          </div>
 
-            <!-- CTA 버튼 그룹 (무료로 시작하기 + 체험하기) -->
-            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="https://pjcone.ddns.net:443/1186b2c8-bb11-489f-ac64-15cfccb0223f/channels/c570cf86-446f-46c0-8f5f-e9830c1deac4/files/516/%5B0%5Dpjcone-windows.exe" target="_blank"
-                    class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-8 py-3.5 rounded-xl transition shadow-lg shadow-emerald-500/30 flex items-center justify-center space-x-2">
-                    <span>무료로 시작하기</span>
-                    <i class="fas fa-download text-sm"></i>
-                </a>
-                <a href="https://is2you2.github.io/pjcone/" target="_blank"
-                    class="w-full sm:w-auto bg-white hover:bg-slate-50 text-slate-700 font-semibold px-8 py-3.5 rounded-xl border border-slate-300 transition flex items-center justify-center space-x-2 shadow-sm">
-                    <span>웹에서 체험하기</span>
-                    <i class="fas fa-arrow-right text-sm text-slate-400"></i>
-                </a>
-            </div>
+          <div class="terminal" aria-label="Cone architecture preview">
+            <div class="muted">$ cone</div>
+            <div>→ <span class="warm">space created</span></div>
+            <div>→ local server started</div>
+            <div>→ network address detected</div>
+            <div>→ browser ready</div>
+            <div class="muted"> </div>
+            <div>http://192.168.x.x:port</div>
+            <div class="muted"> </div>
+            <div>🔥 your small internet is ready.</div>
+          </div>
         </div>
+
+        <div style="height:42px"></div>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-icon">💾</div>
+            <h3>내 공간, 내 데이터</h3>
+            <p>중앙 플랫폼의 계정과 저장소에 모든 것을 맡기기보다, 내 컴퓨터에 공간을 둘 수 있습니다.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🪶</div>
+            <h3>가볍게 시작하기</h3>
+            <p>거대한 서비스에 가입하고 설정하는 대신, 필요한 순간에 실행하는 작은 도구를 지향합니다.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">📱</div>
+            <h3>브라우저로 합류하기</h3>
+            <p>참여자는 별도의 앱을 설치하지 않고 브라우저에서 공간에 들어올 수 있습니다.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <!-- Concept Section -->
-    <section id="concept" class="py-20 bg-slate-50 border-t border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-                <span class="text-emerald-500 text-sm font-bold tracking-wider uppercase">Intuitive Workflow</span>
-                <h2 class="text-3xl font-bold tracking-tight mt-2 mb-6 text-slate-900">물 흐르듯 이어지는<br>가장 직관적인 기록</h2>
-                <ul class="space-y-6 mt-8">
-                    <li>
-                        <h4 class="text-lg font-bold text-slate-800 flex items-center"><i
-                                class="fas fa-hashtag text-emerald-500 mr-2"></i> 채널로 메모하기</h4>
-                        <p class="text-slate-600 text-sm mt-1 ml-6 leading-relaxed">주제별로 채널을 만들고, 마치 메신저로 대화하듯 가볍게 생각과
-                            자료를 기록하세요.</p>
-                    </li>
-                    <li>
-                        <h4 class="text-lg font-bold text-slate-800 flex items-center"><i
-                                class="fas fa-thumbtack text-emerald-500 mr-2"></i> 핀으로 할 일 관리하기</h4>
-                        <p class="text-slate-600 text-sm mt-1 ml-6 leading-relaxed">지금 당장 실행해야 할 중요한 채널에 핀을 꽂으세요. 고정된
-                            핀들은 자연스럽게 나의 할 일(To-do) 목록이 됩니다.</p>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Interactive Canvas Section -->
-            <div id="interactive-pin" class="relative">
-                <div class="bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden relative">
-                    <div class="bg-slate-100 px-4 py-3 border-b border-slate-200 flex items-center justify-between">
-                        <div class="flex items-center space-x-2">
-                            <div class="w-3 h-3 rounded-full bg-red-400"></div>
-                            <div class="w-3 h-3 rounded-full bg-amber-400"></div>
-                            <div class="w-3 h-3 rounded-full bg-green-400"></div>
-                        </div>
-                        <span class="text-xs text-slate-500 font-medium"><i class="fas fa-info-circle mr-1"></i> + 버튼과 핀
-                            모두 드래그 및 우클릭 삭제 가능</span>
-                    </div>
-                    <!-- Canvas Container -->
-                    <div id="canvas-container"
-                        class="w-full h-[380px] relative cursor-grab active:cursor-grabbing bg-slate-950">
-                        <canvas id="pinCanvas" class="block w-full h-full"></canvas>
-                    </div>
-                </div>
-            </div>
+    <section>
+      <div class="container">
+        <div class="quote">
+          <p>
+            인터넷이 꼭 거대한 플랫폼일 필요는 없습니다.<br />
+            때로는 <strong>우리 몇 명을 위한 작은 공간</strong>이면 충분합니다.
+          </p>
+          <small>Project: Cone</small>
         </div>
+      </div>
     </section>
+  </main>
 
-    <!-- General User Benefits Section -->
-    <section id="features" class="py-20 bg-white border-t border-slate-200">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl font-bold tracking-tight mb-4 text-slate-900">누구나 쉽게, 완벽하게 통제하는 내 데이터</h2>
-                <p class="text-slate-500 text-lg">어려운 기술은 안에 숨겼습니다. 여러분은 그저 더 빠르고 편하게 메모에만 집중하세요.</p>
-            </div>
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong style="color:var(--text)">Project: Cone</strong><br />
+        The easiest & lightest way to create a small digital space.
+      </div>
+      <div>© 2026 플레이디버그연구소</div>
+    </div>
+  </footer>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group">
-                    <div
-                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
-                        <i class="fas fa-play"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-slate-800">클릭 한 번으로 서버 실행</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">복잡한 설치 과정은 버렸습니다. 다운로드 받은 파일을 실행하기만 하면 내 PC가 곧 나만의
-                        훌륭한 메모 서버가 됩니다.</p>
-                </div>
+  <script>
+    (() => {
+      const canvas = document.getElementById("campfire");
+      const ctx = canvas.getContext("2d");
 
-                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group">
-                    <div
-                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-slate-800">눈에 보이는 투명한 백업</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">프로그램 바로 옆에 <code>data</code> 폴더가 자동으로 생성됩니다. 이 폴더만
-                        복사해두면 언제든 자료를 안전하게 보관할 수 있습니다.</p>
-                </div>
+      let width = 0;
+      let height = 0;
+      let dpr = Math.min(window.devicePixelRatio || 1, 2);
+      let pointer = { x: 0, y: 0, active: false };
 
-                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group">
-                    <div
-                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
-                        <i class="fas fa-feather-pointed"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-slate-800">깃털처럼 가벼운 쾌적함</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">최신 기술로 완전히 새롭게 만들었습니다. 불필요한 기능은 덜어내고 꼭 필요한 기능만 담아
-                        눈 깜짝할 사이에 반응합니다.</p>
-                </div>
+      const labels = [
+        "회의 메모", "아이디어", "사진", "자료",
+        "할 일", "링크", "대화", "작업"
+      ];
 
-                <div
-                    class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group lg:col-span-1 md:col-span-2">
-                    <div
-                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-slate-800">같은 공간, 완벽한 연결</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">같은 와이파이(로컬망)에 연결된 스마트폰, 태블릿에서도 웹 브라우저를 통해 손쉽게 메모에
-                        접속할 수 있습니다.</p>
-                </div>
+      const particles = Array.from({ length: 34 }, (_, i) => ({
+        angle: Math.random() * Math.PI * 2,
+        radius: 110 + Math.random() * 180,
+        speed: .00015 + Math.random() * .00025,
+        size: 2 + Math.random() * 3,
+        alpha: .18 + Math.random() * .45
+      }));
 
-                <div
-                    class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-md transition group lg:col-span-2 md:col-span-2">
-                    <div
-                        class="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-700 mb-4 group-hover:bg-emerald-500 group-hover:text-white group-hover:border-emerald-500 transition">
-                        <i class="fas fa-mobile-screen-button"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-slate-800">설치 없이 쓰는 모바일, 오프라인 캐시</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">스마트폰 홈 화면에 바로가기(PWA)를 추가해 앱처럼 사용하세요. 오프라인 캐시를 지원해
-                        인터넷이 끊겨도 안심할 수 있습니다.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      const nodes = labels.map((text, i) => ({
+        text,
+        angle: (Math.PI * 2 / labels.length) * i + Math.random() * .3,
+        radius: 125 + Math.random() * 105,
+        x: 0,
+        y: 0,
+        vx: 0,
+        vy: 0,
+        size: 7 + Math.random() * 3
+      }));
 
-    <!-- Footer -->
-    <footer class="py-12 bg-slate-900 text-center text-sm text-slate-400 border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex items-center justify-center space-x-2 mb-4 text-emerald-500 font-bold">
-                <img src="https://is2you2.github.io/pjcone/icon/favicon.png" alt="Project: Cone Logo"
-                    class="w-8 h-8 rounded-lg object-cover shadow-sm">
-                <span>Project: Cone</span>
-            </div>
-            <p>&copy; 2026 Project: Cone. The easiest & lightest way to organize your thoughts.</p>
-        </div>
-    </footer>
+      function resize() {
+        const rect = canvas.getBoundingClientRect();
+        width = rect.width;
+        height = rect.height;
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        canvas.width = Math.round(width * dpr);
+        canvas.height = Math.round(height * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-    <!-- Svelte 원본 물리 엔진 적용 스크립트 -->
-    <script>
-        const samplePool = [
-            { title: "# 이번 주 프로젝트 마감", color: "#10b981" },
-            { title: "# 마트 장보기 목록", color: "#3b82f6" },
-            { title: "# 주말 등산 계획", color: "#f59e0b" },
-            { title: "# 독서 아카이브", color: "#8b5cf6" },
-            { title: "# 아이디어 스케치", color: "#ec4899" }
-        ];
+        nodes.forEach(n => {
+          if (!n.x) {
+            n.x = width / 2 + Math.cos(n.angle) * n.radius;
+            n.y = height / 2 + Math.sin(n.angle) * n.radius;
+          }
+        });
+      }
 
-        const container = document.getElementById('canvas-container');
-        const canvas = document.getElementById('pinCanvas');
-        const ctx = canvas.getContext('2d', { alpha: false });
+      function draw() {
+        ctx.clearRect(0, 0, width, height);
 
-        let canvasW = container.clientWidth;
-        let canvasH = container.clientHeight;
-        canvas.width = canvasW;
-        canvas.height = canvasH;
+        const cx = width / 2;
+        const cy = height / 2;
 
-        let pinnedObjects = [];
-        let particles = [];
-        let grabbedObj = null;
-        let grabbedAddButton = false;
-        let lastEventX = 0, lastEventY = 0;
+        // Ambient glow
+        const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, 230);
+        glow.addColorStop(0, "rgba(245,158,11,.12)");
+        glow.addColorStop(1, "rgba(245,158,11,0)");
+        ctx.fillStyle = glow;
+        ctx.fillRect(0, 0, width, height);
 
-        const GRAVITY = 2.5;
-        const FRICTION = 0.85;
-        const TEXT_SIZE = 18;
-        const LINE_HEIGHT = 22;
-        const ADD_BUTTON_PLUS_WEIGHT = 12;
-        const ADD_BUTTON_PLUS_DIST = 28;
+        // Small floating particles
+        particles.forEach(p => {
+          p.angle += p.speed * 16;
+          const r = p.radius + Math.sin(p.angle * 2) * 12;
+          const x = cx + Math.cos(p.angle) * r;
+          const y = cy + Math.sin(p.angle) * r * .62;
 
-        let addBtn = { x: 0, y: 0, vx: 0, vy: 0, radius: 50 };
-
-        function spawnParticles(x, y, color, count = 1) {
-            for (let i = 0; i < count; i++) {
-                particles.push({
-                    x, y,
-                    vx: (Math.random() - 0.5) * 3,
-                    vy: Math.random() * -2.5 - 1.5,
-                    life: 255,
-                    maxLife: 255,
-                    color: color || '#ffffff',
-                    size: Math.random() * 3 + 2,
-                    rotation: Math.random() * Math.PI * 2
-                });
-            }
-        }
-
-        function initPins() {
-            pinnedObjects = [];
-            const shuffled = [...samplePool].sort(() => 0.5 - Math.random());
-            const selected = shuffled.slice(0, 3);
-
-            selected.forEach((item, index) => {
-                const angle = (index / 3) * Math.PI * 2;
-                const distance = 150;
-                pinnedObjects.push({
-                    id: Math.random().toString(),
-                    title: item.title,
-                    color: item.color,
-                    radius: 52,
-                    x: Math.cos(angle) * distance,
-                    y: Math.sin(angle) * distance,
-                    vx: 0, vy: 0
-                });
-            });
-        }
-
-        function maintainPins() {
-            if (pinnedObjects.length < 3) {
-                const existingTitles = pinnedObjects.map(p => p.title);
-                const available = samplePool.filter(p => !existingTitles.includes(p.title));
-                const poolToUse = available.length > 0 ? available : samplePool;
-                const picked = poolToUse[Math.floor(Math.random() * poolToUse.length)];
-
-                const angle = Math.random() * Math.PI * 2;
-                const distance = Math.hypot(canvasW, canvasH) / 1.5;
-                pinnedObjects.push({
-                    id: Math.random().toString(),
-                    title: picked.title,
-                    color: picked.color,
-                    radius: 52,
-                    x: Math.cos(angle) * distance,
-                    y: Math.sin(angle) * distance,
-                    vx: 0, vy: 0
-                });
-            }
-        }
-
-        initPins();
-
-        window.addEventListener('resize', () => {
-            if (!container) return;
-            canvasW = container.clientWidth;
-            canvasH = container.clientHeight;
-            canvas.width = canvasW;
-            canvas.height = canvasH;
+          ctx.beginPath();
+          ctx.arc(x, y, p.size, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(148,163,184,${p.alpha})`;
+          ctx.fill();
         });
 
-        function updatePhysics() {
-            for (let i = particles.length - 1; i >= 0; i--) {
-                const p = particles[i];
-                p.vy += 0.07;
-                p.x += p.vx;
-                p.y += p.vy;
-                p.life -= 4;
-                if (p.life <= 0) particles.splice(i, 1);
+        // Nodes gather around the center.
+        nodes.forEach((n, i) => {
+          const tx = cx + Math.cos(n.angle + performance.now() * .00008) * n.radius;
+          const ty = cy + Math.sin(n.angle + performance.now() * .00008) * n.radius * .62;
+
+          n.vx += (tx - n.x) * .002;
+          n.vy += (ty - n.y) * .002;
+
+          if (pointer.active) {
+            const dx = n.x - pointer.x;
+            const dy = n.y - pointer.y;
+            const d2 = dx * dx + dy * dy;
+            if (d2 < 18000 && d2 > 10) {
+              const d = Math.sqrt(d2);
+              n.vx += (dx / d) * .18;
+              n.vy += (dy / d) * .18;
             }
+          }
 
-            for (let i = pinnedObjects.length - 1; i >= 0; i--) {
-                const obj = pinnedObjects[i];
-                if (obj.isRemoving && obj.lifeTime !== undefined) {
-                    obj.lifeTime -= 0.04;
-                    obj.radius = obj.originalRadius * Math.max(0.001, obj.lifeTime);
-
-                    if (obj.lifeTime < 0.5 && obj.lifeTime > 0) {
-                        spawnParticles(obj.x, obj.y, obj.color || "#fff", 1);
-                    }
-
-                    if (obj.lifeTime <= 0) {
-                        spawnParticles(obj.x, obj.y, obj.color || "#fff", 20);
-                        pinnedObjects.splice(i, 1);
-                        maintainPins();
-                    }
-                }
+          // Node-to-node repulsion.
+          nodes.forEach((other, j) => {
+            if (i === j) return;
+            const dx = n.x - other.x;
+            const dy = n.y - other.y;
+            const d2 = dx * dx + dy * dy;
+            if (d2 < 8500 && d2 > 1) {
+              const d = Math.sqrt(d2);
+              n.vx += (dx / d) * .055;
+              n.vy += (dy / d) * .055;
             }
+          });
 
-            const allObjects = [addBtn, ...pinnedObjects];
+          n.vx *= .92;
+          n.vy *= .92;
+          n.x += n.vx;
+          n.y += n.vy;
 
-            for (let obj of allObjects) {
-                const isGrabbed = (obj === grabbedObj || (obj === addBtn && grabbedAddButton));
-                if (isGrabbed) {
-                    obj.vx = 0;
-                    obj.vy = 0;
-                    continue;
-                }
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.size, 0, Math.PI * 2);
+          ctx.fillStyle = i % 3 === 0
+            ? "rgba(52,211,153,.85)"
+            : "rgba(148,163,184,.72)";
+          ctx.fill();
 
-                const dx = 0 - obj.x;
-                const dy = 0 - obj.y;
-                const dist = Math.hypot(dx, dy);
-
-                if (dist > 0) {
-                    const currentGravity = Math.min(GRAVITY, dist * 0.1);
-                    obj.vx += (dx / dist) * currentGravity;
-                    obj.vy += (dy / dist) * currentGravity;
-                }
-
-                obj.vx *= FRICTION;
-                obj.vy *= FRICTION;
-            }
-
-            for (let i = 0; i < allObjects.length; i++) {
-                for (let j = i + 1; j < allObjects.length; j++) {
-                    const o1 = allObjects[i];
-                    const o2 = allObjects[j];
-
-                    const dx = o2.x - o1.x;
-                    const dy = o2.y - o1.y;
-                    const dist = Math.hypot(dx, dy);
-                    const minDist = o1.radius + o2.radius + 5;
-
-                    if (dist < minDist && dist > 0) {
-                        const overlap = minDist - dist;
-                        const nx = dx / dist;
-                        const ny = dy / dist;
-
-                        const o1Grabbed = (o1 === grabbedObj || (o1 === addBtn && grabbedAddButton));
-                        const o2Grabbed = (o2 === grabbedObj || (o2 === addBtn && grabbedAddButton));
-
-                        if (o1Grabbed) {
-                            o2.x += nx * overlap;
-                            o2.y += ny * overlap;
-                        } else if (o2Grabbed) {
-                            o1.x -= nx * overlap;
-                            o1.y -= ny * overlap;
-                        } else {
-                            o1.x -= nx * overlap * 0.5;
-                            o1.y -= ny * overlap * 0.5;
-                            o2.x += nx * overlap * 0.5;
-                            o2.y += ny * overlap * 0.5;
-                        }
-
-                        const BOUNCE_FORCE = 5;
-                        const repulsion = (overlap / minDist) * BOUNCE_FORCE * 15;
-
-                        if (!o1Grabbed) {
-                            o1.vx -= nx * repulsion;
-                            o1.vy -= ny * repulsion;
-                            o1.vx *= 0.95;
-                            o1.vy *= 0.95;
-                        }
-                        if (!o2Grabbed) {
-                            o2.vx += nx * repulsion;
-                            o2.vy += ny * repulsion;
-                            o2.vx *= 0.95;
-                            o2.vy *= 0.95;
-                        }
-                    }
-                }
-            }
-
-            for (let obj of allObjects) {
-                const isGrabbed = (obj === grabbedObj || (obj === addBtn && grabbedAddButton));
-                if (isGrabbed) continue;
-
-                const distFromCenter = Math.hypot(0 - obj.x, 0 - obj.y);
-                if (distFromCenter < 0.5 && Math.hypot(obj.vx, obj.vy) < 0.5) {
-                    obj.x = 0; obj.y = 0; obj.vx = 0; obj.vy = 0;
-                } else {
-                    obj.x += obj.vx;
-                    obj.y += obj.vy;
-                }
-            }
-        }
-
-        function drawWrappedText(context, text, x, y, maxWidth, lineHeight, maxLines) {
-            let lines = [];
-            let currentLine = "";
-
-            for (let i = 0; i < text?.length; i++) {
-                const char = text[i];
-                const testLine = currentLine + char;
-                const metrics = context.measureText(testLine);
-
-                if (metrics.width > maxWidth && i > 0) {
-                    lines.push(currentLine);
-                    currentLine = char;
-                    if (lines.length >= maxLines) {
-                        currentLine = "";
-                        break;
-                    }
-                } else {
-                    currentLine = testLine;
-                }
-            }
-            if (currentLine && lines.length < maxLines) {
-                lines.push(currentLine);
-            }
-
-            const totalHeight = lines.length * lineHeight;
-            let startY = y - totalHeight / 2 + lineHeight / 2;
-
-            for (const line of lines) {
-                context.fillText(line, x, startY);
-                startY += lineHeight;
-            }
-        }
-
-        function render() {
-            ctx.fillStyle = "#020617";
-            ctx.fillRect(0, 0, canvasW, canvasH);
-
-            ctx.save();
-            ctx.translate(canvasW / 2, canvasH / 2);
-
-            ctx.save();
-            ctx.translate(addBtn.x, addBtn.y);
-            ctx.fillStyle = grabbedAddButton ? "#555" : "#333";
-            ctx.beginPath();
-            ctx.arc(0, 0, addBtn.radius, 0, Math.PI * 2);
-            ctx.fill();
-            ctx.strokeStyle = "#fff";
-            ctx.lineWidth = ADD_BUTTON_PLUS_WEIGHT;
-            ctx.beginPath();
-            ctx.moveTo(-ADD_BUTTON_PLUS_DIST, 0);
-            ctx.lineTo(ADD_BUTTON_PLUS_DIST, 0);
-            ctx.moveTo(0, -ADD_BUTTON_PLUS_DIST);
-            ctx.lineTo(0, ADD_BUTTON_PLUS_DIST);
-            ctx.stroke();
-            ctx.restore();
-
-            for (const obj of pinnedObjects) {
-                ctx.save();
-                ctx.translate(obj.x, obj.y);
-
-                if (obj.isRemoving && obj.lifeTime !== undefined) {
-                    const scaleVal = Math.max(0.01, obj.lifeTime);
-                    ctx.scale(scaleVal, scaleVal);
-                }
-
-                const drawRadius = (obj.isRemoving && obj.originalRadius) ? obj.originalRadius : obj.radius;
-
-                ctx.beginPath();
-                ctx.arc(0, 0, drawRadius, 0, Math.PI * 2);
-                ctx.fillStyle = obj === grabbedObj ? "#444" : "#222";
-                ctx.fill();
-
-                if (obj.color) {
-                    ctx.beginPath();
-                    ctx.arc(0, 0, drawRadius, 0, Math.PI * 2);
-                    ctx.fillStyle = obj.color;
-                    ctx.globalAlpha = 0.25;
-                    ctx.fill();
-                }
-
-                ctx.fillStyle = obj.isRemoving ? `rgba(255, 255, 255, ${obj.lifeTime})` : "#fff";
-                ctx.font = `bold ${TEXT_SIZE}px sans-serif`;
-                ctx.textAlign = "center";
-                ctx.textBaseline = "middle";
-
-                drawWrappedText(ctx, obj.title, 0, 0, drawRadius * 1.6, LINE_HEIGHT, 3);
-                ctx.restore();
-            }
-
-            for (const p of particles) {
-                ctx.save();
-                ctx.translate(p.x, p.y);
-                ctx.rotate(p.rotation);
-                ctx.globalAlpha = Math.max(0, p.life / p.maxLife);
-                ctx.fillStyle = p.color;
-                ctx.beginPath();
-                ctx.rect(-p.size / 2, -p.size / 2, p.size, p.size);
-                ctx.fill();
-                ctx.restore();
-            }
-
-            ctx.restore();
-        }
-
-        function loop() {
-            updatePhysics();
-            render();
-            requestAnimationFrame(loop);
-        }
-        loop();
-
-        canvas.addEventListener('mousedown', (e) => {
-            const rect = canvas.getBoundingClientRect();
-            const mx = e.clientX - rect.left - canvasW / 2;
-            const my = e.clientY - rect.top - canvasH / 2;
-
-            if (Math.hypot(mx - addBtn.x, my - addBtn.y) <= addBtn.radius) {
-                grabbedAddButton = true;
-                lastEventX = e.clientX;
-                lastEventY = e.clientY;
-                return;
-            }
-
-            for (let i = pinnedObjects.length - 1; i >= 0; i--) {
-                const obj = pinnedObjects[i];
-                if (Math.hypot(mx - obj.x, my - obj.y) <= obj.radius && !obj.isRemoving) {
-                    grabbedObj = obj;
-                    break;
-                }
-            }
-            lastEventX = e.clientX;
-            lastEventY = e.clientY;
+          ctx.font = "12px Inter, Pretendard, sans-serif";
+          ctx.textAlign = "center";
+          ctx.fillStyle = "rgba(226,232,240,.62)";
+          ctx.fillText(n.text, n.x, n.y + 25);
         });
 
-        window.addEventListener('mousemove', (e) => {
-            const dx = e.clientX - lastEventX;
-            const dy = e.clientY - lastEventY;
+        requestAnimationFrame(draw);
+      }
 
-            if (grabbedObj) {
-                grabbedObj.x += dx;
-                grabbedObj.y += dy;
-                grabbedObj.vx = 0;
-                grabbedObj.vy = 0;
-            } else if (grabbedAddButton) {
-                addBtn.x += dx;
-                addBtn.y += dy;
-                addBtn.vx = 0;
-                addBtn.vy = 0;
-            }
+      canvas.addEventListener("pointermove", e => {
+        const rect = canvas.getBoundingClientRect();
+        pointer.x = e.clientX - rect.left;
+        pointer.y = e.clientY - rect.top;
+        pointer.active = true;
+      });
 
-            lastEventX = e.clientX;
-            lastEventY = e.clientY;
-        });
+      canvas.addEventListener("pointerleave", () => {
+        pointer.active = false;
+      });
 
-        window.addEventListener('mouseup', () => {
-            grabbedObj = null;
-            grabbedAddButton = false;
-        });
+      window.addEventListener("resize", resize);
 
-        canvas.addEventListener('contextmenu', (e) => {
-            e.preventDefault();
-            const rect = canvas.getBoundingClientRect();
-            const mx = e.clientX - rect.left - canvasW / 2;
-            const my = e.clientY - rect.top - canvasH / 2;
-
-            for (let i = pinnedObjects.length - 1; i >= 0; i--) {
-                const obj = pinnedObjects[i];
-                if (Math.hypot(mx - obj.x, my - obj.y) <= obj.radius && !obj.isRemoving) {
-                    obj.isRemoving = true;
-                    obj.lifeTime = 1.0;
-                    obj.originalRadius = obj.radius;
-                    obj.vx = 0;
-                    obj.vy = 0;
-                    if (grabbedObj === obj) grabbedObj = null;
-                    break;
-                }
-            }
-        });
-    </script>
+      resize();
+      draw();
+    })();
+  </script>
 </body>
 
 </html>

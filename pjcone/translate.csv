@@ -100,9 +100,9 @@ KICKED_FROM_CHANNEL,채널에서 강제 퇴장되었습니다,You have been forc
 ## Main
 Title,활동,Activity
 CreateNew,새 채널 생성,Create a new channel
-Note,노트,Note
+Memo,메모,Memo
 Channels,채널,Channels
-Archive,아카이브,Archive
+Post,게시물,Post
 Features,기능,Features
 QRCodeScan,QR코드 스캐너,QRCode scanner
 Chats,채팅,Chats
@@ -111,9 +111,13 @@ Settings,설정,Settings
 FileViewer,파일 뷰어,File viewer
 InstallApp,앱으로 설치하기,Install as app
 BackToExit,한 번 더 누르시면 앱이 종료됩니다.,Press it one more time to close the app.
+QuickAction,빠른 실행,Quick Launch
+LocalServerRequired,로컬 서버가 실행 중이 아닙니다. 서버를 먼저 켜주세요.,The local server is not running. Please start the server first.
+InstantTempChat,모닥불 피우기,Lighting a Bonfire
+RightClickToLeave,우클릭하여 떠나기,Right-click to leave
 ## CreateNew
 InModify,채널 편집,Channel editing
-ServerName,서버 선택,Select server
+ServerName,어디에 저장할까요?,Where should I save it?
 ChannelName,채널 제목,Channel title
 InputName,채널 이름을 입력하세요,Enter channel name
 ChannelImage,채널 이미지,Channel image
@@ -377,16 +381,15 @@ InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
 ExpiredDeadline,설정된 기한이 만료되었습니다,The set deadline has expired
 ToggleServer,해당 서버 토글,Toggle the server
-TempInvite,임시초대,TempJoin
-TempChat,임시 참여 채널,Temporary participation channel
+TempChat,모닥불 채팅,Bonfire Chat
 Join,입장,Joined
 Leave,퇴장,Leaved
 SelectTempServer,임시 방 개설하기,Open a temporary room
 SelectTempServerDesc,임시 방을 개설할 중계 서버를 선택하세요.,Please select a relay server to open a temporary room.
 NoOnlineServer,연결된 온라인 서버가 없습니다.,There is no connected online server.
-TempConnClose,임시 서버 연결이 종료되었습니다.,The temporary server connection has been terminated.
+TempConnClose,모닥불에서 떠납니다,Stepped away from the bonfire
 CreatingNoti,알림 생성중...,Creating notification...
-AlreadyHasTemp,이미 활성화된 임시 채널이 있습니다.,There is already an active temporary channel.
+AlreadyHasTemp,이미 참여한 모닥불이 있습니다.,You have already participated in a bonfire.
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
