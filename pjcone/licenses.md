@@ -14,9 +14,10 @@
 | gif.js@0.2.0 | MIT | [Link](https://github.com/jnordberg/gif.js) |
 | highlight.js@11.12.0 | BSD-3-Clause | [Link](https://github.com/highlightjs/highlight.js) |
 | html-to-image@1.11.13 | MIT | [Link](https://github.com/bubkoo/html-to-image) |
+| js-sha256@1.0.0 | MIT | [Link](https://github.com/emn178/js-sha256) |
 | marked@18.0.11 | MIT | [Link](https://github.com/markedjs/marked) |
 | meshoptimizer@1.1.1 | MIT | [Link](https://github.com/zeux/meshoptimizer) |
-| pjcone@0.98.12 | UNLICENSED | N/A |
+| pjcone@1.0.0 | UNLICENSED | N/A |
+| pjcone_server@1.0.0 | UNKNOWN | N/A |
 | qrcode-svg@1.1.0 | MIT | [Link](https://github.com/papnkukn/qrcode-svg) |
-| server@0.0.1 | UNKNOWN | N/A |
 | three@0.185.1 | MIT | [Link](https://github.com/mrdoob/three.js) |

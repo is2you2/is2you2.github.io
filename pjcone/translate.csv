@@ -239,6 +239,7 @@ Bottom,아래쪽,Bottom
 FrameRate,프레임 간격,Frame spacing
 Millis,밀리초,milliseconds
 NoNameFile,이름 없는 파일,Nameless file
+FocusMode,집중 모드,Focus mode
 ## ManageServer
 NonameServer,이름 없는 서버,Nameless Server
 ServerName,서버 이름,Server name
