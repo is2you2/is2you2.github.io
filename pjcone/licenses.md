@@ -5,8 +5,6 @@
 | 패키지 이름 | 라이선스 | 소스 코드 |
 | :--- | :--- | :--- |
 | @dimforge/rapier3d-compat@0.12.0 | Apache-2.0 | [Link](https://github.com/dimforge/rapier.js) |
-| @neutralinojs/lib@6.9.0 | MIT | [Link](https://github.com/neutralinojs/neutralino.js) |
-| @rollup/rollup-linux-x64-gnu@4.63.1 | MIT | [Link](https://github.com/rollup/rollup) |
 | @tweenjs/tween.js@23.1.3 | MIT | [Link](https://github.com/tweenjs/tween.js) |
 | @types/stats.js@0.17.4 | MIT | [Link](https://github.com/DefinitelyTyped/DefinitelyTyped) |
 | @types/three@0.185.4 | MIT | [Link](https://github.com/DefinitelyTyped/DefinitelyTyped) |
@@ -15,9 +13,10 @@
 | fflate@0.8.3 | MIT | [Link](https://github.com/101arrowz/fflate) |
 | gif.js@0.2.0 | MIT | [Link](https://github.com/jnordberg/gif.js) |
 | highlight.js@11.12.0 | BSD-3-Clause | [Link](https://github.com/highlightjs/highlight.js) |
+| html-to-image@1.11.13 | MIT | [Link](https://github.com/bubkoo/html-to-image) |
 | marked@18.0.11 | MIT | [Link](https://github.com/markedjs/marked) |
 | meshoptimizer@1.1.1 | MIT | [Link](https://github.com/zeux/meshoptimizer) |
-| pjcone@0.98.11 | UNLICENSED | N/A |
+| pjcone@0.98.12 | UNLICENSED | N/A |
 | qrcode-svg@1.1.0 | MIT | [Link](https://github.com/papnkukn/qrcode-svg) |
 | server@0.0.1 | UNKNOWN | N/A |
 | three@0.185.1 | MIT | [Link](https://github.com/mrdoob/three.js) |
