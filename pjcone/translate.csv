@@ -112,7 +112,7 @@ FileViewer,파일 뷰어,File viewer
 InstallApp,앱으로 설치하기,Install as app
 BackToExit,한 번 더 누르시면 앱이 종료됩니다.,Press it one more time to close the app.
 QuickAction,빠른 실행,Quick Launch
-LocalServerRequired,로컬 서버가 실행 중이 아닙니다. 서버를 먼저 켜주세요.,The local server is not running. Please start the server first.
+LocalServerRequired,연결할 수 있는 서버가 없습니다.,There are no servers available to connect to.
 InstantTempChat,모닥불 피우기,Lighting a Bonfire
 RightClickToLeave,우클릭하여 떠나기,Right-click to leave
 ## CreateNew
