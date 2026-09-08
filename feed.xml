@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-07T08:30:21+09:00</updated>
+  <updated>2026-09-08T17:02:41+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,11 +20,77 @@
 
   
   <entry>
+    <title>문화 콘텐츠와 도파민</title>
+    <link href="https://is2you2.github.io/posts/culture-and-dopamine/" rel="alternate" type="text/html" title="문화 콘텐츠와 도파민" />
+    <published>2026-09-08T16:11:00+09:00</published>
+  
+    <updated>2026-09-08T16:11:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/culture-and-dopamine/</id>
+    <content src="https://is2you2.github.io/posts/culture-and-dopamine/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      요즘 콘텐츠를 정말 많이 소비하잖아요.
+
+유튜브 보고, 음악 듣고, 드라마 보고, 게임하고.
+
+뭐 하나 끝나면 또 다음 걸 찾아보고.
+
+그런데 문득 그런 생각이 들었어요.
+
+우리가 콘텐츠를 이렇게 많이 소비하는 이유가 정말 단순히 재미있어서일까?
+
+물론 재미있으니까 보겠죠.
+
+웃기니까 보고, 감동적이니까 보고, 무섭니까 보고.
+
+결국 뇌에서 도파민이 나오니까 계속 찾는 거고.
+
+그런데 조금 이상한 게 하나 있어요.
+
+콘텐츠가 주는 즐거움 중에는 단순한 재미라고 하기 어려운 것들이 있거든요.
+
+예를 들어 로맨스 작품을 볼 때를 생각해보죠.
+
+두 사람이 처음 만났는데 굉장히 잘 맞아요.
+
+말하지 않아도 서로 무슨 생각을 하는지 알고,
+
+상대방의 취향도 잘 알고,
+
+어떤 행동을 할지도 대충 예상해요.
+
+흔히...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>술과 사회적 역할</title>
     <link href="https://is2you2.github.io/posts/drink-and-life/" rel="alternate" type="text/html" title="술과 사회적 역할" />
     <published>2026-09-07T06:29:00+09:00</published>
   
-    <updated>2026-09-07T06:29:00+09:00</updated>
+    <updated>2026-09-08T17:02:26+09:00</updated>
   
     <id>https://is2you2.github.io/posts/drink-and-life/</id>
     <content src="https://is2you2.github.io/posts/drink-and-life/" />
@@ -34,9 +100,9 @@
 
   
     
-    <category term="정보글" />
+    <category term="일상" />
     
-    <category term="PJCone 사용 설명서" />
+    <category term="중얼중얼" />
     
   
 
@@ -99,7 +165,7 @@
     <link href="https://is2you2.github.io/posts/pjcone-renewal/" rel="alternate" type="text/html" title="새로워진 Project: Cone: 가벼운 환경, 무한한 연결" />
     <published>2026-09-05T12:10:00+09:00</published>
   
-    <updated>2026-09-05T12:10:00+09:00</updated>
+    <updated>2026-09-07T08:30:42+09:00</updated>
   
     <id>https://is2you2.github.io/posts/pjcone-renewal/</id>
     <content src="https://is2you2.github.io/posts/pjcone-renewal/" />
@@ -248,57 +314,6 @@ mGBA에는 이미 링크 케이블 기능이 존재한다.
 
 내가 정한 전략
 처음에 시작할 때에는 비개발자를 대상으로 코딩 영상을 게시하고 싶었는데, 코딩을 주제로 영상을 게시하면 이미 코딩에 관심가지는 사람들(키워드나 태그로 검색어가 가려지니)이 보게 될 것으로 판단하여, 시작할 때에는 간단한 타임랩스 형식의 영상을 제작하여 쇼츠로 게시하고 이후에 적당히 사람이 모이면 그래픽 채널에서 갑자기 코딩채널로 전환되는 기이한 곡예를 펼치려했는데 너무 크게 주제가 바뀌면 알고리즘이 길을 잃을 것 같아서 그림을 그리면서 설명을 진행하는 것으로 게획했다. 어째뜬 대분류상 그래픽이니까 알고리즘의 혼...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>한글로 된 언어가 없는 이유</title>
-    <link href="https://is2you2.github.io/posts/why-there-is-no-korean-language/" rel="alternate" type="text/html" title="한글로 된 언어가 없는 이유" />
-    <published>2026-02-22T05:39:00+09:00</published>
-  
-    <updated>2026-06-21T11:08:07+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/why-there-is-no-korean-language/</id>
-    <content src="https://is2you2.github.io/posts/why-there-is-no-korean-language/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="그림노트" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      한글로 된 언어는 왜 없을까요?
-보통 이런 대답을 하시더라구요
-“세계 공용어가 영어니까”
-그 얘기도 틀린 얘기는 아니지만, 제가 좀 더 현실적인 이유를 들려드릴께요
-
-여러분 코딩을 시작하려고 할 때, 언어를 구매해보신적이 있나요?
-아마 대부분은 “아니요”라고 대답하실 겁니다.
-현존하는 모든 언어가 상시 무료로 배포되고 있다고 해도 과언이 아닐 정도로 정말 많은 언어들이 무료로 사용할 수 있습니다
-
-근데 이상하죠
-언어를 쓰다보면 언어도 버전 업이 되고, 보안 업데이트가 이루어지고 그러는데
-언어를 개발하는 사람들은 대체 어떻게 돈을 버는걸까요?
-그 사람들도 월급은 받으면서 일할거 아니에요?
-
-언어는 매출을 따지는 다른 물품들과는 조금 다르게, 점유율이라는 지표를 더 중요하게 봅니다.
-얼마나 많은 사람들이 ...
     </summary>
   
 
