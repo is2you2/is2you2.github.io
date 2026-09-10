@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-08T17:02:41+09:00</updated>
+  <updated>2026-09-10T20:50:51+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,228 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>산업화 그리고 뜨개질</title>
+    <link href="https://is2you2.github.io/posts/ai-and-knitting/" rel="alternate" type="text/html" title="산업화 그리고 뜨개질" />
+    <published>2026-09-10T20:09:00+09:00</published>
+  
+    <updated>2026-09-10T20:09:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/ai-and-knitting/</id>
+    <content src="https://is2you2.github.io/posts/ai-and-knitting/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI 시대의 뜨개질
+
+앞의 이야기에서
+
+AI가 점점 더 많은 것을 만들 수 있게 되면
+
+무언가를 만드는 비용 자체가 굉장히 낮아질 수 있다는 이야기를 했습니다.
+
+아이디어만 있다면 구현할 수 있고,
+
+수많은 결과물을 만들어볼 수도 있고,
+
+그중 하나가 사람들에게 기억될 수도 있습니다.
+
+그렇다면 이런 질문이 남습니다.
+
+만약 AI가 정말로 거의 모든 것을 만들어줄 수 있게 된다면, 인간은 왜 무언가를 만들까요?
+
+
+
+저는 이 질문을 생각하다가
+
+뜬금없이 뜨개질이 떠올랐습니다.
+
+옷 공장이 있습니다.
+
+기계가 옷을 엄청나게 빠르게 만들어냅니다.
+
+색깔도 다양하고,
+
+사이즈도 정확하고,
+
+가격도 저렴합니다.
+
+그리고 시간이 지나면
+
+공장은 더 좋은 옷을 더 빠르게 만들 겁니다.
+
+그런데 이상하게도
+
+사람들...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AI 창작물과 저작권리</title>
+    <link href="https://is2you2.github.io/posts/rights-of-ai-slop/" rel="alternate" type="text/html" title="AI 창작물과 저작권리" />
+    <published>2026-09-10T19:18:00+09:00</published>
+  
+    <updated>2026-09-10T19:18:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/rights-of-ai-slop/</id>
+    <content src="https://is2you2.github.io/posts/rights-of-ai-slop/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI가 만든 것은 누구의 것인가
+
+지난 이야기의 마지막에 이런 질문을 던졌습니다.
+
+AI로 그렇게 쉽게 만들어진 것은
+
+과연 누구의 것일까요?
+
+그런데 이 질문을 하다 보면 조금 이상한 지점에 도착합니다.
+
+우리는 원래부터
+
+“아이디어는 누구의 것인가?”
+
+라는 문제를 가지고 있었거든요.
+
+그런데 AI가 등장하면서
+
+이 문제가 조금 다른 모습으로 나타나는 것 같습니다.
+
+
+
+예를 들어 제가 아주 재미있는 게임 아이디어를 하나 생각했다고 해봅시다.
+
+그런데 아직 아무것도 만들지는 않았습니다.
+
+그냥 머릿속에만 있습니다.
+
+“이런 게임을 만들면 재미있을 것 같은데?”
+
+예전에는 이게 꽤 큰 차이였습니다.
+
+아이디어를 실제 게임으로 만들려면
+
+기획을 해야 하고,
+
+프로그래밍을 해야 하고,
+
+그림을 그려야 하...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AI는 판도라의 상자가 아니라 슬롯머신이다</title>
+    <link href="https://is2you2.github.io/posts/ai-slot-machine/" rel="alternate" type="text/html" title="AI는 판도라의 상자가 아니라 슬롯머신이다" />
+    <published>2026-09-10T18:24:00+09:00</published>
+  
+    <updated>2026-09-10T18:24:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/ai-slot-machine/</id>
+    <content src="https://is2you2.github.io/posts/ai-slot-machine/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI 슬롯머신
+
+요즘 AI로 뭔가를 만드는 영상을 보다 보면 가끔 이런 장면이 나옵니다.
+
+“AI한테 리그 오브 레전드 같은 게임을 만들어달라고 해봤습니다.”
+
+그리고 20분 정도 지나면,
+
+“어? 진짜 되는데?”
+
+하면서 게임 하나가 나옵니다.
+
+그러고는 다시 말합니다.
+
+“이번에는 발로란트 같은 걸 만들어달라고 해보겠습니다.”
+
+또 뭔가가 나옵니다.
+
+“와, 이것도 되네?”
+
+그런데 저는 이걸 보고 있으면 조금 이상한 기분이 듭니다.
+
+AI가 이렇게까지 발전했는데,
+
+우리가 AI를 사용하는 방식은 예전과 별로 달라지지 않은 것 같거든요.
+
+
+
+
+
+생성형 AI가 처음 나왔을 때를 생각해봅시다.
+
+그때는 AI가 지금처럼 잘 만들지 못했습니다.
+
+그림을 하나 만들어도 손가락이 이상하고,
+
+코드를 짜달라고...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -154,166 +376,6 @@
 첫 번째는 아주 단순합니다.
 
 오랜 시간 함께 살아온 것...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>새로워진 Project: Cone: 가벼운 환경, 무한한 연결</title>
-    <link href="https://is2you2.github.io/posts/pjcone-renewal/" rel="alternate" type="text/html" title="새로워진 Project: Cone: 가벼운 환경, 무한한 연결" />
-    <published>2026-09-05T12:10:00+09:00</published>
-  
-    <updated>2026-09-07T08:30:42+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/pjcone-renewal/</id>
-    <content src="https://is2you2.github.io/posts/pjcone-renewal/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="PJCone 사용 설명서" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Project: Cone — 디지털 캠프파이어
-
-오래된 앱 하나를 다시 만들었습니다.
-
-처음부터 거창한 서비스를 만들 생각은 아니었습니다.
-
-제가 필요한 기능은 대충 알고 있었지만,
-하나하나 구현하다 보면 어느 순간부터
-기능을 만드는 것보다 기능을 유지하는 데 더 많은 시간을 쓰게 되더라고요.
-
-그래서 이번에는 반대로 해보기로 했습니다.
-
-정말 필요한 것만 남기고,
-나머지는 최대한 가볍게.
-
-그렇게 약 6년 동안 한땀한땀 기능을 쌓아온 앱을
-약 45일 동안 다시 만들었습니다.
-
-이 앱은 원래 채팅앱이었습니다.
-
-처음 이 앱을 만들었던 이유는 조금 특이했습니다.
-
-채팅방에서 사람들과 이야기하면서
-3D 모델링을 같이 보고 싶었습니다.
-
-그래서 자연스럽게 채팅앱처럼 시작했습니다.
-
-그런데 정작 제가 혼자 사...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>mGBA 멀티플레이어 구성에 대한 실험, 연구</title>
-    <link href="https://is2you2.github.io/posts/mgba-with-multiplayer/" rel="alternate" type="text/html" title="mGBA 멀티플레이어 구성에 대한 실험, 연구" />
-    <published>2026-06-21T07:07:00+09:00</published>
-  
-    <updated>2026-06-29T16:40:39+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/mgba-with-multiplayer/</id>
-    <content src="https://is2you2.github.io/posts/mgba-with-multiplayer/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="토이 프로젝트" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      mGBA 를 브라우저에서 동작시키자
-
-어렸을 때 유일하게, 기기 수명을 다할 때까지 사용했던 핸드헬드 게임기 Game Boy Advanced
-
-그리고 50가지가 넘은 미니 게임과 젤다의 전설 2개가 들어있던 카트리지.
-
-그 카트리지에는 미니 게임이기는 하지만 2인 플레이를 제공하는 몇몇 게임들이 있었다.
-
-친구와 링크 케이블을 연결하고 오토바이 미니 게임을 같이 했던 것이 기억에 남는다. (근데 게임 이름이 기억이 안난다..)
-
-mGBA 는 오픈소스 게임보이 에뮬레이터이다.
-
-mGBA에는 이미 링크 케이블 기능이 존재한다.
-문제는 그 기능이 원래 데스크톱 환경을 기준으로 설계되었다는 점이다.
-
-그걸 WebAssembly 환경으로 가져오면 과연 어디까지 동작할까?
-
-이건 그렇게 시작된 실험이었다.
-
-보통...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>콘텐츠 크리에이터 활동 보고서 (뉴비버전)</title>
-    <link href="https://is2you2.github.io/posts/youtube-act-report-00/" rel="alternate" type="text/html" title="콘텐츠 크리에이터 활동 보고서 (뉴비버전)" />
-    <published>2026-02-22T17:43:00+09:00</published>
-  
-    <updated>2026-02-22T17:43:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/youtube-act-report-00/</id>
-    <content src="https://is2you2.github.io/posts/youtube-act-report-00/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="정보글" />
-    
-    <category term="Youtube" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      개요
-이 게시물은 필자가 유튜브 활동 0~2년차에서 얻은 고찰에 대해 다룹니다.
-
-모든 것은 오직 운영 체감으로만 작성된 것이기 때문에 정답이 적힌건 아니고 경험이 적힌겁니다.
-
-내가 정한 전략
-처음에 시작할 때에는 비개발자를 대상으로 코딩 영상을 게시하고 싶었는데, 코딩을 주제로 영상을 게시하면 이미 코딩에 관심가지는 사람들(키워드나 태그로 검색어가 가려지니)이 보게 될 것으로 판단하여, 시작할 때에는 간단한 타임랩스 형식의 영상을 제작하여 쇼츠로 게시하고 이후에 적당히 사람이 모이면 그래픽 채널에서 갑자기 코딩채널로 전환되는 기이한 곡예를 펼치려했는데 너무 크게 주제가 바뀌면 알고리즘이 길을 잃을 것 같아서 그림을 그리면서 설명을 진행하는 것으로 게획했다. 어째뜬 대분류상 그래픽이니까 알고리즘의 혼...
     </summary>
   
 
