@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-12T11:21:03+09:00</updated>
+  <updated>2026-09-13T01:19:14+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,146 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI에게 고맙다고 하지마세요?</title>
+    <link href="https://is2you2.github.io/posts/manner-to-ai/" rel="alternate" type="text/html" title="AI에게 고맙다고 하지마세요?" />
+    <published>2026-09-13T00:59:00+09:00</published>
+  
+    <updated>2026-09-13T00:59:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/manner-to-ai/</id>
+    <content src="https://is2you2.github.io/posts/manner-to-ai/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI에게 왜 예의를 차릴까?
+
+요즘 AI한테 질문할 때
+이상하게 예의를 차리게 됩니다.
+
+“고마워.”
+
+“오, 그건 생각 못 했네.”
+
+“이 관점 재밌다.”
+
+뭐 이런 말들.
+
+그런데 가만히 생각해보면 이상합니다.
+
+AI한테 예의를 차려서 뭐가 좋지?
+
+AI가 기분 나빠할 것도 아니고,
+제가 반말을 한다고 삐질 것도 아니고,
+제가 “고마워”라고 한다고 월급이 올라가는 것도 아닙니다.
+
+그런데 저는 합니다.
+
+오히려 사람보다 더 자주 하는 것 같기도 합니다.
+
+왜 그럴까?
+
+
+
+처음에는 그냥 습관이라고 생각했습니다.
+
+사람한테 하던 말버릇이 AI한테도 나오는 거겠지.
+
+그런데 조금 더 생각해보니까
+그것만으로 설명하기엔 이상한 부분이 있었습니다.
+
+AI한테 하는 “고마워”에는
+조금 다른 의미가 들어가 있거...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AI를 어떻게 쓸 것인가</title>
+    <link href="https://is2you2.github.io/posts/can-ai-write-novel/" rel="alternate" type="text/html" title="AI를 어떻게 쓸 것인가" />
+    <published>2026-09-13T00:27:00+09:00</published>
+  
+    <updated>2026-09-13T00:27:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/can-ai-write-novel/</id>
+    <content src="https://is2you2.github.io/posts/can-ai-write-novel/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI는 장편 소설을 쓸 수 있을까?
+― 딸깍과 협업 사이
+
+요즘 AI 이야기를 보다 보면 이런 이야기가 가끔 나옵니다.
+
+“AI가 장편 소설을 제대로 쓰려면 AGI 정도는 되어야 한다.”
+
+어떤 사람은 더 나아가서 ASI, 그러니까 초지능 수준까지 가야 장편 창작을 정복할 수 있을 거라고 이야기하기도 합니다.
+
+처음에는 저도 이 말이 어느 정도는 맞는 이야기인가 싶었습니다.
+
+그런데 가만히 생각해보니까,
+
+잠깐만. 정말 그런가?
+
+라는 생각이 들더라고요.
+
+
+
+AI가 장편 소설을 못 쓰는 이유가 정말로
+
+“현재 AI의 지능이 부족해서”
+
+일까요?
+
+아니면 우리가 AI에게 소설을 쓰라고 시키는 방식 자체가 잘못된 걸까요?
+
+
+
+저는 개발할 때 AI를 이렇게 사용합니다.
+
+저는 Svelte로 작업할 때 A...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -215,156 +355,6 @@
 그 사람들에게 바둑은 그냥 돌의 위치가 아니니까요.
 
 어떤 돌은 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>산업화 그리고 뜨개질</title>
-    <link href="https://is2you2.github.io/posts/ai-and-knitting/" rel="alternate" type="text/html" title="산업화 그리고 뜨개질" />
-    <published>2026-09-10T20:09:00+09:00</published>
-  
-    <updated>2026-09-10T20:09:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/ai-and-knitting/</id>
-    <content src="https://is2you2.github.io/posts/ai-and-knitting/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI 시대의 뜨개질
-
-앞의 이야기에서
-
-AI가 점점 더 많은 것을 만들 수 있게 되면
-
-무언가를 만드는 비용 자체가 굉장히 낮아질 수 있다는 이야기를 했습니다.
-
-아이디어만 있다면 구현할 수 있고,
-
-수많은 결과물을 만들어볼 수도 있고,
-
-그중 하나가 사람들에게 기억될 수도 있습니다.
-
-그렇다면 이런 질문이 남습니다.
-
-만약 AI가 정말로 거의 모든 것을 만들어줄 수 있게 된다면, 인간은 왜 무언가를 만들까요?
-
-
-
-저는 이 질문을 생각하다가
-
-뜬금없이 뜨개질이 떠올랐습니다.
-
-옷 공장이 있습니다.
-
-기계가 옷을 엄청나게 빠르게 만들어냅니다.
-
-색깔도 다양하고,
-
-사이즈도 정확하고,
-
-가격도 저렴합니다.
-
-그리고 시간이 지나면
-
-공장은 더 좋은 옷을 더 빠르게 만들 겁니다.
-
-그런데 이상하게도
-
-사람들...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 창작물과 저작권리</title>
-    <link href="https://is2you2.github.io/posts/rights-of-ai-slop/" rel="alternate" type="text/html" title="AI 창작물과 저작권리" />
-    <published>2026-09-10T19:18:00+09:00</published>
-  
-    <updated>2026-09-10T19:18:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/rights-of-ai-slop/</id>
-    <content src="https://is2you2.github.io/posts/rights-of-ai-slop/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI가 만든 것은 누구의 것인가
-
-지난 이야기의 마지막에 이런 질문을 던졌습니다.
-
-AI로 그렇게 쉽게 만들어진 것은
-
-과연 누구의 것일까요?
-
-그런데 이 질문을 하다 보면 조금 이상한 지점에 도착합니다.
-
-우리는 원래부터
-
-“아이디어는 누구의 것인가?”
-
-라는 문제를 가지고 있었거든요.
-
-그런데 AI가 등장하면서
-
-이 문제가 조금 다른 모습으로 나타나는 것 같습니다.
-
-
-
-예를 들어 제가 아주 재미있는 게임 아이디어를 하나 생각했다고 해봅시다.
-
-그런데 아직 아무것도 만들지는 않았습니다.
-
-그냥 머릿속에만 있습니다.
-
-“이런 게임을 만들면 재미있을 것 같은데?”
-
-예전에는 이게 꽤 큰 차이였습니다.
-
-아이디어를 실제 게임으로 만들려면
-
-기획을 해야 하고,
-
-프로그래밍을 해야 하고,
-
-그림을 그려야 하...
     </summary>
   
 
