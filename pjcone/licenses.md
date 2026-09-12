@@ -17,7 +17,7 @@
 | js-sha256@1.0.0 | MIT | [Link](https://github.com/emn178/js-sha256) |
 | marked@18.0.11 | MIT | [Link](https://github.com/markedjs/marked) |
 | meshoptimizer@1.1.1 | MIT | [Link](https://github.com/zeux/meshoptimizer) |
-| pjcone@1.0.9 | UNLICENSED | N/A |
+| pjcone@1.0.10 | UNLICENSED | N/A |
 | pjcone_server@1.0.0 | UNKNOWN | N/A |
 | qrcode-svg@1.1.0 | MIT | [Link](https://github.com/papnkukn/qrcode-svg) |
 | three@0.185.1 | MIT | [Link](https://github.com/mrdoob/three.js) |
