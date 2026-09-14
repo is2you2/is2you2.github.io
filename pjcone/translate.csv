@@ -104,9 +104,7 @@ Memo,메모,Memo
 Channels,채널,Channels
 Post,게시물,Post
 Features,기능,Features
-QRCodeScan,QR코드 스캐너,QRCode scanner
 Chats,채팅,Chats
-ServerSettings,서버 설정,Server settings
 Settings,설정,Settings
 FileViewer,파일 뷰어,File viewer
 InstallApp,앱으로 설치하기,Install as app
@@ -166,6 +164,8 @@ ShowAds,광고 보기로 후원하기,Support by watching ads
 RestartToRemoveAds,앱을 다시 시작하면 광고가 제거됩니다,Restarting the app will remove the ads.
 CustomLangPack,사용자 지정 언어팩,Custom language packs
 DBSettings,DB 서버 설정,DB Server Settings
+QRCodeScan,QR코드 스캐너,QRCode scanner
+ServerSettings,서버 설정,Server settings
 ## QRCode
 ClickToCopy,클릭하여 복사하기,Click to copy
 QRCodeResultHere,스캔 결과가 여기에 표시됩니다,The scan results are displayed here.
@@ -431,6 +431,7 @@ PermissionNeeded,카메라/마이크 권한이 필요합니다,Camera/microphone
 EndCall,통화 종료됨,Call ended
 FailedDevChange,장치 전환에 실패했습니다,Failed to switch devices
 ConnectLost,참가자와의 연결이 끊어졌습니다,The connection with the participant has been lost
+voiceOnly,음성 전용 모드,Voice Only Mode
 ## InstantCall
 Title,즉석 통화,Instant call
 OpenCam,카메라 켜기,Turn on camera
