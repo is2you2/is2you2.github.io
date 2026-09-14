@@ -34,6 +34,7 @@ NoPost,게시물 정보 없음,No post information
 Caution,주의,Caution
 ClickToEdit,클릭하여 직접 입력,Click to enter manually
 RightClickToEdit,우클릭하여 편집,Right-click to edit
+AlreadyRecording,이미 녹음중,Already recording
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
