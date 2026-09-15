@@ -456,3 +456,15 @@ Saving,저장 중...,Saving...
 DataFolder,데이터 폴더 관리,Data Folder Management
 FolderInfo,내장 서버의 데이터베이스(SQLite)* 사용자 업로드 파일* SSL 인증서(public.crt* private.key) 등이 저장되는 물리적 폴더입니다.,This is a physical folder where the embedded server's database (SQLite)* user-uploaded files* SSL certificates (public.crt* private.key)* etc.* are stored.
 OpenFolder,데이터 폴더 열기,Open data folder
+## Calendar
+Mon,월,Mo
+Tue,화,Tu
+Weds,수,We
+Thur,목,Th
+Fri,금,Fr
+Sat,토,Sa
+Sun,일,Su
+NoDeadlineTodo,등록된 마감 일정이 없습니다.,There are no registered deadlines.
+Monthly,월간,Monthly
+Weekly,주간,Weekly
+Schedule,일정,Schedule
