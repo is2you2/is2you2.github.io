@@ -198,7 +198,6 @@ Add,게시물 작성,Create a post
 NSFW,후방주의,NSFW
 HeaderImage,대표이미지,HeaderImg
 StopRecording,녹음 중지,Stop
-UnablePost,삭제되었거나 접근할 수 없는 게시물입니다,This post has been deleted or is inaccessible
 OnlyEditable,작성자만 편집할 수 있습니다,Only the author can edit.
 RemoveErr,게시물 삭제 실패,Post deletion failed
 PostList,게시물 목록,Post List
