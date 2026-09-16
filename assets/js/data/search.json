@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Project Cone에서 Ember로 — 디지털 캠프파이어",
+    "url": "/posts/pjcone-to-ember/",
+    "categories": "Ember, 불씨 이야기",
+    "tags": "ember",
+    "date": "2026-09-16 19:08:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "Project Cone에서 Ember로 — 디지털 캠프파이어Project Cone이라는 이름으로 시작했던 프로젝트가 Ember라는 이름으로 다시 시작합니다.정확히 말하면 완전히 새로운 프로젝트가 되는 것은 아닙니다.지금까지 만들어온 기능도, 버전 1.3.3까지의 과정도, 그동안 작성했던 사용 설명서와 개발 기록도 모두 이어집니다.달라지는 것은 이 프로...",
+    "content": "Project Cone에서 Ember로 — 디지털 캠프파이어Project Cone이라는 이름으로 시작했던 프로젝트가 Ember라는 이름으로 다시 시작합니다.정확히 말하면 완전히 새로운 프로젝트가 되는 것은 아닙니다.지금까지 만들어온 기능도, 버전 1.3.3까지의 과정도, 그동안 작성했던 사용 설명서와 개발 기록도 모두 이어집니다.달라지는 것은 이 프로젝트를 바라보는 방식입니다.Project Cone처음 Project Cone을 만들기 시작했을 때는 조금 더 기술적인 관점에서 프로젝트를 바라보고 있었습니다.사람들이 자기 서버를 만들고, 다른 사람을 초대하고, 그 안에서 이야기를 나눌 수 있는 작은 소셜 공간.어떻게 서버를 구성할지, 어떤 기술을 사용할지, 어떻게 사람을 연결할지 같은 것들이 프로젝트의 중요한 고민이었습니다.실제로 여러 번 구조를 바꾸기도 했습니다.처음에는 게임에 가까운 형태에서 시작했고, 이후 여러 기술을 거치면서 채팅과 소셜 기능을 중심으로 프로젝트를 발전시켰습니다.그러다 보니 어느 순간부터 Project Cone이라는 이름 아래 꽤 많은 것들이 쌓였습니다.사용 설명서를 작성하기도 했고, 실제로 사용할 수 있는 버전도 만들었습니다.현재는 1.3.3 버전까지 개발되어 정식 릴리즈된 상태입니다.그런데 계속 만들다 보니 한 가지가 조금씩 마음에 걸리기 시작했습니다.이 프로젝트를 단순히 ‘소셜 앱’이라고 설명하는 것으로 충분할까?디지털 캠프파이어Project Cone을 계속 생각하다 보니 제가 만들고 싶었던 것은 기능 자체가 아니라는 생각이 들었습니다.사람들이 모일 수 있는 작은 공간이었습니다.누군가는 자신의 이야기를 하고,누군가는 다른 사람의 이야기를 듣고,때로는 아무것도 하지 않고 그냥 그 자리에 머무를 수도 있는 곳.인터넷에는 수많은 공간이 있지만, 대부분은 무언가를 빠르게 소비하거나 더 많은 사람에게 자신의 것을 보여주기 위한 방향으로 발전해왔습니다.저는 그 반대편에 있는 공간을 한번 만들어보고 싶었습니다.많은 사람이 모이는 곳보다는 작은 사람들이 모이는 곳.무언가를 끊임없이 생산하는 곳보다는 그냥 함께 머무를 수 있는 곳.그리고 그 모습을 생각하다 보니 하나의 이미지가 떠올랐습니다.모닥불입니다.사람들은 불을 보기 위해서만 모닥불에 앉아 있는 것은 아닙니다.이야기를 나누기도 하고, 가만히 불을 바라보기도 하고, 누군가를 기다리기도 합니다.모닥불 자체가 목적이라기보다는 사람들이 함께 있을 수 있는 이유와 장소가 되어줍니다.그래서 Project Cone을 이제 이렇게 부르기로 했습니다.EmberA Digital Campfire.Ember는 ‘불씨’라는 뜻입니다.아직 거대한 무언가가 만들어졌다는 의미보다는, 작은 불씨 하나를 피워놓는다는 의미에 가깝습니다.누군가 그 주변에 앉을 수도 있고,또 다른 불씨가 생겨날 수도 있고,어쩌면 아무도 찾아오지 않을 수도 있습니다.그것까지도 포함해서, 작은 공간을 만들어보려고 합니다.Project Cone은 사라지지 않습니다이름을 바꾼다고 해서 Project Cone으로 보낸 시간이 사라지는 것은 아닙니다.오히려 지금까지의 과정이 있었기 때문에 Ember라는 방향을 찾을 수 있었다고 생각합니다.그래서 기존에 작성했던 Project Cone 관련 글과 사용 설명서는 그대로 남겨두려고 합니다.다만 앞으로의 업데이트와 새로운 기록은 Ember라는 이름으로 이어갈 예정입니다.GitHub 저장소와 프로젝트 페이지의 링크도 새로운 이름에 맞춰 정리하고 있습니다.이 글을 기준으로 Project Cone과 Ember를 연결해두면, 앞으로 예전 기록을 찾아오는 분들도 이 프로젝트가 어디에서 출발해서 지금 어디까지 왔는지 알 수 있을 것 같습니다.이제부터Ember는 거창한 서비스를 만들겠다는 프로젝트는 아닙니다.그저 인터넷 어딘가에 작은 모닥불 하나를 만들어보려 합니다.사람들이 자신의 공간을 만들고,자신이 초대한 사람들과 이야기를 나누고,필요하다면 조용히 머물 수 있는 곳.그 공간이 얼마나 커질지는 아직 모르겠습니다.애초에 꼭 커져야 하는지도 모르겠습니다.다만 지금까지 Project Cone을 만들면서 계속 남아있던 생각은 이것이었습니다.인터넷에도 가끔은 그냥 앉아 있을 수 있는 곳이 필요하지 않을까?그래서 이름을 바꿉니다.Project Cone은 여기까지.그리고 이제,Ember로 이어갑니다.작은 불씨 하나부터.🔥"
+  },
+  
+  {
     "title": "AI에게 고맙다고 하지마세요?",
     "url": "/posts/manner-to-ai/",
     "categories": "일상, 중얼중얼",
@@ -173,7 +190,7 @@
   {
     "title": "새로워진 Project: Cone: 가벼운 환경, 무한한 연결",
     "url": "/posts/pjcone-renewal/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2026-09-05 12:10:00 +0900",
     
@@ -309,7 +326,7 @@
   {
     "title": "Project: Cone Server Setup Guide (v0.93.41)",
     "url": "/posts/how-to-use-pjcone-server-en/",
-    "categories": "정보글, PJCone User Guide",
+    "categories": "Project Cone, PJCone User Guide",
     "tags": "pjcone",
     "date": "2025-12-17 19:20:00 +0900",
     
@@ -326,7 +343,7 @@
   {
     "title": "Project: Cone User Guide (v0.93.41)",
     "url": "/posts/how-to-use-pjcone-client-en/",
-    "categories": "정보글, PJCone User Guide",
+    "categories": "Project Cone, PJCone User Guide",
     "tags": "pjcone",
     "date": "2025-12-17 19:19:00 +0900",
     
@@ -343,7 +360,7 @@
   {
     "title": "Project: Cone 서버 구축 가이드 (v0.93.41)",
     "url": "/posts/how-to-use-pjcone-server/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2025-12-17 19:16:00 +0900",
     
@@ -360,7 +377,7 @@
   {
     "title": "Project: Cone 사용 설명서 (v0.93.41)",
     "url": "/posts/how-to-use-pjcone-client/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2025-12-17 19:15:00 +0900",
     
@@ -377,7 +394,7 @@
   {
     "title": "Project: Cone 서버 구축 설명서 [v0.85.2]",
     "url": "/posts/instruction-pjcone-server/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2025-03-08 14:04:00 +0900",
     
@@ -394,7 +411,7 @@
   {
     "title": "Project: Cone Server Setup Guide [v0.85.2]",
     "url": "/posts/instruction-pjcone-server-en/",
-    "categories": "정보글, PJCone User Guide",
+    "categories": "Project Cone, PJCone User Guide",
     "tags": "pjcone",
     "date": "2025-03-08 14:04:00 +0900",
     
@@ -411,7 +428,7 @@
   {
     "title": "Project: Cone 공통 기능 설명서 [v0.85.2]",
     "url": "/posts/instruction-pjcone-basic/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2025-03-08 08:24:00 +0900",
     
@@ -428,7 +445,7 @@
   {
     "title": "Project: Cone Common Features Guide [v0.85.2]",
     "url": "/posts/instruction-pjcone-basic-en/",
-    "categories": "정보글, PJCone User Guide",
+    "categories": "Project Cone, PJCone User Guide",
     "tags": "pjcone",
     "date": "2025-03-08 08:24:00 +0900",
     
@@ -445,7 +462,7 @@
   {
     "title": "Project: Cone Private Server Documentation [v0.55.14]",
     "url": "/posts/how-to-use-pjcone-server-en/",
-    "categories": "정보글, PJCone User Guide",
+    "categories": "Project Cone, PJCone User Guide",
     "tags": "pjcone",
     "date": "2024-04-03 18:18:00 +0900",
     
@@ -462,7 +479,7 @@
   {
     "title": "Project: Cone User Guide [v0.55.14]",
     "url": "/posts/how-to-use-pjcone-en/",
-    "categories": "정보글, PJCone User Guide",
+    "categories": "Project Cone, PJCone User Guide",
     "tags": "pjcone",
     "date": "2024-04-03 17:56:00 +0900",
     
@@ -479,7 +496,7 @@
   {
     "title": "Project: Cone 사설 서버 설명서 [v0.55.14]",
     "url": "/posts/how-to-use-pjcone-server/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2024-03-30 18:44:00 +0900",
     
@@ -496,7 +513,7 @@
   {
     "title": "Project: Cone 앱 사용 설명서 [v0.55.14]",
     "url": "/posts/how-to-use-pjcone/",
-    "categories": "정보글, PJCone 사용 설명서",
+    "categories": "Project Cone, PJCone 사용 설명서",
     "tags": "pjcone",
     "date": "2024-03-29 15:15:00 +0900",
     

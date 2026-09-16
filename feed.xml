@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-16T00:44:12+09:00</updated>
+  <updated>2026-09-16T19:17:33+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Project Cone에서 Ember로 — 디지털 캠프파이어</title>
+    <link href="https://is2you2.github.io/posts/pjcone-to-ember/" rel="alternate" type="text/html" title="Project Cone에서 Ember로 — 디지털 캠프파이어" />
+    <published>2026-09-16T19:08:00+09:00</published>
+  
+    <updated>2026-09-16T19:08:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/pjcone-to-ember/</id>
+    <content src="https://is2you2.github.io/posts/pjcone-to-ember/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="Ember" />
+    
+    <category term="불씨 이야기" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Project Cone에서 Ember로 — 디지털 캠프파이어
+
+Project Cone이라는 이름으로 시작했던 프로젝트가 Ember라는 이름으로 다시 시작합니다.
+
+정확히 말하면 완전히 새로운 프로젝트가 되는 것은 아닙니다.
+
+지금까지 만들어온 기능도, 버전 1.3.3까지의 과정도, 그동안 작성했던 사용 설명서와 개발 기록도 모두 이어집니다.
+
+달라지는 것은 이 프로젝트를 바라보는 방식입니다.
+
+Project Cone
+
+처음 Project Cone을 만들기 시작했을 때는 조금 더 기술적인 관점에서 프로젝트를 바라보고 있었습니다.
+
+사람들이 자기 서버를 만들고, 다른 사람을 초대하고, 그 안에서 이야기를 나눌 수 있는 작은 소셜 공간.
+
+어떻게 서버를 구성할지, 어떤 기술을 사용할지, 어떻게 사람을 연결할...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -289,72 +341,6 @@ AI가 장편 소설을 못 쓰는 이유가 정말로
 도파민이라는 건 원래 목적을 향해 움직이게 만드는 일종의 촉매 같은 역할을 하는데,
 
 사람이 어느 순간부터 그 촉매 자체를 목적으로 삼기 시작하면 문...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>전문가와 기억 방식</title>
-    <link href="https://is2you2.github.io/posts/professional-brain/" rel="alternate" type="text/html" title="전문가와 기억 방식" />
-    <published>2026-09-12T01:01:00+09:00</published>
-  
-    <updated>2026-09-12T01:01:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/professional-brain/</id>
-    <content src="https://is2you2.github.io/posts/professional-brain/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      기억력이 좋다는 건, 더 많이 기억한다는 뜻일까?
-
-바둑 기사들은 기억력이 굉장히 좋다고 합니다.
-
-대국이 끝난 뒤에 바둑판을 다시 복기하기도 하고,
-심지어 오래전에 뒀던 대국의 수순까지 기억하는 경우도 있죠.
-
-그래서 가끔 이런 생각을 하게 됩니다.
-
-저 사람들은 정말로 바둑판 전체를 사진처럼 기억하는 걸까?
-
-그런데 생각해보면,
-꼭 그렇지는 않을 것 같았습니다.
-
-
-
-일반적인 사람이 바둑판을 외우려고 한다면 아마 이런 식일 겁니다.
-
-여기에 흑돌이 하나 있고.
-
-여기에는 백돌이 있고.
-
-저쪽에는 또 흑돌이 있고.
-
-그러니까 바둑판 전체의 이미지를 어떻게든 머릿속에 저장하려고 하겠죠.
-
-그런데 바둑 기사들은 조금 다를 수도 있습니다.
-
-그 사람들에게 바둑은 그냥 돌의 위치가 아니니까요.
-
-어떤 돌은 ...
     </summary>
   
 
