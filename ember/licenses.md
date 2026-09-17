@@ -10,8 +10,8 @@
 | @types/three@0.185.4 | MIT | [Link](https://github.com/DefinitelyTyped/DefinitelyTyped) |
 | @types/webxr@0.5.24 | MIT | [Link](https://github.com/DefinitelyTyped/DefinitelyTyped) |
 | @zip.js/zip.js@2.8.61 | BSD-3-Clause | [Link](https://github.com/gildas-lormeau/zip.js) |
-| ember@1.3.6 | UNLICENSED | N/A |
-| ember_server@1.3.5 | UNKNOWN | N/A |
+| ember@1.3.7 | UNLICENSED | N/A |
+| ember_server@1.3.7 | UNKNOWN | N/A |
 | fflate@0.8.3 | MIT | [Link](https://github.com/101arrowz/fflate) |
 | gif.js@0.2.0 | MIT | [Link](https://github.com/jnordberg/gif.js) |
 | highlight.js@11.12.0 | BSD-3-Clause | [Link](https://github.com/highlightjs/highlight.js) |
