@@ -393,6 +393,7 @@ NoOnlineServer,연결된 온라인 서버가 없습니다.,There is no connected
 TempConnClose,모닥불에서 떠납니다,Stepped away from the bonfire
 CreatingNoti,알림 생성중...,Creating notification...
 AlreadyHasTemp,이미 참여한 모닥불이 있습니다.,You have already participated in a bonfire.
+LowResOpt,저해상도 최적화,Low-resolution optimization
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
