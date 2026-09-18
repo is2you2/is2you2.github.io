@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-16T19:17:33+09:00</updated>
+  <updated>2026-09-19T01:32:31+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Ember 앱 분석 (클라이언트에 대해, ChatGPT)</title>
+    <link href="https://is2you2.github.io/posts/ember-analysis/" rel="alternate" type="text/html" title="Ember 앱 분석 (클라이언트에 대해, ChatGPT)" />
+    <published>2026-09-19T01:31:00+09:00</published>
+  
+    <updated>2026-09-19T01:31:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/ember-analysis/</id>
+    <content src="https://is2you2.github.io/posts/ember-analysis/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="Ember" />
+    
+    <category term="불씨 이야기" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Project Cone / Ember — 프로젝트 분석 보고서
+
+
+  분석 대상: 업로드된 build.zip
+분석 방식: 빌드 산출물의 SvelteKit 구조, JavaScript 번들, Service Worker, manifest, 번역 리소스, 아이콘/이미지 리소스를 정적 분석
+주의: 이번 분석 대상에는 원본 소스 코드와 서버 백엔드가 포함되어 있지 않으므로, 서버 내부 구현·DB 서버 스키마·보안 설정 등은 클라이언트가 실제로 사용하는 프로토콜을 바탕으로 추론한 부분이 있다.
+
+
+
+
+1. 한눈에 보는 프로젝트 개요
+
+이 프로젝트는 단순한 채팅 애플리케이션이라기보다 로컬 기록 저장 + 서버 기반 폐쇄형 커뮤니케이션 + 실시간 채팅 + 파일/문서 작업 + WebRTC 통화 + PWA형 오프라인 경험을...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -279,68 +327,6 @@ AI가 장편 소설을 못 쓰는 이유가 정말로
 “결국 이렇게 됐습니다.”
 
 “이 사람이...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>도파민과 목적의 관계</title>
-    <link href="https://is2you2.github.io/posts/dopamine-and-purpose/" rel="alternate" type="text/html" title="도파민과 목적의 관계" />
-    <published>2026-09-12T01:20:00+09:00</published>
-  
-    <updated>2026-09-12T01:20:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/dopamine-and-purpose/</id>
-    <content src="https://is2you2.github.io/posts/dopamine-and-purpose/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      사람을 꿰뚫어 본다는 것
-— 우리는 사람을 어떻게 판단하는가
-
-사람을 좀 함부로 평가하는 이야기일 수도 있는데요.
-
-요즘 사람의 됨됨이를 본다는 게 생각보다 단순한 일일 수도 있겠다는 생각이 들었습니다.
-
-처음에는 굉장히 거창한 기준이 필요할 거라고 생각했어요.
-
-그 사람이 얼마나 착한지,
-얼마나 성실한지,
-얼마나 책임감이 있는지.
-
-그런데 조금 다르게 생각해보니까,
-
-어쩌면 사람을 보는 데 필요한 건
-그 사람이 무엇을 반복해서 선택하는가를 보는 것 아닐까 싶더라고요.
-
-
-
-도파민을 쫓는 사람
-
-얼마 전에 도파민에 대해서 이런 생각을 한 적이 있습니다.
-
-도파민이라는 건 원래 목적을 향해 움직이게 만드는 일종의 촉매 같은 역할을 하는데,
-
-사람이 어느 순간부터 그 촉매 자체를 목적으로 삼기 시작하면 문...
     </summary>
   
 
