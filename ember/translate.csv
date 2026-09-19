@@ -99,6 +99,7 @@ SIGNUP_APPROVAL_REQUEST,가입 수락 요청,Request to accept membership
 CHANNEL_JOIN_REQUEST,채널 가입 수락 요청,Channel Join Acceptance Request
 CHANNEL_JOIN_SUCC,채널 가입 승인됨,Channel membership approved
 KICKED_FROM_CHANNEL,채널에서 강제 퇴장되었습니다,You have been forcibly removed from the channel
+FORBIDDEN_PATH,잘못된 경로 접근입니다.,Invalid path access.
 ## Main
 Title,활동,Activity
 CreateNew,새 채널 생성,Create a new channel
@@ -168,6 +169,7 @@ CustomLangPack,사용자 지정 언어팩,Custom language packs
 DBSettings,DB 서버 설정,DB Server Settings
 QRCodeScan,QR코드 스캐너,QRCode scanner
 ServerSettings,서버 설정,Server settings
+ShowDevOpt,개발자 옵션 보이기,Show Developer options
 ## QRCode
 ClickToCopy,클릭하여 복사하기,Click to copy
 QRCodeResultHere,스캔 결과가 여기에 표시됩니다,The scan results are displayed here.
@@ -248,7 +250,7 @@ NamePlaceHolder,예: 내 개인 서버,Example: My private server
 Host,호스트 주소,Host address
 Port,포트,Port
 UseSSL,SSL(https) 사용,Use SSL (https)
-EmptyServer,등록된 서버가 없습니다.,There are no registered servers.
+EmptyServer,불 지필 자리가 없습니다.,There is no space to light a fire.
 ClickAdd,우측 상단의 '+' 버튼을 눌러 서버를 추가해보세요.,Try adding a server by pressing the '+' button at the top right.
 AutoConnect,앱 시작 시 자동 연결,Automatic connection when the app starts
 Logout,로그아웃,Logout
@@ -389,11 +391,11 @@ Leave,퇴장,Leaved
 InvitationLink,초대 링크,Invitation link
 SelectTempServer,임시 방 개설하기,Open a temporary room
 SelectTempServerDesc,임시 방을 개설할 중계 서버를 선택하세요.,Please select a relay server to open a temporary room.
-NoOnlineServer,연결된 온라인 서버가 없습니다.,There is no connected online server.
 TempConnClose,모닥불에서 떠납니다,Stepped away from the bonfire
 CreatingNoti,알림 생성중...,Creating notification...
 AlreadyHasTemp,이미 참여한 모닥불이 있습니다.,You have already participated in a bonfire.
-LowResOpt,저해상도 최적화,Low-resolution optimization
+LowResOpt,작은 이미지로 보내기,Send as a small image
+DeleteAfterClone,복제 후 삭제하기,Delete after copying
 ## ChannelList
 NoChannels,참여 중인 채널이 없습니다,There are no participating channels
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
