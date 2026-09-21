@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-20T22:38:26+09:00</updated>
+  <updated>2026-09-21T15:41:33+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,253 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>돈은 돌아야 한다</title>
+    <link href="https://is2you2.github.io/posts/money-money-money/" rel="alternate" type="text/html" title="돈은 돌아야 한다" />
+    <published>2026-09-21T09:16:00+09:00</published>
+  
+    <updated>2026-09-21T09:16:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/money-money-money/</id>
+    <content src="https://is2you2.github.io/posts/money-money-money/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      돈은 왜 돌아야 하는가
+
+— 부자를 싫어하는 마음에 대하여
+
+사람들은 왜 부자를 싫어할까?
+
+흔히 이 질문에 대한 답으로 질투나 상대적 박탈감을 이야기한다.
+“나는 돈이 없는데 저 사람은 돈이 많으니까.”
+
+물론 그런 감정이 존재할 수 있다.
+
+하지만 조금 다른 방향에서 생각해볼 수도 있다.
+
+어쩌면 사람들이 불편해하는 것은 부자라는 사람 자체가 아니라, 돈이 특정한 사람에게 지나치게 모여 있는 상태일지도 모른다.
+
+이 생각을 따라가다 보면 돈이라는 것이 단순히 물건을 사고파는 수단을 넘어, 사회에서 상당히 독특한 역할을 하고 있다는 것을 발견하게 된다.
+
+
+
+돈은 돌아야 한다
+
+돈이라는 이름의 유래를 설명할 때 흔히 “돌고 돈다”는 이야기를 한다.
+
+정확한 어원과는 별개의 이야기지만, 돈의 기능을 생...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>이중재화론 3부</title>
+    <link href="https://is2you2.github.io/posts/two-layer-money-02/" rel="alternate" type="text/html" title="이중재화론 3부" />
+    <published>2026-09-21T09:05:00+09:00</published>
+  
+    <updated>2026-09-21T09:05:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/two-layer-money-02/</id>
+    <content src="https://is2you2.github.io/posts/two-layer-money-02/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      그런데 인간들은 가만히 있을까?
+
+앞에서는 꽤 이상적인 미래를 상상해봤다.
+
+AI와 로봇이 인간의 노동을 상당 부분 대신하고,
+
+기본적인 생존에 필요한 생산은 충분히 이루어지고,
+
+모든 사람에게 하위 재화가 지급된다.
+
+그리고 그 이상의 삶을 원하는 사람은 상위 재화를 얻어서 더 많은 것을 선택한다.
+
+생존과 욕망을 분리하는 것이다.
+
+그렇게만 보면 꽤 그럴듯해 보인다.
+
+그런데 한 가지 문제가 있다.
+
+이 시스템을 실제 인간 사회에 넣는 순간에도 사람들이 가만히 있을까?
+
+아마 그렇지는 않을 것이다.
+
+
+
+미래는 한꺼번에 오지 않는다
+
+가장 먼저 생각해야 하는 문제가 있다.
+
+AI와 로봇이 인간의 일을 대신한다고 해서 모든 일이 동시에 사라지는 것은 아니다.
+
+어떤 일은 빠르게 자동화될 것이다.
+
+공...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>이중재화론 2부</title>
+    <link href="https://is2you2.github.io/posts/two-layer-money-01/" rel="alternate" type="text/html" title="이중재화론 2부" />
+    <published>2026-09-21T09:03:00+09:00</published>
+  
+    <updated>2026-09-21T09:03:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/two-layer-money-01/</id>
+    <content src="https://is2you2.github.io/posts/two-layer-money-01/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      먹고사는 게 해결된 인간은 무엇을 원할까?
+
+1부에서는 돈을 두 종류로 나눠보았다.
+
+하나는 살아가기 위한 하위 재화.
+
+그리고 다른 하나는 내가 원하는 삶을 만들어가기 위한 상위 재화.
+
+이런 구조가 가능하려면 전제가 하나 필요했다.
+
+AI와 로봇이 인간의 노동을 상당 부분 대신해서, 적어도 기본적인 생존에 필요한 생산이 인간의 노동에 크게 의존하지 않는 사회.
+
+그런 사회에서는 모든 사람에게 기본적인 생존이 보장될 수 있다.
+
+그런데 여기서 굉장히 이상한 질문이 하나 생긴다.
+
+먹고사는 문제가 해결되면 인간은 무엇을 위해 살아갈까?
+
+
+
+지금의 인간에게 돈은 너무 많은 것을 의미한다
+
+지금은 돈이 굉장히 중요한 역할을 한다.
+
+돈이 없으면 밥을 먹기 어렵고, 집을 구하기 어렵고, 병원에 가기도 어렵...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>이중재화론 1부</title>
+    <link href="https://is2you2.github.io/posts/two-layer-money-00/" rel="alternate" type="text/html" title="이중재화론 1부" />
+    <published>2026-09-21T08:54:00+09:00</published>
+  
+    <updated>2026-09-21T08:54:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/two-layer-money-00/</id>
+    <content src="https://is2you2.github.io/posts/two-layer-money-00/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      돈이 두 종류라면?
+
+가끔 이런 생각을 하고는 한다.
+
+재화가 게임 재화처럼 두 종류로 나뉜다면 어떨까?
+
+게임을 하다 보면 흔히 여러 종류의 재화를 만나게 된다.
+
+게임을 플레이하면서 얻을 수 있는 일반적인 재화가 있는가 하면, 현금으로 구매해야 하는 프리미엄 재화가 있기도 하다. 그리고 재미있는 점은 이 둘의 관계가 완전히 대칭적이지 않다는 것이다.
+
+프리미엄 재화로 일반 재화를 바꿀 수는 있지만, 일반 재화를 아무리 많이 모아도 프리미엄 재화를 살 수 없는 게임도 있다.
+
+처음에는 그냥 게임 시스템일 뿐이다.
+
+그런데 문득 이런 생각이 들었다.
+
+현실의 돈도 굳이 하나일 필요가 있을까?
+
+
+
+먼저 하나의 전제가 필요하다
+
+물론 이 이야기를 지금 당장 현실에 적용하자는 것은 아니다.
+
+지금은 사람이...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -79,246 +326,6 @@
 
 재산이나 생활, 가족관계 같은 것들을 포함해서
 서로가 서...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Ember 앱 분석 (클라이언트에 대해, ChatGPT)</title>
-    <link href="https://is2you2.github.io/posts/ember-analysis/" rel="alternate" type="text/html" title="Ember 앱 분석 (클라이언트에 대해, ChatGPT)" />
-    <published>2026-09-19T01:31:00+09:00</published>
-  
-    <updated>2026-09-19T01:31:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/ember-analysis/</id>
-    <content src="https://is2you2.github.io/posts/ember-analysis/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="Ember" />
-    
-    <category term="불씨 이야기" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Project Cone / Ember — 프로젝트 분석 보고서
-
-
-  분석 대상: 업로드된 build.zip
-분석 방식: 빌드 산출물의 SvelteKit 구조, JavaScript 번들, Service Worker, manifest, 번역 리소스, 아이콘/이미지 리소스를 정적 분석
-주의: 이번 분석 대상에는 원본 소스 코드와 서버 백엔드가 포함되어 있지 않으므로, 서버 내부 구현·DB 서버 스키마·보안 설정 등은 클라이언트가 실제로 사용하는 프로토콜을 바탕으로 추론한 부분이 있다.
-
-
-
-
-1. 한눈에 보는 프로젝트 개요
-
-이 프로젝트는 단순한 채팅 애플리케이션이라기보다 로컬 기록 저장 + 서버 기반 폐쇄형 커뮤니케이션 + 실시간 채팅 + 파일/문서 작업 + WebRTC 통화 + PWA형 오프라인 경험을...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Project Cone에서 Ember로 — 디지털 캠프파이어</title>
-    <link href="https://is2you2.github.io/posts/pjcone-to-ember/" rel="alternate" type="text/html" title="Project Cone에서 Ember로 — 디지털 캠프파이어" />
-    <published>2026-09-16T19:08:00+09:00</published>
-  
-    <updated>2026-09-16T19:08:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/pjcone-to-ember/</id>
-    <content src="https://is2you2.github.io/posts/pjcone-to-ember/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="Ember" />
-    
-    <category term="불씨 이야기" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Project Cone에서 Ember로 — 디지털 캠프파이어
-
-Project Cone이라는 이름으로 시작했던 프로젝트가 Ember라는 이름으로 다시 시작합니다.
-
-정확히 말하면 완전히 새로운 프로젝트가 되는 것은 아닙니다.
-
-지금까지 만들어온 기능도, 버전 1.3.3까지의 과정도, 그동안 작성했던 사용 설명서와 개발 기록도 모두 이어집니다.
-
-달라지는 것은 이 프로젝트를 바라보는 방식입니다.
-
-Project Cone
-
-처음 Project Cone을 만들기 시작했을 때는 조금 더 기술적인 관점에서 프로젝트를 바라보고 있었습니다.
-
-사람들이 자기 서버를 만들고, 다른 사람을 초대하고, 그 안에서 이야기를 나눌 수 있는 작은 소셜 공간.
-
-어떻게 서버를 구성할지, 어떤 기술을 사용할지, 어떻게 사람을 연결할...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AI에게 고맙다고 하지마세요?</title>
-    <link href="https://is2you2.github.io/posts/manner-to-ai/" rel="alternate" type="text/html" title="AI에게 고맙다고 하지마세요?" />
-    <published>2026-09-13T00:59:00+09:00</published>
-  
-    <updated>2026-09-13T00:59:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/manner-to-ai/</id>
-    <content src="https://is2you2.github.io/posts/manner-to-ai/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI에게 왜 예의를 차릴까?
-
-요즘 AI한테 질문할 때
-이상하게 예의를 차리게 됩니다.
-
-“고마워.”
-
-“오, 그건 생각 못 했네.”
-
-“이 관점 재밌다.”
-
-뭐 이런 말들.
-
-그런데 가만히 생각해보면 이상합니다.
-
-AI한테 예의를 차려서 뭐가 좋지?
-
-AI가 기분 나빠할 것도 아니고,
-제가 반말을 한다고 삐질 것도 아니고,
-제가 “고마워”라고 한다고 월급이 올라가는 것도 아닙니다.
-
-그런데 저는 합니다.
-
-오히려 사람보다 더 자주 하는 것 같기도 합니다.
-
-왜 그럴까?
-
-
-
-처음에는 그냥 습관이라고 생각했습니다.
-
-사람한테 하던 말버릇이 AI한테도 나오는 거겠지.
-
-그런데 조금 더 생각해보니까
-그것만으로 설명하기엔 이상한 부분이 있었습니다.
-
-AI한테 하는 “고마워”에는
-조금 다른 의미가 들어가 있거...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AI를 어떻게 쓸 것인가</title>
-    <link href="https://is2you2.github.io/posts/can-ai-write-novel/" rel="alternate" type="text/html" title="AI를 어떻게 쓸 것인가" />
-    <published>2026-09-13T00:27:00+09:00</published>
-  
-    <updated>2026-09-13T01:19:23+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/can-ai-write-novel/</id>
-    <content src="https://is2you2.github.io/posts/can-ai-write-novel/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI는 장편 소설을 쓸 수 있을까?
-― 딸깍과 협업 사이
-
-요즘 AI 이야기를 보다 보면 이런 이야기가 가끔 나옵니다.
-
-“AI가 장편 소설을 제대로 쓰려면 AGI 정도는 되어야 한다.”
-
-어떤 사람은 더 나아가서 ASI, 그러니까 초지능 수준까지 가야 장편 창작을 정복할 수 있을 거라고 이야기하기도 합니다.
-
-처음에는 저도 이 말이 어느 정도는 맞는 이야기인가 싶었습니다.
-
-그런데 가만히 생각해보니까,
-
-잠깐만. 정말 그런가?
-
-라는 생각이 들더라고요.
-
-
-
-AI가 장편 소설을 못 쓰는 이유가 정말로
-
-“현재 AI의 지능이 부족해서”
-
-일까요?
-
-아니면 우리가 AI에게 소설을 쓰라고 시키는 방식 자체가 잘못된 걸까요?
-
-
-
-저는 개발할 때 AI를 이렇게 사용합니다.
-
-저는 Svelte로 작업할 때 A...
     </summary>
   
 
