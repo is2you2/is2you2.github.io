@@ -354,6 +354,7 @@ SetActInfo,좌클릭: 탐색기 / 우클릭: 클립보드 첨부,Left-click: Exp
 NewText,새 문서,Doc.
 NewVoice,새 녹음,Rec.
 NewDraw,새 그림,Draw
+NewStory,스토리,Story
 ScrReader,읽어주기,Reader
 SetLimit,기한설정,Limit
 Migration,채널복제,Copy
@@ -471,3 +472,30 @@ NoDeadlineTodo,등록된 마감 일정이 없습니다.,There are no registered 
 Monthly,월간,Monthly
 Weekly,주간,Weekly
 Schedule,일정,Schedule
+## StoryMaker
+NewStory,새 스토리,New Story
+StoryNode,스토리 노드,Story Node
+NewElement,새 요소,New element
+ElementNode,요소 노드,Element node
+ClickToDetail,노드를 클릭하여 상세 내용을 확인하세요.,Click a node to view details.
+Search,노드 검색,Node Search
+SearchBy,제목/내용 검색...,Search title/content...
+Title,제목,Title
+NoTitle,제목 없음,Untitled
+Content,내용,Content
+ConnNode,연결된 노드,Connected node
+NoConnNode,연결된 노드가 없습니다.,There are no connected nodes.
+View,보기,View
+Connect,연결,Conn
+Disconn,해제,Rels
+Order,순서,Order
+Up,위로,Up
+Down,아래로,Down
+Category,종류,Category
+ViewDetail,상세 보기,View Details
+RemoveCurrent,현재 노드 삭제,Delete current node
+Character,등장인물,Characters
+Place,장소,Place
+Item,아이템,Item
+Event,사건,Event
+Etc,기타,etc.
