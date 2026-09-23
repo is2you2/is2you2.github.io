@@ -498,8 +498,10 @@ Up,위로,Up
 Down,아래로,Down
 Category,종류,Category
 ViewDetail,상세 보기,View Details
+ViewAll,모두 보기,View all
 RemoveCurrent,현재 노드 삭제,Delete current node
 Character,등장인물,Characters
+Group,집단,Group
 Place,장소,Place
 Item,아이템,Item
 Event,사건,Event
