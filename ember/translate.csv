@@ -502,7 +502,7 @@ Place,장소,Place
 Item,아이템,Item
 Event,사건,Event
 Etc,기타,etc.
-SubStoryNode,스토리 분기,Sub-story
+SubStory,스토리 분기,Sub-story
 LegendList,종류별 요소,Elements by type
 Unconnected,연결되지 않은 요소,Unconnected
 Prev,이전,Prev
