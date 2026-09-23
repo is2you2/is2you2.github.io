@@ -171,6 +171,8 @@ DBSettings,DB 서버 설정,DB Server Settings
 QRCodeScan,QR코드 스캐너,QRCode scanner
 ServerSettings,서버 설정,Server settings
 ShowDevOpt,개발자 옵션 보이기,Show Developer options
+General,일반,General
+AppLandingPage,소개 페이지로 가기,Go to the introduction page
 ## QRCode
 ClickToCopy,클릭하여 복사하기,Click to copy
 QRCodeResultHere,스캔 결과가 여기에 표시됩니다,The scan results are displayed here.
