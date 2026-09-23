@@ -36,6 +36,7 @@ Caution,주의,Caution
 ClickToEdit,클릭하여 직접 입력,Click to enter manually
 RightClickToEdit,우클릭하여 편집,Right-click to edit
 AlreadyRecording,이미 녹음중,Already recording
+Empty,목록이 없습니다.,There is no list.
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
@@ -474,8 +475,10 @@ Weekly,주간,Weekly
 Schedule,일정,Schedule
 ## StoryMaker
 NewStory,새 스토리,New Story
-StoryNode,스토리 노드,Story Node
+StoryNode,메인 스토리 노드,Main Story Node
 NewElement,새 요소,New element
+NewSubStory,새 분기,New Sub-story
+AddSubBranch,하위 분기 추가,Add sub-branch
 ElementNode,요소 노드,Element node
 ClickToDetail,노드를 클릭하여 상세 내용을 확인하세요.,Click a node to view details.
 Search,노드 검색,Node Search
@@ -499,5 +502,8 @@ Place,장소,Place
 Item,아이템,Item
 Event,사건,Event
 Etc,기타,etc.
+SubStoryNode,스토리 분기,Sub-story
+LegendList,종류별 요소,Elements by type
+Unconnected,연결되지 않은 요소,Unconnected
 Prev,이전,Prev
 Next,다음,Next
