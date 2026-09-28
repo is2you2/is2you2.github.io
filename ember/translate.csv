@@ -103,9 +103,9 @@ KICKED_FROM_CHANNEL,채널에서 강제 퇴장되었습니다,You have been forc
 FORBIDDEN_PATH,잘못된 경로 접근입니다.,Invalid path access.
 ## Main
 Title,활동,Activity
-CreateNew,새 채널 생성,Create a new channel
+CreateNew,새 할 일 생성,Create new task
 Memo,메모,Memo
-Channels,채널,Channels
+Channels,할 일,Todo
 Post,게시물,Post
 Features,기능,Features
 Chats,채팅,Chats
@@ -118,11 +118,11 @@ LocalServerRequired,연결할 수 있는 서버가 없습니다.,There are no se
 InstantTempChat,모닥불 피우기,Lighting a Bonfire
 RightClickToLeave,우클릭하여 떠나기,Right-click to leave
 ## CreateNew
-InModify,채널 편집,Channel editing
+InModify,할 일 편집,Edit Task
 ServerName,어디에 저장할까요?,Where should I save it?
-ChannelName,채널 제목,Channel title
-InputName,채널 이름을 입력하세요,Enter channel name
-ChannelImage,채널 이미지,Channel image
+ChannelName,할 일 제목,Task Title
+InputName,제목을 입력하세요,Enter a title
+ChannelImage,대표 이미지,Representative Image
 SelectImage,이미지 선택,Select image
 MaxLimit,최대 인원,Max capacity
 isPublic,가입 시 승인 필요,Approval required to join
@@ -138,8 +138,8 @@ NoParticipant,참여자 정보가 없습니다.,There is no participant informat
 ## CustomSelect
 SelectOne,선택하세요,Please select
 ## Channels
-NoNameChannel,이름 없는 채널,Nameless Channel
-NoMessage,기록된 메시지 없음,No recorded messages
+NoNameChannel,이름 없는 할 일,Nameless Tasks
+NoMessage,기록된 내용 없음,No recorded content
 ## Profile
 NoNameUser,이름 없는 사용자,Nameless user
 WithdrawnUser,탈퇴한 사용자,Withdrawn user
@@ -342,17 +342,17 @@ RemoveMsgFailed,메시지 삭제 실패,Message deletion failed
 Send,전송,Send
 SendMsgFailed,메시지 전송 실패,Message transmission failed
 SyncMsgFailed,서버 동기화에 실패했습니다,Server synchronization failed
-CopyChannelSucc,채널 복제 성공,Channel cloning successful
-CopyChannelFailed,채널 복제 실패,Channel duplication failure
+CopyChannelSucc,내용 복제 성공,Content replication successful
+CopyChannelFailed,내용 복제 실패,Failed to copy content
 SetPin,핀 보드에 등록,Register on the pin board
 RemPin,핀 보드에서 제거,Remove pins from board
 FailedToSetPin,핀 상태 변경에 실패,Failed to change pin state
 LoadMsgBefore,이전 메시지 불러오기,Load previous message
 ShowLastMsg,최근 메시지 보기,View recent messages
 SetRoomBg,배경설정,Set Bg
-SetRoomBgLong,채널 배경 이미지 설정,Channel background image settings
+SetRoomBgLong,배경 이미지 설정,Set background image
 RemRoomBg,배경제거,Rem Bg
-RemRoomBgLong,채널 배경 이미지 제거,Remove channel background image
+RemRoomBgLong,배경 이미지 제거,Remove background image
 SetActInfo,좌클릭: 탐색기 / 우클릭: 클립보드 첨부,Left-click: Explorer / Right-click: Attach to Clipboard
 NewText,새 문서,Doc.
 NewVoice,새 녹음,Rec.
@@ -360,7 +360,7 @@ NewDraw,새 그림,Draw
 NewStory,스토리,Story
 ScrReader,읽어주기,Reader
 SetLimit,기한설정,Limit
-Migration,채널복제,Copy
+Migration,내용복제,Copy
 SetTargetChannel,대상 채널 선택,Select target channel
 CopyChanDesc,로컬 기록을 동일하게 전송할 온라인 채널을 선택하세요,Please select an online channel to transmit the local records identically
 NoOnlineChan,사용 가능한 온라인 채널이 없습니다,There are no available online channels
@@ -401,14 +401,14 @@ AlreadyHasTemp,이미 참여한 모닥불이 있습니다.,You have already part
 LowResOpt,작은 이미지로 보내기,Send as a small image
 DeleteAfterClone,복제 후 삭제하기,Delete after copying
 ## ChannelList
-NoChannels,참여 중인 채널이 없습니다,There are no participating channels
-PressAdd,우측 상단의 + 버튼을 눌러 새로운 채널을 생성해보세요,Try creating a new channel by pressing the + button at the top right.
+NoChannels,생성된 할 일이 없습니다,There are no tasks created
+PressAdd,우측 상단의 + 버튼을 눌러 새로운 할 일을 생성해보세요,Tap the + button in the top-right corner to create a new task
 Attachments,첨부파일,Attachments
-NoCleanerTarget,정리할 연결 끊긴 채널이 없습니다,There are no disconnected channels to clean up
+NoCleanerTarget,정리할 수 있는 할 일이 없습니다,There are no tasks to organize
 CleaningConfirm,연결이 끊어진 모든 채널 삭제,Delete all disconnected channels
-Search,채널 제목 검색...,Search channel title...
+Search,할 일 제목 검색...,Search task titles...
 NotFound,검색 결과 없음,No search results
-NoMatchingInfo,일치하는 채널 제목 없음,No matching channel title
+NoMatchingInfo,일치하는 할 일 제목 없음,No matching to-do titles
 ## voidDraw
 ToggleMenu,설정 메뉴 열기/닫기,Open/Close Settings Menu
 Tools,기본 도구,Basic tools
