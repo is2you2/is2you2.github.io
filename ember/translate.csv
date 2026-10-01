@@ -401,6 +401,10 @@ CreatingNoti,알림 생성중...,Creating notification...
 AlreadyHasTemp,이미 참여한 모닥불이 있습니다.,You have already participated in a bonfire.
 LowResOpt,작은 이미지로 보내기,Send as a small image
 DeleteAfterClone,복제 후 삭제하기,Delete after copying
+CloneToLocal,로컬 채널로 복제,Replicate to local channel
+CloneToLocalDesc,선택한 수량만큼의 최근 메시지와 첨부파일을 로컬 환경에 복제하여 오프라인에서도 확인할 수 있도록 새 채널을 생성합니다.,It creates a new channel by copying a specified number of recent messages and attachments to your local environment, allowing you to view them even while offline.
+HowManyCopy,복제할 최근 메시지 수,Number of recent messages to duplicate
+ApplyClone,복제 시작,Start replication
 ## ChannelList
 NoChannels,생성된 할 일이 없습니다,There are no tasks created
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 할 일을 생성해보세요,Tap the + button in the top-right corner to create a new task
