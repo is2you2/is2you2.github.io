@@ -357,7 +357,8 @@ SetActInfo,좌클릭: 탐색기 / 우클릭: 클립보드 첨부,Left-click: Exp
 NewText,새 문서,Doc.
 NewVoice,새 녹음,Rec.
 NewDraw,새 그림,Draw
-NewStory,스토리,Story
+NewStory,설계나무,NodeTree
+NewSound,소리초안,Sound
 ScrReader,읽어주기,Reader
 SetLimit,기한설정,Limit
 Migration,내용복제,Copy
@@ -476,12 +477,16 @@ Monthly,월간,Monthly
 Weekly,주간,Weekly
 Schedule,일정,Schedule
 ## StoryMaker
-NewStory,새 스토리,New Story
-StoryNode,메인 스토리 노드,Main Story Node
+NewStory,새 흐름,New Flow
+StoryNode,메인 흐름 노드,Main Flow Node
 NewElement,새 요소,New element
-NewSubStory,새 분기,New Sub-story
-AddSubBranch,하위 분기 추가,Add sub-branch
+Node,노드,Node
+NewSubStory,새 분기,New Sub-Flow
+SubFlow,하위 흐름,Sub-Flow
 ElementNode,요소 노드,Element node
+SetType,타입 설정,Type
+SetTypeName,타입 이름,Type Name
+SetFlowable,흐름 노드,Flow Node
 ClickToDetail,노드를 클릭하여 상세 내용을 확인하세요.,Click a node to view details.
 Search,노드 검색,Node Search
 SearchBy,제목/내용 검색...,Search title/content...
@@ -511,3 +516,27 @@ LegendList,종류별 요소,Elements by type
 Unconnected,연결되지 않은 요소,Unconnected
 Prev,이전,Prev
 Next,다음,Next
+## SoundDraft
+Tempo,템포,Tempo
+Beat,박자,Beat
+RecordSpeed,녹음 배속,Recording speed
+Tracklist,트랙 목록,Tracklist
+SelectTrack,표시/녹음할 트랙을 선택 (최대 2개),Select tracks to display/record (up to 2)
+TrackName,트랙 이름,Track Name
+Arpeggio,아르페지오,Arpeggio
+DelTrack,트랙 삭제,Delete track
+SingleTrack,단일 노트 트랙,Single-note track
+ChordTrack,코드 트랙,Chord Track
+Connected,연결됨,Connected
+Play,재생,Play
+Stop,정지,Stop
+EditMode,편집 모드,Edit Mode
+EditOff,편집 끄기,Turn off editing
+Loop,반복 재생,Loop
+Volume,음량,Volume
+NoneTarget,(없음),(None)
+SelectTrackEmpty,우측 설정에서 표시할 트랙을 선택하세요.,Select the tracks to display from the settings on the right.
+BackToFront,처음으로 돌아가기,Return to the beginning
+BaseLength,반복 길이,Repeat length
+RepeatCount,반복 횟수,Number of repetitions
+NextTrack,트랙 뒤에 연결,Connect behind the track
