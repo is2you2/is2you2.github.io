@@ -531,7 +531,6 @@ Arpeggio,아르페지오,Arpeggio
 DelTrack,트랙 삭제,Delete track
 SingleTrack,단일 노트 트랙,Single-note track
 ChordTrack,코드 트랙,Chord Track
-Connected,연결됨,Connected
 Play,재생,Play
 Stop,정지,Stop
 EditMode,편집 모드,Edit Mode
@@ -544,3 +543,4 @@ BackToFront,처음으로 돌아가기,Return to the beginning
 BaseLength,반복 길이,Repeat length
 RepeatCount,반복 횟수,Number of repetitions
 NextTrack,트랙 뒤에 연결,Connect behind the track
+Octave,옥타브,Octave
