@@ -164,8 +164,6 @@ SetDefaultHit,우클릭하여 기기 기본값 설정,Right-click to set device 
 Creator,제작자,Creator
 QRcodeInvite,QRCode 초대,QR Code Invitation
 Sponsor,후원,Sponsorship
-ShowAds,광고 보기로 후원하기,Support by watching ads
-RestartToRemoveAds,앱을 다시 시작하면 광고가 제거됩니다,Restarting the app will remove the ads.
 CustomLangPack,사용자 지정 언어팩,Custom language packs
 DBSettings,DB 서버 설정,DB Server Settings
 QRCodeScan,QR코드 스캐너,QRCode scanner
