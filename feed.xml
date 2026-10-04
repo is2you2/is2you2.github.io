@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-09-21T15:41:33+09:00</updated>
+  <updated>2026-10-04T09:24:31+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,118 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>신뢰란 무엇인가</title>
+    <link href="https://is2you2.github.io/posts/what-is-trust/" rel="alternate" type="text/html" title="신뢰란 무엇인가" />
+    <published>2026-09-21T18:20:00+09:00</published>
+  
+    <updated>2026-09-21T18:20:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/what-is-trust/</id>
+    <content src="https://is2you2.github.io/posts/what-is-trust/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      신뢰는 대체 무엇으로 만들어지는가
+
+
+  “AI로 롤을 20분 만에 만들었습니다.”
+
+
+요즘 AI와 관련된 콘텐츠를 보다 보면 이런 식의 제목을 종종 만나게 된다.
+
+처음 보면 굉장히 놀랍다.
+
+정말로 AI에게 무언가를 시켰고, 얼마 지나지 않아 화면에서 게임이 돌아간다면 영상 자체는 거짓말이 아닐 수도 있다.
+
+그런데 조금 생각해 보면 이상한 점이 생긴다.
+
+그것이 정말 ‘롤을 만들었다’는 말과 같은 이야기일까?
+
+롤이라는 게임을 실제로 만들려면 게임의 규칙만 필요한 것이 아니다.
+
+그래픽과 애니메이션, 사운드, 네트워크, 서버, 매치메이킹, 밸런싱, 치팅 방지, 운영, 패치, 배포, 수많은 예외 상황과 버그까지 해결해야 한다.
+
+무엇보다 롤이 이미 존재하지 않았다면, AI에게 무엇을 만들어야 하는지...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>당신의 실패 - 파산, 회생에 대해</title>
+    <link href="https://is2you2.github.io/posts/social-forgiveness/" rel="alternate" type="text/html" title="당신의 실패 - 파산, 회생에 대해" />
+    <published>2026-09-21T17:02:00+09:00</published>
+  
+    <updated>2026-09-21T17:02:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/social-forgiveness/</id>
+    <content src="https://is2you2.github.io/posts/social-forgiveness/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      파산과 회생은 무엇을 위한 제도일까
+
+
+  법을 잘 모르는 사람이 파산과 회생을 바라보며 정리해 본 생각.
+
+  아래 내용은 법률 상담이나 개별 사건에 대한 판단이 아니라, 제도의 큰 구조를 이해하기 위한 글입니다. 실제 절차와 요건은 개인·법인, 채무의 종류, 사건의 구체적인 사정에 따라 달라질 수 있습니다.
+
+
+1. 처음에는 파산이 그냥 ‘빚을 없애는 것’처럼 보였다
+
+파산이라는 말을 들으면 흔히 이런 장면을 떠올리게 된다.
+
+
+  가진 것을 다 내놓고
+빚쟁이들에게 나누어 주고
+아무것도 남지 않은 상태에서 다시 시작한다.
+
+
+그래서 처음에는 파산이 굉장히 무서운 제도처럼 느껴진다.
+
+그런데 조금 찾아보니, 파산은 단순히 사람을 망하게 만드는 절차라기보다 더 이상 정상적인 방법으로 모든 채무를 갚을 ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -72,194 +184,6 @@
 돈이라는 이름의 유래를 설명할 때 흔히 “돌고 돈다”는 이야기를 한다.
 
 정확한 어원과는 별개의 이야기지만, 돈의 기능을 생...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>이중재화론 3부</title>
-    <link href="https://is2you2.github.io/posts/two-layer-money-02/" rel="alternate" type="text/html" title="이중재화론 3부" />
-    <published>2026-09-21T09:05:00+09:00</published>
-  
-    <updated>2026-09-21T09:05:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/two-layer-money-02/</id>
-    <content src="https://is2you2.github.io/posts/two-layer-money-02/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      그런데 인간들은 가만히 있을까?
-
-앞에서는 꽤 이상적인 미래를 상상해봤다.
-
-AI와 로봇이 인간의 노동을 상당 부분 대신하고,
-
-기본적인 생존에 필요한 생산은 충분히 이루어지고,
-
-모든 사람에게 하위 재화가 지급된다.
-
-그리고 그 이상의 삶을 원하는 사람은 상위 재화를 얻어서 더 많은 것을 선택한다.
-
-생존과 욕망을 분리하는 것이다.
-
-그렇게만 보면 꽤 그럴듯해 보인다.
-
-그런데 한 가지 문제가 있다.
-
-이 시스템을 실제 인간 사회에 넣는 순간에도 사람들이 가만히 있을까?
-
-아마 그렇지는 않을 것이다.
-
-
-
-미래는 한꺼번에 오지 않는다
-
-가장 먼저 생각해야 하는 문제가 있다.
-
-AI와 로봇이 인간의 일을 대신한다고 해서 모든 일이 동시에 사라지는 것은 아니다.
-
-어떤 일은 빠르게 자동화될 것이다.
-
-공...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>이중재화론 2부</title>
-    <link href="https://is2you2.github.io/posts/two-layer-money-01/" rel="alternate" type="text/html" title="이중재화론 2부" />
-    <published>2026-09-21T09:03:00+09:00</published>
-  
-    <updated>2026-09-21T09:03:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/two-layer-money-01/</id>
-    <content src="https://is2you2.github.io/posts/two-layer-money-01/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      먹고사는 게 해결된 인간은 무엇을 원할까?
-
-1부에서는 돈을 두 종류로 나눠보았다.
-
-하나는 살아가기 위한 하위 재화.
-
-그리고 다른 하나는 내가 원하는 삶을 만들어가기 위한 상위 재화.
-
-이런 구조가 가능하려면 전제가 하나 필요했다.
-
-AI와 로봇이 인간의 노동을 상당 부분 대신해서, 적어도 기본적인 생존에 필요한 생산이 인간의 노동에 크게 의존하지 않는 사회.
-
-그런 사회에서는 모든 사람에게 기본적인 생존이 보장될 수 있다.
-
-그런데 여기서 굉장히 이상한 질문이 하나 생긴다.
-
-먹고사는 문제가 해결되면 인간은 무엇을 위해 살아갈까?
-
-
-
-지금의 인간에게 돈은 너무 많은 것을 의미한다
-
-지금은 돈이 굉장히 중요한 역할을 한다.
-
-돈이 없으면 밥을 먹기 어렵고, 집을 구하기 어렵고, 병원에 가기도 어렵...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>이중재화론 1부</title>
-    <link href="https://is2you2.github.io/posts/two-layer-money-00/" rel="alternate" type="text/html" title="이중재화론 1부" />
-    <published>2026-09-21T08:54:00+09:00</published>
-  
-    <updated>2026-09-21T08:54:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/two-layer-money-00/</id>
-    <content src="https://is2you2.github.io/posts/two-layer-money-00/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      돈이 두 종류라면?
-
-가끔 이런 생각을 하고는 한다.
-
-재화가 게임 재화처럼 두 종류로 나뉜다면 어떨까?
-
-게임을 하다 보면 흔히 여러 종류의 재화를 만나게 된다.
-
-게임을 플레이하면서 얻을 수 있는 일반적인 재화가 있는가 하면, 현금으로 구매해야 하는 프리미엄 재화가 있기도 하다. 그리고 재미있는 점은 이 둘의 관계가 완전히 대칭적이지 않다는 것이다.
-
-프리미엄 재화로 일반 재화를 바꿀 수는 있지만, 일반 재화를 아무리 많이 모아도 프리미엄 재화를 살 수 없는 게임도 있다.
-
-처음에는 그냥 게임 시스템일 뿐이다.
-
-그런데 문득 이런 생각이 들었다.
-
-현실의 돈도 굳이 하나일 필요가 있을까?
-
-
-
-먼저 하나의 전제가 필요하다
-
-물론 이 이야기를 지금 당장 현실에 적용하자는 것은 아니다.
-
-지금은 사람이...
     </summary>
   
 
@@ -326,6 +250,54 @@ AI와 로봇이 인간의 노동을 상당 부분 대신해서, 적어도 기본
 
 재산이나 생활, 가족관계 같은 것들을 포함해서
 서로가 서...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Ember 앱 분석 (클라이언트에 대해, ChatGPT)</title>
+    <link href="https://is2you2.github.io/posts/ember-analysis/" rel="alternate" type="text/html" title="Ember 앱 분석 (클라이언트에 대해, ChatGPT)" />
+    <published>2026-09-19T01:31:00+09:00</published>
+  
+    <updated>2026-09-19T01:31:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/ember-analysis/</id>
+    <content src="https://is2you2.github.io/posts/ember-analysis/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="Ember" />
+    
+    <category term="불씨 이야기" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Project Cone / Ember — 프로젝트 분석 보고서
+
+
+  분석 대상: 업로드된 build.zip
+분석 방식: 빌드 산출물의 SvelteKit 구조, JavaScript 번들, Service Worker, manifest, 번역 리소스, 아이콘/이미지 리소스를 정적 분석
+주의: 이번 분석 대상에는 원본 소스 코드와 서버 백엔드가 포함되어 있지 않으므로, 서버 내부 구현·DB 서버 스키마·보안 설정 등은 클라이언트가 실제로 사용하는 프로토콜을 바탕으로 추론한 부분이 있다.
+
+
+
+
+1. 한눈에 보는 프로젝트 개요
+
+이 프로젝트는 단순한 채팅 애플리케이션이라기보다 로컬 기록 저장 + 서버 기반 폐쇄형 커뮤니케이션 + 실시간 채팅 + 파일/문서 작업 + WebRTC 통화 + PWA형 오프라인 경험을...
     </summary>
   
 
