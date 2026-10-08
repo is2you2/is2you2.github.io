@@ -528,8 +528,9 @@ SelectTrack,표시/녹음할 트랙을 선택 (최대 2개),Select tracks to dis
 TrackName,트랙 이름,Track Name
 Arpeggio,아르페지오,Arpeggio
 DelTrack,트랙 삭제,Delete track
-SingleTrack,단일 노트 트랙,Single-note track
-ChordTrack,코드 트랙,Chord Track
+note,단일 노트 트랙,Single-note track
+chord,코드 트랙,Chord Track
+audio,녹음 트랙,Audio Track
 Play,재생,Play
 Stop,정지,Stop
 EditMode,편집 모드,Edit Mode
@@ -543,3 +544,7 @@ BaseLength,반복 길이,Repeat length
 RepeatCount,반복 횟수,Number of repetitions
 NextTrack,트랙 뒤에 연결,Connect behind the track
 Octave,옥타브,Octave
+HoldToRecord,누르고 있으면 녹음됩니다,Press and hold to record.
+Recording,녹음 중...,Recording...
+MustBeInRecMode,REC 버튼을 눌러 편집 모드를 켜주세요.,Press the REC button to activate edit mode.
+ExportMIDI,MIDI로 내보내기 (.mid),Export as MIDI (.mid)
