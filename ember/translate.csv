@@ -548,3 +548,7 @@ HoldToRecord,누르고 있으면 녹음됩니다,Press and hold to record.
 Recording,녹음 중...,Recording...
 MustBeInRecMode,REC 버튼을 눌러 편집 모드를 켜주세요.,Press the REC button to activate edit mode.
 ExportMIDI,MIDI로 내보내기 (.mid),Export as MIDI (.mid)
+SampleInstrument,악기 샘플러,Instrument sampler
+DeleteSample,클릭하여 샘플 삭제,Click to delete sample
+RecordSample,음색 녹음 (누르고 있기),Record Tone (Press and hold)
+BaseOctave,원음 옥타브 (C),Base Note Octave (C)
