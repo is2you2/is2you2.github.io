@@ -38,6 +38,7 @@ RightClickToEdit,우클릭하여 편집,Right-click to edit
 AlreadyRecording,이미 녹음중,Already recording
 Empty,목록이 없습니다.,There is no list.
 WaitingServerAct,서버 연결 시도중...,Attempting to connect to the server...
+OK,확인,OK
 ## Server
 SIGNUP_BLOCKED,더 이상 가입할 수 없습니다,Sign-up is currently blocked
 ALREADY_SIGNUP,이미 존재하거나 승인 대기 중인 아이디입니다,ID already exists or is pending approval
@@ -552,3 +553,7 @@ SampleInstrument,악기 샘플러,Instrument sampler
 DeleteSample,클릭하여 샘플 삭제,Click to delete sample
 RecordSample,음색 녹음 (누르고 있기),Record Tone (Press and hold)
 BaseOctave,원음 옥타브 (C),Base Note Octave (C)
+CropSample,샘플 다듬기 (Crop),Trimming the Sample (Crop)
+CropSelection,오렌지색 핸들을 움직여 공백을 제외할 재생 구간을 설정하세요.,Move the orange handles to set the playback range, excluding the empty space.
+SelectedSection,선택 구간,Selected Section
+Preview,미리듣기,Preview
