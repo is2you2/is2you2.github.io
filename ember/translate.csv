@@ -557,3 +557,6 @@ CropSample,샘플 다듬기 (Crop),Trimming the Sample (Crop)
 CropSelection,오렌지색 핸들을 움직여 공백을 제외할 재생 구간을 설정하세요.,Move the orange handles to set the playback range, excluding the empty space.
 SelectedSection,선택 구간,Selected Section
 Preview,미리듣기,Preview
+SingleNote,단음,Single Note
+PermissionNeeded,마이크 권한이 필요합니다,Microphone permission is required
+NoNoteTrack,노트 트랙이 없습니다.,There are no note tracks.
