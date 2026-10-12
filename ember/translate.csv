@@ -173,6 +173,7 @@ ServerSettings,서버 설정,Server settings
 ShowDevOpt,개발자 옵션 보이기,Show Developer options
 General,일반,General
 AppLandingPage,소개 페이지로 가기,Go to the introduction page
+ShowToolsOnStartup,앱 시작시 도구 템플릿 표시,Show tool templates on app startup
 ## QRCode
 ClickToCopy,클릭하여 복사하기,Click to copy
 QRCodeResultHere,스캔 결과가 여기에 표시됩니다,The scan results are displayed here.
@@ -560,3 +561,24 @@ Preview,미리듣기,Preview
 SingleNote,단음,Single Note
 PermissionNeeded,마이크 권한이 필요합니다,Microphone permission is required
 NoNoteTrack,노트 트랙이 없습니다.,There are no note tracks.
+## Tools
+Title,아이디어 점화기,Idea Igniter
+SubTitle,네트워크나 계정 설정 없이 브라우저에서 바로 창작하고 확인하세요.,Create and preview directly in your browser—no network or account setup required.
+BackToEmber,모닥불 공간으로 가기,Go to the Ember space.
+LoadFile,기존 작업 파일 불러오기,Load existing work file
+OpenFile,파일 열기,Open File
+LoadDesc,저장해 둔 프로젝트 파일이나 이미지 및 텍스트를 열어 작업을 이어가세요.,Open saved project files, images, or text to continue your work.
+WorkDesc,작업한 내용은 언제든지 단일 파일(또는 ZIP 번들)로 안전하게내보내거나 로컬에 보관할 수 있습니다.,You can securely export your work as a single file (or a ZIP bundle) or store it locally at any time.
+AddNew,새로 만들기,Create New
+TitleSound,소리 초안,Sound Draft
+TagSound,미니 오디오 루퍼 & 샘플러,Mini Audio Looper & Sampler
+DescSound,노크나 박수 소리를 직접 녹음해 나만의 비트 악기로 만들고 멜로디를 직관적으로 스케치하세요.,Directly record sounds like knocks or claps to create your own custom beat instruments, and intuitively sketch out melodies.
+TitleStory,이야기 설계나무,Story Maker
+TagStory,노드 기반 시나리오 에디터,Node-based scenario editor
+DescStory,선택지에 따라 분기되는 인터랙티브 스토리와 게임 기획 및 대화 트리를 노드로 설계하세요.,Design interactive stories that branch based on choices, as well as game mechanics and dialogue trees, using a node-based structure.
+TitleDraw,간이 그림판,Simple Drawing Board
+TagDraw,미니멀 벡터 & 픽셀 캔버스,Minimal Vector & Pixel Canvas
+DescDraw,떠오르는 아이디어를 즉석에서 자유롭게 드로잉하고 그래픽으로 구체화하세요.,Freely sketch emerging ideas on the spot and bring them to life as graphics.
+TitleNote,텍스트 편집기,Text Editor
+TagNote,즉시 기록하는 텍스트 편집기,Instant-recording text editor
+DescNote,불필요한 서식 고민 없이 가볍고 빠르게 글을 쓰고 정리할 수 있는 텍스트 환경을 제공합니다.,It provides a text environment where you can write and organize content quickly and effortlessly, without worrying about unnecessary formatting.
