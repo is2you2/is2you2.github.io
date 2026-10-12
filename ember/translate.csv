@@ -411,7 +411,7 @@ NoChannels,생성된 할 일이 없습니다,There are no tasks created
 PressAdd,우측 상단의 + 버튼을 눌러 새로운 할 일을 생성해보세요,Tap the + button in the top-right corner to create a new task
 Attachments,첨부파일,Attachments
 NoCleanerTarget,정리할 수 있는 할 일이 없습니다,There are no tasks to organize
-CleaningConfirm,연결이 끊어진 모든 채널 삭제,Delete all disconnected channels
+CleaningConfirm,일괄 삭제 대상 채널 삭제,Delete channels selected for batch deletion
 Search,할 일 제목 검색...,Search task titles...
 NotFound,검색 결과 없음,No search results
 NoMatchingInfo,일치하는 할 일 제목 없음,No matching to-do titles
