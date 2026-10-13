@@ -442,7 +442,7 @@ BlendMode,블렌드 모드,Blend Mode
 ## WebRTC
 InvalidServer,통화 서버 주소가 유효하지 않습니다.,The call server address is invalid.
 PermissionNeeded,카메라/마이크 권한이 필요합니다,Camera/microphone permission is required
-EndCall,통화 종료됨,Call ended
+EndCall,연결 종료됨,Connection closed
 FailedDevChange,장치 전환에 실패했습니다,Failed to switch devices
 ConnectLost,참가자와의 연결이 끊어졌습니다,The connection with the participant has been lost
 voiceOnly,음성 전용 모드,Voice Only Mode
