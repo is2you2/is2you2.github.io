@@ -358,6 +358,7 @@ SetActInfo,좌클릭: 탐색기 / 우클릭: 클립보드 첨부,Left-click: Exp
 NewText,새 문서,Doc.
 NewVoice,새 녹음,Rec.
 NewDraw,새 그림,Draw
+NewVector,새 벡터,Vector
 NewStory,설계나무,NodeTree
 NewSound,소리초안,Sound
 ScrReader,읽어주기,Reader
@@ -439,6 +440,18 @@ GatheringDrawMode,모아 보내기 모드 (나에게만 보임),Collect and send
 SendGatherings,모아진 그리기 발송,Send collected drawings
 SendingGathers,모아진 그리기 발송중 (캔버스 잠김),Sending collected drawings (Canvas locked)
 BlendMode,블렌드 모드,Blend Mode
+## VectorDraw
+PlaneTrans,면 투명도,Face Transparency
+StrokeTrans,선 투명도,Line transparency
+SetBg,배경 밑그림 설정,Setting up the background sketch
+SetBgDesc,배경에 참고용 이미지를 깔고 외곽선을 땁니다.,Place a reference image in the background and trace its outlines.
+LineStyle,선 및 끝 모양 스타일,Line and End Shape Styles
+LineCap,선 끝 모양,Line End Shape
+SelectObj,개체 목록,List of Entities
+All,전체,All
+Selected,선택됨,Selected
+Path,경로,Path
+NoPath,표시할 개체가 없습니다.,There are no objects to display.
 ## WebRTC
 InvalidServer,통화 서버 주소가 유효하지 않습니다.,The call server address is invalid.
 PermissionNeeded,카메라/마이크 권한이 필요합니다,Camera/microphone permission is required
@@ -578,6 +591,9 @@ TagStory,노드 기반 시나리오 에디터,Node-based scenario editor
 DescStory,선택지에 따라 분기되는 인터랙티브 스토리와 게임 기획 및 대화 트리를 노드로 설계하세요.,Design interactive stories that branch based on choices, as well as game mechanics and dialogue trees, using a node-based structure.
 TitleDraw,간이 그림판,Simple Drawing Board
 TagDraw,미니멀 벡터 & 픽셀 캔버스,Minimal Vector & Pixel Canvas
+TitleVector,벡터 스케치,Vector Sketch
+TagVector,SVG Vector,SVG Vector
+DescVector,선과 베지어 곡선으로 투명 배경의 깔끔한 벡터 그래픽을 드로잉합니다.,Create clean vector graphics with transparent backgrounds using lines and Bézier curves.
 DescDraw,떠오르는 아이디어를 즉석에서 자유롭게 드로잉하고 그래픽으로 구체화하세요.,Freely sketch emerging ideas on the spot and bring them to life as graphics.
 TitleNote,텍스트 편집기,Text Editor
 TagNote,즉시 기록하는 텍스트 편집기,Instant-recording text editor
