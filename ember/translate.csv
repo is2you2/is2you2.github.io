@@ -192,6 +192,7 @@ UserAccount,내 계정 정보,My Account Information
 DeleteInfo,정보 삭제하기,Delete information
 ## Post
 NoNamePost,이름 없는 게시물,Nameless post
+WriteAsMarkdown,마크다운 형식으로 내용을 작성해주세요.,Please write the content in Markdown format.
 NewPost,새 게시물,New post
 TimeAnchor,오디오 시간 기록,Audio time recording
 NeedTitle,게시물 제목을 입력하세요,Please enter the post title
@@ -581,7 +582,7 @@ BackToEmber,모닥불 공간으로 가기,Go to the Ember space.
 LoadFile,기존 작업 파일 불러오기,Load existing work file
 OpenFile,파일 열기,Open File
 LoadDesc,저장해 둔 프로젝트 파일이나 이미지 및 텍스트를 열어 작업을 이어가세요.,Open saved project files, images, or text to continue your work.
-WorkDesc,작업한 내용은 언제든지 단일 파일(또는 ZIP 번들)로 안전하게내보내거나 로컬에 보관할 수 있습니다.,You can securely export your work as a single file (or a ZIP bundle) or store it locally at any time.
+WorkDesc,작업한 내용은 언제든지 단일 파일(또는 ZIP 번들)로 안전하게 내보내거나 로컬에 보관할 수 있습니다.,You can securely export your work as a single file (or a ZIP bundle) or save it locally at any time.
 AddNew,새로 만들기,Create New
 TitleSound,소리 초안,Sound Draft
 TagSound,미니 오디오 루퍼 & 샘플러,Mini Audio Looper & Sampler
@@ -598,3 +599,6 @@ DescDraw,떠오르는 아이디어를 즉석에서 자유롭게 드로잉하고 
 TitleNote,텍스트 편집기,Text Editor
 TagNote,즉시 기록하는 텍스트 편집기,Instant-recording text editor
 DescNote,불필요한 서식 고민 없이 가볍고 빠르게 글을 쓰고 정리할 수 있는 텍스트 환경을 제공합니다.,It provides a text environment where you can write and organize content quickly and effortlessly, without worrying about unnecessary formatting.
+TitlePost,게시물 편집기,Post Editor
+DescPost,텍스트와 다양한 미디어를 자유롭게 배치하여 풍부한 문서를 작성합니다.,Create rich documents by freely arranging text and various types of media.
+TagPost,엮은 글 작성,Rich Post Editor
