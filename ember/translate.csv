@@ -215,6 +215,8 @@ AudioFile,오디오 파일,audio file
 Unspectified,미지정 첨부파일,Unspecified attachment
 SearchContents,제목 또는 내용 검색...,Search title or content...
 NoMatchingInfo,일치하는 게시물 없음,No matching posts
+Search,찾기,Search
+SearchWord,검색어를 입력하세요,Enter a search term
 ## FileViewer
 New,새 파일,New file
 Run,실행하기,Run
