@@ -544,6 +544,7 @@ RecordSpeed,녹음 배속,Recording speed
 Tracklist,트랙 목록,Tracklist
 SelectTrack,표시/녹음할 트랙을 선택 (최대 2개),Select tracks to display/record (up to 2)
 TrackName,트랙 이름,Track Name
+SingleNote,단음,Single Note
 Arpeggio,아르페지오,Arpeggio
 DelTrack,트랙 삭제,Delete track
 note,단일 노트 트랙,Single-note track
