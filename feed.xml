@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-10-08T03:42:19+09:00</updated>
+  <updated>2026-10-23T23:49:09+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,52 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI slop 을 획기적으로 줄이는 방법</title>
+    <link href="https://is2you2.github.io/posts/ai-slop-and-survival/" rel="alternate" type="text/html" title="AI slop 을 획기적으로 줄이는 방법" />
+    <published>2026-10-23T23:34:00+09:00</published>
+  
+    <updated>2026-10-23T23:34:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/ai-slop-and-survival/</id>
+    <content src="https://is2you2.github.io/posts/ai-slop-and-survival/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI slop을 줄이는 가장 근본적인 방법은, 어쩌면 아무것도 만들지 않아도 되는 사회일지 모른다
+
+AI가 만든 저품질 콘텐츠, 이른바 ‘AI slop’이 인터넷을 가득 채우고 있다는 이야기가 자주 나온다. 원본 영상에 자막만 붙인 콘텐츠, 이미 유행한 형식을 조금 바꾼 영상, 무엇 하나 얻어걸리기를 바라며 대량으로 생성한 이미지와 글들.
+
+이 현상을 두고 흔히 AI의 성능이나 플랫폼의 추천 알고리즘, 콘텐츠 검수의 문제를 이야기한다. 물론 그런 요인도 중요하다. 하지만 나는 조금 다른 곳에서 출발해 보고 싶다.
+
+왜 사람들은 굳이 이런 콘텐츠를 만들어야 하는가?
+
+1. 성공하는 콘텐츠를 따라가는 사람들
+
+누군가 유튜브에서 성공하고 싶다고 생각해 보자. 그런데 자신만의 주제는 없고, 당장 생활비는 필요...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -191,14 +237,14 @@
 
   
   <entry>
-    <title>관계는 곧 책임이다</title>
-    <link href="https://is2you2.github.io/posts/contract-is-relationship/" rel="alternate" type="text/html" title="관계는 곧 책임이다" />
-    <published>2026-09-20T22:00:00+09:00</published>
+    <title>이중재화론 3부</title>
+    <link href="https://is2you2.github.io/posts/two-layer-money-02/" rel="alternate" type="text/html" title="이중재화론 3부" />
+    <published>2026-09-21T09:05:00+09:00</published>
   
-    <updated>2026-09-20T22:00:00+09:00</updated>
+    <updated>2026-10-23T23:48:43+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/contract-is-relationship/</id>
-    <content src="https://is2you2.github.io/posts/contract-is-relationship/" />
+    <id>https://is2you2.github.io/posts/two-layer-money-02/</id>
+    <content src="https://is2you2.github.io/posts/two-layer-money-02/" />
     <author>
       <name>최성수</name>
     </author>
@@ -219,85 +265,39 @@
 
 
 
-      관계는 책임이고, 계약은 관계를 기록한다
+      그런데 인간들은 가만히 있을까?
 
-사람과 사람 사이에는
-여러 가지 관계가 있습니다.
+앞에서는 꽤 이상적인 미래를 상상해봤다.
 
-친구가 될 수도 있고,
-연인이 될 수도 있고,
-가족이 될 수도 있죠.
+AI와 로봇이 인간의 노동을 상당 부분 대신하고,
 
-그런데 저는 관계라는 게
-단순히 서로 얼마나 친한지를 나타내는 말은 아니라고 생각합니다.
+기본적인 생존에 필요한 생산은 충분히 이루어지고,
 
-오히려 관계에는
-그 관계에 맞는 책임의 범위가 있다고 생각해요.
+모든 사람에게 하위 재화가 지급된다.
 
-친구라면 친구로서의 책임이 있습니다.
+그리고 그 이상의 삶을 원하는 사람은 상위 재화를 얻어서 더 많은 것을 선택한다.
 
-같이 놀아주고,
-힘들 때 이야기를 들어주고,
-친구로서 할 수 있는 만큼 서로를 챙기는 것.
+생존과 욕망을 분리하는 것이다.
 
-연인이 되면 책임의 범위가 조금 더 넓어집니다.
+그렇게만 보면 꽤 그럴듯해 보인다.
 
-서로의 외로움을 위로해준다거나,
-서로의 감정에 조금 더 깊이 관여한다거나.
+그런데 한 가지 문제가 있다.
 
-그리고 결혼이라는 관계가 되면
-그 책임은 법적인 영역까지 확장됩니다.
+이 시스템을 실제 인간 사회에 넣는 순간에도 사람들이 가만히 있을까?
 
-재산이나 생활, 가족관계 같은 것들을 포함해서
-서로가 서...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Ember 앱 분석 (클라이언트에 대해, ChatGPT)</title>
-    <link href="https://is2you2.github.io/posts/ember-analysis/" rel="alternate" type="text/html" title="Ember 앱 분석 (클라이언트에 대해, ChatGPT)" />
-    <published>2026-09-19T01:31:00+09:00</published>
-  
-    <updated>2026-09-19T01:31:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/ember-analysis/</id>
-    <content src="https://is2you2.github.io/posts/ember-analysis/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="Ember" />
-    
-    <category term="불씨 이야기" />
-    
-  
-
-  
-    <summary>
-      
+아마 그렇지는 않을 것이다.
 
 
 
+미래는 한꺼번에 오지 않는다
 
+가장 먼저 생각해야 하는 문제가 있다.
 
-      Project Cone / Ember — 프로젝트 분석 보고서
+AI와 로봇이 인간의 일을 대신한다고 해서 모든 일이 동시에 사라지는 것은 아니다.
 
+어떤 일은 빠르게 자동화될 것이다.
 
-  분석 대상: 업로드된 build.zip
-분석 방식: 빌드 산출물의 SvelteKit 구조, JavaScript 번들, Service Worker, manifest, 번역 리소스, 아이콘/이미지 리소스를 정적 분석
-주의: 이번 분석 대상에는 원본 소스 코드와 서버 백엔드가 포함되어 있지 않으므로, 서버 내부 구현·DB 서버 스키마·보안 설정 등은 클라이언트가 실제로 사용하는 프로토콜을 바탕으로 추론한 부분이 있다.
-
-
-
-
-1. 한눈에 보는 프로젝트 개요
-
-이 프로젝트는 단순한 채팅 애플리케이션이라기보다 로컬 기록 저장 + 서버 기반 폐쇄형 커뮤니케이션 + 실시간 채팅 + 파일/문서 작업 + WebRTC 통화 + PWA형 오프라인 경험을...
+공...
     </summary>
   
 
