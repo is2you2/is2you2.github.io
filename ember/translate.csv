@@ -590,7 +590,7 @@ AddNew,새로 만들기,Create New
 TitleSound,소리 초안,Sound Draft
 TagSound,미니 오디오 루퍼 & 샘플러,Mini Audio Looper & Sampler
 DescSound,노크나 박수 소리를 직접 녹음해 나만의 비트 악기로 만들고 멜로디를 직관적으로 스케치하세요.,Directly record sounds like knocks or claps to create your own custom beat instruments, and intuitively sketch out melodies.
-TitleStory,이야기 설계나무,Story Maker
+TitleStory,설계나무,Tree Maker
 TagStory,노드 기반 시나리오 에디터,Node-based scenario editor
 DescStory,선택지에 따라 분기되는 인터랙티브 스토리와 게임 기획 및 대화 트리를 노드로 설계하세요.,Design interactive stories that branch based on choices, as well as game mechanics and dialogue trees, using a node-based structure.
 TitleDraw,간이 그림판,Simple Drawing Board
