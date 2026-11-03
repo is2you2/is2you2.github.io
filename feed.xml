@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-10-23T23:49:09+09:00</updated>
+  <updated>2026-11-04T01:00:25+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>한국에서 게임이 매타작 받는 이유에 대해</title>
+    <link href="https://is2you2.github.io/posts/new-industries-and-the-right-to-fail/" rel="alternate" type="text/html" title="한국에서 게임이 매타작 받는 이유에 대해" />
+    <published>2026-11-03T23:54:00+09:00</published>
+  
+    <updated>2026-11-03T23:54:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/new-industries-and-the-right-to-fail/</id>
+    <content src="https://is2you2.github.io/posts/new-industries-and-the-right-to-fail/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      새로운 산업은 왜 자신을 인정받기 어려운 방식으로 성장하는가
+
+게임 산업에서 시작해 세대의 권리와 실패할 기회까지
+
+새로운 산업은 왜 사회적으로 인정받기 어려울까? 단순히 기존 세대가 새로운 문화를 싫어하기 때문일까, 아니면 새로운 산업이 살아남기 위해 선택하는 방식 자체가 인정받기 어려운 결과를 낳기 때문일까?
+
+이번 생각은 국내 게임 산업에 대한 의문에서 시작했다. 게임은 오랫동안 사회적 질타의 대상이었고, 그 질타에는 사행성이나 과몰입 같은 현실적인 우려뿐 아니라 세대 간 문화적 거리도 섞여 있는 듯하다. 이야기를 따라가다 보니 게임 산업의 수익 구조, 신생 산업의 생존 방식, 세대 간 권한 배분, 그리고 아이들에게 실패할 수 있는 공간을 주는 일까지 하나의 문제로 연결되었다.
+
+이 글은 그 연결...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -230,74 +274,6 @@ AI가 만든 저품질 콘텐츠, 이른바 ‘AI slop’이 인터넷을 가득
 돈이라는 이름의 유래를 설명할 때 흔히 “돌고 돈다”는 이야기를 한다.
 
 정확한 어원과는 별개의 이야기지만, 돈의 기능을 생...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>이중재화론 3부</title>
-    <link href="https://is2you2.github.io/posts/two-layer-money-02/" rel="alternate" type="text/html" title="이중재화론 3부" />
-    <published>2026-09-21T09:05:00+09:00</published>
-  
-    <updated>2026-10-23T23:48:43+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/two-layer-money-02/</id>
-    <content src="https://is2you2.github.io/posts/two-layer-money-02/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      그런데 인간들은 가만히 있을까?
-
-앞에서는 꽤 이상적인 미래를 상상해봤다.
-
-AI와 로봇이 인간의 노동을 상당 부분 대신하고,
-
-기본적인 생존에 필요한 생산은 충분히 이루어지고,
-
-모든 사람에게 하위 재화가 지급된다.
-
-그리고 그 이상의 삶을 원하는 사람은 상위 재화를 얻어서 더 많은 것을 선택한다.
-
-생존과 욕망을 분리하는 것이다.
-
-그렇게만 보면 꽤 그럴듯해 보인다.
-
-그런데 한 가지 문제가 있다.
-
-이 시스템을 실제 인간 사회에 넣는 순간에도 사람들이 가만히 있을까?
-
-아마 그렇지는 않을 것이다.
-
-
-
-미래는 한꺼번에 오지 않는다
-
-가장 먼저 생각해야 하는 문제가 있다.
-
-AI와 로봇이 인간의 일을 대신한다고 해서 모든 일이 동시에 사라지는 것은 아니다.
-
-어떤 일은 빠르게 자동화될 것이다.
-
-공...
     </summary>
   
 
