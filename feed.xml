@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-04T01:00:25+09:00</updated>
+  <updated>2026-11-05T06:02:20+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>편견은 어떻게 만들어지고 왜 사라지지 않을까?</title>
+    <link href="https://is2you2.github.io/posts/about-prejudice/" rel="alternate" type="text/html" title="편견은 어떻게 만들어지고 왜 사라지지 않을까?" />
+    <published>2026-11-05T05:15:00+09:00</published>
+  
+    <updated>2026-11-05T05:15:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/about-prejudice/</id>
+    <content src="https://is2you2.github.io/posts/about-prejudice/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      편견은 어떻게 만들어지고, 왜 쉽게 사라지지 않을까?
+
+우리는 다른 문화권의 행동을 이해할 때 그 사회의 맥락을 고려하곤 한다.
+
+미국에서 운전하다 경찰에게 검문을 받는 상황을 생각해 보자. 한국에서라면
+운전면허증을 꺼내기 위해 자연스럽게 옷 안쪽 주머니에 손을 넣을 수 있다.
+하지만 총기 소지가 일상적인 미국의 일부 상황에서는 경찰이 이를 위협적인
+행동으로 받아들일 수 있다. 좋은 의도로 한 행동이라도 상대방의 문화적
+맥락에서는 전혀 다르게 해석될 수 있는 것이다.
+
+그렇다면 우리 사회의 문화적 시선은 어떨까?
+
+문신을 바라보는 한국 사회의 시선도 그중 하나다. 문신을 한 사람에게
+특별히 나쁜 의도가 있는 것은 아니다. 자기표현일 수도 있고, 취향이나
+기억을 몸에 새긴 것일 수도 있다. 그러나 문신은...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -215,65 +265,6 @@ AI가 만든 저품질 콘텐츠, 이른바 ‘AI slop’이 인터넷을 가득
 그래서 처음에는 파산이 굉장히 무서운 제도처럼 느껴진다.
 
 그런데 조금 찾아보니, 파산은 단순히 사람을 망하게 만드는 절차라기보다 더 이상 정상적인 방법으로 모든 채무를 갚을 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>돈은 돌아야 한다</title>
-    <link href="https://is2you2.github.io/posts/money-money-money/" rel="alternate" type="text/html" title="돈은 돌아야 한다" />
-    <published>2026-09-21T09:16:00+09:00</published>
-  
-    <updated>2026-09-21T09:16:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/money-money-money/</id>
-    <content src="https://is2you2.github.io/posts/money-money-money/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      돈은 왜 돌아야 하는가
-
-— 부자를 싫어하는 마음에 대하여
-
-사람들은 왜 부자를 싫어할까?
-
-흔히 이 질문에 대한 답으로 질투나 상대적 박탈감을 이야기한다.
-“나는 돈이 없는데 저 사람은 돈이 많으니까.”
-
-물론 그런 감정이 존재할 수 있다.
-
-하지만 조금 다른 방향에서 생각해볼 수도 있다.
-
-어쩌면 사람들이 불편해하는 것은 부자라는 사람 자체가 아니라, 돈이 특정한 사람에게 지나치게 모여 있는 상태일지도 모른다.
-
-이 생각을 따라가다 보면 돈이라는 것이 단순히 물건을 사고파는 수단을 넘어, 사회에서 상당히 독특한 역할을 하고 있다는 것을 발견하게 된다.
-
-
-
-돈은 돌아야 한다
-
-돈이라는 이름의 유래를 설명할 때 흔히 “돌고 돈다”는 이야기를 한다.
-
-정확한 어원과는 별개의 이야기지만, 돈의 기능을 생...
     </summary>
   
 
