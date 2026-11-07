@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-05T06:02:20+09:00</updated>
+  <updated>2026-11-07T23:19:30+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>우리는 무엇을 구매하는가</title>
+    <link href="https://is2you2.github.io/posts/what-we-buy/" rel="alternate" type="text/html" title="우리는 무엇을 구매하는가" />
+    <published>2026-11-07T23:08:00+09:00</published>
+  
+    <updated>2026-11-07T23:08:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/what-we-buy/</id>
+    <content src="https://is2you2.github.io/posts/what-we-buy/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      우리는 상품을 사는가, 경험을 사는가
+
+NFT에서 팬덤 경제와 가챠 게임까지, 소비의 표면과 실제 욕구 사이
+
+우리는 흔히 물건을 산다고 생각한다. 그림을 사고, 앨범을 사고, 게임
+캐릭터를 얻는다. 하지만 구매의 순간을 조금 더 들여다보면 실제로 돈을
+지불하는 대상은 상품 그 자체가 아닐 때가 많다.
+
+누군가는 새로운 기술을 사용해 봤다는 경험을 사고, 누군가는 좋아하는
+사람과 연결되어 있다는 감각을 산다. 또 누군가는 이야기 속 인물을 자신의
+곁에 두고 싶어 한다.
+
+상품은 눈에 보이는 거래의 대상이지만, 그 뒤에는 훨씬 다양한 욕구가 놓여
+있다.
+
+이런 관점에서 NFT 열풍과 아이돌 팬덤의 앨범 대량 구매, 가챠 게임의 고액
+캐릭터 획득을 살펴보면 서로 달라 보이는 소비가 하나의 질문으로 이어진다...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -209,62 +261,6 @@ AI가 만든 저품질 콘텐츠, 이른바 ‘AI slop’이 인터넷을 가득
 그래픽과 애니메이션, 사운드, 네트워크, 서버, 매치메이킹, 밸런싱, 치팅 방지, 운영, 패치, 배포, 수많은 예외 상황과 버그까지 해결해야 한다.
 
 무엇보다 롤이 이미 존재하지 않았다면, AI에게 무엇을 만들어야 하는지...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>당신의 실패 - 파산, 회생에 대해</title>
-    <link href="https://is2you2.github.io/posts/social-forgiveness/" rel="alternate" type="text/html" title="당신의 실패 - 파산, 회생에 대해" />
-    <published>2026-09-21T17:02:00+09:00</published>
-  
-    <updated>2026-09-21T17:02:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/social-forgiveness/</id>
-    <content src="https://is2you2.github.io/posts/social-forgiveness/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      파산과 회생은 무엇을 위한 제도일까
-
-
-  법을 잘 모르는 사람이 파산과 회생을 바라보며 정리해 본 생각.
-
-  아래 내용은 법률 상담이나 개별 사건에 대한 판단이 아니라, 제도의 큰 구조를 이해하기 위한 글입니다. 실제 절차와 요건은 개인·법인, 채무의 종류, 사건의 구체적인 사정에 따라 달라질 수 있습니다.
-
-
-1. 처음에는 파산이 그냥 ‘빚을 없애는 것’처럼 보였다
-
-파산이라는 말을 들으면 흔히 이런 장면을 떠올리게 된다.
-
-
-  가진 것을 다 내놓고
-빚쟁이들에게 나누어 주고
-아무것도 남지 않은 상태에서 다시 시작한다.
-
-
-그래서 처음에는 파산이 굉장히 무서운 제도처럼 느껴진다.
-
-그런데 조금 찾아보니, 파산은 단순히 사람을 망하게 만드는 절차라기보다 더 이상 정상적인 방법으로 모든 채무를 갚을 ...
     </summary>
   
 
