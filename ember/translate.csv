@@ -105,9 +105,9 @@ KICKED_FROM_CHANNEL,채널에서 강제 퇴장되었습니다,You have been forc
 FORBIDDEN_PATH,잘못된 경로 접근입니다.,Invalid path access.
 ## Main
 Title,활동,Activity
-CreateNew,새 할 일 생성,Create new task
+CreateNew,새 메모 생성,Create new memo
 Memo,메모,Memo
-Channels,할 일,Todo
+Channels,메모,Meno
 Post,게시물,Post
 Features,기능,Features
 Chats,채팅,Chats
@@ -120,9 +120,9 @@ LocalServerRequired,연결할 수 있는 서버가 없습니다.,There are no se
 InstantTempChat,모닥불 피우기,Lighting a Bonfire
 RightClickToLeave,우클릭하여 떠나기,Right-click to leave
 ## CreateNew
-InModify,할 일 편집,Edit Task
+InModify,메모 편집,Edit Memo
 ServerName,어디에 저장할까요?,Where should I save it?
-ChannelName,할 일 제목,Task Title
+ChannelName,메모 제목,Memo Title
 InputName,제목을 입력하세요,Enter a title
 ChannelImage,대표 이미지,Representative Image
 SelectImage,이미지 선택,Select image
@@ -141,7 +141,7 @@ IsPurgeable,일괄 삭제 대상,Items for bulk deletion
 ## CustomSelect
 SelectOne,선택하세요,Please select
 ## Channels
-NoNameChannel,이름 없는 할 일,Nameless Tasks
+NoNameChannel,이름 없는 메모,Nameless Memo
 NoMessage,기록된 내용 없음,No recorded content
 ## Profile
 NoNameUser,이름 없는 사용자,Nameless user
@@ -412,14 +412,14 @@ CloneToLocalDesc,선택한 수량만큼의 최근 메시지와 첨부파일을 �
 HowManyCopy,복제할 최근 메시지 수,Number of recent messages to duplicate
 ApplyClone,복제 시작,Start replication
 ## ChannelList
-NoChannels,생성된 할 일이 없습니다,There are no tasks created
-PressAdd,우측 상단의 + 버튼을 눌러 새로운 할 일을 생성해보세요,Tap the + button in the top-right corner to create a new task
+NoChannels,생성된 메모가 없습니다,There are no memos created
+PressAdd,우측 상단의 + 버튼을 눌러 새로운 메모를 생성해보세요,Tap the + button in the top-right corner to create a new memo
 Attachments,첨부파일,Attachments
-NoCleanerTarget,정리할 수 있는 할 일이 없습니다,There are no tasks to organize
+NoCleanerTarget,정리할 수 있는 메모가 없습니다,There are no memos to organize
 CleaningConfirm,일괄 삭제 대상 채널 삭제,Delete channels selected for batch deletion
-Search,할 일 제목 검색...,Search task titles...
+Search,메모 제목 검색...,Search memo titles...
 NotFound,검색 결과 없음,No search results
-NoMatchingInfo,일치하는 할 일 제목 없음,No matching to-do titles
+NoMatchingInfo,일치하는 메모 제목 없음,No matching memo titles
 ## voidDraw
 ToggleMenu,설정 메뉴 열기/닫기,Open/Close Settings Menu
 Tools,기본 도구,Basic tools
