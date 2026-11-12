@@ -106,8 +106,7 @@ FORBIDDEN_PATH,잘못된 경로 접근입니다.,Invalid path access.
 ## Main
 Title,활동,Activity
 CreateNew,새 메모 생성,Create new memo
-Memo,메모,Memo
-Channels,메모,Meno
+Channels,메모,Memo
 Post,게시물,Post
 Features,기능,Features
 Chats,채팅,Chats
@@ -365,6 +364,7 @@ NewDraw,새 그림,Draw
 NewVector,새 벡터,Vector
 NewStory,설계나무,NodeTree
 NewSound,소리초안,Sound
+NewGame,게임논리,Logics
 ScrReader,읽어주기,Reader
 SetLimit,기한설정,Limit
 Migration,내용복제,Copy
@@ -606,3 +606,479 @@ DescNote,불필요한 서식 고민 없이 가볍고 빠르게 글을 쓰고 정
 TitlePost,게시물 편집기,Post Editor
 DescPost,텍스트와 다양한 미디어를 자유롭게 배치하여 풍부한 문서를 작성합니다.,Create rich documents by freely arranging text and various types of media.
 TagPost,엮은 글 작성,Rich Post Editor
+TitleTurnMaker,게임 룰 메이커,Game Rule Maker
+TagTurnMaker,규칙 흐름 생성,Rule Flow Creation
+DescTurnMaker,카드와 단계를 조립해 규칙을 설계하고 핫시트 시뮬레이터로 직접 플레이하며 검증합니다.,Design rules by assembling cards and stages then verify them through hands-on play using the hot-seat simulator.
+## Feed
+ModeRelated,추천 피드,Recommended
+ModeTimeline,팔로잉 피드,Following
+ModeGlobal,전체 공개 피드,Public
+ModeMine,내 피드,My posts
+ModeDrafts,로컬 초안,Local drafts
+ViewModeMenuTitle,피드 보기 및 설정 메뉴,Feed view and settings
+ViewModeHeading,피드 보기 모드,Feed views
+SortRecent,최근 피드,Recent posts
+SortReactions,반응순,Most reactions
+SortComments,댓글순,Most comments
+Commenting,댓글 작성 중,Writing a comment
+PeriodDays,기간 (일),Period (days)
+ReactionTotal,전체 반응,All reactions
+CommentCountMetric,댓글 수,Comment count
+CommentReactionTotal,전체 댓글 반응,All comment reactions
+TopComment,주요 댓글,Highlighted comment
+ViewRelated,추천 피드 보기,Recommended posts
+ViewTimeline,팔로잉 피드,Following posts
+ViewGlobal,전체 공개 피드,Public posts
+ViewMine,내가 작성한 글,My posts
+ViewDrafts,로컬 초안 보관함 (오프라인),Local drafts (offline)
+ViewRefresh,피드 새로고침,Refresh feed
+ServerSwitch,서버 전환,Switch server
+SwitchToPinned,고정 메모 보기,View pinned notes
+SwitchToFeed,피드 보기,View feed
+ProfileSettings,프로필 및 설정,Profile and settings
+ProfileView,프로필 보기,View profile
+TagFilterBanner,#{tag} 태그 피드 보는 중,Viewing posts tagged #{tag}
+OfflineNotice,현재 온라인 서버가 연결되어 있지 않습니다. 위 입력창에서 작성하면 로컬 초안 보관함에 저장됩니다.,No server is online. Posts written above will be saved as local drafts.
+LoadingFeeds,피드를 불러오는 중입니다...,Loading feeds...
+EmptyTag,'#{tag}' 태그가 달린 피드가 없습니다.,No posts have the tag '#{tag}'
+EmptyTimeline,팔로우한 사용자의 피드가 아직 없습니다.,There are no posts from followed users yet.
+EmptyRelated,추천할 연관 피드가 없습니다.,There are no related posts to recommend.
+EmptyDefault,아직 등록된 피드가 없습니다.,There are no posts yet.
+EmptyDescription,모임 멤버들과 첫 번째 이야기를 공유해보세요!,Share the first story with your community!
+CreateFirstFeed,새 피드 작성하기,Create a post
+PublishToServer,서버에 게시,Post to server
+LocalDraftLabel,로컬 초안,Local draft
+SavedFeedLabel,저장된 피드,Saved post
+EditFeed,수정,Edit
+DeleteFeed,삭제,Delete
+ConfirmDeleteLocalDraft,로컬 초안을 삭제하시겠습니까?,Delete this local draft?
+ErrorPublishServerOffline,게시할 서버가 온라인 상태가 아닙니다.,The selected server is offline.
+ErrorCreateFailed,피드 작성에 실패했습니다.,Could not create the post.
+ErrorFeedServerUnavailable,피드가 작성된 서버에 연결할 수 없습니다.,Cannot connect to the server where this post was created.
+ErrorUpdateFailed,피드 수정에 실패했습니다.,Could not update the post.
+ErrorDraftPublishFailed,초안을 게시하지 못했습니다.,Could not publish the draft.
+ErrorCacheSave,피드 캐시 저장 실패,Could not save the feed cache
+ErrorFeedLoad,피드 목록 로드 실패,Could not load the feed list
+ErrorFeedLoadMore,피드 추가 로드 실패,Could not load more posts
+LoadMore,피드 더 보기 ↓,Load more posts ↓
+LoadingMore,불러오는 중...,Loading...
+AttachmentFallback,첨부파일,Attachment
+AttachmentImageAlt,첨부 이미지,Attached image
+VisibilityPublic,전체 공개,Public
+VisibilityFollowers,팔로워,Followers
+VisibilityPrivate,나만 보기,Only me
+VisibilityDraft,초안으로 저장,Save as draft
+ProfileNameFallback,나,Me
+IntentEditing,피드 수정 중,Editing post
+IntentCreating,새로운 피드 작성 중,Writing a post
+IntentDraft,초안 작성 중,Writing a draft
+IntentOfflineDraft,오프라인 초안 작성 중,Writing an offline draft
+EditorPlaceholderOnline,어떤 생각을 나누고 싶으신가요? 이미지(Ctrl+V)나 아래 아이콘으로 첨부할 수 있습니다...,What would you like to share? Paste an image with Ctrl+V or attach a file below...
+EditorPlaceholderOffline,오프라인 상태입니다. 작성한 내용은 로컬 초안 보관함에 저장됩니다...,You are offline. Your post will be saved as a local draft...
+AttachFileTitle,첨부파일 (좌클릭: 파일 선택. 우클릭: 클립보드),Attach file (left click to choose a file. Right click to paste from clipboard)
+NewDocumentTitle,새 문서 (텍스트 편집기),New document (text editor)
+StopRecordingTitle,녹음 종료,Stop recording
+NewRecordingTitle,새 녹음,New recording
+NewDrawingTitle,새 그림 (VoidDraw),New drawing (VoidDraw)
+NewVectorTitle,새 벡터 (VectorDraw),New vector (VectorDraw)
+NewStoryTitle,설계나무 (StoryMaker),Story tree (StoryMaker)
+NewSoundDraftTitle,소리 초안 (SoundDraft),Sound draft (SoundDraft)
+NewTurnMakerTitle,게임 규칙 편집기 (TurnMaker),Game rule editor (TurnMaker)
+CompleteEdit,수정 완료,Save changes
+PublishFeed,게시하기,Publish
+SaveDraft,초안으로 저장,Save draft
+CancelEdit,취소,Cancel
+FeedSaveFailed,피드를 저장하지 못했습니다.,Could not save the post.
+ScopeFollowers,팔로워 전용,Followers only
+ScopePrivate,나만 보기,Only me
+Follow,팔로우,Follow
+Following,팔로잉,Following
+FollowedToast,팔로우했습니다.,You are now following this user.
+UnfollowedToast,팔로우를 취소했습니다.,You unfollowed this user.
+RelativeJustNow,방금 전,Just now
+RelativeMinutes,{count}분 전,{count} min ago
+RelativeHours,{count}시간 전,{count} hr ago
+RelativeDays,{count}일 전,{count} days ago
+ConfirmDeleteComment,댓글을 삭제하시겠습니까?,Delete this comment?
+ConfirmDeleteFeed,정말 이 피드를 삭제하시겠습니까?,Are you sure you want to delete this post?
+FeedDeleted,피드가 삭제되었습니다.,Post deleted.
+CommentCount,댓글 {count},Comments {count}
+CommentPlaceholder,따뜻한 댓글을 남겨보세요...,Write a kind comment...
+CommentSubmit,등록,Send
+LoadingComments,댓글을 불러오는 중...,Loading comments...
+NoComments,첫 번째 댓글을 작성해보세요!,Be the first to comment!
+Anonymous,익명,Anonymous
+DeleteComment,댓글 삭제,Delete comment
+EditPostTitle,피드 수정,Edit post
+DeletePostTitle,피드 삭제,Delete post
+SaveError,피드 저장 실패,Could not save the post
+OpenAttachmentFailed,로컬 피드 첨부 파일을 열지 못했습니다.,Could not open the local feed attachment.
+TurnMakerFallbackAttachment,첨부파일,Attachment
+VisibilityPlaceholder,공개 범위,Visibility
+OfflineLabel,오프라인,Offline
+ReactionLike,좋아요,Like
+ReactionCreative,독창적이에요,Creative
+ReactionTerrible,끔찍해요,Terrible
+ReactionSoSo,무난해요,So-so
+## TurnMaker
+PhaseNamePlaceholder,단계 이름을 입력하세요 (예: 준비 단계),Enter a phase name (for example: Setup)
+PhaseDescriptionPlaceholder,단계 설명을 입력하세요...,Enter a phase description...
+TriggerNamePlaceholder,트리거 이름을 입력하세요...,Enter a trigger name...
+AnimJoined,입장 (JOINED),Joined (JOINED)
+AnimLeft,퇴장 (LEAVED),Left (LEAVED)
+AnimIdle,기본 대기 (IDLE),Idle (IDLE)
+AnimWin,승리 포즈 (WIN),Victory pose (WIN)
+AnimDefeat,패배 포즈 (DEFEAT),Defeat pose (DEFEAT)
+TargetAll,모든 플레이어,All players
+TargetMaster,방장,Host
+TargetCurrent,현재 턴 플레이어,Current player
+TargetQueue,턴 대기열 플레이어,Players in turn queue
+TargetNext,다음 플레이어,Next player
+TargetGlobal,전역 환경,Global state
+ActionCardManage,카드 생성 이동 또는 삭제,Create move or delete cards
+ActionCardReveal,카드 공개 설정,Set card visibility
+ActionWaitSubmit,카드 제출 대기,Wait for card submission
+ActionWaitTime,시간 대기 또는 사념파 알림,Wait for a duration or send a message
+ActionTurnManage,턴과 턴 대기열 제어,Manage turns and the turn queue
+ActionPlayAnimation,애니메이션 재생,Play animation
+ActionSetVariable,변수 변경,Set variable
+ActionRestartPhase,단계 처음부터 다시 시작,Restart phase flow
+ActionRestartGame,게임 전체 초기화,Reset game
+ActionEndGame,게임 종료,End game
+CardOpTransfer,카드 이동,Move cards
+CardOpCreate,카드 생성,Create cards
+CardOpDelete,카드 삭제,Delete cards
+DestinationTable,공용 테이블,Shared table
+DestinationGlobalArray,[전역 카드 배열] {name},[Global card array] {name}
+DestinationHand,손패,Hand
+DestinationSelected,선택한 카드,Selected cards
+DestinationReceived,받은 카드,Received cards
+DestinationDeck,덱과 보관함,Deck and storage
+DestinationPlayerArray,[플레이어 카드 배열] {name},[Player card array] {name}
+PropertyFixedOrder,[시스템] 고정 턴 순서,[System] Fixed turn order
+PropertyTurnQueue,[시스템] 턴 대기열,[System] Turn queue
+PropertyTable,[시스템] 공용 테이블 카드,[System] Shared table cards
+PropertyTotalPlayers,[시스템] 전체 플레이어 수,[System] Total players
+PropertyAlivePlayers,[시스템] 생존 플레이어 수,[System] Living players
+PropertyLength,[시스템] 대상 수,[System] Target count
+PropertyConnected,[시스템] 네트워크 연결 여부,[System] Connection status
+PropertyAnimation,[시스템] 현재 애니메이션,[System] Current animation
+TypeEnum,열거형,enum
+OpContains,포함,contains
+OpNotContains,포함하지 않음,does not contain
+OpCountEqual,수량 같음,Count equals
+OpCountNotEqual,수량 다름,Count does not equal
+OpCountAtLeast,수량 이상,Count at least
+OpCountAtMost,수량 이하,Count at most
+OpCountGreater,수량 초과,Count greater than
+OpCountLess,수량 미만,Count less than
+OpAssign,대입,Assign
+OpIncrease,증가,Increase
+OpDecrease,감소,Decrease
+OpAdd,추가,Add
+OpRemove,제거,Remove
+NoConditions,조건 없음 (무조건 실행),No conditions (always run)
+NoConditionsShort,조건 없음,No conditions
+MoreConditions,외,more
+PromptInputSummary,입력 사념파 "{prompt}" == {value},Input prompt "{prompt}" == {value}
+PromptConfirmSummary,확인 사념파 "{prompt}" [{yes}],Confirmation prompt "{prompt}" [{yes}]
+NoActions,행동 없음,No actions
+WaitCardSummary,카드 제출 대기: [{source}] ➔ [{target}] ({min}~{max}장),Wait for card submission: [{source}] ➔ [{target}] ({min} to {max} cards)
+WaitTimeSummary,{target} {seconds}초 대기 {message},Wait {target} for {seconds} sec {message}
+GuidanceSummary,{target} 사념파 알림 {message},Send guidance to {target} {message}
+VisibilityHidden,비공개 (뒷면),Hidden (face down)
+VisibilityToggle,뒤집기,Flip
+VisibilityShown,공개 (앞면),Visible (face up)
+AllCards,모든 카드,All cards
+NoSelection,선택 없음,No selection
+RevealSummary,카드 {visibility}: [{source}.{zone}] ({classes}),Cards {visibility}: [{source}.{zone}] ({classes})
+TurnQueueSetFixed,고정 순서로 턴 대기열 등록,Set turn queue to fixed order
+TurnQueueSetEntity,{entity}를 턴 대기열에 등록,Add {entity} to turn queue
+TurnAdvance,다음 턴으로 이동,Advance to next turn
+TurnQueueRemove,{entity}를 턴 대기열에서 제외,Remove {entity} from turn queue
+TurnQueuePush,{entity}를 턴 대기열에 추가,Add {entity} to turn queue
+TurnQueueClear,턴 대기열 비우기,Clear turn queue
+TurnQueueControl,턴 대기열 제어,Control turn queue
+AnimationSummary,애니메이션: [{target}] ➔ {animation},Animation: [{target}] ➔ {animation}
+CardCountNone,0장 (동작 안 함),0 cards (no action)
+CardCount,{count}장,{count} cards
+CardCreateSummary,카드 생성: {classes} ({count}) ➔ {zone},Create cards: {classes} ({count}) ➔ {zone}
+CardDeleteSummary,카드 삭제: {classes} ({count}) ← {zone},Delete cards: {classes} ({count}) ← {zone}
+CardMoveSummary,카드 이동: {classes} ({count}) {source} ➔ {target},Move cards: {classes} ({count}) {source} ➔ {target}
+VariableSummary,{entity}.{property} {op} {value},{entity}.{property} {op} {value}
+RestartPhasesSummary,단계를 처음부터 다시 시작,Restart phases from the beginning
+RestartGameSummary,게임 전체 재시작,Restart the entire game
+EndGameSummary,게임 종료,End game
+FilterOptional,필터 (선택),Filter (optional)
+FilterNone,필터 없음 (전체 대상),No filter (all targets)
+SystemConnection,[시스템] 네트워크 연결 여부,[System] Connection status
+SystemHand,[시스템] 손패 보유,[System] Cards in hand
+SystemSelectedCards,[시스템] 제출 카드,[System] Submitted cards
+SystemReceivedCards,[시스템] 받은 카드,[System] Received cards
+Unspecified,미지정,unspecified
+FilterVariablePlaceholder,기준 변수 선택 (선택 안 함 = 전체),Select a variable (none means all)
+EnumValuePlaceholder,Enum 값 선택,Select an enum value
+ConnectedTrue,참 (연결됨),True (connected)
+ConnectedFalse,거짓 (연결 끊김),False (disconnected)
+NumberComparePlaceholder,비교할 숫자,Number to compare
+IncludedCardPlaceholder,포함 카드 선택,Select an included card
+ArrayItemPlaceholder,포함할 배열 요소,Array item to include
+StringValuePlaceholder,문자열 값 입력,Enter a text value
+Lobby,게임 대기실,Game lobby
+LobbyPlayersReady,{count}명이 준비되었습니다. 게임을 시작하면 첫 단계부터 진행합니다.,{count} players are ready. Select Start game to begin at the first phase.
+StartGame,게임 시작,Start game
+CoordinatorStatus,글로벌 코디네이터 진행 상태,Global coordinator status
+CurrentNode,현재 노드,Current node
+UnnamedPhase,이름 없는 단계,Unnamed phase
+UnnamedTrigger,이름 없는 트리거,Unnamed trigger
+WaitingForCardSubmission,카드 제출 대기 중,Waiting for card submissions
+WaitingForPrompt,사념파 응답 대기 중,Waiting for a prompt response
+WaitingForCondition,조건 충족 대기 중,Waiting for conditions
+WaitingForTime,시간 대기 중,Waiting for time
+SecondsShort,초,sec
+GameEnded,게임 종료됨,Game ended
+GlobalNodeRunning,글로벌 노드 진행 중,Global flow running
+GlobalVariablesMonitor,전역 변수 모니터링 (최대 3개 선택),Global variables (select up to 3)
+SelectedCount,선택,Selected
+ToggleDetails,클릭하여 상세 내용 전환,Click to toggle details
+ClickForDetails,클릭하여 상세 보기,click for details
+PlayerVariablesMonitor,플레이어 변수 모니터링 (최대 3개 선택),Player variables (select up to 3)
+LobbySettings,대기실 설정,Lobby settings
+PlayerCount,참여 인원,Players
+PlayersMinimum,최소 {count}명,minimum {count}
+Reset,초기화,Reset
+PauseEngine,엔진 일시 정지,Pause engine
+RunEngine,글로벌 엔진 자동 진행,Run engine automatically
+ResetToLobby,대기실로 초기화,Reset to lobby
+SwitchTestPlayer,테스트 플레이어 전환,Switch test player
+NetworkDisconnectedAuto,네트워크가 끊겼습니다. 부재중 자동 응답 모드입니다.,Disconnected. Automatic away responses are enabled.
+NetworkReconnected,네트워크에 다시 연결되었습니다.,Reconnected.
+ToggleConnection,클릭하여 연결 상태 전환,Click to toggle connection
+Online,온라인,Online
+Disconnected,연결 끊김,Disconnected
+ReceivedPrompt,수신된 사념파 질문,Received prompt
+WaitingForAutoReply,부재중 자동 응답 대기 중,Waiting for automatic reply
+ResponseRequired,응답 필요,Response required
+RespondToPrompt,사념파에 응답해주세요.,Please respond to the prompt.
+DisconnectedAutoReplyNotice,플레이어 연결이 끊겨 시스템이 자동으로 응답합니다.,This player is disconnected. The system will respond automatically.
+Yes,예,Yes
+No,아니오,No
+AnswerPlaceholder,답변을 입력하세요...,Enter a response...
+Submit,제출,Submit
+PlayerStatus,{name} 상태,{name} status
+Winner,승리,Winner
+InLobby,대기실 대기 중,In lobby
+SubmissionRequired,제출 필요,Submission required
+Active,활성,Active
+CardsInHand,보유 손패 ({count}장),Hand ({count})
+SelectedCardsCount,선택: {selected} / {max}장 (최소 {min}장),Selected: {selected} / {max} (minimum {min})
+OfflineAutoSubmit,네트워크가 끊겨 시스템이 무작위 카드를 자동 제출합니다.,Disconnected. The system will submit random cards automatically.
+FaceUp,앞면,Face up
+FaceDown,뒷면,Face down
+Away,부재중,Away
+Selected,선택됨,Selected
+Available,선택 가능,Available
+InPossession,보유 중,In possession
+NoCardsInHand,손패에 카드가 없습니다.,No cards in hand.
+PlayerCardsTarget,참여자 카드 지목,Player cards (target)
+SelectedPlayersCount,선택: {selected} / {max}명,Selected: {selected} / {max}
+Select,선택,Select
+SubmitCards,카드 제출하기,Submit cards
+UnifiedChat,통합 대화창,Chat
+Offline,오프라인,Offline
+ChatAvailable,대화 가능,Chat available
+NoSendPermission,송신 권한 없음,Cannot send messages
+NoMessages,표시할 대화가 없습니다.,No messages to display.
+ChatUnavailableDisconnected,네트워크가 연결되어야 대화할 수 있습니다.,Reconnect to chat.
+MessagePlaceholder,메시지 입력...,Write a message...
+Send,전송,Send
+NextTriggerStep,다음 트리거 스텝 진행,Next trigger step
+CardsUnit,장,cards
+ItemCount,{count}개,{count} items
+CardAllOrRandom,카드 전체 또는 임의,Cards (all or random)
+PlayerCardTarget,참여자 카드 지목,Player card (target a player)
+StringType,문자열 (string),Text (string)
+NumberType,숫자,Number
+BooleanType,불리언,Boolean
+EnumValuesCount,{count}개 값,{count} values
+AllCardClasses,모든 카드 클래스,All card classes
+SetupDataDefinition,초기화 데이터 정의,Setup data
+AddCardClass,카드 클래스 추가,Add card class
+AddChannel,채널 추가,Add channel
+AddVariable,변수 추가,Add variable
+PlayerVariables,플레이어 변수,Player variables
+GlobalVariables,전역 변수,Global variables
+Cards,카드,Cards
+Channels,채널,Channels
+SearchPlayerVariables,플레이어 변수 검색...,Search player variables...
+SearchGlobalVariables,전역 변수 검색...,Search global variables...
+VariableName,변수명,Variable name
+StringTypeShort,문자열,Text
+ArrayType,배열,Array
+GlobalArrayType,전역 배열,Global array
+TrueValue,참,True
+FalseValue,거짓,False
+DefaultStringPlaceholder,기본 문자열,Default text
+GlobalEnumReference,참조할 전역 문자열 배열 (Enum),Global string array (enum):
+InitialSelectedValue,초기 선택 값,Initial value:
+ArrayItemType,배열 요소 타입,Array item type:
+InitialItemsCount,초기 요소 ({count}),Initial items ({count})
+AddItem,요소 추가,Add item
+GlobalArraySummary,전역 배열 ({name}): {value},Global array ({name}): {value}
+None,없음,none
+ArraySummary,배열 ({type}) 요소 {count}개,Array ({type}) with {count} items
+CardName,카드명,Card name
+CardDescription,카드 설명...,Card description...
+DefaultState,기본 상태,Default state:
+CreateFaceUp,기본 앞면으로 생성,Create face up by default
+CardPropertiesSummary,속성 {count}개 | {description},{count} properties | {description}
+NoDescription,설명 없음,No description
+SearchChannels,채널 이름 또는 키 검색...,Search channel name or key...
+ChannelName,채널 이름,Channel name
+ChannelKey,고유 식별 키,Unique key:
+PermissionEnum,권한 제어용 전역 문자열 배열 (Enum),Global string array for permissions (enum):
+SelectGlobalArray,전역 문자열 배열 선택,Select a global string array
+ReceiveGroups,수신 가능 그룹 ({count}),Allowed receivers ({count})
+SendGroups,송신 가능 그룹 ({count}),Allowed senders ({count})
+AllowAll,전체 허용 (제한 해제),Allow all
+ReceiversShort,수신 ({count}),Receive ({count})
+SendersShort,송신 ({count}),Send ({count})
+CardLabel,카드,Card
+ChannelLabel,채널,Channel
+DirectValue,직접 값 입력,Enter a value
+TotalPlayers,[시스템] 전체 플레이어 수,[System] Total players
+AlivePlayers,[시스템] 생존 플레이어 수,[System] Living players
+TurnQueueLength,[시스템] 턴 대기열 남은 인원 수,[System] Players remaining in turn queue
+TableCardCount,[시스템] 공용 테이블 카드 수,[System] Cards on the shared table
+GlobalVariableLabel,전역 변수,Global variable
+CurrentPlayerVariableLabel,현재 턴 플레이어 변수,Current player variable
+DirectCount,직접 숫자 입력 (0은 전체),Enter a number (0 means everyone)
+SetTurnQueue,턴 대기열 등록 또는 교체,Set or replace the turn queue
+AdvanceTurnQueue,순차 턴 넘기기,Advance turn and remove the first player
+RemoveFromTurnQueue,특정 플레이어를 턴 대기열에서 제외,Remove a player from the turn queue
+AddToTurnQueue,턴 대기열 끝에 플레이어 추가,Add a player to the end of the turn queue
+ClearTurnQueue,턴 대기열 비우기,Clear the turn queue
+TriggerSettingsArea,트리거 설정 영역,Trigger settings
+Delete,삭제,Delete
+ConditionCheck,조건 검사 (AND / OR),Conditions (AND / OR)
+AddConditionGroup,조건 그룹 추가 (OR),Condition group (OR)
+WaitForConditions,조건이 충족될 때까지 대기,Pause and wait until conditions are met
+TimeoutMs,제한 시간 (ms 단위이며 0은 무제한),Timeout in ms (0 means no limit)
+ExampleTimeout,예: 10000,Example: 10000
+DragGroupToReorder,드래그하여 그룹 순서 변경,Drag to reorder groups
+ConditionGroup,그룹 {number} (AND),Group {number} (AND)
+DragConditionToReorder,드래그하여 조건 순서 변경,Drag to reorder conditions
+PromptConditionToggle,프롬프트 또는 확인 조건 사용,Use a prompt or confirmation condition
+Recipient,수신 대상,Recipient:
+TargetFilter,대상 필터,Target filter:
+PromptQuestion,사념파 질문 문장,Prompt text:
+ExamplePrompt,예: 투표에 참여하시겠습니까?,Example: Would you like to vote?
+YesLabel,'예' 문구,Yes label:
+NoLabel,'아니오' 문구,No label:
+SelectMultipleCards,포함할 카드 선택,Select cards to include
+CompareNumber,비교할 숫자,Number to compare
+ArrayComparisonHint,배열 비교는 위에서 수량이나 길이를 선택하세요.,For array comparisons select a count or length source above.
+CompareText,비교할 문자열,Text to compare
+AddConditionAnd,조건 추가 (AND),Condition (AND)
+AddAction,행동 추가,Add action
+DragToReorder,드래그하여 순서 변경,Drag to reorder
+PromptOrWaitTarget,사념파 또는 대기 대상,Prompt or wait target:
+WaitDurationMs,대기 시간 (ms 단위이며 0은 대기 없음),Wait duration in ms (0 means no wait):
+GuidanceOptional,안내 사념파 (선택),Guidance message (optional):
+GuidancePlaceholder,사념파 내용 입력,Enter a guidance message
+TurnOperation,수행할 턴 작업,Turn operation:
+TargetPlayers,대상 플레이어,Target players:
+TargetZoneAndEntity,대상 주체와 구역,Target entity and zone:
+VisibilityState,변경할 표시 상태,Visibility:
+TargetCardClassesOptional,대상 카드 클래스 (미선택 시 전체),Card classes (all if none selected):
+ApplyToAllCards,모든 카드에 적용,Apply to all cards
+AnimationTargets,애니메이션 재생 대상,Animation targets:
+AnimationKey,재생할 키,Animation key:
+PlayersSubmittingCards,카드를 제출할 플레이어,Players submitting cards:
+SubmitterFilter,제출자 필터,Submitter filter:
+SubmissionDestination,제출 목적지 및 구역,Submission destination and zone:
+DestinationFilter,목적지 필터,Destination filter:
+RequiredCardClasses,대상 카드 클래스 (필수),Card classes (required):
+RequiredCardClassesPlaceholder,카드 클래스를 선택하세요. 제출하지 않으려면 0장을 입력하세요.,Select card classes or submit 0 cards
+SubmissionCountRange,제출 장수 (최소에서 최대),Submission count (minimum to maximum):
+SubmissionGuidance,안내 사념파,Guidance message:
+SelectCardsToSubmit,제출할 카드를 선택해주세요,Select cards to submit
+CardOperation,작업 종류,Card operation:
+SourceEntityZone,출발 주체와 구역,Source entity and zone:
+SourceFilter,출발 필터,Source filter:
+DestinationEntityZone,도착 주체와 구역,Destination entity and zone:
+CardClassesRequired,대상 카드 클래스 (필수),Card classes (required):
+SelectCardClassesRequired,작업할 카드 클래스를 선택하세요,Select card classes to perform this action
+CardAmount,수량 (0은 작업 안 함),Amount (0 means no action):
+AmountExample,수량 입력 (예: 1),Enter an amount such as 1
+Target,대상,Target:
+TargetCount,적용 대상 인원수 (0은 필터 대상 전체),Target count (0 means all filtered players):
+RandomCountExample,예: 1 (무작위),Example: 1 (random)
+Variable,변수,Variable:
+Operator,연산,Operator:
+Value,값,Value:
+NumberToChange,변경할 숫자,Number to set
+RemoveValuePlaceholder,제거할 값 또는 전체 비우기용 all,Value to remove or enter all to clear
+RemoveAllHint,all 입력 시 배열의 모든 원소를 제거합니다.,Enter all to remove every array item.
+AddArrayValuePlaceholder,추가할 배열 원소 값 입력,Enter a value to add
+GuidanceRecipients,사념파 전달 대상,Guidance recipients:
+ClickToEdit,클릭하여 편집,Click to edit
+MainFlow,메인 흐름,Main flow
+HotseatTest,핫시트 테스트 플레이,Hotseat test
+NodesAndSetup,노드 및 초기 설정,Nodes and setup
+TestPlay,테스트 플레이,Test play
+Close,닫기,Close
+Triggers,트리거,Triggers
+NoPhases,등록된 단계가 없습니다.,No phases have been added.
+CreateFirstPhase,첫 번째 단계 만들기,Create the first phase
+BackToMainFlow,메인 흐름으로,Back to main flow
+AddTrigger,새 트리거 추가,Add trigger
+Conditions,조건,Conditions
+ManageNodesSetup,노드 및 초기 설정 관리,Manage nodes and setup
+SimulatorControls,시뮬레이터 조작창,Simulator controls
+PlayerCountSettings,게임 기본 인원 설정,Player count
+MinimumPlayers,최소 인원,Minimum players:
+MaximumPlayers,최대 인원,Maximum players:
+PeopleUnit,명,players
+PhaseOrder,단계 순서 관리,Phase order
+AddPhase,단계 추가,Add phase
+SearchPhases,단계 검색...,Search phases...
+DragPhaseToReorder,드래그하여 단계 순서 변경,Drag to reorder phases
+SelectedPhaseInfo,선택된 단계 정보,Selected phase
+PhaseTitle,단계 제목,Phase title:
+PhaseDescription,단계 설명,Phase description:
+AttachedTriggers,소속 트리거 ({count}개),Triggers ({count})
+NewTurnGame,새 턴제 게임,New turn-based game
+PublicChannel,전체 공개 채널,Public channel
+SpectatorChannel,관전자 채널,Spectator channel
+Actions,행동,Actions
+AllPhasesComplete,모든 단계가 완료되었습니다.,All phases are complete.
+AllTriggersComplete,모든 트리거가 완료되었습니다.,All triggers are complete.
+AnimationPlayed,애니메이션 재생 완료,Animation played
+AwayAutoSubmitted,연결 끊김 상태에서 자동 제출됨,Automatically submitted while disconnected
+AwayNoCardsToSubmit,부재중이며 제출할 카드가 없습니다.,Away with no cards to submit
+AwayPromptReplyComplete,부재중 자동 응답 완료,Automatic away response sent
+CardVisibilityUpdated,카드 공개 상태 변경 완료,Card visibility updated
+ConditionTimeoutAdvance,조건 대기 시간이 초과되어 다음 단계로 진행합니다.,Condition wait timed out. Continuing to the next step.
+EnteredLobby,대기실에 입장했습니다. 게임 시작을 누르면 첫 단계부터 시작합니다.,You joined the lobby. Select Start game to begin at phase one.
+GameStarted,게임이 시작되었습니다.,The game has started.
+NoPhasesToStart,게임 시작 전에 단계를 추가해주세요.,Add a phase before starting the game.
+NoTarget,대상 없음,No target
+PleaseSelectCards,제출할 카드를 선택해주세요,Please select cards to submit.
+PreparingLobbyPlayers,대기실에서 플레이어를 준비 중입니다.,Preparing players in the lobby.
+ResponseComplete,응답 완료,Response received
+RestartingPhases,단계를 처음부터 다시 진행합니다.,Restarting phases from the beginning.
+SelectHandCardsRange,손패에서 {min}장 이상 {max}장 이하로 선택해주세요.,Select between {min} and {max} cards from your hand.
+SelectPlayerCardsRange,참여자 카드를 {min}장 이상 {max}장 이하로 선택해주세요.,Select between {min} and {max} player cards.
+SkippedConditionsNotMet,조건을 충족하지 않아 건너뜁니다.,Skipped because conditions were not met
+SubmissionComplete,제출 완료,Submitted
+TriggerComplete,트리거 실행 완료,Trigger complete
+TurnAdvanced,다음 턴: {name},Turn advanced to {name}
+TurnQueueEmptied,턴 대기열을 비웠습니다.,Turn queue cleared.
+TurnQueuePlayersAdded,턴 대기열에 추가됨,Added to turn queue
+TurnQueuePlayersRemoved,턴 대기열에서 제외됨,Removed from turn queue
+TurnQueueUpdated,턴 대기열 갱신됨 ({count}명 대기 중),Turn queue updated ({count} waiting)
+WaitingForConditions,조건이 충족될 때까지 대기 중...,Waiting for conditions...
+WaitingForPromptReply,사념파 질문 응답 대기 중...,Waiting for a prompt response...
+WaitingToStartGame,게임 시작을 기다리는 중입니다.,Waiting for the game to start.
+All,전체,All

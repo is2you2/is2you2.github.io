@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   fill="currentColor"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="game.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.481838"
+     inkscape:cx="8.4107557"
+     inkscape:cy="11.391783"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!-- 비스듬한 뒷면 카드 -->
+  <!-- 전면 카드 -->
+  <!-- 전면 카드 내부 중앙 심볼(음각) -->
+  <rect
+     x="2.0807507"
+     y="4.665987"
+     width="11.801031"
+     height="17.19964"
+     rx="1.9668385"
+     id="rect1"
+     style="fill:#000000;fill-opacity:0.500958;stroke:#000000;stroke-width:1.02818;stroke-opacity:1" />
+  <path
+     id="rect2"
+     style="fill:#000000;fill-opacity:0.500958;stroke:#000000;stroke-width:1.02818;stroke-opacity:1"
+     d="M 12.407748 -1.1145741 C 11.606136 -0.86628862 11.026569 -0.12138164 11.026569 0.76394153 L 11.027271 1.8758665 L 12.715754 1.4234387 C 13.768255 1.1414221 14.842562 1.7616738 15.124579 2.8141741 L 18.557975 15.627784 C 18.590974 15.750936 18.61341 15.874267 18.622455 15.996713 L 20.861028 15.99743 C 21.950656 15.99743 22.827253 15.12053 22.827253 14.030901 L 22.827225 0.76441037 C 22.827225 -0.32521815 21.950324 -1.201815 20.860696 -1.201815 L 12.992794 -1.2025879 C 12.788489 -1.2025879 12.592736 -1.1718708 12.407748 -1.1145741 z "
+     transform="rotate(15)" />
+</svg>
