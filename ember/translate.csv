@@ -147,6 +147,10 @@ NoNameUser,이름 없는 사용자,Nameless user
 WithdrawnUser,탈퇴한 사용자,Withdrawn user
 UploadProfileErr,프로필 업데이트 실패,Profile update failed
 FailedToSetAlias,별명 동기화에 실패했습니다,Failed to synchronize nickname
+StartDirectChat,1:1 대화 시작,Start direct chat
+StartingDirectChat,대화 준비 중...,Preparing conversation...
+DirectChatRequested,대화 요청을 보냈습니다. 상대방이 수락하면 채널에 들어갈 수 있습니다.,Conversation request sent. You can join after the other person accepts.
+DirectChatFailed,대화를 시작하지 못했습니다,Could not start the conversation
 ## Settings
 Profile,프로필,Profile
 ServerNoti,알림,Notification
@@ -781,7 +785,15 @@ OpAssign,대입,Assign
 OpIncrease,증가,Increase
 OpDecrease,감소,Decrease
 OpAdd,추가,Add
+OpFirstClaim,비어 있을 때만 추가 (최초 입력),Add only if empty (first claim)
 OpRemove,제거,Remove
+CurrentPlayerId,현재 플레이어 ID,Current player's ID
+CurrentPlayerName,현재 플레이어 이름,Current player's name
+SignalValue,기록할 값,Value to record
+FirstClaimHint,첫 번째 행동이 참여자를 기록하고 이후 행동은 값을 바꾸지 않습니다.,The first action records its participant; later actions leave the value unchanged.
+FirstClaimSummary,{variable}에 최초 입력을 기록,Record the first value in {variable}
+CollectingPlayerChoices,참여자 선택을 모으는 중,Collecting player choices
+ChoicesResolveTogether,모두 제출하면 선택이 공개되고 게임 규칙에 따라 함께 처리됩니다.,Choices stay private until everyone submits and are then resolved together.
 NoConditions,조건 없음 (무조건 실행),No conditions (always run)
 NoConditionsShort,조건 없음,No conditions
 MoreConditions,외,more
