@@ -272,6 +272,9 @@ SpecificIdForm,사번/학번 등,Employee ID/Student ID, etc.
 RecvNoti,알림 받기,Get notifications
 ForceNoti,인앱 알림으로 전환하기,Switch to in-app notifications
 PerServerSet,서버별 웹 푸쉬 알림 설정,Server-specific web push notification settings
+NotificationHistory,알림 기록,Notification history
+NoNotificationHistory,아직 알림 기록이 없습니다,There are no notifications yet
+LocalSource,로컬,Local
 ## ServerSettings
 AdminResetPassword,다음 사용자의 비밀번호 재설정 처리,Processing password reset for the following user
 AdminResetPwApply,사용자에게 비밀번호 재설정 링크를 공유하세요,Share the password reset link with the user.
@@ -632,6 +635,8 @@ ViewGlobal,전체 공개 피드,Public posts
 ViewMine,내가 작성한 글,My posts
 ViewDrafts,로컬 초안 보관함 (오프라인),Local drafts (offline)
 ViewRefresh,피드 새로고침,Refresh feed
+ShareFeedLink,피드 공유 링크 복사,Copy feed share link
+BackToFeedList,피드 목록으로 돌아가기,Back to feed list
 ServerSwitch,서버 전환,Switch server
 SwitchToPinned,고정 메모 보기,View pinned notes
 SwitchToFeed,피드 보기,View feed
