@@ -401,6 +401,8 @@ CopyLink,복사하기,Copy
 ResetPwLink,클릭하여 계정의 비밀번호를 다시 설정합니다.,Click to reset your account password.
 InstantCall,즉석통화,InstC.
 OpenAllAtt,모든 파일 열람,View all files
+FileViewerAppendModeOff,파일을 누르면 채널 또는 게시물의 전체 목록 열기,Open all files from the channel or post when one is clicked
+FileViewerAppendModeOn,클릭한 파일만 뷰어 목록에 추가,Append only the clicked file to the viewer
 ExpiredDeadline,설정된 기한이 만료되었습니다,The set deadline has expired
 ToggleServer,해당 서버 토글,Toggle the server
 TempChat,모닥불 채팅,Bonfire Chat
