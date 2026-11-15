@@ -630,6 +630,9 @@ SortRecent,최근 피드,Recent posts
 SortReactions,반응순,Most reactions
 SortComments,댓글순,Most comments
 Commenting,댓글 작성 중,Writing a comment
+Reply,답글,Reply
+ReplyingTo,{name}님에게 답글 작성 중,Replying to {name}
+CancelReply,답글 취소,Cancel reply
 PeriodDays,기간 (일),Period (days)
 ReactionTotal,전체 반응,All reactions
 CommentCountMetric,댓글 수,Comment count
@@ -644,6 +647,7 @@ ViewRefresh,피드 새로고침,Refresh feed
 ShareFeedLink,피드 공유 링크 복사,Copy feed share link
 BackToFeedList,피드 목록으로 돌아가기,Back to feed list
 ServerSwitch,서버 전환,Switch server
+DeviceSave,이 기기에 기록,Save on this device
 SwitchToPinned,고정 메모 보기,View pinned notes
 SwitchToFeed,피드 보기,View feed
 ProfileSettings,프로필 및 설정,Profile and settings
@@ -686,6 +690,7 @@ IntentDraft,초안 작성 중,Writing a draft
 IntentOfflineDraft,오프라인 초안 작성 중,Writing an offline draft
 EditorPlaceholderOnline,어떤 생각을 나누고 싶으신가요? 이미지(Ctrl+V)나 아래 아이콘으로 첨부할 수 있습니다...,What would you like to share? Paste an image with Ctrl+V or attach a file below...
 EditorPlaceholderOffline,오프라인 상태입니다. 작성한 내용은 로컬 초안 보관함에 저장됩니다...,You are offline. Your post will be saved as a local draft...
+EditorPlaceholderDevice,게시물을 작성하면 이 기기에 저장됩니다...,Write a post to save on this device...
 AttachFileTitle,첨부파일 (좌클릭: 파일 선택. 우클릭: 클립보드),Attach file (left click to choose a file. Right click to paste from clipboard)
 NewDocumentTitle,새 문서 (텍스트 편집기),New document (text editor)
 StopRecordingTitle,녹음 종료,Stop recording
