@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-15T06:26:46+09:00</updated>
+  <updated>2026-11-15T10:37:22+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,107 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>입소문의 자본화 전망</title>
+    <link href="https://is2you2.github.io/posts/sell-tell/" rel="alternate" type="text/html" title="입소문의 자본화 전망" />
+    <published>2026-11-15T10:34:00+09:00</published>
+  
+    <updated>2026-11-15T10:34:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/sell-tell/</id>
+    <content src="https://is2you2.github.io/posts/sell-tell/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      입소문이 돈이 되는 시대, 사람들은 입을 닫을까?
+
+우리는 누구나 무언가를 생산할 수 있는 시대에 가까워지고 있다.
+
+과거에는 하나의 상품을 만들기 위해 전문적인 기술과 상당한 자본이 필요했다. 그림을 그리려면 그림을 배워야 했고, 음악을 만들려면 작곡을 배워야 했다. 프로그램을 만들려면 프로그래밍을 배워야 했다.
+
+하지만 AI가 발전하면서 이러한 진입장벽은 빠르게 낮아지고 있다.
+
+물론 전문적인 기술이 완전히 불필요해졌다는 이야기는 아니다. 다만 과거에는 엄두조차 내지 못했던 일들을 이제는 비교적 적은 비용으로 시도할 수 있게 되었다.
+
+이러한 변화는 생산의 민주화라고 부를 만하다.
+
+그런데 여기서 한 가지 의문이 생긴다.
+
+누구나 무언가를 생산할 수 있게 된다면, 그렇게 생산된 것들은 누가 소비할까...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>촉매제를 쫓아서</title>
+    <link href="https://is2you2.github.io/posts/dopamine-first/" rel="alternate" type="text/html" title="촉매제를 쫓아서" />
+    <published>2026-11-15T10:22:00+09:00</published>
+  
+    <updated>2026-11-15T10:22:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/dopamine-first/</id>
+    <content src="https://is2you2.github.io/posts/dopamine-first/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      수단이 목적을 대체하는 사회
+도파민과 돈, 우리는 무엇을 위해 움직이는가
+
+얼마 전 문화 콘텐츠와 도파민에 관해 이야기하면서 이런 생각을 했다.
+
+“도파민은 촉매제이지만, 어느 순간 그 자체가 주목적이 되어버렸다.”
+
+본래 도파민은 인간의 동기와 학습, 보상에 관여하는 신경전달물질이다. 즐거운 경험을 반복하도록 행동을 강화하고, 무언가를 추구하도록 만드는 역할을 한다.
+
+그런데 현대의 문화 콘텐츠를 살펴보면 조금 이상한 흐름이 보인다.
+
+우리는 재미있는 경험을 하기 위해 콘텐츠를 소비하는 것일까? 아니면 끊임없이 자극받기 위해 콘텐츠를 소비하는 것일까?
+
+물론 둘은 완전히 분리할 수 없다. 재미있는 경험에는 자극이 따르기 마련이고, 도파민 역시 단순히 쾌락만을 담당하는 물질은 아니다.
+
+그러나 콘텐츠가...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -167,100 +268,6 @@ NFT에서 팬덤 소비, 콜라보 상품, 창작 도구와 명품까지
 이런 소비를 단순히 비합리적이라고 부를 수 있을까?
 
 어쩌면 우리는 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>편견은 어떻게 만들어지고 왜 사라지지 않을까?</title>
-    <link href="https://is2you2.github.io/posts/about-prejudice/" rel="alternate" type="text/html" title="편견은 어떻게 만들어지고 왜 사라지지 않을까?" />
-    <published>2026-11-05T05:15:00+09:00</published>
-  
-    <updated>2026-11-05T05:15:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/about-prejudice/</id>
-    <content src="https://is2you2.github.io/posts/about-prejudice/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      편견은 어떻게 만들어지고, 왜 쉽게 사라지지 않을까?
-
-우리는 다른 문화권의 행동을 이해할 때 그 사회의 맥락을 고려하곤 한다.
-
-미국에서 운전하다 경찰에게 검문을 받는 상황을 생각해 보자. 한국에서라면
-운전면허증을 꺼내기 위해 자연스럽게 옷 안쪽 주머니에 손을 넣을 수 있다.
-하지만 총기 소지가 일상적인 미국의 일부 상황에서는 경찰이 이를 위협적인
-행동으로 받아들일 수 있다. 좋은 의도로 한 행동이라도 상대방의 문화적
-맥락에서는 전혀 다르게 해석될 수 있는 것이다.
-
-그렇다면 우리 사회의 문화적 시선은 어떨까?
-
-문신을 바라보는 한국 사회의 시선도 그중 하나다. 문신을 한 사람에게
-특별히 나쁜 의도가 있는 것은 아니다. 자기표현일 수도 있고, 취향이나
-기억을 몸에 새긴 것일 수도 있다. 그러나 문신은...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>한국에서 게임이 매타작 받는 이유에 대해</title>
-    <link href="https://is2you2.github.io/posts/new-industries-and-the-right-to-fail/" rel="alternate" type="text/html" title="한국에서 게임이 매타작 받는 이유에 대해" />
-    <published>2026-11-03T23:54:00+09:00</published>
-  
-    <updated>2026-11-03T23:54:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/new-industries-and-the-right-to-fail/</id>
-    <content src="https://is2you2.github.io/posts/new-industries-and-the-right-to-fail/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      새로운 산업은 왜 자신을 인정받기 어려운 방식으로 성장하는가
-
-게임 산업에서 시작해 세대의 권리와 실패할 기회까지
-
-새로운 산업은 왜 사회적으로 인정받기 어려울까? 단순히 기존 세대가 새로운 문화를 싫어하기 때문일까, 아니면 새로운 산업이 살아남기 위해 선택하는 방식 자체가 인정받기 어려운 결과를 낳기 때문일까?
-
-이번 생각은 국내 게임 산업에 대한 의문에서 시작했다. 게임은 오랫동안 사회적 질타의 대상이었고, 그 질타에는 사행성이나 과몰입 같은 현실적인 우려뿐 아니라 세대 간 문화적 거리도 섞여 있는 듯하다. 이야기를 따라가다 보니 게임 산업의 수익 구조, 신생 산업의 생존 방식, 세대 간 권한 배분, 그리고 아이들에게 실패할 수 있는 공간을 주는 일까지 하나의 문제로 연결되었다.
-
-이 글은 그 연결...
     </summary>
   
 
