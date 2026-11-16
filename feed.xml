@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-16T02:05:20+09:00</updated>
+  <updated>2026-11-17T00:38:36+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>말할 수 없는 이야기</title>
+    <link href="https://is2you2.github.io/posts/expression-culture/" rel="alternate" type="text/html" title="말할 수 없는 이야기" />
+    <published>2026-11-17T00:28:00+09:00</published>
+  
+    <updated>2026-11-17T00:28:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/expression-culture/</id>
+    <content src="https://is2you2.github.io/posts/expression-culture/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      불편한 진실을 말하지 못하는 사회
+
+사람들은 때때로 대한민국의 대응이 지나치게 무르다고 이야기한다. 분명 화를 낼 만한 일이 벌어졌는데도, 정작 책임을 묻는 자리에서는 말이 부드러워지고 일이 흐지부지 끝난다는 것이다.
+
+얼마 전 스타벅스의 이른바 ‘탱크데이’ 논란을 계기로 과거의 유사한 사례들까지 다시 거론되는 모습을 보며, 나는 조금 다른 생각을 했다.
+
+우리는 정말 화를 내지 않는 사회일까? 아니면 화를 내는 자리와 방식을 엄격하게 구분하는 사회일까?
+
+화를 내지 않는 것이 아니라, 드러내지 않는 것
+
+우리는 사적인 자리에서 얼마든지 분노한다. 친구와 이야기를 나누고, 온라인에 댓글을 남기고, 익명 커뮤니티에서 날 선 말을 쏟아낸다. 그런데 막상 공식적인 자리에 서면 태도가 달라진다.
+
+“굳이 그렇...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -213,59 +261,6 @@ AI가 코드를 작성하기 시작하면서 코딩 수업에서도 곤란한 �
 어린아이는 끊임없이 질문합니다. 하늘은 왜 파란지, 비는 왜 내리는지, 사람은 왜 죽는지. 처음 몇 번의 질문에는 부모나 교사가 대답할 수 있습니다. 하지만 질문이 계속되면 문제가 생깁니다. 설명할 시간이 부족하거나, 대답할 사람의 전문 영역을 벗어나거나, 애초에 인류가 아직 답을 찾지 못한 곳까지 내려가기도 합니다.
 
 이는 질문을 받아주는 어른의 성의가 부족해서만은 아닙니다. 학교에는 진도가 있고, 학원에는 시험 일정이 있습니다. 교사는 한 학생만을 상대하는 사람이 아니고, 부모도 모든 학문을...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AI 이후에도 다음 시대는 오는가? — 4부</title>
-    <link href="https://is2you2.github.io/posts/04-after-ai-future-options/" rel="alternate" type="text/html" title="AI 이후에도 다음 시대는 오는가? — 4부" />
-    <published>2026-11-15T23:46:00+09:00</published>
-  
-    <updated>2026-11-15T23:46:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/04-after-ai-future-options/</id>
-    <content src="https://is2you2.github.io/posts/04-after-ai-future-options/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI 이후에도 다음 시대는 오는가?
-
-
-  AI 이후에도 다음 시대는 오는가? — 4부
-생산의 종착점, 인류의 발전, 그리고 다음 세대의 미래 선택권.
-
-
-우리는 오랫동안 더 많이 생산하는 사회를 발전한 사회라고 불러왔다. 노동 생산성이 높아지고, 수출이 늘어나고, 더 좋은 상품을 더 저렴하게 만드는 일이 경제적 성취의 중요한 기준이었다.
-
-하지만 인공지능이 인간 노동의 상당 부분을 대신하게 된다면 어떨까?
-
-생산할 수 있는 능력은 급격히 늘어날 수 있다. 그러나 지구의 자원과 에너지, 생태계가 감당할 수 있는 부담은 무한하지 않다.
-
-어느 순간부터는 ‘얼마나 더 생산할 수 있는가’가 아니라 ‘무엇을 위해 생산해야 하는가’라는 질문이 중요해질지도 모른다.
-
-생산성 경쟁의 끝에서
-
-AI가 여러 국가의 생...
     </summary>
   
 
