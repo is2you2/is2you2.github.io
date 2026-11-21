@@ -243,6 +243,7 @@ FailedToSnapshot,스냅샷 캡처 기능을 지원하지 않는 뷰어입니다,
 ExportGIF,Gif 추출,GIF extraction
 Exporting,Gif 생성 중...,Creating GIF...
 Section,구간,Section
+CurrentPlaybackTime,현재 재생 시점,Current playback time
 StartPos,시작 지점,Starting point
 RecordLen,녹화 길이,Recording length
 OutputSize,출력 크기,Output size
