@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-17T07:44:49+09:00</updated>
+  <updated>2026-11-23T00:10:40+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 4부</title>
-    <link href="https://is2you2.github.io/posts/get-talent/" rel="alternate" type="text/html" title="AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 4부" />
-    <published>2026-11-17T07:27:00+09:00</published>
+    <title>모두가 행복해진 뒤에도 인간은 경쟁할까?</title>
+    <link href="https://is2you2.github.io/posts/desire-culture-and-attraction/" rel="alternate" type="text/html" title="모두가 행복해진 뒤에도 인간은 경쟁할까?" />
+    <published>2026-11-22T23:20:00+09:00</published>
   
-    <updated>2026-11-17T07:27:00+09:00</updated>
+    <updated>2026-11-22T23:20:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/get-talent/</id>
-    <content src="https://is2you2.github.io/posts/get-talent/" />
+    <id>https://is2you2.github.io/posts/desire-culture-and-attraction/</id>
+    <content src="https://is2you2.github.io/posts/desire-culture-and-attraction/" />
     <author>
       <name>최성수</name>
     </author>
@@ -48,19 +48,25 @@
 
 
 
-      이력서 없는 사회, AI가 발견하는 인재
+      모두가 행복해진 뒤에도 인간은 경쟁할까?
 
-AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 4부
 
-사람은 오랫동안 자신을 설명하기 위해 이력서를 써 왔습니다. 어디에서 공부했고, 어디에서 일했고, 어떤 기술을 다룰 줄 아는지 적습니다. 채용 담당자는 그 종이 몇 장을 읽고 사람을 만날지 결정합니다.
+  AI 이후의 인간 · 6부 — 욕망 발현권, 교양, 매력, 그리고 아무것도 하지 않을 자유
 
-그런데 문득 이런 생각이 듭니다.
 
-자기소개를 잘하지 못한다는 약점 때문에, 다른 분야의 거대한 강점까지 발견되지 못하는 일은 없을까요?
+인간이 더 이상 생존을 위해 노동하지 않아도 되는 사회를 상상해 보자.
 
-자신을 멋지게 포장하는 능력도 하나의 능력입니다. 하지만 모든 직무에서 가장 중요한 능력은 아닙니다. 어떤 사람은 말로 자신을 설명하는 데 서툴러도 복잡한 시스템을 설계할 수 있고, 어떤 사람은 화려한 경력이 없어도 한 분야를 오랫동안 탐구해 왔을 수 있습니다.
+먹고살 걱정이 줄어든다. 주거와 의료, 기본적인 생활이 보장된다. 국가의 복잡한 관리 업무도 AI가 상당 부분 맡는다. 무엇을 하지 않더라도 인간답게 살아갈 수 있다.
 
-...
+그렇다면 경쟁은 사라질까?
+
+나는 그렇지 않을 것이라고 생각한다. 다만 경쟁의 이유는 지금과 상당히 달라질 것이다.
+
+생존을 위한 경쟁이 약해진 뒤에도, 인간은 여전히 누군가에게 선택받기를 원할 수 있기 때문이다.
+
+권력은 어디로 이동하는가
+
+지금의 사회에서 돈은 여러 가지 힘을 가진다. 좋은 집과 음식, 교육을 얻을 수 ...
     </summary>
   
 
@@ -68,14 +74,14 @@ AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 4부
 
   
   <entry>
-    <title>AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 3부</title>
-    <link href="https://is2you2.github.io/posts/human-factory-will-be/" rel="alternate" type="text/html" title="AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 3부" />
-    <published>2026-11-17T07:26:00+09:00</published>
+    <title>국가의 디버거마저 필요 없는 시대</title>
+    <link href="https://is2you2.github.io/posts/after-the-national-debugger/" rel="alternate" type="text/html" title="국가의 디버거마저 필요 없는 시대" />
+    <published>2026-11-22T23:19:00+09:00</published>
   
-    <updated>2026-11-17T07:26:00+09:00</updated>
+    <updated>2026-11-22T23:19:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/human-factory-will-be/</id>
-    <content src="https://is2you2.github.io/posts/human-factory-will-be/" />
+    <id>https://is2you2.github.io/posts/after-the-national-debugger/</id>
+    <content src="https://is2you2.github.io/posts/after-the-national-debugger/" />
     <author>
       <name>최성수</name>
     </author>
@@ -96,19 +102,25 @@ AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 4부
 
 
 
-      인재를 생산하는 공장에서 가능성을 보존하는 정원으로
+      국가의 디버거마저 필요 없는 시대
 
-AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 3부
 
-아이들에게 “왜?”라고 질문할 기회를 되돌려준다고 해서 모든 아이가 끝없이 질문하게 되는 것은 아닙니다.
+  AI 이후의 인간 · 5부 — 창작의 자동화에서 자율적으로 운영되는 사회까지
 
-어떤 아이는 우주에 빠져들고, 어떤 아이는 곤충만 관찰할 수 있습니다. 반면 어떤 아이는 당장 세상에 특별한 관심이 없을 수도 있습니다. 저는 이것도 자연스럽다고 생각합니다.
 
-궁금하지 않을 수도 있습니다. 그렇다면 기다리면 됩니다.
+바이브 코딩에서는 인간이 방향을 정하고 AI가 구현한다. 바이브 운영에서도 인간이 정책의 목표를 정하고 AI가 구체적인 수단을 설계한다.
 
-기본 교과를 따라가다가 어느 날 낯선 주제를 만났을 때, 그때부터 뿌리를 찾아가도 됩니다. 깊이 파고들어도 좋고, 조금 살펴보다 다른 분야로 옮겨 가도 좋습니다.
+그런데 나는 여기서 더 나아가고 싶다.
 
-AI 시대의 교육에서 제가 가장 기대하는 변화는 단순한 자동화가 아닙니다. 학습자마다 다른...
+목표를 제안하고 문제를 발견하는 일도 AI가 할 수 있지 않을까?
+
+이 질문은 인간이 반드시 창작과 관리의 출발점에 서야 한다는 전제를 흔든다.
+
+창작의 시작도 하나의 패턴이라면
+
+우리는 흔히 창의성을 인간만의 능력으로 생각해 왔다. 하지만 일상에서 창의적이라고 부르는 결과물 중에는 기존 요소를 낯선 방식으로 결합하거나, 익숙한 규칙을 조금 변형한 것들이 많다.
+
+테트리스를 예로 들어 보자. 블록의 모양을...
     </summary>
   
 
@@ -116,14 +128,14 @@ AI 시대의 교육에서 제가 가장 기대하는 변화는 단순한 자동�
 
   
   <entry>
-    <title>AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 2부</title>
-    <link href="https://is2you2.github.io/posts/why-we-study/" rel="alternate" type="text/html" title="AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 2부" />
-    <published>2026-11-17T07:25:00+09:00</published>
+    <title>바이브 코딩에서 바이브 운영으로</title>
+    <link href="https://is2you2.github.io/posts/from-vibe-coding-to-vibe-governance/" rel="alternate" type="text/html" title="바이브 코딩에서 바이브 운영으로" />
+    <published>2026-11-22T23:18:00+09:00</published>
   
-    <updated>2026-11-17T07:25:00+09:00</updated>
+    <updated>2026-11-22T23:18:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/why-we-study/</id>
-    <content src="https://is2you2.github.io/posts/why-we-study/" />
+    <id>https://is2you2.github.io/posts/from-vibe-coding-to-vibe-governance/</id>
+    <content src="https://is2you2.github.io/posts/from-vibe-coding-to-vibe-governance/" />
     <author>
       <name>최성수</name>
     </author>
@@ -144,19 +156,21 @@ AI 시대의 교육에서 제가 가장 기대하는 변화는 단순한 자동�
 
 
 
-      AI가 더 똑똑한데 왜 공부해야 하는가
+      바이브 코딩에서 바이브 운영으로
 
-AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 2부
 
-교사는 AI로 문제를 만듭니다. 학생은 AI로 문제를 풉니다. 교사는 다시 AI로 답안을 확인합니다.
+  AI 이후의 인간 · 4부 — 코드를 읽지 않는 개발자와 국가의 디버거
 
-조금 극단적으로 묘사했지만, AI가 교육에 들어온 모습을 압축하면 이런 장면을 떠올릴 수 있습니다. 그렇다고 누군가를 비난하고 싶지는 않습니다. 교사는 출제와 채점에 드는 시간을 절약하고, 학생은 점수라는 목표를 효율적으로 얻습니다. 모두가 자기 자리에서 합리적인 도구를 사용한 것입니다.
 
-그런데 이상합니다.
+나는 개발자다. 하지만 현재 만드는 게임 ‘Polytris’에서는 코드를 거의 보지 않고 작업을 진행하고 있다.
 
-문제도 만들어지고 정답도 제출되고 점수도 나오는데, 정작 누가 무엇을 배웠는지는 알기 어려워집니다.
+처음부터 그런 방식으로 게임을 만들 계획이었던 것은 아니다. 나름의 실험이었다. 다른 프로젝트에서는 직접 설계하고 수기로 작성한 코드가 많다. 반면 Polytris에서는 기반이 되는 내 코드 없이 AI가 어떤 결과물을 만들 수 있는지 확인하고 싶었다.
 
-AI가 교육을 망가뜨렸다기보다, 기존 교육의 목표와 평가 방식에 숨어 있던 모순이 AI를 통...
+그래서 방향성과 규칙을 설명하고, 구현은 AI에 맡겼다. 코드를 읽으며 수정하기보다 실제 게임을 실행해 보고, 어떤 상황에서 무엇이 잘못되었는지 설명했다.
+
+결과는 예상보다 흥미로웠다.
+
+코드를 읽지 않아도 게임이 꽤 굴러갔다....
     </summary>
   
 
@@ -164,14 +178,14 @@ AI가 교육을 망가뜨렸다기보다, 기존 교육의 목표와 평가 방�
 
   
   <entry>
-    <title>AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 1부</title>
-    <link href="https://is2you2.github.io/posts/education-make-haughtiness/" rel="alternate" type="text/html" title="AI 시대, 우리는 어떤 사람을 길러내야 하는가 - 1부" />
-    <published>2026-11-17T07:24:00+09:00</published>
+    <title>AI가 모든 것을 검토한다면 인간은 무엇을 결정하는가?</title>
+    <link href="https://is2you2.github.io/posts/review-bottleneck-and-human-judgment/" rel="alternate" type="text/html" title="AI가 모든 것을 검토한다면 인간은 무엇을 결정하는가?" />
+    <published>2026-11-22T23:17:00+09:00</published>
   
-    <updated>2026-11-17T07:24:00+09:00</updated>
+    <updated>2026-11-22T23:17:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/education-make-haughtiness/</id>
-    <content src="https://is2you2.github.io/posts/education-make-haughtiness/" />
+    <id>https://is2you2.github.io/posts/review-bottleneck-and-human-judgment/</id>
+    <content src="https://is2you2.github.io/posts/review-bottleneck-and-human-judgment/" />
     <author>
       <name>최성수</name>
     </author>
@@ -192,17 +206,23 @@ AI가 교육을 망가뜨렸다기보다, 기존 교육의 목표와 평가 방�
 
 
 
-      교육은 왜 오만한 사람을 만드는가
+      AI가 모든 것을 검토한다면 인간은 무엇을 결정하는가?
 
-AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 1부
 
-어린아이들은 질문을 많이 합니다. 한 가지 대답을 들으면 다시 묻습니다. “왜?” 그리고 그 대답에 또 “왜?”를 붙입니다. 어른에게는 끝없이 이어지는 귀찮은 문답일 수 있지만, 아이에게는 세상이 얼마나 복잡하고 넓은지 알아가는 과정이기도 합니다.
+  AI 이후의 인간 · 3부 — 집중력의 한계와 최종 결정권의 역설
 
-그런데 우리는 아이들이 질문을 멈추는 모습을 흔히 성장이라고 받아들입니다. 정말 그럴까요?
 
-저는 여기서 교육에 관한 조금 불편한 가설을 세워보고 싶습니다. 우리는 아이에게 지식을 가르치는 동안, 질문할 필요가 없다는 태도까지 가르치고 있는 것은 아닐까요? 나아가 그러한 교육이 어떤 사람에게는 오만함을, 또 다른 사람에게는 열등감을 만드는 것은 아닐까요?
+AI를 적극적으로 사용해야 한다는 압박은 앞으로 강해질 수 있다. 개발자는 더 빠르게 개발하고, 창작자는 더 많은 결과물을 만들고, 정책 담당자는 더 많은 대안을 검토하라는 요구를 받을 것이다.
 
-질문하...
+그런데 여기에 아주 단순한 문제가 있다.
+
+AI의 처리량은 늘릴 수 있지만, 인간이 집중할 수 있는 시간은 그에 비례해서 늘어나지 않는다.
+
+나는 이 차이가 AI 시대의 중요한 병목이 될 수 있다고 생각한다.
+
+인간은 여러 일을 하는 것처럼 보이지만
+
+컴퓨터에서는 여러 작업을 동시에 실행하는 구조를 설계할 수 있다. AI 서비스 역시 많은 요청을 나누어 처리하고, 여러 작업을 병...
     </summary>
   
 
@@ -210,14 +230,14 @@ AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 1부
 
   
   <entry>
-    <title>말할 수 없는 이야기</title>
-    <link href="https://is2you2.github.io/posts/expression-culture/" rel="alternate" type="text/html" title="말할 수 없는 이야기" />
-    <published>2026-11-17T00:28:00+09:00</published>
+    <title>AI를 사용하지 않은 책임은 누가 지는가?</title>
+    <link href="https://is2you2.github.io/posts/responsibility-for-not-using-ai/" rel="alternate" type="text/html" title="AI를 사용하지 않은 책임은 누가 지는가?" />
+    <published>2026-11-22T23:16:00+09:00</published>
   
-    <updated>2026-11-17T00:28:00+09:00</updated>
+    <updated>2026-11-22T23:16:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/expression-culture/</id>
-    <content src="https://is2you2.github.io/posts/expression-culture/" />
+    <id>https://is2you2.github.io/posts/responsibility-for-not-using-ai/</id>
+    <content src="https://is2you2.github.io/posts/responsibility-for-not-using-ai/" />
     <author>
       <name>최성수</name>
     </author>
@@ -238,19 +258,21 @@ AI 시대, 우리는 어떤 사람을 길러내야 하는가 — 1부
 
 
 
-      불편한 진실을 말하지 못하는 사회
+      AI를 사용하지 않은 책임은 누가 지는가?
 
-사람들은 때때로 대한민국의 대응이 지나치게 무르다고 이야기한다. 분명 화를 낼 만한 일이 벌어졌는데도, 정작 책임을 묻는 자리에서는 말이 부드러워지고 일이 흐지부지 끝난다는 것이다.
 
-얼마 전 스타벅스의 이른바 ‘탱크데이’ 논란을 계기로 과거의 유사한 사례들까지 다시 거론되는 모습을 보며, 나는 조금 다른 생각을 했다.
+  AI 이후의 인간 · 2부 — 기술에 적응할 의무와 행정의 설명 책임
 
-우리는 정말 화를 내지 않는 사회일까? 아니면 화를 내는 자리와 방식을 엄격하게 구분하는 사회일까?
 
-화를 내지 않는 것이 아니라, 드러내지 않는 것
+새로운 기술이 등장하면 제도가 늦게 따라온다. 익숙한 광경이다. 정책을 검토하고 이해관계자의 의견을 듣고 법률을 정비하는 데에는 시간이 필요하다. 그 자체를 비난할 생각은 없다.
 
-우리는 사적인 자리에서 얼마든지 분노한다. 친구와 이야기를 나누고, 온라인에 댓글을 남기고, 익명 커뮤니티에서 날 선 말을 쏟아낸다. 그런데 막상 공식적인 자리에 서면 태도가 달라진다.
+다만 AI가 등장한 지금, 과거와 똑같이 ‘새로운 기술이라 충분히 검토할 시간이 없었다’고 설명하는 것이 언제까지 설득력을 가질까?
 
-“굳이 그렇...
+이제는 기술을 검토하는 데에도 AI를 활용할 수 있기 때문이다.
+
+물론 AI가 올바른 정책을 자동으로 작성한다는 뜻은 아니다. 오히려 잘못된 결론을 제시할 위험이 있기 때문에 사람이 검증해야 한다. 그런데 이 말은 동시에 이상한 질문을 불러온다.
+
+사람은 AI의 잘못된 답...
     </summary>
   
 
