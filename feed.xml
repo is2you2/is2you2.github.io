@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-23T00:10:40+09:00</updated>
+  <updated>2026-11-24T08:32:48+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -17,6 +17,106 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>무관심은 어떻게 가장 큰 적이 되는가?</title>
+    <link href="https://is2you2.github.io/posts/why-indifference-is-the-greatest-enemy/" rel="alternate" type="text/html" title="무관심은 어떻게 가장 큰 적이 되는가?" />
+    <published>2026-11-24T08:23:00+09:00</published>
+  
+    <updated>2026-11-24T08:23:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/why-indifference-is-the-greatest-enemy/</id>
+    <content src="https://is2you2.github.io/posts/why-indifference-is-the-greatest-enemy/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      무관심은 어떻게 가장 큰 적이 되는가?
+
+관심의 경제학과 홍보의 본질 — 2부
+
+앞선 글에서는 유명인이 오래 활동할 수 있는 이유를 개인의 능력이나 호감도 바깥에서 생각해 보았다. 주변에 분배하는 영향력, 함께 일하는 사람들의 이해관계, 시청자가 느끼는 익숙함도 생존의 조건이 될 수 있다는 이야기였다.
+
+그 과정에서 한 가지 질문이 남았다.
+
+누군가를 싫어하는 것과, 아예 관심을 가지지 않는 것 중 어느 쪽이 더 치명적일까?
+
+관심을 기반으로 활동하는 사람에게는 의외로 후자가 더 큰 문제일 수 있다.
+
+욕하러 들어오는 사람도 시청자다
+
+유튜브를 보다 보면 어떤 영상에는 칭찬보다 비난이 훨씬 많다. 그런데도 조회수는 높고, 댓글은 끊임없이 달린다.
+
+영상을 싫어해서 찾아왔든, 문제를 지적하기 위해 들어왔...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>유명인은 왜 사라지지 않는가?</title>
+    <link href="https://is2you2.github.io/posts/why-celebrities-dont-disappear/" rel="alternate" type="text/html" title="유명인은 왜 사라지지 않는가?" />
+    <published>2026-11-24T08:22:00+09:00</published>
+  
+    <updated>2026-11-24T08:22:00+09:00</updated>
+  
+    <id>https://is2you2.github.io/posts/why-celebrities-dont-disappear/</id>
+    <content src="https://is2you2.github.io/posts/why-celebrities-dont-disappear/" />
+    <author>
+      <name>최성수</name>
+    </author>
+
+  
+    
+    <category term="일상" />
+    
+    <category term="중얼중얼" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      유명인은 왜 사라지지 않는가?
+
+인기를 넘어선 영향력의 생존 구조 — 1부
+
+어떤 유명인에 대한 여론이 나빠졌다는 이야기를 듣고도, 얼마 지나지 않아 방송에서 그 사람을 다시 마주할 때가 있다. 그러면 이런 생각이 든다.
+
+“이렇게 비판받는데도 왜 계속 출연하는 걸까?”
+
+백종원을 둘러싼 여론을 보다가 문득 비슷한 의문이 생겼다. 처음에는 개인의 인지도나 방송 능력에 대한 이야기라고 생각했지만, 조금 다르게 접근해 볼 수도 있겠다는 생각이 들었다.
+
+어쩌면 유명인은 혼자서 유명한 사람이 아니라, 주변의 여러 사람에게 자신의 영향력을 나누어 주는 사람이기 때문에 쉽게 사라지지 않는 것 아닐까?
+
+물론 이것은 방송사 내부의 의사결정을 확인한 결론이 아니다. 특정 방송인이 어떤 이유로 섭외되었는지, 제작진이...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -171,108 +271,6 @@
 결과는 예상보다 흥미로웠다.
 
 코드를 읽지 않아도 게임이 꽤 굴러갔다....
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AI가 모든 것을 검토한다면 인간은 무엇을 결정하는가?</title>
-    <link href="https://is2you2.github.io/posts/review-bottleneck-and-human-judgment/" rel="alternate" type="text/html" title="AI가 모든 것을 검토한다면 인간은 무엇을 결정하는가?" />
-    <published>2026-11-22T23:17:00+09:00</published>
-  
-    <updated>2026-11-22T23:17:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/review-bottleneck-and-human-judgment/</id>
-    <content src="https://is2you2.github.io/posts/review-bottleneck-and-human-judgment/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI가 모든 것을 검토한다면 인간은 무엇을 결정하는가?
-
-
-  AI 이후의 인간 · 3부 — 집중력의 한계와 최종 결정권의 역설
-
-
-AI를 적극적으로 사용해야 한다는 압박은 앞으로 강해질 수 있다. 개발자는 더 빠르게 개발하고, 창작자는 더 많은 결과물을 만들고, 정책 담당자는 더 많은 대안을 검토하라는 요구를 받을 것이다.
-
-그런데 여기에 아주 단순한 문제가 있다.
-
-AI의 처리량은 늘릴 수 있지만, 인간이 집중할 수 있는 시간은 그에 비례해서 늘어나지 않는다.
-
-나는 이 차이가 AI 시대의 중요한 병목이 될 수 있다고 생각한다.
-
-인간은 여러 일을 하는 것처럼 보이지만
-
-컴퓨터에서는 여러 작업을 동시에 실행하는 구조를 설계할 수 있다. AI 서비스 역시 많은 요청을 나누어 처리하고, 여러 작업을 병...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>AI를 사용하지 않은 책임은 누가 지는가?</title>
-    <link href="https://is2you2.github.io/posts/responsibility-for-not-using-ai/" rel="alternate" type="text/html" title="AI를 사용하지 않은 책임은 누가 지는가?" />
-    <published>2026-11-22T23:16:00+09:00</published>
-  
-    <updated>2026-11-22T23:16:00+09:00</updated>
-  
-    <id>https://is2you2.github.io/posts/responsibility-for-not-using-ai/</id>
-    <content src="https://is2you2.github.io/posts/responsibility-for-not-using-ai/" />
-    <author>
-      <name>최성수</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-    <category term="중얼중얼" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI를 사용하지 않은 책임은 누가 지는가?
-
-
-  AI 이후의 인간 · 2부 — 기술에 적응할 의무와 행정의 설명 책임
-
-
-새로운 기술이 등장하면 제도가 늦게 따라온다. 익숙한 광경이다. 정책을 검토하고 이해관계자의 의견을 듣고 법률을 정비하는 데에는 시간이 필요하다. 그 자체를 비난할 생각은 없다.
-
-다만 AI가 등장한 지금, 과거와 똑같이 ‘새로운 기술이라 충분히 검토할 시간이 없었다’고 설명하는 것이 언제까지 설득력을 가질까?
-
-이제는 기술을 검토하는 데에도 AI를 활용할 수 있기 때문이다.
-
-물론 AI가 올바른 정책을 자동으로 작성한다는 뜻은 아니다. 오히려 잘못된 결론을 제시할 위험이 있기 때문에 사람이 검증해야 한다. 그런데 이 말은 동시에 이상한 질문을 불러온다.
-
-사람은 AI의 잘못된 답...
     </summary>
   
 
