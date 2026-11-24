@@ -10,12 +10,14 @@
 | @types/three@0.185.4 | MIT | [Link](https://github.com/DefinitelyTyped/DefinitelyTyped) |
 | @types/webxr@0.5.24 | MIT | [Link](https://github.com/DefinitelyTyped/DefinitelyTyped) |
 | @zip.js/zip.js@2.8.61 | BSD-3-Clause | [Link](https://github.com/gildas-lormeau/zip.js) |
-| ember@1.8.18 | UNLICENSED | N/A |
+| ember@1.9.0 | UNLICENSED | N/A |
 | ember_server@1.8.6 | UNKNOWN | N/A |
 | fflate@0.8.3 | MIT | [Link](https://github.com/101arrowz/fflate) |
 | gif.js@0.2.0 | MIT | [Link](https://github.com/jnordberg/gif.js) |
+| gifuct-js@2.1.2 | MIT | [Link](https://github.com/matt-way/gifuct-js) |
 | highlight.js@11.12.0 | BSD-3-Clause | [Link](https://github.com/highlightjs/highlight.js) |
 | html-to-image@1.11.13 | MIT | [Link](https://github.com/bubkoo/html-to-image) |
+| js-binary-schema-parser@2.0.3 | MIT | [Link](https://github.com/matt-way/jsBinarySchemaParser) |
 | js-sha256@1.0.0 | MIT | [Link](https://github.com/emn178/js-sha256) |
 | marked@18.0.11 | MIT | [Link](https://github.com/markedjs/marked) |
 | meshoptimizer@1.1.1 | MIT | [Link](https://github.com/zeux/meshoptimizer) |

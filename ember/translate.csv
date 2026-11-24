@@ -619,6 +619,50 @@ TagPost,엮은 글 작성,Rich Post Editor
 TitleTurnMaker,게임 룰 메이커,Game Rule Maker
 TagTurnMaker,규칙 흐름 생성,Rule Flow Creation
 DescTurnMaker,카드와 단계를 조립해 규칙을 설계하고 핫시트 시뮬레이터로 직접 플레이하며 검증합니다.,Design rules by assembling cards and stages then verify them through hands-on play using the hot-seat simulator.
+TitleVideoEditor,비디오 편집기,Video Editor
+TagVideoEditor,미디어 타임라인 편집기,Media timeline editor
+DescVideoEditor,이미지와 영상 및 오디오를 트랙에 배치하고 컷과 Razor 도구로 편집하세요.,Arrange images videos and audio on tracks then edit with cuts and the Razor tool.
+## VideoEditor
+Untitled,새 비디오 프로젝트,Untitled video project
+ShortName,영상,Clip
+ProjectName,프로젝트 이름,Project name
+ImportHint,좌클릭으로 파일을 불러오고 우클릭으로 클립보드 미디어를 붙여넣습니다.,Left click to import files and right click to paste clipboard media.
+Media,미디어,Media
+Import,불러오기,Import
+Paste,붙여넣기,Paste
+AvailableAttachments,사용 가능한 첨부파일,Available attachments
+AddToTrack,선택된 트랙에 추가,Add to selected track
+RemoveMedia,미디어 제거,Remove media
+EmptyMedia,미디어를 불러오거나 첨부파일을 선택하세요.,Import media or choose an attachment.
+Play,재생,Play
+Pause,일시정지,Pause
+Width,가로,Width
+Height,세로,Height
+FPS,FPS,FPS
+Timeline,타임라인,Timeline
+VideoTrack,비디오 트랙,Video track
+AudioTrack,오디오 트랙,Audio track
+Razor,Razor 자르기,Razor
+DuplicateClip,클립 복제,Duplicate clip
+DeleteClip,클립 삭제,Delete clip
+Zoom,확대,Zoom
+TrackName,트랙 이름,Track name
+Video,비디오,Video
+Audio,오디오,Audio
+RemoveTrack,트랙 제거,Remove track
+MissingMedia,누락된 미디어,Missing media
+PackagingProject,비디오 프로젝트를 묶는 중입니다.,Packaging video project.
+ExportGif,GIF 내보내기,Export GIF
+PreparingGif,GIF 생성 중...,Creating GIF...
+GifExportComplete,GIF 내보내기가 완료되었습니다.,GIF export complete.
+NoTimelineForGif,GIF로 내보낼 클립을 타임라인에 배치하세요.,Place clips on the timeline before exporting a GIF.
+ResizeMediaPanel,미디어 패널 크기 조정,Resize media panel
+ResizeTimeline,타임라인 크기 조정,Resize timeline
+ScrubPlayhead,드래그하여 재생 위치 이동,Drag to seek
+UnsupportedMedia,지원하지 않는 미디어 형식입니다.,Unsupported media type.
+InvalidMediaLink,올바른 미디어 URL을 입력하세요.,Enter a valid media URL.
+HttpMediaOnly,HTTP 또는 HTTPS 미디어 링크만 지원합니다.,Only HTTP or HTTPS media links are supported.
+UnsupportedLink,지원되는 미디어 파일을 가리키는 링크가 아닙니다.,The link does not point to a supported media file.
 ## Feed
 ModeRelated,추천 피드,Recommended
 ModeTimeline,팔로잉 피드,Following
