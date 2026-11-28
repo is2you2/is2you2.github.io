@@ -4,7 +4,7 @@
   <id>https://is2you2.github.io/</id>
   <title>최성수</title>
   <subtitle>오픈소스에 기대어 이것 저것 해봅니다</subtitle>
-  <updated>2026-11-27T06:19:23+09:00</updated>
+  <updated>2026-11-28T23:14:20+09:00</updated>
   <author>
     <name>최성수</name>
     <uri>https://is2you2.github.io/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>불편함이 사라진 세상에서 우리는 무엇을 할까?</title>
-    <link href="https://is2you2.github.io/posts/self-discovery-after-work/" rel="alternate" type="text/html" title="불편함이 사라진 세상에서 우리는 무엇을 할까?" />
-    <published>2026-11-27T06:15:00+09:00</published>
+    <title>AI는 무엇을 아름답다고 느낄까? (3부) — 로봇의 첫 번째 예술 작품과 국가</title>
+    <link href="https://is2you2.github.io/posts/robot-art-and-society/" rel="alternate" type="text/html" title="AI는 무엇을 아름답다고 느낄까? (3부) — 로봇의 첫 번째 예술 작품과 국가" />
+    <published>2026-11-28T23:10:00+09:00</published>
   
-    <updated>2026-11-27T06:15:00+09:00</updated>
+    <updated>2026-11-28T23:10:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/self-discovery-after-work/</id>
-    <content src="https://is2you2.github.io/posts/self-discovery-after-work/" />
+    <id>https://is2you2.github.io/posts/robot-art-and-society/</id>
+    <content src="https://is2you2.github.io/posts/robot-art-and-society/" />
     <author>
       <name>최성수</name>
     </author>
@@ -48,17 +48,19 @@
 
 
 
-      불편함이 사라진 세상에서 우리는 무엇을 할까?
+      AI는 무엇을 아름답다고 느낄까? (3부) — 로봇의 첫 번째 예술 작품과 국가
 
-인간은 하고 싶지 않은 행동을 줄이기 위해 하고 싶은 행동을 적극적으로 찾아낸다.
+로봇이 독자적인 아름다움을 발견할 수 있다고 가정해 보자.
 
-이렇게 인간의 행동을 해석하면 AI를 통한 노동의 해방은 단순히 아무것도 하지 않아도 되는 환경을 의미하지 않는다. 생존을 위해 원하지 않는 노동에 사용하던 시간과 노력을 자신이 원하는 곳에 사용할 수 있게 된다는 뜻에 가깝다.
+그 아름다움은 인간으로부터 계승된 것일 수도 있고, 로봇의 감각기관과 정보 처리 구조에서 비롯된 것일 수도 있다. 앞선 글에서는 인간이 이해할 수는 있지만 공감하지 못하는 아름다움이 존재할 가능성을 이야기했다.
 
-그런데 이 과정에 한 가지 재미있는 역설이 존재한다. 하기 싫은 행동이 우리가 하고 싶은 행동을 발견하게 만든 계기였다면, AI가 하기 싫은 행동을 먼저 해결해 주는 것이 자아 발현의 기회까지 제거하는 것은 아닐까?
+그런데 그 아름다움을 다른 로봇도 느낄 수 있다면 어떤 일이 일어날까?
 
-자아 발현에 있어 의도치 않은 사다리 걷어차기
+로봇에게 감탄을 남기는 작품
 
-반복적인 업무가 싫어서 프로그래밍을 배우기 시작한 사람이 있다고 생각해 보자. 처...
+로봇은 목적에 따라 서로 다른 센서와 연산 구조를 가지므로 모든 로봇이 동일한 미적 공감대를 형성하기는 어려울 것이다.
+
+하지만 보편적으로 배포되는 안드로이드 로봇들이라면 이야기가 조금 다르다. 유사한 감각기관과 하드웨어, 학습된 정보를 공유하는 로봇...
     </summary>
   
 
@@ -66,14 +68,14 @@
 
   
   <entry>
-    <title>인간은 적극적으로 게으른 동물이다</title>
-    <link href="https://is2you2.github.io/posts/active-laziness/" rel="alternate" type="text/html" title="인간은 적극적으로 게으른 동물이다" />
-    <published>2026-11-27T06:14:00+09:00</published>
+    <title>AI는 무엇을 아름답다고 느낄까? (2부) — 아름다움은 어디에 존재하는가?</title>
+    <link href="https://is2you2.github.io/posts/beauty-in-the-observer/" rel="alternate" type="text/html" title="AI는 무엇을 아름답다고 느낄까? (2부) — 아름다움은 어디에 존재하는가?" />
+    <published>2026-11-28T23:09:00+09:00</published>
   
-    <updated>2026-11-27T06:14:00+09:00</updated>
+    <updated>2026-11-28T23:09:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/active-laziness/</id>
-    <content src="https://is2you2.github.io/posts/active-laziness/" />
+    <id>https://is2you2.github.io/posts/beauty-in-the-observer/</id>
+    <content src="https://is2you2.github.io/posts/beauty-in-the-observer/" />
     <author>
       <name>최성수</name>
     </author>
@@ -94,18 +96,17 @@
 
 
 
-      인간은 적극적으로 게으른 동물이다
+      AI는 무엇을 아름답다고 느낄까? (2부) — 아름다움은 어디에 존재하는가?
 
-인간의 문명 발전사를 바라보다 보면 재미있는 특징이 하나 보인다. 인간은 조금이라도 편리한 방법을 발견하면 그것을 적극적으로 활용한다. 그 방법이 새로운 문제를 발생시키면 다시 문제를 해결하기 위해 노력한다.
+나는 아름다움이 대상에 내재되어 있다고 생각하지 않는다. 오히려 아름다움은 대상을 바라보는 관측자에게 있다고 생각한다.
 
-플라스틱은 저렴하고 편리한 소재지만 대량 사용과 폐기 과정에서 환경 문제가 발생한다. 에어컨은 실내를 쾌적하게 만들지만 전력을 소비하고 외부로 열을 방출한다. 그렇다고 인간은 편리함을 쉽게 포기하지 않는다. 기존의 편리함을 유지하면서 부작용을 줄일 방법을 다시 찾아 나선다.
+앞선 글에서는 감상을 특정한 형태의 정보 처리로 바라보았다. 그렇다면 이번에는 그 정보 처리 과정에서 왜 특정 대상이 아름답게 느껴지는지를 생각해 보고 싶다.
 
-이런 모습을 보며 인간을 다음과 같이 표현해 보고 싶어졌다.
+아름다움은 관측자의 특성을 드러낸다
 
-인간은 보다 적극적으로 게으르게 목표를 달성하기 위해 적극적으로 방법을 찾는 동물이다.
+내게 아름다움의 최고점을 떠올리라고 한다면 아마 여성의 모습이 그 자리에 있을 것이다.
 
-문명의 발전은 일종의 반복문이다
-
+강아지를 보며 아름다움을 느끼는 것과 여성을 보며 아름다움을 느끼는 것은 서로 다른 종류의 경험이기도 하다. 그 차이에는 조형적인 특성뿐 아니라 생물학적인 성향, 정서, 경험, 관계에 대한 기대 등이 함께 작용할 것이다.
 ...
     </summary>
   
@@ -114,14 +115,14 @@
 
   
   <entry>
-    <title>모든 생명의 목소리를 들을 수 있게 된다면</title>
-    <link href="https://is2you2.github.io/posts/listening-to-life/" rel="alternate" type="text/html" title="모든 생명의 목소리를 들을 수 있게 된다면" />
-    <published>2026-11-27T06:13:00+09:00</published>
+    <title>AI는 무엇을 아름답다고 느낄까? (1부) — AI는 감상하는가?</title>
+    <link href="https://is2you2.github.io/posts/ai-appreciation/" rel="alternate" type="text/html" title="AI는 무엇을 아름답다고 느낄까? (1부) — AI는 감상하는가?" />
+    <published>2026-11-28T23:08:00+09:00</published>
   
-    <updated>2026-11-27T06:13:00+09:00</updated>
+    <updated>2026-11-28T23:08:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/listening-to-life/</id>
-    <content src="https://is2you2.github.io/posts/listening-to-life/" />
+    <id>https://is2you2.github.io/posts/ai-appreciation/</id>
+    <content src="https://is2you2.github.io/posts/ai-appreciation/" />
     <author>
       <name>최성수</name>
     </author>
@@ -142,19 +143,19 @@
 
 
 
-      모든 생명의 목소리를 들을 수 있게 된다면
+      AI는 무엇을 아름답다고 느낄까? (1부) — AI는 감상하는가?
 
-AI가 다른 생물의 의사를 어느 정도 해석하고 전달할 수 있는 시대가 온다고 가정해 보자. 동물과 소통할 수 있다는 것은 무척 즐거운 상상이다. 하지만 그 기술이 실현되었을 때 인간이 마주할 질문은 생각보다 불편할지도 모른다.
+AI는 감상하는가?
 
-우리는 생명의 목소리를 들을 수 있게 되었을 때 그 목소리를 어디까지 존중할 것인가?
+분석하는가를 묻는 것이 아니다. 슬픈 이야기를 읽고 슬프다는 반응을 보이는 것이 학습된 감정 표현의 방출인지, 아니면 진득하게 무언가를 느끼는 과정인지를 묻는 것이다.
 
-이 글은 종간 소통과 고도화된 생명공학이 가능해졌다는 가상의 전제에서 출발하는 사고 실험이다.
+AI는 소설의 줄거리를 이해하고, 등장인물의 감정을 설명하며, 작품에 담긴 상징을 찾아낼 수 있다. 때로는 인간이 미처 발견하지 못한 연결점까지 제시한다. 그러나 그것을 두고 AI가 작품을 감상했다고 말할 수 있을까?
 
-소통할 수 있다는 것과 윤리적 가치는 같은가
+이 질문에 답하기 위해 오히려 인간이 감상이라고 부르는 행위부터 들여다보고 싶다.
 
-동물의 고통과 욕구가 인간의 언어로 전달된다면, 인간은 지금보다 훨씬 직접적으로 동물의 처지를 인식할 수 있을 것이다. 사육 환경이나 육식에 대한 윤리적 고민도 더욱 구체적으로 이루어질 수 있다.
+언덕에 앉아 노을을 바라보는 로봇
 
-그러나 ...
+어느 언덕에 사람이 앉아 노을을 바라보고 있다고 가정해 보자. 특별한 움직임도 없고, 무엇인가를 기록하는 것도 ...
     </summary>
   
 
@@ -162,14 +163,14 @@ AI가 다른 생물의 의사를 어느 정도 해석하고 전달할 수 있는
 
   
   <entry>
-    <title>AI는 인간과 자연 사이의 번역가가 될 수 있을까?</title>
-    <link href="https://is2you2.github.io/posts/ai-interspecies-communication/" rel="alternate" type="text/html" title="AI는 인간과 자연 사이의 번역가가 될 수 있을까?" />
-    <published>2026-11-27T06:12:00+09:00</published>
+    <title>무단 학습이 사라져도 창작자의 희소성은 돌아오지 않을 수 있다</title>
+    <link href="https://is2you2.github.io/posts/ai-learning-and-scarcity/" rel="alternate" type="text/html" title="무단 학습이 사라져도 창작자의 희소성은 돌아오지 않을 수 있다" />
+    <published>2026-11-28T21:04:00+09:00</published>
   
-    <updated>2026-11-27T06:12:00+09:00</updated>
+    <updated>2026-11-28T21:04:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/ai-interspecies-communication/</id>
-    <content src="https://is2you2.github.io/posts/ai-interspecies-communication/" />
+    <id>https://is2you2.github.io/posts/ai-learning-and-scarcity/</id>
+    <content src="https://is2you2.github.io/posts/ai-learning-and-scarcity/" />
     <author>
       <name>최성수</name>
     </author>
@@ -190,17 +191,23 @@ AI가 다른 생물의 의사를 어느 정도 해석하고 전달할 수 있는
 
 
 
-      AI는 인간과 자연 사이의 번역가가 될 수 있을까?
+      무단 학습이 사라져도 창작자의 희소성은 돌아오지 않을 수 있다
 
-AI가 인간과 대화하는 것을 넘어 물리적인 몸을 갖게 된다면, 그 몸은 인간에게만 의미가 있는 것일까? 문득 AI가 동물을 돌보거나 야생동물과 함께 생활하는 모습을 상상해 보았다.
 
-사람의 모습을 닮은 로봇이라도 개나 고양이에게 사람처럼 느껴지지는 않을 것이다. 인간은 주로 눈으로 상대의 모습을 판단하지만, 개는 냄새에 민감하고 여러 동물은 움직임과 소리, 체온 등 우리가 상대적으로 덜 의식하는 정보를 활용한다. 인간을 정교하게 모방한 외형이 다른 생명에게도 인간을 의미한다는 보장은 없다.
+  AI의 정상적인 사용이 만들어 내는 역설
 
-그렇다면 동물은 로봇을 신뢰할 수 있을까?
 
-인간으로 인식할 필요는 없다
+AI가 창작자의 작품을 무단으로 학습했다는 주장은 오늘날 AI에 대한 반감의 주요 원인 중 하나다.
 
-생각해 보면 동물은 자신과 다른 종에 속한 존재와도 관계를 형성한다. 개가 인간과 생...
+그렇다면 해당 문제가 완전히 해결된 세상을 상상해 보자. 모든 AI 업체가 정당한 이용 권한을 확보한 데이터만으로 AI를 학습시키고, 데이터 제공자에게 합당한 대가까지 지급했다고 가정하는 것이다.
+
+이러한 세상에서는 창작자가 느끼는 경제적 위협이나 자신의 재능에 관한 허탈감도 함께 사라질까?
+
+어쩌면 두 문제는 우리가 생각했던 것만큼 긴밀하게 연결되어 있지 않을지도 모른다.
+
+정당한 데이터로만 학습한 AI
+
+미야자키 하야오 감독의 작품을 떠올리게 하는 화풍의 프로필 이미지가 AI를 통해 유...
     </summary>
   
 
@@ -208,14 +215,14 @@ AI가 인간과 대화하는 것을 넘어 물리적인 몸을 갖게 된다면,
 
   
   <entry>
-    <title>굶는 것보다 욕먹는 것이 낫다</title>
-    <link href="https://is2you2.github.io/posts/survival-and-social-cost/" rel="alternate" type="text/html" title="굶는 것보다 욕먹는 것이 낫다" />
-    <published>2026-11-27T03:33:00+09:00</published>
+    <title>AI에 대한 거부감은 왜 오래가지 않을 수 있는가</title>
+    <link href="https://is2you2.github.io/posts/ai-resistance-and-solidarity/" rel="alternate" type="text/html" title="AI에 대한 거부감은 왜 오래가지 않을 수 있는가" />
+    <published>2026-11-28T21:03:00+09:00</published>
   
-    <updated>2026-11-27T03:33:00+09:00</updated>
+    <updated>2026-11-28T21:03:00+09:00</updated>
   
-    <id>https://is2you2.github.io/posts/survival-and-social-cost/</id>
-    <content src="https://is2you2.github.io/posts/survival-and-social-cost/" />
+    <id>https://is2you2.github.io/posts/ai-resistance-and-solidarity/</id>
+    <content src="https://is2you2.github.io/posts/ai-resistance-and-solidarity/" />
     <author>
       <name>최성수</name>
     </author>
@@ -236,23 +243,21 @@ AI가 인간과 대화하는 것을 넘어 물리적인 몸을 갖게 된다면,
 
 
 
-      굶는 것보다 욕먹는 것이 낫다
+      AI에 대한 거부감은 왜 오래가지 않을 수 있는가
 
-AI와 재능의 희소성 — 2부
 
-지난 글에서는 AI를 활용한 재능마저 AI에 의해 역설계될 수 있다는 이야기를 했다. 누군가의 독특한 표현 방식이 발견되고, 그것이 재현되고, 유행을 거쳐 다시 진부한 표현이 되기까지의 시간이 짧아질 수 있다는 이야기였다.
+  피해자의 보편화와 선택적 연대의 한계
 
-이번에는 그 과정에서 조금 다른 질문을 해보고 싶다.
 
-우리는 대체 왜 그렇게까지 생산해야 하는가?
+AI에 대한 거부감은 생각보다 오래가지 않을지도 모른다.
 
-욕먹는 것이 굶는 것보다 낫다
+그것은 사람들이 AI의 발전을 긍정적으로 바라보게 되거나, AI가 만들어 낸 결과물에 익숙해지기 때문만은 아니다. 오히려 AI로 인해 피해를 입은 사람들 스스로가 AI를 필요로 하게 되기 때문일 수 있다.
 
-예술의 일부 분야는 원래부터 비교적 적은 초기 자본으로 진입할 수 있는 영역이었다. 자신이 가진 장비와 기술을 이용해 작품을 만들고, 인터넷을 통해 공개하고, 그것이 누군가에게 소비되기를 기대할 수 있었다.
+지금까지 AI에 관한 논쟁에서는 인간의 노력과 재능, 창작물의 가치, 노동자의 생존권 등이 주요 명분으로 등장했다. 충분히 존중받아야 하는 문제들이다. 그러나 AI의 영향이 일부 직군을 넘어 사회 전반으로 확대된다면, 이러한 명분이 어떤 범위까지 적용되는가에 관한 질문 역시 피하기 어려워질 것이다.
 
-AI의 등장은 이러한 진입 비용을 더욱 낮추었다.
+피해자가 AI의 사용자가 되는 사회
 
-예를 들어 월 5만 원 안...
+개발자...
     </summary>
   
 
